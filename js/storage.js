@@ -12,7 +12,9 @@ const Storage = {
     // User settings
     settings: {
         darkMode: false,
-        showPronunciation: true
+        showPronunciation: true,
+        displayMode: 'paging', // 'all' or 'paging'
+        itemsPerPage: 20
     },
 
     // Learning statistics

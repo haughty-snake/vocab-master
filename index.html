@@ -224,7 +224,7 @@
                         <line x1="18" y1="6" x2="6" y2="18"></line>
                         <line x1="6" y1="6" x2="18" y2="18"></line>
                     </svg>
-                    모르겠어요
+                    몰라요
                 </button>
                 <button class="action-btn next" onclick="nextCard()" id="next-btn">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -373,6 +373,26 @@
                         <input type="checkbox" id="tts-toggle" checked onchange="toggleTTS()">
                         <span class="slider"></span>
                     </label>
+                </div>
+                <hr>
+                <div class="setting-item">
+                    <h4>단어 목록 표시</h4>
+                </div>
+                <div class="setting-item">
+                    <label>표시 방식</label>
+                    <select id="display-mode-select" class="select-input" onchange="changeDisplayMode(this.value)">
+                        <option value="paging">페이징</option>
+                        <option value="all">전체 표시</option>
+                    </select>
+                </div>
+                <div class="setting-item" id="items-per-page-setting">
+                    <label>페이지당 단어 수</label>
+                    <select id="items-per-page-select" class="select-input" onchange="changeItemsPerPage(this.value)">
+                        <option value="10">10개</option>
+                        <option value="20">20개</option>
+                        <option value="50">50개</option>
+                        <option value="100">100개</option>
+                    </select>
                 </div>
                 <hr>
                 <div class="setting-item">

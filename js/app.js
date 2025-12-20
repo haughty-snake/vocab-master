@@ -184,6 +184,8 @@ function selectCategory(categoryId) {
     saveCategory(categoryId);
     updateAllCategoryBadges();
     showWordList();
+    // 카테고리 선택 시 스크롤을 상단으로 이동
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // Progress rendering
@@ -259,18 +261,26 @@ function filterWords(statusFilter = 'all') {
 
 function renderWordList() {
     const container = document.getElementById('word-list');
-    const start = (currentPage - 1) * itemsPerPage;
-    const end = start + itemsPerPage;
-    const pageWords = filteredWords.slice(start, end);
+    const displayMode = Storage.settings.displayMode || 'paging';
 
-    if (pageWords.length === 0) {
+    let wordsToShow;
+    if (displayMode === 'all') {
+        wordsToShow = filteredWords;
+    } else {
+        const start = (currentPage - 1) * itemsPerPage;
+        const end = start + itemsPerPage;
+        wordsToShow = filteredWords.slice(start, end);
+    }
+
+    if (wordsToShow.length === 0) {
         container.innerHTML = '<div class="word-item"><em>표시할 단어가 없습니다</em></div>';
+        document.getElementById('pagination').innerHTML = '';
         return;
     }
 
     const showPronunciation = Storage.settings.showPronunciation;
 
-    container.innerHTML = pageWords.map(word => {
+    container.innerHTML = wordsToShow.map(word => {
         const status = Storage.getWordStatus(word.id);
         const example = word.examples && word.examples[0] ? word.examples[0].sentence : '';
 
@@ -307,6 +317,14 @@ function renderWordList() {
 
 function renderPagination() {
     const container = document.getElementById('pagination');
+    const displayMode = Storage.settings.displayMode || 'paging';
+
+    // 전체 표시 모드일 때는 페이지네이션 숨김
+    if (displayMode === 'all') {
+        container.innerHTML = '';
+        return;
+    }
+
     const totalPages = Math.ceil(filteredWords.length / itemsPerPage);
 
     if (totalPages <= 1) {
@@ -724,6 +742,62 @@ function resetAllData() {
     }
 }
 
+// Display mode functions
+function changeDisplayMode(mode) {
+    Storage.settings.displayMode = mode;
+    Storage.saveSettings();
+
+    // Show/hide items per page setting
+    const itemsPerPageSetting = document.getElementById('items-per-page-setting');
+    if (itemsPerPageSetting) {
+        itemsPerPageSetting.style.display = mode === 'paging' ? 'flex' : 'none';
+    }
+
+    // Re-render word list if currently viewing
+    if (currentView === 'list-view') {
+        currentPage = 1;
+        renderWordList();
+    }
+
+    showToast(mode === 'all' ? '전체 표시 모드로 변경됨' : '페이징 모드로 변경됨');
+}
+
+function changeItemsPerPage(value) {
+    itemsPerPage = parseInt(value);
+    Storage.settings.itemsPerPage = itemsPerPage;
+    Storage.saveSettings();
+
+    // Re-render word list if currently viewing
+    if (currentView === 'list-view') {
+        currentPage = 1;
+        renderWordList();
+    }
+
+    showToast(`페이지당 ${value}개 단어로 변경됨`);
+}
+
+function loadDisplaySettings() {
+    // Load display mode
+    const displayMode = Storage.settings.displayMode || 'paging';
+    const displayModeSelect = document.getElementById('display-mode-select');
+    if (displayModeSelect) {
+        displayModeSelect.value = displayMode;
+    }
+
+    // Show/hide items per page setting based on display mode
+    const itemsPerPageSetting = document.getElementById('items-per-page-setting');
+    if (itemsPerPageSetting) {
+        itemsPerPageSetting.style.display = displayMode === 'paging' ? 'flex' : 'none';
+    }
+
+    // Load items per page
+    itemsPerPage = Storage.settings.itemsPerPage || 20;
+    const itemsPerPageSelect = document.getElementById('items-per-page-select');
+    if (itemsPerPageSelect) {
+        itemsPerPageSelect.value = itemsPerPage;
+    }
+}
+
 // Toast notification
 function showToast(message) {
     const toast = document.getElementById('toast');
@@ -805,6 +879,7 @@ function speakWord(text) {
 const originalInitApp = initApp;
 initApp = function() {
     loadTTSSetting();
+    loadDisplaySettings();
     originalInitApp();
 };
 
@@ -901,5 +976,7 @@ function selectCategoryFromModal(categoryId, mode) {
             break;
     }
 
+    // 카테고리 변경 시 스크롤을 상단으로 이동
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     showToast(`'${getCategoryInfo(categoryId).name}' 카테고리로 변경됨`);
 }
