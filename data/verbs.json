@@ -1,0 +1,5480 @@
+[
+  {
+    "nameKo": "기본 동작",
+    "nameEn": "Basic Actions",
+    "words": [
+      {
+        "word": "be",
+        "pronunciation": "/biː/",
+        "meaning": "~이다",
+        "pastTense": "was/were",
+        "pastParticiple": "been",
+        "example": "I want to be a doctor.",
+        "translation": "나는 의사가 되고 싶어."
+      },
+      {
+        "word": "have",
+        "pronunciation": "/hæv/",
+        "meaning": "가지다",
+        "pastTense": "had",
+        "pastParticiple": "had",
+        "example": "I have two brothers.",
+        "translation": "나는 형제가 둘 있어."
+      },
+      {
+        "word": "do",
+        "pronunciation": "/duː/",
+        "meaning": "하다",
+        "pastTense": "did",
+        "pastParticiple": "done",
+        "example": "What do you do for a living?",
+        "translation": "직업이 뭐예요?"
+      },
+      {
+        "word": "make",
+        "pronunciation": "/meɪk/",
+        "meaning": "만들다",
+        "pastTense": "made",
+        "pastParticiple": "made",
+        "example": "She made a delicious cake.",
+        "translation": "그녀는 맛있는 케이크를 만들었어."
+      },
+      {
+        "word": "get",
+        "pronunciation": "/ɡet/",
+        "meaning": "얻다",
+        "pastTense": "got",
+        "pastParticiple": "got/gotten",
+        "example": "I need to get some rest.",
+        "translation": "나는 좀 쉬어야 해."
+      },
+      {
+        "word": "go",
+        "pronunciation": "/ɡoʊ/",
+        "meaning": "가다",
+        "pastTense": "went",
+        "pastParticiple": "gone",
+        "example": "Let's go to the movies.",
+        "translation": "영화 보러 가자."
+      },
+      {
+        "word": "come",
+        "pronunciation": "/kʌm/",
+        "meaning": "오다",
+        "pastTense": "came",
+        "pastParticiple": "come",
+        "example": "Please come to my party.",
+        "translation": "내 파티에 와줘."
+      },
+      {
+        "word": "take",
+        "pronunciation": "/teɪk/",
+        "meaning": "가져가다",
+        "pastTense": "took",
+        "pastParticiple": "taken",
+        "example": "Take your umbrella with you.",
+        "translation": "우산 가져가."
+      },
+      {
+        "word": "give",
+        "pronunciation": "/ɡɪv/",
+        "meaning": "주다",
+        "pastTense": "gave",
+        "pastParticiple": "given",
+        "example": "He gave me a nice gift.",
+        "translation": "그가 나에게 좋은 선물을 줬어."
+      },
+      {
+        "word": "put",
+        "pronunciation": "/pʊt/",
+        "meaning": "놓다",
+        "pastTense": "put",
+        "pastParticiple": "put",
+        "example": "Put the book on the desk.",
+        "translation": "책을 책상 위에 놓아."
+      },
+      {
+        "word": "keep",
+        "pronunciation": "/kiːp/",
+        "meaning": "유지하다",
+        "pastTense": "kept",
+        "pastParticiple": "kept",
+        "example": "Keep the change.",
+        "translation": "잔돈은 가지세요."
+      },
+      {
+        "word": "let",
+        "pronunciation": "/let/",
+        "meaning": "허락하다",
+        "pastTense": "let",
+        "pastParticiple": "let",
+        "example": "Let me help you.",
+        "translation": "내가 도와줄게."
+      },
+      {
+        "word": "begin",
+        "pronunciation": "/bɪˈɡɪn/",
+        "meaning": "시작하다",
+        "pastTense": "began",
+        "pastParticiple": "begun",
+        "example": "The movie will begin soon.",
+        "translation": "영화가 곧 시작할 거야."
+      },
+      {
+        "word": "start",
+        "pronunciation": "/stɑːrt/",
+        "meaning": "시작하다",
+        "pastTense": "started",
+        "pastParticiple": "started",
+        "example": "I started learning English.",
+        "translation": "나는 영어 배우기 시작했어."
+      },
+      {
+        "word": "stop",
+        "pronunciation": "/stɑːp/",
+        "meaning": "멈추다",
+        "pastTense": "stopped",
+        "pastParticiple": "stopped",
+        "example": "Stop making noise!",
+        "translation": "소음 좀 멈춰!"
+      },
+      {
+        "word": "end",
+        "pronunciation": "/end/",
+        "meaning": "끝내다",
+        "pastTense": "ended",
+        "pastParticiple": "ended",
+        "example": "The meeting ended at 5.",
+        "translation": "회의는 5시에 끝났어."
+      },
+      {
+        "word": "finish",
+        "pronunciation": "/ˈfɪnɪʃ/",
+        "meaning": "끝내다",
+        "pastTense": "finished",
+        "pastParticiple": "finished",
+        "example": "I finished my homework.",
+        "translation": "나는 숙제를 끝냈어."
+      },
+      {
+        "word": "continue",
+        "pronunciation": "/kənˈtɪnjuː/",
+        "meaning": "계속하다",
+        "pastTense": "continued",
+        "pastParticiple": "continued",
+        "example": "Please continue reading.",
+        "translation": "계속 읽어주세요."
+      },
+      {
+        "word": "try",
+        "pronunciation": "/traɪ/",
+        "meaning": "시도하다",
+        "pastTense": "tried",
+        "pastParticiple": "tried",
+        "example": "Try this new restaurant.",
+        "translation": "이 새 식당 한번 가봐."
+      },
+      {
+        "word": "use",
+        "pronunciation": "/juːz/",
+        "meaning": "사용하다",
+        "pastTense": "used",
+        "pastParticiple": "used",
+        "example": "Can I use your phone?",
+        "translation": "전화기 좀 써도 될까?"
+      },
+      {
+        "word": "need",
+        "pronunciation": "/niːd/",
+        "meaning": "필요하다",
+        "pastTense": "needed",
+        "pastParticiple": "needed",
+        "example": "I need your help.",
+        "translation": "네 도움이 필요해."
+      },
+      {
+        "word": "want",
+        "pronunciation": "/wɑːnt/",
+        "meaning": "원하다",
+        "pastTense": "wanted",
+        "pastParticiple": "wanted",
+        "example": "I want to travel abroad.",
+        "translation": "나는 해외여행 가고 싶어."
+      },
+      {
+        "word": "help",
+        "pronunciation": "/help/",
+        "meaning": "돕다",
+        "pastTense": "helped",
+        "pastParticiple": "helped",
+        "example": "Can you help me move?",
+        "translation": "이사하는 거 도와줄 수 있어?"
+      },
+      {
+        "word": "show",
+        "pronunciation": "/ʃoʊ/",
+        "meaning": "보여주다",
+        "pastTense": "showed",
+        "pastParticiple": "shown",
+        "example": "Show me your ID please.",
+        "translation": "신분증 보여주세요."
+      },
+      {
+        "word": "move",
+        "pronunciation": "/muːv/",
+        "meaning": "움직이다",
+        "pastTense": "moved",
+        "pastParticiple": "moved",
+        "example": "We moved to a new house.",
+        "translation": "우리는 새 집으로 이사했어."
+      },
+      {
+        "word": "turn",
+        "pronunciation": "/tɜːrn/",
+        "meaning": "돌다",
+        "pastTense": "turned",
+        "pastParticiple": "turned",
+        "example": "Turn left at the corner.",
+        "translation": "코너에서 왼쪽으로 돌아."
+      },
+      {
+        "word": "change",
+        "pronunciation": "/tʃeɪndʒ/",
+        "meaning": "바꾸다",
+        "pastTense": "changed",
+        "pastParticiple": "changed",
+        "example": "I changed my mind.",
+        "translation": "나는 마음을 바꿨어."
+      },
+      {
+        "word": "open",
+        "pronunciation": "/ˈoʊpən/",
+        "meaning": "열다",
+        "pastTense": "opened",
+        "pastParticiple": "opened",
+        "example": "Open the window please.",
+        "translation": "창문 좀 열어줘."
+      },
+      {
+        "word": "close",
+        "pronunciation": "/kloʊz/",
+        "meaning": "닫다",
+        "pastTense": "closed",
+        "pastParticiple": "closed",
+        "example": "Close the door quietly.",
+        "translation": "문 조용히 닫아."
+      },
+      {
+        "word": "hold",
+        "pronunciation": "/hoʊld/",
+        "meaning": "잡다",
+        "pastTense": "held",
+        "pastParticiple": "held",
+        "example": "Hold my hand.",
+        "translation": "내 손 잡아."
+      },
+      {
+        "word": "carry",
+        "pronunciation": "/ˈkæri/",
+        "meaning": "나르다",
+        "pastTense": "carried",
+        "pastParticiple": "carried",
+        "example": "Can you carry this bag?",
+        "translation": "이 가방 들어줄 수 있어?"
+      },
+      {
+        "word": "bring",
+        "pronunciation": "/brɪŋ/",
+        "meaning": "가져오다",
+        "pastTense": "brought",
+        "pastParticiple": "brought",
+        "example": "Bring some snacks.",
+        "translation": "간식 좀 가져와."
+      },
+      {
+        "word": "send",
+        "pronunciation": "/send/",
+        "meaning": "보내다",
+        "pastTense": "sent",
+        "pastParticiple": "sent",
+        "example": "I sent you an email.",
+        "translation": "나 너한테 이메일 보냈어."
+      },
+      {
+        "word": "leave",
+        "pronunciation": "/liːv/",
+        "meaning": "떠나다",
+        "pastTense": "left",
+        "pastParticiple": "left",
+        "example": "I have to leave now.",
+        "translation": "나 지금 가야 해."
+      },
+      {
+        "word": "stay",
+        "pronunciation": "/steɪ/",
+        "meaning": "머무르다",
+        "pastTense": "stayed",
+        "pastParticiple": "stayed",
+        "example": "Stay here and wait.",
+        "translation": "여기 있으면서 기다려."
+      },
+      {
+        "word": "return",
+        "pronunciation": "/rɪˈtɜːrn/",
+        "meaning": "돌아오다",
+        "pastTense": "returned",
+        "pastParticiple": "returned",
+        "example": "When will you return?",
+        "translation": "언제 돌아올 거야?"
+      },
+      {
+        "word": "find",
+        "pronunciation": "/faɪnd/",
+        "meaning": "찾다",
+        "pastTense": "found",
+        "pastParticiple": "found",
+        "example": "I can't find my keys.",
+        "translation": "열쇠를 못 찾겠어."
+      },
+      {
+        "word": "lose",
+        "pronunciation": "/luːz/",
+        "meaning": "잃다",
+        "pastTense": "lost",
+        "pastParticiple": "lost",
+        "example": "Don't lose your ticket.",
+        "translation": "표 잃어버리지 마."
+      },
+      {
+        "word": "look",
+        "pronunciation": "/lʊk/",
+        "meaning": "보다",
+        "pastTense": "looked",
+        "pastParticiple": "looked",
+        "example": "Look at that sunset!",
+        "translation": "저 노을 좀 봐!"
+      },
+      {
+        "word": "see",
+        "pronunciation": "/siː/",
+        "meaning": "보다",
+        "pastTense": "saw",
+        "pastParticiple": "seen",
+        "example": "I saw a rainbow today.",
+        "translation": "오늘 무지개를 봤어."
+      },
+      {
+        "word": "watch",
+        "pronunciation": "/wɑːtʃ/",
+        "meaning": "보다",
+        "pastTense": "watched",
+        "pastParticiple": "watched",
+        "example": "Let's watch a movie.",
+        "translation": "영화 보자."
+      },
+      {
+        "word": "hear",
+        "pronunciation": "/hɪr/",
+        "meaning": "듣다",
+        "pastTense": "heard",
+        "pastParticiple": "heard",
+        "example": "Did you hear the news?",
+        "translation": "그 소식 들었어?"
+      },
+      {
+        "word": "listen",
+        "pronunciation": "/ˈlɪsn/",
+        "meaning": "듣다",
+        "pastTense": "listened",
+        "pastParticiple": "listened",
+        "example": "Listen to this song.",
+        "translation": "이 노래 들어봐."
+      },
+      {
+        "word": "feel",
+        "pronunciation": "/fiːl/",
+        "meaning": "느끼다",
+        "pastTense": "felt",
+        "pastParticiple": "felt",
+        "example": "I feel much better now.",
+        "translation": "지금 훨씬 기분이 좋아."
+      },
+      {
+        "word": "touch",
+        "pronunciation": "/tʌtʃ/",
+        "meaning": "만지다",
+        "pastTense": "touched",
+        "pastParticiple": "touched",
+        "example": "Don't touch the painting.",
+        "translation": "그림 만지지 마."
+      },
+      {
+        "word": "smell",
+        "pronunciation": "/smel/",
+        "meaning": "냄새맡다",
+        "pastTense": "smelled",
+        "pastParticiple": "smelled",
+        "example": "Something smells delicious.",
+        "translation": "뭔가 맛있는 냄새가 나."
+      },
+      {
+        "word": "taste",
+        "pronunciation": "/teɪst/",
+        "meaning": "맛보다",
+        "pastTense": "tasted",
+        "pastParticiple": "tasted",
+        "example": "Taste this soup.",
+        "translation": "이 수프 맛봐봐."
+      },
+      {
+        "word": "wait",
+        "pronunciation": "/weɪt/",
+        "meaning": "기다리다",
+        "pastTense": "waited",
+        "pastParticiple": "waited",
+        "example": "Wait for me!",
+        "translation": "나 기다려!"
+      },
+      {
+        "word": "sit",
+        "pronunciation": "/sɪt/",
+        "meaning": "앉다",
+        "pastTense": "sat",
+        "pastParticiple": "sat",
+        "example": "Please sit down.",
+        "translation": "앉으세요."
+      },
+      {
+        "word": "stand",
+        "pronunciation": "/stænd/",
+        "meaning": "서다",
+        "pastTense": "stood",
+        "pastParticiple": "stood",
+        "example": "Stand up straight.",
+        "translation": "똑바로 서."
+      },
+      {
+        "word": "lie",
+        "pronunciation": "/laɪ/",
+        "meaning": "눕다",
+        "pastTense": "lay",
+        "pastParticiple": "lain",
+        "example": "I want to lie down.",
+        "translation": "눕고 싶어."
+      },
+      {
+        "word": "rise",
+        "pronunciation": "/raɪz/",
+        "meaning": "오르다",
+        "pastTense": "rose",
+        "pastParticiple": "risen",
+        "example": "The sun rises in the east.",
+        "translation": "해는 동쪽에서 뜬다."
+      },
+      {
+        "word": "fall",
+        "pronunciation": "/fɔːl/",
+        "meaning": "떨어지다",
+        "pastTense": "fell",
+        "pastParticiple": "fallen",
+        "example": "Be careful not to fall.",
+        "translation": "넘어지지 않게 조심해."
+      },
+      {
+        "word": "drop",
+        "pronunciation": "/drɑːp/",
+        "meaning": "떨어뜨리다",
+        "pastTense": "dropped",
+        "pastParticiple": "dropped",
+        "example": "I dropped my phone.",
+        "translation": "핸드폰 떨어뜨렸어."
+      },
+      {
+        "word": "pick",
+        "pronunciation": "/pɪk/",
+        "meaning": "고르다",
+        "pastTense": "picked",
+        "pastParticiple": "picked",
+        "example": "Pick any color you like.",
+        "translation": "마음에 드는 색 골라."
+      },
+      {
+        "word": "pull",
+        "pronunciation": "/pʊl/",
+        "meaning": "당기다",
+        "pastTense": "pulled",
+        "pastParticiple": "pulled",
+        "example": "Pull the door to open.",
+        "translation": "문을 당겨서 열어."
+      },
+      {
+        "word": "push",
+        "pronunciation": "/pʊʃ/",
+        "meaning": "밀다",
+        "pastTense": "pushed",
+        "pastParticiple": "pushed",
+        "example": "Push the button.",
+        "translation": "버튼을 눌러."
+      },
+      {
+        "word": "throw",
+        "pronunciation": "/θroʊ/",
+        "meaning": "던지다",
+        "pastTense": "threw",
+        "pastParticiple": "thrown",
+        "example": "Throw me the ball.",
+        "translation": "나한테 공 던져."
+      },
+      {
+        "word": "catch",
+        "pronunciation": "/kætʃ/",
+        "meaning": "잡다",
+        "pastTense": "caught",
+        "pastParticiple": "caught",
+        "example": "Catch!",
+        "translation": "받아!"
+      },
+      {
+        "word": "hit",
+        "pronunciation": "/hɪt/",
+        "meaning": "치다",
+        "pastTense": "hit",
+        "pastParticiple": "hit",
+        "example": "He hit the ball hard.",
+        "translation": "그는 공을 세게 쳤어."
+      }
+    ]
+  },
+  {
+    "nameKo": "이동 동사",
+    "nameEn": "Movement Verbs",
+    "words": [
+      {
+        "word": "walk",
+        "pronunciation": "/wɔːk/",
+        "meaning": "걷다",
+        "pastTense": "walked",
+        "pastParticiple": "walked",
+        "example": "I walk to work every day.",
+        "translation": "나는 매일 걸어서 출근해."
+      },
+      {
+        "word": "run",
+        "pronunciation": "/rʌn/",
+        "meaning": "달리다",
+        "pastTense": "ran",
+        "pastParticiple": "run",
+        "example": "She runs every morning.",
+        "translation": "그녀는 매일 아침 달려."
+      },
+      {
+        "word": "jump",
+        "pronunciation": "/dʒʌmp/",
+        "meaning": "점프하다",
+        "pastTense": "jumped",
+        "pastParticiple": "jumped",
+        "example": "The kids love to jump.",
+        "translation": "아이들은 점프하는 걸 좋아해."
+      },
+      {
+        "word": "climb",
+        "pronunciation": "/klaɪm/",
+        "meaning": "오르다",
+        "pastTense": "climbed",
+        "pastParticiple": "climbed",
+        "example": "We climbed the mountain.",
+        "translation": "우리는 산을 올랐어."
+      },
+      {
+        "word": "crawl",
+        "pronunciation": "/krɔːl/",
+        "meaning": "기어가다",
+        "pastTense": "crawled",
+        "pastParticiple": "crawled",
+        "example": "The baby is crawling.",
+        "translation": "아기가 기어다니고 있어."
+      },
+      {
+        "word": "swim",
+        "pronunciation": "/swɪm/",
+        "meaning": "수영하다",
+        "pastTense": "swam",
+        "pastParticiple": "swum",
+        "example": "Can you swim?",
+        "translation": "너 수영할 줄 알아?"
+      },
+      {
+        "word": "fly",
+        "pronunciation": "/flaɪ/",
+        "meaning": "날다",
+        "pastTense": "flew",
+        "pastParticiple": "flown",
+        "example": "Birds fly south in winter.",
+        "translation": "새들은 겨울에 남쪽으로 날아가."
+      },
+      {
+        "word": "drive",
+        "pronunciation": "/draɪv/",
+        "meaning": "운전하다",
+        "pastTense": "drove",
+        "pastParticiple": "driven",
+        "example": "I'll drive you home.",
+        "translation": "내가 집까지 태워줄게."
+      },
+      {
+        "word": "ride",
+        "pronunciation": "/raɪd/",
+        "meaning": "타다",
+        "pastTense": "rode",
+        "pastParticiple": "ridden",
+        "example": "I ride my bike to school.",
+        "translation": "나는 자전거 타고 학교 가."
+      },
+      {
+        "word": "travel",
+        "pronunciation": "/ˈtrævl/",
+        "meaning": "여행하다",
+        "pastTense": "traveled",
+        "pastParticiple": "traveled",
+        "example": "I love to travel.",
+        "translation": "나는 여행을 좋아해."
+      },
+      {
+        "word": "arrive",
+        "pronunciation": "/əˈraɪv/",
+        "meaning": "도착하다",
+        "pastTense": "arrived",
+        "pastParticiple": "arrived",
+        "example": "We arrived safely.",
+        "translation": "우리는 안전하게 도착했어."
+      },
+      {
+        "word": "reach",
+        "pronunciation": "/riːtʃ/",
+        "meaning": "도달하다",
+        "pastTense": "reached",
+        "pastParticiple": "reached",
+        "example": "We finally reached the top.",
+        "translation": "드디어 정상에 도달했어."
+      },
+      {
+        "word": "enter",
+        "pronunciation": "/ˈentər/",
+        "meaning": "들어가다",
+        "pastTense": "entered",
+        "pastParticiple": "entered",
+        "example": "Please enter the room.",
+        "translation": "방에 들어오세요."
+      },
+      {
+        "word": "exit",
+        "pronunciation": "/ˈeɡzɪt/",
+        "meaning": "나가다",
+        "pastTense": "exited",
+        "pastParticiple": "exited",
+        "example": "Exit through the back door.",
+        "translation": "뒷문으로 나가세요."
+      },
+      {
+        "word": "cross",
+        "pronunciation": "/krɔːs/",
+        "meaning": "건너다",
+        "pastTense": "crossed",
+        "pastParticiple": "crossed",
+        "example": "Cross the street carefully.",
+        "translation": "조심해서 길 건너."
+      },
+      {
+        "word": "pass",
+        "pronunciation": "/pæs/",
+        "meaning": "지나가다",
+        "pastTense": "passed",
+        "pastParticiple": "passed",
+        "example": "A car just passed by.",
+        "translation": "차가 방금 지나갔어."
+      },
+      {
+        "word": "follow",
+        "pronunciation": "/ˈfɑːloʊ/",
+        "meaning": "따라가다",
+        "pastTense": "followed",
+        "pastParticiple": "followed",
+        "example": "Follow me this way.",
+        "translation": "이쪽으로 따라와."
+      },
+      {
+        "word": "lead",
+        "pronunciation": "/liːd/",
+        "meaning": "이끌다",
+        "pastTense": "led",
+        "pastParticiple": "led",
+        "example": "She led the team.",
+        "translation": "그녀가 팀을 이끌었어."
+      },
+      {
+        "word": "chase",
+        "pronunciation": "/tʃeɪs/",
+        "meaning": "쫓다",
+        "pastTense": "chased",
+        "pastParticiple": "chased",
+        "example": "The dog chased the cat.",
+        "translation": "개가 고양이를 쫓았어."
+      },
+      {
+        "word": "escape",
+        "pronunciation": "/ɪˈskeɪp/",
+        "meaning": "탈출하다",
+        "pastTense": "escaped",
+        "pastParticiple": "escaped",
+        "example": "He escaped from danger.",
+        "translation": "그는 위험에서 탈출했어."
+      },
+      {
+        "word": "approach",
+        "pronunciation": "/əˈproʊtʃ/",
+        "meaning": "다가가다",
+        "pastTense": "approached",
+        "pastParticiple": "approached",
+        "example": "A stranger approached me.",
+        "translation": "낯선 사람이 다가왔어."
+      },
+      {
+        "word": "step",
+        "pronunciation": "/step/",
+        "meaning": "걸음을 내딛다",
+        "pastTense": "stepped",
+        "pastParticiple": "stepped",
+        "example": "Step forward please.",
+        "translation": "앞으로 한 발 나오세요."
+      },
+      {
+        "word": "rush",
+        "pronunciation": "/rʌʃ/",
+        "meaning": "서두르다",
+        "pastTense": "rushed",
+        "pastParticiple": "rushed",
+        "example": "Don't rush, take your time.",
+        "translation": "서두르지 마, 천천히 해."
+      },
+      {
+        "word": "hurry",
+        "pronunciation": "/ˈhɜːri/",
+        "meaning": "서두르다",
+        "pastTense": "hurried",
+        "pastParticiple": "hurried",
+        "example": "Hurry up or we'll be late!",
+        "translation": "서둘러, 안 그러면 늦어!"
+      },
+      {
+        "word": "wander",
+        "pronunciation": "/ˈwɑːndər/",
+        "meaning": "배회하다",
+        "pastTense": "wandered",
+        "pastParticiple": "wandered",
+        "example": "We wandered around the city.",
+        "translation": "우리는 도시를 돌아다녔어."
+      },
+      {
+        "word": "stroll",
+        "pronunciation": "/stroʊl/",
+        "meaning": "거닐다",
+        "pastTense": "strolled",
+        "pastParticiple": "strolled",
+        "example": "Let's stroll in the park.",
+        "translation": "공원에서 거닐자."
+      },
+      {
+        "word": "march",
+        "pronunciation": "/mɑːrtʃ/",
+        "meaning": "행진하다",
+        "pastTense": "marched",
+        "pastParticiple": "marched",
+        "example": "Soldiers marched in parade.",
+        "translation": "군인들이 퍼레이드에서 행진했어."
+      },
+      {
+        "word": "slide",
+        "pronunciation": "/slaɪd/",
+        "meaning": "미끄러지다",
+        "pastTense": "slid",
+        "pastParticiple": "slid",
+        "example": "The kids slide down.",
+        "translation": "아이들이 미끄럼틀을 타."
+      },
+      {
+        "word": "slip",
+        "pronunciation": "/slɪp/",
+        "meaning": "미끄러지다",
+        "pastTense": "slipped",
+        "pastParticiple": "slipped",
+        "example": "I slipped on the ice.",
+        "translation": "나는 얼음 위에서 미끄러졌어."
+      },
+      {
+        "word": "roll",
+        "pronunciation": "/roʊl/",
+        "meaning": "굴러가다",
+        "pastTense": "rolled",
+        "pastParticiple": "rolled",
+        "example": "The ball rolled away.",
+        "translation": "공이 굴러갔어."
+      },
+      {
+        "word": "spin",
+        "pronunciation": "/spɪn/",
+        "meaning": "돌다",
+        "pastTense": "spun",
+        "pastParticiple": "spun",
+        "example": "The top is spinning.",
+        "translation": "팽이가 돌고 있어."
+      },
+      {
+        "word": "shake",
+        "pronunciation": "/ʃeɪk/",
+        "meaning": "흔들다",
+        "pastTense": "shook",
+        "pastParticiple": "shaken",
+        "example": "Shake the bottle first.",
+        "translation": "먼저 병을 흔들어."
+      },
+      {
+        "word": "swing",
+        "pronunciation": "/swɪŋ/",
+        "meaning": "흔들다",
+        "pastTense": "swung",
+        "pastParticiple": "swung",
+        "example": "Kids love to swing.",
+        "translation": "아이들은 그네 타는 걸 좋아해."
+      },
+      {
+        "word": "stretch",
+        "pronunciation": "/stretʃ/",
+        "meaning": "뻗다",
+        "pastTense": "stretched",
+        "pastParticiple": "stretched",
+        "example": "Stretch your arms up.",
+        "translation": "팔을 위로 뻗어."
+      },
+      {
+        "word": "bend",
+        "pronunciation": "/bend/",
+        "meaning": "구부리다",
+        "pastTense": "bent",
+        "pastParticiple": "bent",
+        "example": "Bend your knees slightly.",
+        "translation": "무릎을 살짝 구부려."
+      },
+      {
+        "word": "lean",
+        "pronunciation": "/liːn/",
+        "meaning": "기대다",
+        "pastTense": "leaned",
+        "pastParticiple": "leaned",
+        "example": "Don't lean on the door.",
+        "translation": "문에 기대지 마."
+      },
+      {
+        "word": "lift",
+        "pronunciation": "/lɪft/",
+        "meaning": "들어올리다",
+        "pastTense": "lifted",
+        "pastParticiple": "lifted",
+        "example": "Help me lift this box.",
+        "translation": "이 상자 들어올리는 거 도와줘."
+      },
+      {
+        "word": "raise",
+        "pronunciation": "/reɪz/",
+        "meaning": "올리다",
+        "pastTense": "raised",
+        "pastParticiple": "raised",
+        "example": "Raise your hand if you agree.",
+        "translation": "동의하면 손 들어."
+      },
+      {
+        "word": "lower",
+        "pronunciation": "/ˈloʊər/",
+        "meaning": "낮추다",
+        "pastTense": "lowered",
+        "pastParticiple": "lowered",
+        "example": "Lower your voice please.",
+        "translation": "목소리 좀 낮춰."
+      },
+      {
+        "word": "drag",
+        "pronunciation": "/dræɡ/",
+        "meaning": "끌다",
+        "pastTense": "dragged",
+        "pastParticiple": "dragged",
+        "example": "He dragged the heavy bag.",
+        "translation": "그는 무거운 가방을 끌었어."
+      },
+      {
+        "word": "pour",
+        "pronunciation": "/pɔːr/",
+        "meaning": "붓다",
+        "pastTense": "poured",
+        "pastParticiple": "poured",
+        "example": "Pour me some water.",
+        "translation": "물 좀 따라줘."
+      },
+      {
+        "word": "spread",
+        "pronunciation": "/spred/",
+        "meaning": "펴다",
+        "pastTense": "spread",
+        "pastParticiple": "spread",
+        "example": "Spread the butter evenly.",
+        "translation": "버터를 고르게 발라."
+      },
+      {
+        "word": "gather",
+        "pronunciation": "/ˈɡæðər/",
+        "meaning": "모으다",
+        "pastTense": "gathered",
+        "pastParticiple": "gathered",
+        "example": "We gathered around the fire.",
+        "translation": "우리는 불 주위에 모였어."
+      },
+      {
+        "word": "scatter",
+        "pronunciation": "/ˈskætər/",
+        "meaning": "흩뿌리다",
+        "pastTense": "scattered",
+        "pastParticiple": "scattered",
+        "example": "The wind scattered the leaves.",
+        "translation": "바람이 나뭇잎을 흩뿌렸어."
+      },
+      {
+        "word": "float",
+        "pronunciation": "/floʊt/",
+        "meaning": "떠다니다",
+        "pastTense": "floated",
+        "pastParticiple": "floated",
+        "example": "The boat floats on water.",
+        "translation": "배가 물 위에 떠 있어."
+      }
+    ]
+  },
+  {
+    "nameKo": "의사소통 동사",
+    "nameEn": "Communication Verbs",
+    "words": [
+      {
+        "word": "say",
+        "pronunciation": "/seɪ/",
+        "meaning": "말하다",
+        "pastTense": "said",
+        "pastParticiple": "said",
+        "example": "What did you say?",
+        "translation": "뭐라고 했어?"
+      },
+      {
+        "word": "tell",
+        "pronunciation": "/tel/",
+        "meaning": "말해주다",
+        "pastTense": "told",
+        "pastParticiple": "told",
+        "example": "Tell me the truth.",
+        "translation": "진실을 말해줘."
+      },
+      {
+        "word": "talk",
+        "pronunciation": "/tɔːk/",
+        "meaning": "이야기하다",
+        "pastTense": "talked",
+        "pastParticiple": "talked",
+        "example": "We need to talk.",
+        "translation": "우리 얘기 좀 해야 해."
+      },
+      {
+        "word": "speak",
+        "pronunciation": "/spiːk/",
+        "meaning": "말하다",
+        "pastTense": "spoke",
+        "pastParticiple": "spoken",
+        "example": "Do you speak Korean?",
+        "translation": "한국어 할 줄 알아요?"
+      },
+      {
+        "word": "ask",
+        "pronunciation": "/æsk/",
+        "meaning": "묻다",
+        "pastTense": "asked",
+        "pastParticiple": "asked",
+        "example": "Can I ask you something?",
+        "translation": "뭐 좀 물어봐도 돼?"
+      },
+      {
+        "word": "answer",
+        "pronunciation": "/ˈænsər/",
+        "meaning": "대답하다",
+        "pastTense": "answered",
+        "pastParticiple": "answered",
+        "example": "Please answer the question.",
+        "translation": "질문에 대답해 주세요."
+      },
+      {
+        "word": "reply",
+        "pronunciation": "/rɪˈplaɪ/",
+        "meaning": "답장하다",
+        "pastTense": "replied",
+        "pastParticiple": "replied",
+        "example": "He didn't reply to my text.",
+        "translation": "그는 내 문자에 답장 안 했어."
+      },
+      {
+        "word": "respond",
+        "pronunciation": "/rɪˈspɑːnd/",
+        "meaning": "응답하다",
+        "pastTense": "responded",
+        "pastParticiple": "responded",
+        "example": "She responded quickly.",
+        "translation": "그녀는 빨리 응답했어."
+      },
+      {
+        "word": "explain",
+        "pronunciation": "/ɪkˈspleɪn/",
+        "meaning": "설명하다",
+        "pastTense": "explained",
+        "pastParticiple": "explained",
+        "example": "Can you explain this to me?",
+        "translation": "이거 설명해 줄 수 있어?"
+      },
+      {
+        "word": "describe",
+        "pronunciation": "/dɪˈskraɪb/",
+        "meaning": "묘사하다",
+        "pastTense": "described",
+        "pastParticiple": "described",
+        "example": "Describe your ideal job.",
+        "translation": "이상적인 직업을 설명해봐."
+      },
+      {
+        "word": "discuss",
+        "pronunciation": "/dɪˈskʌs/",
+        "meaning": "토론하다",
+        "pastTense": "discussed",
+        "pastParticiple": "discussed",
+        "example": "Let's discuss this later.",
+        "translation": "이건 나중에 얘기하자."
+      },
+      {
+        "word": "mention",
+        "pronunciation": "/ˈmenʃn/",
+        "meaning": "언급하다",
+        "pastTense": "mentioned",
+        "pastParticiple": "mentioned",
+        "example": "She mentioned your name.",
+        "translation": "그녀가 네 이름을 언급했어."
+      },
+      {
+        "word": "suggest",
+        "pronunciation": "/səˈdʒest/",
+        "meaning": "제안하다",
+        "pastTense": "suggested",
+        "pastParticiple": "suggested",
+        "example": "I suggest we take a break.",
+        "translation": "잠시 쉬자고 제안해."
+      },
+      {
+        "word": "recommend",
+        "pronunciation": "/ˌrekəˈmend/",
+        "meaning": "추천하다",
+        "pastTense": "recommended",
+        "pastParticiple": "recommended",
+        "example": "I recommend this book.",
+        "translation": "이 책 추천해."
+      },
+      {
+        "word": "advise",
+        "pronunciation": "/ədˈvaɪz/",
+        "meaning": "조언하다",
+        "pastTense": "advised",
+        "pastParticiple": "advised",
+        "example": "I advise you to study hard.",
+        "translation": "열심히 공부하라고 조언해."
+      },
+      {
+        "word": "warn",
+        "pronunciation": "/wɔːrn/",
+        "meaning": "경고하다",
+        "pastTense": "warned",
+        "pastParticiple": "warned",
+        "example": "I warned you about this.",
+        "translation": "이거에 대해 경고했잖아."
+      },
+      {
+        "word": "remind",
+        "pronunciation": "/rɪˈmaɪnd/",
+        "meaning": "상기시키다",
+        "pastTense": "reminded",
+        "pastParticiple": "reminded",
+        "example": "Remind me to call mom.",
+        "translation": "엄마한테 전화하라고 상기시켜 줘."
+      },
+      {
+        "word": "promise",
+        "pronunciation": "/ˈprɑːmɪs/",
+        "meaning": "약속하다",
+        "pastTense": "promised",
+        "pastParticiple": "promised",
+        "example": "I promise I'll be there.",
+        "translation": "거기 갈게, 약속해."
+      },
+      {
+        "word": "agree",
+        "pronunciation": "/əˈɡriː/",
+        "meaning": "동의하다",
+        "pastTense": "agreed",
+        "pastParticiple": "agreed",
+        "example": "I totally agree with you.",
+        "translation": "완전 동의해."
+      },
+      {
+        "word": "disagree",
+        "pronunciation": "/ˌdɪsəˈɡriː/",
+        "meaning": "동의하지 않다",
+        "pastTense": "disagreed",
+        "pastParticiple": "disagreed",
+        "example": "I disagree on this point.",
+        "translation": "이 점에서는 동의 안 해."
+      },
+      {
+        "word": "argue",
+        "pronunciation": "/ˈɑːrɡjuː/",
+        "meaning": "논쟁하다",
+        "pastTense": "argued",
+        "pastParticiple": "argued",
+        "example": "Don't argue with me.",
+        "translation": "나랑 말다툼하지 마."
+      },
+      {
+        "word": "debate",
+        "pronunciation": "/dɪˈbeɪt/",
+        "meaning": "토론하다",
+        "pastTense": "debated",
+        "pastParticiple": "debated",
+        "example": "They debated for hours.",
+        "translation": "그들은 몇 시간 동안 토론했어."
+      },
+      {
+        "word": "complain",
+        "pronunciation": "/kəmˈpleɪn/",
+        "meaning": "불평하다",
+        "pastTense": "complained",
+        "pastParticiple": "complained",
+        "example": "Stop complaining!",
+        "translation": "불평 좀 그만해!"
+      },
+      {
+        "word": "apologize",
+        "pronunciation": "/əˈpɑːlədʒaɪz/",
+        "meaning": "사과하다",
+        "pastTense": "apologized",
+        "pastParticiple": "apologized",
+        "example": "I apologize for being late.",
+        "translation": "늦어서 사과드려요."
+      },
+      {
+        "word": "forgive",
+        "pronunciation": "/fərˈɡɪv/",
+        "meaning": "용서하다",
+        "pastTense": "forgave",
+        "pastParticiple": "forgiven",
+        "example": "Please forgive me.",
+        "translation": "용서해 줘."
+      },
+      {
+        "word": "thank",
+        "pronunciation": "/θæŋk/",
+        "meaning": "감사하다",
+        "pastTense": "thanked",
+        "pastParticiple": "thanked",
+        "example": "Thank you so much!",
+        "translation": "정말 감사해요!"
+      },
+      {
+        "word": "praise",
+        "pronunciation": "/preɪz/",
+        "meaning": "칭찬하다",
+        "pastTense": "praised",
+        "pastParticiple": "praised",
+        "example": "The teacher praised her.",
+        "translation": "선생님이 그녀를 칭찬했어."
+      },
+      {
+        "word": "criticize",
+        "pronunciation": "/ˈkrɪtɪsaɪz/",
+        "meaning": "비판하다",
+        "pastTense": "criticized",
+        "pastParticiple": "criticized",
+        "example": "Don't criticize others.",
+        "translation": "다른 사람 비판하지 마."
+      },
+      {
+        "word": "blame",
+        "pronunciation": "/bleɪm/",
+        "meaning": "비난하다",
+        "pastTense": "blamed",
+        "pastParticiple": "blamed",
+        "example": "Don't blame me for this.",
+        "translation": "이거 나한테 뭐라 하지 마."
+      },
+      {
+        "word": "deny",
+        "pronunciation": "/dɪˈnaɪ/",
+        "meaning": "부인하다",
+        "pastTense": "denied",
+        "pastParticiple": "denied",
+        "example": "He denied the accusation.",
+        "translation": "그는 혐의를 부인했어."
+      },
+      {
+        "word": "admit",
+        "pronunciation": "/ədˈmɪt/",
+        "meaning": "인정하다",
+        "pastTense": "admitted",
+        "pastParticiple": "admitted",
+        "example": "I admit I was wrong.",
+        "translation": "내가 틀렸다는 거 인정해."
+      },
+      {
+        "word": "confess",
+        "pronunciation": "/kənˈfes/",
+        "meaning": "고백하다",
+        "pastTense": "confessed",
+        "pastParticiple": "confessed",
+        "example": "He confessed his love.",
+        "translation": "그는 사랑을 고백했어."
+      },
+      {
+        "word": "announce",
+        "pronunciation": "/əˈnaʊns/",
+        "meaning": "발표하다",
+        "pastTense": "announced",
+        "pastParticiple": "announced",
+        "example": "They announced the winner.",
+        "translation": "우승자를 발표했어."
+      },
+      {
+        "word": "declare",
+        "pronunciation": "/dɪˈkler/",
+        "meaning": "선언하다",
+        "pastTense": "declared",
+        "pastParticiple": "declared",
+        "example": "She declared her intention.",
+        "translation": "그녀는 의도를 밝혔어."
+      },
+      {
+        "word": "introduce",
+        "pronunciation": "/ˌɪntrəˈduːs/",
+        "meaning": "소개하다",
+        "pastTense": "introduced",
+        "pastParticiple": "introduced",
+        "example": "Let me introduce myself.",
+        "translation": "자기소개 할게요."
+      },
+      {
+        "word": "greet",
+        "pronunciation": "/ɡriːt/",
+        "meaning": "인사하다",
+        "pastTense": "greeted",
+        "pastParticiple": "greeted",
+        "example": "She greeted me warmly.",
+        "translation": "그녀가 나를 따뜻하게 맞아줬어."
+      },
+      {
+        "word": "welcome",
+        "pronunciation": "/ˈwelkəm/",
+        "meaning": "환영하다",
+        "pastTense": "welcomed",
+        "pastParticiple": "welcomed",
+        "example": "Welcome to our home!",
+        "translation": "우리 집에 온 걸 환영해!"
+      },
+      {
+        "word": "invite",
+        "pronunciation": "/ɪnˈvaɪt/",
+        "meaning": "초대하다",
+        "pastTense": "invited",
+        "pastParticiple": "invited",
+        "example": "I invited him to dinner.",
+        "translation": "나는 그를 저녁에 초대했어."
+      },
+      {
+        "word": "offer",
+        "pronunciation": "/ˈɔːfər/",
+        "meaning": "제안하다",
+        "pastTense": "offered",
+        "pastParticiple": "offered",
+        "example": "She offered to help me.",
+        "translation": "그녀가 도와주겠다고 했어."
+      },
+      {
+        "word": "refuse",
+        "pronunciation": "/rɪˈfjuːz/",
+        "meaning": "거절하다",
+        "pastTense": "refused",
+        "pastParticiple": "refused",
+        "example": "He refused my offer.",
+        "translation": "그는 내 제안을 거절했어."
+      },
+      {
+        "word": "accept",
+        "pronunciation": "/əkˈsept/",
+        "meaning": "수락하다",
+        "pastTense": "accepted",
+        "pastParticiple": "accepted",
+        "example": "She accepted the invitation.",
+        "translation": "그녀는 초대를 수락했어."
+      },
+      {
+        "word": "reject",
+        "pronunciation": "/rɪˈdʒekt/",
+        "meaning": "거부하다",
+        "pastTense": "rejected",
+        "pastParticiple": "rejected",
+        "example": "My application was rejected.",
+        "translation": "내 지원서가 거부됐어."
+      },
+      {
+        "word": "request",
+        "pronunciation": "/rɪˈkwest/",
+        "meaning": "요청하다",
+        "pastTense": "requested",
+        "pastParticiple": "requested",
+        "example": "I requested a day off.",
+        "translation": "나는 하루 휴가를 요청했어."
+      },
+      {
+        "word": "demand",
+        "pronunciation": "/dɪˈmænd/",
+        "meaning": "요구하다",
+        "pastTense": "demanded",
+        "pastParticiple": "demanded",
+        "example": "They demanded an answer.",
+        "translation": "그들은 대답을 요구했어."
+      },
+      {
+        "word": "order",
+        "pronunciation": "/ˈɔːrdər/",
+        "meaning": "명령하다",
+        "pastTense": "ordered",
+        "pastParticiple": "ordered",
+        "example": "He ordered me to leave.",
+        "translation": "그가 나보고 나가라고 했어."
+      },
+      {
+        "word": "command",
+        "pronunciation": "/kəˈmænd/",
+        "meaning": "명령하다",
+        "pastTense": "commanded",
+        "pastParticiple": "commanded",
+        "example": "The general commanded the troops.",
+        "translation": "장군이 병사들에게 명령했어."
+      },
+      {
+        "word": "persuade",
+        "pronunciation": "/pərˈsweɪd/",
+        "meaning": "설득하다",
+        "pastTense": "persuaded",
+        "pastParticiple": "persuaded",
+        "example": "She persuaded him to stay.",
+        "translation": "그녀는 그를 설득해서 머물게 했어."
+      },
+      {
+        "word": "convince",
+        "pronunciation": "/kənˈvɪns/",
+        "meaning": "확신시키다",
+        "pastTense": "convinced",
+        "pastParticiple": "convinced",
+        "example": "I'm convinced it's true.",
+        "translation": "그게 사실이라고 확신해."
+      },
+      {
+        "word": "encourage",
+        "pronunciation": "/ɪnˈkɜːrɪdʒ/",
+        "meaning": "격려하다",
+        "pastTense": "encouraged",
+        "pastParticiple": "encouraged",
+        "example": "My parents always encourage me.",
+        "translation": "부모님은 항상 나를 격려해."
+      },
+      {
+        "word": "discourage",
+        "pronunciation": "/dɪsˈkɜːrɪdʒ/",
+        "meaning": "낙담시키다",
+        "pastTense": "discouraged",
+        "pastParticiple": "discouraged",
+        "example": "Don't be discouraged.",
+        "translation": "낙담하지 마."
+      },
+      {
+        "word": "call",
+        "pronunciation": "/kɔːl/",
+        "meaning": "전화하다",
+        "pastTense": "called",
+        "pastParticiple": "called",
+        "example": "I'll call you later.",
+        "translation": "나중에 전화할게."
+      },
+      {
+        "word": "contact",
+        "pronunciation": "/ˈkɑːntækt/",
+        "meaning": "연락하다",
+        "pastTense": "contacted",
+        "pastParticiple": "contacted",
+        "example": "Contact me anytime.",
+        "translation": "언제든지 연락해."
+      },
+      {
+        "word": "communicate",
+        "pronunciation": "/kəˈmjuːnɪkeɪt/",
+        "meaning": "소통하다",
+        "pastTense": "communicated",
+        "pastParticiple": "communicated",
+        "example": "It's important to communicate.",
+        "translation": "소통하는 게 중요해."
+      },
+      {
+        "word": "chat",
+        "pronunciation": "/tʃæt/",
+        "meaning": "수다떨다",
+        "pastTense": "chatted",
+        "pastParticiple": "chatted",
+        "example": "We chatted for hours.",
+        "translation": "우리는 몇 시간 동안 수다 떨었어."
+      },
+      {
+        "word": "gossip",
+        "pronunciation": "/ˈɡɑːsɪp/",
+        "meaning": "험담하다",
+        "pastTense": "gossiped",
+        "pastParticiple": "gossiped",
+        "example": "Don't gossip about others.",
+        "translation": "다른 사람 험담하지 마."
+      }
+    ]
+  },
+  {
+    "nameKo": "사고/인지 동사",
+    "nameEn": "Thinking/Cognition",
+    "words": [
+      {
+        "word": "think",
+        "pronunciation": "/θɪŋk/",
+        "meaning": "생각하다",
+        "pastTense": "thought",
+        "pastParticiple": "thought",
+        "example": "I think you're right.",
+        "translation": "네 말이 맞는 것 같아."
+      },
+      {
+        "word": "know",
+        "pronunciation": "/noʊ/",
+        "meaning": "알다",
+        "pastTense": "knew",
+        "pastParticiple": "known",
+        "example": "I know the answer.",
+        "translation": "나 답 알아."
+      },
+      {
+        "word": "understand",
+        "pronunciation": "/ˌʌndərˈstænd/",
+        "meaning": "이해하다",
+        "pastTense": "understood",
+        "pastParticiple": "understood",
+        "example": "I understand your point.",
+        "translation": "네 말 이해해."
+      },
+      {
+        "word": "realize",
+        "pronunciation": "/ˈriːəlaɪz/",
+        "meaning": "깨닫다",
+        "pastTense": "realized",
+        "pastParticiple": "realized",
+        "example": "I realized my mistake.",
+        "translation": "내 실수를 깨달았어."
+      },
+      {
+        "word": "recognize",
+        "pronunciation": "/ˈrekəɡnaɪz/",
+        "meaning": "인식하다",
+        "pastTense": "recognized",
+        "pastParticiple": "recognized",
+        "example": "I didn't recognize you!",
+        "translation": "못 알아봤어!"
+      },
+      {
+        "word": "remember",
+        "pronunciation": "/rɪˈmembər/",
+        "meaning": "기억하다",
+        "pastTense": "remembered",
+        "pastParticiple": "remembered",
+        "example": "Do you remember me?",
+        "translation": "나 기억해?"
+      },
+      {
+        "word": "forget",
+        "pronunciation": "/fərˈɡet/",
+        "meaning": "잊다",
+        "pastTense": "forgot",
+        "pastParticiple": "forgotten",
+        "example": "I forgot my password.",
+        "translation": "비밀번호를 잊어버렸어."
+      },
+      {
+        "word": "learn",
+        "pronunciation": "/lɜːrn/",
+        "meaning": "배우다",
+        "pastTense": "learned",
+        "pastParticiple": "learned",
+        "example": "I'm learning to cook.",
+        "translation": "나 요리 배우고 있어."
+      },
+      {
+        "word": "study",
+        "pronunciation": "/ˈstʌdi/",
+        "meaning": "공부하다",
+        "pastTense": "studied",
+        "pastParticiple": "studied",
+        "example": "I study every night.",
+        "translation": "나 매일 밤 공부해."
+      },
+      {
+        "word": "read",
+        "pronunciation": "/riːd/",
+        "meaning": "읽다",
+        "pastTense": "read",
+        "pastParticiple": "read",
+        "example": "I read the newspaper.",
+        "translation": "나 신문 읽었어."
+      },
+      {
+        "word": "write",
+        "pronunciation": "/raɪt/",
+        "meaning": "쓰다",
+        "pastTense": "wrote",
+        "pastParticiple": "written",
+        "example": "Write your name here.",
+        "translation": "여기에 이름 쓰세요."
+      },
+      {
+        "word": "believe",
+        "pronunciation": "/bɪˈliːv/",
+        "meaning": "믿다",
+        "pastTense": "believed",
+        "pastParticiple": "believed",
+        "example": "I believe in you.",
+        "translation": "나는 너를 믿어."
+      },
+      {
+        "word": "doubt",
+        "pronunciation": "/daʊt/",
+        "meaning": "의심하다",
+        "pastTense": "doubted",
+        "pastParticiple": "doubted",
+        "example": "I doubt that's true.",
+        "translation": "그게 사실인지 의심스러워."
+      },
+      {
+        "word": "wonder",
+        "pronunciation": "/ˈwʌndər/",
+        "meaning": "궁금해하다",
+        "pastTense": "wondered",
+        "pastParticiple": "wondered",
+        "example": "I wonder why she left.",
+        "translation": "그녀가 왜 떠났는지 궁금해."
+      },
+      {
+        "word": "suppose",
+        "pronunciation": "/səˈpoʊz/",
+        "meaning": "추측하다",
+        "pastTense": "supposed",
+        "pastParticiple": "supposed",
+        "example": "I suppose you're tired.",
+        "translation": "아마 피곤하겠지."
+      },
+      {
+        "word": "assume",
+        "pronunciation": "/əˈsuːm/",
+        "meaning": "추정하다",
+        "pastTense": "assumed",
+        "pastParticiple": "assumed",
+        "example": "Don't assume anything.",
+        "translation": "아무것도 추측하지 마."
+      },
+      {
+        "word": "guess",
+        "pronunciation": "/ɡes/",
+        "meaning": "추측하다",
+        "pastTense": "guessed",
+        "pastParticiple": "guessed",
+        "example": "Guess what happened!",
+        "translation": "무슨 일이 있었게?"
+      },
+      {
+        "word": "imagine",
+        "pronunciation": "/ɪˈmædʒɪn/",
+        "meaning": "상상하다",
+        "pastTense": "imagined",
+        "pastParticiple": "imagined",
+        "example": "Imagine living in Paris!",
+        "translation": "파리에서 사는 거 상상해봐!"
+      },
+      {
+        "word": "dream",
+        "pronunciation": "/driːm/",
+        "meaning": "꿈꾸다",
+        "pastTense": "dreamed",
+        "pastParticiple": "dreamed",
+        "example": "I dreamed about you.",
+        "translation": "너 꿈에 나왔어."
+      },
+      {
+        "word": "expect",
+        "pronunciation": "/ɪkˈspekt/",
+        "meaning": "기대하다",
+        "pastTense": "expected",
+        "pastParticiple": "expected",
+        "example": "I didn't expect this.",
+        "translation": "이건 예상 못 했어."
+      },
+      {
+        "word": "hope",
+        "pronunciation": "/hoʊp/",
+        "meaning": "바라다",
+        "pastTense": "hoped",
+        "pastParticiple": "hoped",
+        "example": "I hope you feel better.",
+        "translation": "빨리 나았으면 좋겠어."
+      },
+      {
+        "word": "wish",
+        "pronunciation": "/wɪʃ/",
+        "meaning": "바라다",
+        "pastTense": "wished",
+        "pastParticiple": "wished",
+        "example": "I wish I could fly.",
+        "translation": "날 수 있으면 좋겠어."
+      },
+      {
+        "word": "plan",
+        "pronunciation": "/plæn/",
+        "meaning": "계획하다",
+        "pastTense": "planned",
+        "pastParticiple": "planned",
+        "example": "What do you plan to do?",
+        "translation": "뭐 할 계획이야?"
+      },
+      {
+        "word": "decide",
+        "pronunciation": "/dɪˈsaɪd/",
+        "meaning": "결정하다",
+        "pastTense": "decided",
+        "pastParticiple": "decided",
+        "example": "Have you decided yet?",
+        "translation": "결정했어?"
+      },
+      {
+        "word": "choose",
+        "pronunciation": "/tʃuːz/",
+        "meaning": "선택하다",
+        "pastTense": "chose",
+        "pastParticiple": "chosen",
+        "example": "Choose wisely.",
+        "translation": "현명하게 선택해."
+      },
+      {
+        "word": "consider",
+        "pronunciation": "/kənˈsɪdər/",
+        "meaning": "고려하다",
+        "pastTense": "considered",
+        "pastParticiple": "considered",
+        "example": "Consider all options.",
+        "translation": "모든 옵션을 고려해."
+      },
+      {
+        "word": "compare",
+        "pronunciation": "/kəmˈper/",
+        "meaning": "비교하다",
+        "pastTense": "compared",
+        "pastParticiple": "compared",
+        "example": "Don't compare yourself to others.",
+        "translation": "다른 사람과 비교하지 마."
+      },
+      {
+        "word": "judge",
+        "pronunciation": "/dʒʌdʒ/",
+        "meaning": "판단하다",
+        "pastTense": "judged",
+        "pastParticiple": "judged",
+        "example": "Don't judge a book by its cover.",
+        "translation": "겉모습으로 판단하지 마."
+      },
+      {
+        "word": "evaluate",
+        "pronunciation": "/ɪˈvæljueɪt/",
+        "meaning": "평가하다",
+        "pastTense": "evaluated",
+        "pastParticiple": "evaluated",
+        "example": "We need to evaluate this.",
+        "translation": "우리는 이걸 평가해야 해."
+      },
+      {
+        "word": "analyze",
+        "pronunciation": "/ˈænəlaɪz/",
+        "meaning": "분석하다",
+        "pastTense": "analyzed",
+        "pastParticiple": "analyzed",
+        "example": "Let's analyze the data.",
+        "translation": "데이터를 분석하자."
+      },
+      {
+        "word": "solve",
+        "pronunciation": "/sɑːlv/",
+        "meaning": "해결하다",
+        "pastTense": "solved",
+        "pastParticiple": "solved",
+        "example": "Can you solve this problem?",
+        "translation": "이 문제 풀 수 있어?"
+      },
+      {
+        "word": "figure",
+        "pronunciation": "/ˈfɪɡjər/",
+        "meaning": "이해하다",
+        "pastTense": "figured",
+        "pastParticiple": "figured",
+        "example": "I figured it out!",
+        "translation": "알아냈어!"
+      },
+      {
+        "word": "calculate",
+        "pronunciation": "/ˈkælkjuleɪt/",
+        "meaning": "계산하다",
+        "pastTense": "calculated",
+        "pastParticiple": "calculated",
+        "example": "Calculate the total cost.",
+        "translation": "총 비용을 계산해."
+      },
+      {
+        "word": "count",
+        "pronunciation": "/kaʊnt/",
+        "meaning": "세다",
+        "pastTense": "counted",
+        "pastParticiple": "counted",
+        "example": "Count the money.",
+        "translation": "돈을 세."
+      },
+      {
+        "word": "measure",
+        "pronunciation": "/ˈmeʒər/",
+        "meaning": "측정하다",
+        "pastTense": "measured",
+        "pastParticiple": "measured",
+        "example": "Measure twice, cut once.",
+        "translation": "재어보고 자르라."
+      },
+      {
+        "word": "focus",
+        "pronunciation": "/ˈfoʊkəs/",
+        "meaning": "집중하다",
+        "pastTense": "focused",
+        "pastParticiple": "focused",
+        "example": "Focus on your work.",
+        "translation": "일에 집중해."
+      },
+      {
+        "word": "concentrate",
+        "pronunciation": "/ˈkɑːnsntreɪt/",
+        "meaning": "집중하다",
+        "pastTense": "concentrated",
+        "pastParticiple": "concentrated",
+        "example": "I can't concentrate here.",
+        "translation": "여기서는 집중이 안 돼."
+      },
+      {
+        "word": "notice",
+        "pronunciation": "/ˈnoʊtɪs/",
+        "meaning": "알아차리다",
+        "pastTense": "noticed",
+        "pastParticiple": "noticed",
+        "example": "Did you notice anything?",
+        "translation": "뭔가 눈치챘어?"
+      },
+      {
+        "word": "observe",
+        "pronunciation": "/əbˈzɜːrv/",
+        "meaning": "관찰하다",
+        "pastTense": "observed",
+        "pastParticiple": "observed",
+        "example": "Observe the animals quietly.",
+        "translation": "조용히 동물들을 관찰해."
+      },
+      {
+        "word": "discover",
+        "pronunciation": "/dɪˈskʌvər/",
+        "meaning": "발견하다",
+        "pastTense": "discovered",
+        "pastParticiple": "discovered",
+        "example": "We discovered a new place.",
+        "translation": "우리는 새로운 장소를 발견했어."
+      },
+      {
+        "word": "explore",
+        "pronunciation": "/ɪkˈsplɔːr/",
+        "meaning": "탐험하다",
+        "pastTense": "explored",
+        "pastParticiple": "explored",
+        "example": "Let's explore the city.",
+        "translation": "도시를 탐험하자."
+      },
+      {
+        "word": "search",
+        "pronunciation": "/sɜːrtʃ/",
+        "meaning": "검색하다",
+        "pastTense": "searched",
+        "pastParticiple": "searched",
+        "example": "Search it on Google.",
+        "translation": "구글에서 검색해봐."
+      },
+      {
+        "word": "research",
+        "pronunciation": "/rɪˈsɜːrtʃ/",
+        "meaning": "연구하다",
+        "pastTense": "researched",
+        "pastParticiple": "researched",
+        "example": "I researched the topic.",
+        "translation": "나 그 주제 조사했어."
+      },
+      {
+        "word": "investigate",
+        "pronunciation": "/ɪnˈvestɪɡeɪt/",
+        "meaning": "조사하다",
+        "pastTense": "investigated",
+        "pastParticiple": "investigated",
+        "example": "Police investigated the case.",
+        "translation": "경찰이 사건을 조사했어."
+      },
+      {
+        "word": "examine",
+        "pronunciation": "/ɪɡˈzæmɪn/",
+        "meaning": "검사하다",
+        "pastTense": "examined",
+        "pastParticiple": "examined",
+        "example": "The doctor examined me.",
+        "translation": "의사가 나를 검사했어."
+      },
+      {
+        "word": "test",
+        "pronunciation": "/test/",
+        "meaning": "테스트하다",
+        "pastTense": "tested",
+        "pastParticiple": "tested",
+        "example": "We tested the new system.",
+        "translation": "우리는 새 시스템을 테스트했어."
+      },
+      {
+        "word": "prove",
+        "pronunciation": "/pruːv/",
+        "meaning": "증명하다",
+        "pastTense": "proved",
+        "pastParticiple": "proved/proven",
+        "example": "Prove that you're right.",
+        "translation": "네가 맞다는 걸 증명해."
+      },
+      {
+        "word": "confirm",
+        "pronunciation": "/kənˈfɜːrm/",
+        "meaning": "확인하다",
+        "pastTense": "confirmed",
+        "pastParticiple": "confirmed",
+        "example": "Please confirm your order.",
+        "translation": "주문을 확인해 주세요."
+      },
+      {
+        "word": "verify",
+        "pronunciation": "/ˈverɪfaɪ/",
+        "meaning": "검증하다",
+        "pastTense": "verified",
+        "pastParticiple": "verified",
+        "example": "Verify your email address.",
+        "translation": "이메일 주소를 확인해 주세요."
+      },
+      {
+        "word": "conclude",
+        "pronunciation": "/kənˈkluːd/",
+        "meaning": "결론짓다",
+        "pastTense": "concluded",
+        "pastParticiple": "concluded",
+        "example": "I concluded it was a mistake.",
+        "translation": "그건 실수라고 결론지었어."
+      }
+    ]
+  },
+  {
+    "nameKo": "감정 동사",
+    "nameEn": "Emotion Verbs",
+    "words": [
+      {
+        "word": "love",
+        "pronunciation": "/lʌv/",
+        "meaning": "사랑하다",
+        "pastTense": "loved",
+        "pastParticiple": "loved",
+        "example": "I love you so much.",
+        "translation": "너무 사랑해."
+      },
+      {
+        "word": "like",
+        "pronunciation": "/laɪk/",
+        "meaning": "좋아하다",
+        "pastTense": "liked",
+        "pastParticiple": "liked",
+        "example": "I like your style.",
+        "translation": "네 스타일 좋아."
+      },
+      {
+        "word": "enjoy",
+        "pronunciation": "/ɪnˈdʒɔɪ/",
+        "meaning": "즐기다",
+        "pastTense": "enjoyed",
+        "pastParticiple": "enjoyed",
+        "example": "Enjoy your meal!",
+        "translation": "맛있게 드세요!"
+      },
+      {
+        "word": "prefer",
+        "pronunciation": "/prɪˈfɜːr/",
+        "meaning": "선호하다",
+        "pastTense": "preferred",
+        "pastParticiple": "preferred",
+        "example": "I prefer tea over coffee.",
+        "translation": "나는 커피보다 차를 선호해."
+      },
+      {
+        "word": "hate",
+        "pronunciation": "/heɪt/",
+        "meaning": "싫어하다",
+        "pastTense": "hated",
+        "pastParticiple": "hated",
+        "example": "I hate getting up early.",
+        "translation": "나는 일찍 일어나는 게 싫어."
+      },
+      {
+        "word": "dislike",
+        "pronunciation": "/dɪsˈlaɪk/",
+        "meaning": "싫어하다",
+        "pastTense": "disliked",
+        "pastParticiple": "disliked",
+        "example": "I dislike loud music.",
+        "translation": "나는 시끄러운 음악을 싫어해."
+      },
+      {
+        "word": "mind",
+        "pronunciation": "/maɪnd/",
+        "meaning": "꺼리다",
+        "pastTense": "minded",
+        "pastParticiple": "minded",
+        "example": "Would you mind waiting?",
+        "translation": "기다려도 괜찮으세요?"
+      },
+      {
+        "word": "care",
+        "pronunciation": "/ker/",
+        "meaning": "신경쓰다",
+        "pastTense": "cared",
+        "pastParticiple": "cared",
+        "example": "I care about you.",
+        "translation": "나는 네가 신경 쓰여."
+      },
+      {
+        "word": "worry",
+        "pronunciation": "/ˈwɜːri/",
+        "meaning": "걱정하다",
+        "pastTense": "worried",
+        "pastParticiple": "worried",
+        "example": "Don't worry about it.",
+        "translation": "걱정하지 마."
+      },
+      {
+        "word": "fear",
+        "pronunciation": "/fɪr/",
+        "meaning": "두려워하다",
+        "pastTense": "feared",
+        "pastParticiple": "feared",
+        "example": "I fear the unknown.",
+        "translation": "나는 미지의 것이 두려워."
+      },
+      {
+        "word": "scare",
+        "pronunciation": "/sker/",
+        "meaning": "겁주다",
+        "pastTense": "scared",
+        "pastParticiple": "scared",
+        "example": "You scared me!",
+        "translation": "놀랐잖아!"
+      },
+      {
+        "word": "frighten",
+        "pronunciation": "/ˈfraɪtn/",
+        "meaning": "놀라게하다",
+        "pastTense": "frightened",
+        "pastParticiple": "frightened",
+        "example": "The noise frightened me.",
+        "translation": "그 소리에 놀랐어."
+      },
+      {
+        "word": "surprise",
+        "pronunciation": "/sərˈpraɪz/",
+        "meaning": "놀라게하다",
+        "pastTense": "surprised",
+        "pastParticiple": "surprised",
+        "example": "You surprised me!",
+        "translation": "깜짝이야!"
+      },
+      {
+        "word": "shock",
+        "pronunciation": "/ʃɑːk/",
+        "meaning": "충격주다",
+        "pastTense": "shocked",
+        "pastParticiple": "shocked",
+        "example": "The news shocked everyone.",
+        "translation": "그 소식에 모두가 충격 받았어."
+      },
+      {
+        "word": "excite",
+        "pronunciation": "/ɪkˈsaɪt/",
+        "meaning": "흥분시키다",
+        "pastTense": "excited",
+        "pastParticiple": "excited",
+        "example": "The movie excited me.",
+        "translation": "그 영화 정말 흥분됐어."
+      },
+      {
+        "word": "interest",
+        "pronunciation": "/ˈɪntrəst/",
+        "meaning": "관심끌다",
+        "pastTense": "interested",
+        "pastParticiple": "interested",
+        "example": "This topic interests me.",
+        "translation": "이 주제에 관심이 가."
+      },
+      {
+        "word": "bore",
+        "pronunciation": "/bɔːr/",
+        "meaning": "지루하게하다",
+        "pastTense": "bored",
+        "pastParticiple": "bored",
+        "example": "The lecture bored me.",
+        "translation": "강의가 지루했어."
+      },
+      {
+        "word": "annoy",
+        "pronunciation": "/əˈnɔɪ/",
+        "meaning": "짜증나게하다",
+        "pastTense": "annoyed",
+        "pastParticiple": "annoyed",
+        "example": "Stop annoying me!",
+        "translation": "짜증나게 하지 마!"
+      },
+      {
+        "word": "irritate",
+        "pronunciation": "/ˈɪrɪteɪt/",
+        "meaning": "짜증나게하다",
+        "pastTense": "irritated",
+        "pastParticiple": "irritated",
+        "example": "His attitude irritates me.",
+        "translation": "그의 태도가 짜증나."
+      },
+      {
+        "word": "frustrate",
+        "pronunciation": "/ˈfrʌstreɪt/",
+        "meaning": "좌절시키다",
+        "pastTense": "frustrated",
+        "pastParticiple": "frustrated",
+        "example": "This problem frustrates me.",
+        "translation": "이 문제가 나를 좌절시켜."
+      },
+      {
+        "word": "disappoint",
+        "pronunciation": "/ˌdɪsəˈpɔɪnt/",
+        "meaning": "실망시키다",
+        "pastTense": "disappointed",
+        "pastParticiple": "disappointed",
+        "example": "Don't disappoint me.",
+        "translation": "실망시키지 마."
+      },
+      {
+        "word": "satisfy",
+        "pronunciation": "/ˈsætɪsfaɪ/",
+        "meaning": "만족시키다",
+        "pastTense": "satisfied",
+        "pastParticiple": "satisfied",
+        "example": "This answer satisfies me.",
+        "translation": "이 대답에 만족해."
+      },
+      {
+        "word": "please",
+        "pronunciation": "/pliːz/",
+        "meaning": "기쁘게하다",
+        "pastTense": "pleased",
+        "pastParticiple": "pleased",
+        "example": "I'm pleased to meet you.",
+        "translation": "만나서 기뻐요."
+      },
+      {
+        "word": "delight",
+        "pronunciation": "/dɪˈlaɪt/",
+        "meaning": "기쁘게하다",
+        "pastTense": "delighted",
+        "pastParticiple": "delighted",
+        "example": "The gift delighted her.",
+        "translation": "선물이 그녀를 기쁘게 했어."
+      },
+      {
+        "word": "amaze",
+        "pronunciation": "/əˈmeɪz/",
+        "meaning": "놀라게하다",
+        "pastTense": "amazed",
+        "pastParticiple": "amazed",
+        "example": "The view amazed us.",
+        "translation": "그 경치에 놀랐어."
+      },
+      {
+        "word": "impress",
+        "pronunciation": "/ɪmˈpres/",
+        "meaning": "감동시키다",
+        "pastTense": "impressed",
+        "pastParticiple": "impressed",
+        "example": "She impressed everyone.",
+        "translation": "그녀는 모두를 감동시켰어."
+      },
+      {
+        "word": "inspire",
+        "pronunciation": "/ɪnˈspaɪr/",
+        "meaning": "영감을주다",
+        "pastTense": "inspired",
+        "pastParticiple": "inspired",
+        "example": "His speech inspired me.",
+        "translation": "그의 연설에 영감을 받았어."
+      },
+      {
+        "word": "motivate",
+        "pronunciation": "/ˈmoʊtɪveɪt/",
+        "meaning": "동기부여하다",
+        "pastTense": "motivated",
+        "pastParticiple": "motivated",
+        "example": "What motivates you?",
+        "translation": "무엇이 동기부여가 돼?"
+      },
+      {
+        "word": "relax",
+        "pronunciation": "/rɪˈlæks/",
+        "meaning": "편안하게하다",
+        "pastTense": "relaxed",
+        "pastParticiple": "relaxed",
+        "example": "Just relax and enjoy.",
+        "translation": "편하게 즐겨."
+      },
+      {
+        "word": "calm",
+        "pronunciation": "/kɑːm/",
+        "meaning": "진정시키다",
+        "pastTense": "calmed",
+        "pastParticiple": "calmed",
+        "example": "Calm down please.",
+        "translation": "진정해."
+      },
+      {
+        "word": "comfort",
+        "pronunciation": "/ˈkʌmfərt/",
+        "meaning": "위로하다",
+        "pastTense": "comforted",
+        "pastParticiple": "comforted",
+        "example": "She comforted the child.",
+        "translation": "그녀가 아이를 위로했어."
+      },
+      {
+        "word": "hurt",
+        "pronunciation": "/hɜːrt/",
+        "meaning": "다치게하다",
+        "pastTense": "hurt",
+        "pastParticiple": "hurt",
+        "example": "Your words hurt me.",
+        "translation": "네 말에 상처 받았어."
+      },
+      {
+        "word": "upset",
+        "pronunciation": "/ʌpˈset/",
+        "meaning": "속상하게하다",
+        "pastTense": "upset",
+        "pastParticiple": "upset",
+        "example": "The news upset her.",
+        "translation": "그 소식이 그녀를 속상하게 했어."
+      },
+      {
+        "word": "offend",
+        "pronunciation": "/əˈfend/",
+        "meaning": "기분상하게하다",
+        "pastTense": "offended",
+        "pastParticiple": "offended",
+        "example": "I didn't mean to offend you.",
+        "translation": "기분 상하게 하려던 건 아니었어."
+      },
+      {
+        "word": "embarrass",
+        "pronunciation": "/ɪmˈbærəs/",
+        "meaning": "당황하게하다",
+        "pastTense": "embarrassed",
+        "pastParticiple": "embarrassed",
+        "example": "Don't embarrass me.",
+        "translation": "창피 주지 마."
+      },
+      {
+        "word": "confuse",
+        "pronunciation": "/kənˈfjuːz/",
+        "meaning": "혼란스럽게하다",
+        "pastTense": "confused",
+        "pastParticiple": "confused",
+        "example": "This confuses me.",
+        "translation": "이게 헷갈려."
+      },
+      {
+        "word": "overwhelm",
+        "pronunciation": "/ˌoʊvərˈwelm/",
+        "meaning": "압도하다",
+        "pastTense": "overwhelmed",
+        "pastParticiple": "overwhelmed",
+        "example": "I feel overwhelmed.",
+        "translation": "감당이 안 돼."
+      },
+      {
+        "word": "stress",
+        "pronunciation": "/stres/",
+        "meaning": "스트레스주다",
+        "pastTense": "stressed",
+        "pastParticiple": "stressed",
+        "example": "Work stresses me out.",
+        "translation": "일이 스트레스야."
+      },
+      {
+        "word": "tire",
+        "pronunciation": "/taɪr/",
+        "meaning": "지치게하다",
+        "pastTense": "tired",
+        "pastParticiple": "tired",
+        "example": "Walking tires me.",
+        "translation": "걷는 게 피곤해."
+      },
+      {
+        "word": "exhaust",
+        "pronunciation": "/ɪɡˈzɔːst/",
+        "meaning": "지치게하다",
+        "pastTense": "exhausted",
+        "pastParticiple": "exhausted",
+        "example": "I'm exhausted from work.",
+        "translation": "일 때문에 완전 지쳤어."
+      },
+      {
+        "word": "suffer",
+        "pronunciation": "/ˈsʌfər/",
+        "meaning": "고통받다",
+        "pastTense": "suffered",
+        "pastParticiple": "suffered",
+        "example": "He suffered from headaches.",
+        "translation": "그는 두통에 시달렸어."
+      },
+      {
+        "word": "miss",
+        "pronunciation": "/mɪs/",
+        "meaning": "그리워하다",
+        "pastTense": "missed",
+        "pastParticiple": "missed",
+        "example": "I miss my family.",
+        "translation": "가족이 보고 싶어."
+      },
+      {
+        "word": "regret",
+        "pronunciation": "/rɪˈɡret/",
+        "meaning": "후회하다",
+        "pastTense": "regretted",
+        "pastParticiple": "regretted",
+        "example": "I regret my decision.",
+        "translation": "내 결정을 후회해."
+      },
+      {
+        "word": "appreciate",
+        "pronunciation": "/əˈpriːʃieɪt/",
+        "meaning": "감사하다",
+        "pastTense": "appreciated",
+        "pastParticiple": "appreciated",
+        "example": "I appreciate your help.",
+        "translation": "도와줘서 고마워."
+      },
+      {
+        "word": "respect",
+        "pronunciation": "/rɪˈspekt/",
+        "meaning": "존경하다",
+        "pastTense": "respected",
+        "pastParticiple": "respected",
+        "example": "I respect your opinion.",
+        "translation": "네 의견을 존중해."
+      }
+    ]
+  },
+  {
+    "nameKo": "일상생활 동사",
+    "nameEn": "Daily Life Verbs",
+    "words": [
+      {
+        "word": "wake",
+        "pronunciation": "/weɪk/",
+        "meaning": "깨다",
+        "pastTense": "woke",
+        "pastParticiple": "woken",
+        "example": "I wake up at 7 AM.",
+        "translation": "나는 아침 7시에 일어나."
+      },
+      {
+        "word": "sleep",
+        "pronunciation": "/sliːp/",
+        "meaning": "자다",
+        "pastTense": "slept",
+        "pastParticiple": "slept",
+        "example": "I couldn't sleep last night.",
+        "translation": "어젯밤 잠을 못 잤어."
+      },
+      {
+        "word": "rest",
+        "pronunciation": "/rest/",
+        "meaning": "쉬다",
+        "pastTense": "rested",
+        "pastParticiple": "rested",
+        "example": "You need to rest more.",
+        "translation": "더 쉬어야 해."
+      },
+      {
+        "word": "eat",
+        "pronunciation": "/iːt/",
+        "meaning": "먹다",
+        "pastTense": "ate",
+        "pastParticiple": "eaten",
+        "example": "Let's eat lunch together.",
+        "translation": "같이 점심 먹자."
+      },
+      {
+        "word": "drink",
+        "pronunciation": "/drɪŋk/",
+        "meaning": "마시다",
+        "pastTense": "drank",
+        "pastParticiple": "drunk",
+        "example": "Drink plenty of water.",
+        "translation": "물 많이 마셔."
+      },
+      {
+        "word": "cook",
+        "pronunciation": "/kʊk/",
+        "meaning": "요리하다",
+        "pastTense": "cooked",
+        "pastParticiple": "cooked",
+        "example": "I cook dinner every day.",
+        "translation": "나는 매일 저녁을 요리해."
+      },
+      {
+        "word": "bake",
+        "pronunciation": "/beɪk/",
+        "meaning": "굽다",
+        "pastTense": "baked",
+        "pastParticiple": "baked",
+        "example": "She baked cookies for us.",
+        "translation": "그녀가 쿠키를 구워줬어."
+      },
+      {
+        "word": "fry",
+        "pronunciation": "/fraɪ/",
+        "meaning": "튀기다",
+        "pastTense": "fried",
+        "pastParticiple": "fried",
+        "example": "Fry the eggs sunny side up.",
+        "translation": "계란 프라이 해줘."
+      },
+      {
+        "word": "boil",
+        "pronunciation": "/bɔɪl/",
+        "meaning": "끓이다",
+        "pastTense": "boiled",
+        "pastParticiple": "boiled",
+        "example": "Boil the water first.",
+        "translation": "먼저 물을 끓여."
+      },
+      {
+        "word": "roast",
+        "pronunciation": "/roʊst/",
+        "meaning": "굽다",
+        "pastTense": "roasted",
+        "pastParticiple": "roasted",
+        "example": "We roasted chicken for dinner.",
+        "translation": "저녁으로 치킨을 구웠어."
+      },
+      {
+        "word": "grill",
+        "pronunciation": "/ɡrɪl/",
+        "meaning": "굽다",
+        "pastTense": "grilled",
+        "pastParticiple": "grilled",
+        "example": "Let's grill some meat.",
+        "translation": "고기 좀 굽자."
+      },
+      {
+        "word": "chop",
+        "pronunciation": "/tʃɑːp/",
+        "meaning": "썰다",
+        "pastTense": "chopped",
+        "pastParticiple": "chopped",
+        "example": "Chop the onions finely.",
+        "translation": "양파를 잘게 썰어."
+      },
+      {
+        "word": "slice",
+        "pronunciation": "/slaɪs/",
+        "meaning": "얇게썰다",
+        "pastTense": "sliced",
+        "pastParticiple": "sliced",
+        "example": "Slice the bread please.",
+        "translation": "빵 좀 썰어줘."
+      },
+      {
+        "word": "mix",
+        "pronunciation": "/mɪks/",
+        "meaning": "섞다",
+        "pastTense": "mixed",
+        "pastParticiple": "mixed",
+        "example": "Mix the ingredients well.",
+        "translation": "재료를 잘 섞어."
+      },
+      {
+        "word": "stir",
+        "pronunciation": "/stɜːr/",
+        "meaning": "젓다",
+        "pastTense": "stirred",
+        "pastParticiple": "stirred",
+        "example": "Stir the soup occasionally.",
+        "translation": "가끔 수프를 저어줘."
+      },
+      {
+        "word": "wash",
+        "pronunciation": "/wɑːʃ/",
+        "meaning": "씻다",
+        "pastTense": "washed",
+        "pastParticiple": "washed",
+        "example": "Wash your hands before eating.",
+        "translation": "먹기 전에 손 씻어."
+      },
+      {
+        "word": "clean",
+        "pronunciation": "/kliːn/",
+        "meaning": "청소하다",
+        "pastTense": "cleaned",
+        "pastParticiple": "cleaned",
+        "example": "I clean my room every week.",
+        "translation": "나는 매주 방 청소해."
+      },
+      {
+        "word": "sweep",
+        "pronunciation": "/swiːp/",
+        "meaning": "쓸다",
+        "pastTense": "swept",
+        "pastParticiple": "swept",
+        "example": "Sweep the floor please.",
+        "translation": "바닥 좀 쓸어줘."
+      },
+      {
+        "word": "wipe",
+        "pronunciation": "/waɪp/",
+        "meaning": "닦다",
+        "pastTense": "wiped",
+        "pastParticiple": "wiped",
+        "example": "Wipe the table clean.",
+        "translation": "테이블 깨끗이 닦아."
+      },
+      {
+        "word": "dust",
+        "pronunciation": "/dʌst/",
+        "meaning": "먼지털다",
+        "pastTense": "dusted",
+        "pastParticiple": "dusted",
+        "example": "I dusted the furniture.",
+        "translation": "가구 먼지를 털었어."
+      },
+      {
+        "word": "vacuum",
+        "pronunciation": "/ˈvækjuːm/",
+        "meaning": "청소기돌리다",
+        "pastTense": "vacuumed",
+        "pastParticiple": "vacuumed",
+        "example": "I vacuum the carpet weekly.",
+        "translation": "매주 카펫에 청소기 돌려."
+      },
+      {
+        "word": "iron",
+        "pronunciation": "/ˈaɪərn/",
+        "meaning": "다림질하다",
+        "pastTense": "ironed",
+        "pastParticiple": "ironed",
+        "example": "I need to iron my shirt.",
+        "translation": "셔츠 다림질해야 해."
+      },
+      {
+        "word": "fold",
+        "pronunciation": "/foʊld/",
+        "meaning": "접다",
+        "pastTense": "folded",
+        "pastParticiple": "folded",
+        "example": "Fold the laundry neatly.",
+        "translation": "빨래 잘 개어."
+      },
+      {
+        "word": "hang",
+        "pronunciation": "/hæŋ/",
+        "meaning": "걸다",
+        "pastTense": "hung",
+        "pastParticiple": "hung",
+        "example": "Hang your coat here.",
+        "translation": "코트 여기 걸어."
+      },
+      {
+        "word": "dry",
+        "pronunciation": "/draɪ/",
+        "meaning": "말리다",
+        "pastTense": "dried",
+        "pastParticiple": "dried",
+        "example": "Dry the dishes please.",
+        "translation": "그릇 좀 말려줘."
+      },
+      {
+        "word": "dress",
+        "pronunciation": "/dres/",
+        "meaning": "옷입다",
+        "pastTense": "dressed",
+        "pastParticiple": "dressed",
+        "example": "Get dressed quickly.",
+        "translation": "빨리 옷 입어."
+      },
+      {
+        "word": "wear",
+        "pronunciation": "/wer/",
+        "meaning": "입다",
+        "pastTense": "wore",
+        "pastParticiple": "worn",
+        "example": "What should I wear today?",
+        "translation": "오늘 뭘 입을까?"
+      },
+      {
+        "word": "undress",
+        "pronunciation": "/ʌnˈdres/",
+        "meaning": "옷벗다",
+        "pastTense": "undressed",
+        "pastParticiple": "undressed",
+        "example": "Undress for the medical exam.",
+        "translation": "진찰받으려고 옷 벗어."
+      },
+      {
+        "word": "change",
+        "pronunciation": "/tʃeɪndʒ/",
+        "meaning": "갈아입다",
+        "pastTense": "changed",
+        "pastParticiple": "changed",
+        "example": "I need to change my clothes.",
+        "translation": "옷 갈아입어야 해."
+      },
+      {
+        "word": "shower",
+        "pronunciation": "/ˈʃaʊər/",
+        "meaning": "샤워하다",
+        "pastTense": "showered",
+        "pastParticiple": "showered",
+        "example": "I shower every morning.",
+        "translation": "나는 매일 아침 샤워해."
+      },
+      {
+        "word": "bathe",
+        "pronunciation": "/beɪð/",
+        "meaning": "목욕하다",
+        "pastTense": "bathed",
+        "pastParticiple": "bathed",
+        "example": "She bathed the baby.",
+        "translation": "그녀가 아기를 목욕시켰어."
+      },
+      {
+        "word": "brush",
+        "pronunciation": "/brʌʃ/",
+        "meaning": "닦다",
+        "pastTense": "brushed",
+        "pastParticiple": "brushed",
+        "example": "Brush your teeth twice a day.",
+        "translation": "하루에 두 번 이 닦아."
+      },
+      {
+        "word": "comb",
+        "pronunciation": "/koʊm/",
+        "meaning": "빗다",
+        "pastTense": "combed",
+        "pastParticiple": "combed",
+        "example": "Comb your hair before going out.",
+        "translation": "나가기 전에 머리 빗어."
+      },
+      {
+        "word": "shave",
+        "pronunciation": "/ʃeɪv/",
+        "meaning": "면도하다",
+        "pastTense": "shaved",
+        "pastParticiple": "shaved",
+        "example": "I shave every morning.",
+        "translation": "나는 매일 아침 면도해."
+      },
+      {
+        "word": "shop",
+        "pronunciation": "/ʃɑːp/",
+        "meaning": "쇼핑하다",
+        "pastTense": "shopped",
+        "pastParticiple": "shopped",
+        "example": "Let's go shopping this weekend.",
+        "translation": "이번 주말에 쇼핑하러 가자."
+      },
+      {
+        "word": "buy",
+        "pronunciation": "/baɪ/",
+        "meaning": "사다",
+        "pastTense": "bought",
+        "pastParticiple": "bought",
+        "example": "I bought a new phone.",
+        "translation": "새 폰 샀어."
+      },
+      {
+        "word": "sell",
+        "pronunciation": "/sel/",
+        "meaning": "팔다",
+        "pastTense": "sold",
+        "pastParticiple": "sold",
+        "example": "They sell fresh vegetables.",
+        "translation": "거기서 신선한 야채를 팔아."
+      },
+      {
+        "word": "pay",
+        "pronunciation": "/peɪ/",
+        "meaning": "지불하다",
+        "pastTense": "paid",
+        "pastParticiple": "paid",
+        "example": "I'll pay for dinner.",
+        "translation": "저녁은 내가 살게."
+      },
+      {
+        "word": "spend",
+        "pronunciation": "/spend/",
+        "meaning": "쓰다",
+        "pastTense": "spent",
+        "pastParticiple": "spent",
+        "example": "Don't spend too much money.",
+        "translation": "돈 너무 많이 쓰지 마."
+      },
+      {
+        "word": "save",
+        "pronunciation": "/seɪv/",
+        "meaning": "저축하다",
+        "pastTense": "saved",
+        "pastParticiple": "saved",
+        "example": "I'm saving for a car.",
+        "translation": "차 사려고 저축하고 있어."
+      },
+      {
+        "word": "waste",
+        "pronunciation": "/weɪst/",
+        "meaning": "낭비하다",
+        "pastTense": "wasted",
+        "pastParticiple": "wasted",
+        "example": "Don't waste food.",
+        "translation": "음식 낭비하지 마."
+      },
+      {
+        "word": "borrow",
+        "pronunciation": "/ˈbɑːroʊ/",
+        "meaning": "빌리다",
+        "pastTense": "borrowed",
+        "pastParticiple": "borrowed",
+        "example": "Can I borrow your pen?",
+        "translation": "펜 좀 빌려도 돼?"
+      },
+      {
+        "word": "lend",
+        "pronunciation": "/lend/",
+        "meaning": "빌려주다",
+        "pastTense": "lent",
+        "pastParticiple": "lent",
+        "example": "Can you lend me some money?",
+        "translation": "돈 좀 빌려줄 수 있어?"
+      },
+      {
+        "word": "rent",
+        "pronunciation": "/rent/",
+        "meaning": "빌리다",
+        "pastTense": "rented",
+        "pastParticiple": "rented",
+        "example": "We rented an apartment.",
+        "translation": "우리는 아파트를 빌렸어."
+      },
+      {
+        "word": "fix",
+        "pronunciation": "/fɪks/",
+        "meaning": "고치다",
+        "pastTense": "fixed",
+        "pastParticiple": "fixed",
+        "example": "Can you fix my computer?",
+        "translation": "컴퓨터 고쳐줄 수 있어?"
+      },
+      {
+        "word": "repair",
+        "pronunciation": "/rɪˈper/",
+        "meaning": "수리하다",
+        "pastTense": "repaired",
+        "pastParticiple": "repaired",
+        "example": "The car needs to be repaired.",
+        "translation": "차 수리해야 해."
+      },
+      {
+        "word": "break",
+        "pronunciation": "/breɪk/",
+        "meaning": "부수다",
+        "pastTense": "broke",
+        "pastParticiple": "broken",
+        "example": "I broke my phone screen.",
+        "translation": "폰 화면 깼어."
+      },
+      {
+        "word": "cut",
+        "pronunciation": "/kʌt/",
+        "meaning": "자르다",
+        "pastTense": "cut",
+        "pastParticiple": "cut",
+        "example": "Cut the paper in half.",
+        "translation": "종이를 반으로 잘라."
+      },
+      {
+        "word": "tear",
+        "pronunciation": "/ter/",
+        "meaning": "찢다",
+        "pastTense": "tore",
+        "pastParticiple": "torn",
+        "example": "Don't tear the paper.",
+        "translation": "종이 찢지 마."
+      },
+      {
+        "word": "wrap",
+        "pronunciation": "/ræp/",
+        "meaning": "싸다",
+        "pastTense": "wrapped",
+        "pastParticiple": "wrapped",
+        "example": "Wrap the gift nicely.",
+        "translation": "선물 예쁘게 포장해."
+      },
+      {
+        "word": "pack",
+        "pronunciation": "/pæk/",
+        "meaning": "짐싸다",
+        "pastTense": "packed",
+        "pastParticiple": "packed",
+        "example": "I need to pack my bags.",
+        "translation": "짐 싸야 해."
+      },
+      {
+        "word": "unpack",
+        "pronunciation": "/ʌnˈpæk/",
+        "meaning": "짐풀다",
+        "pastTense": "unpacked",
+        "pastParticiple": "unpacked",
+        "example": "Let me unpack first.",
+        "translation": "먼저 짐 풀게."
+      },
+      {
+        "word": "load",
+        "pronunciation": "/loʊd/",
+        "meaning": "싣다",
+        "pastTense": "loaded",
+        "pastParticiple": "loaded",
+        "example": "Load the boxes into the truck.",
+        "translation": "트럭에 상자 실어."
+      },
+      {
+        "word": "unload",
+        "pronunciation": "/ʌnˈloʊd/",
+        "meaning": "내리다",
+        "pastTense": "unloaded",
+        "pastParticiple": "unloaded",
+        "example": "Help me unload the car.",
+        "translation": "차에서 짐 내리는 거 도와줘."
+      },
+      {
+        "word": "store",
+        "pronunciation": "/stɔːr/",
+        "meaning": "저장하다",
+        "pastTense": "stored",
+        "pastParticiple": "stored",
+        "example": "Store the food in the fridge.",
+        "translation": "음식을 냉장고에 보관해."
+      },
+      {
+        "word": "organize",
+        "pronunciation": "/ˈɔːrɡənaɪz/",
+        "meaning": "정리하다",
+        "pastTense": "organized",
+        "pastParticiple": "organized",
+        "example": "I need to organize my desk.",
+        "translation": "책상 정리해야 해."
+      },
+      {
+        "word": "arrange",
+        "pronunciation": "/əˈreɪndʒ/",
+        "meaning": "배열하다",
+        "pastTense": "arranged",
+        "pastParticiple": "arranged",
+        "example": "Arrange the flowers nicely.",
+        "translation": "꽃 예쁘게 배열해."
+      },
+      {
+        "word": "prepare",
+        "pronunciation": "/prɪˈper/",
+        "meaning": "준비하다",
+        "pastTense": "prepared",
+        "pastParticiple": "prepared",
+        "example": "I'm preparing for the exam.",
+        "translation": "시험 준비 중이야."
+      },
+      {
+        "word": "set",
+        "pronunciation": "/set/",
+        "meaning": "차리다",
+        "pastTense": "set",
+        "pastParticiple": "set",
+        "example": "Set the table for dinner.",
+        "translation": "저녁 식탁 차려."
+      },
+      {
+        "word": "serve",
+        "pronunciation": "/sɜːrv/",
+        "meaning": "대접하다",
+        "pastTense": "served",
+        "pastParticiple": "served",
+        "example": "Dinner is served.",
+        "translation": "저녁 준비됐어요."
+      }
+    ]
+  },
+  {
+    "nameKo": "업무/학업 동사",
+    "nameEn": "Work/Study Verbs",
+    "words": [
+      {
+        "word": "work",
+        "pronunciation": "/wɜːrk/",
+        "meaning": "일하다",
+        "pastTense": "worked",
+        "pastParticiple": "worked",
+        "example": "I work from home.",
+        "translation": "나는 재택근무해."
+      },
+      {
+        "word": "employ",
+        "pronunciation": "/ɪmˈplɔɪ/",
+        "meaning": "고용하다",
+        "pastTense": "employed",
+        "pastParticiple": "employed",
+        "example": "They employ 500 people.",
+        "translation": "그들은 500명을 고용해."
+      },
+      {
+        "word": "hire",
+        "pronunciation": "/haɪr/",
+        "meaning": "고용하다",
+        "pastTense": "hired",
+        "pastParticiple": "hired",
+        "example": "We hired a new manager.",
+        "translation": "우리는 새 매니저를 고용했어."
+      },
+      {
+        "word": "fire",
+        "pronunciation": "/faɪr/",
+        "meaning": "해고하다",
+        "pastTense": "fired",
+        "pastParticiple": "fired",
+        "example": "He got fired yesterday.",
+        "translation": "그는 어제 해고됐어."
+      },
+      {
+        "word": "quit",
+        "pronunciation": "/kwɪt/",
+        "meaning": "그만두다",
+        "pastTense": "quit",
+        "pastParticiple": "quit",
+        "example": "I quit my job last month.",
+        "translation": "나 지난달에 퇴사했어."
+      },
+      {
+        "word": "resign",
+        "pronunciation": "/rɪˈzaɪn/",
+        "meaning": "사임하다",
+        "pastTense": "resigned",
+        "pastParticiple": "resigned",
+        "example": "She resigned from her position.",
+        "translation": "그녀는 직위에서 사임했어."
+      },
+      {
+        "word": "retire",
+        "pronunciation": "/rɪˈtaɪr/",
+        "meaning": "은퇴하다",
+        "pastTense": "retired",
+        "pastParticiple": "retired",
+        "example": "My dad retired at 60.",
+        "translation": "아버지는 60세에 은퇴했어."
+      },
+      {
+        "word": "apply",
+        "pronunciation": "/əˈplaɪ/",
+        "meaning": "지원하다",
+        "pastTense": "applied",
+        "pastParticiple": "applied",
+        "example": "I applied for the job.",
+        "translation": "그 일에 지원했어."
+      },
+      {
+        "word": "interview",
+        "pronunciation": "/ˈɪntərvjuː/",
+        "meaning": "면접하다",
+        "pastTense": "interviewed",
+        "pastParticiple": "interviewed",
+        "example": "I was interviewed today.",
+        "translation": "오늘 면접 봤어."
+      },
+      {
+        "word": "train",
+        "pronunciation": "/treɪn/",
+        "meaning": "교육하다",
+        "pastTense": "trained",
+        "pastParticiple": "trained",
+        "example": "We train new employees.",
+        "translation": "우리는 신입사원을 교육해."
+      },
+      {
+        "word": "teach",
+        "pronunciation": "/tiːtʃ/",
+        "meaning": "가르치다",
+        "pastTense": "taught",
+        "pastParticiple": "taught",
+        "example": "She teaches English.",
+        "translation": "그녀는 영어를 가르쳐."
+      },
+      {
+        "word": "instruct",
+        "pronunciation": "/ɪnˈstrʌkt/",
+        "meaning": "지시하다",
+        "pastTense": "instructed",
+        "pastParticiple": "instructed",
+        "example": "He instructed us to wait.",
+        "translation": "그가 기다리라고 지시했어."
+      },
+      {
+        "word": "educate",
+        "pronunciation": "/ˈedʒukeɪt/",
+        "meaning": "교육하다",
+        "pastTense": "educated",
+        "pastParticiple": "educated",
+        "example": "Schools educate children.",
+        "translation": "학교가 아이들을 교육해."
+      },
+      {
+        "word": "graduate",
+        "pronunciation": "/ˈɡrædʒueɪt/",
+        "meaning": "졸업하다",
+        "pastTense": "graduated",
+        "pastParticiple": "graduated",
+        "example": "I graduated last year.",
+        "translation": "나 작년에 졸업했어."
+      },
+      {
+        "word": "attend",
+        "pronunciation": "/əˈtend/",
+        "meaning": "참석하다",
+        "pastTense": "attended",
+        "pastParticiple": "attended",
+        "example": "I attended the meeting.",
+        "translation": "나 회의에 참석했어."
+      },
+      {
+        "word": "participate",
+        "pronunciation": "/pɑːrˈtɪsɪpeɪt/",
+        "meaning": "참여하다",
+        "pastTense": "participated",
+        "pastParticiple": "participated",
+        "example": "Everyone participated actively.",
+        "translation": "모두가 적극적으로 참여했어."
+      },
+      {
+        "word": "present",
+        "pronunciation": "/prɪˈzent/",
+        "meaning": "발표하다",
+        "pastTense": "presented",
+        "pastParticiple": "presented",
+        "example": "I presented my ideas.",
+        "translation": "내 아이디어를 발표했어."
+      },
+      {
+        "word": "demonstrate",
+        "pronunciation": "/ˈdemənstreɪt/",
+        "meaning": "시연하다",
+        "pastTense": "demonstrated",
+        "pastParticiple": "demonstrated",
+        "example": "She demonstrated the product.",
+        "translation": "그녀가 제품을 시연했어."
+      },
+      {
+        "word": "perform",
+        "pronunciation": "/pərˈfɔːrm/",
+        "meaning": "수행하다",
+        "pastTense": "performed",
+        "pastParticiple": "performed",
+        "example": "We performed the task.",
+        "translation": "우리는 과제를 수행했어."
+      },
+      {
+        "word": "achieve",
+        "pronunciation": "/əˈtʃiːv/",
+        "meaning": "성취하다",
+        "pastTense": "achieved",
+        "pastParticiple": "achieved",
+        "example": "I achieved my goal.",
+        "translation": "목표를 달성했어."
+      },
+      {
+        "word": "accomplish",
+        "pronunciation": "/əˈkɑːmplɪʃ/",
+        "meaning": "달성하다",
+        "pastTense": "accomplished",
+        "pastParticiple": "accomplished",
+        "example": "We accomplished our mission.",
+        "translation": "임무를 완수했어."
+      },
+      {
+        "word": "succeed",
+        "pronunciation": "/səkˈsiːd/",
+        "meaning": "성공하다",
+        "pastTense": "succeeded",
+        "pastParticiple": "succeeded",
+        "example": "I know you'll succeed.",
+        "translation": "넌 성공할 거야."
+      },
+      {
+        "word": "fail",
+        "pronunciation": "/feɪl/",
+        "meaning": "실패하다",
+        "pastTense": "failed",
+        "pastParticiple": "failed",
+        "example": "I failed the exam.",
+        "translation": "시험에 떨어졌어."
+      },
+      {
+        "word": "complete",
+        "pronunciation": "/kəmˈpliːt/",
+        "meaning": "완료하다",
+        "pastTense": "completed",
+        "pastParticiple": "completed",
+        "example": "I completed the project.",
+        "translation": "프로젝트 완료했어."
+      },
+      {
+        "word": "submit",
+        "pronunciation": "/səbˈmɪt/",
+        "meaning": "제출하다",
+        "pastTense": "submitted",
+        "pastParticiple": "submitted",
+        "example": "Submit your report by Friday.",
+        "translation": "금요일까지 보고서 제출해."
+      },
+      {
+        "word": "deliver",
+        "pronunciation": "/dɪˈlɪvər/",
+        "meaning": "전달하다",
+        "pastTense": "delivered",
+        "pastParticiple": "delivered",
+        "example": "I delivered the package.",
+        "translation": "택배 배달했어."
+      },
+      {
+        "word": "report",
+        "pronunciation": "/rɪˈpɔːrt/",
+        "meaning": "보고하다",
+        "pastTense": "reported",
+        "pastParticiple": "reported",
+        "example": "Report to my office.",
+        "translation": "내 사무실로 보고하세요."
+      },
+      {
+        "word": "review",
+        "pronunciation": "/rɪˈvjuː/",
+        "meaning": "검토하다",
+        "pastTense": "reviewed",
+        "pastParticiple": "reviewed",
+        "example": "Please review my work.",
+        "translation": "제 작업물 검토해 주세요."
+      },
+      {
+        "word": "revise",
+        "pronunciation": "/rɪˈvaɪz/",
+        "meaning": "수정하다",
+        "pastTense": "revised",
+        "pastParticiple": "revised",
+        "example": "Revise the document.",
+        "translation": "문서를 수정해."
+      },
+      {
+        "word": "edit",
+        "pronunciation": "/ˈedɪt/",
+        "meaning": "편집하다",
+        "pastTense": "edited",
+        "pastParticiple": "edited",
+        "example": "I edited the article.",
+        "translation": "기사를 편집했어."
+      },
+      {
+        "word": "correct",
+        "pronunciation": "/kəˈrekt/",
+        "meaning": "수정하다",
+        "pastTense": "corrected",
+        "pastParticiple": "corrected",
+        "example": "Correct your mistakes.",
+        "translation": "실수를 수정해."
+      },
+      {
+        "word": "check",
+        "pronunciation": "/tʃek/",
+        "meaning": "확인하다",
+        "pastTense": "checked",
+        "pastParticiple": "checked",
+        "example": "Check your email.",
+        "translation": "이메일 확인해."
+      },
+      {
+        "word": "sign",
+        "pronunciation": "/saɪn/",
+        "meaning": "서명하다",
+        "pastTense": "signed",
+        "pastParticiple": "signed",
+        "example": "Sign here please.",
+        "translation": "여기 서명해 주세요."
+      },
+      {
+        "word": "approve",
+        "pronunciation": "/əˈpruːv/",
+        "meaning": "승인하다",
+        "pastTense": "approved",
+        "pastParticiple": "approved",
+        "example": "My request was approved.",
+        "translation": "내 요청이 승인됐어."
+      },
+      {
+        "word": "cancel",
+        "pronunciation": "/ˈkænsl/",
+        "meaning": "취소하다",
+        "pastTense": "canceled",
+        "pastParticiple": "canceled",
+        "example": "I canceled the meeting.",
+        "translation": "회의를 취소했어."
+      },
+      {
+        "word": "postpone",
+        "pronunciation": "/poʊstˈpoʊn/",
+        "meaning": "연기하다",
+        "pastTense": "postponed",
+        "pastParticiple": "postponed",
+        "example": "We postponed the trip.",
+        "translation": "여행을 연기했어."
+      },
+      {
+        "word": "delay",
+        "pronunciation": "/dɪˈleɪ/",
+        "meaning": "지연하다",
+        "pastTense": "delayed",
+        "pastParticiple": "delayed",
+        "example": "The flight was delayed.",
+        "translation": "비행기가 지연됐어."
+      },
+      {
+        "word": "schedule",
+        "pronunciation": "/ˈskedʒuːl/",
+        "meaning": "일정잡다",
+        "pastTense": "scheduled",
+        "pastParticiple": "scheduled",
+        "example": "Schedule a meeting.",
+        "translation": "회의 일정 잡아."
+      },
+      {
+        "word": "manage",
+        "pronunciation": "/ˈmænɪdʒ/",
+        "meaning": "관리하다",
+        "pastTense": "managed",
+        "pastParticiple": "managed",
+        "example": "She manages the team.",
+        "translation": "그녀가 팀을 관리해."
+      },
+      {
+        "word": "supervise",
+        "pronunciation": "/ˈsuːpərvaɪz/",
+        "meaning": "감독하다",
+        "pastTense": "supervised",
+        "pastParticiple": "supervised",
+        "example": "I supervise 10 employees.",
+        "translation": "나는 직원 10명을 감독해."
+      },
+      {
+        "word": "coordinate",
+        "pronunciation": "/koʊˈɔːrdɪneɪt/",
+        "meaning": "조정하다",
+        "pastTense": "coordinated",
+        "pastParticiple": "coordinated",
+        "example": "Coordinate with other teams.",
+        "translation": "다른 팀과 조율해."
+      },
+      {
+        "word": "cooperate",
+        "pronunciation": "/koʊˈɑːpəreɪt/",
+        "meaning": "협력하다",
+        "pastTense": "cooperated",
+        "pastParticiple": "cooperated",
+        "example": "Let's cooperate on this.",
+        "translation": "이 건에 협력하자."
+      },
+      {
+        "word": "collaborate",
+        "pronunciation": "/kəˈlæbəreɪt/",
+        "meaning": "협업하다",
+        "pastTense": "collaborated",
+        "pastParticiple": "collaborated",
+        "example": "We collaborated on the project.",
+        "translation": "프로젝트에서 협업했어."
+      },
+      {
+        "word": "negotiate",
+        "pronunciation": "/nɪˈɡoʊʃieɪt/",
+        "meaning": "협상하다",
+        "pastTense": "negotiated",
+        "pastParticiple": "negotiated",
+        "example": "We negotiated a deal.",
+        "translation": "거래를 협상했어."
+      },
+      {
+        "word": "compete",
+        "pronunciation": "/kəmˈpiːt/",
+        "meaning": "경쟁하다",
+        "pastTense": "competed",
+        "pastParticiple": "competed",
+        "example": "We compete with rivals.",
+        "translation": "우리는 경쟁사와 경쟁해."
+      },
+      {
+        "word": "promote",
+        "pronunciation": "/prəˈmoʊt/",
+        "meaning": "승진시키다",
+        "pastTense": "promoted",
+        "pastParticiple": "promoted",
+        "example": "She got promoted!",
+        "translation": "그녀가 승진했어!"
+      },
+      {
+        "word": "advertise",
+        "pronunciation": "/ˈædvərtaɪz/",
+        "meaning": "광고하다",
+        "pastTense": "advertised",
+        "pastParticiple": "advertised",
+        "example": "We advertise on TV.",
+        "translation": "우리는 TV에 광고해."
+      },
+      {
+        "word": "market",
+        "pronunciation": "/ˈmɑːrkɪt/",
+        "meaning": "마케팅하다",
+        "pastTense": "marketed",
+        "pastParticiple": "marketed",
+        "example": "How do we market this?",
+        "translation": "이걸 어떻게 마케팅하지?"
+      },
+      {
+        "word": "launch",
+        "pronunciation": "/lɔːntʃ/",
+        "meaning": "출시하다",
+        "pastTense": "launched",
+        "pastParticiple": "launched",
+        "example": "We launched a new product.",
+        "translation": "신제품을 출시했어."
+      },
+      {
+        "word": "develop",
+        "pronunciation": "/dɪˈveləp/",
+        "meaning": "개발하다",
+        "pastTense": "developed",
+        "pastParticiple": "developed",
+        "example": "We're developing an app.",
+        "translation": "우리는 앱을 개발 중이야."
+      },
+      {
+        "word": "design",
+        "pronunciation": "/dɪˈzaɪn/",
+        "meaning": "디자인하다",
+        "pastTense": "designed",
+        "pastParticiple": "designed",
+        "example": "Who designed this?",
+        "translation": "이거 누가 디자인했어?"
+      },
+      {
+        "word": "create",
+        "pronunciation": "/kriˈeɪt/",
+        "meaning": "창조하다",
+        "pastTense": "created",
+        "pastParticiple": "created",
+        "example": "Create something unique.",
+        "translation": "독특한 것을 만들어."
+      },
+      {
+        "word": "produce",
+        "pronunciation": "/prəˈduːs/",
+        "meaning": "생산하다",
+        "pastTense": "produced",
+        "pastParticiple": "produced",
+        "example": "We produce cars.",
+        "translation": "우리는 자동차를 생산해."
+      },
+      {
+        "word": "manufacture",
+        "pronunciation": "/ˌmænjuˈfæktʃər/",
+        "meaning": "제조하다",
+        "pastTense": "manufactured",
+        "pastParticiple": "manufactured",
+        "example": "It's manufactured in Korea.",
+        "translation": "한국에서 제조됐어."
+      },
+      {
+        "word": "distribute",
+        "pronunciation": "/dɪˈstrɪbjuːt/",
+        "meaning": "배포하다",
+        "pastTense": "distributed",
+        "pastParticiple": "distributed",
+        "example": "We distribute worldwide.",
+        "translation": "우리는 전 세계에 유통해."
+      }
+    ]
+  },
+  {
+    "nameKo": "사회생활 동사",
+    "nameEn": "Social Verbs",
+    "words": [
+      {
+        "word": "meet",
+        "pronunciation": "/miːt/",
+        "meaning": "만나다",
+        "pastTense": "met",
+        "pastParticiple": "met",
+        "example": "Nice to meet you!",
+        "translation": "만나서 반가워요!"
+      },
+      {
+        "word": "visit",
+        "pronunciation": "/ˈvɪzɪt/",
+        "meaning": "방문하다",
+        "pastTense": "visited",
+        "pastParticiple": "visited",
+        "example": "I'll visit you tomorrow.",
+        "translation": "내일 방문할게."
+      },
+      {
+        "word": "join",
+        "pronunciation": "/dʒɔɪn/",
+        "meaning": "합류하다",
+        "pastTense": "joined",
+        "pastParticiple": "joined",
+        "example": "Join us for dinner.",
+        "translation": "저녁에 합류해."
+      },
+      {
+        "word": "belong",
+        "pronunciation": "/bɪˈlɔːŋ/",
+        "meaning": "속하다",
+        "pastTense": "belonged",
+        "pastParticiple": "belonged",
+        "example": "I belong to this club.",
+        "translation": "나 이 클럽 소속이야."
+      },
+      {
+        "word": "share",
+        "pronunciation": "/ʃer/",
+        "meaning": "공유하다",
+        "pastTense": "shared",
+        "pastParticiple": "shared",
+        "example": "Let's share the pizza.",
+        "translation": "피자 나눠 먹자."
+      },
+      {
+        "word": "support",
+        "pronunciation": "/səˈpɔːrt/",
+        "meaning": "지지하다",
+        "pastTense": "supported",
+        "pastParticiple": "supported",
+        "example": "I support your decision.",
+        "translation": "네 결정을 지지해."
+      },
+      {
+        "word": "assist",
+        "pronunciation": "/əˈsɪst/",
+        "meaning": "돕다",
+        "pastTense": "assisted",
+        "pastParticiple": "assisted",
+        "example": "I assisted with the event.",
+        "translation": "행사를 도왔어."
+      },
+      {
+        "word": "serve",
+        "pronunciation": "/sɜːrv/",
+        "meaning": "봉사하다",
+        "pastTense": "served",
+        "pastParticiple": "served",
+        "example": "I served in the military.",
+        "translation": "나 군대 다녀왔어."
+      },
+      {
+        "word": "volunteer",
+        "pronunciation": "/ˌvɑːlənˈtɪr/",
+        "meaning": "자원하다",
+        "pastTense": "volunteered",
+        "pastParticiple": "volunteered",
+        "example": "I volunteer at a shelter.",
+        "translation": "보호소에서 봉사해."
+      },
+      {
+        "word": "donate",
+        "pronunciation": "/ˈdoʊneɪt/",
+        "meaning": "기부하다",
+        "pastTense": "donated",
+        "pastParticiple": "donated",
+        "example": "I donated blood today.",
+        "translation": "오늘 헌혈했어."
+      },
+      {
+        "word": "contribute",
+        "pronunciation": "/kənˈtrɪbjuːt/",
+        "meaning": "기여하다",
+        "pastTense": "contributed",
+        "pastParticiple": "contributed",
+        "example": "Everyone contributed ideas.",
+        "translation": "모두가 아이디어를 냈어."
+      },
+      {
+        "word": "celebrate",
+        "pronunciation": "/ˈselɪbreɪt/",
+        "meaning": "축하하다",
+        "pastTense": "celebrated",
+        "pastParticiple": "celebrated",
+        "example": "Let's celebrate your birthday!",
+        "translation": "생일 축하하자!"
+      },
+      {
+        "word": "congratulate",
+        "pronunciation": "/kənˈɡrætʃuleɪt/",
+        "meaning": "축하하다",
+        "pastTense": "congratulated",
+        "pastParticiple": "congratulated",
+        "example": "Congratulations on your success!",
+        "translation": "성공을 축하해!"
+      },
+      {
+        "word": "honor",
+        "pronunciation": "/ˈɑːnər/",
+        "meaning": "존경하다",
+        "pastTense": "honored",
+        "pastParticiple": "honored",
+        "example": "We honored the veterans.",
+        "translation": "우리는 참전용사들을 기렸어."
+      },
+      {
+        "word": "trust",
+        "pronunciation": "/trʌst/",
+        "meaning": "신뢰하다",
+        "pastTense": "trusted",
+        "pastParticiple": "trusted",
+        "example": "I trust you completely.",
+        "translation": "완전히 믿어."
+      },
+      {
+        "word": "depend",
+        "pronunciation": "/dɪˈpend/",
+        "meaning": "의존하다",
+        "pastTense": "depended",
+        "pastParticiple": "depended",
+        "example": "It depends on the weather.",
+        "translation": "날씨에 따라 다르지."
+      },
+      {
+        "word": "rely",
+        "pronunciation": "/rɪˈlaɪ/",
+        "meaning": "의지하다",
+        "pastTense": "relied",
+        "pastParticiple": "relied",
+        "example": "You can rely on me.",
+        "translation": "나 믿어도 돼."
+      },
+      {
+        "word": "influence",
+        "pronunciation": "/ˈɪnfluəns/",
+        "meaning": "영향주다",
+        "pastTense": "influenced",
+        "pastParticiple": "influenced",
+        "example": "He influenced my decision.",
+        "translation": "그가 내 결정에 영향을 줬어."
+      },
+      {
+        "word": "affect",
+        "pronunciation": "/əˈfekt/",
+        "meaning": "영향주다",
+        "pastTense": "affected",
+        "pastParticiple": "affected",
+        "example": "This affects everyone.",
+        "translation": "이건 모두에게 영향을 미쳐."
+      },
+      {
+        "word": "involve",
+        "pronunciation": "/ɪnˈvɑːlv/",
+        "meaning": "관련시키다",
+        "pastTense": "involved",
+        "pastParticiple": "involved",
+        "example": "Don't involve me in this.",
+        "translation": "이 일에 나 끌어들이지 마."
+      },
+      {
+        "word": "include",
+        "pronunciation": "/ɪnˈkluːd/",
+        "meaning": "포함하다",
+        "pastTense": "included",
+        "pastParticiple": "included",
+        "example": "The price includes tax.",
+        "translation": "가격에 세금 포함이야."
+      },
+      {
+        "word": "exclude",
+        "pronunciation": "/ɪkˈskluːd/",
+        "meaning": "제외하다",
+        "pastTense": "excluded",
+        "pastParticiple": "excluded",
+        "example": "Why was I excluded?",
+        "translation": "왜 나를 빼놓은 거야?"
+      },
+      {
+        "word": "ignore",
+        "pronunciation": "/ɪɡˈnɔːr/",
+        "meaning": "무시하다",
+        "pastTense": "ignored",
+        "pastParticiple": "ignored",
+        "example": "Don't ignore my calls.",
+        "translation": "내 전화 무시하지 마."
+      },
+      {
+        "word": "avoid",
+        "pronunciation": "/əˈvɔɪd/",
+        "meaning": "피하다",
+        "pastTense": "avoided",
+        "pastParticiple": "avoided",
+        "example": "I'm trying to avoid him.",
+        "translation": "그를 피하려고 해."
+      },
+      {
+        "word": "escape",
+        "pronunciation": "/ɪˈskeɪp/",
+        "meaning": "탈출하다",
+        "pastTense": "escaped",
+        "pastParticiple": "escaped",
+        "example": "I need to escape this place.",
+        "translation": "여기서 탈출해야 해."
+      },
+      {
+        "word": "hide",
+        "pronunciation": "/haɪd/",
+        "meaning": "숨기다",
+        "pastTense": "hid",
+        "pastParticiple": "hidden",
+        "example": "Don't hide your feelings.",
+        "translation": "감정을 숨기지 마."
+      },
+      {
+        "word": "reveal",
+        "pronunciation": "/rɪˈviːl/",
+        "meaning": "드러내다",
+        "pastTense": "revealed",
+        "pastParticiple": "revealed",
+        "example": "She revealed the secret.",
+        "translation": "그녀가 비밀을 밝혔어."
+      },
+      {
+        "word": "expose",
+        "pronunciation": "/ɪkˈspoʊz/",
+        "meaning": "폭로하다",
+        "pastTense": "exposed",
+        "pastParticiple": "exposed",
+        "example": "The journalist exposed the scandal.",
+        "translation": "기자가 스캔들을 폭로했어."
+      },
+      {
+        "word": "protect",
+        "pronunciation": "/prəˈtekt/",
+        "meaning": "보호하다",
+        "pastTense": "protected",
+        "pastParticiple": "protected",
+        "example": "I'll protect you.",
+        "translation": "내가 널 지켜줄게."
+      },
+      {
+        "word": "defend",
+        "pronunciation": "/dɪˈfend/",
+        "meaning": "방어하다",
+        "pastTense": "defended",
+        "pastParticiple": "defended",
+        "example": "Defend your position.",
+        "translation": "네 입장을 방어해."
+      },
+      {
+        "word": "attack",
+        "pronunciation": "/əˈtæk/",
+        "meaning": "공격하다",
+        "pastTense": "attacked",
+        "pastParticiple": "attacked",
+        "example": "The dog attacked him.",
+        "translation": "개가 그를 공격했어."
+      },
+      {
+        "word": "fight",
+        "pronunciation": "/faɪt/",
+        "meaning": "싸우다",
+        "pastTense": "fought",
+        "pastParticiple": "fought",
+        "example": "They fought over money.",
+        "translation": "그들은 돈 때문에 싸웠어."
+      },
+      {
+        "word": "compete",
+        "pronunciation": "/kəmˈpiːt/",
+        "meaning": "경쟁하다",
+        "pastTense": "competed",
+        "pastParticiple": "competed",
+        "example": "We competed in the race.",
+        "translation": "우리는 경주에서 경쟁했어."
+      },
+      {
+        "word": "win",
+        "pronunciation": "/wɪn/",
+        "meaning": "이기다",
+        "pastTense": "won",
+        "pastParticiple": "won",
+        "example": "We won the game!",
+        "translation": "우리가 이겼어!"
+      },
+      {
+        "word": "lose",
+        "pronunciation": "/luːz/",
+        "meaning": "지다",
+        "pastTense": "lost",
+        "pastParticiple": "lost",
+        "example": "We lost the match.",
+        "translation": "경기에서 졌어."
+      },
+      {
+        "word": "tie",
+        "pronunciation": "/taɪ/",
+        "meaning": "무승부하다",
+        "pastTense": "tied",
+        "pastParticiple": "tied",
+        "example": "The game ended in a tie.",
+        "translation": "경기가 무승부로 끝났어."
+      },
+      {
+        "word": "vote",
+        "pronunciation": "/voʊt/",
+        "meaning": "투표하다",
+        "pastTense": "voted",
+        "pastParticiple": "voted",
+        "example": "Did you vote today?",
+        "translation": "오늘 투표했어?"
+      },
+      {
+        "word": "elect",
+        "pronunciation": "/ɪˈlekt/",
+        "meaning": "선출하다",
+        "pastTense": "elected",
+        "pastParticiple": "elected",
+        "example": "We elected a new leader.",
+        "translation": "새 리더를 선출했어."
+      },
+      {
+        "word": "represent",
+        "pronunciation": "/ˌreprɪˈzent/",
+        "meaning": "대표하다",
+        "pastTense": "represented",
+        "pastParticiple": "represented",
+        "example": "She represents our company.",
+        "translation": "그녀가 우리 회사를 대표해."
+      },
+      {
+        "word": "govern",
+        "pronunciation": "/ˈɡʌvərn/",
+        "meaning": "통치하다",
+        "pastTense": "governed",
+        "pastParticiple": "governed",
+        "example": "They govern the country.",
+        "translation": "그들이 나라를 다스려."
+      }
+    ]
+  },
+  {
+    "nameKo": "변화 동사",
+    "nameEn": "Change Verbs",
+    "words": [
+      {
+        "word": "change",
+        "pronunciation": "/tʃeɪndʒ/",
+        "meaning": "변하다",
+        "pastTense": "changed",
+        "pastParticiple": "changed",
+        "example": "Things change over time.",
+        "translation": "시간이 지나면 변해."
+      },
+      {
+        "word": "become",
+        "pronunciation": "/bɪˈkʌm/",
+        "meaning": "되다",
+        "pastTense": "became",
+        "pastParticiple": "become",
+        "example": "She became a doctor.",
+        "translation": "그녀는 의사가 됐어."
+      },
+      {
+        "word": "grow",
+        "pronunciation": "/ɡroʊ/",
+        "meaning": "자라다",
+        "pastTense": "grew",
+        "pastParticiple": "grown",
+        "example": "Kids grow up so fast.",
+        "translation": "아이들은 빨리 자라."
+      },
+      {
+        "word": "increase",
+        "pronunciation": "/ɪnˈkriːs/",
+        "meaning": "증가하다",
+        "pastTense": "increased",
+        "pastParticiple": "increased",
+        "example": "Sales increased this year.",
+        "translation": "올해 매출이 증가했어."
+      },
+      {
+        "word": "decrease",
+        "pronunciation": "/dɪˈkriːs/",
+        "meaning": "감소하다",
+        "pastTense": "decreased",
+        "pastParticiple": "decreased",
+        "example": "Prices decreased slightly.",
+        "translation": "가격이 약간 내렸어."
+      },
+      {
+        "word": "rise",
+        "pronunciation": "/raɪz/",
+        "meaning": "오르다",
+        "pastTense": "rose",
+        "pastParticiple": "risen",
+        "example": "Temperature is rising.",
+        "translation": "온도가 올라가고 있어."
+      },
+      {
+        "word": "fall",
+        "pronunciation": "/fɔːl/",
+        "meaning": "떨어지다",
+        "pastTense": "fell",
+        "pastParticiple": "fallen",
+        "example": "Stock prices fell sharply.",
+        "translation": "주가가 급락했어."
+      },
+      {
+        "word": "improve",
+        "pronunciation": "/ɪmˈpruːv/",
+        "meaning": "향상되다",
+        "pastTense": "improved",
+        "pastParticiple": "improved",
+        "example": "My English has improved.",
+        "translation": "내 영어 실력이 늘었어."
+      },
+      {
+        "word": "worsen",
+        "pronunciation": "/ˈwɜːrsn/",
+        "meaning": "악화되다",
+        "pastTense": "worsened",
+        "pastParticiple": "worsened",
+        "example": "The situation worsened.",
+        "translation": "상황이 악화됐어."
+      },
+      {
+        "word": "develop",
+        "pronunciation": "/dɪˈveləp/",
+        "meaning": "발전하다",
+        "pastTense": "developed",
+        "pastParticiple": "developed",
+        "example": "Technology is developing.",
+        "translation": "기술이 발전하고 있어."
+      },
+      {
+        "word": "evolve",
+        "pronunciation": "/ɪˈvɑːlv/",
+        "meaning": "진화하다",
+        "pastTense": "evolved",
+        "pastParticiple": "evolved",
+        "example": "Species evolve over time.",
+        "translation": "종은 시간이 지나면 진화해."
+      },
+      {
+        "word": "expand",
+        "pronunciation": "/ɪkˈspænd/",
+        "meaning": "확장하다",
+        "pastTense": "expanded",
+        "pastParticiple": "expanded",
+        "example": "We expanded our business.",
+        "translation": "사업을 확장했어."
+      },
+      {
+        "word": "shrink",
+        "pronunciation": "/ʃrɪŋk/",
+        "meaning": "줄어들다",
+        "pastTense": "shrank",
+        "pastParticiple": "shrunk",
+        "example": "My sweater shrunk.",
+        "translation": "내 스웨터가 줄어들었어."
+      },
+      {
+        "word": "extend",
+        "pronunciation": "/ɪkˈstend/",
+        "meaning": "연장하다",
+        "pastTense": "extended",
+        "pastParticiple": "extended",
+        "example": "Can you extend the deadline?",
+        "translation": "마감일 연장해 줄 수 있어?"
+      },
+      {
+        "word": "reduce",
+        "pronunciation": "/rɪˈduːs/",
+        "meaning": "줄이다",
+        "pastTense": "reduced",
+        "pastParticiple": "reduced",
+        "example": "We need to reduce costs.",
+        "translation": "비용을 줄여야 해."
+      },
+      {
+        "word": "add",
+        "pronunciation": "/æd/",
+        "meaning": "추가하다",
+        "pastTense": "added",
+        "pastParticiple": "added",
+        "example": "Add some sugar please.",
+        "translation": "설탕 좀 넣어줘."
+      },
+      {
+        "word": "remove",
+        "pronunciation": "/rɪˈmuːv/",
+        "meaning": "제거하다",
+        "pastTense": "removed",
+        "pastParticiple": "removed",
+        "example": "Remove your shoes please.",
+        "translation": "신발 벗어주세요."
+      },
+      {
+        "word": "replace",
+        "pronunciation": "/rɪˈpleɪs/",
+        "meaning": "교체하다",
+        "pastTense": "replaced",
+        "pastParticiple": "replaced",
+        "example": "I need to replace my phone.",
+        "translation": "폰 바꿔야 해."
+      },
+      {
+        "word": "exchange",
+        "pronunciation": "/ɪksˈtʃeɪndʒ/",
+        "meaning": "교환하다",
+        "pastTense": "exchanged",
+        "pastParticiple": "exchanged",
+        "example": "Can I exchange this shirt?",
+        "translation": "이 셔츠 교환할 수 있나요?"
+      },
+      {
+        "word": "switch",
+        "pronunciation": "/swɪtʃ/",
+        "meaning": "바꾸다",
+        "pastTense": "switched",
+        "pastParticiple": "switched",
+        "example": "I switched jobs.",
+        "translation": "직장을 바꿨어."
+      },
+      {
+        "word": "transfer",
+        "pronunciation": "/trænsˈfɜːr/",
+        "meaning": "옮기다",
+        "pastTense": "transferred",
+        "pastParticiple": "transferred",
+        "example": "I transferred to another branch.",
+        "translation": "다른 지점으로 옮겼어."
+      },
+      {
+        "word": "convert",
+        "pronunciation": "/kənˈvɜːrt/",
+        "meaning": "변환하다",
+        "pastTense": "converted",
+        "pastParticiple": "converted",
+        "example": "Convert dollars to won.",
+        "translation": "달러를 원화로 바꿔."
+      },
+      {
+        "word": "transform",
+        "pronunciation": "/trænsˈfɔːrm/",
+        "meaning": "변형하다",
+        "pastTense": "transformed",
+        "pastParticiple": "transformed",
+        "example": "The city transformed completely.",
+        "translation": "도시가 완전히 변했어."
+      },
+      {
+        "word": "adjust",
+        "pronunciation": "/əˈdʒʌst/",
+        "meaning": "조정하다",
+        "pastTense": "adjusted",
+        "pastParticiple": "adjusted",
+        "example": "Adjust the volume please.",
+        "translation": "볼륨 조절해줘."
+      },
+      {
+        "word": "modify",
+        "pronunciation": "/ˈmɑːdɪfaɪ/",
+        "meaning": "수정하다",
+        "pastTense": "modified",
+        "pastParticiple": "modified",
+        "example": "I modified the design.",
+        "translation": "디자인을 수정했어."
+      },
+      {
+        "word": "adapt",
+        "pronunciation": "/əˈdæpt/",
+        "meaning": "적응하다",
+        "pastTense": "adapted",
+        "pastParticiple": "adapted",
+        "example": "I adapted to the new job.",
+        "translation": "새 직장에 적응했어."
+      },
+      {
+        "word": "update",
+        "pronunciation": "/ʌpˈdeɪt/",
+        "meaning": "업데이트하다",
+        "pastTense": "updated",
+        "pastParticiple": "updated",
+        "example": "Update your software.",
+        "translation": "소프트웨어 업데이트해."
+      },
+      {
+        "word": "upgrade",
+        "pronunciation": "/ʌpˈɡreɪd/",
+        "meaning": "업그레이드하다",
+        "pastTense": "upgraded",
+        "pastParticiple": "upgraded",
+        "example": "I upgraded my phone.",
+        "translation": "폰 업그레이드했어."
+      },
+      {
+        "word": "restore",
+        "pronunciation": "/rɪˈstɔːr/",
+        "meaning": "복원하다",
+        "pastTense": "restored",
+        "pastParticiple": "restored",
+        "example": "They restored the old building.",
+        "translation": "그들이 오래된 건물을 복원했어."
+      },
+      {
+        "word": "recover",
+        "pronunciation": "/rɪˈkʌvər/",
+        "meaning": "회복하다",
+        "pastTense": "recovered",
+        "pastParticiple": "recovered",
+        "example": "I recovered from the flu.",
+        "translation": "독감에서 회복했어."
+      },
+      {
+        "word": "heal",
+        "pronunciation": "/hiːl/",
+        "meaning": "치유하다",
+        "pastTense": "healed",
+        "pastParticiple": "healed",
+        "example": "The wound healed quickly.",
+        "translation": "상처가 빨리 나았어."
+      },
+      {
+        "word": "cure",
+        "pronunciation": "/kjʊr/",
+        "meaning": "치료하다",
+        "pastTense": "cured",
+        "pastParticiple": "cured",
+        "example": "The medicine cured her.",
+        "translation": "약이 그녀를 치료했어."
+      },
+      {
+        "word": "damage",
+        "pronunciation": "/ˈdæmɪdʒ/",
+        "meaning": "손상시키다",
+        "pastTense": "damaged",
+        "pastParticiple": "damaged",
+        "example": "The storm damaged the house.",
+        "translation": "폭풍이 집을 손상시켰어."
+      },
+      {
+        "word": "destroy",
+        "pronunciation": "/dɪˈstrɔɪ/",
+        "meaning": "파괴하다",
+        "pastTense": "destroyed",
+        "pastParticiple": "destroyed",
+        "example": "The fire destroyed everything.",
+        "translation": "화재가 모든 걸 파괴했어."
+      },
+      {
+        "word": "ruin",
+        "pronunciation": "/ˈruːɪn/",
+        "meaning": "망치다",
+        "pastTense": "ruined",
+        "pastParticiple": "ruined",
+        "example": "Rain ruined our picnic.",
+        "translation": "비가 소풍을 망쳤어."
+      }
+    ]
+  },
+  {
+    "nameKo": "존재/상태 동사",
+    "nameEn": "Existence/State",
+    "words": [
+      {
+        "word": "exist",
+        "pronunciation": "/ɪɡˈzɪst/",
+        "meaning": "존재하다",
+        "pastTense": "existed",
+        "pastParticiple": "existed",
+        "example": "Does life exist on Mars?",
+        "translation": "화성에 생명이 있을까?"
+      },
+      {
+        "word": "live",
+        "pronunciation": "/lɪv/",
+        "meaning": "살다",
+        "pastTense": "lived",
+        "pastParticiple": "lived",
+        "example": "I live in Seoul.",
+        "translation": "나는 서울에 살아."
+      },
+      {
+        "word": "die",
+        "pronunciation": "/daɪ/",
+        "meaning": "죽다",
+        "pastTense": "died",
+        "pastParticiple": "died",
+        "example": "My plant died.",
+        "translation": "내 식물이 죽었어."
+      },
+      {
+        "word": "survive",
+        "pronunciation": "/sərˈvaɪv/",
+        "meaning": "생존하다",
+        "pastTense": "survived",
+        "pastParticiple": "survived",
+        "example": "She survived the accident.",
+        "translation": "그녀는 사고에서 살아남았어."
+      },
+      {
+        "word": "appear",
+        "pronunciation": "/əˈpɪr/",
+        "meaning": "나타나다",
+        "pastTense": "appeared",
+        "pastParticiple": "appeared",
+        "example": "A rainbow appeared.",
+        "translation": "무지개가 나타났어."
+      },
+      {
+        "word": "disappear",
+        "pronunciation": "/ˌdɪsəˈpɪr/",
+        "meaning": "사라지다",
+        "pastTense": "disappeared",
+        "pastParticiple": "disappeared",
+        "example": "The cat disappeared.",
+        "translation": "고양이가 사라졌어."
+      },
+      {
+        "word": "seem",
+        "pronunciation": "/siːm/",
+        "meaning": "~인것같다",
+        "pastTense": "seemed",
+        "pastParticiple": "seemed",
+        "example": "You seem tired today.",
+        "translation": "오늘 피곤해 보여."
+      },
+      {
+        "word": "look",
+        "pronunciation": "/lʊk/",
+        "meaning": "~처럼보이다",
+        "pastTense": "looked",
+        "pastParticiple": "looked",
+        "example": "You look great!",
+        "translation": "멋져 보여!"
+      },
+      {
+        "word": "sound",
+        "pronunciation": "/saʊnd/",
+        "meaning": "~처럼들리다",
+        "pastTense": "sounded",
+        "pastParticiple": "sounded",
+        "example": "That sounds great!",
+        "translation": "좋은 것 같아!"
+      },
+      {
+        "word": "smell",
+        "pronunciation": "/smel/",
+        "meaning": "~냄새나다",
+        "pastTense": "smelled",
+        "pastParticiple": "smelled",
+        "example": "It smells delicious.",
+        "translation": "맛있는 냄새가 나."
+      },
+      {
+        "word": "taste",
+        "pronunciation": "/teɪst/",
+        "meaning": "~맛나다",
+        "pastTense": "tasted",
+        "pastParticiple": "tasted",
+        "example": "It tastes amazing!",
+        "translation": "맛이 끝내줘!"
+      },
+      {
+        "word": "remain",
+        "pronunciation": "/rɪˈmeɪn/",
+        "meaning": "남다",
+        "pastTense": "remained",
+        "pastParticiple": "remained",
+        "example": "Only one piece remains.",
+        "translation": "하나만 남았어."
+      },
+      {
+        "word": "stay",
+        "pronunciation": "/steɪ/",
+        "meaning": "머무르다",
+        "pastTense": "stayed",
+        "pastParticiple": "stayed",
+        "example": "Stay calm and carry on.",
+        "translation": "침착하게 계속해."
+      },
+      {
+        "word": "last",
+        "pronunciation": "/læst/",
+        "meaning": "지속하다",
+        "pastTense": "lasted",
+        "pastParticiple": "lasted",
+        "example": "The movie lasted 2 hours.",
+        "translation": "영화가 2시간 동안 했어."
+      },
+      {
+        "word": "continue",
+        "pronunciation": "/kənˈtɪnjuː/",
+        "meaning": "계속하다",
+        "pastTense": "continued",
+        "pastParticiple": "continued",
+        "example": "The rain continued all day.",
+        "translation": "비가 하루 종일 내렸어."
+      },
+      {
+        "word": "happen",
+        "pronunciation": "/ˈhæpən/",
+        "meaning": "일어나다",
+        "pastTense": "happened",
+        "pastParticiple": "happened",
+        "example": "What happened here?",
+        "translation": "여기서 무슨 일이 있었어?"
+      },
+      {
+        "word": "occur",
+        "pronunciation": "/əˈkɜːr/",
+        "meaning": "발생하다",
+        "pastTense": "occurred",
+        "pastParticiple": "occurred",
+        "example": "An accident occurred.",
+        "translation": "사고가 발생했어."
+      },
+      {
+        "word": "arise",
+        "pronunciation": "/əˈraɪz/",
+        "meaning": "발생하다",
+        "pastTense": "arose",
+        "pastParticiple": "arisen",
+        "example": "Problems arose suddenly.",
+        "translation": "문제가 갑자기 생겼어."
+      },
+      {
+        "word": "result",
+        "pronunciation": "/rɪˈzʌlt/",
+        "meaning": "결과되다",
+        "pastTense": "resulted",
+        "pastParticiple": "resulted",
+        "example": "Hard work resulted in success.",
+        "translation": "열심히 해서 성공했어."
+      },
+      {
+        "word": "cause",
+        "pronunciation": "/kɔːz/",
+        "meaning": "야기하다",
+        "pastTense": "caused",
+        "pastParticiple": "caused",
+        "example": "What caused the delay?",
+        "translation": "지연의 원인이 뭐야?"
+      },
+      {
+        "word": "prevent",
+        "pronunciation": "/prɪˈvent/",
+        "meaning": "방지하다",
+        "pastTense": "prevented",
+        "pastParticiple": "prevented",
+        "example": "We prevented the accident.",
+        "translation": "사고를 방지했어."
+      },
+      {
+        "word": "allow",
+        "pronunciation": "/əˈlaʊ/",
+        "meaning": "허락하다",
+        "pastTense": "allowed",
+        "pastParticiple": "allowed",
+        "example": "Photography is not allowed.",
+        "translation": "사진 촬영이 금지입니다."
+      },
+      {
+        "word": "enable",
+        "pronunciation": "/ɪˈneɪbl/",
+        "meaning": "가능하게하다",
+        "pastTense": "enabled",
+        "pastParticiple": "enabled",
+        "example": "This enables us to work faster.",
+        "translation": "이게 더 빨리 일하게 해줘."
+      },
+      {
+        "word": "require",
+        "pronunciation": "/rɪˈkwaɪr/",
+        "meaning": "요구하다",
+        "pastTense": "required",
+        "pastParticiple": "required",
+        "example": "This job requires experience.",
+        "translation": "이 일은 경험이 필요해."
+      },
+      {
+        "word": "involve",
+        "pronunciation": "/ɪnˈvɑːlv/",
+        "meaning": "수반하다",
+        "pastTense": "involved",
+        "pastParticiple": "involved",
+        "example": "The project involves teamwork.",
+        "translation": "프로젝트는 팀워크가 필요해."
+      },
+      {
+        "word": "contain",
+        "pronunciation": "/kənˈteɪn/",
+        "meaning": "포함하다",
+        "pastTense": "contained",
+        "pastParticiple": "contained",
+        "example": "This drink contains sugar.",
+        "translation": "이 음료에는 설탕이 들어있어."
+      },
+      {
+        "word": "consist",
+        "pronunciation": "/kənˈsɪst/",
+        "meaning": "구성되다",
+        "pastTense": "consisted",
+        "pastParticiple": "consisted",
+        "example": "The team consists of 5 people.",
+        "translation": "팀은 5명으로 구성돼."
+      },
+      {
+        "word": "belong",
+        "pronunciation": "/bɪˈlɔːŋ/",
+        "meaning": "속하다",
+        "pastTense": "belonged",
+        "pastParticiple": "belonged",
+        "example": "This belongs to me.",
+        "translation": "이건 내 거야."
+      },
+      {
+        "word": "fit",
+        "pronunciation": "/fɪt/",
+        "meaning": "맞다",
+        "pastTense": "fit",
+        "pastParticiple": "fit",
+        "example": "These shoes don't fit.",
+        "translation": "이 신발 안 맞아."
+      },
+      {
+        "word": "suit",
+        "pronunciation": "/suːt/",
+        "meaning": "어울리다",
+        "pastTense": "suited",
+        "pastParticiple": "suited",
+        "example": "Blue suits you well.",
+        "translation": "파란색이 잘 어울려."
+      }
+    ]
+  },
+  {
+    "nameKo": "기술/컴퓨터 동사",
+    "nameEn": "Tech Verbs",
+    "words": [
+      {
+        "word": "click",
+        "pronunciation": "/klɪk/",
+        "meaning": "클릭하다",
+        "pastTense": "clicked",
+        "pastParticiple": "clicked",
+        "example": "Click on the link.",
+        "translation": "링크를 클릭해."
+      },
+      {
+        "word": "tap",
+        "pronunciation": "/tæp/",
+        "meaning": "탭하다",
+        "pastTense": "tapped",
+        "pastParticiple": "tapped",
+        "example": "Tap the screen twice.",
+        "translation": "화면을 두 번 탭해."
+      },
+      {
+        "word": "type",
+        "pronunciation": "/taɪp/",
+        "meaning": "타이핑하다",
+        "pastTense": "typed",
+        "pastParticiple": "typed",
+        "example": "Type your password.",
+        "translation": "비밀번호를 입력해."
+      },
+      {
+        "word": "scroll",
+        "pronunciation": "/skroʊl/",
+        "meaning": "스크롤하다",
+        "pastTense": "scrolled",
+        "pastParticiple": "scrolled",
+        "example": "Scroll down to see more.",
+        "translation": "더 보려면 스크롤해."
+      },
+      {
+        "word": "swipe",
+        "pronunciation": "/swaɪp/",
+        "meaning": "스와이프하다",
+        "pastTense": "swiped",
+        "pastParticiple": "swiped",
+        "example": "Swipe left to delete.",
+        "translation": "삭제하려면 왼쪽으로 스와이프해."
+      },
+      {
+        "word": "zoom",
+        "pronunciation": "/zuːm/",
+        "meaning": "확대하다",
+        "pastTense": "zoomed",
+        "pastParticiple": "zoomed",
+        "example": "Zoom in on the photo.",
+        "translation": "사진 확대해."
+      },
+      {
+        "word": "download",
+        "pronunciation": "/ˈdaʊnloʊd/",
+        "meaning": "다운로드하다",
+        "pastTense": "downloaded",
+        "pastParticiple": "downloaded",
+        "example": "Download the app.",
+        "translation": "앱 다운받아."
+      },
+      {
+        "word": "upload",
+        "pronunciation": "/ʌpˈloʊd/",
+        "meaning": "업로드하다",
+        "pastTense": "uploaded",
+        "pastParticiple": "uploaded",
+        "example": "I uploaded the video.",
+        "translation": "영상 업로드했어."
+      },
+      {
+        "word": "install",
+        "pronunciation": "/ɪnˈstɔːl/",
+        "meaning": "설치하다",
+        "pastTense": "installed",
+        "pastParticiple": "installed",
+        "example": "Install the update.",
+        "translation": "업데이트 설치해."
+      },
+      {
+        "word": "uninstall",
+        "pronunciation": "/ˌʌnɪnˈstɔːl/",
+        "meaning": "삭제하다",
+        "pastTense": "uninstalled",
+        "pastParticiple": "uninstalled",
+        "example": "Uninstall unused apps.",
+        "translation": "안 쓰는 앱 삭제해."
+      },
+      {
+        "word": "update",
+        "pronunciation": "/ʌpˈdeɪt/",
+        "meaning": "업데이트하다",
+        "pastTense": "updated",
+        "pastParticiple": "updated",
+        "example": "Update your phone.",
+        "translation": "폰 업데이트해."
+      },
+      {
+        "word": "connect",
+        "pronunciation": "/kəˈnekt/",
+        "meaning": "연결하다",
+        "pastTense": "connected",
+        "pastParticiple": "connected",
+        "example": "Connect to WiFi.",
+        "translation": "와이파이에 연결해."
+      },
+      {
+        "word": "disconnect",
+        "pronunciation": "/ˌdɪskəˈnekt/",
+        "meaning": "연결끊다",
+        "pastTense": "disconnected",
+        "pastParticiple": "disconnected",
+        "example": "I got disconnected.",
+        "translation": "연결이 끊겼어."
+      },
+      {
+        "word": "log in",
+        "pronunciation": "/lɔːɡ ɪn/",
+        "meaning": "로그인하다",
+        "pastTense": "logged in",
+        "pastParticiple": "logged in",
+        "example": "Log in to your account.",
+        "translation": "계정에 로그인해."
+      },
+      {
+        "word": "log out",
+        "pronunciation": "/lɔːɡ aʊt/",
+        "meaning": "로그아웃하다",
+        "pastTense": "logged out",
+        "pastParticiple": "logged out",
+        "example": "Don't forget to log out.",
+        "translation": "로그아웃하는 거 잊지 마."
+      },
+      {
+        "word": "sign up",
+        "pronunciation": "/saɪn ʌp/",
+        "meaning": "가입하다",
+        "pastTense": "signed up",
+        "pastParticiple": "signed up",
+        "example": "Sign up for free.",
+        "translation": "무료로 가입해."
+      },
+      {
+        "word": "subscribe",
+        "pronunciation": "/səbˈskraɪb/",
+        "meaning": "구독하다",
+        "pastTense": "subscribed",
+        "pastParticiple": "subscribed",
+        "example": "Subscribe to my channel.",
+        "translation": "내 채널 구독해."
+      },
+      {
+        "word": "post",
+        "pronunciation": "/poʊst/",
+        "meaning": "게시하다",
+        "pastTense": "posted",
+        "pastParticiple": "posted",
+        "example": "I posted a photo.",
+        "translation": "사진 올렸어."
+      },
+      {
+        "word": "share",
+        "pronunciation": "/ʃer/",
+        "meaning": "공유하다",
+        "pastTense": "shared",
+        "pastParticiple": "shared",
+        "example": "Share this link.",
+        "translation": "이 링크 공유해."
+      },
+      {
+        "word": "like",
+        "pronunciation": "/laɪk/",
+        "meaning": "좋아요누르다",
+        "pastTense": "liked",
+        "pastParticiple": "liked",
+        "example": "Like and subscribe!",
+        "translation": "좋아요 구독!"
+      },
+      {
+        "word": "comment",
+        "pronunciation": "/ˈkɑːment/",
+        "meaning": "댓글달다",
+        "pastTense": "commented",
+        "pastParticiple": "commented",
+        "example": "Comment below!",
+        "translation": "댓글 달아줘!"
+      },
+      {
+        "word": "follow",
+        "pronunciation": "/ˈfɑːloʊ/",
+        "meaning": "팔로우하다",
+        "pastTense": "followed",
+        "pastParticiple": "followed",
+        "example": "Follow me on Instagram.",
+        "translation": "인스타 팔로우해."
+      },
+      {
+        "word": "unfollow",
+        "pronunciation": "/ʌnˈfɑːloʊ/",
+        "meaning": "언팔로우하다",
+        "pastTense": "unfollowed",
+        "pastParticiple": "unfollowed",
+        "example": "I unfollowed that account.",
+        "translation": "그 계정 언팔했어."
+      },
+      {
+        "word": "block",
+        "pronunciation": "/blɑːk/",
+        "meaning": "차단하다",
+        "pastTense": "blocked",
+        "pastParticiple": "blocked",
+        "example": "I blocked that user.",
+        "translation": "그 유저 차단했어."
+      },
+      {
+        "word": "delete",
+        "pronunciation": "/dɪˈliːt/",
+        "meaning": "삭제하다",
+        "pastTense": "deleted",
+        "pastParticiple": "deleted",
+        "example": "Delete this message.",
+        "translation": "이 메시지 삭제해."
+      },
+      {
+        "word": "save",
+        "pronunciation": "/seɪv/",
+        "meaning": "저장하다",
+        "pastTense": "saved",
+        "pastParticiple": "saved",
+        "example": "Save the document.",
+        "translation": "문서 저장해."
+      },
+      {
+        "word": "copy",
+        "pronunciation": "/ˈkɑːpi/",
+        "meaning": "복사하다",
+        "pastTense": "copied",
+        "pastParticiple": "copied",
+        "example": "Copy this text.",
+        "translation": "이 텍스트 복사해."
+      },
+      {
+        "word": "paste",
+        "pronunciation": "/peɪst/",
+        "meaning": "붙여넣다",
+        "pastTense": "pasted",
+        "pastParticiple": "pasted",
+        "example": "Paste it here.",
+        "translation": "여기에 붙여넣어."
+      },
+      {
+        "word": "print",
+        "pronunciation": "/prɪnt/",
+        "meaning": "인쇄하다",
+        "pastTense": "printed",
+        "pastParticiple": "printed",
+        "example": "Print this document.",
+        "translation": "이 문서 인쇄해."
+      },
+      {
+        "word": "scan",
+        "pronunciation": "/skæn/",
+        "meaning": "스캔하다",
+        "pastTense": "scanned",
+        "pastParticiple": "scanned",
+        "example": "Scan the QR code.",
+        "translation": "QR코드 스캔해."
+      },
+      {
+        "word": "search",
+        "pronunciation": "/sɜːrtʃ/",
+        "meaning": "검색하다",
+        "pastTense": "searched",
+        "pastParticiple": "searched",
+        "example": "Search for restaurants.",
+        "translation": "식당 검색해."
+      },
+      {
+        "word": "browse",
+        "pronunciation": "/braʊz/",
+        "meaning": "둘러보다",
+        "pastTense": "browsed",
+        "pastParticiple": "browsed",
+        "example": "I'm just browsing.",
+        "translation": "그냥 구경 중이야."
+      },
+      {
+        "word": "stream",
+        "pronunciation": "/striːm/",
+        "meaning": "스트리밍하다",
+        "pastTense": "streamed",
+        "pastParticiple": "streamed",
+        "example": "Let's stream a movie.",
+        "translation": "영화 스트리밍하자."
+      },
+      {
+        "word": "record",
+        "pronunciation": "/rɪˈkɔːrd/",
+        "meaning": "녹화하다",
+        "pastTense": "recorded",
+        "pastParticiple": "recorded",
+        "example": "I recorded the lecture.",
+        "translation": "강의 녹화했어."
+      },
+      {
+        "word": "charge",
+        "pronunciation": "/tʃɑːrdʒ/",
+        "meaning": "충전하다",
+        "pastTense": "charged",
+        "pastParticiple": "charged",
+        "example": "My phone needs to charge.",
+        "translation": "폰 충전해야 해."
+      }
+    ]
+  },
+  {
+    "nameKo": "신체 동작",
+    "nameEn": "Physical Actions",
+    "words": [
+      {
+        "word": "breathe",
+        "pronunciation": "/briːð/",
+        "meaning": "숨쉬다",
+        "pastTense": "breathed",
+        "pastParticiple": "breathed",
+        "example": "Breathe deeply.",
+        "translation": "깊게 숨 쉬어."
+      },
+      {
+        "word": "cough",
+        "pronunciation": "/kɔːf/",
+        "meaning": "기침하다",
+        "pastTense": "coughed",
+        "pastParticiple": "coughed",
+        "example": "I can't stop coughing.",
+        "translation": "기침이 안 멈춰."
+      },
+      {
+        "word": "sneeze",
+        "pronunciation": "/sniːz/",
+        "meaning": "재채기하다",
+        "pastTense": "sneezed",
+        "pastParticiple": "sneezed",
+        "example": "Bless you!",
+        "translation": "(재채기 후) 건강해!"
+      },
+      {
+        "word": "yawn",
+        "pronunciation": "/jɔːn/",
+        "meaning": "하품하다",
+        "pastTense": "yawned",
+        "pastParticiple": "yawned",
+        "example": "Stop yawning!",
+        "translation": "하품 좀 그만해!"
+      },
+      {
+        "word": "blink",
+        "pronunciation": "/blɪŋk/",
+        "meaning": "눈깜빡이다",
+        "pastTense": "blinked",
+        "pastParticiple": "blinked",
+        "example": "Don't blink or you'll miss it.",
+        "translation": "눈 깜빡이면 놓쳐."
+      },
+      {
+        "word": "nod",
+        "pronunciation": "/nɑːd/",
+        "meaning": "끄덕이다",
+        "pastTense": "nodded",
+        "pastParticiple": "nodded",
+        "example": "She nodded in agreement.",
+        "translation": "그녀는 동의하며 끄덕였어."
+      },
+      {
+        "word": "shake",
+        "pronunciation": "/ʃeɪk/",
+        "meaning": "흔들다",
+        "pastTense": "shook",
+        "pastParticiple": "shaken",
+        "example": "He shook his head no.",
+        "translation": "그는 고개를 저었어."
+      },
+      {
+        "word": "wave",
+        "pronunciation": "/weɪv/",
+        "meaning": "손흔들다",
+        "pastTense": "waved",
+        "pastParticiple": "waved",
+        "example": "Wave goodbye!",
+        "translation": "손 흔들어!"
+      },
+      {
+        "word": "point",
+        "pronunciation": "/pɔɪnt/",
+        "meaning": "가리키다",
+        "pastTense": "pointed",
+        "pastParticiple": "pointed",
+        "example": "Don't point at people.",
+        "translation": "사람을 손가락질하지 마."
+      },
+      {
+        "word": "clap",
+        "pronunciation": "/klæp/",
+        "meaning": "박수치다",
+        "pastTense": "clapped",
+        "pastParticiple": "clapped",
+        "example": "Everyone clapped loudly.",
+        "translation": "모두가 크게 박수쳤어."
+      },
+      {
+        "word": "hug",
+        "pronunciation": "/hʌɡ/",
+        "meaning": "껴안다",
+        "pastTense": "hugged",
+        "pastParticiple": "hugged",
+        "example": "Give me a hug.",
+        "translation": "안아줘."
+      },
+      {
+        "word": "kiss",
+        "pronunciation": "/kɪs/",
+        "meaning": "키스하다",
+        "pastTense": "kissed",
+        "pastParticiple": "kissed",
+        "example": "She kissed him goodbye.",
+        "translation": "그녀가 작별 키스를 했어."
+      },
+      {
+        "word": "smile",
+        "pronunciation": "/smaɪl/",
+        "meaning": "미소짓다",
+        "pastTense": "smiled",
+        "pastParticiple": "smiled",
+        "example": "Keep smiling!",
+        "translation": "계속 웃어!"
+      },
+      {
+        "word": "laugh",
+        "pronunciation": "/læf/",
+        "meaning": "웃다",
+        "pastTense": "laughed",
+        "pastParticiple": "laughed",
+        "example": "We laughed so hard.",
+        "translation": "우리는 엄청 웃었어."
+      },
+      {
+        "word": "cry",
+        "pronunciation": "/kraɪ/",
+        "meaning": "울다",
+        "pastTense": "cried",
+        "pastParticiple": "cried",
+        "example": "Don't cry, it's okay.",
+        "translation": "울지 마, 괜찮아."
+      },
+      {
+        "word": "shout",
+        "pronunciation": "/ʃaʊt/",
+        "meaning": "소리지르다",
+        "pastTense": "shouted",
+        "pastParticiple": "shouted",
+        "example": "Don't shout at me!",
+        "translation": "나한테 소리 지르지 마!"
+      },
+      {
+        "word": "scream",
+        "pronunciation": "/skriːm/",
+        "meaning": "비명지르다",
+        "pastTense": "screamed",
+        "pastParticiple": "screamed",
+        "example": "She screamed in fear.",
+        "translation": "그녀가 무서워서 비명을 질렀어."
+      },
+      {
+        "word": "whisper",
+        "pronunciation": "/ˈwɪspər/",
+        "meaning": "속삭이다",
+        "pastTense": "whispered",
+        "pastParticiple": "whispered",
+        "example": "She whispered in my ear.",
+        "translation": "그녀가 내 귀에 속삭였어."
+      },
+      {
+        "word": "sing",
+        "pronunciation": "/sɪŋ/",
+        "meaning": "노래하다",
+        "pastTense": "sang",
+        "pastParticiple": "sung",
+        "example": "Sing along with me!",
+        "translation": "같이 불러!"
+      },
+      {
+        "word": "dance",
+        "pronunciation": "/dæns/",
+        "meaning": "춤추다",
+        "pastTense": "danced",
+        "pastParticiple": "danced",
+        "example": "Let's dance together.",
+        "translation": "같이 춤추자."
+      },
+      {
+        "word": "kick",
+        "pronunciation": "/kɪk/",
+        "meaning": "차다",
+        "pastTense": "kicked",
+        "pastParticiple": "kicked",
+        "example": "He kicked the ball.",
+        "translation": "그가 공을 찼어."
+      },
+      {
+        "word": "punch",
+        "pronunciation": "/pʌntʃ/",
+        "meaning": "때리다",
+        "pastTense": "punched",
+        "pastParticiple": "punched",
+        "example": "He punched the wall.",
+        "translation": "그가 벽을 주먹으로 쳤어."
+      },
+      {
+        "word": "slap",
+        "pronunciation": "/slæp/",
+        "meaning": "치다",
+        "pastTense": "slapped",
+        "pastParticiple": "slapped",
+        "example": "She slapped his face.",
+        "translation": "그녀가 그의 뺨을 때렸어."
+      },
+      {
+        "word": "scratch",
+        "pronunciation": "/skrætʃ/",
+        "meaning": "긁다",
+        "pastTense": "scratched",
+        "pastParticiple": "scratched",
+        "example": "The cat scratched me.",
+        "translation": "고양이가 나를 긁었어."
+      },
+      {
+        "word": "rub",
+        "pronunciation": "/rʌb/",
+        "meaning": "문지르다",
+        "pastTense": "rubbed",
+        "pastParticiple": "rubbed",
+        "example": "Rub your eyes gently.",
+        "translation": "눈을 부드럽게 비벼."
+      },
+      {
+        "word": "squeeze",
+        "pronunciation": "/skwiːz/",
+        "meaning": "짜다",
+        "pastTense": "squeezed",
+        "pastParticiple": "squeezed",
+        "example": "Squeeze the lemon.",
+        "translation": "레몬을 짜."
+      },
+      {
+        "word": "grab",
+        "pronunciation": "/ɡræb/",
+        "meaning": "움켜잡다",
+        "pastTense": "grabbed",
+        "pastParticiple": "grabbed",
+        "example": "He grabbed my arm.",
+        "translation": "그가 내 팔을 잡았어."
+      },
+      {
+        "word": "grip",
+        "pronunciation": "/ɡrɪp/",
+        "meaning": "움켜쥐다",
+        "pastTense": "gripped",
+        "pastParticiple": "gripped",
+        "example": "Grip the handle tightly.",
+        "translation": "손잡이를 꽉 잡아."
+      },
+      {
+        "word": "pat",
+        "pronunciation": "/pæt/",
+        "meaning": "쓰다듬다",
+        "pastTense": "patted",
+        "pastParticiple": "patted",
+        "example": "She patted my head.",
+        "translation": "그녀가 내 머리를 쓰다듬었어."
+      },
+      {
+        "word": "stroke",
+        "pronunciation": "/stroʊk/",
+        "meaning": "쓰다듬다",
+        "pastTense": "stroked",
+        "pastParticiple": "stroked",
+        "example": "He stroked the cat gently.",
+        "translation": "그가 고양이를 부드럽게 쓰다듬었어."
+      },
+      {
+        "word": "bow",
+        "pronunciation": "/baʊ/",
+        "meaning": "절하다",
+        "pastTense": "bowed",
+        "pastParticiple": "bowed",
+        "example": "Bow to your teacher.",
+        "translation": "선생님께 인사해."
+      },
+      {
+        "word": "kneel",
+        "pronunciation": "/niːl/",
+        "meaning": "무릎꿇다",
+        "pastTense": "knelt",
+        "pastParticiple": "knelt",
+        "example": "He knelt down to pray.",
+        "translation": "그는 기도하려고 무릎을 꿇었어."
+      },
+      {
+        "word": "squat",
+        "pronunciation": "/skwɑːt/",
+        "meaning": "쪼그리다",
+        "pastTense": "squatted",
+        "pastParticiple": "squatted",
+        "example": "Squat properly.",
+        "translation": "제대로 스쿼트해."
+      },
+      {
+        "word": "crouch",
+        "pronunciation": "/kraʊtʃ/",
+        "meaning": "웅크리다",
+        "pastTense": "crouched",
+        "pastParticiple": "crouched",
+        "example": "The cat crouched to pounce.",
+        "translation": "고양이가 덮치려고 웅크렸어."
+      },
+      {
+        "word": "bite",
+        "pronunciation": "/baɪt/",
+        "meaning": "물다",
+        "pastTense": "bit",
+        "pastParticiple": "bitten",
+        "example": "Don't bite your nails.",
+        "translation": "손톱 물어뜯지 마."
+      },
+      {
+        "word": "chew",
+        "pronunciation": "/tʃuː/",
+        "meaning": "씹다",
+        "pastTense": "chewed",
+        "pastParticiple": "chewed",
+        "example": "Chew your food well.",
+        "translation": "음식을 잘 씹어."
+      },
+      {
+        "word": "swallow",
+        "pronunciation": "/ˈswɑːloʊ/",
+        "meaning": "삼키다",
+        "pastTense": "swallowed",
+        "pastParticiple": "swallowed",
+        "example": "Swallow the pill with water.",
+        "translation": "물과 함께 약을 삼켜."
+      },
+      {
+        "word": "spit",
+        "pronunciation": "/spɪt/",
+        "meaning": "뱉다",
+        "pastTense": "spat",
+        "pastParticiple": "spat",
+        "example": "Don't spit on the street.",
+        "translation": "길에 침 뱉지 마."
+      },
+      {
+        "word": "lick",
+        "pronunciation": "/lɪk/",
+        "meaning": "핥다",
+        "pastTense": "licked",
+        "pastParticiple": "licked",
+        "example": "The dog licked my face.",
+        "translation": "개가 내 얼굴을 핥았어."
+      },
+      {
+        "word": "blow",
+        "pronunciation": "/bloʊ/",
+        "meaning": "불다",
+        "pastTense": "blew",
+        "pastParticiple": "blown",
+        "example": "Blow out the candles.",
+        "translation": "촛불 꺼."
+      }
+    ]
+  },
+  {
+    "nameKo": "기타 유용한 동사",
+    "nameEn": "Other Useful Verbs",
+    "words": [
+      {
+        "word": "matter",
+        "pronunciation": "/ˈmætər/",
+        "meaning": "중요하다",
+        "pastTense": "mattered",
+        "pastParticiple": "mattered",
+        "example": "It doesn't matter.",
+        "translation": "상관없어."
+      },
+      {
+        "word": "mean",
+        "pronunciation": "/miːn/",
+        "meaning": "의미하다",
+        "pastTense": "meant",
+        "pastParticiple": "meant",
+        "example": "What do you mean?",
+        "translation": "무슨 말이야?"
+      },
+      {
+        "word": "represent",
+        "pronunciation": "/ˌreprɪˈzent/",
+        "meaning": "나타내다",
+        "pastTense": "represented",
+        "pastParticiple": "represented",
+        "example": "This symbol represents peace.",
+        "translation": "이 기호는 평화를 나타내."
+      },
+      {
+        "word": "indicate",
+        "pronunciation": "/ˈɪndɪkeɪt/",
+        "meaning": "나타내다",
+        "pastTense": "indicated",
+        "pastParticiple": "indicated",
+        "example": "The sign indicates danger.",
+        "translation": "그 표지판은 위험을 나타내."
+      },
+      {
+        "word": "suggest",
+        "pronunciation": "/səˈdʒest/",
+        "meaning": "암시하다",
+        "pastTense": "suggested",
+        "pastParticiple": "suggested",
+        "example": "What does this suggest?",
+        "translation": "이게 뭘 암시하지?"
+      },
+      {
+        "word": "imply",
+        "pronunciation": "/ɪmˈplaɪ/",
+        "meaning": "암시하다",
+        "pastTense": "implied",
+        "pastParticiple": "implied",
+        "example": "What are you implying?",
+        "translation": "뭘 암시하는 거야?"
+      },
+      {
+        "word": "express",
+        "pronunciation": "/ɪkˈspres/",
+        "meaning": "표현하다",
+        "pastTense": "expressed",
+        "pastParticiple": "expressed",
+        "example": "Express yourself freely.",
+        "translation": "자유롭게 표현해."
+      },
+      {
+        "word": "state",
+        "pronunciation": "/steɪt/",
+        "meaning": "진술하다",
+        "pastTense": "stated",
+        "pastParticiple": "stated",
+        "example": "Please state your name.",
+        "translation": "이름을 말씀해 주세요."
+      },
+      {
+        "word": "claim",
+        "pronunciation": "/kleɪm/",
+        "meaning": "주장하다",
+        "pastTense": "claimed",
+        "pastParticiple": "claimed",
+        "example": "He claims to be innocent.",
+        "translation": "그는 무죄라고 주장해."
+      },
+      {
+        "word": "insist",
+        "pronunciation": "/ɪnˈsɪst/",
+        "meaning": "주장하다",
+        "pastTense": "insisted",
+        "pastParticiple": "insisted",
+        "example": "I insist on paying.",
+        "translation": "내가 낼게."
+      },
+      {
+        "word": "maintain",
+        "pronunciation": "/meɪnˈteɪn/",
+        "meaning": "유지하다",
+        "pastTense": "maintained",
+        "pastParticiple": "maintained",
+        "example": "Maintain your composure.",
+        "translation": "침착함을 유지해."
+      },
+      {
+        "word": "preserve",
+        "pronunciation": "/prɪˈzɜːrv/",
+        "meaning": "보존하다",
+        "pastTense": "preserved",
+        "pastParticiple": "preserved",
+        "example": "We must preserve nature.",
+        "translation": "자연을 보존해야 해."
+      },
+      {
+        "word": "establish",
+        "pronunciation": "/ɪˈstæblɪʃ/",
+        "meaning": "설립하다",
+        "pastTense": "established",
+        "pastParticiple": "established",
+        "example": "They established a company.",
+        "translation": "그들이 회사를 설립했어."
+      },
+      {
+        "word": "found",
+        "pronunciation": "/faʊnd/",
+        "meaning": "설립하다",
+        "pastTense": "founded",
+        "pastParticiple": "founded",
+        "example": "Who founded this city?",
+        "translation": "누가 이 도시를 세웠어?"
+      },
+      {
+        "word": "form",
+        "pronunciation": "/fɔːrm/",
+        "meaning": "형성하다",
+        "pastTense": "formed",
+        "pastParticiple": "formed",
+        "example": "We formed a team.",
+        "translation": "우리는 팀을 형성했어."
+      },
+      {
+        "word": "shape",
+        "pronunciation": "/ʃeɪp/",
+        "meaning": "형성하다",
+        "pastTense": "shaped",
+        "pastParticiple": "shaped",
+        "example": "Education shapes character.",
+        "translation": "교육이 인격을 형성해."
+      },
+      {
+        "word": "build",
+        "pronunciation": "/bɪld/",
+        "meaning": "짓다",
+        "pastTense": "built",
+        "pastParticiple": "built",
+        "example": "They built a new school.",
+        "translation": "그들이 새 학교를 지었어."
+      },
+      {
+        "word": "construct",
+        "pronunciation": "/kənˈstrʌkt/",
+        "meaning": "건설하다",
+        "pastTense": "constructed",
+        "pastParticiple": "constructed",
+        "example": "They're constructing a bridge.",
+        "translation": "다리를 건설 중이야."
+      },
+      {
+        "word": "assemble",
+        "pronunciation": "/əˈsembl/",
+        "meaning": "조립하다",
+        "pastTense": "assembled",
+        "pastParticiple": "assembled",
+        "example": "Assemble the furniture.",
+        "translation": "가구를 조립해."
+      },
+      {
+        "word": "combine",
+        "pronunciation": "/kəmˈbaɪn/",
+        "meaning": "결합하다",
+        "pastTense": "combined",
+        "pastParticiple": "combined",
+        "example": "Combine the ingredients.",
+        "translation": "재료를 섞어."
+      },
+      {
+        "word": "separate",
+        "pronunciation": "/ˈsepəreɪt/",
+        "meaning": "분리하다",
+        "pastTense": "separated",
+        "pastParticiple": "separated",
+        "example": "Separate the colors.",
+        "translation": "색깔별로 분리해."
+      },
+      {
+        "word": "divide",
+        "pronunciation": "/dɪˈvaɪd/",
+        "meaning": "나누다",
+        "pastTense": "divided",
+        "pastParticiple": "divided",
+        "example": "Divide it into two parts.",
+        "translation": "둘로 나눠."
+      },
+      {
+        "word": "connect",
+        "pronunciation": "/kəˈnekt/",
+        "meaning": "연결하다",
+        "pastTense": "connected",
+        "pastParticiple": "connected",
+        "example": "Connect the cables.",
+        "translation": "케이블을 연결해."
+      },
+      {
+        "word": "link",
+        "pronunciation": "/lɪŋk/",
+        "meaning": "연결하다",
+        "pastTense": "linked",
+        "pastParticiple": "linked",
+        "example": "The two events are linked.",
+        "translation": "두 사건은 연결돼 있어."
+      },
+      {
+        "word": "attach",
+        "pronunciation": "/əˈtætʃ/",
+        "meaning": "붙이다",
+        "pastTense": "attached",
+        "pastParticiple": "attached",
+        "example": "Attach the file please.",
+        "translation": "파일을 첨부해 주세요."
+      },
+      {
+        "word": "detach",
+        "pronunciation": "/dɪˈtætʃ/",
+        "meaning": "떼다",
+        "pastTense": "detached",
+        "pastParticiple": "detached",
+        "example": "Detach the price tag.",
+        "translation": "가격표를 떼."
+      },
+      {
+        "word": "stick",
+        "pronunciation": "/stɪk/",
+        "meaning": "붙이다",
+        "pastTense": "stuck",
+        "pastParticiple": "stuck",
+        "example": "Stick this on the wall.",
+        "translation": "이거 벽에 붙여."
+      },
+      {
+        "word": "tie",
+        "pronunciation": "/taɪ/",
+        "meaning": "묶다",
+        "pastTense": "tied",
+        "pastParticiple": "tied",
+        "example": "Tie your shoelaces.",
+        "translation": "신발끈 묶어."
+      },
+      {
+        "word": "untie",
+        "pronunciation": "/ʌnˈtaɪ/",
+        "meaning": "풀다",
+        "pastTense": "untied",
+        "pastParticiple": "untied",
+        "example": "Untie the knot.",
+        "translation": "매듭을 풀어."
+      },
+      {
+        "word": "lock",
+        "pronunciation": "/lɑːk/",
+        "meaning": "잠그다",
+        "pastTense": "locked",
+        "pastParticiple": "locked",
+        "example": "Lock the door.",
+        "translation": "문 잠가."
+      },
+      {
+        "word": "unlock",
+        "pronunciation": "/ʌnˈlɑːk/",
+        "meaning": "열다",
+        "pastTense": "unlocked",
+        "pastParticiple": "unlocked",
+        "example": "Unlock your phone.",
+        "translation": "폰 잠금 풀어."
+      },
+      {
+        "word": "release",
+        "pronunciation": "/rɪˈliːs/",
+        "meaning": "풀어주다",
+        "pastTense": "released",
+        "pastParticiple": "released",
+        "example": "They released the prisoner.",
+        "translation": "그들이 죄수를 석방했어."
+      },
+      {
+        "word": "capture",
+        "pronunciation": "/ˈkæptʃər/",
+        "meaning": "잡다",
+        "pastTense": "captured",
+        "pastParticiple": "captured",
+        "example": "We captured the moment.",
+        "translation": "그 순간을 담았어."
+      },
+      {
+        "word": "grab",
+        "pronunciation": "/ɡræb/",
+        "meaning": "잡다",
+        "pastTense": "grabbed",
+        "pastParticiple": "grabbed",
+        "example": "Grab your coat!",
+        "translation": "외투 챙겨!"
+      },
+      {
+        "word": "seize",
+        "pronunciation": "/siːz/",
+        "meaning": "붙잡다",
+        "pastTense": "seized",
+        "pastParticiple": "seized",
+        "example": "Police seized the drugs.",
+        "translation": "경찰이 마약을 압수했어."
+      },
+      {
+        "word": "handle",
+        "pronunciation": "/ˈhændl/",
+        "meaning": "다루다",
+        "pastTense": "handled",
+        "pastParticiple": "handled",
+        "example": "I can handle this.",
+        "translation": "내가 이거 처리할 수 있어."
+      },
+      {
+        "word": "deal",
+        "pronunciation": "/diːl/",
+        "meaning": "다루다",
+        "pastTense": "dealt",
+        "pastParticiple": "dealt",
+        "example": "How do you deal with stress?",
+        "translation": "스트레스는 어떻게 해소해?"
+      },
+      {
+        "word": "treat",
+        "pronunciation": "/triːt/",
+        "meaning": "대하다",
+        "pastTense": "treated",
+        "pastParticiple": "treated",
+        "example": "Treat others with respect.",
+        "translation": "다른 사람을 존중해."
+      },
+      {
+        "word": "process",
+        "pronunciation": "/ˈprɑːses/",
+        "meaning": "처리하다",
+        "pastTense": "processed",
+        "pastParticiple": "processed",
+        "example": "We're processing your order.",
+        "translation": "주문 처리 중입니다."
+      },
+      {
+        "word": "operate",
+        "pronunciation": "/ˈɑːpəreɪt/",
+        "meaning": "작동하다",
+        "pastTense": "operated",
+        "pastParticiple": "operated",
+        "example": "How do you operate this?",
+        "translation": "이거 어떻게 작동해?"
+      },
+      {
+        "word": "function",
+        "pronunciation": "/ˈfʌŋkʃn/",
+        "meaning": "기능하다",
+        "pastTense": "functioned",
+        "pastParticiple": "functioned",
+        "example": "Is everything functioning?",
+        "translation": "다 작동해?"
+      },
+      {
+        "word": "work",
+        "pronunciation": "/wɜːrk/",
+        "meaning": "작동하다",
+        "pastTense": "worked",
+        "pastParticiple": "worked",
+        "example": "My phone isn't working.",
+        "translation": "폰이 안 돼."
+      },
+      {
+        "word": "run",
+        "pronunciation": "/rʌn/",
+        "meaning": "운영하다",
+        "pastTense": "ran",
+        "pastParticiple": "run",
+        "example": "She runs her own business.",
+        "translation": "그녀는 자기 사업을 운영해."
+      },
+      {
+        "word": "control",
+        "pronunciation": "/kənˈtroʊl/",
+        "meaning": "통제하다",
+        "pastTense": "controlled",
+        "pastParticiple": "controlled",
+        "example": "Control your emotions.",
+        "translation": "감정을 통제해."
+      },
+      {
+        "word": "regulate",
+        "pronunciation": "/ˈreɡjuleɪt/",
+        "meaning": "규제하다",
+        "pastTense": "regulated",
+        "pastParticiple": "regulated",
+        "example": "The government regulates this.",
+        "translation": "정부가 이걸 규제해."
+      },
+      {
+        "word": "limit",
+        "pronunciation": "/ˈlɪmɪt/",
+        "meaning": "제한하다",
+        "pastTense": "limited",
+        "pastParticiple": "limited",
+        "example": "Limit your screen time.",
+        "translation": "스크린 타임을 제한해."
+      },
+      {
+        "word": "restrict",
+        "pronunciation": "/rɪˈstrɪkt/",
+        "meaning": "제한하다",
+        "pastTense": "restricted",
+        "pastParticiple": "restricted",
+        "example": "Access is restricted.",
+        "translation": "접근이 제한돼."
+      },
+      {
+        "word": "ban",
+        "pronunciation": "/bæn/",
+        "meaning": "금지하다",
+        "pastTense": "banned",
+        "pastParticiple": "banned",
+        "example": "Smoking is banned here.",
+        "translation": "여기서 흡연 금지야."
+      },
+      {
+        "word": "prohibit",
+        "pronunciation": "/prəˈhɪbɪt/",
+        "meaning": "금지하다",
+        "pastTense": "prohibited",
+        "pastParticiple": "prohibited",
+        "example": "Photography is prohibited.",
+        "translation": "사진 촬영 금지입니다."
+      },
+      {
+        "word": "forbid",
+        "pronunciation": "/fərˈbɪd/",
+        "meaning": "금지하다",
+        "pastTense": "forbade",
+        "pastParticiple": "forbidden",
+        "example": "My parents forbid me to go.",
+        "translation": "부모님이 가지 말라고 해."
+      }
+    ]
+  }
+]

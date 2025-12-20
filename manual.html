@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사용 매뉴얼 - VocabMaster</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .manual-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 32px 24px;
+        }
+        .manual-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        .manual-title {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+        .manual-subtitle {
+            font-size: 18px;
+            color: var(--text-secondary);
+        }
+        .section {
+            margin-bottom: 48px;
+        }
+        .section-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--primary-color);
+            color: var(--text-primary);
+        }
+        .subsection {
+            margin-bottom: 24px;
+        }
+        .subsection-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+        .content-box {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            margin-bottom: 16px;
+        }
+        .warning-box {
+            background: #fff3cd;
+            border-color: #ffc107;
+        }
+        [data-theme="dark"] .warning-box {
+            background: #332700;
+            border-color: #ffc107;
+        }
+        .info-box {
+            background: #d1ecf1;
+            border-color: #17a2b8;
+        }
+        [data-theme="dark"] .info-box {
+            background: #0a2e33;
+            border-color: #17a2b8;
+        }
+        .success-box {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+        [data-theme="dark"] .success-box {
+            background: #0d2a12;
+            border-color: #28a745;
+        }
+        .box-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .box-icon {
+            font-size: 20px;
+        }
+        ul, ol {
+            padding-left: 24px;
+            margin: 12px 0;
+        }
+        li {
+            margin-bottom: 8px;
+            line-height: 1.7;
+        }
+        p {
+            line-height: 1.8;
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+        .highlight {
+            background: var(--primary-color);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 24px;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin: 16px 0;
+        }
+        .feature-card {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            text-align: center;
+        }
+        .feature-icon {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+        .feature-name {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        .feature-desc {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+        .step-list {
+            counter-reset: step;
+            list-style: none;
+            padding-left: 0;
+        }
+        .step-list li {
+            counter-increment: step;
+            position: relative;
+            padding-left: 48px;
+            margin-bottom: 16px;
+        }
+        .step-list li::before {
+            content: counter(step);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 32px;
+            height: 32px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+        }
+        .science-reference {
+            font-size: 13px;
+            color: var(--text-light);
+            font-style: italic;
+            margin-top: 8px;
+        }
+        .keyboard-shortcut {
+            display: inline-block;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 2px 8px;
+            font-family: monospace;
+            font-size: 14px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+        }
+        th, td {
+            border: 1px solid var(--border-color);
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background: var(--bg-secondary);
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo" onclick="location.href='index.html'">
+                <span class="logo-icon">V</span>
+                <span class="logo-text">VocabMaster</span>
+            </div>
+            <nav class="nav-menu">
+                <button class="nav-btn" onclick="location.href='index.html'">홈</button>
+                <button class="nav-btn active">매뉴얼</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="manual-content">
+            <a href="index.html" class="back-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+                홈으로 돌아가기
+            </a>
+
+            <div class="manual-header">
+                <h1 class="manual-title">VocabMaster 사용 매뉴얼</h1>
+                <p class="manual-subtitle">효과적인 영어 단어 학습을 위한 완벽 가이드</p>
+            </div>
+
+            <!-- 중요 공지: localStorage -->
+            <section class="section">
+                <h2 class="section-title">중요: 데이터 저장 방식 이해하기</h2>
+
+                <div class="content-box warning-box">
+                    <div class="box-title">
+                        <span class="box-icon">⚠️</span>
+                        반드시 알아야 할 사항
+                    </div>
+                    <p><strong>VocabMaster는 localStorage를 사용하여 학습 데이터를 저장합니다.</strong></p>
+                    <p>이는 다음을 의미합니다:</p>
+                    <ul>
+                        <li><strong>데이터는 현재 브라우저에만 저장됩니다</strong> - 다른 기기, 다른 브라우저에서는 학습 기록이 보이지 않습니다.</li>
+                        <li><strong>브라우저 데이터를 삭제하면 학습 기록도 삭제됩니다</strong> - 캐시/쿠키 삭제 시 주의하세요.</li>
+                        <li><strong>시크릿/프라이빗 모드에서는 저장되지 않습니다</strong> - 일반 브라우저 모드를 사용하세요.</li>
+                    </ul>
+                </div>
+
+                <div class="content-box info-box">
+                    <div class="box-title">
+                        <span class="box-icon">💡</span>
+                        localStorage란?
+                    </div>
+                    <p>localStorage는 웹 브라우저에 내장된 저장소로, 웹사이트별로 최대 5~10MB의 데이터를 저장할 수 있습니다. 서버에 데이터를 전송하지 않아 개인정보가 안전하게 보호되며, 인터넷 연결 없이도 데이터가 유지됩니다.</p>
+                    <p><strong>장점:</strong> 빠른 속도, 오프라인 지원, 개인정보 보호, 무료</p>
+                    <p><strong>단점:</strong> 기기 간 동기화 불가, 브라우저별 독립 저장</p>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">다른 기기에서 학습을 이어가려면?</h3>
+                    <p><span class="highlight">Export/Import</span> 기능을 사용하세요!</p>
+                    <ol class="step-list">
+                        <li><strong>기존 기기에서:</strong> 설정(톱니바퀴) → "학습 데이터 내보내기" 클릭 → JSON 파일 저장</li>
+                        <li><strong>새 기기에서:</strong> 설정(톱니바퀴) → "학습 데이터 가져오기" 클릭 → 저장한 파일 선택</li>
+                        <li>데이터가 <strong>자동으로 병합</strong>됩니다 (기존 데이터 + 가져온 데이터)</li>
+                    </ol>
+                </div>
+            </section>
+
+            <!-- 데이터 백업 및 복원 -->
+            <section class="section">
+                <h2 class="section-title">데이터 백업 및 복원</h2>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">내보내기 (Export)</h3>
+                    <p>학습 진행 상황을 JSON 파일로 저장합니다.</p>
+                    <ul>
+                        <li>단어별 암기 상태 (새 단어/학습 중/암기 완료)</li>
+                        <li>학습 통계 (총 학습 수, 연속 학습일 등)</li>
+                        <li>앱 설정 (다크 모드, 발음 기호 표시 등)</li>
+                    </ul>
+                    <p class="science-reference">💾 파일명 예시: vocabmaster_backup_2024-01-15.json</p>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">가져오기 (Import) - 병합 방식</h3>
+                    <div class="content-box success-box">
+                        <div class="box-title">
+                            <span class="box-icon">✅</span>
+                            스마트 병합 기능
+                        </div>
+                        <p>Import 시 기존 데이터를 덮어쓰지 않고 <strong>지능적으로 병합</strong>합니다:</p>
+                        <table>
+                            <tr>
+                                <th>현재 상태</th>
+                                <th>가져온 상태</th>
+                                <th>결과</th>
+                            </tr>
+                            <tr>
+                                <td>새 단어</td>
+                                <td>학습 중</td>
+                                <td><strong>학습 중</strong> (높은 상태 유지)</td>
+                            </tr>
+                            <tr>
+                                <td>학습 중</td>
+                                <td>암기 완료</td>
+                                <td><strong>암기 완료</strong> (높은 상태 유지)</td>
+                            </tr>
+                            <tr>
+                                <td>암기 완료</td>
+                                <td>학습 중</td>
+                                <td><strong>암기 완료</strong> (높은 상태 유지)</td>
+                            </tr>
+                        </table>
+                        <p>이렇게 하면 여러 기기에서 학습한 내용이 합쳐지며, 한 번 암기 완료한 단어는 절대 되돌아가지 않습니다!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 학습 모드 -->
+            <section class="section">
+                <h2 class="section-title">학습 모드 소개</h2>
+
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🃏</div>
+                        <div class="feature-name">플래시카드</div>
+                        <div class="feature-desc">카드를 뒤집어 단어와 뜻 확인</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <div class="feature-name">블링크</div>
+                        <div class="feature-desc">빠른 속도로 단어 노출</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">❓</div>
+                        <div class="feature-name">퀴즈</div>
+                        <div class="feature-desc">4지선다 문제로 테스트</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📋</div>
+                        <div class="feature-name">단어 목록</div>
+                        <div class="feature-desc">전체 단어 검색 및 관리</div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">플래시카드 모드</h3>
+                    <p>전통적인 암기 카드 방식입니다. 카드를 클릭하면 뒤집어집니다.</p>
+                    <p><strong>키보드 단축키:</strong></p>
+                    <ul>
+                        <li><span class="keyboard-shortcut">Space</span> 또는 <span class="keyboard-shortcut">Enter</span> - 카드 뒤집기</li>
+                        <li><span class="keyboard-shortcut">←</span> - 이전 카드</li>
+                        <li><span class="keyboard-shortcut">→</span> - 다음 카드</li>
+                        <li><span class="keyboard-shortcut">1</span> - 암기 완료 표시</li>
+                        <li><span class="keyboard-shortcut">2</span> - 학습 중 표시</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">블링크 모드</h3>
+                    <p>단어가 빠르게 지나가며, 순간적인 인식과 기억력을 훈련합니다.</p>
+                    <ul>
+                        <li><strong>속도 조절:</strong> 0.5초 ~ 3초</li>
+                        <li><strong>표시 옵션:</strong> 영어만 / 뜻만 / 둘 다</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">퀴즈 모드</h3>
+                    <p>4개의 선택지 중 정답을 고르는 방식으로 학습 효과를 테스트합니다.</p>
+                    <ul>
+                        <li><strong>문제 유형:</strong> 뜻 맞추기 / 단어 맞추기 / 혼합</li>
+                        <li><strong>문제 수:</strong> 10 / 20 / 50 / 100문제</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 과학적 근거 -->
+            <section class="section">
+                <h2 class="section-title">학습 방법의 과학적 근거</h2>
+
+                <div class="content-box">
+                    <div class="box-title">
+                        <span class="box-icon">🧠</span>
+                        능동적 회상 (Active Recall)
+                    </div>
+                    <p>플래시카드와 퀴즈 모드는 <strong>"능동적 회상"</strong> 원리를 활용합니다. 단순히 정보를 읽는 것보다, 기억에서 정보를 "꺼내는" 과정이 장기 기억 형성에 훨씬 효과적입니다.</p>
+                    <p class="science-reference">📚 연구: Karpicke & Roediger (2008) - "The Critical Importance of Retrieval for Learning", Science</p>
+                </div>
+
+                <div class="content-box">
+                    <div class="box-title">
+                        <span class="box-icon">🔄</span>
+                        간격 반복 (Spaced Repetition)
+                    </div>
+                    <p>단어를 <strong>"새 단어 → 학습 중 → 암기 완료"</strong>로 분류하여 관리하면, 아직 완벽히 암기하지 못한 단어에 더 집중할 수 있습니다. 이는 간격 반복 학습의 기본 원리입니다.</p>
+                    <p class="science-reference">📚 연구: Cepeda et al. (2006) - "Distributed Practice in Verbal Recall Tasks", Psychological Bulletin</p>
+                </div>
+
+                <div class="content-box">
+                    <div class="box-title">
+                        <span class="box-icon">⚡</span>
+                        빠른 노출 학습 (Rapid Serial Visual Presentation)
+                    </div>
+                    <p>블링크 모드의 빠른 단어 노출은 <strong>RSVP 기법</strong>을 활용합니다. 짧은 시간 동안 집중적으로 노출하면 무의식적 학습이 촉진되고, 단어 인식 속도가 향상됩니다.</p>
+                    <p class="science-reference">📚 연구: Potter (1984) - "Rapid Serial Visual Presentation (RSVP)", Attention and Performance X</p>
+                </div>
+
+                <div class="content-box">
+                    <div class="box-title">
+                        <span class="box-icon">🎯</span>
+                        테스트 효과 (Testing Effect)
+                    </div>
+                    <p>퀴즈를 통해 자신을 테스트하면, 단순 복습보다 <strong>50% 이상 더 나은 장기 기억</strong>을 형성합니다. 틀린 문제도 학습의 일부이며, 오히려 더 강한 기억을 만들어냅니다.</p>
+                    <p class="science-reference">📚 연구: Roediger & Karpicke (2006) - "Test-Enhanced Learning", Psychological Science</p>
+                </div>
+
+                <div class="content-box">
+                    <div class="box-title">
+                        <span class="box-icon">📝</span>
+                        맥락적 학습 (Contextual Learning)
+                    </div>
+                    <p>모든 단어에 <strong>예문과 해석</strong>을 함께 제공합니다. 단어를 문맥 속에서 학습하면 의미 이해와 실제 사용 능력이 크게 향상됩니다.</p>
+                    <p class="science-reference">📚 연구: Nation (2001) - "Learning Vocabulary in Another Language", Cambridge University Press</p>
+                </div>
+            </section>
+
+            <!-- 학습 상태 -->
+            <section class="section">
+                <h2 class="section-title">학습 상태 관리</h2>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">세 가지 상태</h3>
+                    <table>
+                        <tr>
+                            <th>상태</th>
+                            <th>표시</th>
+                            <th>의미</th>
+                        </tr>
+                        <tr>
+                            <td>새 단어</td>
+                            <td>⚪ 회색 원</td>
+                            <td>아직 학습하지 않은 단어</td>
+                        </tr>
+                        <tr>
+                            <td>학습 중</td>
+                            <td>🟡 노란 원</td>
+                            <td>학습을 시작했지만 아직 암기 중인 단어</td>
+                        </tr>
+                        <tr>
+                            <td>암기 완료</td>
+                            <td>🟢 초록 원</td>
+                            <td>완벽히 암기한 단어</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">상태 변경 방법</h3>
+                    <ul>
+                        <li><strong>단어 목록에서:</strong> 상태 원을 클릭하면 순환 (새 단어 → 학습 중 → 암기 완료)</li>
+                        <li><strong>플래시카드에서:</strong> "알아요" → 암기 완료, "모르겠어요" → 학습 중</li>
+                        <li><strong>퀴즈에서:</strong> 정답 → 암기 완료, 오답 → 학습 중</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 효과적인 학습 팁 -->
+            <section class="section">
+                <h2 class="section-title">효과적인 학습 팁</h2>
+
+                <div class="content-box">
+                    <ol>
+                        <li><strong>매일 조금씩 꾸준히:</strong> 하루에 30분씩 매일 학습하는 것이 몰아서 3시간 하는 것보다 효과적입니다.</li>
+                        <li><strong>다양한 모드 활용:</strong> 플래시카드 → 블링크 → 퀴즈 순서로 학습하면 효과가 극대화됩니다.</li>
+                        <li><strong>틀린 것에 집중:</strong> "학습 중" 상태의 단어를 필터링하여 집중 학습하세요.</li>
+                        <li><strong>예문과 함께:</strong> 단어만 외우지 말고, 예문을 소리 내어 읽어보세요.</li>
+                        <li><strong>정기적 백업:</strong> 일주일에 한 번 Export로 백업해두면 안전합니다.</li>
+                    </ol>
+                </div>
+            </section>
+
+            <!-- FAQ -->
+            <section class="section">
+                <h2 class="section-title">자주 묻는 질문 (FAQ)</h2>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Q: 다른 컴퓨터에서 접속했는데 학습 기록이 없어요!</h3>
+                    <p>A: 정상입니다. localStorage는 브라우저별로 독립적으로 저장됩니다. 기존 기기에서 Export한 파일을 새 기기에서 Import하세요.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Q: 브라우저 캐시를 삭제했는데 기록이 사라졌어요!</h3>
+                    <p>A: 캐시/사이트 데이터 삭제 시 localStorage도 함께 삭제됩니다. 중요한 학습 기록은 정기적으로 Export해두세요.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Q: Import할 때 기존 데이터가 덮어써지나요?</h3>
+                    <p>A: 아니요! 스마트 병합 방식으로, 더 높은 학습 상태가 유지됩니다. 예: 기존에 "암기 완료"인 단어는 Import 파일에서 "학습 중"이어도 "암기 완료"로 유지됩니다.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Q: 휴대폰에서도 사용할 수 있나요?</h3>
+                    <p>A: 네! 반응형 디자인으로 모바일에서도 편리하게 사용할 수 있습니다. 다만 휴대폰과 PC의 학습 기록은 각각 저장되므로, 동기화하려면 Export/Import를 사용하세요.</p>
+                </div>
+            </section>
+
+            <div style="text-align: center; margin-top: 48px; padding: 24px; background: var(--bg-primary); border-radius: var(--radius-lg);">
+                <p style="margin-bottom: 16px;">질문이나 피드백이 있으시면 알려주세요!</p>
+                <a href="index.html" class="btn btn-primary" style="text-decoration: none;">학습 시작하기</a>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Apply dark mode from localStorage
+        (function() {
+            try {
+                const settings = JSON.parse(localStorage.getItem('vocabmaster_settings') || '{}');
+                if (settings.darkMode) {
+                    document.documentElement.setAttribute('data-theme', 'dark');
+                }
+            } catch (e) {
+                console.log('Could not load settings');
+            }
+        })();
+    </script>
+</body>
+</html>

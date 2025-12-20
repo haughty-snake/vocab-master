@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>VocabMaster - OPIC 영어 단어 학습</title>
+
+    <!-- PWA Meta Tags -->
+    <meta name="description" content="OPIC AL 등급 달성을 위한 종합 영어 단어 학습 웹앱">
+    <meta name="theme-color" content="#4285f4">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="VocabMaster">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="VocabMaster">
+    <meta name="msapplication-TileColor" content="#4285f4">
+    <meta name="msapplication-TileImage" content="icons/icon-144x144.png">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/icon-16x16.png">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="icons/icon-167x167.png">
+
+    <!-- Splash Screens for iOS -->
+    <link rel="apple-touch-startup-image" href="icons/splash-640x1136.png" media="(device-width: 320px) and (device-height: 568px)">
+    <link rel="apple-touch-startup-image" href="icons/splash-750x1334.png" media="(device-width: 375px) and (device-height: 667px)">
+    <link rel="apple-touch-startup-image" href="icons/splash-1242x2208.png" media="(device-width: 414px) and (device-height: 736px)">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo" onclick="showHome()">
+                <span class="logo-icon">V</span>
+                <span class="logo-text">VocabMaster</span>
+            </div>
+            <nav class="nav-menu">
+                <button class="nav-btn active" data-mode="home" onclick="showHome()">홈</button>
+                <button class="nav-btn" data-mode="list" onclick="showWordList()">단어 목록</button>
+                <button class="nav-btn" data-mode="flashcard" onclick="showFlashcard()">플래시카드</button>
+                <button class="nav-btn" data-mode="blink" onclick="showBlink()">블링크</button>
+                <button class="nav-btn" data-mode="quiz" onclick="showQuiz()">퀴즈</button>
+            </nav>
+            <div class="header-actions">
+                <button class="icon-btn" onclick="location.href='manual.html'" title="사용 매뉴얼">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                    </svg>
+                </button>
+                <button class="icon-btn" onclick="toggleSettings()" title="설정">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home View -->
+        <section id="home-view" class="view active">
+            <div class="home-hero">
+                <h1 class="hero-title">OPIC 영어 단어 마스터</h1>
+                <p class="hero-subtitle">4,600+ 단어와 표현으로 OPIC AL 목표 달성</p>
+
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <input type="text" id="search-input" class="search-input" placeholder="단어 또는 뜻을 검색하세요..." oninput="handleSearch(this.value)">
+                    <button class="search-btn" onclick="performSearch()">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div id="search-results" class="search-results hidden"></div>
+            </div>
+
+            <!-- Category Cards -->
+            <div class="category-section">
+                <h2 class="section-title">카테고리별 학습</h2>
+                <div class="category-grid" id="category-grid">
+                    <!-- Categories will be populated by JS -->
+                </div>
+            </div>
+
+            <!-- Progress Overview -->
+            <div class="progress-section">
+                <h2 class="section-title">학습 진행률</h2>
+                <div class="progress-cards" id="progress-cards">
+                    <!-- Progress cards will be populated by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Word List View -->
+        <section id="list-view" class="view">
+            <div class="view-header-bar">
+                <button class="back-btn" onclick="showHome()" title="홈으로">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <div class="current-category-badge" id="list-category-badge">
+                    <span class="badge-icon">📚</span>
+                    <span class="badge-text">전체</span>
+                </div>
+                <button class="btn btn-sm btn-outline" onclick="openCategorySelector('list')">카테고리 변경</button>
+            </div>
+            <div class="list-header">
+                <h2 class="view-title">단어 목록</h2>
+                <div class="list-controls">
+                    <select id="category-select" class="select-input" onchange="filterByCategory(this.value)">
+                        <option value="all">전체 카테고리</option>
+                    </select>
+                    <select id="status-select" class="select-input" onchange="filterByStatus(this.value)">
+                        <option value="all">전체 상태</option>
+                        <option value="memorized">암기 완료</option>
+                        <option value="learning">학습 중</option>
+                        <option value="new">새 단어</option>
+                    </select>
+                    <button class="btn btn-outline" onclick="shuffleList()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 3 21 3 21 8"></polyline>
+                            <line x1="4" y1="20" x2="21" y2="3"></line>
+                            <polyline points="21 16 21 21 16 21"></polyline>
+                            <line x1="15" y1="15" x2="21" y2="21"></line>
+                            <line x1="4" y1="4" x2="9" y2="9"></line>
+                        </svg>
+                        섞기
+                    </button>
+                </div>
+            </div>
+            <div class="word-list" id="word-list">
+                <!-- Word items will be populated by JS -->
+            </div>
+            <div class="pagination" id="pagination">
+                <!-- Pagination will be populated by JS -->
+            </div>
+        </section>
+
+        <!-- Flashcard View -->
+        <section id="flashcard-view" class="view">
+            <div class="view-header-bar">
+                <button class="back-btn" onclick="showHome()" title="홈으로">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <div class="current-category-badge" id="flashcard-category-badge">
+                    <span class="badge-icon">📚</span>
+                    <span class="badge-text">전체</span>
+                </div>
+                <button class="btn btn-sm btn-outline" onclick="openCategorySelector('flashcard')">카테고리 변경</button>
+            </div>
+            <div class="flashcard-header">
+                <div class="flashcard-progress">
+                    <span id="flashcard-current">1</span> / <span id="flashcard-total">0</span>
+                </div>
+                <div class="flashcard-controls">
+                    <button class="btn btn-sm" onclick="shuffleFlashcards()">섞기</button>
+                    <button class="btn btn-sm" onclick="resetFlashcards()">처음으로</button>
+                </div>
+            </div>
+            <div class="flashcard-container">
+                <div class="flashcard" id="flashcard" onclick="flipCard()">
+                    <div class="flashcard-inner">
+                        <div class="flashcard-front">
+                            <div class="flashcard-word" id="fc-word"></div>
+                            <div class="flashcard-pronunciation" id="fc-pronunciation"></div>
+                            <button class="tts-btn" onclick="event.stopPropagation(); speakCurrentWord()" title="발음 듣기">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="flashcard-back">
+                            <div class="flashcard-meaning" id="fc-meaning"></div>
+                            <div class="flashcard-example" id="fc-example"></div>
+                            <div class="flashcard-translation" id="fc-translation"></div>
+                            <button class="tts-btn" onclick="event.stopPropagation(); speakCurrentExample()" title="예문 듣기">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flashcard-actions">
+                <button class="action-btn prev" onclick="prevCard()" id="prev-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <button class="action-btn know" onclick="markKnown()">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    알아요
+                </button>
+                <button class="action-btn unknown" onclick="markUnknown()">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                    모르겠어요
+                </button>
+                <button class="action-btn next" onclick="nextCard()" id="next-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+        <!-- Blink View -->
+        <section id="blink-view" class="view">
+            <div class="view-header-bar">
+                <button class="back-btn" onclick="showHome()" title="홈으로">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <div class="current-category-badge" id="blink-category-badge">
+                    <span class="badge-icon">📚</span>
+                    <span class="badge-text">전체</span>
+                </div>
+                <button class="btn btn-sm btn-outline" onclick="openCategorySelector('blink')">카테고리 변경</button>
+            </div>
+            <div class="blink-settings">
+                <h2 class="view-title">블링크 모드</h2>
+                <p class="blink-description">단어가 빠르게 지나갑니다. 순간적으로 기억하세요!</p>
+                <div class="blink-controls">
+                    <div class="control-group">
+                        <label>속도</label>
+                        <select id="blink-speed" class="select-input">
+                            <option value="3000">느림 (3초)</option>
+                            <option value="2000" selected>보통 (2초)</option>
+                            <option value="1000">빠름 (1초)</option>
+                            <option value="500">매우 빠름 (0.5초)</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label>표시 내용</label>
+                        <select id="blink-display" class="select-input">
+                            <option value="word">영어만</option>
+                            <option value="meaning">뜻만</option>
+                            <option value="both" selected>둘 다</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary" id="blink-start-btn" onclick="startBlink()">시작</button>
+                </div>
+            </div>
+            <div class="blink-display hidden" id="blink-display-area">
+                <div class="blink-word" id="blink-word"></div>
+                <div class="blink-meaning" id="blink-meaning"></div>
+                <div class="blink-progress-bar">
+                    <div class="blink-progress" id="blink-progress"></div>
+                </div>
+                <button class="btn btn-danger" onclick="stopBlink()">중지</button>
+            </div>
+        </section>
+
+        <!-- Quiz View -->
+        <section id="quiz-view" class="view">
+            <div class="view-header-bar">
+                <button class="back-btn" onclick="showHome()" title="홈으로">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <div class="current-category-badge" id="quiz-category-badge">
+                    <span class="badge-icon">📚</span>
+                    <span class="badge-text">전체</span>
+                </div>
+                <button class="btn btn-sm btn-outline" onclick="openCategorySelector('quiz')">카테고리 변경</button>
+            </div>
+            <div class="quiz-settings" id="quiz-settings">
+                <h2 class="view-title">퀴즈 모드</h2>
+                <div class="quiz-options">
+                    <div class="control-group">
+                        <label>문제 수</label>
+                        <select id="quiz-count" class="select-input">
+                            <option value="10">10문제</option>
+                            <option value="20" selected>20문제</option>
+                            <option value="50">50문제</option>
+                            <option value="100">100문제</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label>문제 유형</label>
+                        <select id="quiz-type" class="select-input">
+                            <option value="meaning">뜻 맞추기</option>
+                            <option value="word">단어 맞추기</option>
+                            <option value="mixed" selected>혼합</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary" onclick="startQuiz()">퀴즈 시작</button>
+                </div>
+            </div>
+            <div class="quiz-container hidden" id="quiz-container">
+                <div class="quiz-progress">
+                    <span id="quiz-current">1</span> / <span id="quiz-total">20</span>
+                    <div class="quiz-score">점수: <span id="quiz-score">0</span></div>
+                </div>
+                <div class="quiz-question" id="quiz-question"></div>
+                <div class="quiz-options-grid" id="quiz-options">
+                    <!-- Options will be populated by JS -->
+                </div>
+                <div class="quiz-feedback hidden" id="quiz-feedback"></div>
+            </div>
+            <div class="quiz-result hidden" id="quiz-result">
+                <h2>퀴즈 결과</h2>
+                <div class="result-score">
+                    <span id="result-correct">0</span> / <span id="result-total">20</span>
+                </div>
+                <div class="result-percentage" id="result-percentage">0%</div>
+                <div class="result-actions">
+                    <button class="btn btn-primary" onclick="retryQuiz()">다시 풀기</button>
+                    <button class="btn btn-outline" onclick="showHome()">홈으로</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Settings Modal -->
+    <div class="modal hidden" id="settings-modal">
+        <div class="modal-backdrop" onclick="toggleSettings()"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>설정</h3>
+                <button class="modal-close" onclick="toggleSettings()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="setting-item">
+                    <label>다크 모드</label>
+                    <label class="switch">
+                        <input type="checkbox" id="dark-mode-toggle" onchange="toggleDarkMode()">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-item">
+                    <label>발음 기호 표시</label>
+                    <label class="switch">
+                        <input type="checkbox" id="pronunciation-toggle" checked onchange="togglePronunciation()">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-item">
+                    <label>TTS 음성 읽기</label>
+                    <label class="switch">
+                        <input type="checkbox" id="tts-toggle" checked onchange="toggleTTS()">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <hr>
+                <div class="setting-item">
+                    <h4>데이터 관리</h4>
+                </div>
+                <div class="setting-item">
+                    <button class="btn btn-outline btn-full" onclick="exportData()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        학습 데이터 내보내기
+                    </button>
+                </div>
+                <div class="setting-item">
+                    <button class="btn btn-outline btn-full" onclick="importData()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="17 8 12 3 7 8"></polyline>
+                            <line x1="12" y1="3" x2="12" y2="15"></line>
+                        </svg>
+                        학습 데이터 가져오기
+                    </button>
+                    <input type="file" id="import-file" class="hidden" accept=".json" onchange="handleImport(event)">
+                </div>
+                <div class="setting-item">
+                    <button class="btn btn-danger btn-full" onclick="resetAllData()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="3 6 5 6 21 6"></polyline>
+                            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                        </svg>
+                        학습 기록 초기화
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Category Selector Modal -->
+    <div class="modal hidden" id="category-selector-modal">
+        <div class="modal-backdrop" onclick="closeCategorySelector()"></div>
+        <div class="modal-content category-modal-content">
+            <div class="modal-header">
+                <h3>카테고리 선택</h3>
+                <button class="modal-close" onclick="closeCategorySelector()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="category-selector-grid" id="category-selector-grid">
+                    <!-- Categories will be populated by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast hidden" id="toast">
+        <span id="toast-message"></span>
+    </div>
+
+    <script src="js/data.bundle.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- Service Worker Registration -->
+    <script>
+        // Register Service Worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then((registration) => {
+                        console.log('SW registered:', registration.scope);
+
+                        // Check for updates
+                        registration.addEventListener('updatefound', () => {
+                            const newWorker = registration.installing;
+                            newWorker.addEventListener('statechange', () => {
+                                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                    // New content available, show update notification
+                                    if (confirm('새 버전이 있습니다. 업데이트하시겠습니까?')) {
+                                        newWorker.postMessage({ type: 'SKIP_WAITING' });
+                                        window.location.reload();
+                                    }
+                                }
+                            });
+                        });
+                    })
+                    .catch((error) => {
+                        console.log('SW registration failed:', error);
+                    });
+            });
+        }
+
+        // Handle PWA install prompt
+        let deferredPrompt;
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+
+            // Show install button if not already installed
+            const installBtn = document.getElementById('pwa-install-btn');
+            if (installBtn) {
+                installBtn.classList.remove('hidden');
+            }
+        });
+
+        function installPWA() {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                deferredPrompt.userChoice.then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        console.log('User accepted PWA install');
+                    }
+                    deferredPrompt = null;
+                });
+            }
+        }
+
+        // Check if app is installed
+        window.addEventListener('appinstalled', () => {
+            console.log('PWA installed');
+            deferredPrompt = null;
+        });
+    </script>
+</body>
+</html>

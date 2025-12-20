@@ -1,0 +1,1049 @@
+[
+  {
+    "name": "동사 (Verbs)",
+    "words": []
+  },
+  {
+    "name": "# 일상생활 관련 동사",
+    "words": [
+      {
+        "word": "commute",
+        "pronunciation": "/kəˈmjuːt/",
+        "meaning": "통근하다",
+        "example": "I **commute** to work by subway every day.",
+        "translation": "저는 매일 지하철로 출근해요."
+      },
+      {
+        "word": "grab",
+        "pronunciation": "/ɡræb/",
+        "meaning": "급히 먹다/잡다",
+        "example": "I usually **grab** a quick breakfast before leaving.",
+        "translation": "나가기 전에 보통 간단히 아침을 먹어요."
+      },
+      {
+        "word": "unwind",
+        "pronunciation": "/ʌnˈwaɪnd/",
+        "meaning": "긴장을 풀다",
+        "example": "I like to **unwind** by watching movies after work.",
+        "translation": "퇴근 후 영화를 보면서 긴장을 풀어요."
+      },
+      {
+        "word": "work out",
+        "pronunciation": "/wɜːrk aʊt/",
+        "meaning": "운동하다",
+        "example": "I **work out** at the gym three times a week.",
+        "translation": "일주일에 세 번 헬스장에서 운동해요."
+      },
+      {
+        "word": "hang out",
+        "pronunciation": "/hæŋ aʊt/",
+        "meaning": "시간을 보내다",
+        "example": "I often **hang out** with my friends on weekends.",
+        "translation": "주말에 친구들과 자주 어울려요."
+      },
+      {
+        "word": "browse",
+        "pronunciation": "/braʊz/",
+        "meaning": "둘러보다",
+        "example": "I spent hours **browsing** through the online store.",
+        "translation": "온라인 쇼핑몰을 둘러보며 몇 시간을 보냈어요."
+      },
+      {
+        "word": "binge-watch",
+        "pronunciation": "/bɪndʒ wɑːtʃ/",
+        "meaning": "몰아보다",
+        "example": "I **binge-watched** the entire series in one weekend.",
+        "translation": "주말에 시리즈 전체를 몰아봤어요."
+      },
+      {
+        "word": "multitask",
+        "pronunciation": "/ˌmʌltiˈtæsk/",
+        "meaning": "여러 일을 동시에 하다",
+        "example": "I can **multitask** while listening to music.",
+        "translation": "음악을 들으면서 여러 일을 동시에 할 수 있어요."
+      }
+    ]
+  },
+  {
+    "name": "# 의견/생각 표현 동사",
+    "words": [
+      {
+        "word": "assume",
+        "pronunciation": "/əˈsuːm/",
+        "meaning": "추정하다",
+        "example": "I **assume** you already know about this.",
+        "translation": "당신이 이미 이것에 대해 알고 있다고 추정해요."
+      },
+      {
+        "word": "prefer",
+        "pronunciation": "/prɪˈfɜːr/",
+        "meaning": "선호하다",
+        "example": "I **prefer** coffee over tea.",
+        "translation": "저는 차보다 커피를 선호해요."
+      },
+      {
+        "word": "recommend",
+        "pronunciation": "/ˌrekəˈmend/",
+        "meaning": "추천하다",
+        "example": "I highly **recommend** this restaurant.",
+        "translation": "이 레스토랑을 강력히 추천해요."
+      },
+      {
+        "word": "consider",
+        "pronunciation": "/kənˈsɪdər/",
+        "meaning": "고려하다",
+        "example": "I'm **considering** changing my job.",
+        "translation": "이직을 고려하고 있어요."
+      },
+      {
+        "word": "believe",
+        "pronunciation": "/bɪˈliːv/",
+        "meaning": "믿다",
+        "example": "I **believe** that hard work pays off.",
+        "translation": "노력하면 보상받는다고 믿어요."
+      },
+      {
+        "word": "suppose",
+        "pronunciation": "/səˈpoʊz/",
+        "meaning": "~라고 생각하다",
+        "example": "I **suppose** we should leave now.",
+        "translation": "지금 출발해야 할 것 같아요."
+      },
+      {
+        "word": "figure",
+        "pronunciation": "/ˈfɪɡjər/",
+        "meaning": "생각하다/알아내다",
+        "example": "I **figured** out the solution.",
+        "translation": "해결책을 알아냈어요."
+      },
+      {
+        "word": "realize",
+        "pronunciation": "/ˈriːəlaɪz/",
+        "meaning": "깨닫다",
+        "example": "I **realized** I made a mistake.",
+        "translation": "실수했다는 걸 깨달았어요."
+      }
+    ]
+  },
+  {
+    "name": "# 경험/변화 관련 동사",
+    "words": [
+      {
+        "word": "experience",
+        "pronunciation": "/ɪkˈspɪriəns/",
+        "meaning": "경험하다",
+        "example": "I **experienced** culture shock when I first moved abroad.",
+        "translation": "처음 해외로 이사했을 때 문화 충격을 경험했어요."
+      },
+      {
+        "word": "overcome",
+        "pronunciation": "/ˌoʊvərˈkʌm/",
+        "meaning": "극복하다",
+        "example": "I managed to **overcome** my fear of public speaking.",
+        "translation": "대중 연설에 대한 두려움을 극복했어요."
+      },
+      {
+        "word": "adapt",
+        "pronunciation": "/əˈdæpt/",
+        "meaning": "적응하다",
+        "example": "It took time to **adapt** to the new environment.",
+        "translation": "새로운 환경에 적응하는 데 시간이 걸렸어요."
+      },
+      {
+        "word": "accomplish",
+        "pronunciation": "/əˈkɑːmplɪʃ/",
+        "meaning": "성취하다",
+        "example": "I **accomplished** my goal of running a marathon.",
+        "translation": "마라톤 완주 목표를 달성했어요."
+      },
+      {
+        "word": "improve",
+        "pronunciation": "/ɪmˈpruːv/",
+        "meaning": "향상시키다",
+        "example": "I've been trying to **improve** my English skills.",
+        "translation": "영어 실력을 향상시키려고 노력해왔어요."
+      },
+      {
+        "word": "struggle",
+        "pronunciation": "/ˈstrʌɡl/",
+        "meaning": "애쓰다",
+        "example": "I **struggled** with math in high school.",
+        "translation": "고등학교 때 수학으로 고생했어요."
+      },
+      {
+        "word": "manage",
+        "pronunciation": "/ˈmænɪdʒ/",
+        "meaning": "해내다/관리하다",
+        "example": "I **managed** to finish the project on time.",
+        "translation": "제시간에 프로젝트를 끝냈어요."
+      },
+      {
+        "word": "handle",
+        "pronunciation": "/ˈhændl/",
+        "meaning": "처리하다",
+        "example": "I can **handle** stress pretty well.",
+        "translation": "스트레스를 꽤 잘 다룰 수 있어요."
+      }
+    ]
+  },
+  {
+    "name": "# 설명/묘사 동사",
+    "words": [
+      {
+        "word": "describe",
+        "pronunciation": "/dɪˈskraɪb/",
+        "meaning": "묘사하다",
+        "example": "Let me **describe** my typical day.",
+        "translation": "제 평범한 하루를 묘사해 볼게요."
+      },
+      {
+        "word": "explain",
+        "pronunciation": "/ɪkˈspleɪn/",
+        "meaning": "설명하다",
+        "example": "Could you **explain** how this works?",
+        "translation": "이게 어떻게 작동하는지 설명해 주실래요?"
+      },
+      {
+        "word": "mention",
+        "pronunciation": "/ˈmenʃn/",
+        "meaning": "언급하다",
+        "example": "As I **mentioned** earlier, I love traveling.",
+        "translation": "앞서 언급했듯이, 저는 여행을 좋아해요."
+      },
+      {
+        "word": "illustrate",
+        "pronunciation": "/ˈɪləstreɪt/",
+        "meaning": "예를 들어 설명하다",
+        "example": "Let me **illustrate** with an example.",
+        "translation": "예를 들어 설명해 드릴게요."
+      },
+      {
+        "word": "elaborate",
+        "pronunciation": "/ɪˈlæbəreɪt/",
+        "meaning": "자세히 설명하다",
+        "example": "Could you **elaborate** on that point?",
+        "translation": "그 점에 대해 자세히 설명해 주시겠어요?"
+      },
+      {
+        "word": "specify",
+        "pronunciation": "/ˈspesɪfaɪ/",
+        "meaning": "구체적으로 말하다",
+        "example": "I need to **specify** what I mean.",
+        "translation": "제 말의 의미를 구체적으로 말해야 해요."
+      }
+    ]
+  },
+  {
+    "name": "명사 (Nouns)",
+    "words": []
+  },
+  {
+    "name": "# 일상생활 명사",
+    "words": [
+      {
+        "word": "routine",
+        "pronunciation": "/ruːˈtiːn/",
+        "meaning": "일상, 루틴",
+        "example": "My morning **routine** starts with coffee.",
+        "translation": "제 아침 루틴은 커피로 시작해요."
+      },
+      {
+        "word": "commute",
+        "pronunciation": "/kəˈmjuːt/",
+        "meaning": "통근",
+        "example": "My **commute** takes about an hour.",
+        "translation": "출퇴근에 약 한 시간 걸려요."
+      },
+      {
+        "word": "workload",
+        "pronunciation": "/ˈwɜːrkloʊd/",
+        "meaning": "업무량",
+        "example": "My **workload** has been heavy lately.",
+        "translation": "최근에 업무량이 많았어요."
+      },
+      {
+        "word": "deadline",
+        "pronunciation": "/ˈdedlaɪn/",
+        "meaning": "마감 기한",
+        "example": "I have a tight **deadline** to meet.",
+        "translation": "빠듯한 마감 기한을 맞춰야 해요."
+      },
+      {
+        "word": "priority",
+        "pronunciation": "/praɪˈɔːrəti/",
+        "meaning": "우선순위",
+        "example": "Health should be a top **priority**.",
+        "translation": "건강이 최우선이어야 해요."
+      },
+      {
+        "word": "leisure",
+        "pronunciation": "/ˈleʒər/",
+        "meaning": "여가",
+        "example": "I spend my **leisure** time reading books.",
+        "translation": "여가 시간에 책을 읽어요."
+      },
+      {
+        "word": "balance",
+        "pronunciation": "/ˈbæləns/",
+        "meaning": "균형",
+        "example": "Work-life **balance** is important to me.",
+        "translation": "일과 생활의 균형이 저에게 중요해요."
+      },
+      {
+        "word": "habit",
+        "pronunciation": "/ˈhæbɪt/",
+        "meaning": "습관",
+        "example": "I'm trying to develop good **habits**.",
+        "translation": "좋은 습관을 기르려고 노력 중이에요."
+      }
+    ]
+  },
+  {
+    "name": "# 장소/공간 명사",
+    "words": [
+      {
+        "word": "neighborhood",
+        "pronunciation": "/ˈneɪbərhʊd/",
+        "meaning": "동네",
+        "example": "I live in a quiet **neighborhood**.",
+        "translation": "조용한 동네에 살아요."
+      },
+      {
+        "word": "suburb",
+        "pronunciation": "/ˈsʌbɜːrb/",
+        "meaning": "교외",
+        "example": "I grew up in the **suburbs**.",
+        "translation": "교외에서 자랐어요."
+      },
+      {
+        "word": "downtown",
+        "pronunciation": "/ˌdaʊnˈtaʊn/",
+        "meaning": "시내",
+        "example": "I work in **downtown** Seoul.",
+        "translation": "서울 시내에서 일해요."
+      },
+      {
+        "word": "facility",
+        "pronunciation": "/fəˈsɪləti/",
+        "meaning": "시설",
+        "example": "The gym has excellent **facilities**.",
+        "translation": "헬스장에 훌륭한 시설이 있어요."
+      },
+      {
+        "word": "atmosphere",
+        "pronunciation": "/ˈætməsfɪr/",
+        "meaning": "분위기",
+        "example": "The restaurant has a cozy **atmosphere**.",
+        "translation": "그 레스토랑은 아늑한 분위기예요."
+      },
+      {
+        "word": "surroundings",
+        "pronunciation": "/səˈraʊndɪŋz/",
+        "meaning": "주변 환경",
+        "example": "I love the peaceful **surroundings** here.",
+        "translation": "여기 평화로운 주변 환경이 좋아요."
+      }
+    ]
+  },
+  {
+    "name": "# 경험/상황 명사",
+    "words": [
+      {
+        "word": "experience",
+        "pronunciation": "/ɪkˈspɪriəns/",
+        "meaning": "경험",
+        "example": "It was a memorable **experience**.",
+        "translation": "기억에 남는 경험이었어요."
+      },
+      {
+        "word": "opportunity",
+        "pronunciation": "/ˌɑːpərˈtuːnəti/",
+        "meaning": "기회",
+        "example": "I had the **opportunity** to travel abroad.",
+        "translation": "해외 여행 기회가 있었어요."
+      },
+      {
+        "word": "challenge",
+        "pronunciation": "/ˈtʃælɪndʒ/",
+        "meaning": "도전",
+        "example": "Learning a new language is a **challenge**.",
+        "translation": "새로운 언어를 배우는 것은 도전이에요."
+      },
+      {
+        "word": "achievement",
+        "pronunciation": "/əˈtʃiːvmənt/",
+        "meaning": "성취",
+        "example": "Graduating was my biggest **achievement**.",
+        "translation": "졸업이 제 가장 큰 성취였어요."
+      },
+      {
+        "word": "memory",
+        "pronunciation": "/ˈmeməri/",
+        "meaning": "기억, 추억",
+        "example": "I have fond **memories** of my childhood.",
+        "translation": "어린 시절의 좋은 추억이 있어요."
+      },
+      {
+        "word": "incident",
+        "pronunciation": "/ˈɪnsɪdənt/",
+        "meaning": "사건",
+        "example": "Let me tell you about an **incident** that happened.",
+        "translation": "일어난 사건에 대해 말해 드릴게요."
+      },
+      {
+        "word": "aspect",
+        "pronunciation": "/ˈæspekt/",
+        "meaning": "측면",
+        "example": "There are many **aspects** to consider.",
+        "translation": "고려해야 할 측면이 많아요."
+      },
+      {
+        "word": "factor",
+        "pronunciation": "/ˈfæktər/",
+        "meaning": "요인",
+        "example": "Cost is an important **factor**.",
+        "translation": "비용은 중요한 요인이에요."
+      }
+    ]
+  },
+  {
+    "name": "# 사람/관계 명사",
+    "words": [
+      {
+        "word": "acquaintance",
+        "pronunciation": "/əˈkweɪntəns/",
+        "meaning": "지인",
+        "example": "He's just an **acquaintance**, not a close friend.",
+        "translation": "그는 친한 친구가 아니라 그냥 지인이에요."
+      },
+      {
+        "word": "colleague",
+        "pronunciation": "/ˈkɑːliːɡ/",
+        "meaning": "동료",
+        "example": "I get along well with my **colleagues**.",
+        "translation": "동료들과 잘 지내요."
+      },
+      {
+        "word": "companion",
+        "pronunciation": "/kəmˈpænjən/",
+        "meaning": "동반자",
+        "example": "My dog is my best **companion**.",
+        "translation": "제 강아지가 최고의 동반자예요."
+      },
+      {
+        "word": "roommate",
+        "pronunciation": "/ˈruːmmeɪt/",
+        "meaning": "룸메이트",
+        "example": "I shared an apartment with my **roommate**.",
+        "translation": "룸메이트와 아파트를 함께 썼어요."
+      }
+    ]
+  },
+  {
+    "name": "형용사 (Adjectives)",
+    "words": []
+  },
+  {
+    "name": "# 긍정적 형용사",
+    "words": [
+      {
+        "word": "convenient",
+        "pronunciation": "/kənˈviːniənt/",
+        "meaning": "편리한",
+        "example": "Public transportation is very **convenient** here.",
+        "translation": "여기는 대중교통이 매우 편리해요."
+      },
+      {
+        "word": "efficient",
+        "pronunciation": "/ɪˈfɪʃnt/",
+        "meaning": "효율적인",
+        "example": "The new system is more **efficient**.",
+        "translation": "새로운 시스템이 더 효율적이에요."
+      },
+      {
+        "word": "rewarding",
+        "pronunciation": "/rɪˈwɔːrdɪŋ/",
+        "meaning": "보람 있는",
+        "example": "Teaching is a **rewarding** profession.",
+        "translation": "가르치는 것은 보람 있는 직업이에요."
+      },
+      {
+        "word": "memorable",
+        "pronunciation": "/ˈmemərəbl/",
+        "meaning": "기억에 남는",
+        "example": "It was a **memorable** trip.",
+        "translation": "기억에 남는 여행이었어요."
+      },
+      {
+        "word": "fascinating",
+        "pronunciation": "/ˈfæsɪneɪtɪŋ/",
+        "meaning": "매혹적인",
+        "example": "The documentary was **fascinating**.",
+        "translation": "그 다큐멘터리는 매혹적이었어요."
+      },
+      {
+        "word": "impressive",
+        "pronunciation": "/ɪmˈpresɪv/",
+        "meaning": "인상적인",
+        "example": "The architecture was really **impressive**.",
+        "translation": "그 건축물은 정말 인상적이었어요."
+      },
+      {
+        "word": "outstanding",
+        "pronunciation": "/aʊtˈstændɪŋ/",
+        "meaning": "뛰어난",
+        "example": "She did an **outstanding** job.",
+        "translation": "그녀는 뛰어난 일을 해냈어요."
+      },
+      {
+        "word": "reasonable",
+        "pronunciation": "/ˈriːznəbl/",
+        "meaning": "합리적인",
+        "example": "The price is quite **reasonable**.",
+        "translation": "가격이 꽤 합리적이에요."
+      }
+    ]
+  },
+  {
+    "name": "# 부정적/중립적 형용사",
+    "words": [
+      {
+        "word": "hectic",
+        "pronunciation": "/ˈhektɪk/",
+        "meaning": "정신없이 바쁜",
+        "example": "My schedule has been **hectic** lately.",
+        "translation": "최근에 일정이 정신없이 바빴어요."
+      },
+      {
+        "word": "exhausting",
+        "pronunciation": "/ɪɡˈzɔːstɪŋ/",
+        "meaning": "지치게 하는",
+        "example": "The work was **exhausting**.",
+        "translation": "그 일은 지치게 했어요."
+      },
+      {
+        "word": "overwhelming",
+        "pronunciation": "/ˌoʊvərˈwelmɪŋ/",
+        "meaning": "압도적인",
+        "example": "The amount of work is **overwhelming**.",
+        "translation": "업무량이 압도적이에요."
+      },
+      {
+        "word": "challenging",
+        "pronunciation": "/ˈtʃælɪndʒɪŋ/",
+        "meaning": "도전적인",
+        "example": "The project was quite **challenging**.",
+        "translation": "그 프로젝트는 꽤 도전적이었어요."
+      },
+      {
+        "word": "stressful",
+        "pronunciation": "/ˈstresfʊl/",
+        "meaning": "스트레스를 주는",
+        "example": "My job can be quite **stressful**.",
+        "translation": "제 직업은 꽤 스트레스를 줄 수 있어요."
+      },
+      {
+        "word": "frustrating",
+        "pronunciation": "/ˈfrʌstreɪtɪŋ/",
+        "meaning": "답답한",
+        "example": "Traffic jams are so **frustrating**.",
+        "translation": "교통 체증은 정말 답답해요."
+      },
+      {
+        "word": "complicated",
+        "pronunciation": "/ˈkɑːmplɪkeɪtɪd/",
+        "meaning": "복잡한",
+        "example": "The situation is getting **complicated**.",
+        "translation": "상황이 복잡해지고 있어요."
+      },
+      {
+        "word": "crowded",
+        "pronunciation": "/ˈkraʊdɪd/",
+        "meaning": "붐비는",
+        "example": "The subway is always **crowded** during rush hour.",
+        "translation": "출퇴근 시간에 지하철이 항상 붐벼요."
+      }
+    ]
+  },
+  {
+    "name": "# 성격/특성 형용사",
+    "words": [
+      {
+        "word": "outgoing",
+        "pronunciation": "/ˈaʊtɡoʊɪŋ/",
+        "meaning": "외향적인",
+        "example": "I'm quite **outgoing** and sociable.",
+        "translation": "저는 꽤 외향적이고 사교적이에요."
+      },
+      {
+        "word": "introverted",
+        "pronunciation": "/ˈɪntrəvɜːrtɪd/",
+        "meaning": "내성적인",
+        "example": "I used to be very **introverted**.",
+        "translation": "예전에는 매우 내성적이었어요."
+      },
+      {
+        "word": "passionate",
+        "pronunciation": "/ˈpæʃənət/",
+        "meaning": "열정적인",
+        "example": "I'm **passionate** about music.",
+        "translation": "저는 음악에 열정적이에요."
+      },
+      {
+        "word": "dedicated",
+        "pronunciation": "/ˈdedɪkeɪtɪd/",
+        "meaning": "헌신적인",
+        "example": "She's a **dedicated** employee.",
+        "translation": "그녀는 헌신적인 직원이에요."
+      },
+      {
+        "word": "reliable",
+        "pronunciation": "/rɪˈlaɪəbl/",
+        "meaning": "믿을 수 있는",
+        "example": "He's a very **reliable** person.",
+        "translation": "그는 매우 믿을 수 있는 사람이에요."
+      },
+      {
+        "word": "flexible",
+        "pronunciation": "/ˈfleksəbl/",
+        "meaning": "유연한",
+        "example": "I try to be **flexible** with my schedule.",
+        "translation": "일정에 유연하게 대처하려고 해요."
+      },
+      {
+        "word": "independent",
+        "pronunciation": "/ˌɪndɪˈpendənt/",
+        "meaning": "독립적인",
+        "example": "I've become more **independent** over the years.",
+        "translation": "시간이 지나면서 더 독립적이 됐어요."
+      }
+    ]
+  },
+  {
+    "name": "# 상태/상황 형용사",
+    "words": [
+      {
+        "word": "typical",
+        "pronunciation": "/ˈtɪpɪkl/",
+        "meaning": "전형적인",
+        "example": "This is a **typical** day for me.",
+        "translation": "이것이 제 전형적인 하루예요."
+      },
+      {
+        "word": "essential",
+        "pronunciation": "/ɪˈsenʃl/",
+        "meaning": "필수적인",
+        "example": "Exercise is **essential** for good health.",
+        "translation": "운동은 건강에 필수적이에요."
+      },
+      {
+        "word": "available",
+        "pronunciation": "/əˈveɪləbl/",
+        "meaning": "이용 가능한",
+        "example": "Is this seat **available**?",
+        "translation": "이 자리 비어 있나요?"
+      },
+      {
+        "word": "familiar",
+        "pronunciation": "/fəˈmɪliər/",
+        "meaning": "익숙한",
+        "example": "I'm **familiar** with this area.",
+        "translation": "이 지역에 익숙해요."
+      },
+      {
+        "word": "worth",
+        "pronunciation": "/wɜːrθ/",
+        "meaning": "~할 가치가 있는",
+        "example": "This movie is **worth** watching.",
+        "translation": "이 영화는 볼 가치가 있어요."
+      },
+      {
+        "word": "likely",
+        "pronunciation": "/ˈlaɪkli/",
+        "meaning": "~할 것 같은",
+        "example": "It's **likely** to rain tomorrow.",
+        "translation": "내일 비가 올 것 같아요."
+      }
+    ]
+  },
+  {
+    "name": "부사 (Adverbs)",
+    "words": []
+  },
+  {
+    "name": "# 빈도 부사",
+    "words": [
+      {
+        "word": "occasionally",
+        "pronunciation": "/əˈkeɪʒnəli/",
+        "meaning": "가끔",
+        "example": "I **occasionally** eat out with friends.",
+        "translation": "가끔 친구들과 외식해요."
+      },
+      {
+        "word": "frequently",
+        "pronunciation": "/ˈfriːkwəntli/",
+        "meaning": "자주",
+        "example": "I **frequently** visit my parents.",
+        "translation": "자주 부모님을 찾아뵈요."
+      },
+      {
+        "word": "rarely",
+        "pronunciation": "/ˈrerli/",
+        "meaning": "거의 ~않다",
+        "example": "I **rarely** watch TV these days.",
+        "translation": "요즘 거의 TV를 안 봐요."
+      },
+      {
+        "word": "constantly",
+        "pronunciation": "/ˈkɑːnstəntli/",
+        "meaning": "끊임없이",
+        "example": "Technology is **constantly** changing.",
+        "translation": "기술은 끊임없이 변하고 있어요."
+      },
+      {
+        "word": "typically",
+        "pronunciation": "/ˈtɪpɪkli/",
+        "meaning": "보통",
+        "example": "I **typically** wake up at 7 AM.",
+        "translation": "보통 아침 7시에 일어나요."
+      },
+      {
+        "word": "regularly",
+        "pronunciation": "/ˈreɡjələrli/",
+        "meaning": "정기적으로",
+        "example": "I exercise **regularly**.",
+        "translation": "정기적으로 운동해요."
+      }
+    ]
+  },
+  {
+    "name": "# 정도 부사",
+    "words": [
+      {
+        "word": "absolutely",
+        "pronunciation": "/ˈæbsəluːtli/",
+        "meaning": "절대적으로, 완전히",
+        "example": "I **absolutely** love this place.",
+        "translation": "이곳이 정말 좋아요."
+      },
+      {
+        "word": "extremely",
+        "pronunciation": "/ɪkˈstriːmli/",
+        "meaning": "극도로",
+        "example": "The exam was **extremely** difficult.",
+        "translation": "시험이 극도로 어려웠어요."
+      },
+      {
+        "word": "fairly",
+        "pronunciation": "/ˈferli/",
+        "meaning": "꽤, 상당히",
+        "example": "The restaurant was **fairly** crowded.",
+        "translation": "레스토랑이 꽤 붐볐어요."
+      },
+      {
+        "word": "slightly",
+        "pronunciation": "/ˈslaɪtli/",
+        "meaning": "약간",
+        "example": "I'm **slightly** nervous about the interview.",
+        "translation": "면접 때문에 약간 긴장돼요."
+      },
+      {
+        "word": "particularly",
+        "pronunciation": "/pərˈtɪkjələrli/",
+        "meaning": "특히",
+        "example": "I'm not **particularly** interested in sports.",
+        "translation": "스포츠에 특별히 관심이 없어요."
+      },
+      {
+        "word": "especially",
+        "pronunciation": "/ɪˈspeʃəli/",
+        "meaning": "특히",
+        "example": "I love fruits, **especially** mangoes.",
+        "translation": "과일을 좋아하는데, 특히 망고를 좋아해요."
+      },
+      {
+        "word": "definitely",
+        "pronunciation": "/ˈdefɪnətli/",
+        "meaning": "분명히, 확실히",
+        "example": "I'll **definitely** come to the party.",
+        "translation": "파티에 꼭 갈게요."
+      },
+      {
+        "word": "probably",
+        "pronunciation": "/ˈprɑːbəbli/",
+        "meaning": "아마",
+        "example": "I'll **probably** stay home tonight.",
+        "translation": "오늘 밤은 아마 집에 있을 거예요."
+      }
+    ]
+  },
+  {
+    "name": "# 문장 연결 부사",
+    "words": [
+      {
+        "word": "actually",
+        "pronunciation": "/ˈæktʃuəli/",
+        "meaning": "사실은",
+        "example": "**Actually**, I've never been there before.",
+        "translation": "사실, 거기 가본 적이 없어요."
+      },
+      {
+        "word": "basically",
+        "pronunciation": "/ˈbeɪsɪkli/",
+        "meaning": "기본적으로",
+        "example": "**Basically**, what I'm saying is...",
+        "translation": "기본적으로, 제가 말하려는 것은..."
+      },
+      {
+        "word": "honestly",
+        "pronunciation": "/ˈɑːnɪstli/",
+        "meaning": "솔직히",
+        "example": "**Honestly**, I don't really like it.",
+        "translation": "솔직히, 별로 안 좋아해요."
+      },
+      {
+        "word": "personally",
+        "pronunciation": "/ˈpɜːrsənəli/",
+        "meaning": "개인적으로",
+        "example": "**Personally**, I prefer the first option.",
+        "translation": "개인적으로, 첫 번째 옵션을 선호해요."
+      },
+      {
+        "word": "unfortunately",
+        "pronunciation": "/ʌnˈfɔːrtʃənətli/",
+        "meaning": "불행히도",
+        "example": "**Unfortunately**, I couldn't make it.",
+        "translation": "불행히도, 가지 못했어요."
+      },
+      {
+        "word": "fortunately",
+        "pronunciation": "/ˈfɔːrtʃənətli/",
+        "meaning": "다행히도",
+        "example": "**Fortunately**, everything worked out.",
+        "translation": "다행히도, 모든 게 잘 됐어요."
+      },
+      {
+        "word": "eventually",
+        "pronunciation": "/ɪˈventʃuəli/",
+        "meaning": "결국",
+        "example": "**Eventually**, I got used to it.",
+        "translation": "결국, 익숙해졌어요."
+      },
+      {
+        "word": "obviously",
+        "pronunciation": "/ˈɑːbviəsli/",
+        "meaning": "분명히",
+        "example": "**Obviously**, this is important.",
+        "translation": "분명히, 이것은 중요해요."
+      }
+    ]
+  },
+  {
+    "name": "전치사 (Prepositions)",
+    "words": []
+  },
+  {
+    "name": "# 시간 전치사",
+    "words": [
+      {
+        "word": "throughout",
+        "pronunciation": "/θruːˈaʊt/",
+        "meaning": "~내내",
+        "example": "I studied **throughout** the night.",
+        "translation": "밤새 공부했어요."
+      },
+      {
+        "word": "during",
+        "pronunciation": "/ˈdʊrɪŋ/",
+        "meaning": "~동안",
+        "example": "I met him **during** my trip.",
+        "translation": "여행 중에 그를 만났어요."
+      },
+      {
+        "word": "within",
+        "pronunciation": "/wɪˈðɪn/",
+        "meaning": "~ 이내에",
+        "example": "I'll finish it **within** an hour.",
+        "translation": "한 시간 이내에 끝낼게요."
+      },
+      {
+        "word": "until",
+        "pronunciation": "/ənˈtɪl/",
+        "meaning": "~까지",
+        "example": "I worked **until** midnight.",
+        "translation": "자정까지 일했어요."
+      },
+      {
+        "word": "since",
+        "pronunciation": "/sɪns/",
+        "meaning": "~이래로",
+        "example": "I've lived here **since** 2020.",
+        "translation": "2020년부터 여기 살았어요."
+      },
+      {
+        "word": "by",
+        "pronunciation": "/baɪ/",
+        "meaning": "~까지(완료)",
+        "example": "I need to finish it **by** Friday.",
+        "translation": "금요일까지 끝내야 해요."
+      }
+    ]
+  },
+  {
+    "name": "# 장소/방향 전치사",
+    "words": [
+      {
+        "word": "across",
+        "pronunciation": "/əˈkrɔːs/",
+        "meaning": "건너편에",
+        "example": "The store is **across** the street.",
+        "translation": "가게가 길 건너편에 있어요."
+      },
+      {
+        "word": "beyond",
+        "pronunciation": "/biˈɑːnd/",
+        "meaning": "저편에",
+        "example": "The park is **beyond** that building.",
+        "translation": "공원이 저 건물 저편에 있어요."
+      },
+      {
+        "word": "throughout",
+        "pronunciation": "/θruːˈaʊt/",
+        "meaning": "곳곳에",
+        "example": "There are cafes **throughout** the city.",
+        "translation": "도시 곳곳에 카페가 있어요."
+      },
+      {
+        "word": "alongside",
+        "pronunciation": "/əˈlɔːŋsaɪd/",
+        "meaning": "옆에",
+        "example": "The bike path runs **alongside** the river.",
+        "translation": "자전거 도로가 강을 따라 나 있어요."
+      },
+      {
+        "word": "within",
+        "pronunciation": "/wɪˈðɪn/",
+        "meaning": "~ 안에",
+        "example": "It's **within** walking distance.",
+        "translation": "걸어갈 수 있는 거리 안에 있어요."
+      }
+    ]
+  },
+  {
+    "name": "# 기타 전치사",
+    "words": [
+      {
+        "word": "despite",
+        "pronunciation": "/dɪˈspaɪt/",
+        "meaning": "~에도 불구하고",
+        "example": "**Despite** the rain, we went out.",
+        "translation": "비에도 불구하고 외출했어요."
+      },
+      {
+        "word": "regarding",
+        "pronunciation": "/rɪˈɡɑːrdɪŋ/",
+        "meaning": "~에 관하여",
+        "example": "**Regarding** your question, let me explain.",
+        "translation": "질문에 관해서 설명해 드릴게요."
+      },
+      {
+        "word": "according to",
+        "pronunciation": "/əˈkɔːrdɪŋ tuː/",
+        "meaning": "~에 따르면",
+        "example": "**According to** the news, it will snow.",
+        "translation": "뉴스에 따르면, 눈이 올 거래요."
+      },
+      {
+        "word": "due to",
+        "pronunciation": "/duː tuː/",
+        "meaning": "~ 때문에",
+        "example": "The event was canceled **due to** the weather.",
+        "translation": "날씨 때문에 행사가 취소됐어요."
+      },
+      {
+        "word": "in terms of",
+        "pronunciation": "/ɪn tɜːrmz ʌv/",
+        "meaning": "~의 면에서",
+        "example": "**In terms of** quality, it's the best.",
+        "translation": "품질 면에서, 최고예요."
+      },
+      {
+        "word": "instead of",
+        "pronunciation": "/ɪnˈsted ʌv/",
+        "meaning": "~ 대신에",
+        "example": "I took the bus **instead of** the subway.",
+        "translation": "지하철 대신 버스를 탔어요."
+      }
+    ]
+  },
+  {
+    "name": "핵심 표현 단어",
+    "words": []
+  },
+  {
+    "name": "# 필러/연결 표현",
+    "words": [
+      {
+        "word": "well",
+        "pronunciation": "/wel/",
+        "meaning": "음, 글쎄",
+        "example": "**Well**, let me think about that.",
+        "translation": "음, 그것에 대해 생각해 볼게요."
+      },
+      {
+        "word": "actually",
+        "pronunciation": "/ˈæktʃuəli/",
+        "meaning": "사실은",
+        "example": "**Actually**, I changed my mind.",
+        "translation": "사실, 생각이 바뀌었어요."
+      },
+      {
+        "word": "anyway",
+        "pronunciation": "/ˈeniweɪ/",
+        "meaning": "어쨌든",
+        "example": "**Anyway**, that's what happened.",
+        "translation": "어쨌든, 그렇게 됐어요."
+      },
+      {
+        "word": "though",
+        "pronunciation": "/ðoʊ/",
+        "meaning": "그래도, 하지만",
+        "example": "It was fun, **though**.",
+        "translation": "그래도 재미있었어요."
+      },
+      {
+        "word": "stuff",
+        "pronunciation": "/stʌf/",
+        "meaning": "것들, 물건",
+        "example": "I have a lot of **stuff** to do.",
+        "translation": "할 일이 많아요."
+      },
+      {
+        "word": "kind of",
+        "pronunciation": "/kaɪnd ʌv/",
+        "meaning": "약간, 좀",
+        "example": "I'm **kind of** tired today.",
+        "translation": "오늘 좀 피곤해요."
+      },
+      {
+        "word": "sort of",
+        "pronunciation": "/sɔːrt ʌv/",
+        "meaning": "약간, 어느 정도",
+        "example": "It's **sort of** complicated.",
+        "translation": "좀 복잡해요."
+      },
+      {
+        "word": "you know",
+        "pronunciation": "/juː noʊ/",
+        "meaning": "있잖아",
+        "example": "It was, **you know**, really exciting.",
+        "translation": "있잖아, 정말 흥미로웠어."
+      }
+    ]
+  },
+  {
+    "name": "학습 TIP",
+    "words": []
+  }
+]

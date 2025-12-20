@@ -1,0 +1,4468 @@
+[
+  {
+    "nameKo": "구동사 - 기본",
+    "nameEn": "Basic Phrasal Verbs",
+    "expressions": [
+      {
+        "expression": "get up",
+        "pronunciation": "일어나다",
+        "meaning": "I **get up** at 7 AM.",
+        "example": "나는 오전 7시에 일어나.",
+        "translation": ""
+      },
+      {
+        "expression": "get off",
+        "pronunciation": "내리다",
+        "meaning": "**Get off** the bus here.",
+        "example": "여기서 버스에서 내려.",
+        "translation": ""
+      },
+      {
+        "expression": "get on",
+        "pronunciation": "타다",
+        "meaning": "**Get on** the train.",
+        "example": "기차 타.",
+        "translation": ""
+      },
+      {
+        "expression": "get in",
+        "pronunciation": "타다 (차)",
+        "meaning": "**Get in** the car.",
+        "example": "차 타.",
+        "translation": ""
+      },
+      {
+        "expression": "get out",
+        "pronunciation": "나가다",
+        "meaning": "**Get out** of here!",
+        "example": "여기서 나가!",
+        "translation": ""
+      },
+      {
+        "expression": "get back",
+        "pronunciation": "돌아오다",
+        "meaning": "When did you **get back**?",
+        "example": "언제 돌아왔어?",
+        "translation": ""
+      },
+      {
+        "expression": "get over",
+        "pronunciation": "극복하다",
+        "meaning": "I'm trying to **get over** the flu.",
+        "example": "독감을 이겨내려고 해.",
+        "translation": ""
+      },
+      {
+        "expression": "get along",
+        "pronunciation": "잘 지내다",
+        "meaning": "We **get along** well.",
+        "example": "우리는 잘 지내.",
+        "translation": ""
+      },
+      {
+        "expression": "get through",
+        "pronunciation": "통과하다",
+        "meaning": "I can't **get through** this traffic.",
+        "example": "이 교통 체증을 뚫을 수가 없어.",
+        "translation": ""
+      },
+      {
+        "expression": "get away",
+        "pronunciation": "도망가다",
+        "meaning": "The thief **got away**.",
+        "example": "도둑이 도망쳤어.",
+        "translation": ""
+      },
+      {
+        "expression": "get around",
+        "pronunciation": "돌아다니다",
+        "meaning": "How do you **get around** the city?",
+        "example": "도시를 어떻게 돌아다녀?",
+        "translation": ""
+      },
+      {
+        "expression": "get together",
+        "pronunciation": "모이다",
+        "meaning": "Let's **get together** this weekend.",
+        "example": "이번 주말에 모이자.",
+        "translation": ""
+      },
+      {
+        "expression": "get rid of",
+        "pronunciation": "제거하다",
+        "meaning": "I need to **get rid of** this.",
+        "example": "이거 없애야 해.",
+        "translation": ""
+      },
+      {
+        "expression": "get used to",
+        "pronunciation": "익숙해지다",
+        "meaning": "I'm **getting used to** the weather.",
+        "example": "날씨에 익숙해지고 있어.",
+        "translation": ""
+      },
+      {
+        "expression": "take off",
+        "pronunciation": "벗다/이륙하다",
+        "meaning": "**Take off** your shoes.",
+        "example": "신발 벗어.",
+        "translation": ""
+      },
+      {
+        "expression": "take out",
+        "pronunciation": "꺼내다",
+        "meaning": "**Take out** the trash.",
+        "example": "쓰레기 내다 버려.",
+        "translation": ""
+      },
+      {
+        "expression": "take in",
+        "pronunciation": "이해하다",
+        "meaning": "It's hard to **take in**.",
+        "example": "이해하기 어려워.",
+        "translation": ""
+      },
+      {
+        "expression": "take on",
+        "pronunciation": "맡다",
+        "meaning": "I'll **take on** this project.",
+        "example": "이 프로젝트 맡을게.",
+        "translation": ""
+      },
+      {
+        "expression": "take up",
+        "pronunciation": "시작하다 (취미)",
+        "meaning": "I **took up** yoga.",
+        "example": "요가를 시작했어.",
+        "translation": ""
+      },
+      {
+        "expression": "take over",
+        "pronunciation": "인수하다",
+        "meaning": "She **took over** the company.",
+        "example": "그녀가 회사를 인수했어.",
+        "translation": ""
+      },
+      {
+        "expression": "take back",
+        "pronunciation": "되돌리다",
+        "meaning": "I **take back** what I said.",
+        "example": "내가 한 말 취소할게.",
+        "translation": ""
+      },
+      {
+        "expression": "take after",
+        "pronunciation": "닮다",
+        "meaning": "She **takes after** her mother.",
+        "example": "그녀는 엄마를 닮았어.",
+        "translation": ""
+      },
+      {
+        "expression": "take down",
+        "pronunciation": "적다/내리다",
+        "meaning": "**Take down** the notes.",
+        "example": "노트 적어.",
+        "translation": ""
+      },
+      {
+        "expression": "take apart",
+        "pronunciation": "분해하다",
+        "meaning": "He **took apart** the machine.",
+        "example": "그가 기계를 분해했어.",
+        "translation": ""
+      },
+      {
+        "expression": "take care of",
+        "pronunciation": "돌보다",
+        "meaning": "I'll **take care of** it.",
+        "example": "내가 처리할게.",
+        "translation": ""
+      },
+      {
+        "expression": "put on",
+        "pronunciation": "입다",
+        "meaning": "**Put on** your jacket.",
+        "example": "재킷 입어.",
+        "translation": ""
+      },
+      {
+        "expression": "put off",
+        "pronunciation": "미루다",
+        "meaning": "Don't **put off** your work.",
+        "example": "일을 미루지 마.",
+        "translation": ""
+      },
+      {
+        "expression": "put away",
+        "pronunciation": "치우다",
+        "meaning": "**Put away** your toys.",
+        "example": "장난감 치워.",
+        "translation": ""
+      },
+      {
+        "expression": "put up",
+        "pronunciation": "설치하다",
+        "meaning": "We **put up** a tent.",
+        "example": "텐트를 쳤어.",
+        "translation": ""
+      },
+      {
+        "expression": "put down",
+        "pronunciation": "내려놓다",
+        "meaning": "**Put down** the book.",
+        "example": "책 내려놔.",
+        "translation": ""
+      },
+      {
+        "expression": "put out",
+        "pronunciation": "끄다",
+        "meaning": "**Put out** the fire.",
+        "example": "불 꺼.",
+        "translation": ""
+      },
+      {
+        "expression": "put up with",
+        "pronunciation": "참다",
+        "meaning": "I can't **put up with** this.",
+        "example": "이건 참을 수 없어.",
+        "translation": ""
+      },
+      {
+        "expression": "put together",
+        "pronunciation": "조립하다",
+        "meaning": "Let's **put together** the furniture.",
+        "example": "가구 조립하자.",
+        "translation": ""
+      },
+      {
+        "expression": "turn on",
+        "pronunciation": "켜다",
+        "meaning": "**Turn on** the light.",
+        "example": "불 켜.",
+        "translation": ""
+      },
+      {
+        "expression": "turn off",
+        "pronunciation": "끄다",
+        "meaning": "**Turn off** the TV.",
+        "example": "TV 꺼.",
+        "translation": ""
+      },
+      {
+        "expression": "turn up",
+        "pronunciation": "올리다/나타나다",
+        "meaning": "**Turn up** the volume.",
+        "example": "볼륨 올려.",
+        "translation": ""
+      },
+      {
+        "expression": "turn down",
+        "pronunciation": "낮추다/거절하다",
+        "meaning": "She **turned down** the offer.",
+        "example": "그녀가 제안을 거절했어.",
+        "translation": ""
+      },
+      {
+        "expression": "turn around",
+        "pronunciation": "돌아서다",
+        "meaning": "**Turn around** and look.",
+        "example": "돌아서서 봐.",
+        "translation": ""
+      },
+      {
+        "expression": "turn out",
+        "pronunciation": "밝혀지다",
+        "meaning": "It **turned out** to be true.",
+        "example": "사실로 밝혀졌어.",
+        "translation": ""
+      },
+      {
+        "expression": "turn into",
+        "pronunciation": "변하다",
+        "meaning": "The caterpillar **turned into** a butterfly.",
+        "example": "애벌레가 나비가 됐어.",
+        "translation": ""
+      },
+      {
+        "expression": "turn over",
+        "pronunciation": "뒤집다",
+        "meaning": "**Turn over** the page.",
+        "example": "페이지 넘겨.",
+        "translation": ""
+      },
+      {
+        "expression": "look at",
+        "pronunciation": "보다",
+        "meaning": "**Look at** this!",
+        "example": "이것 좀 봐!",
+        "translation": ""
+      },
+      {
+        "expression": "look for",
+        "pronunciation": "찾다",
+        "meaning": "I'm **looking for** my keys.",
+        "example": "열쇠를 찾고 있어.",
+        "translation": ""
+      },
+      {
+        "expression": "look after",
+        "pronunciation": "돌보다",
+        "meaning": "Who will **look after** the kids?",
+        "example": "아이들을 누가 돌봐?",
+        "translation": ""
+      },
+      {
+        "expression": "look up",
+        "pronunciation": "찾아보다",
+        "meaning": "**Look up** the word.",
+        "example": "그 단어 찾아봐.",
+        "translation": ""
+      },
+      {
+        "expression": "look out",
+        "pronunciation": "조심하다",
+        "meaning": "**Look out**! A car is coming!",
+        "example": "조심해! 차가 와!",
+        "translation": ""
+      },
+      {
+        "expression": "look forward to",
+        "pronunciation": "기대하다",
+        "meaning": "I'm **looking forward to** seeing you.",
+        "example": "널 만나기를 기대해.",
+        "translation": ""
+      },
+      {
+        "expression": "look into",
+        "pronunciation": "조사하다",
+        "meaning": "We'll **look into** the matter.",
+        "example": "그 문제를 조사할게.",
+        "translation": ""
+      },
+      {
+        "expression": "look over",
+        "pronunciation": "검토하다",
+        "meaning": "**Look over** the report.",
+        "example": "보고서 검토해.",
+        "translation": ""
+      },
+      {
+        "expression": "look down on",
+        "pronunciation": "무시하다",
+        "meaning": "Don't **look down on** others.",
+        "example": "남을 무시하지 마.",
+        "translation": ""
+      },
+      {
+        "expression": "look up to",
+        "pronunciation": "존경하다",
+        "meaning": "I **look up to** my father.",
+        "example": "아버지를 존경해.",
+        "translation": ""
+      },
+      {
+        "expression": "come in",
+        "pronunciation": "들어오다",
+        "meaning": "Please **come in**.",
+        "example": "들어오세요.",
+        "translation": ""
+      },
+      {
+        "expression": "come out",
+        "pronunciation": "나오다",
+        "meaning": "When does the movie **come out**?",
+        "example": "영화 언제 나와?",
+        "translation": ""
+      },
+      {
+        "expression": "come back",
+        "pronunciation": "돌아오다",
+        "meaning": "I'll **come back** later.",
+        "example": "나중에 돌아올게.",
+        "translation": ""
+      },
+      {
+        "expression": "come up",
+        "pronunciation": "다가오다",
+        "meaning": "Christmas is **coming up**.",
+        "example": "크리스마스가 다가와.",
+        "translation": ""
+      },
+      {
+        "expression": "come up with",
+        "pronunciation": "생각해내다",
+        "meaning": "I **came up with** an idea.",
+        "example": "아이디어가 떠올랐어.",
+        "translation": ""
+      },
+      {
+        "expression": "come across",
+        "pronunciation": "우연히 만나다",
+        "meaning": "I **came across** an old friend.",
+        "example": "옛 친구를 우연히 만났어.",
+        "translation": ""
+      },
+      {
+        "expression": "come down",
+        "pronunciation": "내려오다",
+        "meaning": "**Come down** the stairs.",
+        "example": "계단으로 내려와.",
+        "translation": ""
+      },
+      {
+        "expression": "come over",
+        "pronunciation": "들르다",
+        "meaning": "**Come over** to my place.",
+        "example": "우리 집에 들러.",
+        "translation": ""
+      },
+      {
+        "expression": "go on",
+        "pronunciation": "계속하다",
+        "meaning": "Please **go on**.",
+        "example": "계속하세요.",
+        "translation": ""
+      },
+      {
+        "expression": "go off",
+        "pronunciation": "울리다",
+        "meaning": "The alarm **went off**.",
+        "example": "알람이 울렸어.",
+        "translation": ""
+      },
+      {
+        "expression": "go out",
+        "pronunciation": "외출하다",
+        "meaning": "Let's **go out** tonight.",
+        "example": "오늘 밤 외출하자.",
+        "translation": ""
+      },
+      {
+        "expression": "go over",
+        "pronunciation": "검토하다",
+        "meaning": "Let me **go over** the plan.",
+        "example": "계획을 검토할게.",
+        "translation": ""
+      },
+      {
+        "expression": "go through",
+        "pronunciation": "겪다",
+        "meaning": "He's **going through** a hard time.",
+        "example": "그는 힘든 시간을 겪고 있어.",
+        "translation": ""
+      },
+      {
+        "expression": "go ahead",
+        "pronunciation": "진행하다",
+        "meaning": "**Go ahead**, I'm listening.",
+        "example": "말해, 듣고 있어.",
+        "translation": ""
+      },
+      {
+        "expression": "go back",
+        "pronunciation": "돌아가다",
+        "meaning": "Let's **go back** home.",
+        "example": "집에 돌아가자.",
+        "translation": ""
+      },
+      {
+        "expression": "go away",
+        "pronunciation": "가버리다",
+        "meaning": "**Go away**! Leave me alone.",
+        "example": "저리 가! 나 좀 내버려 둬.",
+        "translation": ""
+      },
+      {
+        "expression": "work out",
+        "pronunciation": "운동하다/해결되다",
+        "meaning": "I **work out** every day.",
+        "example": "매일 운동해.",
+        "translation": ""
+      },
+      {
+        "expression": "work on",
+        "pronunciation": "작업하다",
+        "meaning": "I'm **working on** a project.",
+        "example": "프로젝트 작업 중이야.",
+        "translation": ""
+      },
+      {
+        "expression": "work up",
+        "pronunciation": "흥분시키다",
+        "meaning": "Don't **work yourself up**.",
+        "example": "흥분하지 마.",
+        "translation": ""
+      },
+      {
+        "expression": "work off",
+        "pronunciation": "해소하다",
+        "meaning": "I need to **work off** stress.",
+        "example": "스트레스 해소해야 해.",
+        "translation": ""
+      },
+      {
+        "expression": "break up",
+        "pronunciation": "헤어지다",
+        "meaning": "They **broke up** last week.",
+        "example": "그들은 지난주에 헤어졌어.",
+        "translation": ""
+      },
+      {
+        "expression": "break down",
+        "pronunciation": "고장나다",
+        "meaning": "My car **broke down**.",
+        "example": "내 차가 고장 났어.",
+        "translation": ""
+      },
+      {
+        "expression": "break in",
+        "pronunciation": "침입하다",
+        "meaning": "Someone **broke in** last night.",
+        "example": "어젯밤 누군가 침입했어.",
+        "translation": ""
+      },
+      {
+        "expression": "break out",
+        "pronunciation": "발생하다",
+        "meaning": "War **broke out**.",
+        "example": "전쟁이 발발했어.",
+        "translation": ""
+      },
+      {
+        "expression": "break through",
+        "pronunciation": "돌파하다",
+        "meaning": "We **broke through** the barrier.",
+        "example": "우리가 장벽을 돌파했어.",
+        "translation": ""
+      },
+      {
+        "expression": "give up",
+        "pronunciation": "포기하다",
+        "meaning": "Don't **give up**!",
+        "example": "포기하지 마!",
+        "translation": ""
+      },
+      {
+        "expression": "give in",
+        "pronunciation": "굴복하다",
+        "meaning": "She finally **gave in**.",
+        "example": "그녀가 결국 굴복했어.",
+        "translation": ""
+      },
+      {
+        "expression": "give away",
+        "pronunciation": "나눠주다",
+        "meaning": "They **gave away** free samples.",
+        "example": "무료 샘플을 나눠줬어.",
+        "translation": ""
+      },
+      {
+        "expression": "give back",
+        "pronunciation": "돌려주다",
+        "meaning": "Please **give back** my book.",
+        "example": "내 책 돌려줘.",
+        "translation": ""
+      },
+      {
+        "expression": "make up",
+        "pronunciation": "화해하다/꾸며내다",
+        "meaning": "Let's **make up**.",
+        "example": "화해하자.",
+        "translation": ""
+      },
+      {
+        "expression": "make out",
+        "pronunciation": "이해하다",
+        "meaning": "I can't **make out** the words.",
+        "example": "글자를 알아볼 수가 없어.",
+        "translation": ""
+      },
+      {
+        "expression": "make up for",
+        "pronunciation": "보상하다",
+        "meaning": "I'll **make up for** it.",
+        "example": "보상할게.",
+        "translation": ""
+      },
+      {
+        "expression": "show up",
+        "pronunciation": "나타나다",
+        "meaning": "He didn't **show up**.",
+        "example": "그가 나타나지 않았어.",
+        "translation": ""
+      },
+      {
+        "expression": "show off",
+        "pronunciation": "자랑하다",
+        "meaning": "Stop **showing off**!",
+        "example": "자랑 그만해!",
+        "translation": ""
+      },
+      {
+        "expression": "pick up",
+        "pronunciation": "줍다/데리러 가다",
+        "meaning": "I'll **pick you up** at 5.",
+        "example": "5시에 데리러 갈게.",
+        "translation": ""
+      },
+      {
+        "expression": "pick out",
+        "pronunciation": "고르다",
+        "meaning": "**Pick out** a gift.",
+        "example": "선물 골라.",
+        "translation": ""
+      },
+      {
+        "expression": "set up",
+        "pronunciation": "설치하다",
+        "meaning": "Let's **set up** the meeting.",
+        "example": "회의 잡자.",
+        "translation": ""
+      },
+      {
+        "expression": "set off",
+        "pronunciation": "출발하다",
+        "meaning": "We **set off** early.",
+        "example": "우리는 일찍 출발했어.",
+        "translation": ""
+      },
+      {
+        "expression": "cut off",
+        "pronunciation": "자르다/끊다",
+        "meaning": "The call was **cut off**.",
+        "example": "전화가 끊겼어.",
+        "translation": ""
+      },
+      {
+        "expression": "cut down",
+        "pronunciation": "줄이다",
+        "meaning": "I'm trying to **cut down** on sugar.",
+        "example": "설탕을 줄이려고 해.",
+        "translation": ""
+      }
+    ]
+  },
+  {
+    "nameKo": "일상 표현",
+    "nameEn": "Daily Expressions",
+    "expressions": [
+      {
+        "expression": "What's up?",
+        "pronunciation": "뭐해? / 안녕?",
+        "meaning": "**What's up**? How's everything?",
+        "example": "뭐해? 다 잘 돼가?",
+        "translation": ""
+      },
+      {
+        "expression": "How's it going?",
+        "pronunciation": "어떻게 지내?",
+        "meaning": "**How's it going**?",
+        "example": "어떻게 지내?",
+        "translation": ""
+      },
+      {
+        "expression": "How have you been?",
+        "pronunciation": "그동안 어떻게 지냈어?",
+        "meaning": "**How have you been**?",
+        "example": "그동안 어떻게 지냈어?",
+        "translation": ""
+      },
+      {
+        "expression": "Long time no see.",
+        "pronunciation": "오랜만이야.",
+        "meaning": "**Long time no see**! How are you?",
+        "example": "오랜만이야! 어떻게 지내?",
+        "translation": ""
+      },
+      {
+        "expression": "Nice to meet you.",
+        "pronunciation": "만나서 반가워요.",
+        "meaning": "**Nice to meet you**. I'm John.",
+        "example": "만나서 반가워요. 저는 존이에요.",
+        "translation": ""
+      },
+      {
+        "expression": "Nice to see you again.",
+        "pronunciation": "다시 만나서 반가워요.",
+        "meaning": "**Nice to see you again**.",
+        "example": "다시 만나서 반가워요.",
+        "translation": ""
+      },
+      {
+        "expression": "Take care.",
+        "pronunciation": "잘 지내.",
+        "meaning": "**Take care** of yourself.",
+        "example": "잘 지내.",
+        "translation": ""
+      },
+      {
+        "expression": "See you later.",
+        "pronunciation": "나중에 봐.",
+        "meaning": "**See you later**!",
+        "example": "나중에 봐!",
+        "translation": ""
+      },
+      {
+        "expression": "See you around.",
+        "pronunciation": "또 보자.",
+        "meaning": "**See you around**!",
+        "example": "또 보자!",
+        "translation": ""
+      },
+      {
+        "expression": "Catch you later.",
+        "pronunciation": "나중에 봐.",
+        "meaning": "**Catch you later**!",
+        "example": "나중에 봐!",
+        "translation": ""
+      },
+      {
+        "expression": "Have a good one.",
+        "pronunciation": "좋은 하루 보내.",
+        "meaning": "**Have a good one**!",
+        "example": "좋은 하루 보내!",
+        "translation": ""
+      },
+      {
+        "expression": "Keep in touch.",
+        "pronunciation": "연락하고 지내자.",
+        "meaning": "Let's **keep in touch**.",
+        "example": "연락하고 지내자.",
+        "translation": ""
+      },
+      {
+        "expression": "It was nice talking to you.",
+        "pronunciation": "얘기해서 좋았어.",
+        "meaning": "**It was nice talking to you**.",
+        "example": "얘기해서 좋았어.",
+        "translation": ""
+      },
+      {
+        "expression": "It's been a while.",
+        "pronunciation": "오랜만이네.",
+        "meaning": "**It's been a while**. How are you?",
+        "example": "오랜만이네. 어떻게 지내?",
+        "translation": ""
+      },
+      {
+        "expression": "What brings you here?",
+        "pronunciation": "여긴 웬일이야?",
+        "meaning": "**What brings you here**?",
+        "example": "여긴 웬일이야?",
+        "translation": ""
+      },
+      {
+        "expression": "Thank you so much.",
+        "pronunciation": "정말 감사해요.",
+        "meaning": "**Thank you so much** for your help.",
+        "example": "도움 주셔서 정말 감사해요.",
+        "translation": ""
+      },
+      {
+        "expression": "I really appreciate it.",
+        "pronunciation": "정말 감사드려요.",
+        "meaning": "**I really appreciate it**.",
+        "example": "정말 감사드려요.",
+        "translation": ""
+      },
+      {
+        "expression": "Thanks a lot.",
+        "pronunciation": "정말 고마워.",
+        "meaning": "**Thanks a lot** for coming.",
+        "example": "와줘서 정말 고마워.",
+        "translation": ""
+      },
+      {
+        "expression": "Thanks for everything.",
+        "pronunciation": "모든 것에 감사해요.",
+        "meaning": "**Thanks for everything**.",
+        "example": "모든 것에 감사해요.",
+        "translation": ""
+      },
+      {
+        "expression": "I can't thank you enough.",
+        "pronunciation": "감사의 말씀을 다 못 드리겠어요.",
+        "meaning": "**I can't thank you enough**.",
+        "example": "감사의 말씀을 다 못 드리겠어요.",
+        "translation": ""
+      },
+      {
+        "expression": "I owe you one.",
+        "pronunciation": "신세 졌어.",
+        "meaning": "**I owe you one**.",
+        "example": "신세 졌어.",
+        "translation": ""
+      },
+      {
+        "expression": "You're too kind.",
+        "pronunciation": "너무 친절하시네요.",
+        "meaning": "**You're too kind**.",
+        "example": "너무 친절하시네요.",
+        "translation": ""
+      },
+      {
+        "expression": "Don't mention it.",
+        "pronunciation": "별말씀을요.",
+        "meaning": "**Don't mention it**.",
+        "example": "별말씀을요.",
+        "translation": ""
+      },
+      {
+        "expression": "No problem.",
+        "pronunciation": "문제없어요.",
+        "meaning": "**No problem**.",
+        "example": "문제없어요.",
+        "translation": ""
+      },
+      {
+        "expression": "My pleasure.",
+        "pronunciation": "제가 기쁘죠.",
+        "meaning": "**My pleasure**.",
+        "example": "제가 기쁘죠.",
+        "translation": ""
+      },
+      {
+        "expression": "Anytime.",
+        "pronunciation": "언제든지요.",
+        "meaning": "**Anytime**.",
+        "example": "언제든지요.",
+        "translation": ""
+      },
+      {
+        "expression": "I'm sorry.",
+        "pronunciation": "미안해요.",
+        "meaning": "**I'm sorry** for being late.",
+        "example": "늦어서 미안해요.",
+        "translation": ""
+      },
+      {
+        "expression": "I apologize.",
+        "pronunciation": "사과드려요.",
+        "meaning": "**I apologize** for the inconvenience.",
+        "example": "불편을 끼쳐 사과드려요.",
+        "translation": ""
+      },
+      {
+        "expression": "I didn't mean to.",
+        "pronunciation": "일부러 그런 게 아니야.",
+        "meaning": "**I didn't mean to** hurt you.",
+        "example": "일부러 상처 주려던 게 아니야.",
+        "translation": ""
+      },
+      {
+        "expression": "My bad.",
+        "pronunciation": "내 잘못이야.",
+        "meaning": "**My bad**. I forgot.",
+        "example": "내 잘못이야. 잊어버렸어.",
+        "translation": ""
+      },
+      {
+        "expression": "I'm so sorry about that.",
+        "pronunciation": "그 일에 대해 정말 죄송해요.",
+        "meaning": "**I'm so sorry about that**.",
+        "example": "그 일에 대해 정말 죄송해요.",
+        "translation": ""
+      },
+      {
+        "expression": "Please forgive me.",
+        "pronunciation": "용서해 주세요.",
+        "meaning": "**Please forgive me**.",
+        "example": "용서해 주세요.",
+        "translation": ""
+      },
+      {
+        "expression": "I hope you can forgive me.",
+        "pronunciation": "용서해 주셨으면 해요.",
+        "meaning": "**I hope you can forgive me**.",
+        "example": "용서해 주셨으면 해요.",
+        "translation": ""
+      },
+      {
+        "expression": "No worries.",
+        "pronunciation": "괜찮아.",
+        "meaning": "**No worries**.",
+        "example": "괜찮아.",
+        "translation": ""
+      },
+      {
+        "expression": "It's okay.",
+        "pronunciation": "괜찮아요.",
+        "meaning": "**It's okay**.",
+        "example": "괜찮아요.",
+        "translation": ""
+      },
+      {
+        "expression": "Don't worry about it.",
+        "pronunciation": "그것에 대해 걱정 마.",
+        "meaning": "**Don't worry about it**.",
+        "example": "그것에 대해 걱정 마.",
+        "translation": ""
+      },
+      {
+        "expression": "I agree.",
+        "pronunciation": "동의해요.",
+        "meaning": "**I agree** with you.",
+        "example": "너에게 동의해.",
+        "translation": ""
+      },
+      {
+        "expression": "I totally agree.",
+        "pronunciation": "전적으로 동의해요.",
+        "meaning": "**I totally agree**.",
+        "example": "전적으로 동의해.",
+        "translation": ""
+      },
+      {
+        "expression": "Absolutely!",
+        "pronunciation": "물론이죠!",
+        "meaning": "**Absolutely**!",
+        "example": "물론이죠!",
+        "translation": ""
+      },
+      {
+        "expression": "Exactly!",
+        "pronunciation": "맞아요!",
+        "meaning": "**Exactly**! That's what I mean.",
+        "example": "맞아! 그게 내 말이야.",
+        "translation": ""
+      },
+      {
+        "expression": "That's right.",
+        "pronunciation": "맞아요.",
+        "meaning": "**That's right**.",
+        "example": "맞아.",
+        "translation": ""
+      },
+      {
+        "expression": "You're right.",
+        "pronunciation": "네 말이 맞아.",
+        "meaning": "**You're right** about that.",
+        "example": "그것에 대해서 네 말이 맞아.",
+        "translation": ""
+      },
+      {
+        "expression": "That makes sense.",
+        "pronunciation": "그 말이 맞네요.",
+        "meaning": "**That makes sense**.",
+        "example": "그 말이 맞네.",
+        "translation": ""
+      },
+      {
+        "expression": "I think so too.",
+        "pronunciation": "저도 그렇게 생각해요.",
+        "meaning": "**I think so too**.",
+        "example": "나도 그렇게 생각해.",
+        "translation": ""
+      },
+      {
+        "expression": "I couldn't agree more.",
+        "pronunciation": "전적으로 동의해요.",
+        "meaning": "**I couldn't agree more**.",
+        "example": "전적으로 동의해.",
+        "translation": ""
+      },
+      {
+        "expression": "I disagree.",
+        "pronunciation": "동의하지 않아요.",
+        "meaning": "**I disagree** with that idea.",
+        "example": "그 생각에 동의 안 해.",
+        "translation": ""
+      },
+      {
+        "expression": "I don't think so.",
+        "pronunciation": "그렇게 생각 안 해요.",
+        "meaning": "**I don't think so**.",
+        "example": "그렇게 생각 안 해.",
+        "translation": ""
+      },
+      {
+        "expression": "I'm not sure about that.",
+        "pronunciation": "그건 잘 모르겠어요.",
+        "meaning": "**I'm not sure about that**.",
+        "example": "그건 잘 모르겠어.",
+        "translation": ""
+      },
+      {
+        "expression": "I see your point, but...",
+        "pronunciation": "네 말은 알겠지만...",
+        "meaning": "**I see your point, but** I think differently.",
+        "example": "네 말은 알겠지만 나는 다르게 생각해.",
+        "translation": ""
+      },
+      {
+        "expression": "That's not necessarily true.",
+        "pronunciation": "꼭 그렇지는 않아요.",
+        "meaning": "**That's not necessarily true**.",
+        "example": "꼭 그렇지는 않아.",
+        "translation": ""
+      },
+      {
+        "expression": "I beg to differ.",
+        "pronunciation": "전 다르게 생각해요.",
+        "meaning": "**I beg to differ**.",
+        "example": "전 다르게 생각해요.",
+        "translation": ""
+      },
+      {
+        "expression": "Could you help me?",
+        "pronunciation": "도와주실 수 있나요?",
+        "meaning": "**Could you help me** with this?",
+        "example": "이것 좀 도와주실 수 있나요?",
+        "translation": ""
+      },
+      {
+        "expression": "Would you mind...?",
+        "pronunciation": "~해도 될까요?",
+        "meaning": "**Would you mind** opening the window?",
+        "example": "창문 열어도 될까요?",
+        "translation": ""
+      },
+      {
+        "expression": "Can I ask you a favor?",
+        "pronunciation": "부탁 하나 해도 될까요?",
+        "meaning": "**Can I ask you a favor**?",
+        "example": "부탁 하나 해도 될까요?",
+        "translation": ""
+      },
+      {
+        "expression": "Do you mind if I...?",
+        "pronunciation": "제가 ~해도 될까요?",
+        "meaning": "**Do you mind if I** sit here?",
+        "example": "여기 앉아도 될까요?",
+        "translation": ""
+      },
+      {
+        "expression": "Let me know if you need anything.",
+        "pronunciation": "필요한 게 있으면 알려줘요.",
+        "meaning": "**Let me know if you need anything**.",
+        "example": "필요한 게 있으면 알려줘.",
+        "translation": ""
+      },
+      {
+        "expression": "What do you think?",
+        "pronunciation": "어떻게 생각해요?",
+        "meaning": "**What do you think** about this?",
+        "example": "이것에 대해 어떻게 생각해?",
+        "translation": ""
+      },
+      {
+        "expression": "How about...?",
+        "pronunciation": "~는 어때요?",
+        "meaning": "**How about** going to the movies?",
+        "example": "영화 보러 가는 거 어때?",
+        "translation": ""
+      },
+      {
+        "expression": "Why don't we...?",
+        "pronunciation": "~하는 게 어때요?",
+        "meaning": "**Why don't we** take a break?",
+        "example": "쉬는 게 어때?",
+        "translation": ""
+      },
+      {
+        "expression": "Let's...",
+        "pronunciation": "~하자.",
+        "meaning": "**Let's** go together.",
+        "example": "같이 가자.",
+        "translation": ""
+      },
+      {
+        "expression": "Shall we...?",
+        "pronunciation": "~할까요?",
+        "meaning": "**Shall we** dance?",
+        "example": "춤출까요?",
+        "translation": ""
+      },
+      {
+        "expression": "I suggest...",
+        "pronunciation": "~를 제안해요.",
+        "meaning": "**I suggest** we leave early.",
+        "example": "일찍 떠나는 게 좋겠어.",
+        "translation": ""
+      },
+      {
+        "expression": "Would you like to...?",
+        "pronunciation": "~하시겠어요?",
+        "meaning": "**Would you like to** join us?",
+        "example": "저희와 함께 하시겠어요?",
+        "translation": ""
+      },
+      {
+        "expression": "Feel free to...",
+        "pronunciation": "편하게 ~하세요.",
+        "meaning": "**Feel free to** ask questions.",
+        "example": "편하게 질문하세요.",
+        "translation": ""
+      },
+      {
+        "expression": "Do you understand?",
+        "pronunciation": "이해하셨어요?",
+        "meaning": "**Do you understand** what I mean?",
+        "example": "무슨 말인지 이해해?",
+        "translation": ""
+      },
+      {
+        "expression": "Got it?",
+        "pronunciation": "알겠어?",
+        "meaning": "**Got it**?",
+        "example": "알겠어?",
+        "translation": ""
+      },
+      {
+        "expression": "Does that make sense?",
+        "pronunciation": "이해가 되나요?",
+        "meaning": "**Does that make sense**?",
+        "example": "이해가 돼?",
+        "translation": ""
+      },
+      {
+        "expression": "Are you following me?",
+        "pronunciation": "제 말 따라오고 계세요?",
+        "meaning": "**Are you following me**?",
+        "example": "내 말 알아들어?",
+        "translation": ""
+      },
+      {
+        "expression": "Let me make sure I understand.",
+        "pronunciation": "제가 이해한 게 맞는지 확인할게요.",
+        "meaning": "**Let me make sure I understand**.",
+        "example": "내가 이해한 게 맞는지 확인할게.",
+        "translation": ""
+      },
+      {
+        "expression": "Let me clarify.",
+        "pronunciation": "명확히 할게요.",
+        "meaning": "**Let me clarify** this point.",
+        "example": "이 부분 명확히 할게.",
+        "translation": ""
+      },
+      {
+        "expression": "What I mean is...",
+        "pronunciation": "제 말은...",
+        "meaning": "**What I mean is**, we should wait.",
+        "example": "내 말은, 우리가 기다려야 한다는 거야.",
+        "translation": ""
+      },
+      {
+        "expression": "In other words...",
+        "pronunciation": "다시 말해서...",
+        "meaning": "**In other words**, it's too expensive.",
+        "example": "다시 말해서, 너무 비싸.",
+        "translation": ""
+      },
+      {
+        "expression": "Could you repeat that?",
+        "pronunciation": "다시 말씀해 주실래요?",
+        "meaning": "**Could you repeat that**?",
+        "example": "다시 말해 주실래요?",
+        "translation": ""
+      },
+      {
+        "expression": "I didn't catch that.",
+        "pronunciation": "못 알아들었어요.",
+        "meaning": "**I didn't catch that**.",
+        "example": "못 알아들었어.",
+        "translation": ""
+      },
+      {
+        "expression": "Pardon? / Excuse me?",
+        "pronunciation": "뭐라고요?",
+        "meaning": "**Pardon**?",
+        "example": "뭐라고요?",
+        "translation": ""
+      },
+      {
+        "expression": "I see.",
+        "pronunciation": "알겠어요.",
+        "meaning": "**I see**. That makes sense.",
+        "example": "알겠어. 그 말이 맞네.",
+        "translation": ""
+      },
+      {
+        "expression": "I got it.",
+        "pronunciation": "이해했어요.",
+        "meaning": "**I got it**. Thanks for explaining.",
+        "example": "이해했어. 설명해줘서 고마워.",
+        "translation": ""
+      },
+      {
+        "expression": "I understand.",
+        "pronunciation": "이해해요.",
+        "meaning": "**I understand** your concern.",
+        "example": "네 걱정 이해해.",
+        "translation": ""
+      },
+      {
+        "expression": "That makes sense.",
+        "pronunciation": "이해가 되네요.",
+        "meaning": "**That makes sense** now.",
+        "example": "이제 이해가 되네.",
+        "translation": ""
+      },
+      {
+        "expression": "I think...",
+        "pronunciation": "~라고 생각해요.",
+        "meaning": "**I think** we should leave now.",
+        "example": "지금 떠나야 할 것 같아.",
+        "translation": ""
+      },
+      {
+        "expression": "In my opinion...",
+        "pronunciation": "제 생각에는...",
+        "meaning": "**In my opinion**, it's too risky.",
+        "example": "제 생각에는 너무 위험해요.",
+        "translation": ""
+      },
+      {
+        "expression": "I believe...",
+        "pronunciation": "~라고 믿어요.",
+        "meaning": "**I believe** we can do it.",
+        "example": "우리가 할 수 있다고 믿어.",
+        "translation": ""
+      },
+      {
+        "expression": "I feel like...",
+        "pronunciation": "~인 것 같아요.",
+        "meaning": "**I feel like** going home.",
+        "example": "집에 가고 싶어.",
+        "translation": ""
+      },
+      {
+        "expression": "It seems to me that...",
+        "pronunciation": "제가 보기에는...",
+        "meaning": "**It seems to me that** he's upset.",
+        "example": "내가 보기에 그는 화난 것 같아.",
+        "translation": ""
+      },
+      {
+        "expression": "Personally, I...",
+        "pronunciation": "개인적으로 저는...",
+        "meaning": "**Personally, I** prefer coffee.",
+        "example": "개인적으로 커피를 선호해.",
+        "translation": ""
+      },
+      {
+        "expression": "From my point of view...",
+        "pronunciation": "제 관점에서는...",
+        "meaning": "**From my point of view**, it's fair.",
+        "example": "내 관점에서는 공정해.",
+        "translation": ""
+      },
+      {
+        "expression": "If you ask me...",
+        "pronunciation": "제 생각을 말하자면...",
+        "meaning": "**If you ask me**, it's a bad idea.",
+        "example": "내 생각을 말하자면, 안 좋은 생각이야.",
+        "translation": ""
+      },
+      {
+        "expression": "To be honest...",
+        "pronunciation": "솔직히 말하면...",
+        "meaning": "**To be honest**, I don't like it.",
+        "example": "솔직히 말하면, 안 좋아해.",
+        "translation": ""
+      },
+      {
+        "expression": "Honestly speaking...",
+        "pronunciation": "솔직히 말해서...",
+        "meaning": "**Honestly speaking**, I'm worried.",
+        "example": "솔직히 말해서, 걱정돼.",
+        "translation": ""
+      },
+      {
+        "expression": "Frankly speaking...",
+        "pronunciation": "솔직히 말해서...",
+        "meaning": "**Frankly speaking**, it's not good.",
+        "example": "솔직히 말해서, 안 좋아.",
+        "translation": ""
+      },
+      {
+        "expression": "To tell you the truth...",
+        "pronunciation": "사실대로 말하면...",
+        "meaning": "**To tell you the truth**, I forgot.",
+        "example": "사실대로 말하면, 잊어버렸어.",
+        "translation": ""
+      },
+      {
+        "expression": "I'm so happy!",
+        "pronunciation": "너무 행복해!",
+        "meaning": "**I'm so happy** to see you!",
+        "example": "너 만나서 너무 행복해!",
+        "translation": ""
+      },
+      {
+        "expression": "I'm thrilled!",
+        "pronunciation": "너무 기뻐!",
+        "meaning": "**I'm thrilled** about the news!",
+        "example": "그 소식에 너무 기뻐!",
+        "translation": ""
+      },
+      {
+        "expression": "That's amazing!",
+        "pronunciation": "대단해!",
+        "meaning": "**That's amazing**!",
+        "example": "대단해!",
+        "translation": ""
+      },
+      {
+        "expression": "I'm so excited!",
+        "pronunciation": "너무 신나!",
+        "meaning": "**I'm so excited** about the trip!",
+        "example": "여행이 너무 신나!",
+        "translation": ""
+      },
+      {
+        "expression": "I'm relieved.",
+        "pronunciation": "안심이야.",
+        "meaning": "**I'm relieved** to hear that.",
+        "example": "그 말 들으니 안심이야.",
+        "translation": ""
+      },
+      {
+        "expression": "I'm worried about...",
+        "pronunciation": "~가 걱정돼.",
+        "meaning": "**I'm worried about** the exam.",
+        "example": "시험이 걱정돼.",
+        "translation": ""
+      },
+      {
+        "expression": "I'm nervous.",
+        "pronunciation": "긴장돼.",
+        "meaning": "**I'm nervous** about the interview.",
+        "example": "면접이 긴장돼.",
+        "translation": ""
+      },
+      {
+        "expression": "I'm so stressed out.",
+        "pronunciation": "스트레스 받아.",
+        "meaning": "**I'm so stressed out** with work.",
+        "example": "일 때문에 스트레스 받아.",
+        "translation": ""
+      },
+      {
+        "expression": "I'm disappointed.",
+        "pronunciation": "실망이야.",
+        "meaning": "**I'm disappointed** in you.",
+        "example": "네가 실망이야.",
+        "translation": ""
+      },
+      {
+        "expression": "I'm frustrated.",
+        "pronunciation": "답답해.",
+        "meaning": "**I'm frustrated** with this situation.",
+        "example": "이 상황이 답답해.",
+        "translation": ""
+      },
+      {
+        "expression": "That's annoying.",
+        "pronunciation": "짜증나네.",
+        "meaning": "**That's annoying**.",
+        "example": "짜증나네.",
+        "translation": ""
+      },
+      {
+        "expression": "I'm tired of...",
+        "pronunciation": "~에 지쳤어.",
+        "meaning": "**I'm tired of** waiting.",
+        "example": "기다리는 게 지쳤어.",
+        "translation": ""
+      },
+      {
+        "expression": "I'm sick of...",
+        "pronunciation": "~에 질렸어.",
+        "meaning": "**I'm sick of** this weather.",
+        "example": "이 날씨에 질렸어.",
+        "translation": ""
+      },
+      {
+        "expression": "I can't stand...",
+        "pronunciation": "~을 참을 수 없어.",
+        "meaning": "**I can't stand** the noise.",
+        "example": "소음을 참을 수 없어.",
+        "translation": ""
+      },
+      {
+        "expression": "I'm fed up with...",
+        "pronunciation": "~에 진절머리 나.",
+        "meaning": "**I'm fed up with** his excuses.",
+        "example": "그의 변명에 진절머리 나.",
+        "translation": ""
+      }
+    ]
+  },
+  {
+    "nameKo": "관용 표현",
+    "nameEn": "Idiomatic Expressions",
+    "expressions": [
+      {
+        "expression": "keep an eye on",
+        "pronunciation": "~을 지켜보다",
+        "meaning": "**Keep an eye on** the kids.",
+        "example": "아이들 좀 지켜봐.",
+        "translation": ""
+      },
+      {
+        "expression": "turn a blind eye to",
+        "pronunciation": "~을 못 본 척하다",
+        "meaning": "He **turned a blind eye to** the problem.",
+        "example": "그는 그 문제를 못 본 척했어.",
+        "translation": ""
+      },
+      {
+        "expression": "see eye to eye",
+        "pronunciation": "의견이 일치하다",
+        "meaning": "We don't **see eye to eye**.",
+        "example": "우리는 의견이 안 맞아.",
+        "translation": ""
+      },
+      {
+        "expression": "catch someone's eye",
+        "pronunciation": "눈에 띄다",
+        "meaning": "The painting **caught my eye**.",
+        "example": "그 그림이 눈에 띄었어.",
+        "translation": ""
+      },
+      {
+        "expression": "keep your head up",
+        "pronunciation": "기죽지 마",
+        "meaning": "**Keep your head up**. You'll be fine.",
+        "example": "기죽지 마. 괜찮을 거야.",
+        "translation": ""
+      },
+      {
+        "expression": "keep your head down",
+        "pronunciation": "조용히 지내다",
+        "meaning": "Just **keep your head down** for now.",
+        "example": "일단은 조용히 지내.",
+        "translation": ""
+      },
+      {
+        "expression": "lose your head",
+        "pronunciation": "냉정을 잃다",
+        "meaning": "Don't **lose your head** over this.",
+        "example": "이것 때문에 냉정을 잃지 마.",
+        "translation": ""
+      },
+      {
+        "expression": "over your head",
+        "pronunciation": "이해하기 어려운",
+        "meaning": "The lecture went **over my head**.",
+        "example": "강의가 이해가 안 됐어.",
+        "translation": ""
+      },
+      {
+        "expression": "off the top of your head",
+        "pronunciation": "즉흥적으로",
+        "meaning": "**Off the top of my head**, I'd say 20.",
+        "example": "즉흥적으로 말하면 20이라고 할게.",
+        "translation": ""
+      },
+      {
+        "expression": "have a big head",
+        "pronunciation": "자만하다",
+        "meaning": "Don't **have a big head**.",
+        "example": "자만하지 마.",
+        "translation": ""
+      },
+      {
+        "expression": "have a good head on your shoulders",
+        "pronunciation": "현명하다",
+        "meaning": "She **has a good head on her shoulders**.",
+        "example": "그녀는 현명해.",
+        "translation": ""
+      },
+      {
+        "expression": "give someone a hand",
+        "pronunciation": "도와주다",
+        "meaning": "Can you **give me a hand**?",
+        "example": "도와줄 수 있어?",
+        "translation": ""
+      },
+      {
+        "expression": "lend a hand",
+        "pronunciation": "도움을 주다",
+        "meaning": "I'll **lend you a hand**.",
+        "example": "도와줄게.",
+        "translation": ""
+      },
+      {
+        "expression": "hands down",
+        "pronunciation": "단연코",
+        "meaning": "He's **hands down** the best.",
+        "example": "그는 단연코 최고야.",
+        "translation": ""
+      },
+      {
+        "expression": "on the other hand",
+        "pronunciation": "반면에",
+        "meaning": "**On the other hand**, it might rain.",
+        "example": "반면에, 비가 올 수도 있어.",
+        "translation": ""
+      },
+      {
+        "expression": "first-hand",
+        "pronunciation": "직접적인",
+        "meaning": "I have **first-hand** experience.",
+        "example": "직접적인 경험이 있어.",
+        "translation": ""
+      },
+      {
+        "expression": "second-hand",
+        "pronunciation": "간접적인",
+        "meaning": "I heard it **second-hand**.",
+        "example": "간접적으로 들었어.",
+        "translation": ""
+      },
+      {
+        "expression": "shake hands",
+        "pronunciation": "악수하다",
+        "meaning": "Let's **shake hands**.",
+        "example": "악수하자.",
+        "translation": ""
+      },
+      {
+        "expression": "have your hands full",
+        "pronunciation": "매우 바쁘다",
+        "meaning": "I **have my hands full** right now.",
+        "example": "지금 엄청 바빠.",
+        "translation": ""
+      },
+      {
+        "expression": "get out of hand",
+        "pronunciation": "통제 불능이 되다",
+        "meaning": "Things are **getting out of hand**.",
+        "example": "상황이 통제 불능이 되고 있어.",
+        "translation": ""
+      },
+      {
+        "expression": "all ears",
+        "pronunciation": "귀 기울여 듣다",
+        "meaning": "I'm **all ears**. Tell me.",
+        "example": "귀 기울이고 있어. 말해봐.",
+        "translation": ""
+      },
+      {
+        "expression": "play it by ear",
+        "pronunciation": "상황에 맞게 대처하다",
+        "meaning": "Let's **play it by ear**.",
+        "example": "상황 봐서 하자.",
+        "translation": ""
+      },
+      {
+        "expression": "turn a deaf ear",
+        "pronunciation": "무시하다",
+        "meaning": "She **turned a deaf ear** to my advice.",
+        "example": "그녀는 내 조언을 무시했어.",
+        "translation": ""
+      },
+      {
+        "expression": "have a sweet tooth",
+        "pronunciation": "단것을 좋아하다",
+        "meaning": "I **have a sweet tooth**.",
+        "example": "단것을 좋아해.",
+        "translation": ""
+      },
+      {
+        "expression": "bite your tongue",
+        "pronunciation": "참다",
+        "meaning": "I had to **bite my tongue**.",
+        "example": "참아야 했어.",
+        "translation": ""
+      },
+      {
+        "expression": "on the tip of your tongue",
+        "pronunciation": "생각이 날 듯 말 듯",
+        "meaning": "It's **on the tip of my tongue**.",
+        "example": "생각이 날 듯 말 듯 해.",
+        "translation": ""
+      },
+      {
+        "expression": "slip of the tongue",
+        "pronunciation": "실언",
+        "meaning": "It was just a **slip of the tongue**.",
+        "example": "그냥 실언이었어.",
+        "translation": ""
+      },
+      {
+        "expression": "shoulder to shoulder",
+        "pronunciation": "어깨를 나란히",
+        "meaning": "We stood **shoulder to shoulder**.",
+        "example": "우리는 어깨를 나란히 했어.",
+        "translation": ""
+      },
+      {
+        "expression": "cold shoulder",
+        "pronunciation": "냉대",
+        "meaning": "She gave me the **cold shoulder**.",
+        "example": "그녀가 나를 냉대했어.",
+        "translation": ""
+      },
+      {
+        "expression": "have broad shoulders",
+        "pronunciation": "책임감이 강하다",
+        "meaning": "He **has broad shoulders**.",
+        "example": "그는 책임감이 강해.",
+        "translation": ""
+      },
+      {
+        "expression": "pat on the back",
+        "pronunciation": "칭찬",
+        "meaning": "He deserves a **pat on the back**.",
+        "example": "그는 칭찬받을 만해.",
+        "translation": ""
+      },
+      {
+        "expression": "behind your back",
+        "pronunciation": "뒤에서",
+        "meaning": "They talk **behind my back**.",
+        "example": "그들은 내 뒤에서 말해.",
+        "translation": ""
+      },
+      {
+        "expression": "break a leg",
+        "pronunciation": "행운을 빌어",
+        "meaning": "**Break a leg** on your performance!",
+        "example": "공연 잘 해!",
+        "translation": ""
+      },
+      {
+        "expression": "pull someone's leg",
+        "pronunciation": "놀리다",
+        "meaning": "Are you **pulling my leg**?",
+        "example": "나 놀리는 거야?",
+        "translation": ""
+      },
+      {
+        "expression": "cost an arm and a leg",
+        "pronunciation": "매우 비싸다",
+        "meaning": "This car **cost an arm and a leg**.",
+        "example": "이 차 엄청 비쌌어.",
+        "translation": ""
+      },
+      {
+        "expression": "have butterflies in your stomach",
+        "pronunciation": "긴장되다",
+        "meaning": "I **have butterflies in my stomach**.",
+        "example": "긴장돼.",
+        "translation": ""
+      },
+      {
+        "expression": "gut feeling",
+        "pronunciation": "직감",
+        "meaning": "I have a **gut feeling** about this.",
+        "example": "이것에 대해 직감이 있어.",
+        "translation": ""
+      },
+      {
+        "expression": "break someone's heart",
+        "pronunciation": "마음을 아프게 하다",
+        "meaning": "You **broke my heart**.",
+        "example": "넌 내 마음을 아프게 했어.",
+        "translation": ""
+      },
+      {
+        "expression": "from the bottom of your heart",
+        "pronunciation": "진심으로",
+        "meaning": "Thank you **from the bottom of my heart**.",
+        "example": "진심으로 감사해.",
+        "translation": ""
+      },
+      {
+        "expression": "have a heart of gold",
+        "pronunciation": "마음이 따뜻하다",
+        "meaning": "She **has a heart of gold**.",
+        "example": "그녀는 마음이 따뜻해.",
+        "translation": ""
+      },
+      {
+        "expression": "learn by heart",
+        "pronunciation": "암기하다",
+        "meaning": "I **learned it by heart**.",
+        "example": "그걸 외웠어.",
+        "translation": ""
+      },
+      {
+        "expression": "take heart",
+        "pronunciation": "용기를 내다",
+        "meaning": "**Take heart**! You can do it.",
+        "example": "용기 내! 할 수 있어.",
+        "translation": ""
+      },
+      {
+        "expression": "let the cat out of the bag",
+        "pronunciation": "비밀을 누설하다",
+        "meaning": "Don't **let the cat out of the bag**.",
+        "example": "비밀 누설하지 마.",
+        "translation": ""
+      },
+      {
+        "expression": "raining cats and dogs",
+        "pronunciation": "비가 억수같이 오다",
+        "meaning": "It's **raining cats and dogs**.",
+        "example": "비가 억수같이 와.",
+        "translation": ""
+      },
+      {
+        "expression": "when pigs fly",
+        "pronunciation": "절대 일어나지 않을 일",
+        "meaning": "That'll happen **when pigs fly**.",
+        "example": "그건 절대 안 일어나.",
+        "translation": ""
+      },
+      {
+        "expression": "kill two birds with one stone",
+        "pronunciation": "일석이조",
+        "meaning": "Let's **kill two birds with one stone**.",
+        "example": "일석이조로 하자.",
+        "translation": ""
+      },
+      {
+        "expression": "a little bird told me",
+        "pronunciation": "소문으로 들었어",
+        "meaning": "**A little bird told me** you got promoted.",
+        "example": "승진했다고 들었어.",
+        "translation": ""
+      },
+      {
+        "expression": "early bird",
+        "pronunciation": "아침형 인간",
+        "meaning": "I'm an **early bird**.",
+        "example": "나는 아침형 인간이야.",
+        "translation": ""
+      },
+      {
+        "expression": "night owl",
+        "pronunciation": "올빼미족",
+        "meaning": "He's a **night owl**.",
+        "example": "그는 올빼미족이야.",
+        "translation": ""
+      },
+      {
+        "expression": "black sheep",
+        "pronunciation": "골칫덩이",
+        "meaning": "He's the **black sheep** of the family.",
+        "example": "그는 집안의 골칫덩이야.",
+        "translation": ""
+      },
+      {
+        "expression": "wolf in sheep's clothing",
+        "pronunciation": "위선자",
+        "meaning": "He's a **wolf in sheep's clothing**.",
+        "example": "그는 위선자야.",
+        "translation": ""
+      },
+      {
+        "expression": "fish out of water",
+        "pronunciation": "어울리지 않는 사람",
+        "meaning": "I felt like a **fish out of water**.",
+        "example": "물 밖으로 나온 물고기 같았어.",
+        "translation": ""
+      },
+      {
+        "expression": "big fish",
+        "pronunciation": "거물",
+        "meaning": "He's a **big fish** in the industry.",
+        "example": "그는 업계의 거물이야.",
+        "translation": ""
+      },
+      {
+        "expression": "smell fishy",
+        "pronunciation": "수상쩍다",
+        "meaning": "Something **smells fishy** here.",
+        "example": "뭔가 수상해.",
+        "translation": ""
+      },
+      {
+        "expression": "monkey business",
+        "pronunciation": "수상한 행동",
+        "meaning": "No **monkey business**!",
+        "example": "수상한 짓 하지 마!",
+        "translation": ""
+      },
+      {
+        "expression": "elephant in the room",
+        "pronunciation": "뻔히 알면서 모르는 척하는 것",
+        "meaning": "Let's address the **elephant in the room**.",
+        "example": "뻔한 문제를 얘기하자.",
+        "translation": ""
+      },
+      {
+        "expression": "horse around",
+        "pronunciation": "장난치다",
+        "meaning": "Stop **horsing around**!",
+        "example": "장난 그만 쳐!",
+        "translation": ""
+      },
+      {
+        "expression": "hold your horses",
+        "pronunciation": "진정해",
+        "meaning": "**Hold your horses**!",
+        "example": "진정해!",
+        "translation": ""
+      },
+      {
+        "expression": "dark horse",
+        "pronunciation": "의외의 인물",
+        "meaning": "She's a **dark horse** in this race.",
+        "example": "그녀는 이 경주의 다크호스야.",
+        "translation": ""
+      },
+      {
+        "expression": "dog-eat-dog",
+        "pronunciation": "치열한 경쟁",
+        "meaning": "It's a **dog-eat-dog** world out there.",
+        "example": "밖은 치열한 경쟁 세상이야.",
+        "translation": ""
+      },
+      {
+        "expression": "every dog has its day",
+        "pronunciation": "쥐구멍에도 볕 들 날 있다",
+        "meaning": "**Every dog has its day**.",
+        "example": "쥐구멍에도 볕 들 날 있어.",
+        "translation": ""
+      },
+      {
+        "expression": "let sleeping dogs lie",
+        "pronunciation": "긁어 부스럼 만들지 마",
+        "meaning": "Just **let sleeping dogs lie**.",
+        "example": "긁어 부스럼 만들지 마.",
+        "translation": ""
+      },
+      {
+        "expression": "have a cow",
+        "pronunciation": "화내다",
+        "meaning": "Don't **have a cow**!",
+        "example": "화내지 마!",
+        "translation": ""
+      },
+      {
+        "expression": "cash cow",
+        "pronunciation": "돈줄",
+        "meaning": "That product is our **cash cow**.",
+        "example": "그 제품이 우리 돈줄이야.",
+        "translation": ""
+      },
+      {
+        "expression": "until the cows come home",
+        "pronunciation": "아주 오랫동안",
+        "meaning": "We could wait **until the cows come home**.",
+        "example": "아주 오래 기다릴 수도 있어.",
+        "translation": ""
+      },
+      {
+        "expression": "sitting duck",
+        "pronunciation": "쉬운 표적",
+        "meaning": "He's a **sitting duck** for scammers.",
+        "example": "그는 사기꾼들의 쉬운 표적이야.",
+        "translation": ""
+      },
+      {
+        "expression": "ugly duckling",
+        "pronunciation": "미운 오리 새끼",
+        "meaning": "She was an **ugly duckling**.",
+        "example": "그녀는 미운 오리 새끼였어.",
+        "translation": ""
+      },
+      {
+        "expression": "out of the blue",
+        "pronunciation": "갑자기",
+        "meaning": "He called me **out of the blue**.",
+        "example": "그가 갑자기 전화했어.",
+        "translation": ""
+      },
+      {
+        "expression": "once in a blue moon",
+        "pronunciation": "아주 드물게",
+        "meaning": "We meet **once in a blue moon**.",
+        "example": "우리는 아주 가끔 만나.",
+        "translation": ""
+      },
+      {
+        "expression": "feel blue",
+        "pronunciation": "우울하다",
+        "meaning": "I'm **feeling blue** today.",
+        "example": "오늘 우울해.",
+        "translation": ""
+      },
+      {
+        "expression": "green with envy",
+        "pronunciation": "몹시 부러워하는",
+        "meaning": "She was **green with envy**.",
+        "example": "그녀는 몹시 부러워했어.",
+        "translation": ""
+      },
+      {
+        "expression": "have a green thumb",
+        "pronunciation": "원예에 소질이 있다",
+        "meaning": "My mom **has a green thumb**.",
+        "example": "우리 엄마는 원예에 소질이 있어.",
+        "translation": ""
+      },
+      {
+        "expression": "get the green light",
+        "pronunciation": "허가를 받다",
+        "meaning": "We **got the green light**.",
+        "example": "허가받았어.",
+        "translation": ""
+      },
+      {
+        "expression": "in the red",
+        "pronunciation": "적자인",
+        "meaning": "The company is **in the red**.",
+        "example": "회사가 적자야.",
+        "translation": ""
+      },
+      {
+        "expression": "see red",
+        "pronunciation": "몹시 화나다",
+        "meaning": "I **saw red** when I heard that.",
+        "example": "그 말 듣고 엄청 화났어.",
+        "translation": ""
+      },
+      {
+        "expression": "red tape",
+        "pronunciation": "관료주의적 형식",
+        "meaning": "There's too much **red tape**.",
+        "example": "절차가 너무 복잡해.",
+        "translation": ""
+      },
+      {
+        "expression": "catch someone red-handed",
+        "pronunciation": "현행범으로 잡다",
+        "meaning": "He was **caught red-handed**.",
+        "example": "그는 현행범으로 잡혔어.",
+        "translation": ""
+      },
+      {
+        "expression": "white lie",
+        "pronunciation": "선의의 거짓말",
+        "meaning": "I told a **white lie**.",
+        "example": "선의의 거짓말을 했어.",
+        "translation": ""
+      },
+      {
+        "expression": "black and white",
+        "pronunciation": "명백한",
+        "meaning": "It's not **black and white**.",
+        "example": "명확하지 않아.",
+        "translation": ""
+      },
+      {
+        "expression": "in black and white",
+        "pronunciation": "서면으로",
+        "meaning": "I want it **in black and white**.",
+        "example": "서면으로 원해.",
+        "translation": ""
+      },
+      {
+        "expression": "black out",
+        "pronunciation": "기절하다",
+        "meaning": "I **blacked out** for a moment.",
+        "example": "잠깐 기절했어.",
+        "translation": ""
+      },
+      {
+        "expression": "blacklist",
+        "pronunciation": "블랙리스트에 올리다",
+        "meaning": "They **blacklisted** him.",
+        "example": "그들은 그를 블랙리스트에 올렸어.",
+        "translation": ""
+      },
+      {
+        "expression": "gray area",
+        "pronunciation": "애매한 영역",
+        "meaning": "That's a **gray area**.",
+        "example": "그건 애매한 영역이야.",
+        "translation": ""
+      },
+      {
+        "expression": "golden opportunity",
+        "pronunciation": "좋은 기회",
+        "meaning": "This is a **golden opportunity**.",
+        "example": "이건 좋은 기회야.",
+        "translation": ""
+      },
+      {
+        "expression": "silver lining",
+        "pronunciation": "희망의 빛",
+        "meaning": "Every cloud has a **silver lining**.",
+        "example": "고생 끝에 낙이 온다.",
+        "translation": ""
+      },
+      {
+        "expression": "tickled pink",
+        "pronunciation": "매우 기뻐하다",
+        "meaning": "She was **tickled pink**.",
+        "example": "그녀는 매우 기뻐했어.",
+        "translation": ""
+      },
+      {
+        "expression": "piece of cake",
+        "pronunciation": "식은 죽 먹기",
+        "meaning": "The test was a **piece of cake**.",
+        "example": "시험은 식은 죽 먹기였어.",
+        "translation": ""
+      },
+      {
+        "expression": "have your cake and eat it too",
+        "pronunciation": "두 마리 토끼를 잡다",
+        "meaning": "You can't **have your cake and eat it too**.",
+        "example": "두 마리 토끼를 잡을 순 없어.",
+        "translation": ""
+      },
+      {
+        "expression": "icing on the cake",
+        "pronunciation": "금상첨화",
+        "meaning": "Getting a bonus was the **icing on the cake**.",
+        "example": "보너스 받은 건 금상첨화였어.",
+        "translation": ""
+      },
+      {
+        "expression": "sell like hot cakes",
+        "pronunciation": "불티나게 팔리다",
+        "meaning": "The new iPhone is **selling like hot cakes**.",
+        "example": "새 아이폰이 불티나게 팔려.",
+        "translation": ""
+      },
+      {
+        "expression": "bread and butter",
+        "pronunciation": "생계 수단",
+        "meaning": "Teaching is my **bread and butter**.",
+        "example": "가르치는 게 내 생계 수단이야.",
+        "translation": ""
+      },
+      {
+        "expression": "bring home the bacon",
+        "pronunciation": "생계를 책임지다",
+        "meaning": "He **brings home the bacon**.",
+        "example": "그가 생계를 책임져.",
+        "translation": ""
+      },
+      {
+        "expression": "spill the beans",
+        "pronunciation": "비밀을 누설하다",
+        "meaning": "Don't **spill the beans**!",
+        "example": "비밀 누설하지 마!",
+        "translation": ""
+      },
+      {
+        "expression": "full of beans",
+        "pronunciation": "활기찬",
+        "meaning": "The kids are **full of beans** today.",
+        "example": "아이들이 오늘 활기차네.",
+        "translation": ""
+      },
+      {
+        "expression": "cool as a cucumber",
+        "pronunciation": "침착한",
+        "meaning": "She stayed **cool as a cucumber**.",
+        "example": "그녀는 침착함을 유지했어.",
+        "translation": ""
+      },
+      {
+        "expression": "in a nutshell",
+        "pronunciation": "간단히 말해서",
+        "meaning": "**In a nutshell**, we failed.",
+        "example": "간단히 말해서, 실패했어.",
+        "translation": ""
+      },
+      {
+        "expression": "hard nut to crack",
+        "pronunciation": "까다로운 문제",
+        "meaning": "This is a **hard nut to crack**.",
+        "example": "이건 까다로운 문제야.",
+        "translation": ""
+      },
+      {
+        "expression": "apple of someone's eye",
+        "pronunciation": "눈에 넣어도 안 아플",
+        "meaning": "She's the **apple of his eye**.",
+        "example": "그녀는 그에게 눈에 넣어도 안 아플 존재야.",
+        "translation": ""
+      },
+      {
+        "expression": "compare apples and oranges",
+        "pronunciation": "비교할 수 없는 것을 비교하다",
+        "meaning": "You're **comparing apples and oranges**.",
+        "example": "비교 불가능한 걸 비교하고 있어.",
+        "translation": ""
+      },
+      {
+        "expression": "sour grapes",
+        "pronunciation": "신 포도 (자기 합리화)",
+        "meaning": "That's just **sour grapes**.",
+        "example": "그건 그냥 신 포도야.",
+        "translation": ""
+      },
+      {
+        "expression": "bite off more than you can chew",
+        "pronunciation": "무리하다",
+        "meaning": "I **bit off more than I could chew**.",
+        "example": "무리했어.",
+        "translation": ""
+      },
+      {
+        "expression": "egg on your face",
+        "pronunciation": "망신당하다",
+        "meaning": "He had **egg on his face**.",
+        "example": "그는 망신당했어.",
+        "translation": ""
+      },
+      {
+        "expression": "walk on eggshells",
+        "pronunciation": "조심스럽게 행동하다",
+        "meaning": "I'm **walking on eggshells** around him.",
+        "example": "그 앞에서 조심스럽게 행동해.",
+        "translation": ""
+      },
+      {
+        "expression": "cry over spilled milk",
+        "pronunciation": "엎질러진 물에 울다",
+        "meaning": "Don't **cry over spilled milk**.",
+        "example": "이미 지난 일에 우울해하지 마.",
+        "translation": ""
+      },
+      {
+        "expression": "butter someone up",
+        "pronunciation": "아부하다",
+        "meaning": "Stop trying to **butter me up**.",
+        "example": "아부 그만해.",
+        "translation": ""
+      },
+      {
+        "expression": "take with a grain of salt",
+        "pronunciation": "걸러 듣다",
+        "meaning": "**Take it with a grain of salt**.",
+        "example": "걸러 들어.",
+        "translation": ""
+      },
+      {
+        "expression": "worth your salt",
+        "pronunciation": "제 몫을 하는",
+        "meaning": "He's **worth his salt**.",
+        "example": "그는 제 몫을 해.",
+        "translation": ""
+      },
+      {
+        "expression": "food for thought",
+        "pronunciation": "생각할 거리",
+        "meaning": "That's **food for thought**.",
+        "example": "그건 생각할 거리야.",
+        "translation": ""
+      },
+      {
+        "expression": "have a lot on your plate",
+        "pronunciation": "할 일이 많다",
+        "meaning": "I **have a lot on my plate** right now.",
+        "example": "지금 할 일이 많아.",
+        "translation": ""
+      },
+      {
+        "expression": "time flies",
+        "pronunciation": "시간이 빨리 간다",
+        "meaning": "**Time flies** when you're having fun.",
+        "example": "재밌으면 시간이 빨리 가.",
+        "translation": ""
+      },
+      {
+        "expression": "kill time",
+        "pronunciation": "시간을 때우다",
+        "meaning": "I'm just **killing time**.",
+        "example": "그냥 시간 때우는 중이야.",
+        "translation": ""
+      },
+      {
+        "expression": "in no time",
+        "pronunciation": "금방",
+        "meaning": "I'll be there **in no time**.",
+        "example": "금방 갈게.",
+        "translation": ""
+      },
+      {
+        "expression": "from time to time",
+        "pronunciation": "가끔",
+        "meaning": "I see him **from time to time**.",
+        "example": "가끔 그를 봐.",
+        "translation": ""
+      },
+      {
+        "expression": "at the last minute",
+        "pronunciation": "마지막 순간에",
+        "meaning": "He arrived **at the last minute**.",
+        "example": "그는 마지막 순간에 도착했어.",
+        "translation": ""
+      },
+      {
+        "expression": "once in a while",
+        "pronunciation": "가끔",
+        "meaning": "**Once in a while**, I eat out.",
+        "example": "가끔 외식해.",
+        "translation": ""
+      },
+      {
+        "expression": "around the clock",
+        "pronunciation": "24시간 내내",
+        "meaning": "We worked **around the clock**.",
+        "example": "24시간 내내 일했어.",
+        "translation": ""
+      },
+      {
+        "expression": "against the clock",
+        "pronunciation": "시간에 쫓기며",
+        "meaning": "We're working **against the clock**.",
+        "example": "시간에 쫓기며 일하고 있어.",
+        "translation": ""
+      },
+      {
+        "expression": "on time",
+        "pronunciation": "제시간에",
+        "meaning": "Please arrive **on time**.",
+        "example": "제시간에 와줘.",
+        "translation": ""
+      },
+      {
+        "expression": "in time",
+        "pronunciation": "제때에",
+        "meaning": "I got there just **in time**.",
+        "example": "제때에 도착했어.",
+        "translation": ""
+      },
+      {
+        "expression": "money doesn't grow on trees",
+        "pronunciation": "돈은 저절로 생기지 않는다",
+        "meaning": "**Money doesn't grow on trees**.",
+        "example": "돈은 저절로 생기지 않아.",
+        "translation": ""
+      },
+      {
+        "expression": "a penny for your thoughts",
+        "pronunciation": "무슨 생각해?",
+        "meaning": "**A penny for your thoughts**?",
+        "example": "무슨 생각해?",
+        "translation": ""
+      },
+      {
+        "expression": "put your money where your mouth is",
+        "pronunciation": "말뿐이 아니라 행동으로 보여라",
+        "meaning": "**Put your money where your mouth is**.",
+        "example": "말만 하지 말고 행동으로 보여.",
+        "translation": ""
+      },
+      {
+        "expression": "money talks",
+        "pronunciation": "돈이 만능이다",
+        "meaning": "**Money talks** in this world.",
+        "example": "세상에서 돈이 만능이야.",
+        "translation": ""
+      },
+      {
+        "expression": "time is money",
+        "pronunciation": "시간이 돈이다",
+        "meaning": "**Time is money**.",
+        "example": "시간이 돈이야.",
+        "translation": ""
+      },
+      {
+        "expression": "hit the jackpot",
+        "pronunciation": "대박 치다",
+        "meaning": "We **hit the jackpot** with this investment.",
+        "example": "이 투자로 대박 쳤어.",
+        "translation": ""
+      },
+      {
+        "expression": "make ends meet",
+        "pronunciation": "생계를 유지하다",
+        "meaning": "It's hard to **make ends meet**.",
+        "example": "생계를 유지하기 어려워.",
+        "translation": ""
+      },
+      {
+        "expression": "break the bank",
+        "pronunciation": "거액을 쓰다",
+        "meaning": "It won't **break the bank**.",
+        "example": "그렇게 비싸지 않아.",
+        "translation": ""
+      },
+      {
+        "expression": "burn a hole in your pocket",
+        "pronunciation": "돈을 펑펑 쓰다",
+        "meaning": "Money **burns a hole in his pocket**.",
+        "example": "그는 돈을 펑펑 써.",
+        "translation": ""
+      },
+      {
+        "expression": "tighten your belt",
+        "pronunciation": "허리띠를 졸라매다",
+        "meaning": "We need to **tighten our belts**.",
+        "example": "허리띠를 졸라매야 해.",
+        "translation": ""
+      },
+      {
+        "expression": "under the weather",
+        "pronunciation": "몸이 안 좋다",
+        "meaning": "I'm feeling **under the weather**.",
+        "example": "몸이 좀 안 좋아.",
+        "translation": ""
+      },
+      {
+        "expression": "on cloud nine",
+        "pronunciation": "매우 행복한",
+        "meaning": "I'm **on cloud nine**!",
+        "example": "너무 행복해!",
+        "translation": ""
+      },
+      {
+        "expression": "hit the nail on the head",
+        "pronunciation": "정확히 맞히다",
+        "meaning": "You **hit the nail on the head**.",
+        "example": "정확히 맞췄어.",
+        "translation": ""
+      },
+      {
+        "expression": "beat around the bush",
+        "pronunciation": "빙빙 돌려 말하다",
+        "meaning": "Don't **beat around the bush**.",
+        "example": "빙빙 돌려 말하지 마.",
+        "translation": ""
+      },
+      {
+        "expression": "cut to the chase",
+        "pronunciation": "본론으로 들어가다",
+        "meaning": "Let's **cut to the chase**.",
+        "example": "본론으로 가자.",
+        "translation": ""
+      },
+      {
+        "expression": "get the ball rolling",
+        "pronunciation": "시작하다",
+        "meaning": "Let's **get the ball rolling**.",
+        "example": "시작하자.",
+        "translation": ""
+      },
+      {
+        "expression": "the ball is in your court",
+        "pronunciation": "네 차례야",
+        "meaning": "**The ball is in your court**.",
+        "example": "네 차례야.",
+        "translation": ""
+      },
+      {
+        "expression": "play hardball",
+        "pronunciation": "강경하게 나가다",
+        "meaning": "They're **playing hardball**.",
+        "example": "그들은 강경하게 나오고 있어.",
+        "translation": ""
+      },
+      {
+        "expression": "jump on the bandwagon",
+        "pronunciation": "대세에 편승하다",
+        "meaning": "Everyone **jumped on the bandwagon**.",
+        "example": "모두가 대세에 편승했어.",
+        "translation": ""
+      },
+      {
+        "expression": "miss the boat",
+        "pronunciation": "기회를 놓치다",
+        "meaning": "You **missed the boat**.",
+        "example": "기회를 놓쳤어.",
+        "translation": ""
+      },
+      {
+        "expression": "rock the boat",
+        "pronunciation": "파란을 일으키다",
+        "meaning": "Don't **rock the boat**.",
+        "example": "파란 일으키지 마.",
+        "translation": ""
+      },
+      {
+        "expression": "in the same boat",
+        "pronunciation": "같은 처지에",
+        "meaning": "We're all **in the same boat**.",
+        "example": "우리 모두 같은 처지야.",
+        "translation": ""
+      },
+      {
+        "expression": "burn bridges",
+        "pronunciation": "관계를 끊다",
+        "meaning": "Don't **burn bridges**.",
+        "example": "관계를 끊지 마.",
+        "translation": ""
+      },
+      {
+        "expression": "cross that bridge when you come to it",
+        "pronunciation": "그때 가서 생각하다",
+        "meaning": "We'll **cross that bridge when we come to it**.",
+        "example": "그때 가서 생각하자.",
+        "translation": ""
+      },
+      {
+        "expression": "water under the bridge",
+        "pronunciation": "지나간 일",
+        "meaning": "That's **water under the bridge**.",
+        "example": "지나간 일이야.",
+        "translation": ""
+      },
+      {
+        "expression": "back to square one",
+        "pronunciation": "원점으로",
+        "meaning": "We're **back to square one**.",
+        "example": "원점으로 돌아왔어.",
+        "translation": ""
+      },
+      {
+        "expression": "get back on track",
+        "pronunciation": "원래대로 돌아가다",
+        "meaning": "Let's **get back on track**.",
+        "example": "원래대로 돌아가자.",
+        "translation": ""
+      },
+      {
+        "expression": "off the beaten path",
+        "pronunciation": "평범하지 않은",
+        "meaning": "I like places **off the beaten path**.",
+        "example": "평범하지 않은 곳을 좋아해.",
+        "translation": ""
+      },
+      {
+        "expression": "at the end of the day",
+        "pronunciation": "결국에는",
+        "meaning": "**At the end of the day**, it's your choice.",
+        "example": "결국에는 네 선택이야.",
+        "translation": ""
+      },
+      {
+        "expression": "better late than never",
+        "pronunciation": "늦더라도 안 하는 것보다 낫다",
+        "meaning": "**Better late than never**.",
+        "example": "안 하는 것보단 늦어도 하는 게 나아.",
+        "translation": ""
+      },
+      {
+        "expression": "it's not rocket science",
+        "pronunciation": "어려운 일이 아니다",
+        "meaning": "**It's not rocket science**.",
+        "example": "어려운 일이 아니야.",
+        "translation": ""
+      },
+      {
+        "expression": "think outside the box",
+        "pronunciation": "창의적으로 생각하다",
+        "meaning": "We need to **think outside the box**.",
+        "example": "창의적으로 생각해야 해.",
+        "translation": ""
+      },
+      {
+        "expression": "the sky's the limit",
+        "pronunciation": "한계가 없다",
+        "meaning": "**The sky's the limit**!",
+        "example": "한계가 없어!",
+        "translation": ""
+      },
+      {
+        "expression": "weather the storm",
+        "pronunciation": "어려움을 극복하다",
+        "meaning": "We'll **weather the storm**.",
+        "example": "어려움을 극복할 거야.",
+        "translation": ""
+      },
+      {
+        "expression": "tip of the iceberg",
+        "pronunciation": "빙산의 일각",
+        "meaning": "This is just the **tip of the iceberg**.",
+        "example": "이건 빙산의 일각일 뿐이야.",
+        "translation": ""
+      },
+      {
+        "expression": "throw in the towel",
+        "pronunciation": "포기하다",
+        "meaning": "I'm not ready to **throw in the towel**.",
+        "example": "아직 포기할 준비가 안 됐어.",
+        "translation": ""
+      },
+      {
+        "expression": "read between the lines",
+        "pronunciation": "행간을 읽다",
+        "meaning": "You need to **read between the lines**.",
+        "example": "행간을 읽어야 해.",
+        "translation": ""
+      },
+      {
+        "expression": "turn over a new leaf",
+        "pronunciation": "새 출발하다",
+        "meaning": "I want to **turn over a new leaf**.",
+        "example": "새 출발하고 싶어.",
+        "translation": ""
+      },
+      {
+        "expression": "go with the flow",
+        "pronunciation": "흐름에 맡기다",
+        "meaning": "Just **go with the flow**.",
+        "example": "그냥 흐름에 맡겨.",
+        "translation": ""
+      },
+      {
+        "expression": "rule of thumb",
+        "pronunciation": "대략적인 기준",
+        "meaning": "As a **rule of thumb**, arrive 10 minutes early.",
+        "example": "대략적인 기준으로, 10분 일찍 도착해.",
+        "translation": ""
+      }
+    ]
+  },
+  {
+    "nameKo": "비즈니스/업무 표현",
+    "nameEn": "Business Expressions",
+    "expressions": [
+      {
+        "expression": "Let's get started.",
+        "pronunciation": "시작하죠.",
+        "meaning": "**Let's get started** with the meeting.",
+        "example": "회의 시작하죠.",
+        "translation": ""
+      },
+      {
+        "expression": "Let's get down to business.",
+        "pronunciation": "본론으로 들어가죠.",
+        "meaning": "**Let's get down to business**.",
+        "example": "본론으로 들어가죠.",
+        "translation": ""
+      },
+      {
+        "expression": "Let me bring you up to speed.",
+        "pronunciation": "진행 상황을 말씀드릴게요.",
+        "meaning": "**Let me bring you up to speed**.",
+        "example": "진행 상황을 말씀드릴게요.",
+        "translation": ""
+      },
+      {
+        "expression": "I'd like to add something.",
+        "pronunciation": "추가하고 싶은 게 있어요.",
+        "meaning": "**I'd like to add something**.",
+        "example": "추가하고 싶은 게 있어요.",
+        "translation": ""
+      },
+      {
+        "expression": "If I may interrupt...",
+        "pronunciation": "끼어들어도 될까요...",
+        "meaning": "**If I may interrupt**...",
+        "example": "끼어들어도 될까요...",
+        "translation": ""
+      },
+      {
+        "expression": "Could you elaborate on that?",
+        "pronunciation": "그것에 대해 자세히 설명해 주시겠어요?",
+        "meaning": "**Could you elaborate on that**?",
+        "example": "그것에 대해 자세히 설명해 주시겠어요?",
+        "translation": ""
+      },
+      {
+        "expression": "Let me clarify.",
+        "pronunciation": "명확히 하겠습니다.",
+        "meaning": "**Let me clarify** this point.",
+        "example": "이 부분 명확히 하겠습니다.",
+        "translation": ""
+      },
+      {
+        "expression": "To sum up...",
+        "pronunciation": "요약하면...",
+        "meaning": "**To sum up**, we need more time.",
+        "example": "요약하면, 시간이 더 필요해요.",
+        "translation": ""
+      },
+      {
+        "expression": "Any questions?",
+        "pronunciation": "질문 있으세요?",
+        "meaning": "**Any questions**?",
+        "example": "질문 있으세요?",
+        "translation": ""
+      },
+      {
+        "expression": "Let's wrap up.",
+        "pronunciation": "마무리하죠.",
+        "meaning": "**Let's wrap up** for today.",
+        "example": "오늘은 여기서 마무리하죠.",
+        "translation": ""
+      },
+      {
+        "expression": "Let's table this for now.",
+        "pronunciation": "이건 나중에 논의하죠.",
+        "meaning": "**Let's table this for now**.",
+        "example": "이건 나중에 논의하죠.",
+        "translation": ""
+      },
+      {
+        "expression": "We're running out of time.",
+        "pronunciation": "시간이 없어요.",
+        "meaning": "**We're running out of time**.",
+        "example": "시간이 없어요.",
+        "translation": ""
+      },
+      {
+        "expression": "Let's move on to the next item.",
+        "pronunciation": "다음 안건으로 넘어가죠.",
+        "meaning": "**Let's move on to the next item**.",
+        "example": "다음 안건으로 넘어가죠.",
+        "translation": ""
+      },
+      {
+        "expression": "I'll get back to you on that.",
+        "pronunciation": "그건 나중에 답변드릴게요.",
+        "meaning": "**I'll get back to you on that**.",
+        "example": "그건 나중에 답변드릴게요.",
+        "translation": ""
+      },
+      {
+        "expression": "Let's take a vote.",
+        "pronunciation": "투표하죠.",
+        "meaning": "**Let's take a vote**.",
+        "example": "투표하죠.",
+        "translation": ""
+      },
+      {
+        "expression": "I'm writing to inquire about...",
+        "pronunciation": "~에 대해 문의드리려고 합니다.",
+        "meaning": "**I'm writing to inquire about** the position.",
+        "example": "그 직책에 대해 문의드리려고 합니다.",
+        "translation": ""
+      },
+      {
+        "expression": "Please find attached...",
+        "pronunciation": "첨부파일을 확인해 주세요.",
+        "meaning": "**Please find attached** the report.",
+        "example": "첨부된 보고서를 확인해 주세요.",
+        "translation": ""
+      },
+      {
+        "expression": "I'm following up on...",
+        "pronunciation": "~에 대해 후속 연락드립니다.",
+        "meaning": "**I'm following up on** our last meeting.",
+        "example": "지난 회의에 대해 후속 연락드립니다.",
+        "translation": ""
+      },
+      {
+        "expression": "Please let me know if you have any questions.",
+        "pronunciation": "질문이 있으시면 알려주세요.",
+        "meaning": "**Please let me know if you have any questions**.",
+        "example": "질문이 있으시면 알려주세요.",
+        "translation": ""
+      },
+      {
+        "expression": "I look forward to hearing from you.",
+        "pronunciation": "회신 기다리겠습니다.",
+        "meaning": "**I look forward to hearing from you**.",
+        "example": "회신 기다리겠습니다.",
+        "translation": ""
+      },
+      {
+        "expression": "Thank you for your prompt reply.",
+        "pronunciation": "빠른 답변 감사합니다.",
+        "meaning": "**Thank you for your prompt reply**.",
+        "example": "빠른 답변 감사합니다.",
+        "translation": ""
+      },
+      {
+        "expression": "I apologize for the delayed response.",
+        "pronunciation": "늦은 답변 죄송합니다.",
+        "meaning": "**I apologize for the delayed response**.",
+        "example": "늦은 답변 죄송합니다.",
+        "translation": ""
+      },
+      {
+        "expression": "As per our conversation...",
+        "pronunciation": "대화한 대로...",
+        "meaning": "**As per our conversation**, I'm sending the files.",
+        "example": "대화한 대로 파일 보냅니다.",
+        "translation": ""
+      },
+      {
+        "expression": "Please advise.",
+        "pronunciation": "조언 부탁드립니다.",
+        "meaning": "**Please advise** on how to proceed.",
+        "example": "진행 방법에 대해 조언 부탁드립니다.",
+        "translation": ""
+      },
+      {
+        "expression": "FYI (For your information)",
+        "pronunciation": "참고로",
+        "meaning": "**FYI**, the deadline is Friday.",
+        "example": "참고로, 마감은 금요일이에요.",
+        "translation": ""
+      },
+      {
+        "expression": "ASAP (As soon as possible)",
+        "pronunciation": "가능한 빨리",
+        "meaning": "Please send it **ASAP**.",
+        "example": "가능한 빨리 보내주세요.",
+        "translation": ""
+      },
+      {
+        "expression": "Regards / Best regards",
+        "pronunciation": "감사합니다 (이메일 끝)",
+        "meaning": "**Best regards**, John.",
+        "example": "감사합니다, 존.",
+        "translation": ""
+      },
+      {
+        "expression": "We're on track.",
+        "pronunciation": "일정대로 진행 중이에요.",
+        "meaning": "**We're on track** for the deadline.",
+        "example": "마감에 맞춰 진행 중이에요.",
+        "translation": ""
+      },
+      {
+        "expression": "We're behind schedule.",
+        "pronunciation": "일정보다 늦어요.",
+        "meaning": "**We're behind schedule** by a week.",
+        "example": "일주일 정도 일정보다 늦어요.",
+        "translation": ""
+      },
+      {
+        "expression": "We're ahead of schedule.",
+        "pronunciation": "일정보다 빨라요.",
+        "meaning": "**We're ahead of schedule**.",
+        "example": "일정보다 빨라요.",
+        "translation": ""
+      },
+      {
+        "expression": "Meet the deadline",
+        "pronunciation": "마감을 맞추다",
+        "meaning": "We need to **meet the deadline**.",
+        "example": "마감을 맞춰야 해요.",
+        "translation": ""
+      },
+      {
+        "expression": "Push back the deadline",
+        "pronunciation": "마감을 연기하다",
+        "meaning": "Can we **push back the deadline**?",
+        "example": "마감 연기할 수 있을까요?",
+        "translation": ""
+      },
+      {
+        "expression": "Touch base",
+        "pronunciation": "연락하다",
+        "meaning": "Let's **touch base** next week.",
+        "example": "다음 주에 연락하죠.",
+        "translation": ""
+      },
+      {
+        "expression": "Keep me posted.",
+        "pronunciation": "계속 알려줘요.",
+        "meaning": "**Keep me posted** on the progress.",
+        "example": "진행 상황 계속 알려줘요.",
+        "translation": ""
+      },
+      {
+        "expression": "Keep me in the loop.",
+        "pronunciation": "진행 상황 알려줘요.",
+        "meaning": "**Keep me in the loop**.",
+        "example": "진행 상황 알려줘요.",
+        "translation": ""
+      },
+      {
+        "expression": "I'm swamped.",
+        "pronunciation": "일에 파묻혔어요.",
+        "meaning": "**I'm swamped** with work.",
+        "example": "일에 파묻혔어요.",
+        "translation": ""
+      },
+      {
+        "expression": "I have a lot on my plate.",
+        "pronunciation": "할 일이 많아요.",
+        "meaning": "**I have a lot on my plate** right now.",
+        "example": "지금 할 일이 많아요.",
+        "translation": ""
+      },
+      {
+        "expression": "Back to the drawing board",
+        "pronunciation": "처음부터 다시",
+        "meaning": "**Back to the drawing board**.",
+        "example": "처음부터 다시 해야겠어요.",
+        "translation": ""
+      },
+      {
+        "expression": "Think outside the box",
+        "pronunciation": "창의적으로 생각하다",
+        "meaning": "We need to **think outside the box**.",
+        "example": "창의적으로 생각해야 해요.",
+        "translation": ""
+      },
+      {
+        "expression": "Get the ball rolling",
+        "pronunciation": "시작하다",
+        "meaning": "Let's **get the ball rolling**.",
+        "example": "시작하죠.",
+        "translation": ""
+      },
+      {
+        "expression": "Cut corners",
+        "pronunciation": "대충 하다",
+        "meaning": "Don't **cut corners** on this project.",
+        "example": "이 프로젝트 대충 하지 마세요.",
+        "translation": ""
+      },
+      {
+        "expression": "Pull your weight",
+        "pronunciation": "제 몫을 하다",
+        "meaning": "Everyone needs to **pull their weight**.",
+        "example": "모두가 제 몫을 해야 해요.",
+        "translation": ""
+      },
+      {
+        "expression": "Go the extra mile",
+        "pronunciation": "더 노력하다",
+        "meaning": "She always **goes the extra mile**.",
+        "example": "그녀는 항상 더 노력해요.",
+        "translation": ""
+      },
+      {
+        "expression": "Take the lead",
+        "pronunciation": "주도하다",
+        "meaning": "Who will **take the lead**?",
+        "example": "누가 주도할 거예요?",
+        "translation": ""
+      },
+      {
+        "expression": "Take ownership",
+        "pronunciation": "책임지다",
+        "meaning": "You need to **take ownership** of this.",
+        "example": "이것에 대해 책임지세요.",
+        "translation": ""
+      },
+      {
+        "expression": "Hands-on experience",
+        "pronunciation": "실무 경험",
+        "meaning": "I have **hands-on experience**.",
+        "example": "실무 경험이 있어요.",
+        "translation": ""
+      },
+      {
+        "expression": "Learning curve",
+        "pronunciation": "배우는 과정",
+        "meaning": "There's a steep **learning curve**.",
+        "example": "배우는 과정이 가파라요.",
+        "translation": ""
+      },
+      {
+        "expression": "Let's meet halfway.",
+        "pronunciation": "서로 양보하죠.",
+        "meaning": "**Let's meet halfway**.",
+        "example": "서로 양보하죠.",
+        "translation": ""
+      },
+      {
+        "expression": "That's a deal.",
+        "pronunciation": "그렇게 하죠.",
+        "meaning": "**That's a deal**.",
+        "example": "그렇게 하죠.",
+        "translation": ""
+      },
+      {
+        "expression": "We have a deal.",
+        "pronunciation": "합의했어요.",
+        "meaning": "**We have a deal**.",
+        "example": "합의했어요.",
+        "translation": ""
+      },
+      {
+        "expression": "No deal.",
+        "pronunciation": "거래 없어요.",
+        "meaning": "**No deal**.",
+        "example": "안 돼요.",
+        "translation": ""
+      },
+      {
+        "expression": "Win-win situation",
+        "pronunciation": "윈윈 상황",
+        "meaning": "This is a **win-win situation**.",
+        "example": "이건 윈윈 상황이에요.",
+        "translation": ""
+      },
+      {
+        "expression": "Bottom line",
+        "pronunciation": "최종 결론",
+        "meaning": "What's the **bottom line**?",
+        "example": "최종 결론이 뭐예요?",
+        "translation": ""
+      },
+      {
+        "expression": "Ball park figure",
+        "pronunciation": "대략적인 수치",
+        "meaning": "Give me a **ball park figure**.",
+        "example": "대략적인 수치를 알려주세요.",
+        "translation": ""
+      },
+      {
+        "expression": "Give and take",
+        "pronunciation": "주고받기",
+        "meaning": "It's all about **give and take**.",
+        "example": "주고받는 거예요.",
+        "translation": ""
+      },
+      {
+        "expression": "Hard sell",
+        "pronunciation": "강력한 판매 전략",
+        "meaning": "That was a **hard sell**.",
+        "example": "강력한 판매 전략이었어요.",
+        "translation": ""
+      },
+      {
+        "expression": "Soft sell",
+        "pronunciation": "부드러운 판매 전략",
+        "meaning": "I prefer a **soft sell** approach.",
+        "example": "부드러운 판매 전략을 선호해요.",
+        "translation": ""
+      },
+      {
+        "expression": "Fine print",
+        "pronunciation": "세부 조건",
+        "meaning": "Read the **fine print**.",
+        "example": "세부 조건을 읽으세요.",
+        "translation": ""
+      },
+      {
+        "expression": "Read between the lines",
+        "pronunciation": "숨은 뜻을 파악하다",
+        "meaning": "You need to **read between the lines**.",
+        "example": "숨은 뜻을 파악해야 해요.",
+        "translation": ""
+      },
+      {
+        "expression": "Close a deal",
+        "pronunciation": "계약을 체결하다",
+        "meaning": "We **closed the deal**.",
+        "example": "계약을 체결했어요.",
+        "translation": ""
+      },
+      {
+        "expression": "Seal the deal",
+        "pronunciation": "계약을 확정하다",
+        "meaning": "Let's **seal the deal**.",
+        "example": "계약을 확정하죠.",
+        "translation": ""
+      },
+      {
+        "expression": "Strike a deal",
+        "pronunciation": "거래를 성사시키다",
+        "meaning": "They **struck a deal**.",
+        "example": "그들은 거래를 성사시켰어요.",
+        "translation": ""
+      },
+      {
+        "expression": "Climb the corporate ladder",
+        "pronunciation": "승진하다",
+        "meaning": "She's **climbing the corporate ladder**.",
+        "example": "그녀는 승진 중이에요.",
+        "translation": ""
+      },
+      {
+        "expression": "Get promoted",
+        "pronunciation": "승진하다",
+        "meaning": "He **got promoted** last month.",
+        "example": "그는 지난달 승진했어요.",
+        "translation": ""
+      },
+      {
+        "expression": "Get a raise",
+        "pronunciation": "임금 인상 받다",
+        "meaning": "I **got a raise**!",
+        "example": "임금 인상 받았어요!",
+        "translation": ""
+      },
+      {
+        "expression": "Work overtime",
+        "pronunciation": "야근하다",
+        "meaning": "I have to **work overtime**.",
+        "example": "야근해야 해요.",
+        "translation": ""
+      },
+      {
+        "expression": "Work from home",
+        "pronunciation": "재택근무하다",
+        "meaning": "I **work from home** on Fridays.",
+        "example": "금요일에 재택근무해요.",
+        "translation": ""
+      },
+      {
+        "expression": "Take a day off",
+        "pronunciation": "휴가 내다",
+        "meaning": "I need to **take a day off**.",
+        "example": "휴가 내야 해요.",
+        "translation": ""
+      },
+      {
+        "expression": "Call in sick",
+        "pronunciation": "병가 내다",
+        "meaning": "I **called in sick** today.",
+        "example": "오늘 병가 냈어요.",
+        "translation": ""
+      },
+      {
+        "expression": "Hand in your resignation",
+        "pronunciation": "사직서를 제출하다",
+        "meaning": "He **handed in his resignation**.",
+        "example": "그는 사직서를 제출했어요.",
+        "translation": ""
+      },
+      {
+        "expression": "Pink slip",
+        "pronunciation": "해고 통지서",
+        "meaning": "He got a **pink slip**.",
+        "example": "그는 해고 통지서를 받았어요.",
+        "translation": ""
+      },
+      {
+        "expression": "Golden parachute",
+        "pronunciation": "고위 임원 퇴직금",
+        "meaning": "She got a **golden parachute**.",
+        "example": "그녀는 고액 퇴직금을 받았어요.",
+        "translation": ""
+      },
+      {
+        "expression": "Glass ceiling",
+        "pronunciation": "보이지 않는 장벽",
+        "meaning": "She broke through the **glass ceiling**.",
+        "example": "그녀는 보이지 않는 장벽을 깼어요.",
+        "translation": ""
+      },
+      {
+        "expression": "Think tank",
+        "pronunciation": "싱크탱크",
+        "meaning": "He works at a **think tank**.",
+        "example": "그는 싱크탱크에서 일해요.",
+        "translation": ""
+      },
+      {
+        "expression": "Team player",
+        "pronunciation": "팀 플레이어",
+        "meaning": "She's a great **team player**.",
+        "example": "그녀는 훌륭한 팀 플레이어예요.",
+        "translation": ""
+      },
+      {
+        "expression": "Brown-noser",
+        "pronunciation": "아부꾼",
+        "meaning": "He's such a **brown-noser**.",
+        "example": "그는 아부꾼이에요.",
+        "translation": ""
+      },
+      {
+        "expression": "Workaholic",
+        "pronunciation": "일 중독자",
+        "meaning": "He's a total **workaholic**.",
+        "example": "그는 완전 일 중독자예요.",
+        "translation": ""
+      }
+    ]
+  },
+  {
+    "nameKo": "일상 구어체 표현",
+    "nameEn": "Colloquial Expressions",
+    "expressions": [
+      {
+        "expression": "That's awesome!",
+        "pronunciation": "대단해!",
+        "meaning": "**That's awesome**!",
+        "example": "대단해!",
+        "translation": ""
+      },
+      {
+        "expression": "That's amazing!",
+        "pronunciation": "놀라워!",
+        "meaning": "**That's amazing**!",
+        "example": "놀라워!",
+        "translation": ""
+      },
+      {
+        "expression": "That's incredible!",
+        "pronunciation": "믿을 수 없어!",
+        "meaning": "**That's incredible**!",
+        "example": "믿을 수 없어!",
+        "translation": ""
+      },
+      {
+        "expression": "That's fantastic!",
+        "pronunciation": "환상적이야!",
+        "meaning": "**That's fantastic**!",
+        "example": "환상적이야!",
+        "translation": ""
+      },
+      {
+        "expression": "That's wonderful!",
+        "pronunciation": "멋져!",
+        "meaning": "**That's wonderful**!",
+        "example": "멋져!",
+        "translation": ""
+      },
+      {
+        "expression": "Cool!",
+        "pronunciation": "좋아!",
+        "meaning": "**Cool**! Let's do it.",
+        "example": "좋아! 하자.",
+        "translation": ""
+      },
+      {
+        "expression": "Nice!",
+        "pronunciation": "좋아!",
+        "meaning": "**Nice**!",
+        "example": "좋아!",
+        "translation": ""
+      },
+      {
+        "expression": "Sweet!",
+        "pronunciation": "좋아!",
+        "meaning": "**Sweet**!",
+        "example": "좋아!",
+        "translation": ""
+      },
+      {
+        "expression": "Great job!",
+        "pronunciation": "잘했어!",
+        "meaning": "**Great job**!",
+        "example": "잘했어!",
+        "translation": ""
+      },
+      {
+        "expression": "Way to go!",
+        "pronunciation": "잘했어!",
+        "meaning": "**Way to go**!",
+        "example": "잘했어!",
+        "translation": ""
+      },
+      {
+        "expression": "Good for you!",
+        "pronunciation": "잘됐네!",
+        "meaning": "**Good for you**!",
+        "example": "잘됐네!",
+        "translation": ""
+      },
+      {
+        "expression": "I'm so proud of you!",
+        "pronunciation": "네가 자랑스러워!",
+        "meaning": "**I'm so proud of you**!",
+        "example": "네가 자랑스러워!",
+        "translation": ""
+      },
+      {
+        "expression": "You nailed it!",
+        "pronunciation": "완벽해!",
+        "meaning": "**You nailed it**!",
+        "example": "완벽해!",
+        "translation": ""
+      },
+      {
+        "expression": "You killed it!",
+        "pronunciation": "대박이야!",
+        "meaning": "**You killed it**!",
+        "example": "대박이야!",
+        "translation": ""
+      },
+      {
+        "expression": "You rock!",
+        "pronunciation": "최고야!",
+        "meaning": "**You rock**!",
+        "example": "최고야!",
+        "translation": ""
+      },
+      {
+        "expression": "That sucks.",
+        "pronunciation": "최악이야.",
+        "meaning": "**That sucks**.",
+        "example": "최악이야.",
+        "translation": ""
+      },
+      {
+        "expression": "That's terrible.",
+        "pronunciation": "끔찍해.",
+        "meaning": "**That's terrible**.",
+        "example": "끔찍해.",
+        "translation": ""
+      },
+      {
+        "expression": "That's awful.",
+        "pronunciation": "최악이야.",
+        "meaning": "**That's awful**.",
+        "example": "최악이야.",
+        "translation": ""
+      },
+      {
+        "expression": "Bummer.",
+        "pronunciation": "안됐네.",
+        "meaning": "**Bummer**.",
+        "example": "안됐네.",
+        "translation": ""
+      },
+      {
+        "expression": "What a bummer.",
+        "pronunciation": "정말 안됐다.",
+        "meaning": "**What a bummer**.",
+        "example": "정말 안됐다.",
+        "translation": ""
+      },
+      {
+        "expression": "That's too bad.",
+        "pronunciation": "안됐네.",
+        "meaning": "**That's too bad**.",
+        "example": "안됐네.",
+        "translation": ""
+      },
+      {
+        "expression": "What a shame.",
+        "pronunciation": "안타깝다.",
+        "meaning": "**What a shame**.",
+        "example": "안타깝다.",
+        "translation": ""
+      },
+      {
+        "expression": "That's unfortunate.",
+        "pronunciation": "불행하네.",
+        "meaning": "**That's unfortunate**.",
+        "example": "불행하네.",
+        "translation": ""
+      },
+      {
+        "expression": "Ugh.",
+        "pronunciation": "으으.",
+        "meaning": "**Ugh**.",
+        "example": "으으.",
+        "translation": ""
+      },
+      {
+        "expression": "Yikes.",
+        "pronunciation": "이런.",
+        "meaning": "**Yikes**.",
+        "example": "이런.",
+        "translation": ""
+      },
+      {
+        "expression": "Geez.",
+        "pronunciation": "젠장.",
+        "meaning": "**Geez**.",
+        "example": "젠장.",
+        "translation": ""
+      },
+      {
+        "expression": "Dang.",
+        "pronunciation": "젠장.",
+        "meaning": "**Dang** it.",
+        "example": "젠장.",
+        "translation": ""
+      },
+      {
+        "expression": "No way!",
+        "pronunciation": "말도 안 돼!",
+        "meaning": "**No way**!",
+        "example": "말도 안 돼!",
+        "translation": ""
+      },
+      {
+        "expression": "You've got to be kidding me!",
+        "pronunciation": "농담이지!",
+        "meaning": "**You've got to be kidding me**!",
+        "example": "농담이지!",
+        "translation": ""
+      },
+      {
+        "expression": "Give me a break!",
+        "pronunciation": "좀 봐줘!",
+        "meaning": "**Give me a break**!",
+        "example": "좀 봐줘!",
+        "translation": ""
+      },
+      {
+        "expression": "Sure!",
+        "pronunciation": "물론!",
+        "meaning": "**Sure**!",
+        "example": "물론!",
+        "translation": ""
+      },
+      {
+        "expression": "Of course!",
+        "pronunciation": "당연하지!",
+        "meaning": "**Of course**!",
+        "example": "당연하지!",
+        "translation": ""
+      },
+      {
+        "expression": "Absolutely!",
+        "pronunciation": "물론이죠!",
+        "meaning": "**Absolutely**!",
+        "example": "물론이죠!",
+        "translation": ""
+      },
+      {
+        "expression": "Definitely!",
+        "pronunciation": "확실히!",
+        "meaning": "**Definitely**!",
+        "example": "확실히!",
+        "translation": ""
+      },
+      {
+        "expression": "For sure!",
+        "pronunciation": "물론!",
+        "meaning": "**For sure**!",
+        "example": "물론!",
+        "translation": ""
+      },
+      {
+        "expression": "You bet!",
+        "pronunciation": "당연하지!",
+        "meaning": "**You bet**!",
+        "example": "당연하지!",
+        "translation": ""
+      },
+      {
+        "expression": "No doubt!",
+        "pronunciation": "확실해!",
+        "meaning": "**No doubt**!",
+        "example": "확실해!",
+        "translation": ""
+      },
+      {
+        "expression": "That's for sure.",
+        "pronunciation": "확실해.",
+        "meaning": "**That's for sure**.",
+        "example": "확실해.",
+        "translation": ""
+      },
+      {
+        "expression": "I hear you.",
+        "pronunciation": "무슨 말인지 알아.",
+        "meaning": "**I hear you**.",
+        "example": "무슨 말인지 알아.",
+        "translation": ""
+      },
+      {
+        "expression": "I feel you.",
+        "pronunciation": "공감해.",
+        "meaning": "**I feel you**.",
+        "example": "공감해.",
+        "translation": ""
+      },
+      {
+        "expression": "Same here.",
+        "pronunciation": "나도 그래.",
+        "meaning": "**Same here**.",
+        "example": "나도 그래.",
+        "translation": ""
+      },
+      {
+        "expression": "Me too.",
+        "pronunciation": "나도.",
+        "meaning": "**Me too**.",
+        "example": "나도.",
+        "translation": ""
+      },
+      {
+        "expression": "Tell me about it.",
+        "pronunciation": "그러게 말이야.",
+        "meaning": "**Tell me about it**.",
+        "example": "그러게 말이야.",
+        "translation": ""
+      },
+      {
+        "expression": "You can say that again.",
+        "pronunciation": "정말 그래.",
+        "meaning": "**You can say that again**.",
+        "example": "정말 그래.",
+        "translation": ""
+      },
+      {
+        "expression": "I know, right?",
+        "pronunciation": "그치?",
+        "meaning": "**I know, right**?",
+        "example": "그치?",
+        "translation": ""
+      },
+      {
+        "expression": "I have no idea.",
+        "pronunciation": "모르겠어.",
+        "meaning": "**I have no idea**.",
+        "example": "모르겠어.",
+        "translation": ""
+      },
+      {
+        "expression": "I don't know.",
+        "pronunciation": "몰라.",
+        "meaning": "**I don't know**.",
+        "example": "몰라.",
+        "translation": ""
+      },
+      {
+        "expression": "No clue.",
+        "pronunciation": "전혀 모르겠어.",
+        "meaning": "**No clue**.",
+        "example": "전혀 모르겠어.",
+        "translation": ""
+      },
+      {
+        "expression": "Beats me.",
+        "pronunciation": "모르겠어.",
+        "meaning": "**Beats me**.",
+        "example": "모르겠어.",
+        "translation": ""
+      },
+      {
+        "expression": "Who knows?",
+        "pronunciation": "누가 알아?",
+        "meaning": "**Who knows**?",
+        "example": "누가 알아?",
+        "translation": ""
+      },
+      {
+        "expression": "Your guess is as good as mine.",
+        "pronunciation": "나도 모르겠어.",
+        "meaning": "**Your guess is as good as mine**.",
+        "example": "나도 모르겠어.",
+        "translation": ""
+      },
+      {
+        "expression": "It depends.",
+        "pronunciation": "상황에 따라 다르지.",
+        "meaning": "**It depends**.",
+        "example": "상황에 따라 다르지.",
+        "translation": ""
+      },
+      {
+        "expression": "Hard to say.",
+        "pronunciation": "말하기 어렵네.",
+        "meaning": "**Hard to say**.",
+        "example": "말하기 어렵네.",
+        "translation": ""
+      },
+      {
+        "expression": "Maybe.",
+        "pronunciation": "아마도.",
+        "meaning": "**Maybe**.",
+        "example": "아마도.",
+        "translation": ""
+      },
+      {
+        "expression": "I'm not sure.",
+        "pronunciation": "확실하지 않아.",
+        "meaning": "**I'm not sure**.",
+        "example": "확실하지 않아.",
+        "translation": ""
+      },
+      {
+        "expression": "I doubt it.",
+        "pronunciation": "의심스러워.",
+        "meaning": "**I doubt it**.",
+        "example": "의심스러워.",
+        "translation": ""
+      },
+      {
+        "expression": "Wow!",
+        "pronunciation": "와!",
+        "meaning": "**Wow**!",
+        "example": "와!",
+        "translation": ""
+      },
+      {
+        "expression": "Oh my god!",
+        "pronunciation": "세상에!",
+        "meaning": "**Oh my god**!",
+        "example": "세상에!",
+        "translation": ""
+      },
+      {
+        "expression": "Oh my gosh!",
+        "pronunciation": "세상에!",
+        "meaning": "**Oh my gosh**!",
+        "example": "세상에!",
+        "translation": ""
+      },
+      {
+        "expression": "Oh no!",
+        "pronunciation": "오 안돼!",
+        "meaning": "**Oh no**!",
+        "example": "오 안돼!",
+        "translation": ""
+      },
+      {
+        "expression": "Really?",
+        "pronunciation": "정말?",
+        "meaning": "**Really**?",
+        "example": "정말?",
+        "translation": ""
+      },
+      {
+        "expression": "Seriously?",
+        "pronunciation": "진짜?",
+        "meaning": "**Seriously**?",
+        "example": "진짜?",
+        "translation": ""
+      },
+      {
+        "expression": "Are you serious?",
+        "pronunciation": "진심이야?",
+        "meaning": "**Are you serious**?",
+        "example": "진심이야?",
+        "translation": ""
+      },
+      {
+        "expression": "You're kidding!",
+        "pronunciation": "농담이지!",
+        "meaning": "**You're kidding**!",
+        "example": "농담이지!",
+        "translation": ""
+      },
+      {
+        "expression": "No kidding!",
+        "pronunciation": "진짜야!",
+        "meaning": "**No kidding**!",
+        "example": "진짜야!",
+        "translation": ""
+      },
+      {
+        "expression": "Unbelievable!",
+        "pronunciation": "믿을 수 없어!",
+        "meaning": "**Unbelievable**!",
+        "example": "믿을 수 없어!",
+        "translation": ""
+      },
+      {
+        "expression": "I can't believe it!",
+        "pronunciation": "믿을 수가 없어!",
+        "meaning": "**I can't believe it**!",
+        "example": "믿을 수가 없어!",
+        "translation": ""
+      },
+      {
+        "expression": "What?!",
+        "pronunciation": "뭐?!",
+        "meaning": "**What**?!",
+        "example": "뭐?!",
+        "translation": ""
+      },
+      {
+        "expression": "What the heck?",
+        "pronunciation": "이게 뭐야?",
+        "meaning": "**What the heck**?",
+        "example": "이게 뭐야?",
+        "translation": ""
+      },
+      {
+        "expression": "Get out of here!",
+        "pronunciation": "말도 안 돼!",
+        "meaning": "**Get out of here**!",
+        "example": "말도 안 돼!",
+        "translation": ""
+      },
+      {
+        "expression": "Shut up!",
+        "pronunciation": "거짓말! (놀랄 때)",
+        "meaning": "**Shut up**! Really?",
+        "example": "거짓말! 진짜?",
+        "translation": ""
+      },
+      {
+        "expression": "What's going on?",
+        "pronunciation": "무슨 일이야?",
+        "meaning": "**What's going on**?",
+        "example": "무슨 일이야?",
+        "translation": ""
+      },
+      {
+        "expression": "What happened?",
+        "pronunciation": "무슨 일이야?",
+        "meaning": "**What happened**?",
+        "example": "무슨 일이야?",
+        "translation": ""
+      },
+      {
+        "expression": "What's the matter?",
+        "pronunciation": "무슨 일이야?",
+        "meaning": "**What's the matter**?",
+        "example": "무슨 일이야?",
+        "translation": ""
+      },
+      {
+        "expression": "What's wrong?",
+        "pronunciation": "뭐가 잘못됐어?",
+        "meaning": "**What's wrong**?",
+        "example": "뭐가 잘못됐어?",
+        "translation": ""
+      },
+      {
+        "expression": "What do you mean?",
+        "pronunciation": "무슨 뜻이야?",
+        "meaning": "**What do you mean**?",
+        "example": "무슨 뜻이야?",
+        "translation": ""
+      },
+      {
+        "expression": "What for?",
+        "pronunciation": "왜?",
+        "meaning": "**What for**?",
+        "example": "왜?",
+        "translation": ""
+      },
+      {
+        "expression": "How come?",
+        "pronunciation": "어떻게 된 거야?",
+        "meaning": "**How come**?",
+        "example": "어떻게 된 거야?",
+        "translation": ""
+      },
+      {
+        "expression": "Guess what?",
+        "pronunciation": "그거 알아?",
+        "meaning": "**Guess what**? I got the job!",
+        "example": "그거 알아? 취직했어!",
+        "translation": ""
+      },
+      {
+        "expression": "You know what?",
+        "pronunciation": "있잖아.",
+        "meaning": "**You know what**? I agree.",
+        "example": "있잖아. 동의해.",
+        "translation": ""
+      },
+      {
+        "expression": "By the way...",
+        "pronunciation": "그런데...",
+        "meaning": "**By the way**, are you free?",
+        "example": "그런데, 시간 있어?",
+        "translation": ""
+      },
+      {
+        "expression": "Speaking of which...",
+        "pronunciation": "그 말이 나와서 말인데...",
+        "meaning": "**Speaking of which**, I saw him yesterday.",
+        "example": "그 말이 나와서 말인데, 어제 그를 봤어.",
+        "translation": ""
+      },
+      {
+        "expression": "Anyway...",
+        "pronunciation": "어쨌든...",
+        "meaning": "**Anyway**, let's go.",
+        "example": "어쨌든 가자.",
+        "translation": ""
+      },
+      {
+        "expression": "So...",
+        "pronunciation": "그래서...",
+        "meaning": "**So**, what happened?",
+        "example": "그래서 무슨 일이야?",
+        "translation": ""
+      },
+      {
+        "expression": "Well...",
+        "pronunciation": "음...",
+        "meaning": "**Well**, it's complicated.",
+        "example": "음, 복잡해.",
+        "translation": ""
+      },
+      {
+        "expression": "I mean...",
+        "pronunciation": "그러니까...",
+        "meaning": "**I mean**, it's not bad.",
+        "example": "그러니까, 나쁘지 않아.",
+        "translation": ""
+      },
+      {
+        "expression": "Hang in there.",
+        "pronunciation": "힘내.",
+        "meaning": "**Hang in there**.",
+        "example": "힘내.",
+        "translation": ""
+      },
+      {
+        "expression": "Don't give up.",
+        "pronunciation": "포기하지 마.",
+        "meaning": "**Don't give up**.",
+        "example": "포기하지 마.",
+        "translation": ""
+      },
+      {
+        "expression": "Keep it up.",
+        "pronunciation": "계속해.",
+        "meaning": "**Keep it up**!",
+        "example": "계속해!",
+        "translation": ""
+      },
+      {
+        "expression": "You can do it.",
+        "pronunciation": "할 수 있어.",
+        "meaning": "**You can do it**!",
+        "example": "할 수 있어!",
+        "translation": ""
+      },
+      {
+        "expression": "I believe in you.",
+        "pronunciation": "널 믿어.",
+        "meaning": "**I believe in you**.",
+        "example": "널 믿어.",
+        "translation": ""
+      },
+      {
+        "expression": "Everything will be okay.",
+        "pronunciation": "다 잘 될 거야.",
+        "meaning": "**Everything will be okay**.",
+        "example": "다 잘 될 거야.",
+        "translation": ""
+      },
+      {
+        "expression": "It's going to be fine.",
+        "pronunciation": "괜찮을 거야.",
+        "meaning": "**It's going to be fine**.",
+        "example": "괜찮을 거야.",
+        "translation": ""
+      },
+      {
+        "expression": "Don't worry about it.",
+        "pronunciation": "걱정 마.",
+        "meaning": "**Don't worry about it**.",
+        "example": "걱정 마.",
+        "translation": ""
+      },
+      {
+        "expression": "Take it easy.",
+        "pronunciation": "편하게 해.",
+        "meaning": "**Take it easy**.",
+        "example": "편하게 해.",
+        "translation": ""
+      },
+      {
+        "expression": "Cheer up!",
+        "pronunciation": "기운 내!",
+        "meaning": "**Cheer up**!",
+        "example": "기운 내!",
+        "translation": ""
+      },
+      {
+        "expression": "Look on the bright side.",
+        "pronunciation": "좋은 면을 봐.",
+        "meaning": "**Look on the bright side**.",
+        "example": "좋은 면을 봐.",
+        "translation": ""
+      },
+      {
+        "expression": "Better luck next time.",
+        "pronunciation": "다음에 잘 되길.",
+        "meaning": "**Better luck next time**.",
+        "example": "다음에 잘 되길.",
+        "translation": ""
+      },
+      {
+        "expression": "It could be worse.",
+        "pronunciation": "그나마 다행이야.",
+        "meaning": "**It could be worse**.",
+        "example": "그나마 다행이야.",
+        "translation": ""
+      },
+      {
+        "expression": "That's life.",
+        "pronunciation": "인생이 그런 거지.",
+        "meaning": "**That's life**.",
+        "example": "인생이 그런 거지.",
+        "translation": ""
+      },
+      {
+        "expression": "Let it go.",
+        "pronunciation": "그냥 잊어버려.",
+        "meaning": "**Let it go**.",
+        "example": "그냥 잊어버려.",
+        "translation": ""
+      }
+    ]
+  },
+  {
+    "nameKo": "SNS/인터넷 표현",
+    "nameEn": "Social Media Expressions",
+    "expressions": [
+      {
+        "expression": "LOL (Laugh Out Loud)",
+        "pronunciation": "큰 웃음",
+        "meaning": "That's so funny **LOL**!",
+        "example": "너무 웃겨 ㅋㅋㅋ!",
+        "translation": ""
+      },
+      {
+        "expression": "LMAO (Laughing My Ass Off)",
+        "pronunciation": "엄청 웃겨",
+        "meaning": "I'm **LMAO** right now.",
+        "example": "지금 완전 웃겨.",
+        "translation": ""
+      },
+      {
+        "expression": "OMG (Oh My God)",
+        "pronunciation": "세상에",
+        "meaning": "**OMG** that's amazing!",
+        "example": "세상에 대단해!",
+        "translation": ""
+      },
+      {
+        "expression": "BTW (By The Way)",
+        "pronunciation": "그런데",
+        "meaning": "**BTW**, are you coming?",
+        "example": "그런데, 너 오는 거야?",
+        "translation": ""
+      },
+      {
+        "expression": "IMO (In My Opinion)",
+        "pronunciation": "내 생각에는",
+        "meaning": "**IMO**, it's the best option.",
+        "example": "내 생각에는 최고의 선택이야.",
+        "translation": ""
+      },
+      {
+        "expression": "IMHO (In My Humble Opinion)",
+        "pronunciation": "내 솔직한 의견은",
+        "meaning": "**IMHO**, we should wait.",
+        "example": "내 솔직한 의견은 기다려야 해.",
+        "translation": ""
+      },
+      {
+        "expression": "IDK (I Don't Know)",
+        "pronunciation": "몰라",
+        "meaning": "**IDK** what to do.",
+        "example": "뭘 해야 할지 몰라.",
+        "translation": ""
+      },
+      {
+        "expression": "IDC (I Don't Care)",
+        "pronunciation": "상관없어",
+        "meaning": "**IDC** what they think.",
+        "example": "그들이 뭐라 생각하든 상관없어.",
+        "translation": ""
+      },
+      {
+        "expression": "IKR (I Know Right)",
+        "pronunciation": "그치?",
+        "meaning": "**IKR**? It's so annoying.",
+        "example": "그치? 짜증나.",
+        "translation": ""
+      },
+      {
+        "expression": "TBH (To Be Honest)",
+        "pronunciation": "솔직히",
+        "meaning": "**TBH**, I don't like it.",
+        "example": "솔직히 안 좋아해.",
+        "translation": ""
+      },
+      {
+        "expression": "NVM (Never Mind)",
+        "pronunciation": "신경 쓰지 마",
+        "meaning": "**NVM**, I found it.",
+        "example": "신경 쓰지 마, 찾았어.",
+        "translation": ""
+      },
+      {
+        "expression": "JK (Just Kidding)",
+        "pronunciation": "농담이야",
+        "meaning": "I'm **JK**!",
+        "example": "농담이야!",
+        "translation": ""
+      },
+      {
+        "expression": "FYI (For Your Information)",
+        "pronunciation": "참고로",
+        "meaning": "**FYI**, the meeting is at 3.",
+        "example": "참고로 회의는 3시야.",
+        "translation": ""
+      },
+      {
+        "expression": "ASAP (As Soon As Possible)",
+        "pronunciation": "가능한 빨리",
+        "meaning": "Send it **ASAP**.",
+        "example": "가능한 빨리 보내.",
+        "translation": ""
+      },
+      {
+        "expression": "BRB (Be Right Back)",
+        "pronunciation": "금방 올게",
+        "meaning": "**BRB**!",
+        "example": "금방 올게!",
+        "translation": ""
+      },
+      {
+        "expression": "GTG (Got To Go)",
+        "pronunciation": "가야 해",
+        "meaning": "**GTG**, bye!",
+        "example": "가야 해, 안녕!",
+        "translation": ""
+      },
+      {
+        "expression": "TTYL (Talk To You Later)",
+        "pronunciation": "나중에 얘기해",
+        "meaning": "**TTYL**!",
+        "example": "나중에 얘기해!",
+        "translation": ""
+      },
+      {
+        "expression": "TBA (To Be Announced)",
+        "pronunciation": "추후 공지",
+        "meaning": "The date is **TBA**.",
+        "example": "날짜는 추후 공지야.",
+        "translation": ""
+      },
+      {
+        "expression": "TBD (To Be Determined)",
+        "pronunciation": "미정",
+        "meaning": "Location is **TBD**.",
+        "example": "장소는 미정이야.",
+        "translation": ""
+      },
+      {
+        "expression": "DM (Direct Message)",
+        "pronunciation": "다이렉트 메시지",
+        "meaning": "Send me a **DM**.",
+        "example": "DM 보내.",
+        "translation": ""
+      },
+      {
+        "expression": "PM (Private Message)",
+        "pronunciation": "개인 메시지",
+        "meaning": "I'll **PM** you.",
+        "example": "개인 메시지 보낼게.",
+        "translation": ""
+      },
+      {
+        "expression": "RT (Retweet)",
+        "pronunciation": "리트윗",
+        "meaning": "Please **RT** this.",
+        "example": "이거 리트윗해줘.",
+        "translation": ""
+      },
+      {
+        "expression": "TL;DR (Too Long; Didn't Read)",
+        "pronunciation": "너무 길어서 안 읽음",
+        "meaning": "**TL;DR**: Just do it.",
+        "example": "요약: 그냥 해.",
+        "translation": ""
+      },
+      {
+        "expression": "AMA (Ask Me Anything)",
+        "pronunciation": "뭐든지 물어봐",
+        "meaning": "It's an **AMA** session.",
+        "example": "AMA 세션이야.",
+        "translation": ""
+      },
+      {
+        "expression": "FOMO (Fear Of Missing Out)",
+        "pronunciation": "놓칠까 봐 불안한",
+        "meaning": "I have **FOMO**.",
+        "example": "놓칠까 봐 불안해.",
+        "translation": ""
+      },
+      {
+        "expression": "YOLO (You Only Live Once)",
+        "pronunciation": "인생은 한 번뿐",
+        "meaning": "**YOLO**!",
+        "example": "인생은 한 번뿐이야!",
+        "translation": ""
+      },
+      {
+        "expression": "SMH (Shaking My Head)",
+        "pronunciation": "어이없어",
+        "meaning": "**SMH** at this news.",
+        "example": "이 뉴스에 어이없어.",
+        "translation": ""
+      },
+      {
+        "expression": "GOAT (Greatest Of All Time)",
+        "pronunciation": "역대 최고",
+        "meaning": "He's the **GOAT**.",
+        "example": "그는 역대 최고야.",
+        "translation": ""
+      },
+      {
+        "expression": "Lit",
+        "pronunciation": "불꽃 튀는/대박",
+        "meaning": "The party was **lit**!",
+        "example": "파티 대박이었어!",
+        "translation": ""
+      },
+      {
+        "expression": "Fire",
+        "pronunciation": "대박/멋진",
+        "meaning": "That song is **fire**!",
+        "example": "그 노래 대박이야!",
+        "translation": ""
+      },
+      {
+        "expression": "Slay",
+        "pronunciation": "완벽하게 해내다",
+        "meaning": "You **slayed** that presentation!",
+        "example": "발표 완벽하게 했어!",
+        "translation": ""
+      },
+      {
+        "expression": "Vibe",
+        "pronunciation": "분위기",
+        "meaning": "I love the **vibe** here.",
+        "example": "여기 분위기 좋아.",
+        "translation": ""
+      },
+      {
+        "expression": "No cap",
+        "pronunciation": "진짜로",
+        "meaning": "**No cap**, it's true.",
+        "example": "진짜로 사실이야.",
+        "translation": ""
+      },
+      {
+        "expression": "Salty",
+        "pronunciation": "짜증난",
+        "meaning": "Why are you so **salty**?",
+        "example": "왜 그렇게 짜증나?",
+        "translation": ""
+      },
+      {
+        "expression": "Shade",
+        "pronunciation": "깔봄/비꼼",
+        "meaning": "She threw **shade** at me.",
+        "example": "그녀가 나를 깔봤어.",
+        "translation": ""
+      },
+      {
+        "expression": "Tea",
+        "pronunciation": "가십",
+        "meaning": "Spill the **tea**!",
+        "example": "가십 좀 말해줘!",
+        "translation": ""
+      },
+      {
+        "expression": "Ghosting",
+        "pronunciation": "연락 끊기",
+        "meaning": "He's **ghosting** me.",
+        "example": "그가 연락을 끊었어.",
+        "translation": ""
+      },
+      {
+        "expression": "Flex",
+        "pronunciation": "자랑하다",
+        "meaning": "Stop **flexing**!",
+        "example": "자랑 그만해!",
+        "translation": ""
+      },
+      {
+        "expression": "Stan",
+        "pronunciation": "광팬이다",
+        "meaning": "I **stan** this singer.",
+        "example": "이 가수의 광팬이야.",
+        "translation": ""
+      },
+      {
+        "expression": "Lowkey",
+        "pronunciation": "은근히",
+        "meaning": "I'm **lowkey** excited.",
+        "example": "은근히 신나.",
+        "translation": ""
+      },
+      {
+        "expression": "Highkey",
+        "pronunciation": "완전히",
+        "meaning": "I'm **highkey** stressed.",
+        "example": "완전 스트레스 받아.",
+        "translation": ""
+      },
+      {
+        "expression": "Chill",
+        "pronunciation": "편안한/릴렉스한",
+        "meaning": "Let's just **chill**.",
+        "example": "그냥 쉬자.",
+        "translation": ""
+      },
+      {
+        "expression": "Mood",
+        "pronunciation": "공감/딱 그 느낌",
+        "meaning": "That's such a **mood**.",
+        "example": "딱 그 느낌이야.",
+        "translation": ""
+      },
+      {
+        "expression": "Vibes",
+        "pronunciation": "느낌/분위기",
+        "meaning": "Good **vibes** only.",
+        "example": "좋은 분위기만.",
+        "translation": ""
+      },
+      {
+        "expression": "Valid",
+        "pronunciation": "타당한/인정",
+        "meaning": "That's **valid**.",
+        "example": "인정.",
+        "translation": ""
+      },
+      {
+        "expression": "Cringe",
+        "pronunciation": "오글거리는",
+        "meaning": "That's so **cringe**.",
+        "example": "너무 오글거려.",
+        "translation": ""
+      },
+      {
+        "expression": "Sus",
+        "pronunciation": "수상한",
+        "meaning": "That seems **sus**.",
+        "example": "그거 수상해.",
+        "translation": ""
+      },
+      {
+        "expression": "Bet",
+        "pronunciation": "알겠어/좋아",
+        "meaning": "**Bet**! See you there.",
+        "example": "알겠어! 거기서 봐.",
+        "translation": ""
+      },
+      {
+        "expression": "Cap",
+        "pronunciation": "거짓말",
+        "meaning": "That's **cap**.",
+        "example": "그건 거짓말이야.",
+        "translation": ""
+      },
+      {
+        "expression": "Basic",
+        "pronunciation": "평범한/식상한",
+        "meaning": "That's so **basic**.",
+        "example": "너무 식상해.",
+        "translation": ""
+      }
+    ]
+  },
+  {
+    "nameKo": "전화/예약 표현",
+    "nameEn": "Phone/Reservation",
+    "expressions": [
+      {
+        "expression": "Hello, this is [name] speaking.",
+        "pronunciation": "안녕하세요, [이름]입니다.",
+        "meaning": "**Hello, this is John speaking**.",
+        "example": "안녕하세요, 존입니다.",
+        "translation": ""
+      },
+      {
+        "expression": "May I speak to...?",
+        "pronunciation": "~와 통화할 수 있을까요?",
+        "meaning": "**May I speak to** Mr. Kim?",
+        "example": "김씨와 통화할 수 있을까요?",
+        "translation": ""
+      },
+      {
+        "expression": "Speaking.",
+        "pronunciation": "전데요.",
+        "meaning": "**Speaking**. How can I help you?",
+        "example": "전데요. 어떻게 도와드릴까요?",
+        "translation": ""
+      },
+      {
+        "expression": "Who's calling, please?",
+        "pronunciation": "누구시죠?",
+        "meaning": "**Who's calling, please**?",
+        "example": "누구시죠?",
+        "translation": ""
+      },
+      {
+        "expression": "Hold on, please.",
+        "pronunciation": "잠시만요.",
+        "meaning": "**Hold on, please**.",
+        "example": "잠시만요.",
+        "translation": ""
+      },
+      {
+        "expression": "Just a moment.",
+        "pronunciation": "잠시만요.",
+        "meaning": "**Just a moment**.",
+        "example": "잠시만요.",
+        "translation": ""
+      },
+      {
+        "expression": "I'll put you through.",
+        "pronunciation": "연결해 드릴게요.",
+        "meaning": "**I'll put you through**.",
+        "example": "연결해 드릴게요.",
+        "translation": ""
+      },
+      {
+        "expression": "Could you hold?",
+        "pronunciation": "기다려 주시겠어요?",
+        "meaning": "**Could you hold** for a moment?",
+        "example": "잠시 기다려 주시겠어요?",
+        "translation": ""
+      },
+      {
+        "expression": "The line is busy.",
+        "pronunciation": "통화 중이에요.",
+        "meaning": "**The line is busy**.",
+        "example": "통화 중이에요.",
+        "translation": ""
+      },
+      {
+        "expression": "Could you call back later?",
+        "pronunciation": "나중에 다시 전화해 주시겠어요?",
+        "meaning": "**Could you call back later**?",
+        "example": "나중에 다시 전화해 주시겠어요?",
+        "translation": ""
+      },
+      {
+        "expression": "I'll call back later.",
+        "pronunciation": "나중에 다시 전화할게요.",
+        "meaning": "**I'll call back later**.",
+        "example": "나중에 다시 전화할게요.",
+        "translation": ""
+      },
+      {
+        "expression": "May I leave a message?",
+        "pronunciation": "메시지 남겨도 될까요?",
+        "meaning": "**May I leave a message**?",
+        "example": "메시지 남겨도 될까요?",
+        "translation": ""
+      },
+      {
+        "expression": "Could you take a message?",
+        "pronunciation": "메시지 받아 주시겠어요?",
+        "meaning": "**Could you take a message**?",
+        "example": "메시지 받아 주시겠어요?",
+        "translation": ""
+      },
+      {
+        "expression": "I'm sorry, you have the wrong number.",
+        "pronunciation": "죄송합니다, 전화 잘못 거셨어요.",
+        "meaning": "**Sorry, you have the wrong number**.",
+        "example": "죄송해요, 전화 잘못 거셨어요.",
+        "translation": ""
+      },
+      {
+        "expression": "Sorry, I can't hear you well.",
+        "pronunciation": "죄송해요, 잘 안 들려요.",
+        "meaning": "**Sorry, I can't hear you well**.",
+        "example": "죄송해요, 잘 안 들려요.",
+        "translation": ""
+      },
+      {
+        "expression": "Could you speak up?",
+        "pronunciation": "좀 더 크게 말씀해 주시겠어요?",
+        "meaning": "**Could you speak up**?",
+        "example": "좀 더 크게 말씀해 주시겠어요?",
+        "translation": ""
+      },
+      {
+        "expression": "The connection is bad.",
+        "pronunciation": "연결이 안 좋아요.",
+        "meaning": "**The connection is bad**.",
+        "example": "연결이 안 좋아요.",
+        "translation": ""
+      },
+      {
+        "expression": "You're breaking up.",
+        "pronunciation": "끊기네요.",
+        "meaning": "**You're breaking up**.",
+        "example": "끊기네요.",
+        "translation": ""
+      },
+      {
+        "expression": "I'd like to make a reservation.",
+        "pronunciation": "예약하고 싶어요.",
+        "meaning": "**I'd like to make a reservation**.",
+        "example": "예약하고 싶어요.",
+        "translation": ""
+      },
+      {
+        "expression": "I'd like to book a table.",
+        "pronunciation": "테이블 예약하고 싶어요.",
+        "meaning": "**I'd like to book a table** for two.",
+        "example": "두 명 테이블 예약하고 싶어요.",
+        "translation": ""
+      },
+      {
+        "expression": "For how many people?",
+        "pronunciation": "몇 분이세요?",
+        "meaning": "**For how many people**?",
+        "example": "몇 분이세요?",
+        "translation": ""
+      },
+      {
+        "expression": "For two, please.",
+        "pronunciation": "두 명이요.",
+        "meaning": "**For two, please**.",
+        "example": "두 명이요.",
+        "translation": ""
+      },
+      {
+        "expression": "What time would you like?",
+        "pronunciation": "몇 시로 하시겠어요?",
+        "meaning": "**What time would you like**?",
+        "example": "몇 시로 하시겠어요?",
+        "translation": ""
+      },
+      {
+        "expression": "Is there availability?",
+        "pronunciation": "자리 있나요?",
+        "meaning": "**Is there availability** for tonight?",
+        "example": "오늘 밤 자리 있나요?",
+        "translation": ""
+      },
+      {
+        "expression": "We're fully booked.",
+        "pronunciation": "예약이 다 찼어요.",
+        "meaning": "**We're fully booked** tonight.",
+        "example": "오늘 밤 예약이 다 찼어요.",
+        "translation": ""
+      },
+      {
+        "expression": "There's a 30-minute wait.",
+        "pronunciation": "30분 대기예요.",
+        "meaning": "**There's a 30-minute wait**.",
+        "example": "30분 대기예요.",
+        "translation": ""
+      },
+      {
+        "expression": "Can I have your name?",
+        "pronunciation": "성함이 어떻게 되세요?",
+        "meaning": "**Can I have your name**?",
+        "example": "성함이 어떻게 되세요?",
+        "translation": ""
+      },
+      {
+        "expression": "Under what name?",
+        "pronunciation": "어떤 이름으로요?",
+        "meaning": "**Under what name**?",
+        "example": "어떤 이름으로요?",
+        "translation": ""
+      },
+      {
+        "expression": "The reservation is under [name].",
+        "pronunciation": "[이름]으로 예약되어 있어요.",
+        "meaning": "**The reservation is under** Kim.",
+        "example": "김씨로 예약되어 있어요.",
+        "translation": ""
+      },
+      {
+        "expression": "I'd like to confirm my reservation.",
+        "pronunciation": "예약 확인하고 싶어요.",
+        "meaning": "**I'd like to confirm my reservation**.",
+        "example": "예약 확인하고 싶어요.",
+        "translation": ""
+      },
+      {
+        "expression": "I'd like to cancel my reservation.",
+        "pronunciation": "예약 취소하고 싶어요.",
+        "meaning": "**I'd like to cancel my reservation**.",
+        "example": "예약 취소하고 싶어요.",
+        "translation": ""
+      },
+      {
+        "expression": "I'd like to change my reservation.",
+        "pronunciation": "예약 변경하고 싶어요.",
+        "meaning": "**I'd like to change my reservation**.",
+        "example": "예약 변경하고 싶어요.",
+        "translation": ""
+      },
+      {
+        "expression": "Is there a cancellation fee?",
+        "pronunciation": "취소 수수료가 있나요?",
+        "meaning": "**Is there a cancellation fee**?",
+        "example": "취소 수수료가 있나요?",
+        "translation": ""
+      },
+      {
+        "expression": "What's the cancellation policy?",
+        "pronunciation": "취소 정책이 어떻게 되나요?",
+        "meaning": "**What's the cancellation policy**?",
+        "example": "취소 정책이 어떻게 되나요?",
+        "translation": ""
+      },
+      {
+        "expression": "Are you ready to order?",
+        "pronunciation": "주문하시겠어요?",
+        "meaning": "**Are you ready to order**?",
+        "example": "주문하시겠어요?",
+        "translation": ""
+      },
+      {
+        "expression": "I'll have...",
+        "pronunciation": "~로 할게요.",
+        "meaning": "**I'll have** the steak.",
+        "example": "스테이크로 할게요.",
+        "translation": ""
+      },
+      {
+        "expression": "Could I get...?",
+        "pronunciation": "~주시겠어요?",
+        "meaning": "**Could I get** some water?",
+        "example": "물 좀 주시겠어요?",
+        "translation": ""
+      },
+      {
+        "expression": "What do you recommend?",
+        "pronunciation": "뭘 추천하세요?",
+        "meaning": "**What do you recommend**?",
+        "example": "뭘 추천하세요?",
+        "translation": ""
+      },
+      {
+        "expression": "What's the special today?",
+        "pronunciation": "오늘의 특선이 뭐예요?",
+        "meaning": "**What's the special today**?",
+        "example": "오늘의 특선이 뭐예요?",
+        "translation": ""
+      },
+      {
+        "expression": "Is this spicy?",
+        "pronunciation": "이거 매워요?",
+        "meaning": "**Is this spicy**?",
+        "example": "이거 매워요?",
+        "translation": ""
+      },
+      {
+        "expression": "Does this contain...?",
+        "pronunciation": "이거 ~이 들어있나요?",
+        "meaning": "**Does this contain** nuts?",
+        "example": "이거 견과류 들어있나요?",
+        "translation": ""
+      },
+      {
+        "expression": "I'm allergic to...",
+        "pronunciation": "~에 알레르기가 있어요.",
+        "meaning": "**I'm allergic to** shellfish.",
+        "example": "조개류에 알레르기가 있어요.",
+        "translation": ""
+      },
+      {
+        "expression": "Could I have the check?",
+        "pronunciation": "계산서 주시겠어요?",
+        "meaning": "**Could I have the check**?",
+        "example": "계산서 주시겠어요?",
+        "translation": ""
+      },
+      {
+        "expression": "Can I pay by card?",
+        "pronunciation": "카드로 계산할 수 있나요?",
+        "meaning": "**Can I pay by card**?",
+        "example": "카드로 계산할 수 있나요?",
+        "translation": ""
+      },
+      {
+        "expression": "Is the tip included?",
+        "pronunciation": "팁이 포함되어 있나요?",
+        "meaning": "**Is the tip included**?",
+        "example": "팁이 포함되어 있나요?",
+        "translation": ""
+      },
+      {
+        "expression": "Keep the change.",
+        "pronunciation": "잔돈은 됐어요.",
+        "meaning": "**Keep the change**.",
+        "example": "잔돈은 됐어요.",
+        "translation": ""
+      },
+      {
+        "expression": "Could I get a receipt?",
+        "pronunciation": "영수증 주시겠어요?",
+        "meaning": "**Could I get a receipt**?",
+        "example": "영수증 주시겠어요?",
+        "translation": ""
+      },
+      {
+        "expression": "To go / For here?",
+        "pronunciation": "포장이요 / 여기서요?",
+        "meaning": "**To go** or **for here**?",
+        "example": "포장이요, 여기서요?",
+        "translation": ""
+      }
+    ]
+  }
+]

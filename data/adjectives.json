@@ -1,0 +1,3936 @@
+[
+  {
+    "nameKo": "크기/양",
+    "nameEn": "Size/Quantity",
+    "words": [
+      {
+        "word": "big",
+        "pronunciation": "/bɪɡ/",
+        "meaning": "큰",
+        "example": "small",
+        "translation": "That's a big house."
+      },
+      {
+        "word": "small",
+        "pronunciation": "/smɔːl/",
+        "meaning": "작은",
+        "example": "big",
+        "translation": "I live in a small apartment."
+      },
+      {
+        "word": "large",
+        "pronunciation": "/lɑːrdʒ/",
+        "meaning": "큰",
+        "example": "small",
+        "translation": "I'd like a large coffee."
+      },
+      {
+        "word": "little",
+        "pronunciation": "/ˈlɪtl/",
+        "meaning": "작은",
+        "example": "big",
+        "translation": "She has a little dog."
+      },
+      {
+        "word": "huge",
+        "pronunciation": "/hjuːdʒ/",
+        "meaning": "거대한",
+        "example": "tiny",
+        "translation": "There was a huge crowd."
+      },
+      {
+        "word": "tiny",
+        "pronunciation": "/ˈtaɪni/",
+        "meaning": "아주 작은",
+        "example": "huge",
+        "translation": "The baby has tiny fingers."
+      },
+      {
+        "word": "enormous",
+        "pronunciation": "/ɪˈnɔːrməs/",
+        "meaning": "막대한",
+        "example": "tiny",
+        "translation": "They made an enormous profit."
+      },
+      {
+        "word": "massive",
+        "pronunciation": "/ˈmæsɪv/",
+        "meaning": "거대한",
+        "example": "tiny",
+        "translation": "It was a massive earthquake."
+      },
+      {
+        "word": "giant",
+        "pronunciation": "/ˈdʒaɪənt/",
+        "meaning": "거대한",
+        "example": "miniature",
+        "translation": "A giant wave hit the beach."
+      },
+      {
+        "word": "miniature",
+        "pronunciation": "/ˈmɪnɪtʃər/",
+        "meaning": "소형의",
+        "example": "giant",
+        "translation": "He collects miniature cars."
+      },
+      {
+        "word": "tall",
+        "pronunciation": "/tɔːl/",
+        "meaning": "키가 큰",
+        "example": "short",
+        "translation": "He's really tall."
+      },
+      {
+        "word": "short",
+        "pronunciation": "/ʃɔːrt/",
+        "meaning": "짧은/키 작은",
+        "example": "tall",
+        "translation": "I have short hair."
+      },
+      {
+        "word": "long",
+        "pronunciation": "/lɔːŋ/",
+        "meaning": "긴",
+        "example": "short",
+        "translation": "It was a long day."
+      },
+      {
+        "word": "wide",
+        "pronunciation": "/waɪd/",
+        "meaning": "넓은",
+        "example": "narrow",
+        "translation": "The road is very wide."
+      },
+      {
+        "word": "narrow",
+        "pronunciation": "/ˈnæroʊ/",
+        "meaning": "좁은",
+        "example": "wide",
+        "translation": "The street is too narrow."
+      },
+      {
+        "word": "thick",
+        "pronunciation": "/θɪk/",
+        "meaning": "두꺼운",
+        "example": "thin",
+        "translation": "This book is thick."
+      },
+      {
+        "word": "thin",
+        "pronunciation": "/θɪn/",
+        "meaning": "얇은",
+        "example": "thick",
+        "translation": "The ice is thin."
+      },
+      {
+        "word": "deep",
+        "pronunciation": "/diːp/",
+        "meaning": "깊은",
+        "example": "shallow",
+        "translation": "The pool is deep."
+      },
+      {
+        "word": "shallow",
+        "pronunciation": "/ˈʃæloʊ/",
+        "meaning": "얕은",
+        "example": "deep",
+        "translation": "The water is shallow here."
+      },
+      {
+        "word": "high",
+        "pronunciation": "/haɪ/",
+        "meaning": "높은",
+        "example": "low",
+        "translation": "The mountain is high."
+      },
+      {
+        "word": "low",
+        "pronunciation": "/loʊ/",
+        "meaning": "낮은",
+        "example": "high",
+        "translation": "Keep your voice low."
+      },
+      {
+        "word": "heavy",
+        "pronunciation": "/ˈhevi/",
+        "meaning": "무거운",
+        "example": "light",
+        "translation": "This bag is heavy."
+      },
+      {
+        "word": "light",
+        "pronunciation": "/laɪt/",
+        "meaning": "가벼운",
+        "example": "heavy",
+        "translation": "The laptop is light."
+      },
+      {
+        "word": "full",
+        "pronunciation": "/fʊl/",
+        "meaning": "가득 찬",
+        "example": "empty",
+        "translation": "The glass is full."
+      },
+      {
+        "word": "empty",
+        "pronunciation": "/ˈempti/",
+        "meaning": "빈",
+        "example": "full",
+        "translation": "The room is empty."
+      },
+      {
+        "word": "many",
+        "pronunciation": "/ˈmeni/",
+        "meaning": "많은",
+        "example": "few",
+        "translation": "There are many people here."
+      },
+      {
+        "word": "few",
+        "pronunciation": "/fjuː/",
+        "meaning": "적은",
+        "example": "many",
+        "translation": "I have few friends."
+      },
+      {
+        "word": "much",
+        "pronunciation": "/mʌtʃ/",
+        "meaning": "많은",
+        "example": "little",
+        "translation": "I don't have much time."
+      },
+      {
+        "word": "little",
+        "pronunciation": "/ˈlɪtl/",
+        "meaning": "적은",
+        "example": "much",
+        "translation": "There's little hope."
+      },
+      {
+        "word": "some",
+        "pronunciation": "/sʌm/",
+        "meaning": "약간의",
+        "example": "none",
+        "translation": "I need some help."
+      },
+      {
+        "word": "several",
+        "pronunciation": "/ˈsevrəl/",
+        "meaning": "여러 개의",
+        "example": "-",
+        "translation": "I've been there several times."
+      },
+      {
+        "word": "numerous",
+        "pronunciation": "/ˈnuːmərəs/",
+        "meaning": "수많은",
+        "example": "few",
+        "translation": "There are numerous options."
+      },
+      {
+        "word": "plenty",
+        "pronunciation": "/ˈplenti/",
+        "meaning": "많은",
+        "example": "scarce",
+        "translation": "We have plenty of time."
+      },
+      {
+        "word": "scarce",
+        "pronunciation": "/skers/",
+        "meaning": "부족한",
+        "example": "plenty",
+        "translation": "Food is scarce here."
+      },
+      {
+        "word": "sufficient",
+        "pronunciation": "/səˈfɪʃnt/",
+        "meaning": "충분한",
+        "example": "insufficient",
+        "translation": "Is this sufficient?"
+      },
+      {
+        "word": "extra",
+        "pronunciation": "/ˈekstrə/",
+        "meaning": "여분의",
+        "example": "-",
+        "translation": "Do you have extra batteries?"
+      },
+      {
+        "word": "total",
+        "pronunciation": "/ˈtoʊtl/",
+        "meaning": "전체의",
+        "example": "partial",
+        "translation": "What's the total cost?"
+      },
+      {
+        "word": "partial",
+        "pronunciation": "/ˈpɑːrʃl/",
+        "meaning": "부분적인",
+        "example": "total",
+        "translation": "It was a partial success."
+      },
+      {
+        "word": "whole",
+        "pronunciation": "/hoʊl/",
+        "meaning": "전체의",
+        "example": "partial",
+        "translation": "I ate the whole pizza."
+      },
+      {
+        "word": "half",
+        "pronunciation": "/hæf/",
+        "meaning": "절반의",
+        "example": "-",
+        "translation": "I'll take half."
+      }
+    ]
+  },
+  {
+    "nameKo": "외모/외형",
+    "nameEn": "Appearance",
+    "words": [
+      {
+        "word": "beautiful",
+        "pronunciation": "/ˈbjuːtɪfl/",
+        "meaning": "아름다운",
+        "example": "ugly",
+        "translation": "The view is beautiful."
+      },
+      {
+        "word": "pretty",
+        "pronunciation": "/ˈprɪti/",
+        "meaning": "예쁜",
+        "example": "ugly",
+        "translation": "She looks pretty today."
+      },
+      {
+        "word": "handsome",
+        "pronunciation": "/ˈhænsəm/",
+        "meaning": "잘생긴",
+        "example": "ugly",
+        "translation": "He's very handsome."
+      },
+      {
+        "word": "gorgeous",
+        "pronunciation": "/ˈɡɔːrdʒəs/",
+        "meaning": "화려한/멋진",
+        "example": "plain",
+        "translation": "The dress is gorgeous."
+      },
+      {
+        "word": "attractive",
+        "pronunciation": "/əˈtræktɪv/",
+        "meaning": "매력적인",
+        "example": "unattractive",
+        "translation": "She's very attractive."
+      },
+      {
+        "word": "lovely",
+        "pronunciation": "/ˈlʌvli/",
+        "meaning": "사랑스러운",
+        "example": "-",
+        "translation": "What a lovely day!"
+      },
+      {
+        "word": "cute",
+        "pronunciation": "/kjuːt/",
+        "meaning": "귀여운",
+        "example": "-",
+        "translation": "Your baby is so cute!"
+      },
+      {
+        "word": "ugly",
+        "pronunciation": "/ˈʌɡli/",
+        "meaning": "못생긴",
+        "example": "beautiful",
+        "translation": "The building is ugly."
+      },
+      {
+        "word": "plain",
+        "pronunciation": "/pleɪn/",
+        "meaning": "평범한",
+        "example": "gorgeous",
+        "translation": "She wore a plain dress."
+      },
+      {
+        "word": "elegant",
+        "pronunciation": "/ˈelɪɡənt/",
+        "meaning": "우아한",
+        "example": "awkward",
+        "translation": "The hotel is elegant."
+      },
+      {
+        "word": "fancy",
+        "pronunciation": "/ˈfænsi/",
+        "meaning": "화려한",
+        "example": "plain",
+        "translation": "That's a fancy restaurant."
+      },
+      {
+        "word": "stylish",
+        "pronunciation": "/ˈstaɪlɪʃ/",
+        "meaning": "세련된",
+        "example": "outdated",
+        "translation": "You look stylish today."
+      },
+      {
+        "word": "fashionable",
+        "pronunciation": "/ˈfæʃnəbl/",
+        "meaning": "유행하는",
+        "example": "outdated",
+        "translation": "These shoes are fashionable."
+      },
+      {
+        "word": "trendy",
+        "pronunciation": "/ˈtrendi/",
+        "meaning": "최신 유행의",
+        "example": "old-fashioned",
+        "translation": "That café is trendy."
+      },
+      {
+        "word": "old-fashioned",
+        "pronunciation": "/oʊld ˈfæʃnd/",
+        "meaning": "구식의",
+        "example": "modern",
+        "translation": "His ideas are old-fashioned."
+      },
+      {
+        "word": "modern",
+        "pronunciation": "/ˈmɑːdərn/",
+        "meaning": "현대적인",
+        "example": "old-fashioned",
+        "translation": "I like modern art."
+      },
+      {
+        "word": "classic",
+        "pronunciation": "/ˈklæsɪk/",
+        "meaning": "고전적인",
+        "example": "modern",
+        "translation": "It's a classic design."
+      },
+      {
+        "word": "young",
+        "pronunciation": "/jʌŋ/",
+        "meaning": "젊은",
+        "example": "old",
+        "translation": "She looks young."
+      },
+      {
+        "word": "old",
+        "pronunciation": "/oʊld/",
+        "meaning": "늙은/오래된",
+        "example": "young",
+        "translation": "The building is old."
+      },
+      {
+        "word": "new",
+        "pronunciation": "/nuː/",
+        "meaning": "새로운",
+        "example": "old",
+        "translation": "I got a new phone."
+      },
+      {
+        "word": "fresh",
+        "pronunciation": "/freʃ/",
+        "meaning": "신선한",
+        "example": "stale",
+        "translation": "The bread is fresh."
+      },
+      {
+        "word": "stale",
+        "pronunciation": "/steɪl/",
+        "meaning": "상한/신선하지 않은",
+        "example": "fresh",
+        "translation": "The chips are stale."
+      },
+      {
+        "word": "clean",
+        "pronunciation": "/kliːn/",
+        "meaning": "깨끗한",
+        "example": "dirty",
+        "translation": "The room is clean."
+      },
+      {
+        "word": "dirty",
+        "pronunciation": "/ˈdɜːrti/",
+        "meaning": "더러운",
+        "example": "clean",
+        "translation": "My shoes are dirty."
+      },
+      {
+        "word": "neat",
+        "pronunciation": "/niːt/",
+        "meaning": "깔끔한",
+        "example": "messy",
+        "translation": "Her handwriting is neat."
+      },
+      {
+        "word": "messy",
+        "pronunciation": "/ˈmesi/",
+        "meaning": "지저분한",
+        "example": "neat",
+        "translation": "My room is messy."
+      },
+      {
+        "word": "tidy",
+        "pronunciation": "/ˈtaɪdi/",
+        "meaning": "정돈된",
+        "example": "untidy",
+        "translation": "Keep your desk tidy."
+      },
+      {
+        "word": "bright",
+        "pronunciation": "/braɪt/",
+        "meaning": "밝은",
+        "example": "dark",
+        "translation": "The room is bright."
+      },
+      {
+        "word": "dark",
+        "pronunciation": "/dɑːrk/",
+        "meaning": "어두운",
+        "example": "bright",
+        "translation": "It's dark outside."
+      },
+      {
+        "word": "shiny",
+        "pronunciation": "/ˈʃaɪni/",
+        "meaning": "빛나는",
+        "example": "dull",
+        "translation": "Her hair is shiny."
+      },
+      {
+        "word": "dull",
+        "pronunciation": "/dʌl/",
+        "meaning": "칙칙한",
+        "example": "bright",
+        "translation": "The color looks dull."
+      },
+      {
+        "word": "pale",
+        "pronunciation": "/peɪl/",
+        "meaning": "창백한",
+        "example": "rosy",
+        "translation": "You look pale today."
+      },
+      {
+        "word": "tan",
+        "pronunciation": "/tæn/",
+        "meaning": "햇볕에 탄",
+        "example": "pale",
+        "translation": "I got a nice tan."
+      },
+      {
+        "word": "slim",
+        "pronunciation": "/slɪm/",
+        "meaning": "날씬한",
+        "example": "fat",
+        "translation": "She's very slim."
+      },
+      {
+        "word": "fat",
+        "pronunciation": "/fæt/",
+        "meaning": "뚱뚱한",
+        "example": "slim",
+        "translation": "I feel fat."
+      },
+      {
+        "word": "skinny",
+        "pronunciation": "/ˈskɪni/",
+        "meaning": "마른",
+        "example": "fat",
+        "translation": "He's too skinny."
+      },
+      {
+        "word": "overweight",
+        "pronunciation": "/ˌoʊvərˈweɪt/",
+        "meaning": "과체중의",
+        "example": "underweight",
+        "translation": "I'm a bit overweight."
+      },
+      {
+        "word": "fit",
+        "pronunciation": "/fɪt/",
+        "meaning": "건강한",
+        "example": "unfit",
+        "translation": "He looks fit."
+      },
+      {
+        "word": "muscular",
+        "pronunciation": "/ˈmʌskjələr/",
+        "meaning": "근육질의",
+        "example": "skinny",
+        "translation": "He has a muscular body."
+      },
+      {
+        "word": "bald",
+        "pronunciation": "/bɔːld/",
+        "meaning": "대머리의",
+        "example": "hairy",
+        "translation": "My dad is bald."
+      },
+      {
+        "word": "curly",
+        "pronunciation": "/ˈkɜːrli/",
+        "meaning": "곱슬곱슬한",
+        "example": "straight",
+        "translation": "I have curly hair."
+      },
+      {
+        "word": "straight",
+        "pronunciation": "/streɪt/",
+        "meaning": "곧은",
+        "example": "curly",
+        "translation": "Her hair is straight."
+      },
+      {
+        "word": "wavy",
+        "pronunciation": "/ˈweɪvi/",
+        "meaning": "물결치는",
+        "example": "straight",
+        "translation": "She has wavy hair."
+      },
+      {
+        "word": "blonde",
+        "pronunciation": "/blɑːnd/",
+        "meaning": "금발의",
+        "example": "-",
+        "translation": "She's blonde."
+      },
+      {
+        "word": "brunette",
+        "pronunciation": "/bruːˈnet/",
+        "meaning": "갈색 머리의",
+        "example": "-",
+        "translation": "She's a brunette."
+      }
+    ]
+  },
+  {
+    "nameKo": "성격/성품",
+    "nameEn": "Personality",
+    "words": [
+      {
+        "word": "kind",
+        "pronunciation": "/kaɪnd/",
+        "meaning": "친절한",
+        "example": "mean",
+        "translation": "She's very kind."
+      },
+      {
+        "word": "nice",
+        "pronunciation": "/naɪs/",
+        "meaning": "좋은/착한",
+        "example": "mean",
+        "translation": "He's a nice guy."
+      },
+      {
+        "word": "friendly",
+        "pronunciation": "/ˈfrendli/",
+        "meaning": "다정한",
+        "example": "unfriendly",
+        "translation": "Everyone here is friendly."
+      },
+      {
+        "word": "warm",
+        "pronunciation": "/wɔːrm/",
+        "meaning": "따뜻한",
+        "example": "cold",
+        "translation": "She has a warm personality."
+      },
+      {
+        "word": "generous",
+        "pronunciation": "/ˈdʒenərəs/",
+        "meaning": "관대한",
+        "example": "selfish",
+        "translation": "He's very generous."
+      },
+      {
+        "word": "selfish",
+        "pronunciation": "/ˈselfɪʃ/",
+        "meaning": "이기적인",
+        "example": "generous",
+        "translation": "Don't be selfish."
+      },
+      {
+        "word": "mean",
+        "pronunciation": "/miːn/",
+        "meaning": "심술궂은",
+        "example": "kind",
+        "translation": "Why are you being mean?"
+      },
+      {
+        "word": "cruel",
+        "pronunciation": "/ˈkruːəl/",
+        "meaning": "잔인한",
+        "example": "kind",
+        "translation": "That was cruel of you."
+      },
+      {
+        "word": "rude",
+        "pronunciation": "/ruːd/",
+        "meaning": "무례한",
+        "example": "polite",
+        "translation": "Don't be rude to strangers."
+      },
+      {
+        "word": "polite",
+        "pronunciation": "/pəˈlaɪt/",
+        "meaning": "예의 바른",
+        "example": "rude",
+        "translation": "He's always polite."
+      },
+      {
+        "word": "honest",
+        "pronunciation": "/ˈɑːnɪst/",
+        "meaning": "정직한",
+        "example": "dishonest",
+        "translation": "Be honest with me."
+      },
+      {
+        "word": "dishonest",
+        "pronunciation": "/dɪsˈɑːnɪst/",
+        "meaning": "부정직한",
+        "example": "honest",
+        "translation": "He's dishonest."
+      },
+      {
+        "word": "sincere",
+        "pronunciation": "/sɪnˈsɪr/",
+        "meaning": "진실한",
+        "example": "insincere",
+        "translation": "She seems sincere."
+      },
+      {
+        "word": "loyal",
+        "pronunciation": "/ˈlɔɪəl/",
+        "meaning": "충성스러운",
+        "example": "disloyal",
+        "translation": "He's a loyal friend."
+      },
+      {
+        "word": "trustworthy",
+        "pronunciation": "/ˈtrʌstwɜːrði/",
+        "meaning": "신뢰할 수 있는",
+        "example": "untrustworthy",
+        "translation": "She's very trustworthy."
+      },
+      {
+        "word": "reliable",
+        "pronunciation": "/rɪˈlaɪəbl/",
+        "meaning": "믿을 수 있는",
+        "example": "unreliable",
+        "translation": "He's always reliable."
+      },
+      {
+        "word": "responsible",
+        "pronunciation": "/rɪˈspɑːnsəbl/",
+        "meaning": "책임감 있는",
+        "example": "irresponsible",
+        "translation": "Be more responsible."
+      },
+      {
+        "word": "mature",
+        "pronunciation": "/məˈtʃʊr/",
+        "meaning": "성숙한",
+        "example": "immature",
+        "translation": "She's very mature for her age."
+      },
+      {
+        "word": "immature",
+        "pronunciation": "/ˌɪməˈtʃʊr/",
+        "meaning": "미성숙한",
+        "example": "mature",
+        "translation": "Stop being immature."
+      },
+      {
+        "word": "patient",
+        "pronunciation": "/ˈpeɪʃnt/",
+        "meaning": "인내심 있는",
+        "example": "impatient",
+        "translation": "Please be patient."
+      },
+      {
+        "word": "impatient",
+        "pronunciation": "/ɪmˈpeɪʃnt/",
+        "meaning": "성급한",
+        "example": "patient",
+        "translation": "I'm getting impatient."
+      },
+      {
+        "word": "calm",
+        "pronunciation": "/kɑːm/",
+        "meaning": "차분한",
+        "example": "nervous",
+        "translation": "Stay calm."
+      },
+      {
+        "word": "quiet",
+        "pronunciation": "/ˈkwaɪət/",
+        "meaning": "조용한",
+        "example": "loud",
+        "translation": "He's a quiet person."
+      },
+      {
+        "word": "loud",
+        "pronunciation": "/laʊd/",
+        "meaning": "시끄러운",
+        "example": "quiet",
+        "translation": "She's too loud."
+      },
+      {
+        "word": "shy",
+        "pronunciation": "/ʃaɪ/",
+        "meaning": "수줍은",
+        "example": "outgoing",
+        "translation": "I'm a bit shy."
+      },
+      {
+        "word": "outgoing",
+        "pronunciation": "/ˈaʊtɡoʊɪŋ/",
+        "meaning": "외향적인",
+        "example": "shy",
+        "translation": "She's very outgoing."
+      },
+      {
+        "word": "introverted",
+        "pronunciation": "/ˈɪntrəvɜːrtɪd/",
+        "meaning": "내성적인",
+        "example": "extroverted",
+        "translation": "I'm quite introverted."
+      },
+      {
+        "word": "extroverted",
+        "pronunciation": "/ˈekstrəvɜːrtɪd/",
+        "meaning": "외향적인",
+        "example": "introverted",
+        "translation": "He's very extroverted."
+      },
+      {
+        "word": "confident",
+        "pronunciation": "/ˈkɑːnfɪdənt/",
+        "meaning": "자신감 있는",
+        "example": "insecure",
+        "translation": "She seems confident."
+      },
+      {
+        "word": "insecure",
+        "pronunciation": "/ˌɪnsɪˈkjʊr/",
+        "meaning": "불안정한",
+        "example": "secure",
+        "translation": "I feel insecure sometimes."
+      },
+      {
+        "word": "humble",
+        "pronunciation": "/ˈhʌmbl/",
+        "meaning": "겸손한",
+        "example": "arrogant",
+        "translation": "Stay humble."
+      },
+      {
+        "word": "arrogant",
+        "pronunciation": "/ˈærəɡənt/",
+        "meaning": "오만한",
+        "example": "humble",
+        "translation": "Don't be arrogant."
+      },
+      {
+        "word": "proud",
+        "pronunciation": "/praʊd/",
+        "meaning": "자랑스러운",
+        "example": "humble",
+        "translation": "I'm proud of you."
+      },
+      {
+        "word": "modest",
+        "pronunciation": "/ˈmɑːdɪst/",
+        "meaning": "겸손한",
+        "example": "arrogant",
+        "translation": "She's very modest."
+      },
+      {
+        "word": "brave",
+        "pronunciation": "/breɪv/",
+        "meaning": "용감한",
+        "example": "coward",
+        "translation": "You're so brave!"
+      },
+      {
+        "word": "courageous",
+        "pronunciation": "/kəˈreɪdʒəs/",
+        "meaning": "용감한",
+        "example": "cowardly",
+        "translation": "That was courageous."
+      },
+      {
+        "word": "cowardly",
+        "pronunciation": "/ˈkaʊərdli/",
+        "meaning": "겁 많은",
+        "example": "brave",
+        "translation": "That was cowardly."
+      },
+      {
+        "word": "smart",
+        "pronunciation": "/smɑːrt/",
+        "meaning": "똑똑한",
+        "example": "stupid",
+        "translation": "She's very smart."
+      },
+      {
+        "word": "intelligent",
+        "pronunciation": "/ɪnˈtelɪdʒənt/",
+        "meaning": "지적인",
+        "example": "stupid",
+        "translation": "He's highly intelligent."
+      },
+      {
+        "word": "clever",
+        "pronunciation": "/ˈklevər/",
+        "meaning": "영리한",
+        "example": "dull",
+        "translation": "That's a clever idea."
+      },
+      {
+        "word": "wise",
+        "pronunciation": "/waɪz/",
+        "meaning": "현명한",
+        "example": "foolish",
+        "translation": "She made a wise decision."
+      },
+      {
+        "word": "foolish",
+        "pronunciation": "/ˈfuːlɪʃ/",
+        "meaning": "어리석은",
+        "example": "wise",
+        "translation": "It was foolish of me."
+      },
+      {
+        "word": "stupid",
+        "pronunciation": "/ˈstuːpɪd/",
+        "meaning": "멍청한",
+        "example": "smart",
+        "translation": "That was a stupid mistake."
+      },
+      {
+        "word": "creative",
+        "pronunciation": "/kriˈeɪtɪv/",
+        "meaning": "창의적인",
+        "example": "unimaginative",
+        "translation": "She's very creative."
+      },
+      {
+        "word": "curious",
+        "pronunciation": "/ˈkjʊriəs/",
+        "meaning": "호기심 많은",
+        "example": "indifferent",
+        "translation": "Kids are naturally curious."
+      },
+      {
+        "word": "hardworking",
+        "pronunciation": "/ˌhɑːrdˈwɜːrkɪŋ/",
+        "meaning": "부지런한",
+        "example": "lazy",
+        "translation": "She's very hardworking."
+      },
+      {
+        "word": "lazy",
+        "pronunciation": "/ˈleɪzi/",
+        "meaning": "게으른",
+        "example": "hardworking",
+        "translation": "Don't be lazy."
+      },
+      {
+        "word": "diligent",
+        "pronunciation": "/ˈdɪlɪdʒənt/",
+        "meaning": "근면한",
+        "example": "lazy",
+        "translation": "He's a diligent student."
+      },
+      {
+        "word": "ambitious",
+        "pronunciation": "/æmˈbɪʃəs/",
+        "meaning": "야심 찬",
+        "example": "unmotivated",
+        "translation": "She's very ambitious."
+      },
+      {
+        "word": "determined",
+        "pronunciation": "/dɪˈtɜːrmɪnd/",
+        "meaning": "단호한",
+        "example": "indecisive",
+        "translation": "He's determined to succeed."
+      },
+      {
+        "word": "stubborn",
+        "pronunciation": "/ˈstʌbərn/",
+        "meaning": "완고한",
+        "example": "flexible",
+        "translation": "He's too stubborn."
+      },
+      {
+        "word": "flexible",
+        "pronunciation": "/ˈfleksəbl/",
+        "meaning": "유연한",
+        "example": "stubborn",
+        "translation": "Be more flexible."
+      },
+      {
+        "word": "easygoing",
+        "pronunciation": "/ˈiːziɡoʊɪŋ/",
+        "meaning": "느긋한",
+        "example": "uptight",
+        "translation": "He's very easygoing."
+      },
+      {
+        "word": "serious",
+        "pronunciation": "/ˈsɪriəs/",
+        "meaning": "진지한",
+        "example": "playful",
+        "translation": "Are you serious?"
+      },
+      {
+        "word": "funny",
+        "pronunciation": "/ˈfʌni/",
+        "meaning": "재미있는",
+        "example": "boring",
+        "translation": "You're so funny!"
+      },
+      {
+        "word": "humorous",
+        "pronunciation": "/ˈhjuːmərəs/",
+        "meaning": "유머러스한",
+        "example": "serious",
+        "translation": "He has a humorous personality."
+      },
+      {
+        "word": "cheerful",
+        "pronunciation": "/ˈtʃɪrfl/",
+        "meaning": "쾌활한",
+        "example": "gloomy",
+        "translation": "She's always cheerful."
+      },
+      {
+        "word": "optimistic",
+        "pronunciation": "/ˌɑːptɪˈmɪstɪk/",
+        "meaning": "낙관적인",
+        "example": "pessimistic",
+        "translation": "Stay optimistic."
+      },
+      {
+        "word": "pessimistic",
+        "pronunciation": "/ˌpesɪˈmɪstɪk/",
+        "meaning": "비관적인",
+        "example": "optimistic",
+        "translation": "Don't be so pessimistic."
+      },
+      {
+        "word": "talkative",
+        "pronunciation": "/ˈtɔːkətɪv/",
+        "meaning": "말이 많은",
+        "example": "quiet",
+        "translation": "She's very talkative."
+      },
+      {
+        "word": "romantic",
+        "pronunciation": "/roʊˈmæntɪk/",
+        "meaning": "낭만적인",
+        "example": "practical",
+        "translation": "He's so romantic."
+      },
+      {
+        "word": "practical",
+        "pronunciation": "/ˈpræktɪkl/",
+        "meaning": "실용적인",
+        "example": "impractical",
+        "translation": "She's very practical."
+      },
+      {
+        "word": "independent",
+        "pronunciation": "/ˌɪndɪˈpendənt/",
+        "meaning": "독립적인",
+        "example": "dependent",
+        "translation": "I want to be independent."
+      },
+      {
+        "word": "sensitive",
+        "pronunciation": "/ˈsensətɪv/",
+        "meaning": "민감한",
+        "example": "insensitive",
+        "translation": "She's very sensitive."
+      },
+      {
+        "word": "thoughtful",
+        "pronunciation": "/ˈθɔːtfl/",
+        "meaning": "사려 깊은",
+        "example": "thoughtless",
+        "translation": "That was very thoughtful."
+      }
+    ]
+  },
+  {
+    "nameKo": "감정/기분",
+    "nameEn": "Emotions/Moods",
+    "words": [
+      {
+        "word": "happy",
+        "pronunciation": "/ˈhæpi/",
+        "meaning": "행복한",
+        "example": "sad",
+        "translation": "I'm so happy!"
+      },
+      {
+        "word": "sad",
+        "pronunciation": "/sæd/",
+        "meaning": "슬픈",
+        "example": "happy",
+        "translation": "Why are you sad?"
+      },
+      {
+        "word": "glad",
+        "pronunciation": "/ɡlæd/",
+        "meaning": "기쁜",
+        "example": "sad",
+        "translation": "I'm glad to hear that."
+      },
+      {
+        "word": "joyful",
+        "pronunciation": "/ˈdʒɔɪfl/",
+        "meaning": "즐거운",
+        "example": "sorrowful",
+        "translation": "It was a joyful moment."
+      },
+      {
+        "word": "excited",
+        "pronunciation": "/ɪkˈsaɪtɪd/",
+        "meaning": "신난",
+        "example": "bored",
+        "translation": "I'm so excited!"
+      },
+      {
+        "word": "thrilled",
+        "pronunciation": "/θrɪld/",
+        "meaning": "매우 기쁜",
+        "example": "disappointed",
+        "translation": "I'm thrilled to meet you."
+      },
+      {
+        "word": "pleased",
+        "pronunciation": "/pliːzd/",
+        "meaning": "기쁜",
+        "example": "displeased",
+        "translation": "I'm pleased with the results."
+      },
+      {
+        "word": "satisfied",
+        "pronunciation": "/ˈsætɪsfaɪd/",
+        "meaning": "만족한",
+        "example": "dissatisfied",
+        "translation": "Are you satisfied?"
+      },
+      {
+        "word": "content",
+        "pronunciation": "/kənˈtent/",
+        "meaning": "만족한",
+        "example": "discontent",
+        "translation": "I feel content with life."
+      },
+      {
+        "word": "grateful",
+        "pronunciation": "/ˈɡreɪtfl/",
+        "meaning": "감사하는",
+        "example": "ungrateful",
+        "translation": "I'm grateful for your help."
+      },
+      {
+        "word": "thankful",
+        "pronunciation": "/ˈθæŋkfl/",
+        "meaning": "감사하는",
+        "example": "ungrateful",
+        "translation": "I'm thankful for everything."
+      },
+      {
+        "word": "relieved",
+        "pronunciation": "/rɪˈliːvd/",
+        "meaning": "안도하는",
+        "example": "worried",
+        "translation": "I'm so relieved!"
+      },
+      {
+        "word": "proud",
+        "pronunciation": "/praʊd/",
+        "meaning": "자랑스러운",
+        "example": "ashamed",
+        "translation": "I'm proud of myself."
+      },
+      {
+        "word": "angry",
+        "pronunciation": "/ˈæŋɡri/",
+        "meaning": "화난",
+        "example": "calm",
+        "translation": "Don't get angry."
+      },
+      {
+        "word": "mad",
+        "pronunciation": "/mæd/",
+        "meaning": "화난",
+        "example": "calm",
+        "translation": "Are you mad at me?"
+      },
+      {
+        "word": "furious",
+        "pronunciation": "/ˈfjʊriəs/",
+        "meaning": "격노한",
+        "example": "calm",
+        "translation": "She was furious."
+      },
+      {
+        "word": "annoyed",
+        "pronunciation": "/əˈnɔɪd/",
+        "meaning": "짜증난",
+        "example": "pleased",
+        "translation": "I'm so annoyed!"
+      },
+      {
+        "word": "irritated",
+        "pronunciation": "/ˈɪrɪteɪtɪd/",
+        "meaning": "짜증난",
+        "example": "calm",
+        "translation": "He seemed irritated."
+      },
+      {
+        "word": "frustrated",
+        "pronunciation": "/ˈfrʌstreɪtɪd/",
+        "meaning": "좌절한",
+        "example": "satisfied",
+        "translation": "I feel frustrated."
+      },
+      {
+        "word": "upset",
+        "pronunciation": "/ʌpˈset/",
+        "meaning": "속상한",
+        "example": "happy",
+        "translation": "She's upset about something."
+      },
+      {
+        "word": "disappointed",
+        "pronunciation": "/ˌdɪsəˈpɔɪntɪd/",
+        "meaning": "실망한",
+        "example": "pleased",
+        "translation": "I'm so disappointed."
+      },
+      {
+        "word": "depressed",
+        "pronunciation": "/dɪˈprest/",
+        "meaning": "우울한",
+        "example": "happy",
+        "translation": "I feel depressed lately."
+      },
+      {
+        "word": "miserable",
+        "pronunciation": "/ˈmɪzrəbl/",
+        "meaning": "비참한",
+        "example": "happy",
+        "translation": "I feel miserable."
+      },
+      {
+        "word": "lonely",
+        "pronunciation": "/ˈloʊnli/",
+        "meaning": "외로운",
+        "example": "-",
+        "translation": "I feel lonely sometimes."
+      },
+      {
+        "word": "nervous",
+        "pronunciation": "/ˈnɜːrvəs/",
+        "meaning": "긴장한",
+        "example": "calm",
+        "translation": "I'm nervous about tomorrow."
+      },
+      {
+        "word": "anxious",
+        "pronunciation": "/ˈæŋkʃəs/",
+        "meaning": "불안한",
+        "example": "calm",
+        "translation": "I feel anxious."
+      },
+      {
+        "word": "worried",
+        "pronunciation": "/ˈwɜːrid/",
+        "meaning": "걱정되는",
+        "example": "relaxed",
+        "translation": "I'm worried about you."
+      },
+      {
+        "word": "stressed",
+        "pronunciation": "/strest/",
+        "meaning": "스트레스 받은",
+        "example": "relaxed",
+        "translation": "I'm so stressed out."
+      },
+      {
+        "word": "tense",
+        "pronunciation": "/tens/",
+        "meaning": "긴장된",
+        "example": "relaxed",
+        "translation": "The atmosphere was tense."
+      },
+      {
+        "word": "scared",
+        "pronunciation": "/skerd/",
+        "meaning": "무서운",
+        "example": "brave",
+        "translation": "I'm scared of heights."
+      },
+      {
+        "word": "afraid",
+        "pronunciation": "/əˈfreɪd/",
+        "meaning": "두려운",
+        "example": "brave",
+        "translation": "Don't be afraid."
+      },
+      {
+        "word": "frightened",
+        "pronunciation": "/ˈfraɪtnd/",
+        "meaning": "겁먹은",
+        "example": "calm",
+        "translation": "The child was frightened."
+      },
+      {
+        "word": "terrified",
+        "pronunciation": "/ˈterəfaɪd/",
+        "meaning": "겁에 질린",
+        "example": "calm",
+        "translation": "I was terrified!"
+      },
+      {
+        "word": "shocked",
+        "pronunciation": "/ʃɑːkt/",
+        "meaning": "충격받은",
+        "example": "calm",
+        "translation": "I was shocked by the news."
+      },
+      {
+        "word": "surprised",
+        "pronunciation": "/sərˈpraɪzd/",
+        "meaning": "놀란",
+        "example": "-",
+        "translation": "I was surprised to see you."
+      },
+      {
+        "word": "amazed",
+        "pronunciation": "/əˈmeɪzd/",
+        "meaning": "놀란",
+        "example": "-",
+        "translation": "I was amazed by the show."
+      },
+      {
+        "word": "confused",
+        "pronunciation": "/kənˈfjuːzd/",
+        "meaning": "혼란스러운",
+        "example": "clear",
+        "translation": "I'm confused."
+      },
+      {
+        "word": "puzzled",
+        "pronunciation": "/ˈpʌzld/",
+        "meaning": "당혹한",
+        "example": "-",
+        "translation": "He looked puzzled."
+      },
+      {
+        "word": "bored",
+        "pronunciation": "/bɔːrd/",
+        "meaning": "지루한",
+        "example": "interested",
+        "translation": "I'm so bored."
+      },
+      {
+        "word": "tired",
+        "pronunciation": "/ˈtaɪərd/",
+        "meaning": "피곤한",
+        "example": "energetic",
+        "translation": "I'm tired today."
+      },
+      {
+        "word": "exhausted",
+        "pronunciation": "/ɪɡˈzɔːstɪd/",
+        "meaning": "지친",
+        "example": "energetic",
+        "translation": "I'm completely exhausted."
+      },
+      {
+        "word": "sleepy",
+        "pronunciation": "/ˈsliːpi/",
+        "meaning": "졸린",
+        "example": "awake",
+        "translation": "I feel sleepy."
+      },
+      {
+        "word": "awake",
+        "pronunciation": "/əˈweɪk/",
+        "meaning": "깨어 있는",
+        "example": "asleep",
+        "translation": "I'm still awake."
+      },
+      {
+        "word": "energetic",
+        "pronunciation": "/ˌenərˈdʒetɪk/",
+        "meaning": "활기찬",
+        "example": "tired",
+        "translation": "She's very energetic."
+      },
+      {
+        "word": "lively",
+        "pronunciation": "/ˈlaɪvli/",
+        "meaning": "활발한",
+        "example": "dull",
+        "translation": "The party was lively."
+      },
+      {
+        "word": "enthusiastic",
+        "pronunciation": "/ɪnˌθuːziˈæstɪk/",
+        "meaning": "열정적인",
+        "example": "indifferent",
+        "translation": "He's enthusiastic about sports."
+      },
+      {
+        "word": "passionate",
+        "pronunciation": "/ˈpæʃənət/",
+        "meaning": "열정적인",
+        "example": "apathetic",
+        "translation": "She's passionate about music."
+      },
+      {
+        "word": "jealous",
+        "pronunciation": "/ˈdʒeləs/",
+        "meaning": "질투하는",
+        "example": "-",
+        "translation": "Are you jealous?"
+      },
+      {
+        "word": "envious",
+        "pronunciation": "/ˈenviəs/",
+        "meaning": "부러워하는",
+        "example": "-",
+        "translation": "I'm envious of you."
+      },
+      {
+        "word": "embarrassed",
+        "pronunciation": "/ɪmˈbærəst/",
+        "meaning": "당혹스러운",
+        "example": "confident",
+        "translation": "I was so embarrassed."
+      },
+      {
+        "word": "ashamed",
+        "pronunciation": "/əˈʃeɪmd/",
+        "meaning": "부끄러운",
+        "example": "proud",
+        "translation": "I'm ashamed of myself."
+      },
+      {
+        "word": "guilty",
+        "pronunciation": "/ˈɡɪlti/",
+        "meaning": "죄책감을 느끼는",
+        "example": "innocent",
+        "translation": "I feel guilty about it."
+      },
+      {
+        "word": "hopeful",
+        "pronunciation": "/ˈhoʊpfl/",
+        "meaning": "희망적인",
+        "example": "hopeless",
+        "translation": "I'm hopeful about the future."
+      },
+      {
+        "word": "hopeless",
+        "pronunciation": "/ˈhoʊpləs/",
+        "meaning": "절망적인",
+        "example": "hopeful",
+        "translation": "The situation seems hopeless."
+      },
+      {
+        "word": "curious",
+        "pronunciation": "/ˈkjʊriəs/",
+        "meaning": "궁금한",
+        "example": "indifferent",
+        "translation": "I'm curious about that."
+      }
+    ]
+  },
+  {
+    "nameKo": "상태/조건",
+    "nameEn": "States/Conditions",
+    "words": [
+      {
+        "word": "good",
+        "pronunciation": "/ɡʊd/",
+        "meaning": "좋은",
+        "example": "bad",
+        "translation": "The food was good."
+      },
+      {
+        "word": "bad",
+        "pronunciation": "/bæd/",
+        "meaning": "나쁜",
+        "example": "good",
+        "translation": "That's bad news."
+      },
+      {
+        "word": "great",
+        "pronunciation": "/ɡreɪt/",
+        "meaning": "훌륭한",
+        "example": "terrible",
+        "translation": "You did a great job!"
+      },
+      {
+        "word": "excellent",
+        "pronunciation": "/ˈeksələnt/",
+        "meaning": "뛰어난",
+        "example": "terrible",
+        "translation": "The service was excellent."
+      },
+      {
+        "word": "wonderful",
+        "pronunciation": "/ˈwʌndərfl/",
+        "meaning": "멋진",
+        "example": "terrible",
+        "translation": "It was wonderful!"
+      },
+      {
+        "word": "amazing",
+        "pronunciation": "/əˈmeɪzɪŋ/",
+        "meaning": "놀라운",
+        "example": "terrible",
+        "translation": "That's amazing!"
+      },
+      {
+        "word": "fantastic",
+        "pronunciation": "/fænˈtæstɪk/",
+        "meaning": "환상적인",
+        "example": "terrible",
+        "translation": "The view is fantastic!"
+      },
+      {
+        "word": "awesome",
+        "pronunciation": "/ˈɔːsəm/",
+        "meaning": "굉장한",
+        "example": "awful",
+        "translation": "That's awesome!"
+      },
+      {
+        "word": "terrible",
+        "pronunciation": "/ˈterəbl/",
+        "meaning": "끔찍한",
+        "example": "wonderful",
+        "translation": "The weather is terrible."
+      },
+      {
+        "word": "awful",
+        "pronunciation": "/ˈɔːfl/",
+        "meaning": "끔찍한",
+        "example": "wonderful",
+        "translation": "That's awful!"
+      },
+      {
+        "word": "horrible",
+        "pronunciation": "/ˈhɔːrəbl/",
+        "meaning": "끔찍한",
+        "example": "wonderful",
+        "translation": "The food was horrible."
+      },
+      {
+        "word": "okay",
+        "pronunciation": "/oʊˈkeɪ/",
+        "meaning": "괜찮은",
+        "example": "-",
+        "translation": "Are you okay?"
+      },
+      {
+        "word": "fine",
+        "pronunciation": "/faɪn/",
+        "meaning": "괜찮은",
+        "example": "-",
+        "translation": "I'm fine, thanks."
+      },
+      {
+        "word": "perfect",
+        "pronunciation": "/ˈpɜːrfɪkt/",
+        "meaning": "완벽한",
+        "example": "imperfect",
+        "translation": "It's perfect!"
+      },
+      {
+        "word": "imperfect",
+        "pronunciation": "/ɪmˈpɜːrfɪkt/",
+        "meaning": "불완전한",
+        "example": "perfect",
+        "translation": "Nobody is imperfect."
+      },
+      {
+        "word": "normal",
+        "pronunciation": "/ˈnɔːrml/",
+        "meaning": "정상적인",
+        "example": "abnormal",
+        "translation": "That's normal."
+      },
+      {
+        "word": "abnormal",
+        "pronunciation": "/æbˈnɔːrml/",
+        "meaning": "비정상적인",
+        "example": "normal",
+        "translation": "His behavior is abnormal."
+      },
+      {
+        "word": "usual",
+        "pronunciation": "/ˈjuːʒuəl/",
+        "meaning": "보통의",
+        "example": "unusual",
+        "translation": "As usual, I woke up late."
+      },
+      {
+        "word": "unusual",
+        "pronunciation": "/ʌnˈjuːʒuəl/",
+        "meaning": "드문",
+        "example": "usual",
+        "translation": "That's unusual for her."
+      },
+      {
+        "word": "common",
+        "pronunciation": "/ˈkɑːmən/",
+        "meaning": "흔한",
+        "example": "rare",
+        "translation": "It's a common mistake."
+      },
+      {
+        "word": "rare",
+        "pronunciation": "/rer/",
+        "meaning": "드문",
+        "example": "common",
+        "translation": "This opportunity is rare."
+      },
+      {
+        "word": "typical",
+        "pronunciation": "/ˈtɪpɪkl/",
+        "meaning": "전형적인",
+        "example": "atypical",
+        "translation": "That's typical of him."
+      },
+      {
+        "word": "special",
+        "pronunciation": "/ˈspeʃl/",
+        "meaning": "특별한",
+        "example": "ordinary",
+        "translation": "You're special to me."
+      },
+      {
+        "word": "ordinary",
+        "pronunciation": "/ˈɔːrdneri/",
+        "meaning": "평범한",
+        "example": "special",
+        "translation": "It's just an ordinary day."
+      },
+      {
+        "word": "unique",
+        "pronunciation": "/juˈniːk/",
+        "meaning": "독특한",
+        "example": "common",
+        "translation": "Your style is unique."
+      },
+      {
+        "word": "original",
+        "pronunciation": "/əˈrɪdʒənl/",
+        "meaning": "독창적인",
+        "example": "copied",
+        "translation": "That's an original idea."
+      },
+      {
+        "word": "real",
+        "pronunciation": "/riːl/",
+        "meaning": "진짜의",
+        "example": "fake",
+        "translation": "Is this real?"
+      },
+      {
+        "word": "fake",
+        "pronunciation": "/feɪk/",
+        "meaning": "가짜의",
+        "example": "real",
+        "translation": "That bag is fake."
+      },
+      {
+        "word": "genuine",
+        "pronunciation": "/ˈdʒenjuɪn/",
+        "meaning": "진짜의",
+        "example": "fake",
+        "translation": "It's a genuine product."
+      },
+      {
+        "word": "true",
+        "pronunciation": "/truː/",
+        "meaning": "진실의",
+        "example": "false",
+        "translation": "Is it true?"
+      },
+      {
+        "word": "false",
+        "pronunciation": "/fɔːls/",
+        "meaning": "거짓의",
+        "example": "true",
+        "translation": "That's false information."
+      },
+      {
+        "word": "correct",
+        "pronunciation": "/kəˈrekt/",
+        "meaning": "맞는",
+        "example": "wrong",
+        "translation": "Your answer is correct."
+      },
+      {
+        "word": "wrong",
+        "pronunciation": "/rɔːŋ/",
+        "meaning": "틀린",
+        "example": "correct",
+        "translation": "You're wrong about that."
+      },
+      {
+        "word": "right",
+        "pronunciation": "/raɪt/",
+        "meaning": "옳은",
+        "example": "wrong",
+        "translation": "You're right!"
+      },
+      {
+        "word": "proper",
+        "pronunciation": "/ˈprɑːpər/",
+        "meaning": "적절한",
+        "example": "improper",
+        "translation": "Use proper grammar."
+      },
+      {
+        "word": "appropriate",
+        "pronunciation": "/əˈproʊpriət/",
+        "meaning": "적절한",
+        "example": "inappropriate",
+        "translation": "That's not appropriate."
+      },
+      {
+        "word": "suitable",
+        "pronunciation": "/ˈsuːtəbl/",
+        "meaning": "적합한",
+        "example": "unsuitable",
+        "translation": "Is this suitable?"
+      },
+      {
+        "word": "available",
+        "pronunciation": "/əˈveɪləbl/",
+        "meaning": "이용 가능한",
+        "example": "unavailable",
+        "translation": "Is this available?"
+      },
+      {
+        "word": "ready",
+        "pronunciation": "/ˈredi/",
+        "meaning": "준비된",
+        "example": "unprepared",
+        "translation": "Are you ready?"
+      },
+      {
+        "word": "prepared",
+        "pronunciation": "/prɪˈperd/",
+        "meaning": "준비된",
+        "example": "unprepared",
+        "translation": "I'm well prepared."
+      },
+      {
+        "word": "complete",
+        "pronunciation": "/kəmˈpliːt/",
+        "meaning": "완전한",
+        "example": "incomplete",
+        "translation": "The project is complete."
+      },
+      {
+        "word": "incomplete",
+        "pronunciation": "/ˌɪnkəmˈpliːt/",
+        "meaning": "불완전한",
+        "example": "complete",
+        "translation": "The form is incomplete."
+      },
+      {
+        "word": "broken",
+        "pronunciation": "/ˈbroʊkən/",
+        "meaning": "고장난",
+        "example": "fixed",
+        "translation": "My phone is broken."
+      },
+      {
+        "word": "damaged",
+        "pronunciation": "/ˈdæmɪdʒd/",
+        "meaning": "손상된",
+        "example": "intact",
+        "translation": "The package was damaged."
+      },
+      {
+        "word": "safe",
+        "pronunciation": "/seɪf/",
+        "meaning": "안전한",
+        "example": "dangerous",
+        "translation": "Is it safe here?"
+      },
+      {
+        "word": "dangerous",
+        "pronunciation": "/ˈdeɪndʒərəs/",
+        "meaning": "위험한",
+        "example": "safe",
+        "translation": "It's too dangerous."
+      },
+      {
+        "word": "risky",
+        "pronunciation": "/ˈrɪski/",
+        "meaning": "위험한",
+        "example": "safe",
+        "translation": "That's risky."
+      },
+      {
+        "word": "secure",
+        "pronunciation": "/sɪˈkjʊr/",
+        "meaning": "안전한",
+        "example": "insecure",
+        "translation": "Is this website secure?"
+      },
+      {
+        "word": "healthy",
+        "pronunciation": "/ˈhelθi/",
+        "meaning": "건강한",
+        "example": "unhealthy",
+        "translation": "Stay healthy."
+      },
+      {
+        "word": "sick",
+        "pronunciation": "/sɪk/",
+        "meaning": "아픈",
+        "example": "healthy",
+        "translation": "I feel sick."
+      }
+    ]
+  },
+  {
+    "nameKo": "시간/속도",
+    "nameEn": "Time/Speed",
+    "words": [
+      {
+        "word": "fast",
+        "pronunciation": "/fæst/",
+        "meaning": "빠른",
+        "example": "slow",
+        "translation": "This car is fast."
+      },
+      {
+        "word": "slow",
+        "pronunciation": "/sloʊ/",
+        "meaning": "느린",
+        "example": "fast",
+        "translation": "The internet is slow."
+      },
+      {
+        "word": "quick",
+        "pronunciation": "/kwɪk/",
+        "meaning": "빠른",
+        "example": "slow",
+        "translation": "Can I have a quick word?"
+      },
+      {
+        "word": "rapid",
+        "pronunciation": "/ˈræpɪd/",
+        "meaning": "급속한",
+        "example": "slow",
+        "translation": "There was rapid growth."
+      },
+      {
+        "word": "instant",
+        "pronunciation": "/ˈɪnstənt/",
+        "meaning": "즉각적인",
+        "example": "gradual",
+        "translation": "I need an instant reply."
+      },
+      {
+        "word": "immediate",
+        "pronunciation": "/ɪˈmiːdiət/",
+        "meaning": "즉각적인",
+        "example": "delayed",
+        "translation": "We need immediate action."
+      },
+      {
+        "word": "gradual",
+        "pronunciation": "/ˈɡrædʒuəl/",
+        "meaning": "점진적인",
+        "example": "sudden",
+        "translation": "It was a gradual change."
+      },
+      {
+        "word": "sudden",
+        "pronunciation": "/ˈsʌdn/",
+        "meaning": "갑작스러운",
+        "example": "gradual",
+        "translation": "It was a sudden decision."
+      },
+      {
+        "word": "early",
+        "pronunciation": "/ˈɜːrli/",
+        "meaning": "이른",
+        "example": "late",
+        "translation": "You're early today."
+      },
+      {
+        "word": "late",
+        "pronunciation": "/leɪt/",
+        "meaning": "늦은",
+        "example": "early",
+        "translation": "Sorry, I'm late."
+      },
+      {
+        "word": "recent",
+        "pronunciation": "/ˈriːsnt/",
+        "meaning": "최근의",
+        "example": "old",
+        "translation": "It's a recent photo."
+      },
+      {
+        "word": "current",
+        "pronunciation": "/ˈkɜːrənt/",
+        "meaning": "현재의",
+        "example": "former",
+        "translation": "What's your current job?"
+      },
+      {
+        "word": "former",
+        "pronunciation": "/ˈfɔːrmər/",
+        "meaning": "이전의",
+        "example": "current",
+        "translation": "He's my former boss."
+      },
+      {
+        "word": "previous",
+        "pronunciation": "/ˈpriːviəs/",
+        "meaning": "이전의",
+        "example": "next",
+        "translation": "What was your previous job?"
+      },
+      {
+        "word": "next",
+        "pronunciation": "/nekst/",
+        "meaning": "다음의",
+        "example": "previous",
+        "translation": "See you next week."
+      },
+      {
+        "word": "following",
+        "pronunciation": "/ˈfɑːloʊɪŋ/",
+        "meaning": "다음의",
+        "example": "previous",
+        "translation": "The following day was sunny."
+      },
+      {
+        "word": "future",
+        "pronunciation": "/ˈfjuːtʃər/",
+        "meaning": "미래의",
+        "example": "past",
+        "translation": "My future plans are unclear."
+      },
+      {
+        "word": "past",
+        "pronunciation": "/pæst/",
+        "meaning": "과거의",
+        "example": "future",
+        "translation": "Let go of the past."
+      },
+      {
+        "word": "present",
+        "pronunciation": "/ˈpreznt/",
+        "meaning": "현재의",
+        "example": "past",
+        "translation": "Focus on the present."
+      },
+      {
+        "word": "ancient",
+        "pronunciation": "/ˈeɪnʃənt/",
+        "meaning": "고대의",
+        "example": "modern",
+        "translation": "It's an ancient temple."
+      },
+      {
+        "word": "modern",
+        "pronunciation": "/ˈmɑːdərn/",
+        "meaning": "현대의",
+        "example": "ancient",
+        "translation": "I prefer modern design."
+      },
+      {
+        "word": "temporary",
+        "pronunciation": "/ˈtempəreri/",
+        "meaning": "일시적인",
+        "example": "permanent",
+        "translation": "It's a temporary solution."
+      },
+      {
+        "word": "permanent",
+        "pronunciation": "/ˈpɜːrmənənt/",
+        "meaning": "영구적인",
+        "example": "temporary",
+        "translation": "Is this permanent?"
+      },
+      {
+        "word": "brief",
+        "pronunciation": "/briːf/",
+        "meaning": "짧은",
+        "example": "long",
+        "translation": "I had a brief meeting."
+      },
+      {
+        "word": "constant",
+        "pronunciation": "/ˈkɑːnstənt/",
+        "meaning": "끊임없는",
+        "example": "occasional",
+        "translation": "There's constant noise."
+      },
+      {
+        "word": "frequent",
+        "pronunciation": "/ˈfriːkwənt/",
+        "meaning": "빈번한",
+        "example": "rare",
+        "translation": "Frequent exercise is good."
+      },
+      {
+        "word": "occasional",
+        "pronunciation": "/əˈkeɪʒnəl/",
+        "meaning": "가끔의",
+        "example": "frequent",
+        "translation": "I drink occasional coffee."
+      },
+      {
+        "word": "regular",
+        "pronunciation": "/ˈreɡjələr/",
+        "meaning": "정기적인",
+        "example": "irregular",
+        "translation": "I need regular check-ups."
+      },
+      {
+        "word": "irregular",
+        "pronunciation": "/ɪˈreɡjələr/",
+        "meaning": "불규칙한",
+        "example": "regular",
+        "translation": "My schedule is irregular."
+      },
+      {
+        "word": "daily",
+        "pronunciation": "/ˈdeɪli/",
+        "meaning": "매일의",
+        "example": "-",
+        "translation": "It's my daily routine."
+      },
+      {
+        "word": "weekly",
+        "pronunciation": "/ˈwiːkli/",
+        "meaning": "매주의",
+        "example": "-",
+        "translation": "We have weekly meetings."
+      },
+      {
+        "word": "monthly",
+        "pronunciation": "/ˈmʌnθli/",
+        "meaning": "매월의",
+        "example": "-",
+        "translation": "I pay monthly rent."
+      },
+      {
+        "word": "yearly",
+        "pronunciation": "/ˈjɪrli/",
+        "meaning": "매년의",
+        "example": "-",
+        "translation": "It's a yearly event."
+      },
+      {
+        "word": "annual",
+        "pronunciation": "/ˈænjuəl/",
+        "meaning": "연간의",
+        "example": "-",
+        "translation": "It's the annual conference."
+      },
+      {
+        "word": "eternal",
+        "pronunciation": "/ɪˈtɜːrnl/",
+        "meaning": "영원한",
+        "example": "temporary",
+        "translation": "Nothing is eternal."
+      }
+    ]
+  },
+  {
+    "nameKo": "질감/재질",
+    "nameEn": "Texture/Material",
+    "words": [
+      {
+        "word": "soft",
+        "pronunciation": "/sɔːft/",
+        "meaning": "부드러운",
+        "example": "hard",
+        "translation": "The pillow is soft."
+      },
+      {
+        "word": "hard",
+        "pronunciation": "/hɑːrd/",
+        "meaning": "딱딱한",
+        "example": "soft",
+        "translation": "This bed is too hard."
+      },
+      {
+        "word": "smooth",
+        "pronunciation": "/smuːð/",
+        "meaning": "매끄러운",
+        "example": "rough",
+        "translation": "Her skin is smooth."
+      },
+      {
+        "word": "rough",
+        "pronunciation": "/rʌf/",
+        "meaning": "거친",
+        "example": "smooth",
+        "translation": "The surface is rough."
+      },
+      {
+        "word": "sharp",
+        "pronunciation": "/ʃɑːrp/",
+        "meaning": "날카로운",
+        "example": "dull",
+        "translation": "Be careful, it's sharp."
+      },
+      {
+        "word": "blunt",
+        "pronunciation": "/blʌnt/",
+        "meaning": "무딘",
+        "example": "sharp",
+        "translation": "The knife is blunt."
+      },
+      {
+        "word": "wet",
+        "pronunciation": "/wet/",
+        "meaning": "젖은",
+        "example": "dry",
+        "translation": "My clothes are wet."
+      },
+      {
+        "word": "dry",
+        "pronunciation": "/draɪ/",
+        "meaning": "마른",
+        "example": "wet",
+        "translation": "The paint is dry."
+      },
+      {
+        "word": "damp",
+        "pronunciation": "/dæmp/",
+        "meaning": "축축한",
+        "example": "dry",
+        "translation": "The towel is damp."
+      },
+      {
+        "word": "moist",
+        "pronunciation": "/mɔɪst/",
+        "meaning": "촉촉한",
+        "example": "dry",
+        "translation": "Keep the soil moist."
+      },
+      {
+        "word": "sticky",
+        "pronunciation": "/ˈstɪki/",
+        "meaning": "끈적한",
+        "example": "-",
+        "translation": "My hands are sticky."
+      },
+      {
+        "word": "slippery",
+        "pronunciation": "/ˈslɪpəri/",
+        "meaning": "미끄러운",
+        "example": "rough",
+        "translation": "The floor is slippery."
+      },
+      {
+        "word": "solid",
+        "pronunciation": "/ˈsɑːlɪd/",
+        "meaning": "단단한",
+        "example": "liquid",
+        "translation": "It's solid gold."
+      },
+      {
+        "word": "liquid",
+        "pronunciation": "/ˈlɪkwɪd/",
+        "meaning": "액체의",
+        "example": "solid",
+        "translation": "It's a liquid detergent."
+      },
+      {
+        "word": "fluffy",
+        "pronunciation": "/ˈflʌfi/",
+        "meaning": "푹신한",
+        "example": "flat",
+        "translation": "The blanket is fluffy."
+      },
+      {
+        "word": "flat",
+        "pronunciation": "/flæt/",
+        "meaning": "평평한",
+        "example": "bumpy",
+        "translation": "The road is flat."
+      },
+      {
+        "word": "bumpy",
+        "pronunciation": "/ˈbʌmpi/",
+        "meaning": "울퉁불퉁한",
+        "example": "smooth",
+        "translation": "The road is bumpy."
+      },
+      {
+        "word": "crispy",
+        "pronunciation": "/ˈkrɪspi/",
+        "meaning": "바삭한",
+        "example": "soggy",
+        "translation": "I like crispy bacon."
+      },
+      {
+        "word": "crunchy",
+        "pronunciation": "/ˈkrʌntʃi/",
+        "meaning": "바삭한",
+        "example": "soft",
+        "translation": "These chips are crunchy."
+      },
+      {
+        "word": "chewy",
+        "pronunciation": "/ˈtʃuːi/",
+        "meaning": "쫄깃한",
+        "example": "-",
+        "translation": "The noodles are chewy."
+      },
+      {
+        "word": "tender",
+        "pronunciation": "/ˈtendər/",
+        "meaning": "부드러운",
+        "example": "tough",
+        "translation": "The meat is tender."
+      },
+      {
+        "word": "tough",
+        "pronunciation": "/tʌf/",
+        "meaning": "질긴",
+        "example": "tender",
+        "translation": "This steak is tough."
+      },
+      {
+        "word": "silky",
+        "pronunciation": "/ˈsɪlki/",
+        "meaning": "실크 같은",
+        "example": "rough",
+        "translation": "Her hair feels silky."
+      },
+      {
+        "word": "fuzzy",
+        "pronunciation": "/ˈfʌzi/",
+        "meaning": "보송보송한",
+        "example": "smooth",
+        "translation": "The peach is fuzzy."
+      },
+      {
+        "word": "wooden",
+        "pronunciation": "/ˈwʊdn/",
+        "meaning": "나무의",
+        "example": "-",
+        "translation": "It's a wooden table."
+      },
+      {
+        "word": "metal",
+        "pronunciation": "/ˈmetl/",
+        "meaning": "금속의",
+        "example": "-",
+        "translation": "It's a metal frame."
+      },
+      {
+        "word": "plastic",
+        "pronunciation": "/ˈplæstɪk/",
+        "meaning": "플라스틱의",
+        "example": "-",
+        "translation": "It's a plastic bag."
+      },
+      {
+        "word": "leather",
+        "pronunciation": "/ˈleðər/",
+        "meaning": "가죽의",
+        "example": "-",
+        "translation": "It's a leather jacket."
+      },
+      {
+        "word": "cotton",
+        "pronunciation": "/ˈkɑːtn/",
+        "meaning": "면의",
+        "example": "-",
+        "translation": "It's 100% cotton."
+      },
+      {
+        "word": "woolen",
+        "pronunciation": "/ˈwʊlən/",
+        "meaning": "양모의",
+        "example": "-",
+        "translation": "It's a woolen sweater."
+      }
+    ]
+  },
+  {
+    "nameKo": "맛/냄새",
+    "nameEn": "Taste/Smell",
+    "words": [
+      {
+        "word": "sweet",
+        "pronunciation": "/swiːt/",
+        "meaning": "달콤한",
+        "example": "bitter",
+        "translation": "This cake is sweet."
+      },
+      {
+        "word": "bitter",
+        "pronunciation": "/ˈbɪtər/",
+        "meaning": "쓴",
+        "example": "sweet",
+        "translation": "The coffee is bitter."
+      },
+      {
+        "word": "sour",
+        "pronunciation": "/ˈsaʊər/",
+        "meaning": "신",
+        "example": "sweet",
+        "translation": "This lemon is sour."
+      },
+      {
+        "word": "salty",
+        "pronunciation": "/ˈsɔːlti/",
+        "meaning": "짠",
+        "example": "bland",
+        "translation": "The soup is salty."
+      },
+      {
+        "word": "spicy",
+        "pronunciation": "/ˈspaɪsi/",
+        "meaning": "매운",
+        "example": "mild",
+        "translation": "I love spicy food."
+      },
+      {
+        "word": "mild",
+        "pronunciation": "/maɪld/",
+        "meaning": "순한",
+        "example": "spicy",
+        "translation": "It's mild curry."
+      },
+      {
+        "word": "hot",
+        "pronunciation": "/hɑːt/",
+        "meaning": "매운/뜨거운",
+        "example": "cold",
+        "translation": "This is too hot!"
+      },
+      {
+        "word": "bland",
+        "pronunciation": "/blænd/",
+        "meaning": "싱거운",
+        "example": "tasty",
+        "translation": "The food is bland."
+      },
+      {
+        "word": "tasty",
+        "pronunciation": "/ˈteɪsti/",
+        "meaning": "맛있는",
+        "example": "tasteless",
+        "translation": "This is really tasty!"
+      },
+      {
+        "word": "tasteless",
+        "pronunciation": "/ˈteɪstləs/",
+        "meaning": "맛없는",
+        "example": "tasty",
+        "translation": "The food is tasteless."
+      },
+      {
+        "word": "delicious",
+        "pronunciation": "/dɪˈlɪʃəs/",
+        "meaning": "맛있는",
+        "example": "disgusting",
+        "translation": "This is delicious!"
+      },
+      {
+        "word": "yummy",
+        "pronunciation": "/ˈjʌmi/",
+        "meaning": "맛있는",
+        "example": "yucky",
+        "translation": "Yummy!"
+      },
+      {
+        "word": "disgusting",
+        "pronunciation": "/dɪsˈɡʌstɪŋ/",
+        "meaning": "역겨운",
+        "example": "delicious",
+        "translation": "That smells disgusting."
+      },
+      {
+        "word": "savory",
+        "pronunciation": "/ˈseɪvəri/",
+        "meaning": "풍미있는",
+        "example": "bland",
+        "translation": "I prefer savory snacks."
+      },
+      {
+        "word": "rich",
+        "pronunciation": "/rɪtʃ/",
+        "meaning": "진한",
+        "example": "light",
+        "translation": "This sauce is rich."
+      },
+      {
+        "word": "light",
+        "pronunciation": "/laɪt/",
+        "meaning": "가벼운",
+        "example": "rich",
+        "translation": "I want something light."
+      },
+      {
+        "word": "creamy",
+        "pronunciation": "/ˈkriːmi/",
+        "meaning": "크리미한",
+        "example": "-",
+        "translation": "I love creamy pasta."
+      },
+      {
+        "word": "juicy",
+        "pronunciation": "/ˈdʒuːsi/",
+        "meaning": "즙이 많은",
+        "example": "dry",
+        "translation": "This orange is juicy."
+      },
+      {
+        "word": "ripe",
+        "pronunciation": "/raɪp/",
+        "meaning": "익은",
+        "example": "unripe",
+        "translation": "The banana is ripe."
+      },
+      {
+        "word": "unripe",
+        "pronunciation": "/ʌnˈraɪp/",
+        "meaning": "덜 익은",
+        "example": "ripe",
+        "translation": "This mango is unripe."
+      },
+      {
+        "word": "raw",
+        "pronunciation": "/rɔː/",
+        "meaning": "날것의",
+        "example": "cooked",
+        "translation": "I don't eat raw fish."
+      },
+      {
+        "word": "cooked",
+        "pronunciation": "/kʊkt/",
+        "meaning": "익힌",
+        "example": "raw",
+        "translation": "Is the chicken cooked?"
+      },
+      {
+        "word": "fresh",
+        "pronunciation": "/freʃ/",
+        "meaning": "신선한",
+        "example": "stale",
+        "translation": "The vegetables are fresh."
+      },
+      {
+        "word": "rotten",
+        "pronunciation": "/ˈrɑːtn/",
+        "meaning": "썩은",
+        "example": "fresh",
+        "translation": "The fruit is rotten."
+      },
+      {
+        "word": "fragrant",
+        "pronunciation": "/ˈfreɪɡrənt/",
+        "meaning": "향기로운",
+        "example": "smelly",
+        "translation": "The flowers are fragrant."
+      },
+      {
+        "word": "smelly",
+        "pronunciation": "/ˈsmeli/",
+        "meaning": "냄새나는",
+        "example": "fragrant",
+        "translation": "Something is smelly here."
+      },
+      {
+        "word": "stinky",
+        "pronunciation": "/ˈstɪŋki/",
+        "meaning": "악취나는",
+        "example": "fragrant",
+        "translation": "That cheese is stinky."
+      },
+      {
+        "word": "aromatic",
+        "pronunciation": "/ˌærəˈmætɪk/",
+        "meaning": "향기로운",
+        "example": "odorless",
+        "translation": "This coffee is aromatic."
+      },
+      {
+        "word": "odorless",
+        "pronunciation": "/ˈoʊdərləs/",
+        "meaning": "무취의",
+        "example": "smelly",
+        "translation": "The gas is odorless."
+      },
+      {
+        "word": "pungent",
+        "pronunciation": "/ˈpʌndʒənt/",
+        "meaning": "자극적인",
+        "example": "mild",
+        "translation": "Garlic has a pungent smell."
+      }
+    ]
+  },
+  {
+    "nameKo": "온도/기후",
+    "nameEn": "Temperature/Weather",
+    "words": [
+      {
+        "word": "hot",
+        "pronunciation": "/hɑːt/",
+        "meaning": "뜨거운",
+        "example": "cold",
+        "translation": "It's hot today."
+      },
+      {
+        "word": "cold",
+        "pronunciation": "/koʊld/",
+        "meaning": "차가운",
+        "example": "hot",
+        "translation": "It's cold outside."
+      },
+      {
+        "word": "warm",
+        "pronunciation": "/wɔːrm/",
+        "meaning": "따뜻한",
+        "example": "cool",
+        "translation": "It's nice and warm."
+      },
+      {
+        "word": "cool",
+        "pronunciation": "/kuːl/",
+        "meaning": "시원한",
+        "example": "warm",
+        "translation": "The breeze is cool."
+      },
+      {
+        "word": "freezing",
+        "pronunciation": "/ˈfriːzɪŋ/",
+        "meaning": "얼어붙는",
+        "example": "boiling",
+        "translation": "It's freezing cold!"
+      },
+      {
+        "word": "boiling",
+        "pronunciation": "/ˈbɔɪlɪŋ/",
+        "meaning": "끓는",
+        "example": "freezing",
+        "translation": "It's boiling hot!"
+      },
+      {
+        "word": "chilly",
+        "pronunciation": "/ˈtʃɪli/",
+        "meaning": "쌀쌀한",
+        "example": "warm",
+        "translation": "It's a bit chilly."
+      },
+      {
+        "word": "humid",
+        "pronunciation": "/ˈhjuːmɪd/",
+        "meaning": "습한",
+        "example": "dry",
+        "translation": "It's very humid today."
+      },
+      {
+        "word": "dry",
+        "pronunciation": "/draɪ/",
+        "meaning": "건조한",
+        "example": "humid",
+        "translation": "The air is dry."
+      },
+      {
+        "word": "sunny",
+        "pronunciation": "/ˈsʌni/",
+        "meaning": "화창한",
+        "example": "cloudy",
+        "translation": "It's a sunny day."
+      },
+      {
+        "word": "cloudy",
+        "pronunciation": "/ˈklaʊdi/",
+        "meaning": "흐린",
+        "example": "sunny",
+        "translation": "It's cloudy today."
+      },
+      {
+        "word": "rainy",
+        "pronunciation": "/ˈreɪni/",
+        "meaning": "비오는",
+        "example": "sunny",
+        "translation": "It's a rainy day."
+      },
+      {
+        "word": "snowy",
+        "pronunciation": "/ˈsnoʊi/",
+        "meaning": "눈오는",
+        "example": "-",
+        "translation": "It's a snowy day."
+      },
+      {
+        "word": "windy",
+        "pronunciation": "/ˈwɪndi/",
+        "meaning": "바람부는",
+        "example": "calm",
+        "translation": "It's very windy."
+      },
+      {
+        "word": "stormy",
+        "pronunciation": "/ˈstɔːrmi/",
+        "meaning": "폭풍의",
+        "example": "calm",
+        "translation": "It's a stormy night."
+      },
+      {
+        "word": "foggy",
+        "pronunciation": "/ˈfɔːɡi/",
+        "meaning": "안개낀",
+        "example": "clear",
+        "translation": "It's foggy this morning."
+      },
+      {
+        "word": "clear",
+        "pronunciation": "/klɪr/",
+        "meaning": "맑은",
+        "example": "cloudy",
+        "translation": "The sky is clear."
+      },
+      {
+        "word": "mild",
+        "pronunciation": "/maɪld/",
+        "meaning": "온화한",
+        "example": "harsh",
+        "translation": "The weather is mild."
+      },
+      {
+        "word": "harsh",
+        "pronunciation": "/hɑːrʃ/",
+        "meaning": "혹독한",
+        "example": "mild",
+        "translation": "The winter is harsh."
+      },
+      {
+        "word": "pleasant",
+        "pronunciation": "/ˈpleznt/",
+        "meaning": "쾌적한",
+        "example": "unpleasant",
+        "translation": "The weather is pleasant."
+      },
+      {
+        "word": "tropical",
+        "pronunciation": "/ˈtrɑːpɪkl/",
+        "meaning": "열대의",
+        "example": "arctic",
+        "translation": "It's a tropical climate."
+      },
+      {
+        "word": "arctic",
+        "pronunciation": "/ˈɑːrktɪk/",
+        "meaning": "극지방의",
+        "example": "tropical",
+        "translation": "It's arctic cold!"
+      },
+      {
+        "word": "seasonal",
+        "pronunciation": "/ˈsiːzənl/",
+        "meaning": "계절의",
+        "example": "-",
+        "translation": "It's a seasonal flu."
+      },
+      {
+        "word": "icy",
+        "pronunciation": "/ˈaɪsi/",
+        "meaning": "얼음의",
+        "example": "-",
+        "translation": "The road is icy."
+      },
+      {
+        "word": "frosty",
+        "pronunciation": "/ˈfrɔːsti/",
+        "meaning": "서리가 내린",
+        "example": "warm",
+        "translation": "It's a frosty morning."
+      }
+    ]
+  },
+  {
+    "nameKo": "거리/위치",
+    "nameEn": "Distance/Position",
+    "words": [
+      {
+        "word": "near",
+        "pronunciation": "/nɪr/",
+        "meaning": "가까운",
+        "example": "far",
+        "translation": "Is there a bank near here?"
+      },
+      {
+        "word": "far",
+        "pronunciation": "/fɑːr/",
+        "meaning": "먼",
+        "example": "near",
+        "translation": "It's too far to walk."
+      },
+      {
+        "word": "close",
+        "pronunciation": "/kloʊs/",
+        "meaning": "가까운",
+        "example": "far",
+        "translation": "The station is close."
+      },
+      {
+        "word": "distant",
+        "pronunciation": "/ˈdɪstənt/",
+        "meaning": "먼",
+        "example": "close",
+        "translation": "I have distant relatives."
+      },
+      {
+        "word": "nearby",
+        "pronunciation": "/ˈnɪrbaɪ/",
+        "meaning": "근처의",
+        "example": "faraway",
+        "translation": "There's a café nearby."
+      },
+      {
+        "word": "local",
+        "pronunciation": "/ˈloʊkl/",
+        "meaning": "지역의",
+        "example": "foreign",
+        "translation": "I buy local products."
+      },
+      {
+        "word": "foreign",
+        "pronunciation": "/ˈfɔːrən/",
+        "meaning": "외국의",
+        "example": "local",
+        "translation": "I like foreign movies."
+      },
+      {
+        "word": "domestic",
+        "pronunciation": "/dəˈmestɪk/",
+        "meaning": "국내의",
+        "example": "foreign",
+        "translation": "It's a domestic flight."
+      },
+      {
+        "word": "international",
+        "pronunciation": "/ˌɪntərˈnæʃnəl/",
+        "meaning": "국제적인",
+        "example": "domestic",
+        "translation": "It's an international company."
+      },
+      {
+        "word": "global",
+        "pronunciation": "/ˈɡloʊbl/",
+        "meaning": "세계적인",
+        "example": "local",
+        "translation": "It's a global issue."
+      },
+      {
+        "word": "central",
+        "pronunciation": "/ˈsentrəl/",
+        "meaning": "중앙의",
+        "example": "peripheral",
+        "translation": "It's in central Seoul."
+      },
+      {
+        "word": "outer",
+        "pronunciation": "/ˈaʊtər/",
+        "meaning": "외부의",
+        "example": "inner",
+        "translation": "The outer wall is damaged."
+      },
+      {
+        "word": "inner",
+        "pronunciation": "/ˈɪnər/",
+        "meaning": "내부의",
+        "example": "outer",
+        "translation": "Find your inner peace."
+      },
+      {
+        "word": "upper",
+        "pronunciation": "/ˈʌpər/",
+        "meaning": "위의",
+        "example": "lower",
+        "translation": "Go to the upper floor."
+      },
+      {
+        "word": "lower",
+        "pronunciation": "/ˈloʊər/",
+        "meaning": "아래의",
+        "example": "upper",
+        "translation": "Press the lower button."
+      },
+      {
+        "word": "top",
+        "pronunciation": "/tɑːp/",
+        "meaning": "꼭대기의",
+        "example": "bottom",
+        "translation": "It's on the top shelf."
+      },
+      {
+        "word": "bottom",
+        "pronunciation": "/ˈbɑːtəm/",
+        "meaning": "바닥의",
+        "example": "top",
+        "translation": "It's at the bottom."
+      },
+      {
+        "word": "front",
+        "pronunciation": "/frʌnt/",
+        "meaning": "앞의",
+        "example": "back",
+        "translation": "Sit in the front row."
+      },
+      {
+        "word": "back",
+        "pronunciation": "/bæk/",
+        "meaning": "뒤의",
+        "example": "front",
+        "translation": "I sat in the back."
+      },
+      {
+        "word": "left",
+        "pronunciation": "/left/",
+        "meaning": "왼쪽의",
+        "example": "right",
+        "translation": "Turn left here."
+      },
+      {
+        "word": "right",
+        "pronunciation": "/raɪt/",
+        "meaning": "오른쪽의",
+        "example": "left",
+        "translation": "It's on your right."
+      },
+      {
+        "word": "north",
+        "pronunciation": "/nɔːrθ/",
+        "meaning": "북쪽의",
+        "example": "south",
+        "translation": "Go north for 2km."
+      },
+      {
+        "word": "south",
+        "pronunciation": "/saʊθ/",
+        "meaning": "남쪽의",
+        "example": "north",
+        "translation": "The beach is to the south."
+      },
+      {
+        "word": "east",
+        "pronunciation": "/iːst/",
+        "meaning": "동쪽의",
+        "example": "west",
+        "translation": "The sun rises in the east."
+      },
+      {
+        "word": "west",
+        "pronunciation": "/west/",
+        "meaning": "서쪽의",
+        "example": "east",
+        "translation": "The sun sets in the west."
+      },
+      {
+        "word": "horizontal",
+        "pronunciation": "/ˌhɔːrɪˈzɑːntl/",
+        "meaning": "수평의",
+        "example": "vertical",
+        "translation": "Draw a horizontal line."
+      },
+      {
+        "word": "vertical",
+        "pronunciation": "/ˈvɜːrtɪkl/",
+        "meaning": "수직의",
+        "example": "horizontal",
+        "translation": "It's a vertical line."
+      },
+      {
+        "word": "parallel",
+        "pronunciation": "/ˈpærəlel/",
+        "meaning": "평행한",
+        "example": "perpendicular",
+        "translation": "The roads are parallel."
+      },
+      {
+        "word": "opposite",
+        "pronunciation": "/ˈɑːpəzɪt/",
+        "meaning": "반대의",
+        "example": "same",
+        "translation": "It's on the opposite side."
+      },
+      {
+        "word": "adjacent",
+        "pronunciation": "/əˈdʒeɪsnt/",
+        "meaning": "인접한",
+        "example": "distant",
+        "translation": "The rooms are adjacent."
+      }
+    ]
+  },
+  {
+    "nameKo": "난이도/중요성",
+    "nameEn": "Difficulty/Importance",
+    "words": [
+      {
+        "word": "easy",
+        "pronunciation": "/ˈiːzi/",
+        "meaning": "쉬운",
+        "example": "hard",
+        "translation": "This is easy."
+      },
+      {
+        "word": "hard",
+        "pronunciation": "/hɑːrd/",
+        "meaning": "어려운",
+        "example": "easy",
+        "translation": "The test was hard."
+      },
+      {
+        "word": "difficult",
+        "pronunciation": "/ˈdɪfɪkəlt/",
+        "meaning": "어려운",
+        "example": "easy",
+        "translation": "It's difficult to understand."
+      },
+      {
+        "word": "simple",
+        "pronunciation": "/ˈsɪmpl/",
+        "meaning": "간단한",
+        "example": "complex",
+        "translation": "Keep it simple."
+      },
+      {
+        "word": "complex",
+        "pronunciation": "/ˈkɑːmpleks/",
+        "meaning": "복잡한",
+        "example": "simple",
+        "translation": "It's a complex problem."
+      },
+      {
+        "word": "complicated",
+        "pronunciation": "/ˈkɑːmplɪkeɪtɪd/",
+        "meaning": "복잡한",
+        "example": "simple",
+        "translation": "The situation is complicated."
+      },
+      {
+        "word": "basic",
+        "pronunciation": "/ˈbeɪsɪk/",
+        "meaning": "기본적인",
+        "example": "advanced",
+        "translation": "Learn the basics first."
+      },
+      {
+        "word": "advanced",
+        "pronunciation": "/ədˈvænst/",
+        "meaning": "고급의",
+        "example": "basic",
+        "translation": "It's an advanced course."
+      },
+      {
+        "word": "elementary",
+        "pronunciation": "/ˌelɪˈmentri/",
+        "meaning": "초급의",
+        "example": "advanced",
+        "translation": "Start with elementary level."
+      },
+      {
+        "word": "intermediate",
+        "pronunciation": "/ˌɪntərˈmiːdiət/",
+        "meaning": "중급의",
+        "example": "-",
+        "translation": "I'm at intermediate level."
+      },
+      {
+        "word": "important",
+        "pronunciation": "/ɪmˈpɔːrtnt/",
+        "meaning": "중요한",
+        "example": "unimportant",
+        "translation": "This is important."
+      },
+      {
+        "word": "significant",
+        "pronunciation": "/sɪɡˈnɪfɪkənt/",
+        "meaning": "중요한",
+        "example": "insignificant",
+        "translation": "It's a significant change."
+      },
+      {
+        "word": "essential",
+        "pronunciation": "/ɪˈsenʃl/",
+        "meaning": "필수적인",
+        "example": "optional",
+        "translation": "It's essential for success."
+      },
+      {
+        "word": "necessary",
+        "pronunciation": "/ˈnesəseri/",
+        "meaning": "필요한",
+        "example": "unnecessary",
+        "translation": "Is this necessary?"
+      },
+      {
+        "word": "unnecessary",
+        "pronunciation": "/ʌnˈnesəseri/",
+        "meaning": "불필요한",
+        "example": "necessary",
+        "translation": "It's unnecessary work."
+      },
+      {
+        "word": "optional",
+        "pronunciation": "/ˈɑːpʃənl/",
+        "meaning": "선택적인",
+        "example": "required",
+        "translation": "It's optional."
+      },
+      {
+        "word": "required",
+        "pronunciation": "/rɪˈkwaɪrd/",
+        "meaning": "필수의",
+        "example": "optional",
+        "translation": "It's required by law."
+      },
+      {
+        "word": "main",
+        "pronunciation": "/meɪn/",
+        "meaning": "주요한",
+        "example": "minor",
+        "translation": "What's the main reason?"
+      },
+      {
+        "word": "major",
+        "pronunciation": "/ˈmeɪdʒər/",
+        "meaning": "주요한",
+        "example": "minor",
+        "translation": "It's a major issue."
+      },
+      {
+        "word": "minor",
+        "pronunciation": "/ˈmaɪnər/",
+        "meaning": "사소한",
+        "example": "major",
+        "translation": "It's a minor problem."
+      },
+      {
+        "word": "primary",
+        "pronunciation": "/ˈpraɪmeri/",
+        "meaning": "주요한",
+        "example": "secondary",
+        "translation": "What's your primary goal?"
+      },
+      {
+        "word": "secondary",
+        "pronunciation": "/ˈsekənderi/",
+        "meaning": "부차적인",
+        "example": "primary",
+        "translation": "It's secondary importance."
+      },
+      {
+        "word": "critical",
+        "pronunciation": "/ˈkrɪtɪkl/",
+        "meaning": "중대한",
+        "example": "trivial",
+        "translation": "It's a critical moment."
+      },
+      {
+        "word": "crucial",
+        "pronunciation": "/ˈkruːʃl/",
+        "meaning": "결정적인",
+        "example": "trivial",
+        "translation": "Your support is crucial."
+      },
+      {
+        "word": "vital",
+        "pronunciation": "/ˈvaɪtl/",
+        "meaning": "필수적인",
+        "example": "trivial",
+        "translation": "It's vital information."
+      },
+      {
+        "word": "trivial",
+        "pronunciation": "/ˈtrɪviəl/",
+        "meaning": "사소한",
+        "example": "important",
+        "translation": "It's a trivial matter."
+      },
+      {
+        "word": "valuable",
+        "pronunciation": "/ˈvæljuəbl/",
+        "meaning": "가치있는",
+        "example": "worthless",
+        "translation": "It's valuable advice."
+      },
+      {
+        "word": "worthless",
+        "pronunciation": "/ˈwɜːrθləs/",
+        "meaning": "무가치한",
+        "example": "valuable",
+        "translation": "This is worthless."
+      },
+      {
+        "word": "useful",
+        "pronunciation": "/ˈjuːsfl/",
+        "meaning": "유용한",
+        "example": "useless",
+        "translation": "This app is useful."
+      },
+      {
+        "word": "useless",
+        "pronunciation": "/ˈjuːsləs/",
+        "meaning": "쓸모없는",
+        "example": "useful",
+        "translation": "This is useless."
+      },
+      {
+        "word": "helpful",
+        "pronunciation": "/ˈhelpfl/",
+        "meaning": "도움이 되는",
+        "example": "unhelpful",
+        "translation": "That's helpful, thanks!"
+      },
+      {
+        "word": "practical",
+        "pronunciation": "/ˈpræktɪkl/",
+        "meaning": "실용적인",
+        "example": "impractical",
+        "translation": "It's a practical solution."
+      },
+      {
+        "word": "effective",
+        "pronunciation": "/ɪˈfektɪv/",
+        "meaning": "효과적인",
+        "example": "ineffective",
+        "translation": "It's an effective method."
+      },
+      {
+        "word": "efficient",
+        "pronunciation": "/ɪˈfɪʃnt/",
+        "meaning": "효율적인",
+        "example": "inefficient",
+        "translation": "She's very efficient."
+      },
+      {
+        "word": "productive",
+        "pronunciation": "/prəˈdʌktɪv/",
+        "meaning": "생산적인",
+        "example": "unproductive",
+        "translation": "It was a productive day."
+      }
+    ]
+  },
+  {
+    "nameKo": "가격/가치",
+    "nameEn": "Price/Value",
+    "words": [
+      {
+        "word": "cheap",
+        "pronunciation": "/tʃiːp/",
+        "meaning": "싼",
+        "example": "expensive",
+        "translation": "It's really cheap."
+      },
+      {
+        "word": "expensive",
+        "pronunciation": "/ɪkˈspensɪv/",
+        "meaning": "비싼",
+        "example": "cheap",
+        "translation": "This is too expensive."
+      },
+      {
+        "word": "affordable",
+        "pronunciation": "/əˈfɔːrdəbl/",
+        "meaning": "알맞은 가격의",
+        "example": "unaffordable",
+        "translation": "It's affordable for students."
+      },
+      {
+        "word": "costly",
+        "pronunciation": "/ˈkɔːstli/",
+        "meaning": "비싼",
+        "example": "cheap",
+        "translation": "It was a costly mistake."
+      },
+      {
+        "word": "pricey",
+        "pronunciation": "/ˈpraɪsi/",
+        "meaning": "비싼",
+        "example": "cheap",
+        "translation": "This place is pricey."
+      },
+      {
+        "word": "free",
+        "pronunciation": "/friː/",
+        "meaning": "무료의",
+        "example": "paid",
+        "translation": "It's free!"
+      },
+      {
+        "word": "overpriced",
+        "pronunciation": "/ˌoʊvərˈpraɪst/",
+        "meaning": "비싼",
+        "example": "underpriced",
+        "translation": "The hotel was overpriced."
+      },
+      {
+        "word": "reasonable",
+        "pronunciation": "/ˈriːznəbl/",
+        "meaning": "합리적인",
+        "example": "unreasonable",
+        "translation": "The price is reasonable."
+      },
+      {
+        "word": "economical",
+        "pronunciation": "/ˌiːkəˈnɑːmɪkl/",
+        "meaning": "경제적인",
+        "example": "wasteful",
+        "translation": "This car is economical."
+      },
+      {
+        "word": "budget",
+        "pronunciation": "/ˈbʌdʒɪt/",
+        "meaning": "저렴한",
+        "example": "luxury",
+        "translation": "It's a budget hotel."
+      },
+      {
+        "word": "luxury",
+        "pronunciation": "/ˈlʌkʃəri/",
+        "meaning": "호화로운",
+        "example": "budget",
+        "translation": "It's a luxury brand."
+      },
+      {
+        "word": "premium",
+        "pronunciation": "/ˈpriːmiəm/",
+        "meaning": "프리미엄의",
+        "example": "basic",
+        "translation": "It's a premium service."
+      },
+      {
+        "word": "rich",
+        "pronunciation": "/rɪtʃ/",
+        "meaning": "부유한",
+        "example": "poor",
+        "translation": "He's very rich."
+      },
+      {
+        "word": "poor",
+        "pronunciation": "/pʊr/",
+        "meaning": "가난한",
+        "example": "rich",
+        "translation": "They're very poor."
+      },
+      {
+        "word": "wealthy",
+        "pronunciation": "/ˈwelθi/",
+        "meaning": "부유한",
+        "example": "poor",
+        "translation": "She's wealthy."
+      },
+      {
+        "word": "profitable",
+        "pronunciation": "/ˈprɑːfɪtəbl/",
+        "meaning": "수익성 있는",
+        "example": "unprofitable",
+        "translation": "It's a profitable business."
+      },
+      {
+        "word": "worth",
+        "pronunciation": "/wɜːrθ/",
+        "meaning": "가치있는",
+        "example": "worthless",
+        "translation": "It's worth trying."
+      },
+      {
+        "word": "priceless",
+        "pronunciation": "/ˈpraɪsləs/",
+        "meaning": "값을 매길 수 없는",
+        "example": "worthless",
+        "translation": "The painting is priceless."
+      },
+      {
+        "word": "financial",
+        "pronunciation": "/faɪˈnænʃl/",
+        "meaning": "재정의",
+        "example": "-",
+        "translation": "I have financial problems."
+      },
+      {
+        "word": "economic",
+        "pronunciation": "/ˌiːkəˈnɑːmɪk/",
+        "meaning": "경제의",
+        "example": "-",
+        "translation": "It's an economic crisis."
+      },
+      {
+        "word": "monetary",
+        "pronunciation": "/ˈmɑːnɪteri/",
+        "meaning": "금전의",
+        "example": "-",
+        "translation": "Monetary support is needed."
+      },
+      {
+        "word": "commercial",
+        "pronunciation": "/kəˈmɜːrʃl/",
+        "meaning": "상업의",
+        "example": "-",
+        "translation": "It's for commercial use."
+      },
+      {
+        "word": "retail",
+        "pronunciation": "/ˈriːteɪl/",
+        "meaning": "소매의",
+        "example": "wholesale",
+        "translation": "It's retail price."
+      },
+      {
+        "word": "wholesale",
+        "pronunciation": "/ˈhoʊlseɪl/",
+        "meaning": "도매의",
+        "example": "retail",
+        "translation": "I buy wholesale."
+      },
+      {
+        "word": "discount",
+        "pronunciation": "/ˈdɪskaʊnt/",
+        "meaning": "할인된",
+        "example": "-",
+        "translation": "Is there a discount?"
+      }
+    ]
+  },
+  {
+    "nameKo": "소리",
+    "nameEn": "Sound",
+    "words": [
+      {
+        "word": "loud",
+        "pronunciation": "/laʊd/",
+        "meaning": "큰 소리의",
+        "example": "quiet",
+        "translation": "The music is too loud."
+      },
+      {
+        "word": "quiet",
+        "pronunciation": "/ˈkwaɪət/",
+        "meaning": "조용한",
+        "example": "loud",
+        "translation": "Please be quiet."
+      },
+      {
+        "word": "silent",
+        "pronunciation": "/ˈsaɪlənt/",
+        "meaning": "침묵의",
+        "example": "noisy",
+        "translation": "The house was silent."
+      },
+      {
+        "word": "noisy",
+        "pronunciation": "/ˈnɔɪzi/",
+        "meaning": "시끄러운",
+        "example": "quiet",
+        "translation": "It's too noisy here."
+      },
+      {
+        "word": "soft",
+        "pronunciation": "/sɔːft/",
+        "meaning": "부드러운",
+        "example": "loud",
+        "translation": "Speak in a soft voice."
+      },
+      {
+        "word": "harsh",
+        "pronunciation": "/hɑːrʃ/",
+        "meaning": "거친",
+        "example": "soft",
+        "translation": "The sound is harsh."
+      },
+      {
+        "word": "muffled",
+        "pronunciation": "/ˈmʌfld/",
+        "meaning": "둔탁한",
+        "example": "clear",
+        "translation": "I heard muffled voices."
+      },
+      {
+        "word": "clear",
+        "pronunciation": "/klɪr/",
+        "meaning": "선명한",
+        "example": "muffled",
+        "translation": "The sound is clear."
+      },
+      {
+        "word": "sharp",
+        "pronunciation": "/ʃɑːrp/",
+        "meaning": "날카로운",
+        "example": "dull",
+        "translation": "I heard a sharp noise."
+      },
+      {
+        "word": "dull",
+        "pronunciation": "/dʌl/",
+        "meaning": "둔한",
+        "example": "sharp",
+        "translation": "It made a dull sound."
+      },
+      {
+        "word": "high-pitched",
+        "pronunciation": "/haɪ pɪtʃt/",
+        "meaning": "높은음의",
+        "example": "low-pitched",
+        "translation": "She has a high-pitched voice."
+      },
+      {
+        "word": "low-pitched",
+        "pronunciation": "/loʊ pɪtʃt/",
+        "meaning": "낮은음의",
+        "example": "high-pitched",
+        "translation": "He has a low-pitched voice."
+      },
+      {
+        "word": "musical",
+        "pronunciation": "/ˈmjuːzɪkl/",
+        "meaning": "음악적인",
+        "example": "-",
+        "translation": "She has musical talent."
+      },
+      {
+        "word": "rhythmic",
+        "pronunciation": "/ˈrɪðmɪk/",
+        "meaning": "리드미컬한",
+        "example": "-",
+        "translation": "The beat is rhythmic."
+      },
+      {
+        "word": "melodic",
+        "pronunciation": "/məˈlɑːdɪk/",
+        "meaning": "멜로디의",
+        "example": "-",
+        "translation": "The song is melodic."
+      },
+      {
+        "word": "acoustic",
+        "pronunciation": "/əˈkuːstɪk/",
+        "meaning": "음향의",
+        "example": "-",
+        "translation": "I prefer acoustic guitar."
+      },
+      {
+        "word": "audible",
+        "pronunciation": "/ˈɔːdəbl/",
+        "meaning": "들리는",
+        "example": "inaudible",
+        "translation": "It's barely audible."
+      },
+      {
+        "word": "inaudible",
+        "pronunciation": "/ɪnˈɔːdəbl/",
+        "meaning": "안 들리는",
+        "example": "audible",
+        "translation": "The sound is inaudible."
+      },
+      {
+        "word": "deafening",
+        "pronunciation": "/ˈdefnɪŋ/",
+        "meaning": "귀청이 터질 듯한",
+        "example": "quiet",
+        "translation": "The applause was deafening."
+      },
+      {
+        "word": "piercing",
+        "pronunciation": "/ˈpɪrsɪŋ/",
+        "meaning": "찌르는 듯한",
+        "example": "soft",
+        "translation": "She let out a piercing scream."
+      }
+    ]
+  },
+  {
+    "nameKo": "기타 유용한 형용사",
+    "nameEn": "Other Useful Adjectives",
+    "words": [
+      {
+        "word": "public",
+        "pronunciation": "/ˈpʌblɪk/",
+        "meaning": "공공의",
+        "example": "private",
+        "translation": "It's a public park."
+      },
+      {
+        "word": "private",
+        "pronunciation": "/ˈpraɪvət/",
+        "meaning": "사적인",
+        "example": "public",
+        "translation": "It's a private matter."
+      },
+      {
+        "word": "official",
+        "pronunciation": "/əˈfɪʃl/",
+        "meaning": "공식적인",
+        "example": "unofficial",
+        "translation": "It's the official announcement."
+      },
+      {
+        "word": "legal",
+        "pronunciation": "/ˈliːɡl/",
+        "meaning": "합법적인",
+        "example": "illegal",
+        "translation": "Is this legal?"
+      },
+      {
+        "word": "illegal",
+        "pronunciation": "/ɪˈliːɡl/",
+        "meaning": "불법적인",
+        "example": "legal",
+        "translation": "That's illegal."
+      },
+      {
+        "word": "political",
+        "pronunciation": "/pəˈlɪtɪkl/",
+        "meaning": "정치적인",
+        "example": "-",
+        "translation": "It's a political issue."
+      },
+      {
+        "word": "social",
+        "pronunciation": "/ˈsoʊʃl/",
+        "meaning": "사회적인",
+        "example": "-",
+        "translation": "It's a social problem."
+      },
+      {
+        "word": "cultural",
+        "pronunciation": "/ˈkʌltʃərəl/",
+        "meaning": "문화적인",
+        "example": "-",
+        "translation": "It's a cultural difference."
+      },
+      {
+        "word": "physical",
+        "pronunciation": "/ˈfɪzɪkl/",
+        "meaning": "신체적인",
+        "example": "mental",
+        "translation": "I need physical exercise."
+      },
+      {
+        "word": "mental",
+        "pronunciation": "/ˈmentl/",
+        "meaning": "정신적인",
+        "example": "physical",
+        "translation": "Mental health is important."
+      },
+      {
+        "word": "emotional",
+        "pronunciation": "/ɪˈmoʊʃənl/",
+        "meaning": "감정적인",
+        "example": "rational",
+        "translation": "Don't be so emotional."
+      },
+      {
+        "word": "rational",
+        "pronunciation": "/ˈræʃnəl/",
+        "meaning": "이성적인",
+        "example": "emotional",
+        "translation": "Be rational about this."
+      },
+      {
+        "word": "logical",
+        "pronunciation": "/ˈlɑːdʒɪkl/",
+        "meaning": "논리적인",
+        "example": "illogical",
+        "translation": "That's logical."
+      },
+      {
+        "word": "scientific",
+        "pronunciation": "/ˌsaɪənˈtɪfɪk/",
+        "meaning": "과학적인",
+        "example": "-",
+        "translation": "It's a scientific fact."
+      },
+      {
+        "word": "technical",
+        "pronunciation": "/ˈteknɪkl/",
+        "meaning": "기술적인",
+        "example": "-",
+        "translation": "It's a technical problem."
+      },
+      {
+        "word": "digital",
+        "pronunciation": "/ˈdɪdʒɪtl/",
+        "meaning": "디지털의",
+        "example": "analog",
+        "translation": "We live in a digital age."
+      },
+      {
+        "word": "online",
+        "pronunciation": "/ˈɔːnlaɪn/",
+        "meaning": "온라인의",
+        "example": "offline",
+        "translation": "I took an online course."
+      },
+      {
+        "word": "offline",
+        "pronunciation": "/ˈɔːflaɪn/",
+        "meaning": "오프라인의",
+        "example": "online",
+        "translation": "Let's meet offline."
+      },
+      {
+        "word": "virtual",
+        "pronunciation": "/ˈvɜːrtʃuəl/",
+        "meaning": "가상의",
+        "example": "real",
+        "translation": "It's a virtual meeting."
+      },
+      {
+        "word": "automatic",
+        "pronunciation": "/ˌɔːtəˈmætɪk/",
+        "meaning": "자동의",
+        "example": "manual",
+        "translation": "It's automatic."
+      },
+      {
+        "word": "manual",
+        "pronunciation": "/ˈmænjuəl/",
+        "meaning": "수동의",
+        "example": "automatic",
+        "translation": "It's a manual car."
+      },
+      {
+        "word": "electric",
+        "pronunciation": "/ɪˈlektrɪk/",
+        "meaning": "전기의",
+        "example": "-",
+        "translation": "It's an electric car."
+      },
+      {
+        "word": "electronic",
+        "pronunciation": "/ɪˌlekˈtrɑːnɪk/",
+        "meaning": "전자의",
+        "example": "-",
+        "translation": "I love electronic music."
+      },
+      {
+        "word": "wireless",
+        "pronunciation": "/ˈwaɪərləs/",
+        "meaning": "무선의",
+        "example": "wired",
+        "translation": "I have wireless earbuds."
+      },
+      {
+        "word": "portable",
+        "pronunciation": "/ˈpɔːrtəbl/",
+        "meaning": "휴대용의",
+        "example": "stationary",
+        "translation": "It's a portable charger."
+      },
+      {
+        "word": "mobile",
+        "pronunciation": "/ˈmoʊbl/",
+        "meaning": "이동식의",
+        "example": "fixed",
+        "translation": "I use mobile banking."
+      },
+      {
+        "word": "fixed",
+        "pronunciation": "/fɪkst/",
+        "meaning": "고정된",
+        "example": "mobile",
+        "translation": "The price is fixed."
+      },
+      {
+        "word": "adjustable",
+        "pronunciation": "/əˈdʒʌstəbl/",
+        "meaning": "조절 가능한",
+        "example": "fixed",
+        "translation": "The chair is adjustable."
+      },
+      {
+        "word": "removable",
+        "pronunciation": "/rɪˈmuːvəbl/",
+        "meaning": "분리 가능한",
+        "example": "fixed",
+        "translation": "The cover is removable."
+      },
+      {
+        "word": "reusable",
+        "pronunciation": "/riːˈjuːzəbl/",
+        "meaning": "재사용 가능한",
+        "example": "disposable",
+        "translation": "Use reusable bags."
+      },
+      {
+        "word": "disposable",
+        "pronunciation": "/dɪˈspoʊzəbl/",
+        "meaning": "일회용의",
+        "example": "reusable",
+        "translation": "Don't use disposable cups."
+      },
+      {
+        "word": "recyclable",
+        "pronunciation": "/riːˈsaɪkləbl/",
+        "meaning": "재활용 가능한",
+        "example": "-",
+        "translation": "This is recyclable."
+      },
+      {
+        "word": "natural",
+        "pronunciation": "/ˈnætʃrəl/",
+        "meaning": "자연의",
+        "example": "artificial",
+        "translation": "I prefer natural ingredients."
+      },
+      {
+        "word": "artificial",
+        "pronunciation": "/ˌɑːrtɪˈfɪʃl/",
+        "meaning": "인공의",
+        "example": "natural",
+        "translation": "It's artificial intelligence."
+      },
+      {
+        "word": "organic",
+        "pronunciation": "/ɔːrˈɡænɪk/",
+        "meaning": "유기농의",
+        "example": "synthetic",
+        "translation": "I eat organic food."
+      },
+      {
+        "word": "synthetic",
+        "pronunciation": "/sɪnˈθetɪk/",
+        "meaning": "합성의",
+        "example": "natural",
+        "translation": "It's made of synthetic material."
+      },
+      {
+        "word": "environmental",
+        "pronunciation": "/ɪnˌvaɪrənˈmentl/",
+        "meaning": "환경의",
+        "example": "-",
+        "translation": "It's an environmental issue."
+      },
+      {
+        "word": "ecological",
+        "pronunciation": "/ˌiːkəˈlɑːdʒɪkl/",
+        "meaning": "생태의",
+        "example": "-",
+        "translation": "It's ecological damage."
+      },
+      {
+        "word": "sustainable",
+        "pronunciation": "/səˈsteɪnəbl/",
+        "meaning": "지속 가능한",
+        "example": "unsustainable",
+        "translation": "We need sustainable energy."
+      },
+      {
+        "word": "renewable",
+        "pronunciation": "/rɪˈnuːəbl/",
+        "meaning": "재생 가능한",
+        "example": "nonrenewable",
+        "translation": "Use renewable energy."
+      },
+      {
+        "word": "alive",
+        "pronunciation": "/əˈlaɪv/",
+        "meaning": "살아있는",
+        "example": "dead",
+        "translation": "He's still alive!"
+      },
+      {
+        "word": "dead",
+        "pronunciation": "/ded/",
+        "meaning": "죽은",
+        "example": "alive",
+        "translation": "My phone is dead."
+      },
+      {
+        "word": "active",
+        "pronunciation": "/ˈæktɪv/",
+        "meaning": "활동적인",
+        "example": "inactive",
+        "translation": "Stay active."
+      },
+      {
+        "word": "inactive",
+        "pronunciation": "/ɪnˈæktɪv/",
+        "meaning": "비활동적인",
+        "example": "active",
+        "translation": "The account is inactive."
+      },
+      {
+        "word": "busy",
+        "pronunciation": "/ˈbɪzi/",
+        "meaning": "바쁜",
+        "example": "free",
+        "translation": "I'm busy right now."
+      },
+      {
+        "word": "free",
+        "pronunciation": "/friː/",
+        "meaning": "자유로운",
+        "example": "busy",
+        "translation": "Are you free tomorrow?"
+      },
+      {
+        "word": "popular",
+        "pronunciation": "/ˈpɑːpjələr/",
+        "meaning": "인기있는",
+        "example": "unpopular",
+        "translation": "This song is popular."
+      },
+      {
+        "word": "famous",
+        "pronunciation": "/ˈfeɪməs/",
+        "meaning": "유명한",
+        "example": "unknown",
+        "translation": "He's famous worldwide."
+      },
+      {
+        "word": "unknown",
+        "pronunciation": "/ʌnˈnoʊn/",
+        "meaning": "알려지지 않은",
+        "example": "known",
+        "translation": "The cause is unknown."
+      },
+      {
+        "word": "similar",
+        "pronunciation": "/ˈsɪmələr/",
+        "meaning": "비슷한",
+        "example": "different",
+        "translation": "We have similar interests."
+      },
+      {
+        "word": "different",
+        "pronunciation": "/ˈdɪfrənt/",
+        "meaning": "다른",
+        "example": "similar",
+        "translation": "We're all different."
+      },
+      {
+        "word": "same",
+        "pronunciation": "/seɪm/",
+        "meaning": "같은",
+        "example": "different",
+        "translation": "We have the same taste."
+      },
+      {
+        "word": "equal",
+        "pronunciation": "/ˈiːkwəl/",
+        "meaning": "동등한",
+        "example": "unequal",
+        "translation": "We're all equal."
+      },
+      {
+        "word": "exact",
+        "pronunciation": "/ɪɡˈzækt/",
+        "meaning": "정확한",
+        "example": "approximate",
+        "translation": "What's the exact time?"
+      },
+      {
+        "word": "approximate",
+        "pronunciation": "/əˈprɑːksɪmət/",
+        "meaning": "대략적인",
+        "example": "exact",
+        "translation": "What's the approximate cost?"
+      },
+      {
+        "word": "accurate",
+        "pronunciation": "/ˈækjərət/",
+        "meaning": "정확한",
+        "example": "inaccurate",
+        "translation": "Is this accurate?"
+      },
+      {
+        "word": "precise",
+        "pronunciation": "/prɪˈsaɪs/",
+        "meaning": "정밀한",
+        "example": "imprecise",
+        "translation": "Be more precise."
+      },
+      {
+        "word": "specific",
+        "pronunciation": "/spəˈsɪfɪk/",
+        "meaning": "구체적인",
+        "example": "general",
+        "translation": "Be more specific."
+      },
+      {
+        "word": "general",
+        "pronunciation": "/ˈdʒenrəl/",
+        "meaning": "일반적인",
+        "example": "specific",
+        "translation": "In general, I agree."
+      },
+      {
+        "word": "entire",
+        "pronunciation": "/ɪnˈtaɪr/",
+        "meaning": "전체의",
+        "example": "partial",
+        "translation": "I ate the entire cake."
+      },
+      {
+        "word": "individual",
+        "pronunciation": "/ˌɪndɪˈvɪdʒuəl/",
+        "meaning": "개인의",
+        "example": "collective",
+        "translation": "It's an individual choice."
+      },
+      {
+        "word": "collective",
+        "pronunciation": "/kəˈlektɪv/",
+        "meaning": "집단의",
+        "example": "individual",
+        "translation": "It's a collective effort."
+      },
+      {
+        "word": "mutual",
+        "pronunciation": "/ˈmjuːtʃuəl/",
+        "meaning": "상호의",
+        "example": "one-sided",
+        "translation": "It's mutual respect."
+      },
+      {
+        "word": "separate",
+        "pronunciation": "/ˈseprət/",
+        "meaning": "별개의",
+        "example": "combined",
+        "translation": "Keep them separate."
+      },
+      {
+        "word": "joint",
+        "pronunciation": "/dʒɔɪnt/",
+        "meaning": "공동의",
+        "example": "separate",
+        "translation": "It's a joint project."
+      }
+    ]
+  }
+]

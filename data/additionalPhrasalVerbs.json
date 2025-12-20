@@ -1,0 +1,1042 @@
+[
+  {
+    "name": "일상생활 구동사",
+    "subCategories": [
+      {
+        "name": "일상 활동",
+        "phrasalVerbs": [
+          {
+            "phrase": "wake up",
+            "meaning": "일어나다",
+            "example": "I wake up at 6 AM every day.",
+            "translation": "매일 아침 6시에 일어나요."
+          },
+          {
+            "phrase": "get up",
+            "meaning": "일어나다 (침대에서)",
+            "example": "It's hard to get up early.",
+            "translation": "일찍 일어나기 힘들어요."
+          },
+          {
+            "phrase": "lie down",
+            "meaning": "눕다",
+            "example": "I need to lie down for a bit.",
+            "translation": "잠깐 누워야겠어요."
+          },
+          {
+            "phrase": "sit down",
+            "meaning": "앉다",
+            "example": "Please sit down and make yourself comfortable.",
+            "translation": "앉아서 편히 쉬세요."
+          },
+          {
+            "phrase": "stand up",
+            "meaning": "일어서다",
+            "example": "Stand up when the teacher enters.",
+            "translation": "선생님이 들어오면 일어서세요."
+          },
+          {
+            "phrase": "hang out",
+            "meaning": "시간을 보내다",
+            "example": "We hang out every weekend.",
+            "translation": "매주 주말마다 시간을 보내요."
+          },
+          {
+            "phrase": "clean up",
+            "meaning": "청소하다",
+            "example": "I need to clean up my room.",
+            "translation": "방을 청소해야 해요."
+          },
+          {
+            "phrase": "tidy up",
+            "meaning": "정리하다",
+            "example": "Let me tidy up before guests arrive.",
+            "translation": "손님 오기 전에 정리할게요."
+          },
+          {
+            "phrase": "pick up",
+            "meaning": "집다, 데리러 가다",
+            "example": "I'll pick up the kids from school.",
+            "translation": "아이들을 학교에서 데리러 갈게요."
+          },
+          {
+            "phrase": "drop off",
+            "meaning": "내려주다",
+            "example": "Can you drop me off at the station?",
+            "translation": "역에서 내려줄 수 있어요?"
+          },
+          {
+            "phrase": "take out",
+            "meaning": "꺼내다, 데려가다",
+            "example": "Let me take out the trash.",
+            "translation": "쓰레기 버릴게요."
+          },
+          {
+            "phrase": "put away",
+            "meaning": "치우다",
+            "example": "Put away your toys.",
+            "translation": "장난감을 치워."
+          },
+          {
+            "phrase": "throw away",
+            "meaning": "버리다",
+            "example": "Don't throw away that box.",
+            "translation": "그 상자 버리지 마세요."
+          },
+          {
+            "phrase": "run out of",
+            "meaning": "~이 다 떨어지다",
+            "example": "We ran out of milk.",
+            "translation": "우유가 다 떨어졌어요."
+          },
+          {
+            "phrase": "use up",
+            "meaning": "다 쓰다",
+            "example": "I used up all the shampoo.",
+            "translation": "샴푸를 다 썼어요."
+          },
+          {
+            "phrase": "turn on",
+            "meaning": "켜다",
+            "example": "Turn on the lights.",
+            "translation": "불 켜세요."
+          },
+          {
+            "phrase": "turn off",
+            "meaning": "끄다",
+            "example": "Turn off the TV before you leave.",
+            "translation": "나가기 전에 TV 꺼세요."
+          },
+          {
+            "phrase": "put on",
+            "meaning": "입다, 바르다",
+            "example": "Put on your coat, it's cold.",
+            "translation": "추우니까 코트 입어."
+          },
+          {
+            "phrase": "take off",
+            "meaning": "벗다",
+            "example": "Take off your shoes at the door.",
+            "translation": "문 앞에서 신발 벗으세요."
+          },
+          {
+            "phrase": "try on",
+            "meaning": "입어보다",
+            "example": "Can I try on this jacket?",
+            "translation": "이 재킷 입어봐도 돼요?"
+          }
+        ]
+      },
+      {
+        "name": "이동/교통",
+        "phrasalVerbs": [
+          {
+            "phrase": "set off",
+            "meaning": "출발하다",
+            "example": "We set off early in the morning.",
+            "translation": "아침 일찍 출발했어요."
+          },
+          {
+            "phrase": "head out",
+            "meaning": "나가다",
+            "example": "I'm heading out now.",
+            "translation": "지금 나가요."
+          },
+          {
+            "phrase": "get in",
+            "meaning": "(차에) 타다",
+            "example": "Get in the car.",
+            "translation": "차에 타세요."
+          },
+          {
+            "phrase": "get out",
+            "meaning": "(차에서) 내리다",
+            "example": "I got out of the taxi.",
+            "translation": "택시에서 내렸어요."
+          },
+          {
+            "phrase": "get on",
+            "meaning": "(버스/기차에) 타다",
+            "example": "Get on the bus at this stop.",
+            "translation": "이 정류장에서 버스를 타세요."
+          },
+          {
+            "phrase": "get off",
+            "meaning": "(버스/기차에서) 내리다",
+            "example": "We get off at the next station.",
+            "translation": "다음 역에서 내려요."
+          },
+          {
+            "phrase": "speed up",
+            "meaning": "속도를 높이다",
+            "example": "Speed up, we're late.",
+            "translation": "서둘러, 늦었어."
+          },
+          {
+            "phrase": "slow down",
+            "meaning": "속도를 줄이다",
+            "example": "Slow down, there's a school ahead.",
+            "translation": "속도 줄여, 앞에 학교야."
+          },
+          {
+            "phrase": "pull over",
+            "meaning": "길가에 차를 세우다",
+            "example": "The police told me to pull over.",
+            "translation": "경찰이 차를 세우라고 했어요."
+          },
+          {
+            "phrase": "take off",
+            "meaning": "이륙하다",
+            "example": "The plane took off on time.",
+            "translation": "비행기가 정시에 이륙했어요."
+          },
+          {
+            "phrase": "land",
+            "meaning": "착륙하다",
+            "example": "We landed safely.",
+            "translation": "안전하게 착륙했어요."
+          },
+          {
+            "phrase": "check in",
+            "meaning": "체크인하다",
+            "example": "We checked in at the hotel.",
+            "translation": "호텔에서 체크인했어요."
+          },
+          {
+            "phrase": "check out",
+            "meaning": "체크아웃하다",
+            "example": "We need to check out by noon.",
+            "translation": "정오까지 체크아웃해야 해요."
+          },
+          {
+            "phrase": "stop by",
+            "meaning": "들르다",
+            "example": "I'll stop by after work.",
+            "translation": "퇴근 후에 들를게요."
+          },
+          {
+            "phrase": "pass by",
+            "meaning": "지나가다",
+            "example": "I pass by your office every day.",
+            "translation": "매일 당신 사무실 앞을 지나가요."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "업무/학습 구동사",
+    "subCategories": [
+      {
+        "name": "업무 관련",
+        "phrasalVerbs": [
+          {
+            "phrase": "work on",
+            "meaning": "~에 대해 일하다",
+            "example": "I'm working on a new project.",
+            "translation": "새 프로젝트를 진행하고 있어요."
+          },
+          {
+            "phrase": "carry out",
+            "meaning": "수행하다",
+            "example": "We carried out the plan successfully.",
+            "translation": "계획을 성공적으로 수행했어요."
+          },
+          {
+            "phrase": "come up with",
+            "meaning": "생각해내다",
+            "example": "I came up with a new idea.",
+            "translation": "새 아이디어를 생각해냈어요."
+          },
+          {
+            "phrase": "figure out",
+            "meaning": "알아내다",
+            "example": "I need to figure out what went wrong.",
+            "translation": "뭐가 잘못됐는지 알아내야 해요."
+          },
+          {
+            "phrase": "look into",
+            "meaning": "조사하다",
+            "example": "I'll look into the matter.",
+            "translation": "그 문제를 조사해 볼게요."
+          },
+          {
+            "phrase": "take on",
+            "meaning": "맡다, 떠맡다",
+            "example": "I took on too much work.",
+            "translation": "일을 너무 많이 맡았어요."
+          },
+          {
+            "phrase": "hand in",
+            "meaning": "제출하다",
+            "example": "Please hand in your report by Friday.",
+            "translation": "금요일까지 보고서를 제출하세요."
+          },
+          {
+            "phrase": "hand out",
+            "meaning": "나눠주다",
+            "example": "Hand out these documents.",
+            "translation": "이 문서들을 나눠주세요."
+          },
+          {
+            "phrase": "fill in",
+            "meaning": "작성하다",
+            "example": "Fill in this form.",
+            "translation": "이 양식을 작성하세요."
+          },
+          {
+            "phrase": "fill out",
+            "meaning": "작성하다 (미국식)",
+            "example": "Please fill out this application.",
+            "translation": "이 지원서를 작성해주세요."
+          },
+          {
+            "phrase": "set up",
+            "meaning": "설치하다, 준비하다",
+            "example": "We set up a meeting for tomorrow.",
+            "translation": "내일 회의를 잡았어요."
+          },
+          {
+            "phrase": "follow up",
+            "meaning": "후속 조치를 취하다",
+            "example": "I'll follow up on that email.",
+            "translation": "그 이메일에 후속 조치를 취할게요."
+          },
+          {
+            "phrase": "go over",
+            "meaning": "검토하다",
+            "example": "Let's go over the details.",
+            "translation": "세부 사항을 검토합시다."
+          },
+          {
+            "phrase": "run through",
+            "meaning": "빠르게 검토하다",
+            "example": "Let me run through the agenda.",
+            "translation": "안건을 빠르게 검토할게요."
+          },
+          {
+            "phrase": "sum up",
+            "meaning": "요약하다",
+            "example": "To sum up, we need more time.",
+            "translation": "요약하면, 더 많은 시간이 필요해요."
+          },
+          {
+            "phrase": "wrap up",
+            "meaning": "마무리하다",
+            "example": "Let's wrap up the meeting.",
+            "translation": "회의를 마무리합시다."
+          },
+          {
+            "phrase": "put off",
+            "meaning": "연기하다",
+            "example": "We put off the decision until next week.",
+            "translation": "결정을 다음 주까지 연기했어요."
+          },
+          {
+            "phrase": "call off",
+            "meaning": "취소하다",
+            "example": "We had to call off the meeting.",
+            "translation": "회의를 취소해야 했어요."
+          },
+          {
+            "phrase": "turn down",
+            "meaning": "거절하다",
+            "example": "I turned down the job offer.",
+            "translation": "취업 제안을 거절했어요."
+          },
+          {
+            "phrase": "bring up",
+            "meaning": "언급하다",
+            "example": "She brought up an important point.",
+            "translation": "그녀가 중요한 점을 언급했어요."
+          }
+        ]
+      },
+      {
+        "name": "학습 관련",
+        "phrasalVerbs": [
+          {
+            "phrase": "look up",
+            "meaning": "찾아보다",
+            "example": "Look up the word in the dictionary.",
+            "translation": "사전에서 단어를 찾아봐."
+          },
+          {
+            "phrase": "find out",
+            "meaning": "알아내다",
+            "example": "I found out the answer.",
+            "translation": "답을 알아냈어요."
+          },
+          {
+            "phrase": "write down",
+            "meaning": "적다",
+            "example": "Write down the address.",
+            "translation": "주소를 적어두세요."
+          },
+          {
+            "phrase": "note down",
+            "meaning": "메모하다",
+            "example": "Note down the main points.",
+            "translation": "주요 사항을 메모하세요."
+          },
+          {
+            "phrase": "read up on",
+            "meaning": "~에 대해 읽다",
+            "example": "I need to read up on the topic.",
+            "translation": "그 주제에 대해 읽어봐야 해요."
+          },
+          {
+            "phrase": "catch up",
+            "meaning": "따라잡다",
+            "example": "I need to catch up on my studies.",
+            "translation": "공부를 따라잡아야 해요."
+          },
+          {
+            "phrase": "keep up with",
+            "meaning": "~을 따라가다",
+            "example": "It's hard to keep up with the class.",
+            "translation": "수업을 따라가기 힘들어요."
+          },
+          {
+            "phrase": "fall behind",
+            "meaning": "뒤처지다",
+            "example": "Don't fall behind in your work.",
+            "translation": "일에서 뒤처지지 마세요."
+          },
+          {
+            "phrase": "go through",
+            "meaning": "살펴보다",
+            "example": "Let's go through the material again.",
+            "translation": "자료를 다시 살펴봅시다."
+          },
+          {
+            "phrase": "brush up on",
+            "meaning": "복습하다",
+            "example": "I need to brush up on my English.",
+            "translation": "영어를 복습해야 해요."
+          },
+          {
+            "phrase": "pick up",
+            "meaning": "배우다, 익히다",
+            "example": "I picked up some useful tips.",
+            "translation": "유용한 팁을 배웠어요."
+          },
+          {
+            "phrase": "give up",
+            "meaning": "포기하다",
+            "example": "Don't give up on your dreams.",
+            "translation": "꿈을 포기하지 마세요."
+          },
+          {
+            "phrase": "take up",
+            "meaning": "시작하다",
+            "example": "I took up a new hobby.",
+            "translation": "새 취미를 시작했어요."
+          },
+          {
+            "phrase": "keep on",
+            "meaning": "계속하다",
+            "example": "Keep on trying.",
+            "translation": "계속 노력해."
+          },
+          {
+            "phrase": "carry on",
+            "meaning": "계속하다",
+            "example": "Carry on with your work.",
+            "translation": "일을 계속하세요."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "사회적 상호작용 구동사",
+    "subCategories": [
+      {
+        "name": "관계 관련",
+        "phrasalVerbs": [
+          {
+            "phrase": "get along with",
+            "meaning": "~와 잘 지내다",
+            "example": "I get along with my neighbors.",
+            "translation": "이웃들과 잘 지내요."
+          },
+          {
+            "phrase": "fall out with",
+            "meaning": "~와 사이가 틀어지다",
+            "example": "I fell out with my best friend.",
+            "translation": "가장 친한 친구와 사이가 틀어졌어요."
+          },
+          {
+            "phrase": "make up",
+            "meaning": "화해하다",
+            "example": "We made up after the argument.",
+            "translation": "논쟁 후에 화해했어요."
+          },
+          {
+            "phrase": "break up",
+            "meaning": "헤어지다",
+            "example": "They broke up last month.",
+            "translation": "그들은 지난달에 헤어졌어요."
+          },
+          {
+            "phrase": "look after",
+            "meaning": "돌보다",
+            "example": "I look after my grandmother.",
+            "translation": "할머니를 돌봐요."
+          },
+          {
+            "phrase": "take care of",
+            "meaning": "돌보다",
+            "example": "Who takes care of your dog?",
+            "translation": "누가 개를 돌봐요?"
+          },
+          {
+            "phrase": "count on",
+            "meaning": "~에 의지하다",
+            "example": "You can count on me.",
+            "translation": "나를 믿어도 돼요."
+          },
+          {
+            "phrase": "rely on",
+            "meaning": "~에 의존하다",
+            "example": "I rely on my family for support.",
+            "translation": "지원을 위해 가족에게 의존해요."
+          },
+          {
+            "phrase": "look up to",
+            "meaning": "존경하다",
+            "example": "I look up to my parents.",
+            "translation": "부모님을 존경해요."
+          },
+          {
+            "phrase": "look down on",
+            "meaning": "무시하다",
+            "example": "Don't look down on others.",
+            "translation": "다른 사람을 무시하지 마세요."
+          },
+          {
+            "phrase": "stand up for",
+            "meaning": "~을 옹호하다",
+            "example": "Stand up for what you believe in.",
+            "translation": "믿는 것을 옹호하세요."
+          },
+          {
+            "phrase": "put up with",
+            "meaning": "참다",
+            "example": "I can't put up with his behavior.",
+            "translation": "그의 행동을 참을 수 없어요."
+          },
+          {
+            "phrase": "run into",
+            "meaning": "우연히 만나다",
+            "example": "I ran into an old friend.",
+            "translation": "오랜 친구를 우연히 만났어요."
+          },
+          {
+            "phrase": "catch up with",
+            "meaning": "만나다, 따라잡다",
+            "example": "Let's catch up over coffee.",
+            "translation": "커피 마시면서 이야기해요."
+          },
+          {
+            "phrase": "get together",
+            "meaning": "모이다",
+            "example": "We should get together sometime.",
+            "translation": "언제 모여야겠어요."
+          }
+        ]
+      },
+      {
+        "name": "의사소통 관련",
+        "phrasalVerbs": [
+          {
+            "phrase": "speak up",
+            "meaning": "크게 말하다",
+            "example": "Speak up, I can't hear you.",
+            "translation": "크게 말해, 안 들려요."
+          },
+          {
+            "phrase": "open up",
+            "meaning": "마음을 열다",
+            "example": "She finally opened up to me.",
+            "translation": "그녀가 드디어 마음을 열었어요."
+          },
+          {
+            "phrase": "point out",
+            "meaning": "지적하다",
+            "example": "She pointed out my mistake.",
+            "translation": "그녀가 내 실수를 지적했어요."
+          },
+          {
+            "phrase": "hold on",
+            "meaning": "잠깐 기다리다",
+            "example": "Hold on, I'll be right back.",
+            "translation": "잠깐, 금방 돌아올게요."
+          },
+          {
+            "phrase": "hang up",
+            "meaning": "전화를 끊다",
+            "example": "Don't hang up on me.",
+            "translation": "전화 끊지 마세요."
+          },
+          {
+            "phrase": "call back",
+            "meaning": "다시 전화하다",
+            "example": "I'll call you back later.",
+            "translation": "나중에 다시 전화할게요."
+          },
+          {
+            "phrase": "get back to",
+            "meaning": "~에게 다시 연락하다",
+            "example": "I'll get back to you tomorrow.",
+            "translation": "내일 다시 연락할게요."
+          },
+          {
+            "phrase": "talk over",
+            "meaning": "의논하다",
+            "example": "Let's talk it over.",
+            "translation": "의논해 봅시다."
+          },
+          {
+            "phrase": "sort out",
+            "meaning": "해결하다",
+            "example": "We need to sort out this problem.",
+            "translation": "이 문제를 해결해야 해요."
+          },
+          {
+            "phrase": "work out",
+            "meaning": "해결하다, 운동하다",
+            "example": "I'm sure we can work it out.",
+            "translation": "해결할 수 있을 거예요."
+          },
+          {
+            "phrase": "think over",
+            "meaning": "숙고하다",
+            "example": "Let me think it over.",
+            "translation": "숙고해 볼게요."
+          },
+          {
+            "phrase": "talk into",
+            "meaning": "~하도록 설득하다",
+            "example": "She talked me into going.",
+            "translation": "그녀가 나를 설득해서 갔어요."
+          },
+          {
+            "phrase": "talk out of",
+            "meaning": "~하지 않도록 설득하다",
+            "example": "He talked me out of quitting.",
+            "translation": "그가 나를 설득해서 안 그만뒀어요."
+          },
+          {
+            "phrase": "come across",
+            "meaning": "(인상을) 주다",
+            "example": "She comes across as confident.",
+            "translation": "그녀는 자신감 있어 보여요."
+          },
+          {
+            "phrase": "go on",
+            "meaning": "계속하다",
+            "example": "Please go on.",
+            "translation": "계속하세요."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "변화/상태 구동사",
+    "subCategories": [
+      {
+        "name": "변화 관련",
+        "phrasalVerbs": [
+          {
+            "phrase": "grow up",
+            "meaning": "자라다",
+            "example": "I grew up in Seoul.",
+            "translation": "서울에서 자랐어요."
+          },
+          {
+            "phrase": "calm down",
+            "meaning": "진정하다",
+            "example": "Calm down and take a deep breath.",
+            "translation": "진정하고 깊게 숨 쉬세요."
+          },
+          {
+            "phrase": "cheer up",
+            "meaning": "기운 내다",
+            "example": "Cheer up, things will get better.",
+            "translation": "기운 내, 좋아질 거야."
+          },
+          {
+            "phrase": "warm up",
+            "meaning": "워밍업하다",
+            "example": "Let's warm up before exercising.",
+            "translation": "운동 전에 워밍업합시다."
+          },
+          {
+            "phrase": "cool down",
+            "meaning": "식히다, 진정하다",
+            "example": "Let me cool down first.",
+            "translation": "먼저 진정할게요."
+          },
+          {
+            "phrase": "break down",
+            "meaning": "고장나다, 무너지다",
+            "example": "My car broke down.",
+            "translation": "차가 고장났어요."
+          },
+          {
+            "phrase": "show up",
+            "meaning": "나타나다",
+            "example": "He didn't show up for the meeting.",
+            "translation": "그는 회의에 나타나지 않았어요."
+          },
+          {
+            "phrase": "turn up",
+            "meaning": "나타나다, 볼륨을 높이다",
+            "example": "Turn up the volume.",
+            "translation": "볼륨을 높여주세요."
+          },
+          {
+            "phrase": "turn out",
+            "meaning": "~로 판명되다",
+            "example": "It turned out to be true.",
+            "translation": "사실로 판명됐어요."
+          },
+          {
+            "phrase": "come about",
+            "meaning": "발생하다",
+            "example": "How did this come about?",
+            "translation": "이게 어떻게 발생했어요?"
+          },
+          {
+            "phrase": "bring about",
+            "meaning": "야기하다",
+            "example": "The new policy brought about changes.",
+            "translation": "새 정책이 변화를 야기했어요."
+          },
+          {
+            "phrase": "end up",
+            "meaning": "결국 ~하게 되다",
+            "example": "I ended up staying home.",
+            "translation": "결국 집에 있게 됐어요."
+          },
+          {
+            "phrase": "settle down",
+            "meaning": "정착하다",
+            "example": "I want to settle down in the countryside.",
+            "translation": "시골에 정착하고 싶어요."
+          },
+          {
+            "phrase": "move on",
+            "meaning": "앞으로 나아가다",
+            "example": "It's time to move on.",
+            "translation": "앞으로 나아갈 때예요."
+          },
+          {
+            "phrase": "come up",
+            "meaning": "발생하다",
+            "example": "Something came up.",
+            "translation": "일이 생겼어요."
+          }
+        ]
+      },
+      {
+        "name": "상태 관련",
+        "phrasalVerbs": [
+          {
+            "phrase": "cut down on",
+            "meaning": "~을 줄이다",
+            "example": "I'm cutting down on sugar.",
+            "translation": "설탕을 줄이고 있어요."
+          },
+          {
+            "phrase": "cut back on",
+            "meaning": "~을 줄이다",
+            "example": "We need to cut back on expenses.",
+            "translation": "비용을 줄여야 해요."
+          },
+          {
+            "phrase": "build up",
+            "meaning": "쌓다, 강화하다",
+            "example": "I'm trying to build up my confidence.",
+            "translation": "자신감을 쌓으려고 해요."
+          },
+          {
+            "phrase": "back up",
+            "meaning": "백업하다, 뒷받침하다",
+            "example": "Back up your files regularly.",
+            "translation": "정기적으로 파일을 백업하세요."
+          },
+          {
+            "phrase": "hold up",
+            "meaning": "버티다, 지연되다",
+            "example": "Traffic held us up.",
+            "translation": "교통 때문에 지연됐어요."
+          },
+          {
+            "phrase": "keep up",
+            "meaning": "유지하다",
+            "example": "Keep up the good work.",
+            "translation": "좋은 일 계속하세요."
+          },
+          {
+            "phrase": "give in",
+            "meaning": "굴복하다",
+            "example": "I finally gave in to her request.",
+            "translation": "결국 그녀의 요청에 굴복했어요."
+          },
+          {
+            "phrase": "give out",
+            "meaning": "나눠주다, 고장나다",
+            "example": "My battery gave out.",
+            "translation": "배터리가 나갔어요."
+          },
+          {
+            "phrase": "wear out",
+            "meaning": "닳다, 지치게 하다",
+            "example": "My shoes are worn out.",
+            "translation": "신발이 닳았어요."
+          },
+          {
+            "phrase": "run down",
+            "meaning": "지치게 하다",
+            "example": "I'm feeling run down.",
+            "translation": "지친 기분이에요."
+          },
+          {
+            "phrase": "burn out",
+            "meaning": "탈진하다",
+            "example": "I'm burned out from work.",
+            "translation": "일 때문에 탈진했어요."
+          },
+          {
+            "phrase": "wind down",
+            "meaning": "서서히 끝나다",
+            "example": "The party is winding down.",
+            "translation": "파티가 서서히 끝나고 있어요."
+          },
+          {
+            "phrase": "chill out",
+            "meaning": "쉬다, 진정하다",
+            "example": "Just chill out and relax.",
+            "translation": "그냥 쉬고 진정해."
+          },
+          {
+            "phrase": "stress out",
+            "meaning": "스트레스 받게 하다",
+            "example": "This job stresses me out.",
+            "translation": "이 일이 스트레스를 줘요."
+          },
+          {
+            "phrase": "freak out",
+            "meaning": "놀라다, 당황하다",
+            "example": "Don't freak out, everything's fine.",
+            "translation": "당황하지 마, 다 괜찮아."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "기타 유용한 구동사",
+    "subCategories": [
+      {
+        "name": "시작/종료",
+        "phrasalVerbs": [
+          {
+            "phrase": "kick off",
+            "meaning": "시작하다",
+            "example": "Let's kick off the meeting.",
+            "translation": "회의를 시작합시다."
+          },
+          {
+            "phrase": "set out",
+            "meaning": "시작하다, 출발하다",
+            "example": "We set out to achieve our goals.",
+            "translation": "목표를 달성하기 위해 시작했어요."
+          },
+          {
+            "phrase": "start off",
+            "meaning": "시작하다",
+            "example": "Let's start off with introductions.",
+            "translation": "소개로 시작합시다."
+          },
+          {
+            "phrase": "sign up",
+            "meaning": "등록하다",
+            "example": "I signed up for the class.",
+            "translation": "수업에 등록했어요."
+          },
+          {
+            "phrase": "log in",
+            "meaning": "로그인하다",
+            "example": "Log in to your account.",
+            "translation": "계정에 로그인하세요."
+          },
+          {
+            "phrase": "log out",
+            "meaning": "로그아웃하다",
+            "example": "Remember to log out.",
+            "translation": "로그아웃하는 거 잊지 마세요."
+          },
+          {
+            "phrase": "shut down",
+            "meaning": "종료하다",
+            "example": "Shut down the computer.",
+            "translation": "컴퓨터를 종료하세요."
+          },
+          {
+            "phrase": "close down",
+            "meaning": "폐업하다",
+            "example": "The store closed down last year.",
+            "translation": "가게가 작년에 폐업했어요."
+          },
+          {
+            "phrase": "phase out",
+            "meaning": "단계적으로 폐지하다",
+            "example": "They're phasing out the old system.",
+            "translation": "오래된 시스템을 단계적으로 폐지하고 있어요."
+          },
+          {
+            "phrase": "wind up",
+            "meaning": "끝내다",
+            "example": "Let's wind up the discussion.",
+            "translation": "논의를 마무리합시다."
+          }
+        ]
+      },
+      {
+        "name": "발견/조사",
+        "phrasalVerbs": [
+          {
+            "phrase": "come across",
+            "meaning": "우연히 발견하다",
+            "example": "I came across an interesting article.",
+            "translation": "흥미로운 기사를 우연히 발견했어요."
+          },
+          {
+            "phrase": "stumble upon",
+            "meaning": "우연히 발견하다",
+            "example": "I stumbled upon this café by accident.",
+            "translation": "우연히 이 카페를 발견했어요."
+          },
+          {
+            "phrase": "dig up",
+            "meaning": "발굴하다, 찾아내다",
+            "example": "I dug up some old photos.",
+            "translation": "오래된 사진을 찾아냈어요."
+          },
+          {
+            "phrase": "track down",
+            "meaning": "추적하다",
+            "example": "I tracked down the source of the problem.",
+            "translation": "문제의 원인을 추적했어요."
+          },
+          {
+            "phrase": "narrow down",
+            "meaning": "좁히다",
+            "example": "Let's narrow down the options.",
+            "translation": "옵션을 좁힙시다."
+          },
+          {
+            "phrase": "rule out",
+            "meaning": "배제하다",
+            "example": "We can rule out that possibility.",
+            "translation": "그 가능성을 배제할 수 있어요."
+          },
+          {
+            "phrase": "zero in on",
+            "meaning": "집중하다",
+            "example": "Let's zero in on the main issue.",
+            "translation": "주요 문제에 집중합시다."
+          },
+          {
+            "phrase": "zoom in",
+            "meaning": "확대하다",
+            "example": "Zoom in on the image.",
+            "translation": "이미지를 확대하세요."
+          },
+          {
+            "phrase": "zoom out",
+            "meaning": "축소하다",
+            "example": "Zoom out to see the full picture.",
+            "translation": "전체 그림을 보려면 축소하세요."
+          },
+          {
+            "phrase": "tune in",
+            "meaning": "시청/청취하다",
+            "example": "Tune in to the show tonight.",
+            "translation": "오늘 밤 쇼를 시청하세요."
+          }
+        ]
+      },
+      {
+        "name": "감정/태도",
+        "phrasalVerbs": [
+          {
+            "phrase": "look forward to",
+            "meaning": "기대하다",
+            "example": "I'm looking forward to the vacation.",
+            "translation": "휴가를 기대하고 있어요."
+          },
+          {
+            "phrase": "feel like",
+            "meaning": "~하고 싶다",
+            "example": "I feel like having pizza.",
+            "translation": "피자 먹고 싶어요."
+          },
+          {
+            "phrase": "care about",
+            "meaning": "~에 신경 쓰다",
+            "example": "I care about my health.",
+            "translation": "건강에 신경 써요."
+          },
+          {
+            "phrase": "think about",
+            "meaning": "~에 대해 생각하다",
+            "example": "I've been thinking about changing jobs.",
+            "translation": "이직에 대해 생각하고 있어요."
+          },
+          {
+            "phrase": "worry about",
+            "meaning": "~에 대해 걱정하다",
+            "example": "Don't worry about it.",
+            "translation": "그것에 대해 걱정하지 마세요."
+          },
+          {
+            "phrase": "get over",
+            "meaning": "극복하다",
+            "example": "I'm still getting over the flu.",
+            "translation": "아직 독감에서 회복 중이에요."
+          },
+          {
+            "phrase": "deal with",
+            "meaning": "다루다, 처리하다",
+            "example": "I can deal with it.",
+            "translation": "처리할 수 있어요."
+          },
+          {
+            "phrase": "cope with",
+            "meaning": "대처하다",
+            "example": "How do you cope with stress?",
+            "translation": "스트레스에 어떻게 대처해요?"
+          },
+          {
+            "phrase": "face up to",
+            "meaning": "직면하다",
+            "example": "You need to face up to reality.",
+            "translation": "현실에 직면해야 해요."
+          },
+          {
+            "phrase": "go through",
+            "meaning": "겪다",
+            "example": "I'm going through a tough time.",
+            "translation": "힘든 시간을 겪고 있어요."
+          }
+        ]
+      }
+    ]
+  }
+]

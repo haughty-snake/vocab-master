@@ -1,0 +1,3884 @@
+[
+  {
+    "nameKo": "사람",
+    "nameEn": "People",
+    "words": [
+      {
+        "word": "person",
+        "pronunciation": "/ˈpɜːrsn/",
+        "meaning": "사람",
+        "example": "She's a very kind person.",
+        "translation": "그녀는 매우 친절한 사람이야."
+      },
+      {
+        "word": "people",
+        "pronunciation": "/ˈpiːpl/",
+        "meaning": "사람들",
+        "example": "Many people came to the party.",
+        "translation": "많은 사람들이 파티에 왔어."
+      },
+      {
+        "word": "man",
+        "pronunciation": "/mæn/",
+        "meaning": "남자",
+        "example": "The man is wearing a blue shirt.",
+        "translation": "그 남자는 파란 셔츠를 입고 있어."
+      },
+      {
+        "word": "woman",
+        "pronunciation": "/ˈwʊmən/",
+        "meaning": "여자",
+        "example": "That woman is my teacher.",
+        "translation": "저 여자분이 내 선생님이야."
+      },
+      {
+        "word": "child",
+        "pronunciation": "/tʃaɪld/",
+        "meaning": "아이",
+        "example": "The child is playing in the park.",
+        "translation": "그 아이가 공원에서 놀고 있어."
+      },
+      {
+        "word": "children",
+        "pronunciation": "/ˈtʃɪldrən/",
+        "meaning": "아이들",
+        "example": "The children are laughing.",
+        "translation": "아이들이 웃고 있어."
+      },
+      {
+        "word": "baby",
+        "pronunciation": "/ˈbeɪbi/",
+        "meaning": "아기",
+        "example": "The baby is sleeping peacefully.",
+        "translation": "아기가 평화롭게 자고 있어."
+      },
+      {
+        "word": "teenager",
+        "pronunciation": "/ˈtiːneɪdʒər/",
+        "meaning": "10대",
+        "example": "My sister is a teenager now.",
+        "translation": "내 여동생이 이제 10대야."
+      },
+      {
+        "word": "adult",
+        "pronunciation": "/əˈdʌlt/",
+        "meaning": "성인",
+        "example": "Only adults can enter this club.",
+        "translation": "이 클럽은 성인만 입장할 수 있어."
+      },
+      {
+        "word": "elder",
+        "pronunciation": "/ˈeldər/",
+        "meaning": "어르신",
+        "example": "We should respect our elders.",
+        "translation": "우리는 어르신들을 존경해야 해."
+      },
+      {
+        "word": "friend",
+        "pronunciation": "/frend/",
+        "meaning": "친구",
+        "example": "He's my best friend.",
+        "translation": "그는 내 가장 친한 친구야."
+      },
+      {
+        "word": "stranger",
+        "pronunciation": "/ˈstreɪndʒər/",
+        "meaning": "낯선 사람",
+        "example": "Don't talk to strangers.",
+        "translation": "낯선 사람과 말하지 마."
+      },
+      {
+        "word": "neighbor",
+        "pronunciation": "/ˈneɪbər/",
+        "meaning": "이웃",
+        "example": "My neighbor is very friendly.",
+        "translation": "내 이웃은 매우 친절해."
+      },
+      {
+        "word": "guest",
+        "pronunciation": "/ɡest/",
+        "meaning": "손님",
+        "example": "We have guests coming tonight.",
+        "translation": "오늘 밤 손님이 와."
+      },
+      {
+        "word": "host",
+        "pronunciation": "/hoʊst/",
+        "meaning": "주인",
+        "example": "The host welcomed everyone.",
+        "translation": "주인이 모두를 환영했어."
+      },
+      {
+        "word": "customer",
+        "pronunciation": "/ˈkʌstəmər/",
+        "meaning": "고객",
+        "example": "The customer is always right.",
+        "translation": "고객은 항상 옳아."
+      },
+      {
+        "word": "client",
+        "pronunciation": "/ˈklaɪənt/",
+        "meaning": "의뢰인",
+        "example": "I have a meeting with a client.",
+        "translation": "의뢰인과 미팅이 있어."
+      },
+      {
+        "word": "patient",
+        "pronunciation": "/ˈpeɪʃnt/",
+        "meaning": "환자",
+        "example": "The patient is recovering well.",
+        "translation": "환자가 잘 회복하고 있어."
+      },
+      {
+        "word": "passenger",
+        "pronunciation": "/ˈpæsɪndʒər/",
+        "meaning": "승객",
+        "example": "All passengers must wear seatbelts.",
+        "translation": "모든 승객은 안전벨트를 매야 해."
+      },
+      {
+        "word": "tourist",
+        "pronunciation": "/ˈtʊrɪst/",
+        "meaning": "관광객",
+        "example": "Seoul attracts many tourists.",
+        "translation": "서울은 많은 관광객을 끌어들여."
+      },
+      {
+        "word": "visitor",
+        "pronunciation": "/ˈvɪzɪtər/",
+        "meaning": "방문객",
+        "example": "We had a visitor yesterday.",
+        "translation": "어제 방문객이 있었어."
+      },
+      {
+        "word": "citizen",
+        "pronunciation": "/ˈsɪtɪzn/",
+        "meaning": "시민",
+        "example": "Every citizen has the right to vote.",
+        "translation": "모든 시민은 투표할 권리가 있어."
+      },
+      {
+        "word": "resident",
+        "pronunciation": "/ˈrezɪdənt/",
+        "meaning": "거주자",
+        "example": "I'm a resident of this building.",
+        "translation": "나는 이 건물 거주자야."
+      },
+      {
+        "word": "member",
+        "pronunciation": "/ˈmembər/",
+        "meaning": "회원",
+        "example": "She's a member of the club.",
+        "translation": "그녀는 그 클럽의 회원이야."
+      },
+      {
+        "word": "leader",
+        "pronunciation": "/ˈliːdər/",
+        "meaning": "리더",
+        "example": "A good leader listens to others.",
+        "translation": "좋은 리더는 다른 사람의 말을 들어."
+      },
+      {
+        "word": "manager",
+        "pronunciation": "/ˈmænɪdʒər/",
+        "meaning": "관리자",
+        "example": "I need to speak to the manager.",
+        "translation": "매니저와 얘기해야 해."
+      },
+      {
+        "word": "boss",
+        "pronunciation": "/bɔːs/",
+        "meaning": "상사",
+        "example": "My boss is very strict.",
+        "translation": "내 상사는 매우 엄격해."
+      },
+      {
+        "word": "employee",
+        "pronunciation": "/ɪmˈplɔɪiː/",
+        "meaning": "직원",
+        "example": "The company has 500 employees.",
+        "translation": "그 회사는 500명의 직원이 있어."
+      },
+      {
+        "word": "colleague",
+        "pronunciation": "/ˈkɑːliːɡ/",
+        "meaning": "동료",
+        "example": "I had lunch with my colleague.",
+        "translation": "동료와 점심을 먹었어."
+      },
+      {
+        "word": "coworker",
+        "pronunciation": "/ˈkoʊwɜːrkər/",
+        "meaning": "동료",
+        "example": "My coworker helped me finish the report.",
+        "translation": "동료가 보고서 끝내는 걸 도와줬어."
+      },
+      {
+        "word": "partner",
+        "pronunciation": "/ˈpɑːrtnər/",
+        "meaning": "파트너",
+        "example": "She's my business partner.",
+        "translation": "그녀는 내 사업 파트너야."
+      },
+      {
+        "word": "assistant",
+        "pronunciation": "/əˈsɪstənt/",
+        "meaning": "조수",
+        "example": "I hired an assistant.",
+        "translation": "나는 조수를 고용했어."
+      },
+      {
+        "word": "expert",
+        "pronunciation": "/ˈekspɜːrt/",
+        "meaning": "전문가",
+        "example": "He's an expert in marketing.",
+        "translation": "그는 마케팅 전문가야."
+      },
+      {
+        "word": "professional",
+        "pronunciation": "/prəˈfeʃənl/",
+        "meaning": "전문가",
+        "example": "You should see a professional.",
+        "translation": "전문가를 만나봐야 해."
+      },
+      {
+        "word": "beginner",
+        "pronunciation": "/bɪˈɡɪnər/",
+        "meaning": "초보자",
+        "example": "This class is for beginners.",
+        "translation": "이 수업은 초보자용이야."
+      },
+      {
+        "word": "volunteer",
+        "pronunciation": "/ˌvɑːlənˈtɪr/",
+        "meaning": "자원봉사자",
+        "example": "We need more volunteers.",
+        "translation": "자원봉사자가 더 필요해."
+      },
+      {
+        "word": "candidate",
+        "pronunciation": "/ˈkændɪdət/",
+        "meaning": "후보자",
+        "example": "There are three candidates for the job.",
+        "translation": "그 직책에 세 명의 후보자가 있어."
+      },
+      {
+        "word": "applicant",
+        "pronunciation": "/ˈæplɪkənt/",
+        "meaning": "지원자",
+        "example": "We received many applicants.",
+        "translation": "많은 지원자가 있었어."
+      },
+      {
+        "word": "winner",
+        "pronunciation": "/ˈwɪnər/",
+        "meaning": "우승자",
+        "example": "The winner gets a prize.",
+        "translation": "우승자는 상품을 받아."
+      },
+      {
+        "word": "loser",
+        "pronunciation": "/ˈluːzər/",
+        "meaning": "패자",
+        "example": "Don't be a sore loser.",
+        "translation": "쿨하지 못한 패자가 되지 마."
+      },
+      {
+        "word": "hero",
+        "pronunciation": "/ˈhɪroʊ/",
+        "meaning": "영웅",
+        "example": "He's my hero.",
+        "translation": "그는 나의 영웅이야."
+      },
+      {
+        "word": "victim",
+        "pronunciation": "/ˈvɪktɪm/",
+        "meaning": "피해자",
+        "example": "The victims need our help.",
+        "translation": "피해자들은 우리의 도움이 필요해."
+      },
+      {
+        "word": "witness",
+        "pronunciation": "/ˈwɪtnəs/",
+        "meaning": "목격자",
+        "example": "The witness saw everything.",
+        "translation": "목격자가 모든 것을 봤어."
+      },
+      {
+        "word": "suspect",
+        "pronunciation": "/ˈsʌspekt/",
+        "meaning": "용의자",
+        "example": "The police caught the suspect.",
+        "translation": "경찰이 용의자를 잡았어."
+      },
+      {
+        "word": "criminal",
+        "pronunciation": "/ˈkrɪmɪnl/",
+        "meaning": "범죄자",
+        "example": "The criminal was arrested.",
+        "translation": "범죄자가 체포됐어."
+      },
+      {
+        "word": "owner",
+        "pronunciation": "/ˈoʊnər/",
+        "meaning": "소유자",
+        "example": "Who's the owner of this car?",
+        "translation": "이 차의 주인이 누구야?"
+      },
+      {
+        "word": "buyer",
+        "pronunciation": "/ˈbaɪər/",
+        "meaning": "구매자",
+        "example": "The buyer paid in cash.",
+        "translation": "구매자가 현금으로 지불했어."
+      },
+      {
+        "word": "seller",
+        "pronunciation": "/ˈselər/",
+        "meaning": "판매자",
+        "example": "The seller offered a discount.",
+        "translation": "판매자가 할인을 제안했어."
+      },
+      {
+        "word": "user",
+        "pronunciation": "/ˈjuːzər/",
+        "meaning": "사용자",
+        "example": "The app has millions of users.",
+        "translation": "그 앱은 수백만 사용자가 있어."
+      },
+      {
+        "word": "driver",
+        "pronunciation": "/ˈdraɪvər/",
+        "meaning": "운전자",
+        "example": "The driver stopped at the light.",
+        "translation": "운전자가 신호에서 멈췄어."
+      },
+      {
+        "word": "speaker",
+        "pronunciation": "/ˈspiːkər/",
+        "meaning": "연설자",
+        "example": "The speaker was very inspiring.",
+        "translation": "연설자가 매우 영감을 줬어."
+      },
+      {
+        "word": "listener",
+        "pronunciation": "/ˈlɪsnər/",
+        "meaning": "청취자",
+        "example": "Be a good listener.",
+        "translation": "좋은 청취자가 돼."
+      },
+      {
+        "word": "reader",
+        "pronunciation": "/ˈriːdər/",
+        "meaning": "독자",
+        "example": "The book has many readers.",
+        "translation": "그 책은 많은 독자가 있어."
+      },
+      {
+        "word": "writer",
+        "pronunciation": "/ˈraɪtər/",
+        "meaning": "작가",
+        "example": "She's a famous writer.",
+        "translation": "그녀는 유명한 작가야."
+      },
+      {
+        "word": "actor",
+        "pronunciation": "/ˈæktər/",
+        "meaning": "배우",
+        "example": "He's a Hollywood actor.",
+        "translation": "그는 할리우드 배우야."
+      },
+      {
+        "word": "actress",
+        "pronunciation": "/ˈæktrəs/",
+        "meaning": "여배우",
+        "example": "She won the best actress award.",
+        "translation": "그녀가 여우주연상을 받았어."
+      },
+      {
+        "word": "singer",
+        "pronunciation": "/ˈsɪŋər/",
+        "meaning": "가수",
+        "example": "My favorite singer is BTS.",
+        "translation": "내가 좋아하는 가수는 BTS야."
+      },
+      {
+        "word": "dancer",
+        "pronunciation": "/ˈdænsər/",
+        "meaning": "댄서",
+        "example": "She's a professional dancer.",
+        "translation": "그녀는 프로 댄서야."
+      },
+      {
+        "word": "artist",
+        "pronunciation": "/ˈɑːrtɪst/",
+        "meaning": "예술가",
+        "example": "The artist painted this picture.",
+        "translation": "예술가가 이 그림을 그렸어."
+      },
+      {
+        "word": "musician",
+        "pronunciation": "/mjuˈzɪʃn/",
+        "meaning": "음악가",
+        "example": "He's a talented musician.",
+        "translation": "그는 재능 있는 음악가야."
+      },
+      {
+        "word": "photographer",
+        "pronunciation": "/fəˈtɑːɡrəfər/",
+        "meaning": "사진작가",
+        "example": "The photographer took amazing shots.",
+        "translation": "사진작가가 멋진 사진을 찍었어."
+      },
+      {
+        "word": "chef",
+        "pronunciation": "/ʃef/",
+        "meaning": "요리사",
+        "example": "The chef prepared a delicious meal.",
+        "translation": "요리사가 맛있는 식사를 준비했어."
+      },
+      {
+        "word": "waiter",
+        "pronunciation": "/ˈweɪtər/",
+        "meaning": "웨이터",
+        "example": "The waiter brought our food.",
+        "translation": "웨이터가 음식을 가져왔어."
+      },
+      {
+        "word": "waitress",
+        "pronunciation": "/ˈweɪtrəs/",
+        "meaning": "웨이트리스",
+        "example": "The waitress was very helpful.",
+        "translation": "웨이트리스가 매우 도움이 됐어."
+      },
+      {
+        "word": "doctor",
+        "pronunciation": "/ˈdɑːktər/",
+        "meaning": "의사",
+        "example": "I need to see a doctor.",
+        "translation": "의사를 만나야 해."
+      },
+      {
+        "word": "nurse",
+        "pronunciation": "/nɜːrs/",
+        "meaning": "간호사",
+        "example": "The nurse gave me medicine.",
+        "translation": "간호사가 약을 줬어."
+      },
+      {
+        "word": "dentist",
+        "pronunciation": "/ˈdentɪst/",
+        "meaning": "치과의사",
+        "example": "I have a dentist appointment.",
+        "translation": "치과 예약이 있어."
+      },
+      {
+        "word": "lawyer",
+        "pronunciation": "/ˈlɔːjər/",
+        "meaning": "변호사",
+        "example": "You should consult a lawyer.",
+        "translation": "변호사와 상담해야 해."
+      },
+      {
+        "word": "teacher",
+        "pronunciation": "/ˈtiːtʃər/",
+        "meaning": "선생님",
+        "example": "My teacher is very patient.",
+        "translation": "선생님이 매우 인내심이 있어."
+      },
+      {
+        "word": "professor",
+        "pronunciation": "/prəˈfesər/",
+        "meaning": "교수",
+        "example": "The professor gave a lecture.",
+        "translation": "교수님이 강의했어."
+      },
+      {
+        "word": "student",
+        "pronunciation": "/ˈstuːdnt/",
+        "meaning": "학생",
+        "example": "She's a university student.",
+        "translation": "그녀는 대학생이야."
+      },
+      {
+        "word": "graduate",
+        "pronunciation": "/ˈɡrædʒuət/",
+        "meaning": "졸업생",
+        "example": "He's a Harvard graduate.",
+        "translation": "그는 하버드 졸업생이야."
+      },
+      {
+        "word": "engineer",
+        "pronunciation": "/ˌendʒɪˈnɪr/",
+        "meaning": "엔지니어",
+        "example": "My brother is an engineer.",
+        "translation": "내 형은 엔지니어야."
+      },
+      {
+        "word": "scientist",
+        "pronunciation": "/ˈsaɪəntɪst/",
+        "meaning": "과학자",
+        "example": "Scientists discovered a new planet.",
+        "translation": "과학자들이 새 행성을 발견했어."
+      },
+      {
+        "word": "researcher",
+        "pronunciation": "/rɪˈsɜːrtʃər/",
+        "meaning": "연구원",
+        "example": "The researcher published a paper.",
+        "translation": "연구원이 논문을 발표했어."
+      },
+      {
+        "word": "designer",
+        "pronunciation": "/dɪˈzaɪnər/",
+        "meaning": "디자이너",
+        "example": "She's a fashion designer.",
+        "translation": "그녀는 패션 디자이너야."
+      },
+      {
+        "word": "developer",
+        "pronunciation": "/dɪˈveləpər/",
+        "meaning": "개발자",
+        "example": "I work as a software developer.",
+        "translation": "나는 소프트웨어 개발자로 일해."
+      },
+      {
+        "word": "programmer",
+        "pronunciation": "/ˈproʊɡræmər/",
+        "meaning": "프로그래머",
+        "example": "The programmer fixed the bug.",
+        "translation": "프로그래머가 버그를 수정했어."
+      },
+      {
+        "word": "consultant",
+        "pronunciation": "/kənˈsʌltənt/",
+        "meaning": "컨설턴트",
+        "example": "We hired a consultant.",
+        "translation": "우리는 컨설턴트를 고용했어."
+      },
+      {
+        "word": "analyst",
+        "pronunciation": "/ˈænəlɪst/",
+        "meaning": "분석가",
+        "example": "The analyst presented the data.",
+        "translation": "분석가가 데이터를 발표했어."
+      }
+    ]
+  },
+  {
+    "nameKo": "가족",
+    "nameEn": "Family",
+    "words": [
+      {
+        "word": "family",
+        "pronunciation": "/ˈfæməli/",
+        "meaning": "가족",
+        "example": "I love my family.",
+        "translation": "나는 가족을 사랑해."
+      },
+      {
+        "word": "parent",
+        "pronunciation": "/ˈperənt/",
+        "meaning": "부모",
+        "example": "My parents live in Busan.",
+        "translation": "부모님은 부산에 살아."
+      },
+      {
+        "word": "father",
+        "pronunciation": "/ˈfɑːðər/",
+        "meaning": "아버지",
+        "example": "My father works at a bank.",
+        "translation": "아버지는 은행에서 일해."
+      },
+      {
+        "word": "mother",
+        "pronunciation": "/ˈmʌðər/",
+        "meaning": "어머니",
+        "example": "My mother is a great cook.",
+        "translation": "어머니는 요리를 잘해."
+      },
+      {
+        "word": "dad",
+        "pronunciation": "/dæd/",
+        "meaning": "아빠",
+        "example": "Dad, can you help me?",
+        "translation": "아빠, 도와줄 수 있어?"
+      },
+      {
+        "word": "mom",
+        "pronunciation": "/mɑːm/",
+        "meaning": "엄마",
+        "example": "Mom made dinner.",
+        "translation": "엄마가 저녁을 만들었어."
+      },
+      {
+        "word": "son",
+        "pronunciation": "/sʌn/",
+        "meaning": "아들",
+        "example": "They have two sons.",
+        "translation": "그들은 두 아들이 있어."
+      },
+      {
+        "word": "daughter",
+        "pronunciation": "/ˈdɔːtər/",
+        "meaning": "딸",
+        "example": "My daughter is 10 years old.",
+        "translation": "내 딸은 10살이야."
+      },
+      {
+        "word": "brother",
+        "pronunciation": "/ˈbrʌðər/",
+        "meaning": "형제",
+        "example": "I have an older brother.",
+        "translation": "나는 형이 있어."
+      },
+      {
+        "word": "sister",
+        "pronunciation": "/ˈsɪstər/",
+        "meaning": "자매",
+        "example": "My sister lives in Seoul.",
+        "translation": "내 여동생은 서울에 살아."
+      },
+      {
+        "word": "sibling",
+        "pronunciation": "/ˈsɪblɪŋ/",
+        "meaning": "형제자매",
+        "example": "Do you have any siblings?",
+        "translation": "형제자매가 있어?"
+      },
+      {
+        "word": "husband",
+        "pronunciation": "/ˈhʌzbənd/",
+        "meaning": "남편",
+        "example": "Her husband is a doctor.",
+        "translation": "그녀의 남편은 의사야."
+      },
+      {
+        "word": "wife",
+        "pronunciation": "/waɪf/",
+        "meaning": "아내",
+        "example": "He loves his wife very much.",
+        "translation": "그는 아내를 매우 사랑해."
+      },
+      {
+        "word": "spouse",
+        "pronunciation": "/spaʊs/",
+        "meaning": "배우자",
+        "example": "Bring your spouse to the party.",
+        "translation": "파티에 배우자를 데려와."
+      },
+      {
+        "word": "couple",
+        "pronunciation": "/ˈkʌpl/",
+        "meaning": "커플",
+        "example": "The couple got married last year.",
+        "translation": "그 커플은 작년에 결혼했어."
+      },
+      {
+        "word": "grandfather",
+        "pronunciation": "/ˈɡrændfɑːðər/",
+        "meaning": "할아버지",
+        "example": "My grandfather tells great stories.",
+        "translation": "할아버지는 이야기를 잘해."
+      },
+      {
+        "word": "grandmother",
+        "pronunciation": "/ˈɡrændmʌðər/",
+        "meaning": "할머니",
+        "example": "Grandmother baked cookies for us.",
+        "translation": "할머니가 우리에게 쿠키를 구워줬어."
+      },
+      {
+        "word": "grandparent",
+        "pronunciation": "/ˈɡrændperənt/",
+        "meaning": "조부모",
+        "example": "I visit my grandparents every Sunday.",
+        "translation": "매주 일요일 조부모님을 방문해."
+      },
+      {
+        "word": "grandson",
+        "pronunciation": "/ˈɡrænsʌn/",
+        "meaning": "손자",
+        "example": "She has three grandsons.",
+        "translation": "그녀는 세 명의 손자가 있어."
+      },
+      {
+        "word": "granddaughter",
+        "pronunciation": "/ˈɡrændɔːtər/",
+        "meaning": "손녀",
+        "example": "His granddaughter is adorable.",
+        "translation": "그의 손녀는 사랑스러워."
+      },
+      {
+        "word": "grandchild",
+        "pronunciation": "/ˈɡrændtʃaɪld/",
+        "meaning": "손주",
+        "example": "They have five grandchildren.",
+        "translation": "그들은 다섯 손주가 있어."
+      },
+      {
+        "word": "uncle",
+        "pronunciation": "/ˈʌŋkl/",
+        "meaning": "삼촌",
+        "example": "My uncle lives in America.",
+        "translation": "삼촌은 미국에 살아."
+      },
+      {
+        "word": "aunt",
+        "pronunciation": "/ænt/",
+        "meaning": "이모/고모",
+        "example": "Aunt Mary is visiting us.",
+        "translation": "메리 이모가 우리를 방문해."
+      },
+      {
+        "word": "nephew",
+        "pronunciation": "/ˈnefjuː/",
+        "meaning": "조카 (남)",
+        "example": "My nephew is starting school.",
+        "translation": "내 조카가 학교에 입학해."
+      },
+      {
+        "word": "niece",
+        "pronunciation": "/niːs/",
+        "meaning": "조카 (여)",
+        "example": "I bought a gift for my niece.",
+        "translation": "조카딸에게 선물을 샀어."
+      },
+      {
+        "word": "cousin",
+        "pronunciation": "/ˈkʌzn/",
+        "meaning": "사촌",
+        "example": "My cousin and I are the same age.",
+        "translation": "사촌과 나는 나이가 같아."
+      },
+      {
+        "word": "relative",
+        "pronunciation": "/ˈrelətɪv/",
+        "meaning": "친척",
+        "example": "We have relatives in Canada.",
+        "translation": "캐나다에 친척이 있어."
+      },
+      {
+        "word": "ancestor",
+        "pronunciation": "/ˈænsestər/",
+        "meaning": "조상",
+        "example": "Our ancestors came from China.",
+        "translation": "우리 조상은 중국에서 왔어."
+      },
+      {
+        "word": "descendant",
+        "pronunciation": "/dɪˈsendənt/",
+        "meaning": "후손",
+        "example": "She's a descendant of a king.",
+        "translation": "그녀는 왕의 후손이야."
+      },
+      {
+        "word": "in-law",
+        "pronunciation": "/ˈɪnlɔː/",
+        "meaning": "사돈",
+        "example": "I get along well with my in-laws.",
+        "translation": "나는 사돈들과 잘 지내."
+      },
+      {
+        "word": "stepfather",
+        "pronunciation": "/ˈstepfɑːðər/",
+        "meaning": "새아버지",
+        "example": "My stepfather is very kind.",
+        "translation": "새아버지는 매우 친절해."
+      },
+      {
+        "word": "stepmother",
+        "pronunciation": "/ˈstepmʌðər/",
+        "meaning": "새어머니",
+        "example": "She became my stepmother.",
+        "translation": "그녀가 내 새어머니가 됐어."
+      },
+      {
+        "word": "stepson",
+        "pronunciation": "/ˈstepsʌn/",
+        "meaning": "의붓아들",
+        "example": "He treats his stepson like his own.",
+        "translation": "그는 의붓아들을 친아들처럼 대해."
+      },
+      {
+        "word": "stepdaughter",
+        "pronunciation": "/ˈstepdɔːtər/",
+        "meaning": "의붓딸",
+        "example": "His stepdaughter is very talented.",
+        "translation": "그의 의붓딸은 매우 재능 있어."
+      },
+      {
+        "word": "twin",
+        "pronunciation": "/twɪn/",
+        "meaning": "쌍둥이",
+        "example": "They are identical twins.",
+        "translation": "그들은 일란성 쌍둥이야."
+      }
+    ]
+  },
+  {
+    "nameKo": "신체",
+    "nameEn": "Body",
+    "words": [
+      {
+        "word": "body",
+        "pronunciation": "/ˈbɑːdi/",
+        "meaning": "몸",
+        "example": "Exercise is good for your body.",
+        "translation": "운동은 몸에 좋아."
+      },
+      {
+        "word": "head",
+        "pronunciation": "/hed/",
+        "meaning": "머리",
+        "example": "I have a headache.",
+        "translation": "머리가 아파."
+      },
+      {
+        "word": "face",
+        "pronunciation": "/feɪs/",
+        "meaning": "얼굴",
+        "example": "She has a beautiful face.",
+        "translation": "그녀는 얼굴이 예뻐."
+      },
+      {
+        "word": "hair",
+        "pronunciation": "/her/",
+        "meaning": "머리카락",
+        "example": "She has long black hair.",
+        "translation": "그녀는 긴 검은 머리카락이 있어."
+      },
+      {
+        "word": "forehead",
+        "pronunciation": "/ˈfɔːrhed/",
+        "meaning": "이마",
+        "example": "He wiped sweat from his forehead.",
+        "translation": "그는 이마의 땀을 닦았어."
+      },
+      {
+        "word": "eyebrow",
+        "pronunciation": "/ˈaɪbraʊ/",
+        "meaning": "눈썹",
+        "example": "She raised her eyebrow.",
+        "translation": "그녀가 눈썹을 올렸어."
+      },
+      {
+        "word": "eye",
+        "pronunciation": "/aɪ/",
+        "meaning": "눈",
+        "example": "She has beautiful blue eyes.",
+        "translation": "그녀는 아름다운 파란 눈을 가졌어."
+      },
+      {
+        "word": "eyelash",
+        "pronunciation": "/ˈaɪlæʃ/",
+        "meaning": "속눈썹",
+        "example": "Her eyelashes are very long.",
+        "translation": "그녀의 속눈썹은 매우 길어."
+      },
+      {
+        "word": "nose",
+        "pronunciation": "/noʊz/",
+        "meaning": "코",
+        "example": "He has a small nose.",
+        "translation": "그는 작은 코를 가졌어."
+      },
+      {
+        "word": "ear",
+        "pronunciation": "/ɪr/",
+        "meaning": "귀",
+        "example": "Can you hear me with that ear?",
+        "translation": "그 귀로 내 말이 들려?"
+      },
+      {
+        "word": "cheek",
+        "pronunciation": "/tʃiːk/",
+        "meaning": "볼",
+        "example": "The baby has chubby cheeks.",
+        "translation": "그 아기는 통통한 볼을 가졌어."
+      },
+      {
+        "word": "mouth",
+        "pronunciation": "/maʊθ/",
+        "meaning": "입",
+        "example": "Open your mouth wide.",
+        "translation": "입을 크게 벌려."
+      },
+      {
+        "word": "lip",
+        "pronunciation": "/lɪp/",
+        "meaning": "입술",
+        "example": "She put on red lipstick.",
+        "translation": "그녀는 빨간 립스틱을 발랐어."
+      },
+      {
+        "word": "tongue",
+        "pronunciation": "/tʌŋ/",
+        "meaning": "혀",
+        "example": "Stick out your tongue.",
+        "translation": "혀를 내밀어."
+      },
+      {
+        "word": "tooth",
+        "pronunciation": "/tuːθ/",
+        "meaning": "이",
+        "example": "I lost a tooth yesterday.",
+        "translation": "어제 이가 빠졌어."
+      },
+      {
+        "word": "teeth",
+        "pronunciation": "/tiːθ/",
+        "meaning": "이빨",
+        "example": "Brush your teeth twice a day.",
+        "translation": "하루에 두 번 이를 닦아."
+      },
+      {
+        "word": "chin",
+        "pronunciation": "/tʃɪn/",
+        "meaning": "턱",
+        "example": "He has a strong chin.",
+        "translation": "그는 강한 턱을 가졌어."
+      },
+      {
+        "word": "jaw",
+        "pronunciation": "/dʒɔː/",
+        "meaning": "턱뼈",
+        "example": "My jaw hurts from chewing.",
+        "translation": "씹어서 턱이 아파."
+      },
+      {
+        "word": "neck",
+        "pronunciation": "/nek/",
+        "meaning": "목",
+        "example": "She wore a scarf around her neck.",
+        "translation": "그녀는 목에 스카프를 둘렀어."
+      },
+      {
+        "word": "throat",
+        "pronunciation": "/θroʊt/",
+        "meaning": "목구멍",
+        "example": "I have a sore throat.",
+        "translation": "목이 아파."
+      },
+      {
+        "word": "shoulder",
+        "pronunciation": "/ˈʃoʊldər/",
+        "meaning": "어깨",
+        "example": "He put his hand on my shoulder.",
+        "translation": "그가 내 어깨에 손을 얹었어."
+      },
+      {
+        "word": "arm",
+        "pronunciation": "/ɑːrm/",
+        "meaning": "팔",
+        "example": "She broke her arm playing soccer.",
+        "translation": "그녀는 축구하다가 팔이 부러졌어."
+      },
+      {
+        "word": "elbow",
+        "pronunciation": "/ˈelboʊ/",
+        "meaning": "팔꿈치",
+        "example": "Don't put your elbow on the table.",
+        "translation": "테이블에 팔꿈치를 올리지 마."
+      },
+      {
+        "word": "wrist",
+        "pronunciation": "/rɪst/",
+        "meaning": "손목",
+        "example": "I wear a watch on my wrist.",
+        "translation": "손목에 시계를 차고 있어."
+      },
+      {
+        "word": "hand",
+        "pronunciation": "/hænd/",
+        "meaning": "손",
+        "example": "Wash your hands before eating.",
+        "translation": "먹기 전에 손을 씻어."
+      },
+      {
+        "word": "palm",
+        "pronunciation": "/pɑːm/",
+        "meaning": "손바닥",
+        "example": "She read my palm.",
+        "translation": "그녀가 내 손금을 봤어."
+      },
+      {
+        "word": "finger",
+        "pronunciation": "/ˈfɪŋɡər/",
+        "meaning": "손가락",
+        "example": "I cut my finger by accident.",
+        "translation": "실수로 손가락을 베었어."
+      },
+      {
+        "word": "thumb",
+        "pronunciation": "/θʌm/",
+        "meaning": "엄지",
+        "example": "Give me a thumbs up!",
+        "translation": "엄지 척 해줘!"
+      },
+      {
+        "word": "nail",
+        "pronunciation": "/neɪl/",
+        "meaning": "손톱",
+        "example": "She painted her nails pink.",
+        "translation": "그녀는 손톱을 분홍색으로 칠했어."
+      },
+      {
+        "word": "chest",
+        "pronunciation": "/tʃest/",
+        "meaning": "가슴",
+        "example": "He felt pain in his chest.",
+        "translation": "그는 가슴에 통증을 느꼈어."
+      },
+      {
+        "word": "breast",
+        "pronunciation": "/brest/",
+        "meaning": "유방",
+        "example": "She had breast surgery.",
+        "translation": "그녀는 유방 수술을 받았어."
+      },
+      {
+        "word": "back",
+        "pronunciation": "/bæk/",
+        "meaning": "등",
+        "example": "My back hurts from sitting.",
+        "translation": "앉아있어서 등이 아파."
+      },
+      {
+        "word": "waist",
+        "pronunciation": "/weɪst/",
+        "meaning": "허리",
+        "example": "She has a slim waist.",
+        "translation": "그녀는 가는 허리를 가졌어."
+      },
+      {
+        "word": "hip",
+        "pronunciation": "/hɪp/",
+        "meaning": "엉덩이",
+        "example": "She put her hands on her hips.",
+        "translation": "그녀는 양손을 엉덩이에 얹었어."
+      },
+      {
+        "word": "stomach",
+        "pronunciation": "/ˈstʌmək/",
+        "meaning": "배",
+        "example": "My stomach is upset.",
+        "translation": "배탈이 났어."
+      },
+      {
+        "word": "belly",
+        "pronunciation": "/ˈbeli/",
+        "meaning": "배",
+        "example": "The dog likes belly rubs.",
+        "translation": "그 개는 배 문질러 주는 걸 좋아해."
+      },
+      {
+        "word": "leg",
+        "pronunciation": "/leɡ/",
+        "meaning": "다리",
+        "example": "He has long legs.",
+        "translation": "그는 다리가 길어."
+      },
+      {
+        "word": "thigh",
+        "pronunciation": "/θaɪ/",
+        "meaning": "허벅지",
+        "example": "My thighs are sore from exercise.",
+        "translation": "운동해서 허벅지가 아파."
+      },
+      {
+        "word": "knee",
+        "pronunciation": "/niː/",
+        "meaning": "무릎",
+        "example": "I hurt my knee playing basketball.",
+        "translation": "농구하다가 무릎을 다쳤어."
+      },
+      {
+        "word": "calf",
+        "pronunciation": "/kæf/",
+        "meaning": "종아리",
+        "example": "Her calves are very toned.",
+        "translation": "그녀의 종아리는 탄탄해."
+      },
+      {
+        "word": "ankle",
+        "pronunciation": "/ˈæŋkl/",
+        "meaning": "발목",
+        "example": "I twisted my ankle.",
+        "translation": "발목을 삐었어."
+      },
+      {
+        "word": "foot",
+        "pronunciation": "/fʊt/",
+        "meaning": "발",
+        "example": "My foot is asleep.",
+        "translation": "발이 저려."
+      },
+      {
+        "word": "feet",
+        "pronunciation": "/fiːt/",
+        "meaning": "발 (복수)",
+        "example": "My feet hurt from walking.",
+        "translation": "걸어서 발이 아파."
+      },
+      {
+        "word": "toe",
+        "pronunciation": "/toʊ/",
+        "meaning": "발가락",
+        "example": "I stubbed my toe on the door.",
+        "translation": "문에 발가락을 찧었어."
+      },
+      {
+        "word": "heel",
+        "pronunciation": "/hiːl/",
+        "meaning": "발꿈치",
+        "example": "Her heels were cracked and dry.",
+        "translation": "그녀의 발꿈치가 갈라지고 건조했어."
+      },
+      {
+        "word": "skin",
+        "pronunciation": "/skɪn/",
+        "meaning": "피부",
+        "example": "She has smooth skin.",
+        "translation": "그녀는 피부가 부드러워."
+      },
+      {
+        "word": "bone",
+        "pronunciation": "/boʊn/",
+        "meaning": "뼈",
+        "example": "He broke a bone in his arm.",
+        "translation": "그는 팔뼈가 부러졌어."
+      },
+      {
+        "word": "muscle",
+        "pronunciation": "/ˈmʌsl/",
+        "meaning": "근육",
+        "example": "I pulled a muscle at the gym.",
+        "translation": "헬스장에서 근육을 다쳤어."
+      },
+      {
+        "word": "blood",
+        "pronunciation": "/blʌd/",
+        "meaning": "피",
+        "example": "Blood was coming from the wound.",
+        "translation": "상처에서 피가 나고 있었어."
+      },
+      {
+        "word": "heart",
+        "pronunciation": "/hɑːrt/",
+        "meaning": "심장",
+        "example": "His heart was beating fast.",
+        "translation": "그의 심장이 빨리 뛰고 있었어."
+      },
+      {
+        "word": "lung",
+        "pronunciation": "/lʌŋ/",
+        "meaning": "폐",
+        "example": "Smoking damages your lungs.",
+        "translation": "흡연은 폐를 손상시켜."
+      },
+      {
+        "word": "brain",
+        "pronunciation": "/breɪn/",
+        "meaning": "뇌",
+        "example": "The brain controls everything.",
+        "translation": "뇌가 모든 것을 통제해."
+      },
+      {
+        "word": "nerve",
+        "pronunciation": "/nɜːrv/",
+        "meaning": "신경",
+        "example": "The surgery damaged a nerve.",
+        "translation": "수술로 신경이 손상됐어."
+      },
+      {
+        "word": "organ",
+        "pronunciation": "/ˈɔːrɡən/",
+        "meaning": "장기",
+        "example": "The heart is a vital organ.",
+        "translation": "심장은 중요한 장기야."
+      },
+      {
+        "word": "cell",
+        "pronunciation": "/sel/",
+        "meaning": "세포",
+        "example": "Our bodies are made of cells.",
+        "translation": "우리 몸은 세포로 이루어져 있어."
+      }
+    ]
+  },
+  {
+    "nameKo": "음식",
+    "nameEn": "Food",
+    "words": [
+      {
+        "word": "food",
+        "pronunciation": "/fuːd/",
+        "meaning": "음식",
+        "example": "This restaurant serves great food.",
+        "translation": "이 레스토랑은 훌륭한 음식을 제공해."
+      },
+      {
+        "word": "meal",
+        "pronunciation": "/miːl/",
+        "meaning": "식사",
+        "example": "We had a delicious meal.",
+        "translation": "맛있는 식사를 했어."
+      },
+      {
+        "word": "breakfast",
+        "pronunciation": "/ˈbrekfəst/",
+        "meaning": "아침식사",
+        "example": "I usually skip breakfast.",
+        "translation": "나는 보통 아침을 거른다."
+      },
+      {
+        "word": "lunch",
+        "pronunciation": "/lʌntʃ/",
+        "meaning": "점심",
+        "example": "Let's have lunch together.",
+        "translation": "같이 점심 먹자."
+      },
+      {
+        "word": "dinner",
+        "pronunciation": "/ˈdɪnər/",
+        "meaning": "저녁식사",
+        "example": "What's for dinner tonight?",
+        "translation": "오늘 저녁은 뭐야?"
+      },
+      {
+        "word": "snack",
+        "pronunciation": "/snæk/",
+        "meaning": "간식",
+        "example": "I need a snack between meals.",
+        "translation": "식사 사이에 간식이 필요해."
+      },
+      {
+        "word": "dessert",
+        "pronunciation": "/dɪˈzɜːrt/",
+        "meaning": "디저트",
+        "example": "Would you like some dessert?",
+        "translation": "디저트 좀 드실래요?"
+      },
+      {
+        "word": "appetizer",
+        "pronunciation": "/ˈæpɪtaɪzər/",
+        "meaning": "전채요리",
+        "example": "We ordered appetizers first.",
+        "translation": "먼저 전채요리를 주문했어."
+      },
+      {
+        "word": "dish",
+        "pronunciation": "/dɪʃ/",
+        "meaning": "요리",
+        "example": "This is my favorite dish.",
+        "translation": "이건 내가 제일 좋아하는 요리야."
+      },
+      {
+        "word": "recipe",
+        "pronunciation": "/ˈresəpi/",
+        "meaning": "레시피",
+        "example": "Can I have the recipe?",
+        "translation": "레시피 좀 알려줄 수 있어?"
+      },
+      {
+        "word": "ingredient",
+        "pronunciation": "/ɪnˈɡriːdiənt/",
+        "meaning": "재료",
+        "example": "Fresh ingredients make better food.",
+        "translation": "신선한 재료가 더 나은 음식을 만들어."
+      },
+      {
+        "word": "meat",
+        "pronunciation": "/miːt/",
+        "meaning": "고기",
+        "example": "I don't eat much meat.",
+        "translation": "고기를 많이 안 먹어."
+      },
+      {
+        "word": "beef",
+        "pronunciation": "/biːf/",
+        "meaning": "소고기",
+        "example": "I'll have the beef steak.",
+        "translation": "소고기 스테이크로 할게요."
+      },
+      {
+        "word": "pork",
+        "pronunciation": "/pɔːrk/",
+        "meaning": "돼지고기",
+        "example": "Pork belly is popular in Korea.",
+        "translation": "삼겹살은 한국에서 인기 있어."
+      },
+      {
+        "word": "chicken",
+        "pronunciation": "/ˈtʃɪkɪn/",
+        "meaning": "닭고기",
+        "example": "I ordered fried chicken.",
+        "translation": "후라이드 치킨을 주문했어."
+      },
+      {
+        "word": "lamb",
+        "pronunciation": "/læm/",
+        "meaning": "양고기",
+        "example": "Have you tried lamb before?",
+        "translation": "양고기 먹어본 적 있어?"
+      },
+      {
+        "word": "fish",
+        "pronunciation": "/fɪʃ/",
+        "meaning": "생선",
+        "example": "I prefer fish to meat.",
+        "translation": "고기보다 생선을 좋아해."
+      },
+      {
+        "word": "seafood",
+        "pronunciation": "/ˈsiːfuːd/",
+        "meaning": "해산물",
+        "example": "I'm allergic to seafood.",
+        "translation": "해산물 알레르기가 있어."
+      },
+      {
+        "word": "shrimp",
+        "pronunciation": "/ʃrɪmp/",
+        "meaning": "새우",
+        "example": "The shrimp was perfectly cooked.",
+        "translation": "새우가 완벽하게 익었어."
+      },
+      {
+        "word": "crab",
+        "pronunciation": "/kræb/",
+        "meaning": "게",
+        "example": "We had crab for dinner.",
+        "translation": "저녁으로 게를 먹었어."
+      },
+      {
+        "word": "lobster",
+        "pronunciation": "/ˈlɑːbstər/",
+        "meaning": "랍스터",
+        "example": "Lobster is expensive here.",
+        "translation": "여기 랍스터는 비싸."
+      },
+      {
+        "word": "salmon",
+        "pronunciation": "/ˈsæmən/",
+        "meaning": "연어",
+        "example": "I love smoked salmon.",
+        "translation": "훈제 연어를 좋아해."
+      },
+      {
+        "word": "tuna",
+        "pronunciation": "/ˈtuːnə/",
+        "meaning": "참치",
+        "example": "I'll have a tuna sandwich.",
+        "translation": "참치 샌드위치로 할게요."
+      },
+      {
+        "word": "egg",
+        "pronunciation": "/eɡ/",
+        "meaning": "달걀",
+        "example": "How do you like your eggs?",
+        "translation": "달걀은 어떻게 해드릴까요?"
+      },
+      {
+        "word": "vegetable",
+        "pronunciation": "/ˈvedʒtəbl/",
+        "meaning": "채소",
+        "example": "Eat more vegetables.",
+        "translation": "채소를 더 먹어."
+      },
+      {
+        "word": "carrot",
+        "pronunciation": "/ˈkærət/",
+        "meaning": "당근",
+        "example": "Carrots are good for your eyes.",
+        "translation": "당근은 눈에 좋아."
+      },
+      {
+        "word": "potato",
+        "pronunciation": "/pəˈteɪtoʊ/",
+        "meaning": "감자",
+        "example": "I love baked potatoes.",
+        "translation": "구운 감자를 좋아해."
+      },
+      {
+        "word": "tomato",
+        "pronunciation": "/təˈmeɪtoʊ/",
+        "meaning": "토마토",
+        "example": "Add some tomatoes to the salad.",
+        "translation": "샐러드에 토마토를 좀 넣어."
+      },
+      {
+        "word": "onion",
+        "pronunciation": "/ˈʌnjən/",
+        "meaning": "양파",
+        "example": "Onions make me cry.",
+        "translation": "양파 때문에 눈물이 나."
+      },
+      {
+        "word": "garlic",
+        "pronunciation": "/ˈɡɑːrlɪk/",
+        "meaning": "마늘",
+        "example": "I put garlic in everything.",
+        "translation": "모든 음식에 마늘을 넣어."
+      },
+      {
+        "word": "pepper",
+        "pronunciation": "/ˈpepər/",
+        "meaning": "고추/후추",
+        "example": "Pass the pepper, please.",
+        "translation": "후추 좀 건네줘."
+      },
+      {
+        "word": "cucumber",
+        "pronunciation": "/ˈkjuːkʌmbər/",
+        "meaning": "오이",
+        "example": "Cucumbers are very refreshing.",
+        "translation": "오이는 매우 상쾌해."
+      },
+      {
+        "word": "lettuce",
+        "pronunciation": "/ˈletɪs/",
+        "meaning": "상추",
+        "example": "I need lettuce for the salad.",
+        "translation": "샐러드에 상추가 필요해."
+      },
+      {
+        "word": "cabbage",
+        "pronunciation": "/ˈkæbɪdʒ/",
+        "meaning": "양배추",
+        "example": "Kimchi is made from cabbage.",
+        "translation": "김치는 배추로 만들어."
+      },
+      {
+        "word": "spinach",
+        "pronunciation": "/ˈspɪnɪtʃ/",
+        "meaning": "시금치",
+        "example": "Spinach is rich in iron.",
+        "translation": "시금치는 철분이 풍부해."
+      },
+      {
+        "word": "broccoli",
+        "pronunciation": "/ˈbrɑːkəli/",
+        "meaning": "브로콜리",
+        "example": "Kids often don't like broccoli.",
+        "translation": "아이들은 보통 브로콜리를 안 좋아해."
+      },
+      {
+        "word": "mushroom",
+        "pronunciation": "/ˈmʌʃruːm/",
+        "meaning": "버섯",
+        "example": "I love mushrooms on pizza.",
+        "translation": "피자 위의 버섯을 좋아해."
+      },
+      {
+        "word": "corn",
+        "pronunciation": "/kɔːrn/",
+        "meaning": "옥수수",
+        "example": "Corn on the cob is delicious.",
+        "translation": "옥수수가 맛있어."
+      },
+      {
+        "word": "bean",
+        "pronunciation": "/biːn/",
+        "meaning": "콩",
+        "example": "Black beans are very healthy.",
+        "translation": "검은 콩은 매우 건강해."
+      },
+      {
+        "word": "pea",
+        "pronunciation": "/piː/",
+        "meaning": "완두콩",
+        "example": "Green peas go well with rice.",
+        "translation": "완두콩은 밥과 잘 어울려."
+      },
+      {
+        "word": "fruit",
+        "pronunciation": "/fruːt/",
+        "meaning": "과일",
+        "example": "I eat fruit every morning.",
+        "translation": "매일 아침 과일을 먹어."
+      },
+      {
+        "word": "apple",
+        "pronunciation": "/ˈæpl/",
+        "meaning": "사과",
+        "example": "An apple a day keeps the doctor away.",
+        "translation": "하루에 사과 하나면 의사가 필요 없어."
+      },
+      {
+        "word": "banana",
+        "pronunciation": "/bəˈnænə/",
+        "meaning": "바나나",
+        "example": "Bananas are good for energy.",
+        "translation": "바나나는 에너지에 좋아."
+      },
+      {
+        "word": "orange",
+        "pronunciation": "/ˈɔːrɪndʒ/",
+        "meaning": "오렌지",
+        "example": "Fresh orange juice is the best.",
+        "translation": "신선한 오렌지 주스가 최고야."
+      },
+      {
+        "word": "grape",
+        "pronunciation": "/ɡreɪp/",
+        "meaning": "포도",
+        "example": "I bought some grapes at the market.",
+        "translation": "시장에서 포도를 샀어."
+      },
+      {
+        "word": "strawberry",
+        "pronunciation": "/ˈstrɔːberi/",
+        "meaning": "딸기",
+        "example": "Strawberries are in season now.",
+        "translation": "지금 딸기 제철이야."
+      },
+      {
+        "word": "watermelon",
+        "pronunciation": "/ˈwɔːtərmelən/",
+        "meaning": "수박",
+        "example": "Watermelon is perfect for summer.",
+        "translation": "수박은 여름에 딱이야."
+      },
+      {
+        "word": "peach",
+        "pronunciation": "/piːtʃ/",
+        "meaning": "복숭아",
+        "example": "This peach is so juicy.",
+        "translation": "이 복숭아 정말 즙이 많아."
+      },
+      {
+        "word": "pear",
+        "pronunciation": "/per/",
+        "meaning": "배",
+        "example": "Korean pears are very sweet.",
+        "translation": "한국 배는 매우 달아."
+      },
+      {
+        "word": "lemon",
+        "pronunciation": "/ˈlemən/",
+        "meaning": "레몬",
+        "example": "Add some lemon to your water.",
+        "translation": "물에 레몬을 좀 넣어."
+      },
+      {
+        "word": "mango",
+        "pronunciation": "/ˈmæŋɡoʊ/",
+        "meaning": "망고",
+        "example": "I love dried mango.",
+        "translation": "건망고를 좋아해."
+      },
+      {
+        "word": "pineapple",
+        "pronunciation": "/ˈpaɪnæpl/",
+        "meaning": "파인애플",
+        "example": "Pineapple pizza is controversial.",
+        "translation": "파인애플 피자는 논란이 많아."
+      },
+      {
+        "word": "cherry",
+        "pronunciation": "/ˈtʃeri/",
+        "meaning": "체리",
+        "example": "Cherries are expensive here.",
+        "translation": "여기 체리는 비싸."
+      },
+      {
+        "word": "bread",
+        "pronunciation": "/bred/",
+        "meaning": "빵",
+        "example": "I eat bread for breakfast.",
+        "translation": "아침으로 빵을 먹어."
+      },
+      {
+        "word": "toast",
+        "pronunciation": "/toʊst/",
+        "meaning": "토스트",
+        "example": "I had toast with butter.",
+        "translation": "버터 바른 토스트를 먹었어."
+      },
+      {
+        "word": "rice",
+        "pronunciation": "/raɪs/",
+        "meaning": "쌀/밥",
+        "example": "Rice is a staple food in Korea.",
+        "translation": "쌀은 한국의 주식이야."
+      },
+      {
+        "word": "noodle",
+        "pronunciation": "/ˈnuːdl/",
+        "meaning": "국수",
+        "example": "I ordered noodles for lunch.",
+        "translation": "점심으로 국수를 주문했어."
+      },
+      {
+        "word": "pasta",
+        "pronunciation": "/ˈpɑːstə/",
+        "meaning": "파스타",
+        "example": "She makes the best pasta.",
+        "translation": "그녀는 최고의 파스타를 만들어."
+      },
+      {
+        "word": "pizza",
+        "pronunciation": "/ˈpiːtsə/",
+        "meaning": "피자",
+        "example": "Let's order pizza tonight.",
+        "translation": "오늘 밤 피자 시키자."
+      },
+      {
+        "word": "burger",
+        "pronunciation": "/ˈbɜːrɡər/",
+        "meaning": "버거",
+        "example": "I want a cheeseburger.",
+        "translation": "치즈버거 먹고 싶어."
+      },
+      {
+        "word": "sandwich",
+        "pronunciation": "/ˈsænwɪtʃ/",
+        "meaning": "샌드위치",
+        "example": "I packed a sandwich for lunch.",
+        "translation": "점심으로 샌드위치를 싸왔어."
+      },
+      {
+        "word": "salad",
+        "pronunciation": "/ˈsæləd/",
+        "meaning": "샐러드",
+        "example": "I'm having salad for dinner.",
+        "translation": "저녁으로 샐러드를 먹을 거야."
+      },
+      {
+        "word": "soup",
+        "pronunciation": "/suːp/",
+        "meaning": "수프",
+        "example": "Hot soup is good on cold days.",
+        "translation": "추운 날에는 뜨거운 수프가 좋아."
+      },
+      {
+        "word": "stew",
+        "pronunciation": "/stuː/",
+        "meaning": "스튜",
+        "example": "My mom makes great beef stew.",
+        "translation": "엄마는 소고기 스튜를 잘 만들어."
+      },
+      {
+        "word": "sauce",
+        "pronunciation": "/sɔːs/",
+        "meaning": "소스",
+        "example": "Would you like some sauce?",
+        "translation": "소스 좀 드릴까요?"
+      },
+      {
+        "word": "cheese",
+        "pronunciation": "/tʃiːz/",
+        "meaning": "치즈",
+        "example": "I love cheese on everything.",
+        "translation": "모든 음식에 치즈를 좋아해."
+      },
+      {
+        "word": "butter",
+        "pronunciation": "/ˈbʌtər/",
+        "meaning": "버터",
+        "example": "Put some butter on the bread.",
+        "translation": "빵에 버터를 발라."
+      },
+      {
+        "word": "cream",
+        "pronunciation": "/kriːm/",
+        "meaning": "크림",
+        "example": "I like coffee with cream.",
+        "translation": "크림 넣은 커피를 좋아해."
+      },
+      {
+        "word": "milk",
+        "pronunciation": "/mɪlk/",
+        "meaning": "우유",
+        "example": "I drink milk every morning.",
+        "translation": "매일 아침 우유를 마셔."
+      },
+      {
+        "word": "yogurt",
+        "pronunciation": "/ˈjoʊɡərt/",
+        "meaning": "요거트",
+        "example": "Greek yogurt is very healthy.",
+        "translation": "그릭 요거트는 매우 건강해."
+      },
+      {
+        "word": "sugar",
+        "pronunciation": "/ˈʃʊɡər/",
+        "meaning": "설탕",
+        "example": "Do you take sugar in your coffee?",
+        "translation": "커피에 설탕 넣어?"
+      },
+      {
+        "word": "salt",
+        "pronunciation": "/sɔːlt/",
+        "meaning": "소금",
+        "example": "The soup needs more salt.",
+        "translation": "수프에 소금이 더 필요해."
+      },
+      {
+        "word": "oil",
+        "pronunciation": "/ɔɪl/",
+        "meaning": "기름",
+        "example": "Use olive oil for cooking.",
+        "translation": "요리할 때 올리브 오일을 써."
+      },
+      {
+        "word": "vinegar",
+        "pronunciation": "/ˈvɪnɪɡər/",
+        "meaning": "식초",
+        "example": "Add vinegar to the salad.",
+        "translation": "샐러드에 식초를 넣어."
+      },
+      {
+        "word": "spice",
+        "pronunciation": "/spaɪs/",
+        "meaning": "향신료",
+        "example": "Indian food uses many spices.",
+        "translation": "인도 음식은 많은 향신료를 써."
+      },
+      {
+        "word": "cake",
+        "pronunciation": "/keɪk/",
+        "meaning": "케이크",
+        "example": "We had cake for her birthday.",
+        "translation": "그녀의 생일에 케이크를 먹었어."
+      },
+      {
+        "word": "cookie",
+        "pronunciation": "/ˈkʊki/",
+        "meaning": "쿠키",
+        "example": "Would you like a cookie?",
+        "translation": "쿠키 드실래요?"
+      },
+      {
+        "word": "chocolate",
+        "pronunciation": "/ˈtʃɔːklət/",
+        "meaning": "초콜릿",
+        "example": "I love dark chocolate.",
+        "translation": "다크 초콜릿을 좋아해."
+      },
+      {
+        "word": "candy",
+        "pronunciation": "/ˈkændi/",
+        "meaning": "사탕",
+        "example": "Don't eat too much candy.",
+        "translation": "사탕을 너무 많이 먹지 마."
+      },
+      {
+        "word": "ice cream",
+        "pronunciation": "/aɪs kriːm/",
+        "meaning": "아이스크림",
+        "example": "Let's get ice cream!",
+        "translation": "아이스크림 먹으러 가자!"
+      }
+    ]
+  },
+  {
+    "nameKo": "음료",
+    "nameEn": "Drinks",
+    "words": [
+      {
+        "word": "drink",
+        "pronunciation": "/drɪŋk/",
+        "meaning": "음료",
+        "example": "Would you like a drink?",
+        "translation": "음료 드실래요?"
+      },
+      {
+        "word": "beverage",
+        "pronunciation": "/ˈbevərɪdʒ/",
+        "meaning": "음료",
+        "example": "What beverage would you like?",
+        "translation": "어떤 음료로 하시겠어요?"
+      },
+      {
+        "word": "water",
+        "pronunciation": "/ˈwɔːtər/",
+        "meaning": "물",
+        "example": "I need a glass of water.",
+        "translation": "물 한 잔이 필요해."
+      },
+      {
+        "word": "coffee",
+        "pronunciation": "/ˈkɔːfi/",
+        "meaning": "커피",
+        "example": "I can't live without coffee.",
+        "translation": "커피 없이는 못 살아."
+      },
+      {
+        "word": "tea",
+        "pronunciation": "/tiː/",
+        "meaning": "차",
+        "example": "Would you like some tea?",
+        "translation": "차 좀 드실래요?"
+      },
+      {
+        "word": "juice",
+        "pronunciation": "/dʒuːs/",
+        "meaning": "주스",
+        "example": "I'll have orange juice.",
+        "translation": "오렌지 주스로 할게요."
+      },
+      {
+        "word": "soda",
+        "pronunciation": "/ˈsoʊdə/",
+        "meaning": "탄산음료",
+        "example": "Soda is bad for your health.",
+        "translation": "탄산음료는 건강에 안 좋아."
+      },
+      {
+        "word": "coke",
+        "pronunciation": "/koʊk/",
+        "meaning": "콜라",
+        "example": "Can I have a coke, please?",
+        "translation": "콜라 하나 주세요."
+      },
+      {
+        "word": "lemonade",
+        "pronunciation": "/ˌleməˈneɪd/",
+        "meaning": "레모네이드",
+        "example": "Fresh lemonade is so refreshing.",
+        "translation": "신선한 레모네이드는 정말 상쾌해."
+      },
+      {
+        "word": "smoothie",
+        "pronunciation": "/ˈsmuːði/",
+        "meaning": "스무디",
+        "example": "I made a banana smoothie.",
+        "translation": "바나나 스무디를 만들었어."
+      },
+      {
+        "word": "shake",
+        "pronunciation": "/ʃeɪk/",
+        "meaning": "쉐이크",
+        "example": "I want a chocolate shake.",
+        "translation": "초콜릿 쉐이크가 먹고 싶어."
+      },
+      {
+        "word": "beer",
+        "pronunciation": "/bɪr/",
+        "meaning": "맥주",
+        "example": "Let's grab a beer after work.",
+        "translation": "퇴근 후에 맥주 한 잔 하자."
+      },
+      {
+        "word": "wine",
+        "pronunciation": "/waɪn/",
+        "meaning": "와인",
+        "example": "Red wine goes well with steak.",
+        "translation": "레드 와인은 스테이크와 잘 어울려."
+      },
+      {
+        "word": "champagne",
+        "pronunciation": "/ʃæmˈpeɪn/",
+        "meaning": "샴페인",
+        "example": "We opened champagne to celebrate.",
+        "translation": "축하하려고 샴페인을 열었어."
+      },
+      {
+        "word": "whiskey",
+        "pronunciation": "/ˈwɪski/",
+        "meaning": "위스키",
+        "example": "He drinks whiskey on the rocks.",
+        "translation": "그는 위스키 온 더 락을 마셔."
+      },
+      {
+        "word": "vodka",
+        "pronunciation": "/ˈvɑːdkə/",
+        "meaning": "보드카",
+        "example": "Vodka is very strong.",
+        "translation": "보드카는 매우 독해."
+      },
+      {
+        "word": "cocktail",
+        "pronunciation": "/ˈkɑːkteɪl/",
+        "meaning": "칵테일",
+        "example": "I ordered a cocktail at the bar.",
+        "translation": "바에서 칵테일을 주문했어."
+      },
+      {
+        "word": "alcohol",
+        "pronunciation": "/ˈælkəhɔːl/",
+        "meaning": "술",
+        "example": "I don't drink alcohol.",
+        "translation": "나는 술을 안 마셔."
+      },
+      {
+        "word": "liquor",
+        "pronunciation": "/ˈlɪkər/",
+        "meaning": "독주",
+        "example": "This liquor is 40% alcohol.",
+        "translation": "이 술은 40도야."
+      },
+      {
+        "word": "espresso",
+        "pronunciation": "/eˈspresoʊ/",
+        "meaning": "에스프레소",
+        "example": "I need a double espresso.",
+        "translation": "더블 에스프레소가 필요해."
+      },
+      {
+        "word": "latte",
+        "pronunciation": "/ˈlɑːteɪ/",
+        "meaning": "라떼",
+        "example": "I'll have a caramel latte.",
+        "translation": "카라멜 라떼로 할게요."
+      },
+      {
+        "word": "cappuccino",
+        "pronunciation": "/ˌkæpuˈtʃiːnoʊ/",
+        "meaning": "카푸치노",
+        "example": "Cappuccino has lots of foam.",
+        "translation": "카푸치노는 거품이 많아."
+      },
+      {
+        "word": "americano",
+        "pronunciation": "/əˌmerɪˈkɑːnoʊ/",
+        "meaning": "아메리카노",
+        "example": "One iced americano, please.",
+        "translation": "아이스 아메리카노 하나 주세요."
+      },
+      {
+        "word": "mocha",
+        "pronunciation": "/ˈmoʊkə/",
+        "meaning": "모카",
+        "example": "Mocha has chocolate in it.",
+        "translation": "모카에는 초콜릿이 들어가."
+      },
+      {
+        "word": "hot chocolate",
+        "pronunciation": "/hɑːt ˈtʃɔːklət/",
+        "meaning": "핫초코",
+        "example": "Hot chocolate is perfect in winter.",
+        "translation": "핫초코는 겨울에 딱이야."
+      },
+      {
+        "word": "mineral water",
+        "pronunciation": "/ˈmɪnərəl ˈwɔːtər/",
+        "meaning": "생수",
+        "example": "I prefer mineral water.",
+        "translation": "생수를 선호해."
+      },
+      {
+        "word": "sparkling water",
+        "pronunciation": "/ˈspɑːrklɪŋ ˈwɔːtər/",
+        "meaning": "탄산수",
+        "example": "Do you have sparkling water?",
+        "translation": "탄산수 있어요?"
+      },
+      {
+        "word": "iced tea",
+        "pronunciation": "/aɪst tiː/",
+        "meaning": "아이스티",
+        "example": "Iced tea is great in summer.",
+        "translation": "아이스티는 여름에 좋아."
+      },
+      {
+        "word": "energy drink",
+        "pronunciation": "/ˈenərdʒi drɪŋk/",
+        "meaning": "에너지드링크",
+        "example": "Energy drinks keep me awake.",
+        "translation": "에너지 드링크가 잠을 깨워줘."
+      },
+      {
+        "word": "protein shake",
+        "pronunciation": "/ˈproʊtiːn ʃeɪk/",
+        "meaning": "프로틴쉐이크",
+        "example": "I drink a protein shake after gym.",
+        "translation": "헬스 후에 프로틴쉐이크를 마셔."
+      }
+    ]
+  },
+  {
+    "nameKo": "장소",
+    "nameEn": "Places",
+    "words": [
+      {
+        "word": "place",
+        "pronunciation": "/pleɪs/",
+        "meaning": "장소",
+        "example": "This is a nice place.",
+        "translation": "여기 좋은 곳이야."
+      },
+      {
+        "word": "location",
+        "pronunciation": "/loʊˈkeɪʃn/",
+        "meaning": "위치",
+        "example": "What's the location of the meeting?",
+        "translation": "회의 장소가 어디야?"
+      },
+      {
+        "word": "area",
+        "pronunciation": "/ˈeriə/",
+        "meaning": "지역",
+        "example": "This area is very safe.",
+        "translation": "이 지역은 매우 안전해."
+      },
+      {
+        "word": "region",
+        "pronunciation": "/ˈriːdʒən/",
+        "meaning": "지역",
+        "example": "The wine comes from this region.",
+        "translation": "이 와인은 이 지역에서 나와."
+      },
+      {
+        "word": "country",
+        "pronunciation": "/ˈkʌntri/",
+        "meaning": "나라",
+        "example": "Which country are you from?",
+        "translation": "어느 나라에서 왔어?"
+      },
+      {
+        "word": "city",
+        "pronunciation": "/ˈsɪti/",
+        "meaning": "도시",
+        "example": "Seoul is a big city.",
+        "translation": "서울은 큰 도시야."
+      },
+      {
+        "word": "town",
+        "pronunciation": "/taʊn/",
+        "meaning": "마을",
+        "example": "I grew up in a small town.",
+        "translation": "작은 마을에서 자랐어."
+      },
+      {
+        "word": "village",
+        "pronunciation": "/ˈvɪlɪdʒ/",
+        "meaning": "시골마을",
+        "example": "My grandparents live in a village.",
+        "translation": "조부모님은 시골 마을에 살아."
+      },
+      {
+        "word": "neighborhood",
+        "pronunciation": "/ˈneɪbərhʊd/",
+        "meaning": "동네",
+        "example": "This is a quiet neighborhood.",
+        "translation": "여기는 조용한 동네야."
+      },
+      {
+        "word": "district",
+        "pronunciation": "/ˈdɪstrɪkt/",
+        "meaning": "구역",
+        "example": "Gangnam is a business district.",
+        "translation": "강남은 비즈니스 지구야."
+      },
+      {
+        "word": "downtown",
+        "pronunciation": "/ˈdaʊntaʊn/",
+        "meaning": "시내",
+        "example": "Let's go downtown tonight.",
+        "translation": "오늘 밤 시내에 가자."
+      },
+      {
+        "word": "suburb",
+        "pronunciation": "/ˈsʌbɜːrb/",
+        "meaning": "교외",
+        "example": "They moved to the suburbs.",
+        "translation": "그들은 교외로 이사했어."
+      },
+      {
+        "word": "street",
+        "pronunciation": "/striːt/",
+        "meaning": "거리",
+        "example": "This street is very busy.",
+        "translation": "이 거리는 매우 바빠."
+      },
+      {
+        "word": "road",
+        "pronunciation": "/roʊd/",
+        "meaning": "도로",
+        "example": "The road is under construction.",
+        "translation": "도로가 공사 중이야."
+      },
+      {
+        "word": "avenue",
+        "pronunciation": "/ˈævənuː/",
+        "meaning": "대로",
+        "example": "They live on Fifth Avenue.",
+        "translation": "그들은 5번가에 살아."
+      },
+      {
+        "word": "highway",
+        "pronunciation": "/ˈhaɪweɪ/",
+        "meaning": "고속도로",
+        "example": "Take the highway to save time.",
+        "translation": "시간 절약하려면 고속도로를 타."
+      },
+      {
+        "word": "bridge",
+        "pronunciation": "/brɪdʒ/",
+        "meaning": "다리",
+        "example": "The bridge connects two cities.",
+        "translation": "그 다리는 두 도시를 연결해."
+      },
+      {
+        "word": "corner",
+        "pronunciation": "/ˈkɔːrnər/",
+        "meaning": "모퉁이",
+        "example": "The cafe is around the corner.",
+        "translation": "카페가 모퉁이를 돌면 있어."
+      },
+      {
+        "word": "intersection",
+        "pronunciation": "/ˌɪntərˈsekʃn/",
+        "meaning": "교차로",
+        "example": "Turn right at the intersection.",
+        "translation": "교차로에서 우회전해."
+      },
+      {
+        "word": "building",
+        "pronunciation": "/ˈbɪldɪŋ/",
+        "meaning": "건물",
+        "example": "That building is very tall.",
+        "translation": "저 건물은 매우 높아."
+      },
+      {
+        "word": "house",
+        "pronunciation": "/haʊs/",
+        "meaning": "집",
+        "example": "They bought a new house.",
+        "translation": "그들은 새 집을 샀어."
+      },
+      {
+        "word": "home",
+        "pronunciation": "/hoʊm/",
+        "meaning": "가정",
+        "example": "There's no place like home.",
+        "translation": "집만 한 곳이 없어."
+      },
+      {
+        "word": "apartment",
+        "pronunciation": "/əˈpɑːrtmənt/",
+        "meaning": "아파트",
+        "example": "I live in an apartment.",
+        "translation": "아파트에 살아."
+      },
+      {
+        "word": "room",
+        "pronunciation": "/ruːm/",
+        "meaning": "방",
+        "example": "This room is very spacious.",
+        "translation": "이 방은 매우 넓어."
+      },
+      {
+        "word": "floor",
+        "pronunciation": "/flɔːr/",
+        "meaning": "층",
+        "example": "I live on the 10th floor.",
+        "translation": "10층에 살아."
+      },
+      {
+        "word": "office",
+        "pronunciation": "/ˈɔːfɪs/",
+        "meaning": "사무실",
+        "example": "I'll be at the office all day.",
+        "translation": "하루 종일 사무실에 있을 거야."
+      },
+      {
+        "word": "company",
+        "pronunciation": "/ˈkʌmpəni/",
+        "meaning": "회사",
+        "example": "She works for a big company.",
+        "translation": "그녀는 큰 회사에서 일해."
+      },
+      {
+        "word": "factory",
+        "pronunciation": "/ˈfæktəri/",
+        "meaning": "공장",
+        "example": "The factory produces cars.",
+        "translation": "그 공장은 자동차를 생산해."
+      },
+      {
+        "word": "store",
+        "pronunciation": "/stɔːr/",
+        "meaning": "상점",
+        "example": "The store closes at 10 PM.",
+        "translation": "그 가게는 밤 10시에 닫아."
+      },
+      {
+        "word": "shop",
+        "pronunciation": "/ʃɑːp/",
+        "meaning": "가게",
+        "example": "There's a coffee shop nearby.",
+        "translation": "근처에 커피숍이 있어."
+      },
+      {
+        "word": "market",
+        "pronunciation": "/ˈmɑːrkɪt/",
+        "meaning": "시장",
+        "example": "I buy vegetables at the market.",
+        "translation": "시장에서 야채를 사."
+      },
+      {
+        "word": "mall",
+        "pronunciation": "/mɔːl/",
+        "meaning": "쇼핑몰",
+        "example": "Let's meet at the mall.",
+        "translation": "쇼핑몰에서 만나자."
+      },
+      {
+        "word": "supermarket",
+        "pronunciation": "/ˈsuːpərmɑːrkɪt/",
+        "meaning": "슈퍼마켓",
+        "example": "I need to go to the supermarket.",
+        "translation": "슈퍼마켓에 가야 해."
+      },
+      {
+        "word": "restaurant",
+        "pronunciation": "/ˈrestərɑːnt/",
+        "meaning": "레스토랑",
+        "example": "This restaurant is always busy.",
+        "translation": "이 레스토랑은 항상 바빠."
+      },
+      {
+        "word": "cafe",
+        "pronunciation": "/kæˈfeɪ/",
+        "meaning": "카페",
+        "example": "Let's grab coffee at the cafe.",
+        "translation": "카페에서 커피 마시자."
+      },
+      {
+        "word": "bar",
+        "pronunciation": "/bɑːr/",
+        "meaning": "바",
+        "example": "We went to a bar last night.",
+        "translation": "어젯밤에 바에 갔어."
+      },
+      {
+        "word": "bakery",
+        "pronunciation": "/ˈbeɪkəri/",
+        "meaning": "빵집",
+        "example": "The bakery smells amazing.",
+        "translation": "빵집에서 좋은 냄새가 나."
+      },
+      {
+        "word": "bank",
+        "pronunciation": "/bæŋk/",
+        "meaning": "은행",
+        "example": "I need to go to the bank.",
+        "translation": "은행에 가야 해."
+      },
+      {
+        "word": "hospital",
+        "pronunciation": "/ˈhɑːspɪtl/",
+        "meaning": "병원",
+        "example": "She was taken to the hospital.",
+        "translation": "그녀는 병원에 실려갔어."
+      },
+      {
+        "word": "clinic",
+        "pronunciation": "/ˈklɪnɪk/",
+        "meaning": "의원",
+        "example": "I have an appointment at the clinic.",
+        "translation": "의원에 예약이 있어."
+      },
+      {
+        "word": "pharmacy",
+        "pronunciation": "/ˈfɑːrməsi/",
+        "meaning": "약국",
+        "example": "Is there a pharmacy nearby?",
+        "translation": "근처에 약국 있어요?"
+      },
+      {
+        "word": "school",
+        "pronunciation": "/skuːl/",
+        "meaning": "학교",
+        "example": "School starts at 8 AM.",
+        "translation": "학교는 오전 8시에 시작해."
+      },
+      {
+        "word": "university",
+        "pronunciation": "/ˌjuːnɪˈvɜːrsəti/",
+        "meaning": "대학교",
+        "example": "She goes to Seoul University.",
+        "translation": "그녀는 서울대학교에 다녀."
+      },
+      {
+        "word": "college",
+        "pronunciation": "/ˈkɑːlɪdʒ/",
+        "meaning": "대학",
+        "example": "He's in college now.",
+        "translation": "그는 지금 대학생이야."
+      },
+      {
+        "word": "library",
+        "pronunciation": "/ˈlaɪbreri/",
+        "meaning": "도서관",
+        "example": "I study at the library.",
+        "translation": "도서관에서 공부해."
+      },
+      {
+        "word": "museum",
+        "pronunciation": "/mjuˈziːəm/",
+        "meaning": "박물관",
+        "example": "The museum has ancient artifacts.",
+        "translation": "박물관에 고대 유물이 있어."
+      },
+      {
+        "word": "gallery",
+        "pronunciation": "/ˈɡæləri/",
+        "meaning": "갤러리",
+        "example": "There's an art gallery downtown.",
+        "translation": "시내에 미술 갤러리가 있어."
+      },
+      {
+        "word": "theater",
+        "pronunciation": "/ˈθiːətər/",
+        "meaning": "극장",
+        "example": "The theater was packed.",
+        "translation": "극장이 만원이었어."
+      },
+      {
+        "word": "cinema",
+        "pronunciation": "/ˈsɪnəmə/",
+        "meaning": "영화관",
+        "example": "Let's go to the cinema.",
+        "translation": "영화관에 가자."
+      },
+      {
+        "word": "stadium",
+        "pronunciation": "/ˈsteɪdiəm/",
+        "meaning": "경기장",
+        "example": "The stadium holds 50,000 people.",
+        "translation": "경기장은 5만 명을 수용해."
+      },
+      {
+        "word": "gym",
+        "pronunciation": "/dʒɪm/",
+        "meaning": "체육관",
+        "example": "I work out at the gym.",
+        "translation": "체육관에서 운동해."
+      },
+      {
+        "word": "park",
+        "pronunciation": "/pɑːrk/",
+        "meaning": "공원",
+        "example": "Let's take a walk in the park.",
+        "translation": "공원에서 산책하자."
+      },
+      {
+        "word": "garden",
+        "pronunciation": "/ˈɡɑːrdn/",
+        "meaning": "정원",
+        "example": "She has a beautiful garden.",
+        "translation": "그녀는 아름다운 정원이 있어."
+      },
+      {
+        "word": "beach",
+        "pronunciation": "/biːtʃ/",
+        "meaning": "해변",
+        "example": "The beach was crowded.",
+        "translation": "해변이 붐볐어."
+      },
+      {
+        "word": "mountain",
+        "pronunciation": "/ˈmaʊntn/",
+        "meaning": "산",
+        "example": "We climbed a mountain yesterday.",
+        "translation": "어제 산을 올랐어."
+      },
+      {
+        "word": "lake",
+        "pronunciation": "/leɪk/",
+        "meaning": "호수",
+        "example": "The lake is very peaceful.",
+        "translation": "호수가 매우 평화로워."
+      },
+      {
+        "word": "river",
+        "pronunciation": "/ˈrɪvər/",
+        "meaning": "강",
+        "example": "The river flows through the city.",
+        "translation": "강이 도시를 관통해."
+      },
+      {
+        "word": "ocean",
+        "pronunciation": "/ˈoʊʃn/",
+        "meaning": "바다",
+        "example": "I love the sound of the ocean.",
+        "translation": "바다 소리를 좋아해."
+      },
+      {
+        "word": "forest",
+        "pronunciation": "/ˈfɔːrɪst/",
+        "meaning": "숲",
+        "example": "We went hiking in the forest.",
+        "translation": "숲에서 등산했어."
+      },
+      {
+        "word": "airport",
+        "pronunciation": "/ˈerpɔːrt/",
+        "meaning": "공항",
+        "example": "The airport is 30 minutes away.",
+        "translation": "공항은 30분 거리야."
+      },
+      {
+        "word": "station",
+        "pronunciation": "/ˈsteɪʃn/",
+        "meaning": "역",
+        "example": "I'll meet you at the station.",
+        "translation": "역에서 만나자."
+      },
+      {
+        "word": "terminal",
+        "pronunciation": "/ˈtɜːrmɪnl/",
+        "meaning": "터미널",
+        "example": "Which terminal is your flight?",
+        "translation": "항공편이 몇 터미널이야?"
+      },
+      {
+        "word": "port",
+        "pronunciation": "/pɔːrt/",
+        "meaning": "항구",
+        "example": "The ship arrived at the port.",
+        "translation": "배가 항구에 도착했어."
+      },
+      {
+        "word": "hotel",
+        "pronunciation": "/hoʊˈtel/",
+        "meaning": "호텔",
+        "example": "I booked a hotel room.",
+        "translation": "호텔 방을 예약했어."
+      },
+      {
+        "word": "motel",
+        "pronunciation": "/moʊˈtel/",
+        "meaning": "모텔",
+        "example": "We stayed at a motel.",
+        "translation": "모텔에서 묵었어."
+      },
+      {
+        "word": "church",
+        "pronunciation": "/tʃɜːrtʃ/",
+        "meaning": "교회",
+        "example": "They go to church on Sundays.",
+        "translation": "그들은 일요일에 교회에 가."
+      },
+      {
+        "word": "temple",
+        "pronunciation": "/ˈtempl/",
+        "meaning": "사원",
+        "example": "We visited a Buddhist temple.",
+        "translation": "불교 사원을 방문했어."
+      },
+      {
+        "word": "palace",
+        "pronunciation": "/ˈpæləs/",
+        "meaning": "궁전",
+        "example": "The palace is a tourist attraction.",
+        "translation": "궁전은 관광 명소야."
+      },
+      {
+        "word": "castle",
+        "pronunciation": "/ˈkæsl/",
+        "meaning": "성",
+        "example": "We toured an old castle.",
+        "translation": "오래된 성을 둘러봤어."
+      },
+      {
+        "word": "tower",
+        "pronunciation": "/ˈtaʊər/",
+        "meaning": "탑",
+        "example": "The tower offers great views.",
+        "translation": "탑에서 전망이 좋아."
+      }
+    ]
+  },
+  {
+    "nameKo": "집",
+    "nameEn": "Home",
+    "words": [
+      {
+        "word": "house",
+        "pronunciation": "/haʊs/",
+        "meaning": "집",
+        "example": "We just bought a house.",
+        "translation": "집을 막 샀어."
+      },
+      {
+        "word": "apartment",
+        "pronunciation": "/əˈpɑːrtmənt/",
+        "meaning": "아파트",
+        "example": "My apartment is on the 5th floor.",
+        "translation": "내 아파트는 5층이야."
+      },
+      {
+        "word": "room",
+        "pronunciation": "/ruːm/",
+        "meaning": "방",
+        "example": "How many rooms does it have?",
+        "translation": "방이 몇 개야?"
+      },
+      {
+        "word": "bedroom",
+        "pronunciation": "/ˈbedruːm/",
+        "meaning": "침실",
+        "example": "The bedroom is upstairs.",
+        "translation": "침실은 위층에 있어."
+      },
+      {
+        "word": "living room",
+        "pronunciation": "/ˈlɪvɪŋ ruːm/",
+        "meaning": "거실",
+        "example": "Let's sit in the living room.",
+        "translation": "거실에 앉자."
+      },
+      {
+        "word": "kitchen",
+        "pronunciation": "/ˈkɪtʃɪn/",
+        "meaning": "부엌",
+        "example": "Mom is in the kitchen.",
+        "translation": "엄마가 부엌에 있어."
+      },
+      {
+        "word": "bathroom",
+        "pronunciation": "/ˈbæθruːm/",
+        "meaning": "욕실",
+        "example": "Where is the bathroom?",
+        "translation": "욕실이 어디야?"
+      },
+      {
+        "word": "toilet",
+        "pronunciation": "/ˈtɔɪlət/",
+        "meaning": "화장실",
+        "example": "The toilet is occupied.",
+        "translation": "화장실에 사람이 있어."
+      },
+      {
+        "word": "dining room",
+        "pronunciation": "/ˈdaɪnɪŋ ruːm/",
+        "meaning": "식당",
+        "example": "We eat dinner in the dining room.",
+        "translation": "식당에서 저녁을 먹어."
+      },
+      {
+        "word": "basement",
+        "pronunciation": "/ˈbeɪsmənt/",
+        "meaning": "지하실",
+        "example": "We store things in the basement.",
+        "translation": "지하실에 물건을 보관해."
+      },
+      {
+        "word": "attic",
+        "pronunciation": "/ˈætɪk/",
+        "meaning": "다락방",
+        "example": "There's an attic upstairs.",
+        "translation": "위층에 다락방이 있어."
+      },
+      {
+        "word": "garage",
+        "pronunciation": "/ɡəˈrɑːʒ/",
+        "meaning": "차고",
+        "example": "Park the car in the garage.",
+        "translation": "차고에 차를 세워."
+      },
+      {
+        "word": "balcony",
+        "pronunciation": "/ˈbælkəni/",
+        "meaning": "발코니",
+        "example": "The balcony has a great view.",
+        "translation": "발코니에서 전망이 좋아."
+      },
+      {
+        "word": "terrace",
+        "pronunciation": "/ˈterəs/",
+        "meaning": "테라스",
+        "example": "Let's have coffee on the terrace.",
+        "translation": "테라스에서 커피 마시자."
+      },
+      {
+        "word": "yard",
+        "pronunciation": "/jɑːrd/",
+        "meaning": "마당",
+        "example": "The kids are playing in the yard.",
+        "translation": "아이들이 마당에서 놀고 있어."
+      },
+      {
+        "word": "garden",
+        "pronunciation": "/ˈɡɑːrdn/",
+        "meaning": "정원",
+        "example": "She grows flowers in the garden.",
+        "translation": "그녀는 정원에서 꽃을 키워."
+      },
+      {
+        "word": "fence",
+        "pronunciation": "/fens/",
+        "meaning": "울타리",
+        "example": "We painted the fence white.",
+        "translation": "울타리를 하얗게 칠했어."
+      },
+      {
+        "word": "gate",
+        "pronunciation": "/ɡeɪt/",
+        "meaning": "문",
+        "example": "Please close the gate.",
+        "translation": "문을 닫아주세요."
+      },
+      {
+        "word": "door",
+        "pronunciation": "/dɔːr/",
+        "meaning": "문",
+        "example": "Someone is at the door.",
+        "translation": "누가 문 앞에 있어."
+      },
+      {
+        "word": "window",
+        "pronunciation": "/ˈwɪndoʊ/",
+        "meaning": "창문",
+        "example": "Open the window for fresh air.",
+        "translation": "신선한 공기를 위해 창문을 열어."
+      },
+      {
+        "word": "wall",
+        "pronunciation": "/wɔːl/",
+        "meaning": "벽",
+        "example": "There's a painting on the wall.",
+        "translation": "벽에 그림이 있어."
+      },
+      {
+        "word": "ceiling",
+        "pronunciation": "/ˈsiːlɪŋ/",
+        "meaning": "천장",
+        "example": "The ceiling is very high.",
+        "translation": "천장이 매우 높아."
+      },
+      {
+        "word": "floor",
+        "pronunciation": "/flɔːr/",
+        "meaning": "바닥",
+        "example": "The floor is made of wood.",
+        "translation": "바닥이 나무로 되어 있어."
+      },
+      {
+        "word": "roof",
+        "pronunciation": "/ruːf/",
+        "meaning": "지붕",
+        "example": "The roof is leaking.",
+        "translation": "지붕에서 물이 새."
+      },
+      {
+        "word": "stairs",
+        "pronunciation": "/sterz/",
+        "meaning": "계단",
+        "example": "Be careful on the stairs.",
+        "translation": "계단에서 조심해."
+      },
+      {
+        "word": "elevator",
+        "pronunciation": "/ˈelɪveɪtər/",
+        "meaning": "엘리베이터",
+        "example": "Take the elevator to the 10th floor.",
+        "translation": "엘리베이터를 타고 10층으로 가."
+      },
+      {
+        "word": "hallway",
+        "pronunciation": "/ˈhɔːlweɪ/",
+        "meaning": "복도",
+        "example": "Walk down the hallway.",
+        "translation": "복도를 따라 걸어가."
+      },
+      {
+        "word": "closet",
+        "pronunciation": "/ˈklɑːzɪt/",
+        "meaning": "옷장",
+        "example": "My closet is full of clothes.",
+        "translation": "옷장에 옷이 가득해."
+      },
+      {
+        "word": "drawer",
+        "pronunciation": "/drɔːr/",
+        "meaning": "서랍",
+        "example": "The scissors are in the drawer.",
+        "translation": "가위가 서랍에 있어."
+      },
+      {
+        "word": "shelf",
+        "pronunciation": "/ʃelf/",
+        "meaning": "선반",
+        "example": "Put the books on the shelf.",
+        "translation": "책을 선반에 올려놔."
+      },
+      {
+        "word": "bed",
+        "pronunciation": "/bed/",
+        "meaning": "침대",
+        "example": "I made the bed this morning.",
+        "translation": "오늘 아침에 침대를 정리했어."
+      },
+      {
+        "word": "sofa",
+        "pronunciation": "/ˈsoʊfə/",
+        "meaning": "소파",
+        "example": "Let's sit on the sofa.",
+        "translation": "소파에 앉자."
+      },
+      {
+        "word": "couch",
+        "pronunciation": "/kaʊtʃ/",
+        "meaning": "소파",
+        "example": "He's sleeping on the couch.",
+        "translation": "그는 소파에서 자고 있어."
+      },
+      {
+        "word": "chair",
+        "pronunciation": "/tʃer/",
+        "meaning": "의자",
+        "example": "Pull up a chair.",
+        "translation": "의자 가져와."
+      },
+      {
+        "word": "table",
+        "pronunciation": "/ˈteɪbl/",
+        "meaning": "테이블",
+        "example": "The food is on the table.",
+        "translation": "음식이 테이블 위에 있어."
+      },
+      {
+        "word": "desk",
+        "pronunciation": "/desk/",
+        "meaning": "책상",
+        "example": "I work at my desk all day.",
+        "translation": "하루 종일 책상에서 일해."
+      },
+      {
+        "word": "lamp",
+        "pronunciation": "/læmp/",
+        "meaning": "램프",
+        "example": "Turn on the lamp.",
+        "translation": "램프를 켜."
+      },
+      {
+        "word": "light",
+        "pronunciation": "/laɪt/",
+        "meaning": "조명",
+        "example": "The light is too bright.",
+        "translation": "조명이 너무 밝아."
+      },
+      {
+        "word": "mirror",
+        "pronunciation": "/ˈmɪrər/",
+        "meaning": "거울",
+        "example": "She looked in the mirror.",
+        "translation": "그녀는 거울을 봤어."
+      },
+      {
+        "word": "curtain",
+        "pronunciation": "/ˈkɜːrtn/",
+        "meaning": "커튼",
+        "example": "Close the curtains.",
+        "translation": "커튼을 쳐."
+      },
+      {
+        "word": "carpet",
+        "pronunciation": "/ˈkɑːrpɪt/",
+        "meaning": "카펫",
+        "example": "The carpet is soft.",
+        "translation": "카펫이 부드러워."
+      },
+      {
+        "word": "rug",
+        "pronunciation": "/rʌɡ/",
+        "meaning": "러그",
+        "example": "There's a rug under the table.",
+        "translation": "테이블 아래에 러그가 있어."
+      },
+      {
+        "word": "pillow",
+        "pronunciation": "/ˈpɪloʊ/",
+        "meaning": "베개",
+        "example": "I need another pillow.",
+        "translation": "베개가 하나 더 필요해."
+      },
+      {
+        "word": "blanket",
+        "pronunciation": "/ˈblæŋkɪt/",
+        "meaning": "담요",
+        "example": "This blanket is so warm.",
+        "translation": "이 담요 정말 따뜻해."
+      },
+      {
+        "word": "mattress",
+        "pronunciation": "/ˈmætrəs/",
+        "meaning": "매트리스",
+        "example": "We bought a new mattress.",
+        "translation": "새 매트리스를 샀어."
+      }
+    ]
+  },
+  {
+    "nameKo": "사물/물건",
+    "nameEn": "Objects",
+    "words": [
+      {
+        "word": "thing",
+        "pronunciation": "/θɪŋ/",
+        "meaning": "것",
+        "example": "What is this thing?",
+        "translation": "이게 뭐야?"
+      },
+      {
+        "word": "object",
+        "pronunciation": "/ˈɑːbdʒekt/",
+        "meaning": "물체",
+        "example": "Be careful with sharp objects.",
+        "translation": "날카로운 물체 조심해."
+      },
+      {
+        "word": "item",
+        "pronunciation": "/ˈaɪtəm/",
+        "meaning": "물품",
+        "example": "How much is this item?",
+        "translation": "이 물품 얼마예요?"
+      },
+      {
+        "word": "stuff",
+        "pronunciation": "/stʌf/",
+        "meaning": "물건들",
+        "example": "I have a lot of stuff to do.",
+        "translation": "할 일이 많아."
+      },
+      {
+        "word": "bag",
+        "pronunciation": "/bæɡ/",
+        "meaning": "가방",
+        "example": "Is this your bag?",
+        "translation": "이거 네 가방이야?"
+      },
+      {
+        "word": "backpack",
+        "pronunciation": "/ˈbækpæk/",
+        "meaning": "백팩",
+        "example": "I carry my laptop in my backpack.",
+        "translation": "백팩에 노트북을 넣어 다녀."
+      },
+      {
+        "word": "purse",
+        "pronunciation": "/pɜːrs/",
+        "meaning": "지갑",
+        "example": "She left her purse at home.",
+        "translation": "그녀는 지갑을 집에 두고 왔어."
+      },
+      {
+        "word": "wallet",
+        "pronunciation": "/ˈwɔːlɪt/",
+        "meaning": "지갑",
+        "example": "I lost my wallet.",
+        "translation": "지갑을 잃어버렸어."
+      },
+      {
+        "word": "key",
+        "pronunciation": "/kiː/",
+        "meaning": "열쇠",
+        "example": "Where are my keys?",
+        "translation": "내 열쇠 어디 있어?"
+      },
+      {
+        "word": "lock",
+        "pronunciation": "/lɑːk/",
+        "meaning": "자물쇠",
+        "example": "The lock is broken.",
+        "translation": "자물쇠가 고장났어."
+      },
+      {
+        "word": "phone",
+        "pronunciation": "/foʊn/",
+        "meaning": "전화기",
+        "example": "My phone is dead.",
+        "translation": "휴대폰 배터리가 나갔어."
+      },
+      {
+        "word": "smartphone",
+        "pronunciation": "/ˈsmɑːrtfoʊn/",
+        "meaning": "스마트폰",
+        "example": "I can't live without my smartphone.",
+        "translation": "스마트폰 없이 못 살아."
+      },
+      {
+        "word": "computer",
+        "pronunciation": "/kəmˈpjuːtər/",
+        "meaning": "컴퓨터",
+        "example": "The computer is very slow.",
+        "translation": "컴퓨터가 매우 느려."
+      },
+      {
+        "word": "laptop",
+        "pronunciation": "/ˈlæptɑːp/",
+        "meaning": "노트북",
+        "example": "I work on my laptop.",
+        "translation": "노트북으로 일해."
+      },
+      {
+        "word": "tablet",
+        "pronunciation": "/ˈtæblət/",
+        "meaning": "태블릿",
+        "example": "Kids love playing on tablets.",
+        "translation": "아이들은 태블릿 가지고 노는 걸 좋아해."
+      },
+      {
+        "word": "camera",
+        "pronunciation": "/ˈkæmərə/",
+        "meaning": "카메라",
+        "example": "I brought my camera.",
+        "translation": "카메라를 가져왔어."
+      },
+      {
+        "word": "watch",
+        "pronunciation": "/wɑːtʃ/",
+        "meaning": "시계",
+        "example": "I got a new watch for my birthday.",
+        "translation": "생일에 새 시계를 받았어."
+      },
+      {
+        "word": "clock",
+        "pronunciation": "/klɑːk/",
+        "meaning": "시계",
+        "example": "The clock on the wall is wrong.",
+        "translation": "벽에 있는 시계가 틀렸어."
+      },
+      {
+        "word": "glasses",
+        "pronunciation": "/ˈɡlæsɪz/",
+        "meaning": "안경",
+        "example": "I need to wear glasses.",
+        "translation": "안경을 써야 해."
+      },
+      {
+        "word": "sunglasses",
+        "pronunciation": "/ˈsʌnɡlæsɪz/",
+        "meaning": "선글라스",
+        "example": "Don't forget your sunglasses.",
+        "translation": "선글라스 잊지 마."
+      },
+      {
+        "word": "umbrella",
+        "pronunciation": "/ʌmˈbrelə/",
+        "meaning": "우산",
+        "example": "Bring an umbrella, it might rain.",
+        "translation": "우산 가져가, 비 올지도 몰라."
+      },
+      {
+        "word": "pen",
+        "pronunciation": "/pen/",
+        "meaning": "펜",
+        "example": "Can I borrow a pen?",
+        "translation": "펜 좀 빌려도 돼?"
+      },
+      {
+        "word": "pencil",
+        "pronunciation": "/ˈpensl/",
+        "meaning": "연필",
+        "example": "I need a pencil to draw.",
+        "translation": "그림 그리려면 연필이 필요해."
+      },
+      {
+        "word": "paper",
+        "pronunciation": "/ˈpeɪpər/",
+        "meaning": "종이",
+        "example": "I need some paper to write on.",
+        "translation": "쓸 종이가 필요해."
+      },
+      {
+        "word": "book",
+        "pronunciation": "/bʊk/",
+        "meaning": "책",
+        "example": "I'm reading a good book.",
+        "translation": "좋은 책을 읽고 있어."
+      },
+      {
+        "word": "notebook",
+        "pronunciation": "/ˈnoʊtbʊk/",
+        "meaning": "노트",
+        "example": "I take notes in my notebook.",
+        "translation": "노트에 메모해."
+      },
+      {
+        "word": "magazine",
+        "pronunciation": "/ˈmæɡəziːn/",
+        "meaning": "잡지",
+        "example": "She reads fashion magazines.",
+        "translation": "그녀는 패션 잡지를 읽어."
+      },
+      {
+        "word": "newspaper",
+        "pronunciation": "/ˈnuːzpeɪpər/",
+        "meaning": "신문",
+        "example": "I read the newspaper every morning.",
+        "translation": "매일 아침 신문을 읽어."
+      },
+      {
+        "word": "letter",
+        "pronunciation": "/ˈletər/",
+        "meaning": "편지",
+        "example": "I wrote a letter to my friend.",
+        "translation": "친구에게 편지를 썼어."
+      },
+      {
+        "word": "card",
+        "pronunciation": "/kɑːrd/",
+        "meaning": "카드",
+        "example": "I got a birthday card.",
+        "translation": "생일 카드를 받았어."
+      },
+      {
+        "word": "ticket",
+        "pronunciation": "/ˈtɪkɪt/",
+        "meaning": "티켓",
+        "example": "I bought concert tickets.",
+        "translation": "콘서트 티켓을 샀어."
+      },
+      {
+        "word": "money",
+        "pronunciation": "/ˈmʌni/",
+        "meaning": "돈",
+        "example": "I don't have enough money.",
+        "translation": "돈이 충분하지 않아."
+      },
+      {
+        "word": "cash",
+        "pronunciation": "/kæʃ/",
+        "meaning": "현금",
+        "example": "I only have cash.",
+        "translation": "현금만 있어."
+      },
+      {
+        "word": "coin",
+        "pronunciation": "/kɔɪn/",
+        "meaning": "동전",
+        "example": "I found a coin on the ground.",
+        "translation": "바닥에서 동전을 찾았어."
+      },
+      {
+        "word": "bill",
+        "pronunciation": "/bɪl/",
+        "meaning": "지폐",
+        "example": "Do you have a five dollar bill?",
+        "translation": "5달러 지폐 있어?"
+      },
+      {
+        "word": "receipt",
+        "pronunciation": "/rɪˈsiːt/",
+        "meaning": "영수증",
+        "example": "Keep the receipt.",
+        "translation": "영수증 보관해."
+      },
+      {
+        "word": "box",
+        "pronunciation": "/bɑːks/",
+        "meaning": "상자",
+        "example": "Open the box.",
+        "translation": "상자를 열어."
+      },
+      {
+        "word": "bottle",
+        "pronunciation": "/ˈbɑːtl/",
+        "meaning": "병",
+        "example": "I need a bottle of water.",
+        "translation": "물 한 병이 필요해."
+      },
+      {
+        "word": "cup",
+        "pronunciation": "/kʌp/",
+        "meaning": "컵",
+        "example": "Would you like a cup of coffee?",
+        "translation": "커피 한 잔 할래?"
+      },
+      {
+        "word": "glass",
+        "pronunciation": "/ɡlæs/",
+        "meaning": "유리잔",
+        "example": "She dropped the glass.",
+        "translation": "그녀가 유리잔을 떨어뜨렸어."
+      },
+      {
+        "word": "plate",
+        "pronunciation": "/pleɪt/",
+        "meaning": "접시",
+        "example": "Put the food on the plate.",
+        "translation": "음식을 접시에 담아."
+      },
+      {
+        "word": "bowl",
+        "pronunciation": "/boʊl/",
+        "meaning": "그릇",
+        "example": "I had a bowl of soup.",
+        "translation": "수프 한 그릇을 먹었어."
+      },
+      {
+        "word": "fork",
+        "pronunciation": "/fɔːrk/",
+        "meaning": "포크",
+        "example": "Use a fork to eat.",
+        "translation": "포크로 먹어."
+      },
+      {
+        "word": "knife",
+        "pronunciation": "/naɪf/",
+        "meaning": "칼",
+        "example": "Be careful with the knife.",
+        "translation": "칼 조심해."
+      },
+      {
+        "word": "spoon",
+        "pronunciation": "/spuːn/",
+        "meaning": "숟가락",
+        "example": "I need a spoon for the soup.",
+        "translation": "수프 먹으려면 숟가락이 필요해."
+      },
+      {
+        "word": "chopsticks",
+        "pronunciation": "/ˈtʃɑːpstɪks/",
+        "meaning": "젓가락",
+        "example": "Can you use chopsticks?",
+        "translation": "젓가락 쓸 줄 알아?"
+      },
+      {
+        "word": "napkin",
+        "pronunciation": "/ˈnæpkɪn/",
+        "meaning": "냅킨",
+        "example": "Can I have a napkin?",
+        "translation": "냅킨 주실래요?"
+      },
+      {
+        "word": "towel",
+        "pronunciation": "/ˈtaʊəl/",
+        "meaning": "수건",
+        "example": "I need a clean towel.",
+        "translation": "깨끗한 수건이 필요해."
+      },
+      {
+        "word": "soap",
+        "pronunciation": "/soʊp/",
+        "meaning": "비누",
+        "example": "Wash your hands with soap.",
+        "translation": "비누로 손을 씻어."
+      },
+      {
+        "word": "shampoo",
+        "pronunciation": "/ʃæmˈpuː/",
+        "meaning": "샴푸",
+        "example": "I ran out of shampoo.",
+        "translation": "샴푸가 떨어졌어."
+      },
+      {
+        "word": "toothbrush",
+        "pronunciation": "/ˈtuːθbrʌʃ/",
+        "meaning": "칫솔",
+        "example": "I forgot my toothbrush.",
+        "translation": "칫솔을 깜빡했어."
+      },
+      {
+        "word": "toothpaste",
+        "pronunciation": "/ˈtuːθpeɪst/",
+        "meaning": "치약",
+        "example": "This toothpaste tastes good.",
+        "translation": "이 치약 맛이 좋아."
+      },
+      {
+        "word": "razor",
+        "pronunciation": "/ˈreɪzər/",
+        "meaning": "면도기",
+        "example": "I need a new razor.",
+        "translation": "새 면도기가 필요해."
+      },
+      {
+        "word": "comb",
+        "pronunciation": "/koʊm/",
+        "meaning": "빗",
+        "example": "She combed her hair.",
+        "translation": "그녀는 머리를 빗었어."
+      },
+      {
+        "word": "brush",
+        "pronunciation": "/brʌʃ/",
+        "meaning": "브러시",
+        "example": "Use a brush for your hair.",
+        "translation": "머리에 브러시를 사용해."
+      },
+      {
+        "word": "tissue",
+        "pronunciation": "/ˈtɪʃuː/",
+        "meaning": "휴지",
+        "example": "Do you have a tissue?",
+        "translation": "휴지 있어?"
+      },
+      {
+        "word": "battery",
+        "pronunciation": "/ˈbætəri/",
+        "meaning": "배터리",
+        "example": "The battery is low.",
+        "translation": "배터리가 부족해."
+      },
+      {
+        "word": "charger",
+        "pronunciation": "/ˈtʃɑːrdʒər/",
+        "meaning": "충전기",
+        "example": "Can I borrow your charger?",
+        "translation": "충전기 좀 빌려도 돼?"
+      },
+      {
+        "word": "cable",
+        "pronunciation": "/ˈkeɪbl/",
+        "meaning": "케이블",
+        "example": "I need a USB cable.",
+        "translation": "USB 케이블이 필요해."
+      },
+      {
+        "word": "remote",
+        "pronunciation": "/rɪˈmoʊt/",
+        "meaning": "리모컨",
+        "example": "Where's the TV remote?",
+        "translation": "TV 리모컨 어디 있어?"
+      }
+    ]
+  },
+  {
+    "nameKo": "의류",
+    "nameEn": "Clothing",
+    "words": [
+      {
+        "word": "clothes",
+        "pronunciation": "/kloʊðz/",
+        "meaning": "옷",
+        "example": "I need to buy new clothes.",
+        "translation": "새 옷을 사야 해."
+      },
+      {
+        "word": "clothing",
+        "pronunciation": "/ˈkloʊðɪŋ/",
+        "meaning": "의류",
+        "example": "This store sells clothing.",
+        "translation": "이 가게는 의류를 팔아."
+      },
+      {
+        "word": "outfit",
+        "pronunciation": "/ˈaʊtfɪt/",
+        "meaning": "의상",
+        "example": "I love your outfit!",
+        "translation": "네 옷 너무 좋아!"
+      },
+      {
+        "word": "uniform",
+        "pronunciation": "/ˈjuːnɪfɔːrm/",
+        "meaning": "유니폼",
+        "example": "Students wear uniforms.",
+        "translation": "학생들은 교복을 입어."
+      },
+      {
+        "word": "shirt",
+        "pronunciation": "/ʃɜːrt/",
+        "meaning": "셔츠",
+        "example": "He wears a white shirt.",
+        "translation": "그는 흰 셔츠를 입어."
+      },
+      {
+        "word": "t-shirt",
+        "pronunciation": "/ˈtiːʃɜːrt/",
+        "meaning": "티셔츠",
+        "example": "I bought a new t-shirt.",
+        "translation": "새 티셔츠를 샀어."
+      },
+      {
+        "word": "blouse",
+        "pronunciation": "/blaʊs/",
+        "meaning": "블라우스",
+        "example": "She wore a silk blouse.",
+        "translation": "그녀는 실크 블라우스를 입었어."
+      },
+      {
+        "word": "sweater",
+        "pronunciation": "/ˈswetər/",
+        "meaning": "스웨터",
+        "example": "Put on a sweater, it's cold.",
+        "translation": "스웨터 입어, 추워."
+      },
+      {
+        "word": "hoodie",
+        "pronunciation": "/ˈhʊdi/",
+        "meaning": "후드티",
+        "example": "I like wearing hoodies.",
+        "translation": "후드티 입는 걸 좋아해."
+      },
+      {
+        "word": "jacket",
+        "pronunciation": "/ˈdʒækɪt/",
+        "meaning": "재킷",
+        "example": "Don't forget your jacket.",
+        "translation": "재킷 잊지 마."
+      },
+      {
+        "word": "coat",
+        "pronunciation": "/koʊt/",
+        "meaning": "코트",
+        "example": "I need a warm coat for winter.",
+        "translation": "겨울용 따뜻한 코트가 필요해."
+      },
+      {
+        "word": "vest",
+        "pronunciation": "/vest/",
+        "meaning": "조끼",
+        "example": "He wore a vest over his shirt.",
+        "translation": "그는 셔츠 위에 조끼를 입었어."
+      },
+      {
+        "word": "suit",
+        "pronunciation": "/suːt/",
+        "meaning": "정장",
+        "example": "He wore a suit to the interview.",
+        "translation": "그는 면접에 정장을 입었어."
+      },
+      {
+        "word": "dress",
+        "pronunciation": "/dres/",
+        "meaning": "드레스",
+        "example": "She looks beautiful in that dress.",
+        "translation": "그녀는 그 드레스를 입으니 예뻐."
+      },
+      {
+        "word": "skirt",
+        "pronunciation": "/skɜːrt/",
+        "meaning": "치마",
+        "example": "She prefers skirts to pants.",
+        "translation": "그녀는 바지보다 치마를 선호해."
+      },
+      {
+        "word": "pants",
+        "pronunciation": "/pænts/",
+        "meaning": "바지",
+        "example": "These pants are too tight.",
+        "translation": "이 바지 너무 꽉 껴."
+      },
+      {
+        "word": "trousers",
+        "pronunciation": "/ˈtraʊzərz/",
+        "meaning": "바지",
+        "example": "He ironed his trousers.",
+        "translation": "그는 바지를 다렸어."
+      },
+      {
+        "word": "jeans",
+        "pronunciation": "/dʒiːnz/",
+        "meaning": "청바지",
+        "example": "I wear jeans every day.",
+        "translation": "매일 청바지를 입어."
+      },
+      {
+        "word": "shorts",
+        "pronunciation": "/ʃɔːrts/",
+        "meaning": "반바지",
+        "example": "It's hot, wear shorts.",
+        "translation": "더우니까 반바지 입어."
+      },
+      {
+        "word": "leggings",
+        "pronunciation": "/ˈleɡɪŋz/",
+        "meaning": "레깅스",
+        "example": "She wears leggings to yoga.",
+        "translation": "그녀는 요가할 때 레깅스를 입어."
+      },
+      {
+        "word": "underwear",
+        "pronunciation": "/ˈʌndərwer/",
+        "meaning": "속옷",
+        "example": "I need to do laundry, I'm out of underwear.",
+        "translation": "빨래해야 해, 속옷이 없어."
+      },
+      {
+        "word": "bra",
+        "pronunciation": "/brɑː/",
+        "meaning": "브래지어",
+        "example": "This bra is uncomfortable.",
+        "translation": "이 브래지어 불편해."
+      },
+      {
+        "word": "panties",
+        "pronunciation": "/ˈpæntiz/",
+        "meaning": "팬티",
+        "example": "I bought new panties.",
+        "translation": "새 팬티를 샀어."
+      },
+      {
+        "word": "boxers",
+        "pronunciation": "/ˈbɑːksərz/",
+        "meaning": "박서",
+        "example": "He prefers boxers.",
+        "translation": "그는 박서를 선호해."
+      },
+      {
+        "word": "socks",
+        "pronunciation": "/sɑːks/",
+        "meaning": "양말",
+        "example": "I can't find matching socks.",
+        "translation": "짝 맞는 양말을 못 찾겠어."
+      },
+      {
+        "word": "stockings",
+        "pronunciation": "/ˈstɑːkɪŋz/",
+        "meaning": "스타킹",
+        "example": "She wore black stockings.",
+        "translation": "그녀는 검은 스타킹을 신었어."
+      },
+      {
+        "word": "shoes",
+        "pronunciation": "/ʃuːz/",
+        "meaning": "신발",
+        "example": "Take off your shoes inside.",
+        "translation": "실내에서 신발 벗어."
+      },
+      {
+        "word": "sneakers",
+        "pronunciation": "/ˈsniːkərz/",
+        "meaning": "운동화",
+        "example": "I wear sneakers to the gym.",
+        "translation": "헬스장에 운동화를 신고 가."
+      },
+      {
+        "word": "boots",
+        "pronunciation": "/buːts/",
+        "meaning": "부츠",
+        "example": "She bought leather boots.",
+        "translation": "그녀는 가죽 부츠를 샀어."
+      },
+      {
+        "word": "sandals",
+        "pronunciation": "/ˈsændlz/",
+        "meaning": "샌들",
+        "example": "I wear sandals in summer.",
+        "translation": "여름에는 샌들을 신어."
+      },
+      {
+        "word": "slippers",
+        "pronunciation": "/ˈslɪpərz/",
+        "meaning": "슬리퍼",
+        "example": "Wear slippers at home.",
+        "translation": "집에서는 슬리퍼 신어."
+      },
+      {
+        "word": "heels",
+        "pronunciation": "/hiːlz/",
+        "meaning": "하이힐",
+        "example": "She can run in heels.",
+        "translation": "그녀는 하이힐 신고도 뛸 수 있어."
+      },
+      {
+        "word": "hat",
+        "pronunciation": "/hæt/",
+        "meaning": "모자",
+        "example": "Wear a hat in the sun.",
+        "translation": "햇볕에서는 모자 써."
+      },
+      {
+        "word": "cap",
+        "pronunciation": "/kæp/",
+        "meaning": "캡",
+        "example": "He always wears a baseball cap.",
+        "translation": "그는 항상 야구 모자를 써."
+      },
+      {
+        "word": "beanie",
+        "pronunciation": "/ˈbiːni/",
+        "meaning": "비니",
+        "example": "I wear a beanie in winter.",
+        "translation": "겨울에는 비니를 써."
+      },
+      {
+        "word": "scarf",
+        "pronunciation": "/skɑːrf/",
+        "meaning": "스카프",
+        "example": "She wrapped a scarf around her neck.",
+        "translation": "그녀는 목에 스카프를 둘렀어."
+      },
+      {
+        "word": "gloves",
+        "pronunciation": "/ɡlʌvz/",
+        "meaning": "장갑",
+        "example": "It's cold, put on your gloves.",
+        "translation": "추우니까 장갑 껴."
+      },
+      {
+        "word": "mittens",
+        "pronunciation": "/ˈmɪtnz/",
+        "meaning": "벙어리장갑",
+        "example": "Kids wear mittens in the snow.",
+        "translation": "아이들은 눈 올 때 벙어리장갑을 껴."
+      },
+      {
+        "word": "belt",
+        "pronunciation": "/belt/",
+        "meaning": "벨트",
+        "example": "His belt is too loose.",
+        "translation": "그의 벨트가 너무 헐렁해."
+      },
+      {
+        "word": "tie",
+        "pronunciation": "/taɪ/",
+        "meaning": "넥타이",
+        "example": "He learned to tie a tie.",
+        "translation": "그는 넥타이 매는 법을 배웠어."
+      },
+      {
+        "word": "bow tie",
+        "pronunciation": "/boʊ taɪ/",
+        "meaning": "나비넥타이",
+        "example": "He wore a bow tie to the party.",
+        "translation": "그는 파티에 나비넥타이를 맸어."
+      },
+      {
+        "word": "button",
+        "pronunciation": "/ˈbʌtn/",
+        "meaning": "단추",
+        "example": "A button fell off my shirt.",
+        "translation": "셔츠 단추가 떨어졌어."
+      },
+      {
+        "word": "zipper",
+        "pronunciation": "/ˈzɪpər/",
+        "meaning": "지퍼",
+        "example": "The zipper is stuck.",
+        "translation": "지퍼가 걸렸어."
+      },
+      {
+        "word": "pocket",
+        "pronunciation": "/ˈpɑːkɪt/",
+        "meaning": "주머니",
+        "example": "I keep my phone in my pocket.",
+        "translation": "주머니에 폰을 넣어."
+      },
+      {
+        "word": "collar",
+        "pronunciation": "/ˈkɑːlər/",
+        "meaning": "옷깃",
+        "example": "The collar is too tight.",
+        "translation": "옷깃이 너무 꽉 껴."
+      },
+      {
+        "word": "sleeve",
+        "pronunciation": "/sliːv/",
+        "meaning": "소매",
+        "example": "Roll up your sleeves.",
+        "translation": "소매를 걷어."
+      },
+      {
+        "word": "jewelry",
+        "pronunciation": "/ˈdʒuːəlri/",
+        "meaning": "보석류",
+        "example": "She loves wearing jewelry.",
+        "translation": "그녀는 보석 장신구 하는 걸 좋아해."
+      },
+      {
+        "word": "necklace",
+        "pronunciation": "/ˈnekləs/",
+        "meaning": "목걸이",
+        "example": "That's a beautiful necklace.",
+        "translation": "그 목걸이 아름다워."
+      },
+      {
+        "word": "bracelet",
+        "pronunciation": "/ˈbreɪslət/",
+        "meaning": "팔찌",
+        "example": "She wears a silver bracelet.",
+        "translation": "그녀는 은 팔찌를 해."
+      },
+      {
+        "word": "earring",
+        "pronunciation": "/ˈɪrɪŋ/",
+        "meaning": "귀걸이",
+        "example": "I lost an earring.",
+        "translation": "귀걸이 하나를 잃어버렸어."
+      },
+      {
+        "word": "ring",
+        "pronunciation": "/rɪŋ/",
+        "meaning": "반지",
+        "example": "He gave her a diamond ring.",
+        "translation": "그는 그녀에게 다이아몬드 반지를 줬어."
+      }
+    ]
+  },
+  {
+    "nameKo": "시간",
+    "nameEn": "Time",
+    "words": [
+      {
+        "word": "time",
+        "pronunciation": "/taɪm/",
+        "meaning": "시간",
+        "example": "What time is it?",
+        "translation": "몇 시야?"
+      },
+      {
+        "word": "moment",
+        "pronunciation": "/ˈmoʊmənt/",
+        "meaning": "순간",
+        "example": "Wait a moment.",
+        "translation": "잠깐 기다려."
+      },
+      {
+        "word": "second",
+        "pronunciation": "/ˈsekənd/",
+        "meaning": "초",
+        "example": "Just give me one second.",
+        "translation": "1초만 줘."
+      },
+      {
+        "word": "minute",
+        "pronunciation": "/ˈmɪnɪt/",
+        "meaning": "분",
+        "example": "I'll be there in five minutes.",
+        "translation": "5분 후에 도착해."
+      },
+      {
+        "word": "hour",
+        "pronunciation": "/aʊər/",
+        "meaning": "시간",
+        "example": "It takes an hour to get there.",
+        "translation": "거기까지 한 시간 걸려."
+      },
+      {
+        "word": "day",
+        "pronunciation": "/deɪ/",
+        "meaning": "일",
+        "example": "What a beautiful day!",
+        "translation": "정말 좋은 날이야!"
+      },
+      {
+        "word": "week",
+        "pronunciation": "/wiːk/",
+        "meaning": "주",
+        "example": "I'll see you next week.",
+        "translation": "다음 주에 봐."
+      },
+      {
+        "word": "month",
+        "pronunciation": "/mʌnθ/",
+        "meaning": "월",
+        "example": "January is the first month.",
+        "translation": "1월이 첫 번째 달이야."
+      },
+      {
+        "word": "year",
+        "pronunciation": "/jɪr/",
+        "meaning": "년",
+        "example": "What year were you born?",
+        "translation": "몇 년에 태어났어?"
+      },
+      {
+        "word": "decade",
+        "pronunciation": "/ˈdekeɪd/",
+        "meaning": "10년",
+        "example": "It's been a decade since we met.",
+        "translation": "만난 지 10년이 됐어."
+      },
+      {
+        "word": "century",
+        "pronunciation": "/ˈsentʃəri/",
+        "meaning": "세기",
+        "example": "We live in the 21st century.",
+        "translation": "우리는 21세기에 살아."
+      },
+      {
+        "word": "morning",
+        "pronunciation": "/ˈmɔːrnɪŋ/",
+        "meaning": "아침",
+        "example": "Good morning!",
+        "translation": "좋은 아침!"
+      },
+      {
+        "word": "afternoon",
+        "pronunciation": "/ˌæftərˈnuːn/",
+        "meaning": "오후",
+        "example": "Let's meet in the afternoon.",
+        "translation": "오후에 만나자."
+      },
+      {
+        "word": "evening",
+        "pronunciation": "/ˈiːvnɪŋ/",
+        "meaning": "저녁",
+        "example": "What are you doing this evening?",
+        "translation": "오늘 저녁 뭐 해?"
+      },
+      {
+        "word": "night",
+        "pronunciation": "/naɪt/",
+        "meaning": "밤",
+        "example": "Good night!",
+        "translation": "잘 자!"
+      },
+      {
+        "word": "midnight",
+        "pronunciation": "/ˈmɪdnaɪt/",
+        "meaning": "자정",
+        "example": "The movie ends at midnight.",
+        "translation": "영화가 자정에 끝나."
+      },
+      {
+        "word": "noon",
+        "pronunciation": "/nuːn/",
+        "meaning": "정오",
+        "example": "Let's meet at noon.",
+        "translation": "정오에 만나자."
+      },
+      {
+        "word": "dawn",
+        "pronunciation": "/dɔːn/",
+        "meaning": "새벽",
+        "example": "We left at dawn.",
+        "translation": "새벽에 출발했어."
+      },
+      {
+        "word": "dusk",
+        "pronunciation": "/dʌsk/",
+        "meaning": "황혼",
+        "example": "The birds fly home at dusk.",
+        "translation": "새들이 황혼 무렵에 집으로 돌아가."
+      },
+      {
+        "word": "sunrise",
+        "pronunciation": "/ˈsʌnraɪz/",
+        "meaning": "일출",
+        "example": "We watched the sunrise.",
+        "translation": "일출을 봤어."
+      },
+      {
+        "word": "sunset",
+        "pronunciation": "/ˈsʌnset/",
+        "meaning": "일몰",
+        "example": "The sunset was beautiful.",
+        "translation": "일몰이 아름다웠어."
+      },
+      {
+        "word": "today",
+        "pronunciation": "/təˈdeɪ/",
+        "meaning": "오늘",
+        "example": "What's the date today?",
+        "translation": "오늘 며칠이야?"
+      },
+      {
+        "word": "tomorrow",
+        "pronunciation": "/təˈmɔːroʊ/",
+        "meaning": "내일",
+        "example": "See you tomorrow!",
+        "translation": "내일 봐!"
+      },
+      {
+        "word": "yesterday",
+        "pronunciation": "/ˈjestərdeɪ/",
+        "meaning": "어제",
+        "example": "I saw him yesterday.",
+        "translation": "어제 그를 봤어."
+      },
+      {
+        "word": "weekend",
+        "pronunciation": "/ˈwiːkend/",
+        "meaning": "주말",
+        "example": "What are your plans for the weekend?",
+        "translation": "주말 계획이 뭐야?"
+      },
+      {
+        "word": "weekday",
+        "pronunciation": "/ˈwiːkdeɪ/",
+        "meaning": "평일",
+        "example": "I work on weekdays.",
+        "translation": "평일에 일해."
+      },
+      {
+        "word": "Monday",
+        "pronunciation": "/ˈmʌndeɪ/",
+        "meaning": "월요일",
+        "example": "I hate Mondays.",
+        "translation": "월요일 싫어."
+      },
+      {
+        "word": "Tuesday",
+        "pronunciation": "/ˈtuːzdeɪ/",
+        "meaning": "화요일",
+        "example": "Let's meet on Tuesday.",
+        "translation": "화요일에 만나자."
+      },
+      {
+        "word": "Wednesday",
+        "pronunciation": "/ˈwenzdeɪ/",
+        "meaning": "수요일",
+        "example": "Wednesday is hump day.",
+        "translation": "수요일은 주중 고비야."
+      },
+      {
+        "word": "Thursday",
+        "pronunciation": "/ˈθɜːrzdeɪ/",
+        "meaning": "목요일",
+        "example": "The exam is on Thursday.",
+        "translation": "시험이 목요일이야."
+      },
+      {
+        "word": "Friday",
+        "pronunciation": "/ˈfraɪdeɪ/",
+        "meaning": "금요일",
+        "example": "Thank God it's Friday!",
+        "translation": "드디어 금요일이야!"
+      },
+      {
+        "word": "Saturday",
+        "pronunciation": "/ˈsætərdeɪ/",
+        "meaning": "토요일",
+        "example": "I sleep late on Saturdays.",
+        "translation": "토요일에는 늦잠 자."
+      },
+      {
+        "word": "Sunday",
+        "pronunciation": "/ˈsʌndeɪ/",
+        "meaning": "일요일",
+        "example": "Sunday is my rest day.",
+        "translation": "일요일은 쉬는 날이야."
+      },
+      {
+        "word": "schedule",
+        "pronunciation": "/ˈskedʒuːl/",
+        "meaning": "일정",
+        "example": "What's your schedule like?",
+        "translation": "일정이 어때?"
+      },
+      {
+        "word": "deadline",
+        "pronunciation": "/ˈdedlaɪn/",
+        "meaning": "마감",
+        "example": "The deadline is tomorrow.",
+        "translation": "마감이 내일이야."
+      },
+      {
+        "word": "appointment",
+        "pronunciation": "/əˈpɔɪntmənt/",
+        "meaning": "약속",
+        "example": "I have a doctor's appointment.",
+        "translation": "병원 예약이 있어."
+      },
+      {
+        "word": "holiday",
+        "pronunciation": "/ˈhɑːlədeɪ/",
+        "meaning": "휴일",
+        "example": "Monday is a holiday.",
+        "translation": "월요일이 공휴일이야."
+      },
+      {
+        "word": "vacation",
+        "pronunciation": "/veɪˈkeɪʃn/",
+        "meaning": "휴가",
+        "example": "I'm going on vacation next week.",
+        "translation": "다음 주에 휴가 가."
+      },
+      {
+        "word": "season",
+        "pronunciation": "/ˈsiːzn/",
+        "meaning": "계절",
+        "example": "Fall is my favorite season.",
+        "translation": "가을이 내가 제일 좋아하는 계절이야."
+      },
+      {
+        "word": "period",
+        "pronunciation": "/ˈpɪriəd/",
+        "meaning": "기간",
+        "example": "It was a difficult period.",
+        "translation": "힘든 기간이었어."
+      }
+    ]
+  }
+]
