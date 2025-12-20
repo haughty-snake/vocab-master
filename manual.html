@@ -350,6 +350,10 @@
                 <div class="subsection">
                     <h3 class="subsection-title">플래시카드 모드</h3>
                     <p>전통적인 암기 카드 방식입니다. 카드를 클릭하면 뒤집어집니다.</p>
+                    <ul>
+                        <li><strong>TTS 음성 읽기:</strong> 단어/예문 버튼 클릭 시 음성 재생</li>
+                        <li><strong>TTS 자동/수동:</strong> 카드 넘길 때 자동 읽기 설정 가능</li>
+                    </ul>
                     <p><strong>키보드 단축키:</strong></p>
                     <ul>
                         <li><span class="keyboard-shortcut">Space</span> 또는 <span class="keyboard-shortcut">Enter</span> - 카드 뒤집기</li>
@@ -366,6 +370,8 @@
                     <ul>
                         <li><strong>속도 조절:</strong> 0.5초 ~ 3초</li>
                         <li><strong>표시 옵션:</strong> 영어만 / 뜻만 / 둘 다</li>
+                        <li><strong>반복 횟수:</strong> 1회 ~ 5회</li>
+                        <li><strong>TTS 자동 읽기:</strong> 단어 표시 시 자동 음성 재생</li>
                     </ul>
                 </div>
 
@@ -375,6 +381,7 @@
                     <ul>
                         <li><strong>문제 유형:</strong> 뜻 맞추기 / 단어 맞추기 / 혼합</li>
                         <li><strong>문제 수:</strong> 10 / 20 / 50 / 100문제</li>
+                        <li><strong>다의어 지원:</strong> [품사]뜻 형태로 표시</li>
                     </ul>
                 </div>
             </section>
@@ -466,6 +473,266 @@
                         <li><strong>플래시카드에서:</strong> "알아요" → 암기 완료, "몰라요" → 학습 중</li>
                         <li><strong>퀴즈에서:</strong> 정답 → 암기 완료, 오답 → 학습 중</li>
                     </ul>
+                </div>
+            </section>
+
+            <!-- 사용자 정의 카테고리 -->
+            <section class="section">
+                <h2 class="section-title">사용자 정의 카테고리</h2>
+
+                <div class="content-box info-box">
+                    <div class="box-title">
+                        <span class="box-icon">📁</span>
+                        나만의 단어장 만들기
+                    </div>
+                    <p>기본 제공되는 카테고리 외에 <strong>나만의 카테고리</strong>를 만들어 원하는 단어를 추가할 수 있습니다. 사용자 정의 카테고리는 점선 테두리와 <span class="highlight">사용자</span> 뱃지로 구분됩니다.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">카테고리 만들기</h3>
+                    <ol class="step-list">
+                        <li>홈 화면에서 <strong>"카테고리 추가"</strong> 카드를 클릭합니다.</li>
+                        <li>카테고리 이름, 아이콘, 색상을 선택합니다.</li>
+                        <li>"저장" 버튼을 클릭하면 새 카테고리가 생성됩니다.</li>
+                    </ol>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">카테고리명 수정</h3>
+                    <ol class="step-list">
+                        <li>사용자 정의 카테고리의 <strong>⚙️ 버튼</strong>을 클릭합니다.</li>
+                        <li>단어 관리 모달 상단의 카테고리명 옆 <strong>✏️ 버튼</strong>을 클릭합니다.</li>
+                        <li>새 이름을 입력하고 "저장" 버튼을 클릭합니다.</li>
+                    </ol>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">단어 추가 및 관리</h3>
+                    <ol class="step-list">
+                        <li>사용자 정의 카테고리의 우측 상단 <strong>⚙️ 버튼</strong>을 클릭합니다.</li>
+                        <li>"단어 추가" 버튼으로 개별 단어를 추가하거나, "파일 가져오기"로 여러 단어를 한 번에 추가할 수 있습니다.</li>
+                        <li>추가된 단어는 목록에서 수정하거나 삭제할 수 있습니다.</li>
+                    </ol>
+                </div>
+
+
+                <div class="subsection">
+                    <h3 class="subsection-title">영영사전 조회 기능</h3>
+                    <p>Free Dictionary API를 사용하여 영어 단어 정보를 자동으로 불러올 수 있습니다.</p>
+                    <ul>
+                        <li><strong>사전 버튼</strong>: 단어 입력창 옆의 "사전" 버튼 클릭</li>
+                        <li><strong>자동 입력 항목</strong>:
+                            <ul>
+                                <li>발음기호 (IPA)</li>
+                                <li>품사 (영어 → 한글 자동 변환: noun → 명사, verb → 동사 등)</li>
+                                <li>뜻 (영어 정의)</li>
+                                <li>예문 (영어)</li>
+                            </ul>
+                        </li>
+                        <li><strong>다의어 지원</strong>: 여러 뜻이 있는 단어는 자동으로 뜻 입력창이 생성됩니다 (최대 10개)</li>
+                    </ul>
+                    <div class="content-box" style="margin-top: 12px;">
+                        <div class="box-title">품사 변환 목록</div>
+                        <table style="width: 100%; font-size: 13px; margin-top: 8px;">
+                            <tr><td>noun → 명사</td><td>verb → 동사</td><td>adjective → 형용사</td></tr>
+                            <tr><td>adverb → 부사</td><td>preposition → 전치사</td><td>conjunction → 접속사</td></tr>
+                            <tr><td>interjection → 감탄사</td><td>pronoun → 대명사</td><td>determiner → 한정사</td></tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">발음기호 조회 기능</h3>
+                    <p>발음기호만 따로 조회할 수 있습니다.</p>
+                    <ul>
+                        <li><strong>조회 버튼</strong>: 발음 입력창 옆의 "조회" 버튼 클릭</li>
+                        <li>단어 입력창에 영어 단어를 먼저 입력한 후 조회합니다.</li>
+                        <li>영영사전 API에서 발음기호(IPA)를 가져와 자동 입력합니다.</li>
+                    </ul>
+                    <p style="margin-top: 8px; color: var(--text-secondary); font-size: 13px;">
+                        * 두 기능 모두 <a href="https://dictionaryapi.dev/" target="_blank" style="color: var(--primary-color);">Free Dictionary API</a>를 사용하며, 인터넷 연결이 필요합니다.
+                    </p>
+                </div>
+                <div class="subsection">
+                    <h3 class="subsection-title">다의어 등록</h3>
+                    <p>하나의 단어에 여러 뜻을 등록할 수 있습니다.</p>
+                    <ul>
+                        <li>"+ 뜻 추가" 버튼으로 여러 뜻을 등록</li>
+                        <li>각 뜻마다 품사, 예문, 해석을 개별 입력 가능</li>
+                        <li>학습 시 <strong>[품사]뜻</strong> 형태로 표시됨</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">파일 가져오기 (Import)</h3>
+                    <p>JSON 또는 CSV 파일로 여러 단어를 한 번에 가져올 수 있습니다.</p>
+
+                    <div class="content-box">
+                        <div class="box-title">JSON 형식</div>
+                        <pre style="background: var(--bg-tertiary); padding: 12px; border-radius: 8px; font-size: 13px; overflow-x: auto;">[
+  {
+    "word": "apple",
+    "pronunciation": "ˈæpəl",
+    "partOfSpeech": "명사",
+    "meaning": "사과",
+    "example": "I ate an apple.",
+    "translation": "나는 사과를 먹었다."
+  },
+  {
+    "word": "run",
+    "partOfSpeech": "동사",
+    "meaning": "달리다"
+  }
+]</pre>
+                    </div>
+
+                    <div class="content-box">
+                        <div class="box-title">CSV 형식</div>
+                        <pre style="background: var(--bg-tertiary); padding: 12px; border-radius: 8px; font-size: 13px; overflow-x: auto;">word,pronunciation,partOfSpeech,meaning,example,translation
+apple,ˈæpəl,명사,사과,I ate an apple.,나는 사과를 먹었다.
+run,,동사,달리다,,</pre>
+                        <p style="margin-top: 8px; font-size: 13px;">첫 번째 줄이 헤더인 경우 자동으로 건너뜁니다. 품사(partOfSpeech)는 선택사항입니다.</p>
+                    </div>
+
+                    <div class="content-box info-box">
+                        <div class="box-title">
+                            <span class="box-icon">📚</span>
+                            다의어 등록 (JSON)
+                        </div>
+                        <p>하나의 단어에 여러 뜻을 등록하려면 <code>meanings</code> 배열을 사용합니다:</p>
+                        <pre style="background: var(--bg-tertiary); padding: 12px; border-radius: 8px; font-size: 13px; overflow-x: auto; margin-top: 8px;">[
+  {
+    "word": "run",
+    "pronunciation": "/rʌn/",
+    "meanings": [
+      {
+        "partOfSpeech": "동사",
+        "meaning": "달리다",
+        "examples": [
+          { "sentence": "I run every morning.", "translation": "나는 매일 아침 달린다." }
+        ]
+      },
+      {
+        "partOfSpeech": "동사",
+        "meaning": "운영하다",
+        "examples": [
+          { "sentence": "She runs a small business.", "translation": "그녀는 작은 사업을 운영한다." }
+        ]
+      },
+      {
+        "partOfSpeech": "명사",
+        "meaning": "달리기",
+        "examples": [
+          { "sentence": "Let's go for a run.", "translation": "달리기 하러 가자." }
+        ]
+      }
+    ]
+  }
+]</pre>
+                    </div>
+
+                    <div class="content-box info-box">
+                        <div class="box-title">
+                            <span class="box-icon">📚</span>
+                            다의어 등록 (CSV)
+                        </div>
+                        <p>CSV에서는 같은 단어를 여러 행으로 등록하면 자동으로 다의어로 병합됩니다:</p>
+                        <pre style="background: var(--bg-tertiary); padding: 12px; border-radius: 8px; font-size: 13px; overflow-x: auto; margin-top: 8px;">word,pronunciation,partOfSpeech,meaning,example,translation
+run,/rʌn/,동사,달리다,I run every morning.,나는 매일 아침 달린다.
+run,/rʌn/,동사,운영하다,She runs a small business.,그녀는 작은 사업을 운영한다.
+run,/rʌn/,명사,달리기,Let's go for a run.,달리기 하러 가자.</pre>
+                        <p style="margin-top: 8px; font-size: 13px;">같은 단어가 여러 번 등록되면 뜻이 추가됩니다. 중복된 뜻은 자동으로 건너뜁니다.</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">단어 등록 규칙</h3>
+                    <p>같은 단어를 다시 등록할 때 자동으로 처리됩니다:</p>
+
+                    <div class="content-box">
+                        <table>
+                            <tr>
+                                <th>상황</th>
+                                <th>처리 방식</th>
+                                <th>학습 상태</th>
+                            </tr>
+                            <tr>
+                                <td>같은 단어 + 같은 뜻</td>
+                                <td>발음, 예문만 업데이트</td>
+                                <td><strong>유지</strong></td>
+                            </tr>
+                            <tr>
+                                <td>같은 단어 + 새로운 뜻</td>
+                                <td>기존 뜻에 새 뜻 추가 (다의어)</td>
+                                <td><strong>신규로 초기화</strong></td>
+                            </tr>
+                            <tr>
+                                <td>새 단어</td>
+                                <td>신규 등록</td>
+                                <td><strong>신규</strong></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="content-box info-box">
+                        <div class="box-title">
+                            <span class="box-icon">💡</span>
+                            뜻 비교 방식
+                        </div>
+                        <p>뜻은 <strong>쉼표(,)</strong>로 구분하여 비교합니다.</p>
+                        <p>예시: 기존 뜻이 "사과, 바나나"이고 "사과, 포도"를 입력하면 → "사과, 바나나, 포도"가 됩니다.</p>
+                        <p>중복된 뜻은 자동으로 제거됩니다.</p>
+                    </div>
+                </div>
+
+                <div class="content-box success-box">
+                    <div class="box-title">
+                        <span class="box-icon">✅</span>
+                        데이터 백업에 포함
+                    </div>
+                    <p>사용자 정의 카테고리와 추가한 단어들은 <strong>Export/Import</strong> 시 자동으로 포함됩니다. 다른 기기에서도 나만의 단어장을 그대로 사용할 수 있습니다!</p>
+                </div>
+            </section>
+
+            <!-- 카테고리 공유 -->
+            <section class="section">
+                <h2 class="section-title">카테고리 공유</h2>
+
+                <div class="content-box info-box">
+                    <div class="box-title">
+                        <span class="box-icon">🔗</span>
+                        단어장 공유하기
+                    </div>
+                    <p>사용자 정의 카테고리를 다른 사람들과 공유할 수 있습니다. 설정 메뉴의 "사용자 정의 카테고리 공유" 섹션을 이용하세요.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">카테고리 내보내기</h3>
+                    <ol class="step-list">
+                        <li>설정(⚙️) 버튼을 클릭합니다.</li>
+                        <li>"사용자 정의 카테고리 공유" 섹션에서 <strong>"카테고리 내보내기"</strong>를 클릭합니다.</li>
+                        <li>내보낼 카테고리를 선택합니다 (전체 선택 가능).</li>
+                        <li>"내보내기" 버튼을 클릭하면 JSON 파일이 다운로드됩니다.</li>
+                    </ol>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">공유받은 카테고리 가져오기</h3>
+                    <ol class="step-list">
+                        <li>설정(⚙️) 버튼을 클릭합니다.</li>
+                        <li>"사용자 정의 카테고리 공유" 섹션에서 <strong>"카테고리 가져오기"</strong>를 클릭합니다.</li>
+                        <li>공유받은 JSON 파일을 선택합니다.</li>
+                        <li>가져온 카테고리가 사용자 정의 카테고리에 추가됩니다.</li>
+                    </ol>
+                </div>
+
+                <div class="content-box warning-box">
+                    <div class="box-title">
+                        <span class="box-icon">⚠️</span>
+                        중복 카테고리 처리
+                    </div>
+                    <p>동일한 이름의 카테고리가 이미 있으면 <strong>자동으로 건너뜁니다</strong>.</p>
+                    <p>가져오기 완료 후 몇 개가 추가되고 몇 개가 건너뛰어졌는지 알림으로 표시됩니다.</p>
                 </div>
             </section>
 

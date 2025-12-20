@@ -1,1558 +1,4163 @@
-[
-  {
-    "nameKo": "전치사 - 장소/위치",
-    "nameEn": "Place Prepositions",
-    "words": [
-      {
-        "word": "in",
-        "pronunciation": "/ɪn/",
-        "meaning": "~안에",
-        "example": "I live **in** Seoul.",
-        "translation": "나는 서울에 살아."
-      },
-      {
-        "word": "on",
-        "pronunciation": "/ɑːn/",
-        "meaning": "~위에",
-        "example": "The book is **on** the table.",
-        "translation": "책이 테이블 위에 있어."
-      },
-      {
-        "word": "at",
-        "pronunciation": "/æt/",
-        "meaning": "~에",
-        "example": "I'm **at** home.",
-        "translation": "나 집에 있어."
-      },
-      {
-        "word": "under",
-        "pronunciation": "/ˈʌndər/",
-        "meaning": "~아래에",
-        "example": "The cat is **under** the bed.",
-        "translation": "고양이가 침대 아래에 있어."
-      },
-      {
-        "word": "below",
-        "pronunciation": "/bɪˈloʊ/",
-        "meaning": "~아래에",
-        "example": "The temperature is **below** zero.",
-        "translation": "기온이 영하야."
-      },
-      {
-        "word": "above",
-        "pronunciation": "/əˈbʌv/",
-        "meaning": "~위에",
-        "example": "The picture is **above** the sofa.",
-        "translation": "그림이 소파 위에 있어."
-      },
-      {
-        "word": "over",
-        "pronunciation": "/ˈoʊvər/",
-        "meaning": "~위로",
-        "example": "The plane flew **over** the city.",
-        "translation": "비행기가 도시 위로 날았어."
-      },
-      {
-        "word": "between",
-        "pronunciation": "/bɪˈtwiːn/",
-        "meaning": "~사이에",
-        "example": "Sit **between** Tom and Mary.",
-        "translation": "톰과 메리 사이에 앉아."
-      },
-      {
-        "word": "among",
-        "pronunciation": "/əˈmʌŋ/",
-        "meaning": "~사이에(여럿)",
-        "example": "She stood **among** the crowd.",
-        "translation": "그녀가 군중 사이에 서 있었어."
-      },
-      {
-        "word": "beside",
-        "pronunciation": "/bɪˈsaɪd/",
-        "meaning": "~옆에",
-        "example": "He sat **beside** me.",
-        "translation": "그가 내 옆에 앉았어."
-      },
-      {
-        "word": "next to",
-        "pronunciation": "/nekst tuː/",
-        "meaning": "~옆에",
-        "example": "The bank is **next to** the post office.",
-        "translation": "은행이 우체국 옆에 있어."
-      },
-      {
-        "word": "near",
-        "pronunciation": "/nɪr/",
-        "meaning": "~가까이에",
-        "example": "I live **near** the station.",
-        "translation": "나는 역 근처에 살아."
-      },
-      {
-        "word": "by",
-        "pronunciation": "/baɪ/",
-        "meaning": "~옆에/곁에",
-        "example": "Come sit **by** me.",
-        "translation": "내 곁에 와서 앉아."
-      },
-      {
-        "word": "behind",
-        "pronunciation": "/bɪˈhaɪnd/",
-        "meaning": "~뒤에",
-        "example": "The garden is **behind** the house.",
-        "translation": "정원이 집 뒤에 있어."
-      },
-      {
-        "word": "in front of",
-        "pronunciation": "/ɪn frʌnt ʌv/",
-        "meaning": "~앞에",
-        "example": "Park **in front of** the building.",
-        "translation": "건물 앞에 주차해."
-      },
-      {
-        "word": "opposite",
-        "pronunciation": "/ˈɑːpəzɪt/",
-        "meaning": "~맞은편에",
-        "example": "The store is **opposite** the bank.",
-        "translation": "가게가 은행 맞은편에 있어."
-      },
-      {
-        "word": "across",
-        "pronunciation": "/əˈkrɔːs/",
-        "meaning": "~건너편에",
-        "example": "The school is **across** the street.",
-        "translation": "학교가 길 건너편에 있어."
-      },
-      {
-        "word": "through",
-        "pronunciation": "/θruː/",
-        "meaning": "~를 통해",
-        "example": "Walk **through** the park.",
-        "translation": "공원을 통해 걸어가."
-      },
-      {
-        "word": "around",
-        "pronunciation": "/əˈraʊnd/",
-        "meaning": "~주위에",
-        "example": "There are trees **around** the house.",
-        "translation": "집 주위에 나무들이 있어."
-      },
-      {
-        "word": "inside",
-        "pronunciation": "/ˌɪnˈsaɪd/",
-        "meaning": "~안에",
-        "example": "Go **inside** the building.",
-        "translation": "건물 안으로 들어가."
-      },
-      {
-        "word": "outside",
-        "pronunciation": "/ˌaʊtˈsaɪd/",
-        "meaning": "~밖에",
-        "example": "Wait **outside** the door.",
-        "translation": "문 밖에서 기다려."
-      },
-      {
-        "word": "within",
-        "pronunciation": "/wɪˈðɪn/",
-        "meaning": "~안에",
-        "example": "Stay **within** the lines.",
-        "translation": "선 안에 있어."
-      },
-      {
-        "word": "beyond",
-        "pronunciation": "/biˈɑːnd/",
-        "meaning": "~저편에",
-        "example": "The village is **beyond** the mountains.",
-        "translation": "마을이 산 저편에 있어."
-      },
-      {
-        "word": "along",
-        "pronunciation": "/əˈlɔːŋ/",
-        "meaning": "~를 따라",
-        "example": "Walk **along** the river.",
-        "translation": "강을 따라 걸어."
-      },
-      {
-        "word": "towards",
-        "pronunciation": "/tɔːrdz/",
-        "meaning": "~쪽으로",
-        "example": "Walk **towards** the exit.",
-        "translation": "출구 쪽으로 걸어가."
-      },
-      {
-        "word": "into",
-        "pronunciation": "/ˈɪntuː/",
-        "meaning": "~안으로",
-        "example": "Come **into** the room.",
-        "translation": "방 안으로 들어와."
-      },
-      {
-        "word": "out of",
-        "pronunciation": "/aʊt ʌv/",
-        "meaning": "~밖으로",
-        "example": "Get **out of** the car.",
-        "translation": "차에서 내려."
-      },
-      {
-        "word": "onto",
-        "pronunciation": "/ˈɑːntuː/",
-        "meaning": "~위로",
-        "example": "Jump **onto** the stage.",
-        "translation": "무대 위로 뛰어올라."
-      },
-      {
-        "word": "off",
-        "pronunciation": "/ɔːf/",
-        "meaning": "~에서 떨어져",
-        "example": "Get **off** the bus.",
-        "translation": "버스에서 내려."
-      },
-      {
-        "word": "throughout",
-        "pronunciation": "/θruːˈaʊt/",
-        "meaning": "~전체에",
-        "example": "It rained **throughout** the country.",
-        "translation": "전국에 비가 왔어."
-      }
-    ]
-  },
-  {
-    "nameKo": "전치사 - 시간",
-    "nameEn": "Time Prepositions",
-    "words": [
-      {
-        "word": "at",
-        "pronunciation": "/æt/",
-        "meaning": "~에 (시각)",
-        "example": "I wake up **at** 7 AM.",
-        "translation": "나는 오전 7시에 일어나."
-      },
-      {
-        "word": "on",
-        "pronunciation": "/ɑːn/",
-        "meaning": "~에 (날짜/요일)",
-        "example": "I'll see you **on** Monday.",
-        "translation": "월요일에 만나자."
-      },
-      {
-        "word": "in",
-        "pronunciation": "/ɪn/",
-        "meaning": "~에 (월/계절/년)",
-        "example": "She was born **in** 1990.",
-        "translation": "그녀는 1990년에 태어났어."
-      },
-      {
-        "word": "before",
-        "pronunciation": "/bɪˈfɔːr/",
-        "meaning": "~전에",
-        "example": "Finish it **before** noon.",
-        "translation": "정오 전에 끝내."
-      },
-      {
-        "word": "after",
-        "pronunciation": "/ˈæftər/",
-        "meaning": "~후에",
-        "example": "Let's meet **after** work.",
-        "translation": "퇴근 후에 만나자."
-      },
-      {
-        "word": "during",
-        "pronunciation": "/ˈdʊrɪŋ/",
-        "meaning": "~동안",
-        "example": "I read **during** the flight.",
-        "translation": "비행 중에 책을 읽었어."
-      },
-      {
-        "word": "for",
-        "pronunciation": "/fɔːr/",
-        "meaning": "~동안",
-        "example": "I lived there **for** 3 years.",
-        "translation": "나는 거기서 3년 동안 살았어."
-      },
-      {
-        "word": "since",
-        "pronunciation": "/sɪns/",
-        "meaning": "~이래로",
-        "example": "I've been here **since** Monday.",
-        "translation": "월요일부터 여기 있었어."
-      },
-      {
-        "word": "until/till",
-        "pronunciation": "/ənˈtɪl/",
-        "meaning": "~까지",
-        "example": "Wait **until** tomorrow.",
-        "translation": "내일까지 기다려."
-      },
-      {
-        "word": "by",
-        "pronunciation": "/baɪ/",
-        "meaning": "~까지 (완료)",
-        "example": "Finish it **by** Friday.",
-        "translation": "금요일까지 끝내."
-      },
-      {
-        "word": "from",
-        "pronunciation": "/frʌm/",
-        "meaning": "~부터",
-        "example": "I work **from** 9 to 6.",
-        "translation": "9시부터 6시까지 일해."
-      },
-      {
-        "word": "to",
-        "pronunciation": "/tuː/",
-        "meaning": "~까지",
-        "example": "The store is open from 9 **to** 9.",
-        "translation": "가게는 9시부터 9시까지 열어."
-      },
-      {
-        "word": "within",
-        "pronunciation": "/wɪˈðɪn/",
-        "meaning": "~이내에",
-        "example": "I'll call you **within** an hour.",
-        "translation": "한 시간 안에 전화할게."
-      },
-      {
-        "word": "throughout",
-        "pronunciation": "/θruːˈaʊt/",
-        "meaning": "~내내",
-        "example": "It rained **throughout** the day.",
-        "translation": "하루 종일 비가 왔어."
-      },
-      {
-        "word": "past",
-        "pronunciation": "/pæst/",
-        "meaning": "~지나서",
-        "example": "It's half **past** two.",
-        "translation": "2시 반이야."
-      },
-      {
-        "word": "over",
-        "pronunciation": "/ˈoʊvər/",
-        "meaning": "~에 걸쳐",
-        "example": "**Over** the years, I've learned a lot.",
-        "translation": "수년에 걸쳐 많이 배웠어."
-      },
-      {
-        "word": "about",
-        "pronunciation": "/əˈbaʊt/",
-        "meaning": "약",
-        "example": "It takes **about** 30 minutes.",
-        "translation": "약 30분 걸려."
-      },
-      {
-        "word": "around",
-        "pronunciation": "/əˈraʊnd/",
-        "meaning": "약",
-        "example": "I'll arrive **around** 5 PM.",
-        "translation": "오후 5시쯤 도착할 거야."
-      },
-      {
-        "word": "between",
-        "pronunciation": "/bɪˈtwiːn/",
-        "meaning": "~사이에",
-        "example": "**Between** 2 and 3 PM.",
-        "translation": "오후 2시에서 3시 사이에."
-      },
-      {
-        "word": "ago",
-        "pronunciation": "/əˈɡoʊ/",
-        "meaning": "~전",
-        "example": "I met him 2 years **ago**.",
-        "translation": "2년 전에 그를 만났어."
-      },
-      {
-        "word": "following",
-        "pronunciation": "/ˈfɑːloʊɪŋ/",
-        "meaning": "~다음의",
-        "example": "The **following** week.",
-        "translation": "다음 주에."
-      },
-      {
-        "word": "prior to",
-        "pronunciation": "/ˈpraɪər tuː/",
-        "meaning": "~전에",
-        "example": "**Prior to** the meeting.",
-        "translation": "회의 전에."
-      },
-      {
-        "word": "upon",
-        "pronunciation": "/əˈpɑːn/",
-        "meaning": "~하자마자",
-        "example": "**Upon** arrival, call me.",
-        "translation": "도착하면 전화해."
-      },
-      {
-        "word": "as of",
-        "pronunciation": "/æz ʌv/",
-        "meaning": "~부로",
-        "example": "**As of** today.",
-        "translation": "오늘부로."
-      },
-      {
-        "word": "pending",
-        "pronunciation": "/ˈpendɪŋ/",
-        "meaning": "~까지",
-        "example": "**Pending** approval.",
-        "translation": "승인될 때까지."
-      }
-    ]
-  },
-  {
-    "nameKo": "전치사 - 기타",
-    "nameEn": "Other Prepositions",
-    "words": [
-      {
-        "word": "about",
-        "pronunciation": "/əˈbaʊt/",
-        "meaning": "~에 관하여",
-        "example": "Tell me **about** it.",
-        "translation": "그것에 대해 말해줘."
-      },
-      {
-        "word": "of",
-        "pronunciation": "/ʌv/",
-        "meaning": "~의",
-        "example": "A cup **of** coffee.",
-        "translation": "커피 한 잔."
-      },
-      {
-        "word": "for",
-        "pronunciation": "/fɔːr/",
-        "meaning": "~를 위해",
-        "example": "This gift is **for** you.",
-        "translation": "이 선물은 너를 위한 거야."
-      },
-      {
-        "word": "with",
-        "pronunciation": "/wɪð/",
-        "meaning": "~와 함께",
-        "example": "Come **with** me.",
-        "translation": "나랑 같이 가."
-      },
-      {
-        "word": "without",
-        "pronunciation": "/wɪˈðaʊt/",
-        "meaning": "~없이",
-        "example": "Coffee **without** sugar.",
-        "translation": "설탕 없는 커피."
-      },
-      {
-        "word": "by",
-        "pronunciation": "/baɪ/",
-        "meaning": "~에 의해",
-        "example": "It was written **by** her.",
-        "translation": "그녀에 의해 쓰여졌어."
-      },
-      {
-        "word": "like",
-        "pronunciation": "/laɪk/",
-        "meaning": "~처럼",
-        "example": "She sings **like** an angel.",
-        "translation": "그녀는 천사처럼 노래해."
-      },
-      {
-        "word": "as",
-        "pronunciation": "/æz/",
-        "meaning": "~로서",
-        "example": "He works **as** a teacher.",
-        "translation": "그는 선생님으로 일해."
-      },
-      {
-        "word": "than",
-        "pronunciation": "/ðæn/",
-        "meaning": "~보다",
-        "example": "He's taller **than** me.",
-        "translation": "그는 나보다 키가 커."
-      },
-      {
-        "word": "except",
-        "pronunciation": "/ɪkˈsept/",
-        "meaning": "~를 제외하고",
-        "example": "Everyone **except** him.",
-        "translation": "그를 제외한 모두."
-      },
-      {
-        "word": "including",
-        "pronunciation": "/ɪnˈkluːdɪŋ/",
-        "meaning": "~를 포함하여",
-        "example": "All of us, **including** her.",
-        "translation": "그녀를 포함한 우리 모두."
-      },
-      {
-        "word": "excluding",
-        "pronunciation": "/ɪkˈskluːdɪŋ/",
-        "meaning": "~를 제외하고",
-        "example": "The price, **excluding** tax.",
-        "translation": "세금 제외 가격."
-      },
-      {
-        "word": "despite",
-        "pronunciation": "/dɪˈspaɪt/",
-        "meaning": "~에도 불구하고",
-        "example": "**Despite** the rain, we went.",
-        "translation": "비에도 불구하고 우리는 갔어."
-      },
-      {
-        "word": "regarding",
-        "pronunciation": "/rɪˈɡɑːrdɪŋ/",
-        "meaning": "~에 관하여",
-        "example": "**Regarding** your question.",
-        "translation": "당신의 질문에 관해서."
-      },
-      {
-        "word": "concerning",
-        "pronunciation": "/kənˈsɜːrnɪŋ/",
-        "meaning": "~에 관하여",
-        "example": "**Concerning** the issue.",
-        "translation": "그 문제에 관해서."
-      },
-      {
-        "word": "according to",
-        "pronunciation": "/əˈkɔːrdɪŋ tuː/",
-        "meaning": "~에 따르면",
-        "example": "**According to** the news.",
-        "translation": "뉴스에 따르면."
-      },
-      {
-        "word": "due to",
-        "pronunciation": "/duː tuː/",
-        "meaning": "~ 때문에",
-        "example": "Closed **due to** repairs.",
-        "translation": "수리 때문에 닫혔어."
-      },
-      {
-        "word": "because of",
-        "pronunciation": "/bɪˈkɔːz ʌv/",
-        "meaning": "~ 때문에",
-        "example": "I stayed home **because of** the rain.",
-        "translation": "비 때문에 집에 있었어."
-      },
-      {
-        "word": "instead of",
-        "pronunciation": "/ɪnˈsted ʌv/",
-        "meaning": "~ 대신에",
-        "example": "Tea **instead of** coffee.",
-        "translation": "커피 대신 차."
-      },
-      {
-        "word": "in spite of",
-        "pronunciation": "/ɪn spaɪt ʌv/",
-        "meaning": "~에도 불구하고",
-        "example": "**In spite of** the difficulties.",
-        "translation": "어려움에도 불구하고."
-      },
-      {
-        "word": "in terms of",
-        "pronunciation": "/ɪn tɜːrmz ʌv/",
-        "meaning": "~의 면에서",
-        "example": "**In terms of** quality.",
-        "translation": "품질 면에서."
-      },
-      {
-        "word": "in addition to",
-        "pronunciation": "/ɪn əˈdɪʃn tuː/",
-        "meaning": "~에 더하여",
-        "example": "**In addition to** that.",
-        "translation": "그것에 더하여."
-      },
-      {
-        "word": "apart from",
-        "pronunciation": "/əˈpɑːrt frʌm/",
-        "meaning": "~를 제외하고",
-        "example": "**Apart from** that.",
-        "translation": "그것을 제외하고."
-      },
-      {
-        "word": "as for",
-        "pronunciation": "/æz fɔːr/",
-        "meaning": "~에 관해서는",
-        "example": "**As for** me, I agree.",
-        "translation": "나에 관해서는, 동의해."
-      },
-      {
-        "word": "on behalf of",
-        "pronunciation": "/ɑːn bɪˈhæf ʌv/",
-        "meaning": "~를 대신하여",
-        "example": "**On behalf of** the team.",
-        "translation": "팀을 대신하여."
-      },
-      {
-        "word": "in case of",
-        "pronunciation": "/ɪn keɪs ʌv/",
-        "meaning": "~의 경우에",
-        "example": "**In case of** emergency.",
-        "translation": "비상시에."
-      },
-      {
-        "word": "in favor of",
-        "pronunciation": "/ɪn ˈfeɪvər ʌv/",
-        "meaning": "~에 찬성하여",
-        "example": "**In favor of** the plan.",
-        "translation": "그 계획에 찬성하여."
-      },
-      {
-        "word": "in place of",
-        "pronunciation": "/ɪn pleɪs ʌv/",
-        "meaning": "~를 대신하여",
-        "example": "**In place of** the original.",
-        "translation": "원본을 대신하여."
-      },
-      {
-        "word": "in search of",
-        "pronunciation": "/ɪn sɜːrtʃ ʌv/",
-        "meaning": "~를 찾아",
-        "example": "**In search of** truth.",
-        "translation": "진실을 찾아서."
-      },
-      {
-        "word": "in charge of",
-        "pronunciation": "/ɪn tʃɑːrdʒ ʌv/",
-        "meaning": "~를 담당하여",
-        "example": "He's **in charge of** sales.",
-        "translation": "그가 영업을 담당해."
-      },
-      {
-        "word": "in need of",
-        "pronunciation": "/ɪn niːd ʌv/",
-        "meaning": "~가 필요한",
-        "example": "**In need of** help.",
-        "translation": "도움이 필요한."
-      },
-      {
-        "word": "by means of",
-        "pronunciation": "/baɪ miːnz ʌv/",
-        "meaning": "~에 의하여",
-        "example": "**By means of** technology.",
-        "translation": "기술에 의하여."
-      },
-      {
-        "word": "for the sake of",
-        "pronunciation": "/fɔːr ðə seɪk ʌv/",
-        "meaning": "~를 위하여",
-        "example": "**For the sake of** peace.",
-        "translation": "평화를 위하여."
-      },
-      {
-        "word": "on account of",
-        "pronunciation": "/ɑːn əˈkaʊnt ʌv/",
-        "meaning": "~ 때문에",
-        "example": "**On account of** the weather.",
-        "translation": "날씨 때문에."
-      },
-      {
-        "word": "with regard to",
-        "pronunciation": "/wɪð rɪˈɡɑːrd tuː/",
-        "meaning": "~에 관하여",
-        "example": "**With regard to** your request.",
-        "translation": "당신의 요청에 관하여."
-      }
-    ]
-  },
-  {
-    "nameKo": "등위 접속사",
-    "nameEn": "Coordinating Conjunctions",
-    "words": [
-      {
-        "word": "and",
-        "pronunciation": "/ænd/",
-        "meaning": "그리고",
-        "example": "추가",
-        "translation": "I like coffee **and** tea."
-      },
-      {
-        "word": "but",
-        "pronunciation": "/bʌt/",
-        "meaning": "그러나",
-        "example": "대조",
-        "translation": "I tried, **but** I failed."
-      },
-      {
-        "word": "or",
-        "pronunciation": "/ɔːr/",
-        "meaning": "또는",
-        "example": "선택",
-        "translation": "Tea **or** coffee?"
-      },
-      {
-        "word": "nor",
-        "pronunciation": "/nɔːr/",
-        "meaning": "~도 아닌",
-        "example": "부정",
-        "translation": "I don't smoke, **nor** do I drink."
-      },
-      {
-        "word": "so",
-        "pronunciation": "/soʊ/",
-        "meaning": "그래서",
-        "example": "결과",
-        "translation": "It was late, **so** I left."
-      },
-      {
-        "word": "yet",
-        "pronunciation": "/jet/",
-        "meaning": "그러나",
-        "example": "대조",
-        "translation": "Simple **yet** elegant."
-      },
-      {
-        "word": "for",
-        "pronunciation": "/fɔːr/",
-        "meaning": "왜냐하면",
-        "example": "이유",
-        "translation": "I left, **for** it was late."
-      },
-      {
-        "word": "both...and",
-        "pronunciation": "/boʊθ ænd/",
-        "meaning": "~와 ~둘 다",
-        "example": "추가",
-        "translation": "**Both** Tom **and** Jane came."
-      },
-      {
-        "word": "either...or",
-        "pronunciation": "/ˈiːðər ɔːr/",
-        "meaning": "~이거나 ~이거나",
-        "example": "선택",
-        "translation": "**Either** call **or** text me."
-      },
-      {
-        "word": "neither...nor",
-        "pronunciation": "/ˈniːðər nɔːr/",
-        "meaning": "~도 ~도 아닌",
-        "example": "부정",
-        "translation": "**Neither** he **nor** she knows."
-      }
-    ]
-  },
-  {
-    "nameKo": "종속 접속사 - 시간",
-    "nameEn": "Time Conjunctions",
-    "words": [
-      {
-        "word": "when",
-        "pronunciation": "/wen/",
-        "meaning": "~할 때",
-        "example": "Call me **when** you arrive.",
-        "translation": "도착하면 전화해."
-      },
-      {
-        "word": "while",
-        "pronunciation": "/waɪl/",
-        "meaning": "~하는 동안",
-        "example": "**While** I was eating, he called.",
-        "translation": "내가 먹고 있는 동안 그가 전화했어."
-      },
-      {
-        "word": "as",
-        "pronunciation": "/æz/",
-        "meaning": "~하면서",
-        "example": "**As** I was walking, I saw him.",
-        "translation": "걷다가 그를 봤어."
-      },
-      {
-        "word": "before",
-        "pronunciation": "/bɪˈfɔːr/",
-        "meaning": "~하기 전에",
-        "example": "Wash your hands **before** you eat.",
-        "translation": "먹기 전에 손 씻어."
-      },
-      {
-        "word": "after",
-        "pronunciation": "/ˈæftər/",
-        "meaning": "~한 후에",
-        "example": "I'll call you **after** I finish.",
-        "translation": "끝나면 전화할게."
-      },
-      {
-        "word": "until/till",
-        "pronunciation": "/ənˈtɪl/",
-        "meaning": "~할 때까지",
-        "example": "Wait **until** I come back.",
-        "translation": "내가 돌아올 때까지 기다려."
-      },
-      {
-        "word": "since",
-        "pronunciation": "/sɪns/",
-        "meaning": "~이래로",
-        "example": "I've lived here **since** I was born.",
-        "translation": "태어날 때부터 여기 살았어."
-      },
-      {
-        "word": "once",
-        "pronunciation": "/wʌns/",
-        "meaning": "일단 ~하면",
-        "example": "**Once** you try, you'll like it.",
-        "translation": "일단 해보면 좋아할 거야."
-      },
-      {
-        "word": "whenever",
-        "pronunciation": "/wenˈevər/",
-        "meaning": "~할 때마다",
-        "example": "Visit me **whenever** you want.",
-        "translation": "원할 때마다 놀러 와."
-      },
-      {
-        "word": "as soon as",
-        "pronunciation": "/æz suːn æz/",
-        "meaning": "~하자마자",
-        "example": "Call me **as soon as** you arrive.",
-        "translation": "도착하자마자 전화해."
-      },
-      {
-        "word": "by the time",
-        "pronunciation": "/baɪ ðə taɪm/",
-        "meaning": "~할 때쯤",
-        "example": "**By the time** I arrived, she'd left.",
-        "translation": "내가 도착했을 때쯤 그녀는 떠났어."
-      },
-      {
-        "word": "every time",
-        "pronunciation": "/ˈevri taɪm/",
-        "meaning": "~할 때마다",
-        "example": "**Every time** I see her, I smile.",
-        "translation": "그녀를 볼 때마다 웃게 돼."
-      },
-      {
-        "word": "the moment",
-        "pronunciation": "/ðə ˈmoʊmənt/",
-        "meaning": "~하는 순간",
-        "example": "**The moment** I saw her, I knew.",
-        "translation": "그녀를 본 순간 알았어."
-      },
-      {
-        "word": "no sooner...than",
-        "pronunciation": "/noʊ ˈsuːnər ðæn/",
-        "meaning": "~하자마자",
-        "example": "**No sooner** had I arrived **than** it rained.",
-        "translation": "도착하자마자 비가 왔어."
-      },
-      {
-        "word": "hardly...when",
-        "pronunciation": "/ˈhɑːrdli wen/",
-        "meaning": "~하자마자",
-        "example": "**Hardly** had I started **when** he came.",
-        "translation": "시작하자마자 그가 왔어."
-      }
-    ]
-  },
-  {
-    "nameKo": "종속 접속사 - 이유/원인",
-    "nameEn": "Reason Conjunctions",
-    "words": [
-      {
-        "word": "because",
-        "pronunciation": "/bɪˈkɔːz/",
-        "meaning": "~때문에",
-        "example": "I stayed home **because** I was sick.",
-        "translation": "아파서 집에 있었어."
-      },
-      {
-        "word": "since",
-        "pronunciation": "/sɪns/",
-        "meaning": "~이므로",
-        "example": "**Since** you're here, let's talk.",
-        "translation": "왔으니까 얘기하자."
-      },
-      {
-        "word": "as",
-        "pronunciation": "/æz/",
-        "meaning": "~이므로",
-        "example": "**As** it was late, I went home.",
-        "translation": "늦어서 집에 갔어."
-      },
-      {
-        "word": "now that",
-        "pronunciation": "/naʊ ðæt/",
-        "meaning": "~이므로 이제",
-        "example": "**Now that** you're here, let's start.",
-        "translation": "이제 왔으니까 시작하자."
-      },
-      {
-        "word": "seeing that",
-        "pronunciation": "/ˈsiːɪŋ ðæt/",
-        "meaning": "~이므로",
-        "example": "**Seeing that** it's late, we should go.",
-        "translation": "늦었으니까 가야 해."
-      },
-      {
-        "word": "given that",
-        "pronunciation": "/ˈɡɪvn ðæt/",
-        "meaning": "~을 고려하면",
-        "example": "**Given that** he's young, he did well.",
-        "translation": "어리다는 걸 고려하면 잘했어."
-      },
-      {
-        "word": "considering that",
-        "pronunciation": "/kənˈsɪdərɪŋ ðæt/",
-        "meaning": "~을 고려하면",
-        "example": "**Considering that** it's his first try.",
-        "translation": "첫 시도라는 걸 고려하면."
-      },
-      {
-        "word": "in that",
-        "pronunciation": "/ɪn ðæt/",
-        "meaning": "~라는 점에서",
-        "example": "It's good **in that** it's cheap.",
-        "translation": "싸다는 점에서 좋아."
-      },
-      {
-        "word": "inasmuch as",
-        "pronunciation": "/ˌɪnəzˈmʌtʃ æz/",
-        "meaning": "~한 점에서",
-        "example": "**Inasmuch as** it's true.",
-        "translation": "사실이라는 점에서."
-      },
-      {
-        "word": "for",
-        "pronunciation": "/fɔːr/",
-        "meaning": "왜냐하면",
-        "example": "I left early, **for** I was tired.",
-        "translation": "일찍 떠났어, 피곤해서."
-      }
-    ]
-  },
-  {
-    "nameKo": "종속 접속사 - 조건",
-    "nameEn": "Conditional Conjunctions",
-    "words": [
-      {
-        "word": "if",
-        "pronunciation": "/ɪf/",
-        "meaning": "만약 ~라면",
-        "example": "**If** you need help, call me.",
-        "translation": "도움 필요하면 전화해."
-      },
-      {
-        "word": "unless",
-        "pronunciation": "/ənˈles/",
-        "meaning": "~하지 않으면",
-        "example": "**Unless** you hurry, you'll be late.",
-        "translation": "서두르지 않으면 늦어."
-      },
-      {
-        "word": "provided (that)",
-        "pronunciation": "/prəˈvaɪdɪd/",
-        "meaning": "~라면",
-        "example": "I'll go, **provided that** you come too.",
-        "translation": "너도 오면 갈게."
-      },
-      {
-        "word": "providing (that)",
-        "pronunciation": "/prəˈvaɪdɪŋ/",
-        "meaning": "~라면",
-        "example": "**Providing that** it's true.",
-        "translation": "사실이라면."
-      },
-      {
-        "word": "as long as",
-        "pronunciation": "/æz lɔːŋ æz/",
-        "meaning": "~하는 한",
-        "example": "**As long as** you're happy, I'm happy.",
-        "translation": "네가 행복하면 나도 행복해."
-      },
-      {
-        "word": "so long as",
-        "pronunciation": "/soʊ lɔːŋ æz/",
-        "meaning": "~하는 한",
-        "example": "**So long as** you try, you'll succeed.",
-        "translation": "노력하는 한 성공할 거야."
-      },
-      {
-        "word": "on condition that",
-        "pronunciation": "/ɑːn kənˈdɪʃn ðæt/",
-        "meaning": "~라는 조건으로",
-        "example": "I'll help, **on condition that** you help me too.",
-        "translation": "너도 도와주면 도와줄게."
-      },
-      {
-        "word": "in case",
-        "pronunciation": "/ɪn keɪs/",
-        "meaning": "~할 경우에 대비해",
-        "example": "Take an umbrella **in case** it rains.",
-        "translation": "비 올 경우를 대비해 우산 챙겨."
-      },
-      {
-        "word": "whether",
-        "pronunciation": "/ˈweðər/",
-        "meaning": "~인지 아닌지",
-        "example": "I don't know **whether** he'll come.",
-        "translation": "그가 올지 모르겠어."
-      },
-      {
-        "word": "whether or not",
-        "pronunciation": "/ˈweðər ɔːr nɑːt/",
-        "meaning": "~든 아니든",
-        "example": "**Whether or not** you like it.",
-        "translation": "좋든 싫든."
-      },
-      {
-        "word": "supposing (that)",
-        "pronunciation": "/səˈpoʊzɪŋ/",
-        "meaning": "~라고 가정하면",
-        "example": "**Supposing that** it's true.",
-        "translation": "사실이라고 가정하면."
-      },
-      {
-        "word": "assuming (that)",
-        "pronunciation": "/əˈsuːmɪŋ/",
-        "meaning": "~라고 가정하면",
-        "example": "**Assuming that** you're right.",
-        "translation": "네가 맞다고 가정하면."
-      }
-    ]
-  },
-  {
-    "nameKo": "종속 접속사 - 양보",
-    "nameEn": "Concession Conjunctions",
-    "words": [
-      {
-        "word": "although",
-        "pronunciation": "/ɔːlˈðoʊ/",
-        "meaning": "~에도 불구하고",
-        "example": "**Although** it rained, we went out.",
-        "translation": "비가 왔지만 우리는 나갔어."
-      },
-      {
-        "word": "though",
-        "pronunciation": "/ðoʊ/",
-        "meaning": "~에도 불구하고",
-        "example": "**Though** he's young, he's wise.",
-        "translation": "어리지만 현명해."
-      },
-      {
-        "word": "even though",
-        "pronunciation": "/ˈiːvn ðoʊ/",
-        "meaning": "~에도 불구하고",
-        "example": "**Even though** I was tired, I continued.",
-        "translation": "피곤했지만 계속했어."
-      },
-      {
-        "word": "even if",
-        "pronunciation": "/ˈiːvn ɪf/",
-        "meaning": "비록 ~일지라도",
-        "example": "**Even if** it rains, I'll go.",
-        "translation": "비가 와도 갈 거야."
-      },
-      {
-        "word": "while",
-        "pronunciation": "/waɪl/",
-        "meaning": "~인 반면",
-        "example": "**While** I like tea, she likes coffee.",
-        "translation": "나는 차를 좋아하는 반면 그녀는 커피를 좋아해."
-      },
-      {
-        "word": "whereas",
-        "pronunciation": "/werˈæz/",
-        "meaning": "~인 반면",
-        "example": "He's tall, **whereas** she's short.",
-        "translation": "그는 키가 큰 반면 그녀는 작아."
-      },
-      {
-        "word": "no matter",
-        "pronunciation": "/noʊ ˈmætər/",
-        "meaning": "아무리 ~해도",
-        "example": "**No matter** what you say, I'll go.",
-        "translation": "뭐라고 해도 갈 거야."
-      },
-      {
-        "word": "however",
-        "pronunciation": "/haʊˈevər/",
-        "meaning": "아무리 ~해도",
-        "example": "**However** hard I try, I fail.",
-        "translation": "아무리 노력해도 실패해."
-      },
-      {
-        "word": "whatever",
-        "pronunciation": "/wʌtˈevər/",
-        "meaning": "무엇이든",
-        "example": "**Whatever** you decide, I'll support you.",
-        "translation": "뭘 결정하든 응원할게."
-      },
-      {
-        "word": "whoever",
-        "pronunciation": "/huːˈevər/",
-        "meaning": "누구든",
-        "example": "**Whoever** comes, welcome them.",
-        "translation": "누가 오든 환영해."
-      }
-    ]
-  },
-  {
-    "nameKo": "종속 접속사 - 목적/결과",
-    "nameEn": "Purpose/Result Conjunctions",
-    "words": [
-      {
-        "word": "so that",
-        "pronunciation": "/soʊ ðæt/",
-        "meaning": "~하기 위해",
-        "example": "Study hard **so that** you can pass.",
-        "translation": "합격하려면 열심히 공부해."
-      },
-      {
-        "word": "in order that",
-        "pronunciation": "/ɪn ˈɔːrdər ðæt/",
-        "meaning": "~하기 위해",
-        "example": "I left early **in order that** I could arrive on time.",
-        "translation": "제시간에 도착하려고 일찍 떠났어."
-      },
-      {
-        "word": "so",
-        "pronunciation": "/soʊ/",
-        "meaning": "그래서",
-        "example": "It was cold, **so** I wore a coat.",
-        "translation": "추워서 코트를 입었어."
-      },
-      {
-        "word": "so...that",
-        "pronunciation": "/soʊ ðæt/",
-        "meaning": "너무 ~해서",
-        "example": "I was **so** tired **that** I fell asleep.",
-        "translation": "너무 피곤해서 잠들었어."
-      },
-      {
-        "word": "such...that",
-        "pronunciation": "/sʌtʃ ðæt/",
-        "meaning": "너무 ~해서",
-        "example": "It was **such** a good movie **that** I watched it twice.",
-        "translation": "너무 좋은 영화라서 두 번 봤어."
-      },
-      {
-        "word": "lest",
-        "pronunciation": "/lest/",
-        "meaning": "~하지 않도록",
-        "example": "Be careful **lest** you fall.",
-        "translation": "넘어지지 않게 조심해."
-      },
-      {
-        "word": "for fear that",
-        "pronunciation": "/fɔːr fɪr ðæt/",
-        "meaning": "~할까 봐",
-        "example": "I hurried **for fear that** I would be late.",
-        "translation": "늦을까 봐 서둘렀어."
-      },
-      {
-        "word": "in case",
-        "pronunciation": "/ɪn keɪs/",
-        "meaning": "~할 경우를 대비해",
-        "example": "I saved the file **in case** the computer crashes.",
-        "translation": "컴퓨터가 고장날 경우를 대비해 파일을 저장했어."
-      },
-      {
-        "word": "so as to",
-        "pronunciation": "/soʊ æz tuː/",
-        "meaning": "~하기 위해",
-        "example": "I woke up early **so as to** catch the train.",
-        "translation": "기차를 타려고 일찍 일어났어."
-      },
-      {
-        "word": "in order to",
-        "pronunciation": "/ɪn ˈɔːrdər tuː/",
-        "meaning": "~하기 위해",
-        "example": "He studied hard **in order to** pass the exam.",
-        "translation": "시험에 합격하려고 열심히 공부했어."
-      }
-    ]
-  },
-  {
-    "nameKo": "종속 접속사 - 비교",
-    "nameEn": "Comparison Conjunctions",
-    "words": [
-      {
-        "word": "than",
-        "pronunciation": "/ðæn/",
-        "meaning": "~보다",
-        "example": "He's taller **than** me.",
-        "translation": "그는 나보다 키가 커."
-      },
-      {
-        "word": "as...as",
-        "pronunciation": "/æz æz/",
-        "meaning": "~만큼",
-        "example": "She's **as** tall **as** him.",
-        "translation": "그녀는 그만큼 키가 커."
-      },
-      {
-        "word": "not as...as",
-        "pronunciation": "/nɑːt æz æz/",
-        "meaning": "~만큼 ~않은",
-        "example": "It's **not as** cold **as** yesterday.",
-        "translation": "어제만큼 춥지 않아."
-      },
-      {
-        "word": "the more...the more",
-        "pronunciation": "/ðə mɔːr ðə mɔːr/",
-        "meaning": "~할수록 더",
-        "example": "**The more** I learn, **the more** I want to know.",
-        "translation": "배울수록 더 알고 싶어."
-      },
-      {
-        "word": "as if",
-        "pronunciation": "/æz ɪf/",
-        "meaning": "마치 ~인 것처럼",
-        "example": "He talks **as if** he knows everything.",
-        "translation": "그는 마치 다 아는 것처럼 말해."
-      },
-      {
-        "word": "as though",
-        "pronunciation": "/æz ðoʊ/",
-        "meaning": "마치 ~인 것처럼",
-        "example": "She looked **as though** she'd seen a ghost.",
-        "translation": "그녀는 마치 귀신을 본 것처럼 보였어."
-      },
-      {
-        "word": "like",
-        "pronunciation": "/laɪk/",
-        "meaning": "~처럼",
-        "example": "It looks **like** it's going to rain.",
-        "translation": "비 올 것 같아."
-      },
-      {
-        "word": "just as",
-        "pronunciation": "/dʒʌst æz/",
-        "meaning": "꼭 ~처럼",
-        "example": "**Just as** I expected.",
-        "translation": "예상한 대로야."
-      }
-    ]
-  },
-  {
-    "nameKo": "한정사",
-    "nameEn": "Determiners",
-    "words": [
-      {
-        "word": "a",
-        "pronunciation": "/ə/",
-        "meaning": "하나의",
-        "example": "I have **a** book.",
-        "translation": "나는 책 한 권이 있어."
-      },
-      {
-        "word": "an",
-        "pronunciation": "/æn/",
-        "meaning": "하나의",
-        "example": "I ate **an** apple.",
-        "translation": "나는 사과 하나를 먹었어."
-      },
-      {
-        "word": "the",
-        "pronunciation": "/ðə/",
-        "meaning": "그",
-        "example": "**The** book is on the table.",
-        "translation": "그 책은 테이블 위에 있어."
-      },
-      {
-        "word": "this",
-        "pronunciation": "/ðɪs/",
-        "meaning": "이것",
-        "example": "**This** is my book.",
-        "translation": "이건 내 책이야."
-      },
-      {
-        "word": "that",
-        "pronunciation": "/ðæt/",
-        "meaning": "저것",
-        "example": "**That** is her car.",
-        "translation": "저건 그녀의 차야."
-      },
-      {
-        "word": "these",
-        "pronunciation": "/ðiːz/",
-        "meaning": "이것들",
-        "example": "**These** are my friends.",
-        "translation": "이 사람들은 내 친구야."
-      },
-      {
-        "word": "those",
-        "pronunciation": "/ðoʊz/",
-        "meaning": "저것들",
-        "example": "**Those** are nice shoes.",
-        "translation": "저 신발 멋지다."
-      },
-      {
-        "word": "my",
-        "pronunciation": "/maɪ/",
-        "meaning": "나의",
-        "example": "**My** name is John.",
-        "translation": "내 이름은 존이야."
-      },
-      {
-        "word": "your",
-        "pronunciation": "/jʊr/",
-        "meaning": "너의",
-        "example": "What's **your** name?",
-        "translation": "네 이름이 뭐야?"
-      },
-      {
-        "word": "his",
-        "pronunciation": "/hɪz/",
-        "meaning": "그의",
-        "example": "**His** car is new.",
-        "translation": "그의 차는 새 거야."
-      },
-      {
-        "word": "her",
-        "pronunciation": "/hɜːr/",
-        "meaning": "그녀의",
-        "example": "**Her** bag is red.",
-        "translation": "그녀의 가방은 빨간색이야."
-      },
-      {
-        "word": "its",
-        "pronunciation": "/ɪts/",
-        "meaning": "그것의",
-        "example": "**Its** color is blue.",
-        "translation": "그것의 색깔은 파란색이야."
-      },
-      {
-        "word": "our",
-        "pronunciation": "/aʊər/",
-        "meaning": "우리의",
-        "example": "**Our** house is big.",
-        "translation": "우리 집은 커."
-      },
-      {
-        "word": "their",
-        "pronunciation": "/ðer/",
-        "meaning": "그들의",
-        "example": "**Their** children are smart.",
-        "translation": "그들의 아이들은 똑똒해."
-      },
-      {
-        "word": "some",
-        "pronunciation": "/sʌm/",
-        "meaning": "약간의",
-        "example": "I need **some** water.",
-        "translation": "물 좀 필요해."
-      },
-      {
-        "word": "any",
-        "pronunciation": "/ˈeni/",
-        "meaning": "어떤",
-        "example": "Do you have **any** questions?",
-        "translation": "질문 있어?"
-      },
-      {
-        "word": "no",
-        "pronunciation": "/noʊ/",
-        "meaning": "아무 ~없는",
-        "example": "I have **no** money.",
-        "translation": "돈이 없어."
-      },
-      {
-        "word": "many",
-        "pronunciation": "/ˈmeni/",
-        "meaning": "많은",
-        "example": "**Many** people came.",
-        "translation": "많은 사람들이 왔어."
-      },
-      {
-        "word": "much",
-        "pronunciation": "/mʌtʃ/",
-        "meaning": "많은",
-        "example": "I don't have **much** time.",
-        "translation": "시간이 많지 않아."
-      },
-      {
-        "word": "few",
-        "pronunciation": "/fjuː/",
-        "meaning": "거의 없는",
-        "example": "**Few** people know this.",
-        "translation": "이걸 아는 사람이 거의 없어."
-      },
-      {
-        "word": "a few",
-        "pronunciation": "/ə fjuː/",
-        "meaning": "몇 개의",
-        "example": "I have **a few** questions.",
-        "translation": "질문이 몇 개 있어."
-      },
-      {
-        "word": "little",
-        "pronunciation": "/ˈlɪtl/",
-        "meaning": "거의 없는",
-        "example": "There's **little** hope.",
-        "translation": "희망이 거의 없어."
-      },
-      {
-        "word": "a little",
-        "pronunciation": "/ə ˈlɪtl/",
-        "meaning": "약간의",
-        "example": "I need **a little** help.",
-        "translation": "도움이 조금 필요해."
-      },
-      {
-        "word": "all",
-        "pronunciation": "/ɔːl/",
-        "meaning": "모든",
-        "example": "**All** students passed.",
-        "translation": "모든 학생이 합격했어."
-      },
-      {
-        "word": "both",
-        "pronunciation": "/boʊθ/",
-        "meaning": "둘 다",
-        "example": "**Both** of them came.",
-        "translation": "둘 다 왔어."
-      },
-      {
-        "word": "each",
-        "pronunciation": "/iːtʃ/",
-        "meaning": "각각의",
-        "example": "**Each** student has a book.",
-        "translation": "각 학생이 책을 가지고 있어."
-      },
-      {
-        "word": "every",
-        "pronunciation": "/ˈevri/",
-        "meaning": "모든",
-        "example": "**Every** day I exercise.",
-        "translation": "매일 운동해."
-      },
-      {
-        "word": "either",
-        "pronunciation": "/ˈiːðər/",
-        "meaning": "둘 중 하나",
-        "example": "**Either** way is fine.",
-        "translation": "어느 쪽이든 괜찮아."
-      },
-      {
-        "word": "neither",
-        "pronunciation": "/ˈniːðər/",
-        "meaning": "둘 다 아닌",
-        "example": "**Neither** answer is correct.",
-        "translation": "둘 다 정답이 아니야."
-      },
-      {
-        "word": "several",
-        "pronunciation": "/ˈsevrəl/",
-        "meaning": "여러 개의",
-        "example": "I have **several** books.",
-        "translation": "책이 여러 권 있어."
-      },
-      {
-        "word": "enough",
-        "pronunciation": "/ɪˈnʌf/",
-        "meaning": "충분한",
-        "example": "I have **enough** money.",
-        "translation": "돈이 충분해."
-      },
-      {
-        "word": "most",
-        "pronunciation": "/moʊst/",
-        "meaning": "대부분의",
-        "example": "**Most** people agree.",
-        "translation": "대부분의 사람들이 동의해."
-      }
-    ]
-  },
-  {
-    "nameKo": "의문사",
-    "nameEn": "Question Words",
-    "words": [
-      {
-        "word": "what",
-        "pronunciation": "/wɑːt/",
-        "meaning": "무엇",
-        "example": "**What** is this?",
-        "translation": "이게 뭐야?"
-      },
-      {
-        "word": "who",
-        "pronunciation": "/huː/",
-        "meaning": "누구",
-        "example": "**Who** is she?",
-        "translation": "그녀는 누구야?"
-      },
-      {
-        "word": "whom",
-        "pronunciation": "/huːm/",
-        "meaning": "누구를",
-        "example": "**Whom** did you see?",
-        "translation": "누구를 봤어?"
-      },
-      {
-        "word": "whose",
-        "pronunciation": "/huːz/",
-        "meaning": "누구의",
-        "example": "**Whose** bag is this?",
-        "translation": "이거 누구 가방이야?"
-      },
-      {
-        "word": "which",
-        "pronunciation": "/wɪtʃ/",
-        "meaning": "어느 것",
-        "example": "**Which** one do you want?",
-        "translation": "어떤 거 원해?"
-      },
-      {
-        "word": "where",
-        "pronunciation": "/wer/",
-        "meaning": "어디",
-        "example": "**Where** is the station?",
-        "translation": "역이 어디야?"
-      },
-      {
-        "word": "when",
-        "pronunciation": "/wen/",
-        "meaning": "언제",
-        "example": "**When** is your birthday?",
-        "translation": "생일이 언제야?"
-      },
-      {
-        "word": "why",
-        "pronunciation": "/waɪ/",
-        "meaning": "왜",
-        "example": "**Why** are you late?",
-        "translation": "왜 늦었어?"
-      },
-      {
-        "word": "how",
-        "pronunciation": "/haʊ/",
-        "meaning": "어떻게",
-        "example": "**How** do you do this?",
-        "translation": "이거 어떻게 해?"
-      },
-      {
-        "word": "how much",
-        "pronunciation": "/haʊ mʌtʃ/",
-        "meaning": "얼마나 (양)",
-        "example": "**How much** is it?",
-        "translation": "이거 얼마야?"
-      },
-      {
-        "word": "how many",
-        "pronunciation": "/haʊ ˈmeni/",
-        "meaning": "얼마나 (수)",
-        "example": "**How many** do you have?",
-        "translation": "몇 개 있어?"
-      },
-      {
-        "word": "how long",
-        "pronunciation": "/haʊ lɔːŋ/",
-        "meaning": "얼마나 오래",
-        "example": "**How long** does it take?",
-        "translation": "얼마나 걸려?"
-      },
-      {
-        "word": "how often",
-        "pronunciation": "/haʊ ˈɔːfn/",
-        "meaning": "얼마나 자주",
-        "example": "**How often** do you exercise?",
-        "translation": "얼마나 자주 운동해?"
-      },
-      {
-        "word": "how far",
-        "pronunciation": "/haʊ fɑːr/",
-        "meaning": "얼마나 멀리",
-        "example": "**How far** is the station?",
-        "translation": "역이 얼마나 멀어?"
-      },
-      {
-        "word": "how old",
-        "pronunciation": "/haʊ oʊld/",
-        "meaning": "몇 살",
-        "example": "**How old** are you?",
-        "translation": "몇 살이야?"
-      }
-    ]
-  }
-]
+{
+  "id": "prepositions",
+  "name": "전치사/접속사",
+  "icon": "🔗",
+  "color": "#9c27b0",
+  "words": [
+    {
+      "id": "prepositions_in_0",
+      "word": "in",
+      "pronunciation": "/ɪn/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~안에",
+          "examples": [
+            {
+              "sentence": "I live in Seoul.",
+              "translation": "나는 서울에 살아."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 (월/계절/년)",
+          "examples": [
+            {
+              "sentence": "She was born in 1990.",
+              "translation": "그녀는 1990년에 태어났어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_on_1",
+      "word": "on",
+      "pronunciation": "/ɑːn/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~위에",
+          "examples": [
+            {
+              "sentence": "The book is on the table.",
+              "translation": "책이 테이블 위에 있어."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 (날짜/요일)",
+          "examples": [
+            {
+              "sentence": "I'll see you on Monday.",
+              "translation": "월요일에 만나자."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_at_2",
+      "word": "at",
+      "pronunciation": "/æt/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에",
+          "examples": [
+            {
+              "sentence": "I'm at home.",
+              "translation": "나 집에 있어."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 (시각)",
+          "examples": [
+            {
+              "sentence": "I wake up at 7 AM.",
+              "translation": "나는 오전 7시에 일어나."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_under_3",
+      "word": "under",
+      "pronunciation": "/ˈʌndər/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~아래에",
+          "examples": [
+            {
+              "sentence": "The cat is under the bed.",
+              "translation": "고양이가 침대 아래에 있어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_below_4",
+      "word": "below",
+      "pronunciation": "/bɪˈloʊ/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~아래에",
+          "examples": [
+            {
+              "sentence": "The temperature is below zero.",
+              "translation": "기온이 영하야."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_above_5",
+      "word": "above",
+      "pronunciation": "/əˈbʌv/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~위에",
+          "examples": [
+            {
+              "sentence": "The picture is above the sofa.",
+              "translation": "그림이 소파 위에 있어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_over_6",
+      "word": "over",
+      "pronunciation": "/ˈoʊvər/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~위로",
+          "examples": [
+            {
+              "sentence": "The plane flew over the city.",
+              "translation": "비행기가 도시 위로 날았어."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 걸쳐",
+          "examples": [
+            {
+              "sentence": "Over the years, I've learned a lot.",
+              "translation": "수년에 걸쳐 많이 배웠어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_between_7",
+      "word": "between",
+      "pronunciation": "/bɪˈtwiːn/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~사이에",
+          "examples": [
+            {
+              "sentence": "Sit between Tom and Mary.",
+              "translation": "톰과 메리 사이에 앉아."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~사이에",
+          "examples": [
+            {
+              "sentence": "Between 2 and 3 PM.",
+              "translation": "오후 2시에서 3시 사이에."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_among_8",
+      "word": "among",
+      "pronunciation": "/əˈmʌŋ/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~사이에(여럿)",
+          "examples": [
+            {
+              "sentence": "She stood among the crowd.",
+              "translation": "그녀가 군중 사이에 서 있었어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_beside_9",
+      "word": "beside",
+      "pronunciation": "/bɪˈsaɪd/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~옆에",
+          "examples": [
+            {
+              "sentence": "He sat beside me.",
+              "translation": "그가 내 옆에 앉았어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_next_to_10",
+      "word": "next to",
+      "pronunciation": "/nekst tuː/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~옆에",
+          "examples": [
+            {
+              "sentence": "The bank is next to the post office.",
+              "translation": "은행이 우체국 옆에 있어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_near_11",
+      "word": "near",
+      "pronunciation": "/nɪr/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~가까이에",
+          "examples": [
+            {
+              "sentence": "I live near the station.",
+              "translation": "나는 역 근처에 살아."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_by_12",
+      "word": "by",
+      "pronunciation": "/baɪ/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~옆에/곁에",
+          "examples": [
+            {
+              "sentence": "Come sit by me.",
+              "translation": "내 곁에 와서 앉아."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~까지 (완료)",
+          "examples": [
+            {
+              "sentence": "Finish it by Friday.",
+              "translation": "금요일까지 끝내."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 의해",
+          "examples": [
+            {
+              "sentence": "It was written by her.",
+              "translation": "그녀에 의해 쓰여졌어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_behind_13",
+      "word": "behind",
+      "pronunciation": "/bɪˈhaɪnd/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~뒤에",
+          "examples": [
+            {
+              "sentence": "The garden is behind the house.",
+              "translation": "정원이 집 뒤에 있어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_in_front_of_14",
+      "word": "in front of",
+      "pronunciation": "/ɪn frʌnt ʌv/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~앞에",
+          "examples": [
+            {
+              "sentence": "Park in front of the building.",
+              "translation": "건물 앞에 주차해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_opposite_15",
+      "word": "opposite",
+      "pronunciation": "/ˈɑːpəzɪt/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~맞은편에",
+          "examples": [
+            {
+              "sentence": "The store is opposite the bank.",
+              "translation": "가게가 은행 맞은편에 있어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_across_16",
+      "word": "across",
+      "pronunciation": "/əˈkrɔːs/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~건너편에",
+          "examples": [
+            {
+              "sentence": "The school is across the street.",
+              "translation": "학교가 길 건너편에 있어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_through_17",
+      "word": "through",
+      "pronunciation": "/θruː/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~를 통해",
+          "examples": [
+            {
+              "sentence": "Walk through the park.",
+              "translation": "공원을 통해 걸어가."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_around_18",
+      "word": "around",
+      "pronunciation": "/əˈraʊnd/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~주위에",
+          "examples": [
+            {
+              "sentence": "There are trees around the house.",
+              "translation": "집 주위에 나무들이 있어."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "약",
+          "examples": [
+            {
+              "sentence": "I'll arrive around 5 PM.",
+              "translation": "오후 5시쯤 도착할 거야."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_inside_19",
+      "word": "inside",
+      "pronunciation": "/ˌɪnˈsaɪd/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~안에",
+          "examples": [
+            {
+              "sentence": "Go inside the building.",
+              "translation": "건물 안으로 들어가."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_outside_20",
+      "word": "outside",
+      "pronunciation": "/ˌaʊtˈsaɪd/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~밖에",
+          "examples": [
+            {
+              "sentence": "Wait outside the door.",
+              "translation": "문 밖에서 기다려."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_within_21",
+      "word": "within",
+      "pronunciation": "/wɪˈðɪn/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~안에",
+          "examples": [
+            {
+              "sentence": "Stay within the lines.",
+              "translation": "선 안에 있어."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~이내에",
+          "examples": [
+            {
+              "sentence": "I'll call you within an hour.",
+              "translation": "한 시간 안에 전화할게."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_beyond_22",
+      "word": "beyond",
+      "pronunciation": "/biˈɑːnd/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~저편에",
+          "examples": [
+            {
+              "sentence": "The village is beyond the mountains.",
+              "translation": "마을이 산 저편에 있어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_along_23",
+      "word": "along",
+      "pronunciation": "/əˈlɔːŋ/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~를 따라",
+          "examples": [
+            {
+              "sentence": "Walk along the river.",
+              "translation": "강을 따라 걸어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_towards_24",
+      "word": "towards",
+      "pronunciation": "/tɔːrdz/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~쪽으로",
+          "examples": [
+            {
+              "sentence": "Walk towards the exit.",
+              "translation": "출구 쪽으로 걸어가."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_into_25",
+      "word": "into",
+      "pronunciation": "/ˈɪntuː/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~안으로",
+          "examples": [
+            {
+              "sentence": "Come into the room.",
+              "translation": "방 안으로 들어와."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_out_of_26",
+      "word": "out of",
+      "pronunciation": "/aʊt ʌv/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~밖으로",
+          "examples": [
+            {
+              "sentence": "Get out of the car.",
+              "translation": "차에서 내려."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_onto_27",
+      "word": "onto",
+      "pronunciation": "/ˈɑːntuː/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~위로",
+          "examples": [
+            {
+              "sentence": "Jump onto the stage.",
+              "translation": "무대 위로 뛰어올라."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_off_28",
+      "word": "off",
+      "pronunciation": "/ɔːf/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에서 떨어져",
+          "examples": [
+            {
+              "sentence": "Get off the bus.",
+              "translation": "버스에서 내려."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_throughout_29",
+      "word": "throughout",
+      "pronunciation": "/θruːˈaʊt/",
+      "subcategory": "전치사 - 장소/위치",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~전체에",
+          "examples": [
+            {
+              "sentence": "It rained throughout the country.",
+              "translation": "전국에 비가 왔어."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~내내",
+          "examples": [
+            {
+              "sentence": "It rained throughout the day.",
+              "translation": "하루 종일 비가 왔어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_before_30",
+      "word": "before",
+      "pronunciation": "/bɪˈfɔːr/",
+      "subcategory": "전치사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~전에",
+          "examples": [
+            {
+              "sentence": "Finish it before noon.",
+              "translation": "정오 전에 끝내."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~하기 전에",
+          "examples": [
+            {
+              "sentence": "Wash your hands before you eat.",
+              "translation": "먹기 전에 손 씻어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_after_31",
+      "word": "after",
+      "pronunciation": "/ˈæftər/",
+      "subcategory": "전치사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~후에",
+          "examples": [
+            {
+              "sentence": "Let's meet after work.",
+              "translation": "퇴근 후에 만나자."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~한 후에",
+          "examples": [
+            {
+              "sentence": "I'll call you after I finish.",
+              "translation": "끝나면 전화할게."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_during_32",
+      "word": "during",
+      "pronunciation": "/ˈdʊrɪŋ/",
+      "subcategory": "전치사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~동안",
+          "examples": [
+            {
+              "sentence": "I read during the flight.",
+              "translation": "비행 중에 책을 읽었어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_for_33",
+      "word": "for",
+      "pronunciation": "/fɔːr/",
+      "subcategory": "전치사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~동안",
+          "examples": [
+            {
+              "sentence": "I lived there for 3 years.",
+              "translation": "나는 거기서 3년 동안 살았어."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~를 위해",
+          "examples": [
+            {
+              "sentence": "This gift is for you.",
+              "translation": "이 선물은 너를 위한 거야."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "왜냐하면",
+          "examples": [
+            {
+              "sentence": "이유",
+              "translation": "I left, **for** it was late."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "왜냐하면",
+          "examples": [
+            {
+              "sentence": "I left early, for I was tired.",
+              "translation": "일찍 떠났어, 피곤해서."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_since_34",
+      "word": "since",
+      "pronunciation": "/sɪns/",
+      "subcategory": "전치사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~이래로",
+          "examples": [
+            {
+              "sentence": "I've been here since Monday.",
+              "translation": "월요일부터 여기 있었어."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~이래로",
+          "examples": [
+            {
+              "sentence": "I've lived here since I was born.",
+              "translation": "태어날 때부터 여기 살았어."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~이므로",
+          "examples": [
+            {
+              "sentence": "Since you're here, let's talk.",
+              "translation": "왔으니까 얘기하자."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_until_till_35",
+      "word": "until/till",
+      "pronunciation": "/ənˈtɪl/",
+      "subcategory": "전치사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~까지",
+          "examples": [
+            {
+              "sentence": "Wait until tomorrow.",
+              "translation": "내일까지 기다려."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~할 때까지",
+          "examples": [
+            {
+              "sentence": "Wait until I come back.",
+              "translation": "내가 돌아올 때까지 기다려."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_from_36",
+      "word": "from",
+      "pronunciation": "/frʌm/",
+      "subcategory": "전치사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~부터",
+          "examples": [
+            {
+              "sentence": "I work from 9 to 6.",
+              "translation": "9시부터 6시까지 일해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_to_37",
+      "word": "to",
+      "pronunciation": "/tuː/",
+      "subcategory": "전치사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~까지",
+          "examples": [
+            {
+              "sentence": "The store is open from 9 to 9.",
+              "translation": "가게는 9시부터 9시까지 열어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_past_38",
+      "word": "past",
+      "pronunciation": "/pæst/",
+      "subcategory": "전치사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~지나서",
+          "examples": [
+            {
+              "sentence": "It's half past two.",
+              "translation": "2시 반이야."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_about_39",
+      "word": "about",
+      "pronunciation": "/əˈbaʊt/",
+      "subcategory": "전치사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "약",
+          "examples": [
+            {
+              "sentence": "It takes about 30 minutes.",
+              "translation": "약 30분 걸려."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 관하여",
+          "examples": [
+            {
+              "sentence": "Tell me about it.",
+              "translation": "그것에 대해 말해줘."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_ago_40",
+      "word": "ago",
+      "pronunciation": "/əˈɡoʊ/",
+      "subcategory": "전치사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~전",
+          "examples": [
+            {
+              "sentence": "I met him 2 years ago.",
+              "translation": "2년 전에 그를 만났어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_following_41",
+      "word": "following",
+      "pronunciation": "/ˈfɑːloʊɪŋ/",
+      "subcategory": "전치사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~다음의",
+          "examples": [
+            {
+              "sentence": "The following week.",
+              "translation": "다음 주에."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_prior_to_42",
+      "word": "prior to",
+      "pronunciation": "/ˈpraɪər tuː/",
+      "subcategory": "전치사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~전에",
+          "examples": [
+            {
+              "sentence": "Prior to the meeting.",
+              "translation": "회의 전에."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_upon_43",
+      "word": "upon",
+      "pronunciation": "/əˈpɑːn/",
+      "subcategory": "전치사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하자마자",
+          "examples": [
+            {
+              "sentence": "Upon arrival, call me.",
+              "translation": "도착하면 전화해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_as_of_44",
+      "word": "as of",
+      "pronunciation": "/æz ʌv/",
+      "subcategory": "전치사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~부로",
+          "examples": [
+            {
+              "sentence": "As of today.",
+              "translation": "오늘부로."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_pending_45",
+      "word": "pending",
+      "pronunciation": "/ˈpendɪŋ/",
+      "subcategory": "전치사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~까지",
+          "examples": [
+            {
+              "sentence": "Pending approval.",
+              "translation": "승인될 때까지."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_of_46",
+      "word": "of",
+      "pronunciation": "/ʌv/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~의",
+          "examples": [
+            {
+              "sentence": "A cup of coffee.",
+              "translation": "커피 한 잔."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_with_47",
+      "word": "with",
+      "pronunciation": "/wɪð/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~와 함께",
+          "examples": [
+            {
+              "sentence": "Come with me.",
+              "translation": "나랑 같이 가."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_without_48",
+      "word": "without",
+      "pronunciation": "/wɪˈðaʊt/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~없이",
+          "examples": [
+            {
+              "sentence": "Coffee without sugar.",
+              "translation": "설탕 없는 커피."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_like_49",
+      "word": "like",
+      "pronunciation": "/laɪk/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~처럼",
+          "examples": [
+            {
+              "sentence": "She sings like an angel.",
+              "translation": "그녀는 천사처럼 노래해."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~처럼",
+          "examples": [
+            {
+              "sentence": "It looks like it's going to rain.",
+              "translation": "비 올 것 같아."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_as_50",
+      "word": "as",
+      "pronunciation": "/æz/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~로서",
+          "examples": [
+            {
+              "sentence": "He works as a teacher.",
+              "translation": "그는 선생님으로 일해."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~하면서",
+          "examples": [
+            {
+              "sentence": "As I was walking, I saw him.",
+              "translation": "걷다가 그를 봤어."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~이므로",
+          "examples": [
+            {
+              "sentence": "As it was late, I went home.",
+              "translation": "늦어서 집에 갔어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_than_51",
+      "word": "than",
+      "pronunciation": "/ðæn/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~보다",
+          "examples": [
+            {
+              "sentence": "He's taller than me.",
+              "translation": "그는 나보다 키가 커."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~보다",
+          "examples": [
+            {
+              "sentence": "He's taller than me.",
+              "translation": "그는 나보다 키가 커."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_except_52",
+      "word": "except",
+      "pronunciation": "/ɪkˈsept/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~를 제외하고",
+          "examples": [
+            {
+              "sentence": "Everyone except him.",
+              "translation": "그를 제외한 모두."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_including_53",
+      "word": "including",
+      "pronunciation": "/ɪnˈkluːdɪŋ/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~를 포함하여",
+          "examples": [
+            {
+              "sentence": "All of us, including her.",
+              "translation": "그녀를 포함한 우리 모두."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_excluding_54",
+      "word": "excluding",
+      "pronunciation": "/ɪkˈskluːdɪŋ/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~를 제외하고",
+          "examples": [
+            {
+              "sentence": "The price, excluding tax.",
+              "translation": "세금 제외 가격."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_despite_55",
+      "word": "despite",
+      "pronunciation": "/dɪˈspaɪt/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에도 불구하고",
+          "examples": [
+            {
+              "sentence": "Despite the rain, we went.",
+              "translation": "비에도 불구하고 우리는 갔어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_regarding_56",
+      "word": "regarding",
+      "pronunciation": "/rɪˈɡɑːrdɪŋ/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 관하여",
+          "examples": [
+            {
+              "sentence": "Regarding your question.",
+              "translation": "당신의 질문에 관해서."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_concerning_57",
+      "word": "concerning",
+      "pronunciation": "/kənˈsɜːrnɪŋ/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 관하여",
+          "examples": [
+            {
+              "sentence": "Concerning the issue.",
+              "translation": "그 문제에 관해서."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_according_to_58",
+      "word": "according to",
+      "pronunciation": "/əˈkɔːrdɪŋ tuː/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 따르면",
+          "examples": [
+            {
+              "sentence": "According to the news.",
+              "translation": "뉴스에 따르면."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_due_to_59",
+      "word": "due to",
+      "pronunciation": "/duː tuː/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~ 때문에",
+          "examples": [
+            {
+              "sentence": "Closed due to repairs.",
+              "translation": "수리 때문에 닫혔어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_because_of_60",
+      "word": "because of",
+      "pronunciation": "/bɪˈkɔːz ʌv/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~ 때문에",
+          "examples": [
+            {
+              "sentence": "I stayed home because of the rain.",
+              "translation": "비 때문에 집에 있었어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_instead_of_61",
+      "word": "instead of",
+      "pronunciation": "/ɪnˈsted ʌv/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~ 대신에",
+          "examples": [
+            {
+              "sentence": "Tea instead of coffee.",
+              "translation": "커피 대신 차."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_in_spite_of_62",
+      "word": "in spite of",
+      "pronunciation": "/ɪn spaɪt ʌv/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에도 불구하고",
+          "examples": [
+            {
+              "sentence": "In spite of the difficulties.",
+              "translation": "어려움에도 불구하고."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_in_terms_of_63",
+      "word": "in terms of",
+      "pronunciation": "/ɪn tɜːrmz ʌv/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~의 면에서",
+          "examples": [
+            {
+              "sentence": "In terms of quality.",
+              "translation": "품질 면에서."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_in_addition_to_64",
+      "word": "in addition to",
+      "pronunciation": "/ɪn əˈdɪʃn tuː/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 더하여",
+          "examples": [
+            {
+              "sentence": "In addition to that.",
+              "translation": "그것에 더하여."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_apart_from_65",
+      "word": "apart from",
+      "pronunciation": "/əˈpɑːrt frʌm/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~를 제외하고",
+          "examples": [
+            {
+              "sentence": "Apart from that.",
+              "translation": "그것을 제외하고."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_as_for_66",
+      "word": "as for",
+      "pronunciation": "/æz fɔːr/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 관해서는",
+          "examples": [
+            {
+              "sentence": "As for me, I agree.",
+              "translation": "나에 관해서는, 동의해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_on_behalf_of_67",
+      "word": "on behalf of",
+      "pronunciation": "/ɑːn bɪˈhæf ʌv/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~를 대신하여",
+          "examples": [
+            {
+              "sentence": "On behalf of the team.",
+              "translation": "팀을 대신하여."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_in_case_of_68",
+      "word": "in case of",
+      "pronunciation": "/ɪn keɪs ʌv/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~의 경우에",
+          "examples": [
+            {
+              "sentence": "In case of emergency.",
+              "translation": "비상시에."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_in_favor_of_69",
+      "word": "in favor of",
+      "pronunciation": "/ɪn ˈfeɪvər ʌv/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 찬성하여",
+          "examples": [
+            {
+              "sentence": "In favor of the plan.",
+              "translation": "그 계획에 찬성하여."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_in_place_of_70",
+      "word": "in place of",
+      "pronunciation": "/ɪn pleɪs ʌv/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~를 대신하여",
+          "examples": [
+            {
+              "sentence": "In place of the original.",
+              "translation": "원본을 대신하여."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_in_search_of_71",
+      "word": "in search of",
+      "pronunciation": "/ɪn sɜːrtʃ ʌv/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~를 찾아",
+          "examples": [
+            {
+              "sentence": "In search of truth.",
+              "translation": "진실을 찾아서."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_in_charge_of_72",
+      "word": "in charge of",
+      "pronunciation": "/ɪn tʃɑːrdʒ ʌv/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~를 담당하여",
+          "examples": [
+            {
+              "sentence": "He's in charge of sales.",
+              "translation": "그가 영업을 담당해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_in_need_of_73",
+      "word": "in need of",
+      "pronunciation": "/ɪn niːd ʌv/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~가 필요한",
+          "examples": [
+            {
+              "sentence": "In need of help.",
+              "translation": "도움이 필요한."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_by_means_of_74",
+      "word": "by means of",
+      "pronunciation": "/baɪ miːnz ʌv/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 의하여",
+          "examples": [
+            {
+              "sentence": "By means of technology.",
+              "translation": "기술에 의하여."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_for_the_sake_of_75",
+      "word": "for the sake of",
+      "pronunciation": "/fɔːr ðə seɪk ʌv/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~를 위하여",
+          "examples": [
+            {
+              "sentence": "For the sake of peace.",
+              "translation": "평화를 위하여."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_on_account_of_76",
+      "word": "on account of",
+      "pronunciation": "/ɑːn əˈkaʊnt ʌv/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~ 때문에",
+          "examples": [
+            {
+              "sentence": "On account of the weather.",
+              "translation": "날씨 때문에."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_with_regard_to_77",
+      "word": "with regard to",
+      "pronunciation": "/wɪð rɪˈɡɑːrd tuː/",
+      "subcategory": "전치사 - 기타",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 관하여",
+          "examples": [
+            {
+              "sentence": "With regard to your request.",
+              "translation": "당신의 요청에 관하여."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_and_78",
+      "word": "and",
+      "pronunciation": "/ænd/",
+      "subcategory": "등위 접속사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그리고",
+          "examples": [
+            {
+              "sentence": "추가",
+              "translation": "I like coffee **and** tea."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_but_79",
+      "word": "but",
+      "pronunciation": "/bʌt/",
+      "subcategory": "등위 접속사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그러나",
+          "examples": [
+            {
+              "sentence": "대조",
+              "translation": "I tried, **but** I failed."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_or_80",
+      "word": "or",
+      "pronunciation": "/ɔːr/",
+      "subcategory": "등위 접속사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "또는",
+          "examples": [
+            {
+              "sentence": "선택",
+              "translation": "Tea **or** coffee?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_nor_81",
+      "word": "nor",
+      "pronunciation": "/nɔːr/",
+      "subcategory": "등위 접속사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~도 아닌",
+          "examples": [
+            {
+              "sentence": "부정",
+              "translation": "I don't smoke, **nor** do I drink."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_so_82",
+      "word": "so",
+      "pronunciation": "/soʊ/",
+      "subcategory": "등위 접속사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그래서",
+          "examples": [
+            {
+              "sentence": "결과",
+              "translation": "It was late, **so** I left."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "그래서",
+          "examples": [
+            {
+              "sentence": "It was cold, so I wore a coat.",
+              "translation": "추워서 코트를 입었어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_yet_83",
+      "word": "yet",
+      "pronunciation": "/jet/",
+      "subcategory": "등위 접속사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그러나",
+          "examples": [
+            {
+              "sentence": "대조",
+              "translation": "Simple **yet** elegant."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_both___and_84",
+      "word": "both...and",
+      "pronunciation": "/boʊθ ænd/",
+      "subcategory": "등위 접속사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~와 ~둘 다",
+          "examples": [
+            {
+              "sentence": "추가",
+              "translation": "**Both** Tom **and** Jane came."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_either___or_85",
+      "word": "either...or",
+      "pronunciation": "/ˈiːðər ɔːr/",
+      "subcategory": "등위 접속사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~이거나 ~이거나",
+          "examples": [
+            {
+              "sentence": "선택",
+              "translation": "**Either** call **or** text me."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_neither___nor_86",
+      "word": "neither...nor",
+      "pronunciation": "/ˈniːðər nɔːr/",
+      "subcategory": "등위 접속사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~도 ~도 아닌",
+          "examples": [
+            {
+              "sentence": "부정",
+              "translation": "**Neither** he **nor** she knows."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_when_87",
+      "word": "when",
+      "pronunciation": "/wen/",
+      "subcategory": "종속 접속사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~할 때",
+          "examples": [
+            {
+              "sentence": "Call me when you arrive.",
+              "translation": "도착하면 전화해."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "언제",
+          "examples": [
+            {
+              "sentence": "When is your birthday?",
+              "translation": "생일이 언제야?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_while_88",
+      "word": "while",
+      "pronunciation": "/waɪl/",
+      "subcategory": "종속 접속사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하는 동안",
+          "examples": [
+            {
+              "sentence": "While I was eating, he called.",
+              "translation": "내가 먹고 있는 동안 그가 전화했어."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~인 반면",
+          "examples": [
+            {
+              "sentence": "While I like tea, she likes coffee.",
+              "translation": "나는 차를 좋아하는 반면 그녀는 커피를 좋아해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_once_89",
+      "word": "once",
+      "pronunciation": "/wʌns/",
+      "subcategory": "종속 접속사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "일단 ~하면",
+          "examples": [
+            {
+              "sentence": "Once you try, you'll like it.",
+              "translation": "일단 해보면 좋아할 거야."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_whenever_90",
+      "word": "whenever",
+      "pronunciation": "/wenˈevər/",
+      "subcategory": "종속 접속사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~할 때마다",
+          "examples": [
+            {
+              "sentence": "Visit me whenever you want.",
+              "translation": "원할 때마다 놀러 와."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_as_soon_as_91",
+      "word": "as soon as",
+      "pronunciation": "/æz suːn æz/",
+      "subcategory": "종속 접속사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하자마자",
+          "examples": [
+            {
+              "sentence": "Call me as soon as you arrive.",
+              "translation": "도착하자마자 전화해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_by_the_time_92",
+      "word": "by the time",
+      "pronunciation": "/baɪ ðə taɪm/",
+      "subcategory": "종속 접속사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~할 때쯤",
+          "examples": [
+            {
+              "sentence": "By the time I arrived, she'd left.",
+              "translation": "내가 도착했을 때쯤 그녀는 떠났어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_every_time_93",
+      "word": "every time",
+      "pronunciation": "/ˈevri taɪm/",
+      "subcategory": "종속 접속사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~할 때마다",
+          "examples": [
+            {
+              "sentence": "Every time I see her, I smile.",
+              "translation": "그녀를 볼 때마다 웃게 돼."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_the_moment_94",
+      "word": "the moment",
+      "pronunciation": "/ðə ˈmoʊmənt/",
+      "subcategory": "종속 접속사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하는 순간",
+          "examples": [
+            {
+              "sentence": "The moment I saw her, I knew.",
+              "translation": "그녀를 본 순간 알았어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_no_sooner___than_95",
+      "word": "no sooner...than",
+      "pronunciation": "/noʊ ˈsuːnər ðæn/",
+      "subcategory": "종속 접속사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하자마자",
+          "examples": [
+            {
+              "sentence": "No sooner had I arrived than it rained.",
+              "translation": "도착하자마자 비가 왔어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_hardly___when_96",
+      "word": "hardly...when",
+      "pronunciation": "/ˈhɑːrdli wen/",
+      "subcategory": "종속 접속사 - 시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하자마자",
+          "examples": [
+            {
+              "sentence": "Hardly had I started when he came.",
+              "translation": "시작하자마자 그가 왔어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_because_97",
+      "word": "because",
+      "pronunciation": "/bɪˈkɔːz/",
+      "subcategory": "종속 접속사 - 이유/원인",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~때문에",
+          "examples": [
+            {
+              "sentence": "I stayed home because I was sick.",
+              "translation": "아파서 집에 있었어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_now_that_98",
+      "word": "now that",
+      "pronunciation": "/naʊ ðæt/",
+      "subcategory": "종속 접속사 - 이유/원인",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~이므로 이제",
+          "examples": [
+            {
+              "sentence": "Now that you're here, let's start.",
+              "translation": "이제 왔으니까 시작하자."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_seeing_that_99",
+      "word": "seeing that",
+      "pronunciation": "/ˈsiːɪŋ ðæt/",
+      "subcategory": "종속 접속사 - 이유/원인",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~이므로",
+          "examples": [
+            {
+              "sentence": "Seeing that it's late, we should go.",
+              "translation": "늦었으니까 가야 해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_given_that_100",
+      "word": "given that",
+      "pronunciation": "/ˈɡɪvn ðæt/",
+      "subcategory": "종속 접속사 - 이유/원인",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~을 고려하면",
+          "examples": [
+            {
+              "sentence": "Given that he's young, he did well.",
+              "translation": "어리다는 걸 고려하면 잘했어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_considering_that_101",
+      "word": "considering that",
+      "pronunciation": "/kənˈsɪdərɪŋ ðæt/",
+      "subcategory": "종속 접속사 - 이유/원인",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~을 고려하면",
+          "examples": [
+            {
+              "sentence": "Considering that it's his first try.",
+              "translation": "첫 시도라는 걸 고려하면."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_in_that_102",
+      "word": "in that",
+      "pronunciation": "/ɪn ðæt/",
+      "subcategory": "종속 접속사 - 이유/원인",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~라는 점에서",
+          "examples": [
+            {
+              "sentence": "It's good in that it's cheap.",
+              "translation": "싸다는 점에서 좋아."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_inasmuch_as_103",
+      "word": "inasmuch as",
+      "pronunciation": "/ˌɪnəzˈmʌtʃ æz/",
+      "subcategory": "종속 접속사 - 이유/원인",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~한 점에서",
+          "examples": [
+            {
+              "sentence": "Inasmuch as it's true.",
+              "translation": "사실이라는 점에서."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_if_104",
+      "word": "if",
+      "pronunciation": "/ɪf/",
+      "subcategory": "종속 접속사 - 조건",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "만약 ~라면",
+          "examples": [
+            {
+              "sentence": "If you need help, call me.",
+              "translation": "도움 필요하면 전화해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_unless_105",
+      "word": "unless",
+      "pronunciation": "/ənˈles/",
+      "subcategory": "종속 접속사 - 조건",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하지 않으면",
+          "examples": [
+            {
+              "sentence": "Unless you hurry, you'll be late.",
+              "translation": "서두르지 않으면 늦어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_provided__that__106",
+      "word": "provided (that)",
+      "pronunciation": "/prəˈvaɪdɪd/",
+      "subcategory": "종속 접속사 - 조건",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~라면",
+          "examples": [
+            {
+              "sentence": "I'll go, provided that you come too.",
+              "translation": "너도 오면 갈게."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_providing__that__107",
+      "word": "providing (that)",
+      "pronunciation": "/prəˈvaɪdɪŋ/",
+      "subcategory": "종속 접속사 - 조건",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~라면",
+          "examples": [
+            {
+              "sentence": "Providing that it's true.",
+              "translation": "사실이라면."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_as_long_as_108",
+      "word": "as long as",
+      "pronunciation": "/æz lɔːŋ æz/",
+      "subcategory": "종속 접속사 - 조건",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하는 한",
+          "examples": [
+            {
+              "sentence": "As long as you're happy, I'm happy.",
+              "translation": "네가 행복하면 나도 행복해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_so_long_as_109",
+      "word": "so long as",
+      "pronunciation": "/soʊ lɔːŋ æz/",
+      "subcategory": "종속 접속사 - 조건",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하는 한",
+          "examples": [
+            {
+              "sentence": "So long as you try, you'll succeed.",
+              "translation": "노력하는 한 성공할 거야."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_on_condition_that_110",
+      "word": "on condition that",
+      "pronunciation": "/ɑːn kənˈdɪʃn ðæt/",
+      "subcategory": "종속 접속사 - 조건",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~라는 조건으로",
+          "examples": [
+            {
+              "sentence": "I'll help, on condition that you help me too.",
+              "translation": "너도 도와주면 도와줄게."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_in_case_111",
+      "word": "in case",
+      "pronunciation": "/ɪn keɪs/",
+      "subcategory": "종속 접속사 - 조건",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~할 경우에 대비해",
+          "examples": [
+            {
+              "sentence": "Take an umbrella in case it rains.",
+              "translation": "비 올 경우를 대비해 우산 챙겨."
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "",
+          "meaning": "~할 경우를 대비해",
+          "examples": [
+            {
+              "sentence": "I saved the file in case the computer crashes.",
+              "translation": "컴퓨터가 고장날 경우를 대비해 파일을 저장했어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_whether_112",
+      "word": "whether",
+      "pronunciation": "/ˈweðər/",
+      "subcategory": "종속 접속사 - 조건",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~인지 아닌지",
+          "examples": [
+            {
+              "sentence": "I don't know whether he'll come.",
+              "translation": "그가 올지 모르겠어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_whether_or_not_113",
+      "word": "whether or not",
+      "pronunciation": "/ˈweðər ɔːr nɑːt/",
+      "subcategory": "종속 접속사 - 조건",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~든 아니든",
+          "examples": [
+            {
+              "sentence": "Whether or not you like it.",
+              "translation": "좋든 싫든."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_supposing__that__114",
+      "word": "supposing (that)",
+      "pronunciation": "/səˈpoʊzɪŋ/",
+      "subcategory": "종속 접속사 - 조건",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~라고 가정하면",
+          "examples": [
+            {
+              "sentence": "Supposing that it's true.",
+              "translation": "사실이라고 가정하면."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_assuming__that__115",
+      "word": "assuming (that)",
+      "pronunciation": "/əˈsuːmɪŋ/",
+      "subcategory": "종속 접속사 - 조건",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~라고 가정하면",
+          "examples": [
+            {
+              "sentence": "Assuming that you're right.",
+              "translation": "네가 맞다고 가정하면."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_although_116",
+      "word": "although",
+      "pronunciation": "/ɔːlˈðoʊ/",
+      "subcategory": "종속 접속사 - 양보",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에도 불구하고",
+          "examples": [
+            {
+              "sentence": "Although it rained, we went out.",
+              "translation": "비가 왔지만 우리는 나갔어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_though_117",
+      "word": "though",
+      "pronunciation": "/ðoʊ/",
+      "subcategory": "종속 접속사 - 양보",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에도 불구하고",
+          "examples": [
+            {
+              "sentence": "Though he's young, he's wise.",
+              "translation": "어리지만 현명해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_even_though_118",
+      "word": "even though",
+      "pronunciation": "/ˈiːvn ðoʊ/",
+      "subcategory": "종속 접속사 - 양보",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에도 불구하고",
+          "examples": [
+            {
+              "sentence": "Even though I was tired, I continued.",
+              "translation": "피곤했지만 계속했어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_even_if_119",
+      "word": "even if",
+      "pronunciation": "/ˈiːvn ɪf/",
+      "subcategory": "종속 접속사 - 양보",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "비록 ~일지라도",
+          "examples": [
+            {
+              "sentence": "Even if it rains, I'll go.",
+              "translation": "비가 와도 갈 거야."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_whereas_120",
+      "word": "whereas",
+      "pronunciation": "/werˈæz/",
+      "subcategory": "종속 접속사 - 양보",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~인 반면",
+          "examples": [
+            {
+              "sentence": "He's tall, whereas she's short.",
+              "translation": "그는 키가 큰 반면 그녀는 작아."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_no_matter_121",
+      "word": "no matter",
+      "pronunciation": "/noʊ ˈmætər/",
+      "subcategory": "종속 접속사 - 양보",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "아무리 ~해도",
+          "examples": [
+            {
+              "sentence": "No matter what you say, I'll go.",
+              "translation": "뭐라고 해도 갈 거야."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_however_122",
+      "word": "however",
+      "pronunciation": "/haʊˈevər/",
+      "subcategory": "종속 접속사 - 양보",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "아무리 ~해도",
+          "examples": [
+            {
+              "sentence": "However hard I try, I fail.",
+              "translation": "아무리 노력해도 실패해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_whatever_123",
+      "word": "whatever",
+      "pronunciation": "/wʌtˈevər/",
+      "subcategory": "종속 접속사 - 양보",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "무엇이든",
+          "examples": [
+            {
+              "sentence": "Whatever you decide, I'll support you.",
+              "translation": "뭘 결정하든 응원할게."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_whoever_124",
+      "word": "whoever",
+      "pronunciation": "/huːˈevər/",
+      "subcategory": "종속 접속사 - 양보",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "누구든",
+          "examples": [
+            {
+              "sentence": "Whoever comes, welcome them.",
+              "translation": "누가 오든 환영해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_so_that_125",
+      "word": "so that",
+      "pronunciation": "/soʊ ðæt/",
+      "subcategory": "종속 접속사 - 목적/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하기 위해",
+          "examples": [
+            {
+              "sentence": "Study hard so that you can pass.",
+              "translation": "합격하려면 열심히 공부해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_in_order_that_126",
+      "word": "in order that",
+      "pronunciation": "/ɪn ˈɔːrdər ðæt/",
+      "subcategory": "종속 접속사 - 목적/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하기 위해",
+          "examples": [
+            {
+              "sentence": "I left early in order that I could arrive on time.",
+              "translation": "제시간에 도착하려고 일찍 떠났어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_so___that_127",
+      "word": "so...that",
+      "pronunciation": "/soʊ ðæt/",
+      "subcategory": "종속 접속사 - 목적/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "너무 ~해서",
+          "examples": [
+            {
+              "sentence": "I was so tired that I fell asleep.",
+              "translation": "너무 피곤해서 잠들었어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_such___that_128",
+      "word": "such...that",
+      "pronunciation": "/sʌtʃ ðæt/",
+      "subcategory": "종속 접속사 - 목적/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "너무 ~해서",
+          "examples": [
+            {
+              "sentence": "It was such a good movie that I watched it twice.",
+              "translation": "너무 좋은 영화라서 두 번 봤어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_lest_129",
+      "word": "lest",
+      "pronunciation": "/lest/",
+      "subcategory": "종속 접속사 - 목적/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하지 않도록",
+          "examples": [
+            {
+              "sentence": "Be careful lest you fall.",
+              "translation": "넘어지지 않게 조심해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_for_fear_that_130",
+      "word": "for fear that",
+      "pronunciation": "/fɔːr fɪr ðæt/",
+      "subcategory": "종속 접속사 - 목적/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~할까 봐",
+          "examples": [
+            {
+              "sentence": "I hurried for fear that I would be late.",
+              "translation": "늦을까 봐 서둘렀어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_so_as_to_131",
+      "word": "so as to",
+      "pronunciation": "/soʊ æz tuː/",
+      "subcategory": "종속 접속사 - 목적/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하기 위해",
+          "examples": [
+            {
+              "sentence": "I woke up early so as to catch the train.",
+              "translation": "기차를 타려고 일찍 일어났어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_in_order_to_132",
+      "word": "in order to",
+      "pronunciation": "/ɪn ˈɔːrdər tuː/",
+      "subcategory": "종속 접속사 - 목적/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하기 위해",
+          "examples": [
+            {
+              "sentence": "He studied hard in order to pass the exam.",
+              "translation": "시험에 합격하려고 열심히 공부했어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_as___as_133",
+      "word": "as...as",
+      "pronunciation": "/æz æz/",
+      "subcategory": "종속 접속사 - 비교",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~만큼",
+          "examples": [
+            {
+              "sentence": "She's as tall as him.",
+              "translation": "그녀는 그만큼 키가 커."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_not_as___as_134",
+      "word": "not as...as",
+      "pronunciation": "/nɑːt æz æz/",
+      "subcategory": "종속 접속사 - 비교",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~만큼 ~않은",
+          "examples": [
+            {
+              "sentence": "It's not as cold as yesterday.",
+              "translation": "어제만큼 춥지 않아."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_the_more___the_more_135",
+      "word": "the more...the more",
+      "pronunciation": "/ðə mɔːr ðə mɔːr/",
+      "subcategory": "종속 접속사 - 비교",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~할수록 더",
+          "examples": [
+            {
+              "sentence": "The more I learn, the more I want to know.",
+              "translation": "배울수록 더 알고 싶어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_as_if_136",
+      "word": "as if",
+      "pronunciation": "/æz ɪf/",
+      "subcategory": "종속 접속사 - 비교",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "마치 ~인 것처럼",
+          "examples": [
+            {
+              "sentence": "He talks as if he knows everything.",
+              "translation": "그는 마치 다 아는 것처럼 말해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_as_though_137",
+      "word": "as though",
+      "pronunciation": "/æz ðoʊ/",
+      "subcategory": "종속 접속사 - 비교",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "마치 ~인 것처럼",
+          "examples": [
+            {
+              "sentence": "She looked as though she'd seen a ghost.",
+              "translation": "그녀는 마치 귀신을 본 것처럼 보였어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_just_as_138",
+      "word": "just as",
+      "pronunciation": "/dʒʌst æz/",
+      "subcategory": "종속 접속사 - 비교",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "꼭 ~처럼",
+          "examples": [
+            {
+              "sentence": "Just as I expected.",
+              "translation": "예상한 대로야."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_a_139",
+      "word": "a",
+      "pronunciation": "/ə/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "하나의",
+          "examples": [
+            {
+              "sentence": "I have a book.",
+              "translation": "나는 책 한 권이 있어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_an_140",
+      "word": "an",
+      "pronunciation": "/æn/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "하나의",
+          "examples": [
+            {
+              "sentence": "I ate an apple.",
+              "translation": "나는 사과 하나를 먹었어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_the_141",
+      "word": "the",
+      "pronunciation": "/ðə/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그",
+          "examples": [
+            {
+              "sentence": "The book is on the table.",
+              "translation": "그 책은 테이블 위에 있어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_this_142",
+      "word": "this",
+      "pronunciation": "/ðɪs/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "이것",
+          "examples": [
+            {
+              "sentence": "This is my book.",
+              "translation": "이건 내 책이야."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_that_143",
+      "word": "that",
+      "pronunciation": "/ðæt/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "저것",
+          "examples": [
+            {
+              "sentence": "That is her car.",
+              "translation": "저건 그녀의 차야."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_these_144",
+      "word": "these",
+      "pronunciation": "/ðiːz/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "이것들",
+          "examples": [
+            {
+              "sentence": "These are my friends.",
+              "translation": "이 사람들은 내 친구야."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_those_145",
+      "word": "those",
+      "pronunciation": "/ðoʊz/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "저것들",
+          "examples": [
+            {
+              "sentence": "Those are nice shoes.",
+              "translation": "저 신발 멋지다."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_my_146",
+      "word": "my",
+      "pronunciation": "/maɪ/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "나의",
+          "examples": [
+            {
+              "sentence": "My name is John.",
+              "translation": "내 이름은 존이야."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_your_147",
+      "word": "your",
+      "pronunciation": "/jʊr/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "너의",
+          "examples": [
+            {
+              "sentence": "What's your name?",
+              "translation": "네 이름이 뭐야?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_his_148",
+      "word": "his",
+      "pronunciation": "/hɪz/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그의",
+          "examples": [
+            {
+              "sentence": "His car is new.",
+              "translation": "그의 차는 새 거야."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_her_149",
+      "word": "her",
+      "pronunciation": "/hɜːr/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그녀의",
+          "examples": [
+            {
+              "sentence": "Her bag is red.",
+              "translation": "그녀의 가방은 빨간색이야."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_its_150",
+      "word": "its",
+      "pronunciation": "/ɪts/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그것의",
+          "examples": [
+            {
+              "sentence": "Its color is blue.",
+              "translation": "그것의 색깔은 파란색이야."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_our_151",
+      "word": "our",
+      "pronunciation": "/aʊər/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "우리의",
+          "examples": [
+            {
+              "sentence": "Our house is big.",
+              "translation": "우리 집은 커."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_their_152",
+      "word": "their",
+      "pronunciation": "/ðer/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그들의",
+          "examples": [
+            {
+              "sentence": "Their children are smart.",
+              "translation": "그들의 아이들은 똑똒해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_some_153",
+      "word": "some",
+      "pronunciation": "/sʌm/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "약간의",
+          "examples": [
+            {
+              "sentence": "I need some water.",
+              "translation": "물 좀 필요해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_any_154",
+      "word": "any",
+      "pronunciation": "/ˈeni/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "어떤",
+          "examples": [
+            {
+              "sentence": "Do you have any questions?",
+              "translation": "질문 있어?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_no_155",
+      "word": "no",
+      "pronunciation": "/noʊ/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "아무 ~없는",
+          "examples": [
+            {
+              "sentence": "I have no money.",
+              "translation": "돈이 없어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_many_156",
+      "word": "many",
+      "pronunciation": "/ˈmeni/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "많은",
+          "examples": [
+            {
+              "sentence": "Many people came.",
+              "translation": "많은 사람들이 왔어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_much_157",
+      "word": "much",
+      "pronunciation": "/mʌtʃ/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "많은",
+          "examples": [
+            {
+              "sentence": "I don't have much time.",
+              "translation": "시간이 많지 않아."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_few_158",
+      "word": "few",
+      "pronunciation": "/fjuː/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "거의 없는",
+          "examples": [
+            {
+              "sentence": "Few people know this.",
+              "translation": "이걸 아는 사람이 거의 없어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_a_few_159",
+      "word": "a few",
+      "pronunciation": "/ə fjuː/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "몇 개의",
+          "examples": [
+            {
+              "sentence": "I have a few questions.",
+              "translation": "질문이 몇 개 있어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_little_160",
+      "word": "little",
+      "pronunciation": "/ˈlɪtl/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "거의 없는",
+          "examples": [
+            {
+              "sentence": "There's little hope.",
+              "translation": "희망이 거의 없어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_a_little_161",
+      "word": "a little",
+      "pronunciation": "/ə ˈlɪtl/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "약간의",
+          "examples": [
+            {
+              "sentence": "I need a little help.",
+              "translation": "도움이 조금 필요해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_all_162",
+      "word": "all",
+      "pronunciation": "/ɔːl/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "모든",
+          "examples": [
+            {
+              "sentence": "All students passed.",
+              "translation": "모든 학생이 합격했어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_both_163",
+      "word": "both",
+      "pronunciation": "/boʊθ/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "둘 다",
+          "examples": [
+            {
+              "sentence": "Both of them came.",
+              "translation": "둘 다 왔어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_each_164",
+      "word": "each",
+      "pronunciation": "/iːtʃ/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "각각의",
+          "examples": [
+            {
+              "sentence": "Each student has a book.",
+              "translation": "각 학생이 책을 가지고 있어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_every_165",
+      "word": "every",
+      "pronunciation": "/ˈevri/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "모든",
+          "examples": [
+            {
+              "sentence": "Every day I exercise.",
+              "translation": "매일 운동해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_either_166",
+      "word": "either",
+      "pronunciation": "/ˈiːðər/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "둘 중 하나",
+          "examples": [
+            {
+              "sentence": "Either way is fine.",
+              "translation": "어느 쪽이든 괜찮아."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_neither_167",
+      "word": "neither",
+      "pronunciation": "/ˈniːðər/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "둘 다 아닌",
+          "examples": [
+            {
+              "sentence": "Neither answer is correct.",
+              "translation": "둘 다 정답이 아니야."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_several_168",
+      "word": "several",
+      "pronunciation": "/ˈsevrəl/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "여러 개의",
+          "examples": [
+            {
+              "sentence": "I have several books.",
+              "translation": "책이 여러 권 있어."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_enough_169",
+      "word": "enough",
+      "pronunciation": "/ɪˈnʌf/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "충분한",
+          "examples": [
+            {
+              "sentence": "I have enough money.",
+              "translation": "돈이 충분해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_most_170",
+      "word": "most",
+      "pronunciation": "/moʊst/",
+      "subcategory": "한정사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "대부분의",
+          "examples": [
+            {
+              "sentence": "Most people agree.",
+              "translation": "대부분의 사람들이 동의해."
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_what_171",
+      "word": "what",
+      "pronunciation": "/wɑːt/",
+      "subcategory": "의문사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "무엇",
+          "examples": [
+            {
+              "sentence": "What is this?",
+              "translation": "이게 뭐야?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_who_172",
+      "word": "who",
+      "pronunciation": "/huː/",
+      "subcategory": "의문사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "누구",
+          "examples": [
+            {
+              "sentence": "Who is she?",
+              "translation": "그녀는 누구야?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_whom_173",
+      "word": "whom",
+      "pronunciation": "/huːm/",
+      "subcategory": "의문사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "누구를",
+          "examples": [
+            {
+              "sentence": "Whom did you see?",
+              "translation": "누구를 봤어?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_whose_174",
+      "word": "whose",
+      "pronunciation": "/huːz/",
+      "subcategory": "의문사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "누구의",
+          "examples": [
+            {
+              "sentence": "Whose bag is this?",
+              "translation": "이거 누구 가방이야?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_which_175",
+      "word": "which",
+      "pronunciation": "/wɪtʃ/",
+      "subcategory": "의문사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "어느 것",
+          "examples": [
+            {
+              "sentence": "Which one do you want?",
+              "translation": "어떤 거 원해?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_where_176",
+      "word": "where",
+      "pronunciation": "/wer/",
+      "subcategory": "의문사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "어디",
+          "examples": [
+            {
+              "sentence": "Where is the station?",
+              "translation": "역이 어디야?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_why_177",
+      "word": "why",
+      "pronunciation": "/waɪ/",
+      "subcategory": "의문사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "왜",
+          "examples": [
+            {
+              "sentence": "Why are you late?",
+              "translation": "왜 늦었어?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_how_178",
+      "word": "how",
+      "pronunciation": "/haʊ/",
+      "subcategory": "의문사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "어떻게",
+          "examples": [
+            {
+              "sentence": "How do you do this?",
+              "translation": "이거 어떻게 해?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_how_much_179",
+      "word": "how much",
+      "pronunciation": "/haʊ mʌtʃ/",
+      "subcategory": "의문사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "얼마나 (양)",
+          "examples": [
+            {
+              "sentence": "How much is it?",
+              "translation": "이거 얼마야?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_how_many_180",
+      "word": "how many",
+      "pronunciation": "/haʊ ˈmeni/",
+      "subcategory": "의문사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "얼마나 (수)",
+          "examples": [
+            {
+              "sentence": "How many do you have?",
+              "translation": "몇 개 있어?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_how_long_181",
+      "word": "how long",
+      "pronunciation": "/haʊ lɔːŋ/",
+      "subcategory": "의문사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "얼마나 오래",
+          "examples": [
+            {
+              "sentence": "How long does it take?",
+              "translation": "얼마나 걸려?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_how_often_182",
+      "word": "how often",
+      "pronunciation": "/haʊ ˈɔːfn/",
+      "subcategory": "의문사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "얼마나 자주",
+          "examples": [
+            {
+              "sentence": "How often do you exercise?",
+              "translation": "얼마나 자주 운동해?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_how_far_183",
+      "word": "how far",
+      "pronunciation": "/haʊ fɑːr/",
+      "subcategory": "의문사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "얼마나 멀리",
+          "examples": [
+            {
+              "sentence": "How far is the station?",
+              "translation": "역이 얼마나 멀어?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    },
+    {
+      "id": "prepositions_how_old_184",
+      "word": "how old",
+      "pronunciation": "/haʊ oʊld/",
+      "subcategory": "의문사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "몇 살",
+          "examples": [
+            {
+              "sentence": "How old are you?",
+              "translation": "몇 살이야?"
+            }
+          ]
+        }
+      ],
+      "pastTense": "",
+      "pastParticiple": "",
+      "antonym": ""
+    }
+  ]
+}

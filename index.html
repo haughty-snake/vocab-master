@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>VocabMaster - OPIC 영어 단어 학습</title>
+    <title>VocabMaster - 영어 단어 암기</title>
 
     <!-- PWA Meta Tags -->
-    <meta name="description" content="OPIC AL 등급 달성을 위한 종합 영어 단어 학습 웹앱">
+    <meta name="description" content="효과적인 영어 단어 암기를 위한 종합 학습 웹앱">
     <meta name="theme-color" content="#4285f4">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -43,7 +43,7 @@
     <header class="header">
         <div class="header-content">
             <div class="logo" onclick="showHome()">
-                <span class="logo-icon">V</span>
+                <img src="icons/icon-96x96.png" alt="Logo" class="logo-icon">
                 <span class="logo-text">VocabMaster</span>
             </div>
             <nav class="nav-menu">
@@ -76,8 +76,7 @@
         <!-- Home View -->
         <section id="home-view" class="view active">
             <div class="home-hero">
-                <h1 class="hero-title">OPIC 영어 단어 마스터</h1>
-                <p class="hero-subtitle">4,500+ 단어와 표현으로 OPIC AL 목표 달성</p>
+                <h1 class="hero-title">영어 단어 암기 마스터</h1>
 
                 <!-- Search Bar -->
                 <div class="search-container">
@@ -88,13 +87,20 @@
                             <path d="m21 21-4.35-4.35"></path>
                         </svg>
                     </button>
+                    <div id="search-results" class="search-results hidden"></div>
                 </div>
-                <div id="search-results" class="search-results hidden"></div>
             </div>
 
             <!-- Category Cards -->
             <div class="category-section">
-                <h2 class="section-title">카테고리별 학습</h2>
+                <div class="section-header">
+                    <h2 class="section-title">카테고리별 학습</h2>
+                    <div class="category-filter-tabs">
+                        <button class="filter-tab active" data-filter="all" onclick="filterCategoriesByStatus('all')">전체</button>
+                        <button class="filter-tab" data-filter="active" onclick="filterCategoriesByStatus('active')">활성화</button>
+                        <button class="filter-tab" data-filter="inactive" onclick="filterCategoriesByStatus('inactive')">비활성화</button>
+                    </div>
+                </div>
                 <div class="category-grid" id="category-grid">
                     <!-- Categories will be populated by JS -->
                 </div>
@@ -126,14 +132,15 @@
             <div class="list-header">
                 <h2 class="view-title">단어 목록</h2>
                 <div class="list-controls">
-                    <select id="category-select" class="select-input" onchange="filterByCategory(this.value)">
-                        <option value="all">전체 카테고리</option>
-                    </select>
                     <select id="status-select" class="select-input" onchange="filterByStatus(this.value)">
                         <option value="all">전체 상태</option>
                         <option value="memorized">암기 완료</option>
                         <option value="learning">학습 중</option>
                         <option value="new">새 단어</option>
+                    </select>
+                    <select id="view-mode-select" class="select-input" onchange="changeViewMode(this.value)">
+                        <option value="full">정보 전체보기</option>
+                        <option value="word-only">뜻가리기</option>
                     </select>
                     <button class="btn btn-outline" onclick="shuffleList()">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -144,6 +151,13 @@
                             <line x1="4" y1="4" x2="9" y2="9"></line>
                         </svg>
                         섞기
+                    </button>
+                    <button class="btn btn-outline" onclick="refreshWordList()" title="새로고침">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="23 4 23 10 17 10"></polyline>
+                            <polyline points="1 20 1 14 7 14"></polyline>
+                            <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+                        </svg>
                     </button>
                 </div>
             </div>
@@ -171,15 +185,27 @@
             </div>
             <div class="flashcard-header">
                 <div class="flashcard-progress">
-                    <span id="flashcard-current">1</span> / <span id="flashcard-total">0</span>
+                    <span class="progress-current" id="flashcard-current">1</span>
+                    <span class="progress-separator">/</span>
+                    <span class="progress-total" id="flashcard-total">0</span>
                 </div>
                 <div class="flashcard-controls">
+                    <select id="flashcard-status-filter" class="select-input select-sm" onchange="filterFlashcardsByStatus()">
+                        <option value="all">전체</option>
+                        <option value="new">새 단어</option>
+                        <option value="learning">학습 중</option>
+                        <option value="memorized">암기 완료</option>
+                    </select>
+                    <select id="flashcard-auto-tts" class="select-input select-sm" onchange="saveFlashcardSettings()">
+                        <option value="false">TTS 수동</option>
+                        <option value="true">TTS 자동</option>
+                    </select>
                     <button class="btn btn-sm" onclick="shuffleFlashcards()">섞기</button>
                     <button class="btn btn-sm" onclick="resetFlashcards()">처음으로</button>
                 </div>
             </div>
             <div class="flashcard-container">
-                <div class="flashcard" id="flashcard" onclick="flipCard()">
+                <div class="flashcard" id="flashcard">
                     <div class="flashcard-inner">
                         <div class="flashcard-front">
                             <div class="flashcard-word" id="fc-word"></div>
@@ -196,7 +222,7 @@
                             <div class="flashcard-meaning" id="fc-meaning"></div>
                             <div class="flashcard-example" id="fc-example"></div>
                             <div class="flashcard-translation" id="fc-translation"></div>
-                            <button class="tts-btn" onclick="event.stopPropagation(); speakCurrentExample()" title="예문 듣기">
+                            <button class="tts-btn" id="fc-example-tts" onclick="event.stopPropagation(); speakCurrentExample()" title="예문 듣기">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
                                     <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
@@ -217,14 +243,14 @@
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
-                    알아요
+                    <span class="btn-text">알아요</span>
                 </button>
                 <button class="action-btn unknown" onclick="markUnknown()">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <line x1="18" y1="6" x2="6" y2="18"></line>
                         <line x1="6" y1="6" x2="18" y2="18"></line>
                     </svg>
-                    몰라요
+                    <span class="btn-text">몰라요</span>
                 </button>
                 <button class="action-btn next" onclick="nextCard()" id="next-btn">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -253,8 +279,17 @@
                 <p class="blink-description">단어가 빠르게 지나갑니다. 순간적으로 기억하세요!</p>
                 <div class="blink-controls">
                     <div class="control-group">
+                        <label>학습 상태</label>
+                        <select id="blink-status-filter" class="select-input" onchange="saveBlinkSettings('statusFilter', this.value)">
+                            <option value="all">전체</option>
+                            <option value="new">새 단어</option>
+                            <option value="learning">학습 중</option>
+                            <option value="memorized">암기 완료</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
                         <label>속도</label>
-                        <select id="blink-speed" class="select-input">
+                        <select id="blink-speed" class="select-input" onchange="saveBlinkSettings('speed', this.value)">
                             <option value="3000">느림 (3초)</option>
                             <option value="2000" selected>보통 (2초)</option>
                             <option value="1000">빠름 (1초)</option>
@@ -263,11 +298,28 @@
                     </div>
                     <div class="control-group">
                         <label>표시 내용</label>
-                        <select id="blink-display" class="select-input">
+                        <select id="blink-display" class="select-input" onchange="toggleBlinkAlternateOptions(); saveBlinkSettings('displayMode', this.value)">
                             <option value="word">영어만</option>
                             <option value="meaning">뜻만</option>
                             <option value="both" selected>둘 다</option>
+                            <option value="alternate">번갈아가며</option>
                         </select>
+                    </div>
+                    <div class="control-group blink-alternate-options hidden" id="blink-alternate-options">
+                        <label>단어별 반복 횟수</label>
+                        <select id="blink-repeat-count" class="select-input" onchange="saveBlinkSettings('repeatCount', this.value)">
+                            <option value="1">1회</option>
+                            <option value="2" selected>2회</option>
+                            <option value="3">3회</option>
+                            <option value="5">5회</option>
+                        </select>
+                    </div>
+                    <div class="control-group blink-tts-option">
+                        <label>자동 발음</label>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="blink-auto-tts" checked onchange="saveBlinkSettings('autoTTS', this.checked)">
+                            <span class="toggle-slider"></span>
+                        </label>
                     </div>
                     <button class="btn btn-primary" id="blink-start-btn" onclick="startBlink()">시작</button>
                 </div>
@@ -300,8 +352,17 @@
                 <h2 class="view-title">퀴즈 모드</h2>
                 <div class="quiz-options">
                     <div class="control-group">
+                        <label>학습 상태</label>
+                        <select id="quiz-status-filter" class="select-input" onchange="saveQuizSettings('statusFilter', this.value)">
+                            <option value="all">전체</option>
+                            <option value="new">새 단어</option>
+                            <option value="learning">학습 중</option>
+                            <option value="memorized">암기 완료</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
                         <label>문제 수</label>
-                        <select id="quiz-count" class="select-input">
+                        <select id="quiz-count" class="select-input" onchange="saveQuizSettings('count', this.value)">
                             <option value="10">10문제</option>
                             <option value="20" selected>20문제</option>
                             <option value="50">50문제</option>
@@ -310,7 +371,7 @@
                     </div>
                     <div class="control-group">
                         <label>문제 유형</label>
-                        <select id="quiz-type" class="select-input">
+                        <select id="quiz-type" class="select-input" onchange="saveQuizSettings('type', this.value)">
                             <option value="meaning">뜻 맞추기</option>
                             <option value="word">단어 맞추기</option>
                             <option value="mixed" selected>혼합</option>
@@ -321,7 +382,11 @@
             </div>
             <div class="quiz-container hidden" id="quiz-container">
                 <div class="quiz-progress">
-                    <span id="quiz-current">1</span> / <span id="quiz-total">20</span>
+                    <div class="progress-badge">
+                        <span class="progress-current" id="quiz-current">1</span>
+                        <span class="progress-separator">/</span>
+                        <span class="progress-total" id="quiz-total">20</span>
+                    </div>
                     <div class="quiz-score">점수: <span id="quiz-score">0</span></div>
                 </div>
                 <div class="quiz-question" id="quiz-question"></div>
@@ -368,11 +433,36 @@
                     </label>
                 </div>
                 <div class="setting-item">
-                    <label>TTS 음성 읽기</label>
+                    <label>플래시카드 애니메이션</label>
                     <label class="switch">
-                        <input type="checkbox" id="tts-toggle" checked onchange="toggleTTS()">
+                        <input type="checkbox" id="flashcard-animation-toggle" checked onchange="toggleFlashcardAnimation()">
                         <span class="slider"></span>
                     </label>
+                </div>
+                <hr>
+                <div class="setting-item">
+                    <h4>백업 알림</h4>
+                </div>
+                <div class="setting-item">
+                    <label>마지막 백업</label>
+                    <span class="last-backup-date" id="last-backup-date">없음</span>
+                </div>
+                <div class="setting-item">
+                    <label>백업 알림 사용</label>
+                    <label class="switch">
+                        <input type="checkbox" id="backup-reminder-toggle" checked onchange="toggleBackupReminder()">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-item" id="backup-frequency-setting">
+                    <label>알림 주기</label>
+                    <select id="backup-frequency-select" class="select-input" onchange="changeBackupFrequency(this.value)">
+                        <option value="1">매일</option>
+                        <option value="3">3일마다</option>
+                        <option value="7">7일마다</option>
+                        <option value="14">14일마다</option>
+                        <option value="30">30일마다</option>
+                    </select>
                 </div>
                 <hr>
                 <div class="setting-item">
@@ -428,6 +518,47 @@
                         학습 기록 초기화
                     </button>
                 </div>
+                <hr>
+                <div class="setting-item">
+                    <h4>나만의 단어장 공유</h4>
+                    <p class="setting-description">나만의 단어장을 다른 사람들과 공유하세요</p>
+                </div>
+                <div class="setting-item">
+                    <button class="btn btn-outline btn-full" onclick="exportCustomCategories()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                            <polyline points="16 6 12 2 8 6"></polyline>
+                            <line x1="12" y1="2" x2="12" y2="15"></line>
+                        </svg>
+                        내 단어장 내보내기
+                    </button>
+                </div>
+                <div class="setting-item">
+                    <button class="btn btn-outline btn-full" onclick="triggerImportCustomCategories()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="17 8 12 3 7 8"></polyline>
+                            <line x1="12" y1="3" x2="12" y2="15"></line>
+                        </svg>
+                        공유받은 단어장 가져오기
+                    </button>
+                    <input type="file" id="import-custom-categories-file" class="hidden" accept=".json" onchange="handleImportCustomCategories(event)">
+                </div>
+                <hr>
+                <div class="setting-item version-info">
+                    <label>앱 버전</label>
+                    <span id="app-version" class="version-badge">v1.0.0</span>
+                </div>
+                <hr>
+                <div class="setting-item">
+                    <h4>오픈소스 라이선스</h4>
+                </div>
+                <div class="setting-item attribution-info">
+                    <p class="attribution-text">
+                        영영사전 데이터: <a href="https://dictionaryapi.dev/" target="_blank" rel="noopener">Free Dictionary API</a><br>
+                        <span class="attribution-source">출처: <a href="https://en.wiktionary.org/" target="_blank" rel="noopener">Wiktionary</a> (CC BY-SA 3.0)</span>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -448,13 +579,224 @@
         </div>
     </div>
 
+    <!-- Custom Category Modal -->
+    <div class="modal hidden" id="custom-category-modal">
+        <div class="modal-backdrop" onclick="closeCustomCategoryModal()"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="custom-category-modal-title">새 카테고리 만들기</h3>
+                <button class="modal-close" onclick="closeCustomCategoryModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>카테고리 이름</label>
+                    <input type="text" id="custom-category-name" class="input-field" placeholder="예: 비즈니스 영어">
+                </div>
+                <div class="form-group">
+                    <label>아이콘</label>
+                    <div class="icon-picker" id="icon-picker">
+                        <button type="button" class="icon-option selected" data-icon="📁">📁</button>
+                        <button type="button" class="icon-option" data-icon="📚">📚</button>
+                        <button type="button" class="icon-option" data-icon="💼">💼</button>
+                        <button type="button" class="icon-option" data-icon="✈️">✈️</button>
+                        <button type="button" class="icon-option" data-icon="🎯">🎯</button>
+                        <button type="button" class="icon-option" data-icon="💡">💡</button>
+                        <button type="button" class="icon-option" data-icon="🎓">🎓</button>
+                        <button type="button" class="icon-option" data-icon="🏠">🏠</button>
+                        <button type="button" class="icon-option" data-icon="🍽️">🍽️</button>
+                        <button type="button" class="icon-option" data-icon="🎬">🎬</button>
+                        <button type="button" class="icon-option" data-icon="⭐">⭐</button>
+                        <button type="button" class="icon-option" data-icon="❤️">❤️</button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>색상</label>
+                    <input type="color" id="custom-category-color" class="color-picker" value="#6c757d">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline" onclick="closeCustomCategoryModal()">취소</button>
+                <button class="btn btn-primary" onclick="saveCustomCategory()">저장</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Word Management Modal -->
+    <div class="modal hidden" id="word-management-modal">
+        <div class="modal-backdrop" onclick="closeWordManagementModal()"></div>
+        <div class="modal-content modal-lg">
+            <div class="modal-header">
+                <div class="title-with-edit">
+                    <h3 id="word-management-title">단어 관리</h3>
+                    <button class="edit-title-btn" onclick="editCategoryName()" title="카테고리명 수정">✏️</button>
+                </div>
+                <div class="title-edit-form hidden" id="category-name-edit-form">
+                    <input type="text" id="category-name-input" class="input-field" placeholder="카테고리명">
+                    <button class="btn btn-primary btn-xs" onclick="saveCategoryName()">저장</button>
+                    <button class="btn btn-outline btn-xs" onclick="cancelCategoryNameEdit()">취소</button>
+                </div>
+                <button class="modal-close" onclick="closeWordManagementModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="word-management-actions">
+                    <button class="btn btn-primary btn-sm" onclick="showAddWordForm()">+ 단어 추가</button>
+                    <button class="btn btn-outline btn-sm" onclick="showImportWordsForm()">파일 가져오기</button>
+                </div>
+                <div id="add-word-form" class="add-word-form hidden">
+                    <div class="form-header-bar">
+                        <button type="button" class="btn btn-outline btn-sm" onclick="hideAddWordForm()">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="15 18 9 12 15 6"></polyline>
+                            </svg>
+                            단어 목록
+                        </button>
+                        <span class="form-header-title" id="add-word-form-title">단어 추가</span>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>단어 *</label>
+                            <div class="input-with-button">
+                                <input type="text" id="new-word-word" class="input-field" placeholder="apple">
+                                <button type="button" class="btn btn-outline btn-sm dict-lookup-btn" onclick="lookupDictionary()" title="영영사전에서 단어 정보 조회">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="11" cy="11" r="8"></circle>
+                                        <path d="m21 21-4.35-4.35"></path>
+                                    </svg>
+                                    사전
+                                </button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>발음</label>
+                            <div class="input-with-button">
+                                <input type="text" id="new-word-pronunciation" class="input-field" placeholder="ˈæpəl">
+                                <button type="button" class="btn btn-outline btn-sm pron-lookup-btn" onclick="lookupPronunciation()" title="발음기호 조회">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="11" cy="11" r="8"></circle>
+                                        <path d="m21 21-4.35-4.35"></path>
+                                    </svg>
+                                    조회
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="meanings-section">
+                        <div class="meanings-header">
+                            <label>뜻 및 예문 *</label>
+                            <button type="button" class="btn btn-outline btn-xs" onclick="addMeaningField()">+ 뜻 추가</button>
+                        </div>
+                        <div id="meanings-container">
+                            <!-- Meaning fields will be added here dynamically -->
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button class="btn btn-outline btn-sm" onclick="hideAddWordForm()">취소</button>
+                        <button class="btn btn-primary btn-sm" id="add-word-submit-btn" onclick="saveWordToCategory()">추가</button>
+                    </div>
+                </div>
+                <div id="import-words-form" class="import-words-form hidden">
+                    <div class="form-header-bar">
+                        <button type="button" class="btn btn-outline btn-sm" onclick="hideImportWordsForm()">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="15 18 9 12 15 6"></polyline>
+                            </svg>
+                            단어 목록
+                        </button>
+                        <span class="form-header-title">파일 가져오기</span>
+                    </div>
+                    <div class="form-group">
+                        <label>파일 형식</label>
+                        <select id="import-file-type" class="select-input">
+                            <option value="json">JSON</option>
+                            <option value="csv">CSV</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>파일 선택</label>
+                        <input type="file" id="import-words-file" class="input-field" accept=".json,.csv">
+                    </div>
+                    <div class="import-format-help">
+                        <p><strong>JSON 형식:</strong> meanings 배열로 다의어 지원</p>
+                        <p style="font-size: 11px; margin-left: 8px;">{"word": "run", "meanings": [{"meaning": "달리다", "examples": [...]}]}</p>
+                        <p><strong>CSV 형식:</strong> word,pronunciation,partOfSpeech,meaning,example,translation</p>
+                        <div class="template-download-links">
+                            <span>템플릿 다운로드:</span>
+                            <a href="#" onclick="downloadTemplate('json'); return false;">JSON 샘플</a>
+                            <a href="#" onclick="downloadTemplate('csv'); return false;">CSV 샘플</a>
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button class="btn btn-outline btn-sm" onclick="hideImportWordsForm()">취소</button>
+                        <button class="btn btn-primary btn-sm" onclick="importWordsFromFile()">가져오기</button>
+                    </div>
+                </div>
+                <div class="word-list-container" id="custom-word-list">
+                    <!-- Words will be populated by JS -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" onclick="deleteCurrentCategory()">카테고리 삭제</button>
+                <button class="btn btn-outline" onclick="closeWordManagementModal()">닫기</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Toast Notification -->
     <div class="toast hidden" id="toast">
         <span id="toast-message"></span>
     </div>
 
+    <!-- Backup Reminder Modal -->
+    <div class="modal hidden" id="backup-reminder-modal">
+        <div class="modal-backdrop" onclick="dismissBackupReminder()"></div>
+        <div class="modal-content modal-sm">
+            <div class="modal-header">
+                <h3>백업 알림</h3>
+                <button class="modal-close" onclick="dismissBackupReminder()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="backup-reminder-content">
+                    <div class="backup-reminder-icon">💾</div>
+                    <p>학습 데이터를 백업한 지 오래되었습니다.</p>
+                    <p class="backup-reminder-sub">데이터 손실을 방지하기 위해 백업을 권장합니다.</p>
+                </div>
+            </div>
+            <div class="modal-footer backup-reminder-footer">
+                <button class="btn btn-outline" onclick="dismissBackupReminder()">나중에</button>
+                <button class="btn btn-primary" onclick="performBackupFromReminder()">지금 백업하기</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Export Categories Selection Modal -->
+    <div class="modal hidden" id="export-categories-modal">
+        <div class="modal-backdrop" onclick="closeExportCategoriesModal()"></div>
+        <div class="modal-content modal-sm">
+            <div class="modal-header">
+                <h3>내보낼 카테고리 선택</h3>
+                <button class="modal-close" onclick="closeExportCategoriesModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="export-category-list" id="export-category-list">
+                    <!-- Categories will be populated by JS -->
+                </div>
+                <div class="export-select-all">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="export-select-all" onchange="toggleExportSelectAll()">
+                        <span>전체 선택</span>
+                    </label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline" onclick="closeExportCategoriesModal()">취소</button>
+                <button class="btn btn-primary" onclick="confirmExportCategories()">내보내기</button>
+            </div>
+        </div>
+    </div>
+
     <script src="js/data.bundle.js"></script>
     <script src="js/data.js"></script>
+    <script src="js/version.js"></script>
     <script src="js/storage.js"></script>
     <script src="js/app.js"></script>
 

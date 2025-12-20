@@ -1,1637 +1,4688 @@
-[
-  {
-    "name": "일상 대화 숙어",
-    "subCategories": [
-      {
-        "name": "감정/상태 표현",
-        "expressions": [
-          {
-            "expression": "be on cloud nine",
-            "meaning": "매우 기쁘다",
-            "example": "I've been on cloud nine since I got the job.",
-            "translation": "취직 이후로 매우 기뻐요."
-          },
-          {
-            "expression": "be over the moon",
-            "meaning": "정말 기쁘다",
-            "example": "She's over the moon about her promotion.",
-            "translation": "그녀는 승진에 정말 기뻐요."
-          },
-          {
-            "expression": "be in high spirits",
-            "meaning": "기분이 좋다",
-            "example": "Everyone's in high spirits today.",
-            "translation": "오늘 모두 기분이 좋아요."
-          },
-          {
-            "expression": "be down in the dumps",
-            "meaning": "우울하다",
-            "example": "He's been down in the dumps lately.",
-            "translation": "그는 요즘 우울해요."
-          },
-          {
-            "expression": "feel under the weather",
-            "meaning": "몸이 안 좋다",
-            "example": "I'm feeling under the weather today.",
-            "translation": "오늘 몸이 안 좋아요."
-          },
-          {
-            "expression": "be burned out",
-            "meaning": "지쳐 있다",
-            "example": "I'm completely burned out from work.",
-            "translation": "일 때문에 완전히 지쳤어요."
-          },
-          {
-            "expression": "be on edge",
-            "meaning": "초조하다",
-            "example": "I've been on edge all week.",
-            "translation": "일주일 내내 초조했어요."
-          },
-          {
-            "expression": "be at one's wits' end",
-            "meaning": "어쩔 줄 모르다",
-            "example": "I'm at my wits' end trying to solve this.",
-            "translation": "이걸 해결하려고 어쩔 줄 모르겠어요."
-          },
-          {
-            "expression": "be beside oneself",
-            "meaning": "제정신이 아니다",
-            "example": "She was beside herself with joy.",
-            "translation": "그녀는 기쁨에 제정신이 아니었어요."
-          },
-          {
-            "expression": "have butterflies in one's stomach",
-            "meaning": "긴장되다",
-            "example": "I have butterflies in my stomach before interviews.",
-            "translation": "면접 전에 긴장돼요."
-          },
-          {
-            "expression": "be walking on air",
-            "meaning": "기분이 날아갈 것 같다",
-            "example": "I've been walking on air since I met her.",
-            "translation": "그녀를 만난 이후로 기분이 날아갈 것 같아요."
-          },
-          {
-            "expression": "keep one's cool",
-            "meaning": "침착함을 유지하다",
-            "example": "I tried to keep my cool during the argument.",
-            "translation": "논쟁 중에 침착함을 유지하려고 했어요."
-          },
-          {
-            "expression": "lose one's temper",
-            "meaning": "화를 내다",
-            "example": "I rarely lose my temper.",
-            "translation": "나는 거의 화를 안 내요."
-          },
-          {
-            "expression": "blow off steam",
-            "meaning": "스트레스를 풀다",
-            "example": "I go jogging to **blow off steam**.",
-            "translation": "스트레스 풀려고 조깅해요."
-          },
-          {
-            "expression": "get cold feet",
-            "meaning": "겁이 나다",
-            "example": "I got cold feet before the presentation.",
-            "translation": "발표 전에 겁이 났어요."
-          }
-        ]
-      },
-      {
-        "name": "시간 관련",
-        "expressions": [
-          {
-            "expression": "in the nick of time",
-            "meaning": "아슬아슬하게",
-            "example": "I arrived **in the nick of time**.",
-            "translation": "아슬아슬하게 도착했어요."
-          },
-          {
-            "expression": "around the clock",
-            "meaning": "24시간 내내",
-            "example": "They work **around the clock**.",
-            "translation": "그들은 24시간 내내 일해요."
-          },
-          {
-            "expression": "from time to time",
-            "meaning": "때때로",
-            "example": "I visit my parents **from time to time**.",
-            "translation": "때때로 부모님을 방문해요."
-          },
-          {
-            "expression": "once in a blue moon",
-            "meaning": "아주 가끔",
-            "example": "I eat fast food **once in a blue moon**.",
-            "translation": "아주 가끔 패스트푸드를 먹어요."
-          },
-          {
-            "expression": "at the drop of a hat",
-            "meaning": "즉시",
-            "example": "She'll help you **at the drop of a hat**.",
-            "translation": "그녀는 즉시 도와줄 거예요."
-          },
-          {
-            "expression": "time flies",
-            "meaning": "시간이 빠르다",
-            "example": "**Time flies** when you're having fun.",
-            "translation": "재미있을 때 시간이 빨라요."
-          },
-          {
-            "expression": "behind the times",
-            "meaning": "시대에 뒤떨어진",
-            "example": "His methods are **behind the times**.",
-            "translation": "그의 방법은 시대에 뒤떨어졌어요."
-          },
-          {
-            "expression": "ahead of time",
-            "meaning": "미리",
-            "example": "I like to arrive **ahead of time**.",
-            "translation": "미리 도착하는 것을 좋아해요."
-          },
-          {
-            "expression": "better late than never",
-            "meaning": "늦더라도 안 하는 것보다 낫다",
-            "example": "**Better late than never**, I guess.",
-            "translation": "늦더라도 안 하는 것보단 낫죠."
-          },
-          {
-            "expression": "it's high time",
-            "meaning": "~할 때가 됐다",
-            "example": "**It's high time** we made a decision.",
-            "translation": "결정을 내릴 때가 됐어요."
-          },
-          {
-            "expression": "kill time",
-            "meaning": "시간을 때우다",
-            "example": "I was just killing time.",
-            "translation": "그냥 시간 때우고 있었어요."
-          },
-          {
-            "expression": "pressed for time",
-            "meaning": "시간에 쫓기다",
-            "example": "I'm **pressed for time** today.",
-            "translation": "오늘 시간에 쫓겨요."
-          },
-          {
-            "expression": "stand the test of time",
-            "meaning": "오랜 시간이 지나도 유효하다",
-            "example": "Good design stands the test of time.",
-            "translation": "좋은 디자인은 오랜 시간이 지나도 유효해요."
-          },
-          {
-            "expression": "at this point in time",
-            "meaning": "현재 이 시점에",
-            "example": "**At this point in time**, I'm not sure.",
-            "translation": "현재 이 시점에는 확실하지 않아요."
-          },
-          {
-            "expression": "in the long run",
-            "meaning": "장기적으로",
-            "example": "It will be beneficial **in the long run**.",
-            "translation": "장기적으로 유익할 거예요."
-          }
-        ]
-      },
-      {
-        "name": "업무/성공 관련",
-        "expressions": [
-          {
-            "expression": "go the extra mile",
-            "meaning": "더 노력하다",
-            "example": "She always goes the extra mile for customers.",
-            "translation": "그녀는 항상 고객을 위해 더 노력해요."
-          },
-          {
-            "expression": "think outside the box",
-            "meaning": "창의적으로 생각하다",
-            "example": "We need to **think outside the box**.",
-            "translation": "창의적으로 생각해야 해요."
-          },
-          {
-            "expression": "get the ball rolling",
-            "meaning": "시작하다",
-            "example": "Let's **get the ball rolling** on this project.",
-            "translation": "이 프로젝트를 시작합시다."
-          },
-          {
-            "expression": "pull one's weight",
-            "meaning": "제 몫을 하다",
-            "example": "Everyone needs to pull their weight.",
-            "translation": "모두가 제 몫을 해야 해요."
-          },
-          {
-            "expression": "learn the ropes",
-            "meaning": "요령을 익히다",
-            "example": "It took me a month to **learn the ropes**.",
-            "translation": "요령을 익히는 데 한 달이 걸렸어요."
-          },
-          {
-            "expression": "cut corners",
-            "meaning": "대충하다",
-            "example": "Don't **cut corners** on quality.",
-            "translation": "품질에서 대충하지 마세요."
-          },
-          {
-            "expression": "back to square one",
-            "meaning": "처음부터 다시",
-            "example": "We're **back to square one**.",
-            "translation": "처음부터 다시예요."
-          },
-          {
-            "expression": "get down to business",
-            "meaning": "본론으로 들어가다",
-            "example": "Let's **get down to business**.",
-            "translation": "본론으로 들어갑시다."
-          },
-          {
-            "expression": "be on the same page",
-            "meaning": "의견이 일치하다",
-            "example": "We need to **be on the same page**.",
-            "translation": "의견이 일치해야 해요."
-          },
-          {
-            "expression": "raise the bar",
-            "meaning": "기준을 높이다",
-            "example": "They raised the bar for quality.",
-            "translation": "그들이 품질 기준을 높였어요."
-          },
-          {
-            "expression": "hit the ground running",
-            "meaning": "바로 시작하다",
-            "example": "I **hit the ground running** on my first day.",
-            "translation": "첫날부터 바로 시작했어요."
-          },
-          {
-            "expression": "in the driver's seat",
-            "meaning": "주도권을 잡다",
-            "example": "She's **in the driver's seat** now.",
-            "translation": "그녀가 지금 주도권을 잡고 있어요."
-          },
-          {
-            "expression": "play it by ear",
-            "meaning": "상황 봐서 하다",
-            "example": "Let's **play it by ear**.",
-            "translation": "상황 봐서 합시다."
-          },
-          {
-            "expression": "call the shots",
-            "meaning": "결정권을 갖다",
-            "example": "Who calls the shots here?",
-            "translation": "여기서 누가 결정권을 갖고 있어요?"
-          },
-          {
-            "expression": "the bottom line",
-            "meaning": "핵심, 결론",
-            "example": "**The bottom line** is we need more time.",
-            "translation": "결론은 더 많은 시간이 필요하다는 거예요."
-          }
-        ]
-      },
-      {
-        "name": "관계/사회적 상황",
-        "expressions": [
-          {
-            "expression": "break the ice",
-            "meaning": "서먹함을 깨다",
-            "example": "Let me **break the ice** with a joke.",
-            "translation": "농담으로 서먹함을 깨볼게요."
-          },
-          {
-            "expression": "hit it off",
-            "meaning": "금방 친해지다",
-            "example": "We **hit it off** immediately.",
-            "translation": "우리는 즉시 친해졌어요."
-          },
-          {
-            "expression": "get along with",
-            "meaning": "잘 지내다",
-            "example": "I **get along with** my coworkers.",
-            "translation": "동료들과 잘 지내요."
-          },
-          {
-            "expression": "see eye to eye",
-            "meaning": "의견이 같다",
-            "example": "We don't always **see eye to eye**.",
-            "translation": "항상 의견이 같진 않아요."
-          },
-          {
-            "expression": "give someone the cold shoulder",
-            "meaning": "냉대하다",
-            "example": "She gave me the cold shoulder.",
-            "translation": "그녀가 나를 냉대했어요."
-          },
-          {
-            "expression": "bite one's tongue",
-            "meaning": "말을 참다",
-            "example": "I had to bite my tongue.",
-            "translation": "말을 참아야 했어요."
-          },
-          {
-            "expression": "let the cat out of the bag",
-            "meaning": "비밀을 누설하다",
-            "example": "Who **let the cat out of the bag**?",
-            "translation": "누가 비밀을 누설했어요?"
-          },
-          {
-            "expression": "spill the beans",
-            "meaning": "비밀을 말하다",
-            "example": "Don't **spill the beans** about the party.",
-            "translation": "파티에 대해 비밀을 말하지 마세요."
-          },
-          {
-            "expression": "beat around the bush",
-            "meaning": "둘러 말하다",
-            "example": "Don't **beat around the bush**.",
-            "translation": "둘러 말하지 마세요."
-          },
-          {
-            "expression": "put one's foot in one's mouth",
-            "meaning": "실언하다",
-            "example": "I really put my foot in my mouth.",
-            "translation": "정말 실언했어요."
-          },
-          {
-            "expression": "keep in touch",
-            "meaning": "연락을 유지하다",
-            "example": "Let's **keep in touch**.",
-            "translation": "연락하고 지내요."
-          },
-          {
-            "expression": "get on someone's nerves",
-            "meaning": "짜증나게 하다",
-            "example": "His attitude gets on my nerves.",
-            "translation": "그의 태도가 짜증나요."
-          },
-          {
-            "expression": "give someone the benefit of the doubt",
-            "meaning": "좋게 생각하다",
-            "example": "I'll give him the benefit of the doubt.",
-            "translation": "좋게 생각해 줄게요."
-          },
-          {
-            "expression": "burn bridges",
-            "meaning": "관계를 끊다",
-            "example": "Don't **burn bridges** when you leave a job.",
-            "translation": "직장을 떠날 때 관계를 끊지 마세요."
-          },
-          {
-            "expression": "lend an ear",
-            "meaning": "귀 기울이다",
-            "example": "Thanks for lending an ear.",
-            "translation": "들어줘서 고마워요."
-          }
-        ]
-      },
-      {
-        "name": "상황/결정 관련",
-        "expressions": [
-          {
-            "expression": "take it with a grain of salt",
-            "meaning": "무조건 믿지 않다",
-            "example": "Take his advice with a grain of salt.",
-            "translation": "그의 조언을 무조건 믿지 마세요."
-          },
-          {
-            "expression": "on the fence",
-            "meaning": "결정하지 못하다",
-            "example": "I'm still **on the fence** about it.",
-            "translation": "아직 결정하지 못했어요."
-          },
-          {
-            "expression": "between a rock and a hard place",
-            "meaning": "진퇴양난",
-            "example": "I'm **between a rock and a hard place**.",
-            "translation": "진퇴양난이에요."
-          },
-          {
-            "expression": "have second thoughts",
-            "meaning": "재고하다",
-            "example": "I'm having second thoughts about moving.",
-            "translation": "이사에 대해 재고하고 있어요."
-          },
-          {
-            "expression": "weigh the pros and cons",
-            "meaning": "장단점을 따지다",
-            "example": "I need to **weigh the pros and cons**.",
-            "translation": "장단점을 따져봐야 해요."
-          },
-          {
-            "expression": "jump to conclusions",
-            "meaning": "성급히 결론짓다",
-            "example": "Don't **jump to conclusions**.",
-            "translation": "성급히 결론짓지 마세요."
-          },
-          {
-            "expression": "miss the boat",
-            "meaning": "기회를 놓치다",
-            "example": "I missed the boat on that opportunity.",
-            "translation": "그 기회를 놓쳤어요."
-          },
-          {
-            "expression": "go with the flow",
-            "meaning": "흐름에 따르다",
-            "example": "Sometimes you just have to **go with the flow**.",
-            "translation": "때로는 그냥 흐름에 따라야 해요."
-          },
-          {
-            "expression": "at the end of the day",
-            "meaning": "결국",
-            "example": "**At the end of the day**, it's your decision.",
-            "translation": "결국 당신의 결정이에요."
-          },
-          {
-            "expression": "when push comes to shove",
-            "meaning": "막상 닥치면",
-            "example": "**When push comes to shove**, I'll figure it out.",
-            "translation": "막상 닥치면 해결할 거예요."
-          },
-          {
-            "expression": "tip of the iceberg",
-            "meaning": "빙산의 일각",
-            "example": "This is just the **tip of the iceberg**.",
-            "translation": "이건 빙산의 일각이에요."
-          },
-          {
-            "expression": "read between the lines",
-            "meaning": "행간을 읽다",
-            "example": "You need to **read between the lines**.",
-            "translation": "행간을 읽어야 해요."
-          },
-          {
-            "expression": "the last straw",
-            "meaning": "한계에 이르게 하는 마지막 것",
-            "example": "That was **the last straw**.",
-            "translation": "그게 마지막이었어요."
-          },
-          {
-            "expression": "a blessing in disguise",
-            "meaning": "전화위복",
-            "example": "It turned out to be **a blessing in disguise**.",
-            "translation": "전화위복이었어요."
-          },
-          {
-            "expression": "sleep on it",
-            "meaning": "하루 자고 생각하다",
-            "example": "Let me **sleep on it**.",
-            "translation": "하루 자고 생각해 볼게요."
-          }
-        ]
-      },
-      {
-        "name": "능력/노력 관련",
-        "expressions": [
-          {
-            "expression": "piece of cake",
-            "meaning": "아주 쉬운",
-            "example": "The test was a **piece of cake**.",
-            "translation": "시험이 아주 쉬웠어요."
-          },
-          {
-            "expression": "get the hang of",
-            "meaning": "요령을 터득하다",
-            "example": "I'm getting the hang of it.",
-            "translation": "요령을 터득하고 있어요."
-          },
-          {
-            "expression": "bend over backwards",
-            "meaning": "온갖 노력을 하다",
-            "example": "She bent over backwards to help me.",
-            "translation": "그녀는 나를 돕기 위해 온갖 노력을 했어요."
-          },
-          {
-            "expression": "give it one's best shot",
-            "meaning": "최선을 다하다",
-            "example": "I'll give it my best shot.",
-            "translation": "최선을 다할게요."
-          },
-          {
-            "expression": "have one's hands full",
-            "meaning": "바쁘다",
-            "example": "I have my hands full right now.",
-            "translation": "지금 손이 꽉 찼어요."
-          },
-          {
-            "expression": "bite off more than one can chew",
-            "meaning": "감당 못할 일을 맡다",
-            "example": "I think I bit off more than I can chew.",
-            "translation": "감당 못할 일을 맡은 것 같아요."
-          },
-          {
-            "expression": "burn the midnight oil",
-            "meaning": "밤새 일하다",
-            "example": "I've been burning the midnight oil.",
-            "translation": "밤새 일하고 있어요."
-          },
-          {
-            "expression": "keep one's eye on the ball",
-            "meaning": "집중하다",
-            "example": "Keep your eye on the ball.",
-            "translation": "집중하세요."
-          },
-          {
-            "expression": "get one's act together",
-            "meaning": "정신 차리다",
-            "example": "I need to get my act together.",
-            "translation": "정신 차려야 해요."
-          },
-          {
-            "expression": "hang in there",
-            "meaning": "견디다",
-            "example": "**Hang in there**, you can do it.",
-            "translation": "견뎌, 할 수 있어."
-          },
-          {
-            "expression": "know the ropes",
-            "meaning": "일을 잘 알다",
-            "example": "She really knows the ropes.",
-            "translation": "그녀는 정말 일을 잘 알아요."
-          },
-          {
-            "expression": "up to speed",
-            "meaning": "최신 정보를 알다",
-            "example": "Let me bring you **up to speed**.",
-            "translation": "최신 정보를 알려줄게요."
-          },
-          {
-            "expression": "have what it takes",
-            "meaning": "자질이 있다",
-            "example": "You **have what it takes** to succeed.",
-            "translation": "성공할 자질이 있어요."
-          },
-          {
-            "expression": "put one's mind to",
-            "meaning": "결심하고 하다",
-            "example": "You can do anything if you put your mind to it.",
-            "translation": "결심하면 뭐든 할 수 있어요."
-          },
-          {
-            "expression": "take the plunge",
-            "meaning": "결단을 내리다",
-            "example": "I decided to **take the plunge** and start my own business.",
-            "translation": "결단을 내려 사업을 시작했어요."
-          }
-        ]
-      },
-      {
-        "name": "돈/재정 관련",
-        "expressions": [
-          {
-            "expression": "break the bank",
-            "meaning": "큰 돈을 쓰다",
-            "example": "Eating out doesn't have to **break the bank**.",
-            "translation": "외식이 꼭 큰 돈을 쓸 필요는 없어요."
-          },
-          {
-            "expression": "cost an arm and a leg",
-            "meaning": "매우 비싸다",
-            "example": "This apartment costs an arm and a leg.",
-            "translation": "이 아파트는 매우 비싸요."
-          },
-          {
-            "expression": "a dime a dozen",
-            "meaning": "아주 흔한",
-            "example": "Jobs like that are **a dime a dozen**.",
-            "translation": "그런 일자리는 아주 흔해요."
-          },
-          {
-            "expression": "make ends meet",
-            "meaning": "겨우 살아가다",
-            "example": "It's hard to **make ends meet** these days.",
-            "translation": "요즘 겨우 살아가기 힘들어요."
-          },
-          {
-            "expression": "live from hand to mouth",
-            "meaning": "그날 벌어 그날 먹다",
-            "example": "Many families **live from hand to mouth**.",
-            "translation": "많은 가족들이 그날 벌어 그날 먹어요."
-          },
-          {
-            "expression": "pay through the nose",
-            "meaning": "바가지 쓰다",
-            "example": "We paid through the nose for parking.",
-            "translation": "주차료에 바가지 썼어요."
-          },
-          {
-            "expression": "put money aside",
-            "meaning": "저축하다",
-            "example": "I try to **put money aside** each month.",
-            "translation": "매달 저축하려고 해요."
-          },
-          {
-            "expression": "get more bang for the buck",
-            "meaning": "가성비가 좋다",
-            "example": "You get more bang for your buck here.",
-            "translation": "여기가 가성비가 좋아요."
-          },
-          {
-            "expression": "in the red",
-            "meaning": "적자인",
-            "example": "The company is **in the red**.",
-            "translation": "회사가 적자예요."
-          },
-          {
-            "expression": "in the black",
-            "meaning": "흑자인",
-            "example": "We're finally **in the black**.",
-            "translation": "드디어 흑자예요."
-          },
-          {
-            "expression": "penny pincher",
-            "meaning": "구두쇠",
-            "example": "He's such a **penny pincher**.",
-            "translation": "그는 완전 구두쇠예요."
-          },
-          {
-            "expression": "money doesn't grow on trees",
-            "meaning": "돈은 쉽게 벌리지 않는다",
-            "example": "**Money doesn't grow on trees**.",
-            "translation": "돈은 나무에서 열리지 않아요."
-          },
-          {
-            "expression": "save for a rainy day",
-            "meaning": "만일의 경우를 대비해 저축하다",
-            "example": "I'm saving for a rainy day.",
-            "translation": "만일의 경우를 대비해 저축하고 있어요."
-          },
-          {
-            "expression": "worth every penny",
-            "meaning": "가치가 있다",
-            "example": "The trip was **worth every penny**.",
-            "translation": "여행은 쓴 돈만큼 가치가 있었어요."
-          },
-          {
-            "expression": "tighten one's belt",
-            "meaning": "허리띠를 졸라매다",
-            "example": "We need to tighten our belts.",
-            "translation": "허리띠를 졸라매야 해요."
-          }
-        ]
-      },
-      {
-        "name": "건강/상태 관련",
-        "expressions": [
-          {
-            "expression": "in the pink",
-            "meaning": "건강한",
-            "example": "I'm **in the pink** these days.",
-            "translation": "요즘 건강해요."
-          },
-          {
-            "expression": "as fit as a fiddle",
-            "meaning": "매우 건강한",
-            "example": "My grandmother is **as fit as a fiddle**.",
-            "translation": "할머니는 매우 건강해요."
-          },
-          {
-            "expression": "alive and kicking",
-            "meaning": "아직 건재한",
-            "example": "Despite his age, he's **alive and kicking**.",
-            "translation": "나이에도 불구하고 여전히 건재해요."
-          },
-          {
-            "expression": "recharge one's batteries",
-            "meaning": "휴식을 취하다",
-            "example": "I need to recharge my batteries.",
-            "translation": "휴식이 필요해요."
-          },
-          {
-            "expression": "run down",
-            "meaning": "지친",
-            "example": "I'm feeling **run down**.",
-            "translation": "지친 기분이에요."
-          },
-          {
-            "expression": "at death's door",
-            "meaning": "죽을 지경인",
-            "example": "He looked like he was **at death's door**.",
-            "translation": "그는 죽을 지경처럼 보였어요."
-          },
-          {
-            "expression": "on the mend",
-            "meaning": "회복 중인",
-            "example": "I'm **on the mend** now.",
-            "translation": "지금 회복 중이에요."
-          },
-          {
-            "expression": "pull through",
-            "meaning": "회복하다",
-            "example": "I'm sure she'll **pull through**.",
-            "translation": "그녀가 회복할 거라 확신해요."
-          },
-          {
-            "expression": "take it easy",
-            "meaning": "편히 쉬다",
-            "example": "The doctor told me to **take it easy**.",
-            "translation": "의사가 편히 쉬라고 했어요."
-          },
-          {
-            "expression": "come down with",
-            "meaning": "~에 걸리다",
-            "example": "I think I'm coming down with a cold.",
-            "translation": "감기에 걸린 것 같아요."
-          },
-          {
-            "expression": "kick the habit",
-            "meaning": "나쁜 습관을 끊다",
-            "example": "He finally kicked the smoking habit.",
-            "translation": "그가 드디어 담배를 끊었어요."
-          },
-          {
-            "expression": "under the weather",
-            "meaning": "컨디션이 안 좋은",
-            "example": "I'm feeling **under the weather**.",
-            "translation": "컨디션이 안 좋아요."
-          },
-          {
-            "expression": "fighting fit",
-            "meaning": "완전히 건강한",
-            "example": "I'm **fighting fit** again.",
-            "translation": "다시 완전히 건강해요."
-          },
-          {
-            "expression": "off one's feet",
-            "meaning": "쉬어야 하는",
-            "example": "The doctor told me to stay off my feet.",
-            "translation": "의사가 쉬라고 했어요."
-          },
-          {
-            "expression": "a clean bill of health",
-            "meaning": "건강 진단서",
-            "example": "The doctor gave me **a clean bill of health**.",
-            "translation": "의사가 건강하다고 했어요."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "추가 숙어 (More Idioms)",
-    "subCategories": [
-      {
-        "name": "일상 표현",
-        "expressions": [
-          {
-            "expression": "keep in touch",
-            "meaning": "연락을 유지하다",
-            "example": "Let's **keep in touch**.",
-            "translation": "연락하고 지내요."
-          },
-          {
-            "expression": "catch up with",
-            "meaning": "~를 따라잡다",
-            "example": "Let's catch up over coffee.",
-            "translation": "커피 마시며 근황 얘기해요."
-          },
-          {
-            "expression": "get along with",
-            "meaning": "~와 잘 지내다",
-            "example": "I **get along with** my coworkers.",
-            "translation": "동료들과 잘 지내요."
-          },
-          {
-            "expression": "make friends",
-            "meaning": "친구를 사귀다",
-            "example": "I made friends at the party.",
-            "translation": "파티에서 친구를 사귀었어요."
-          },
-          {
-            "expression": "fall out with",
-            "meaning": "~와 사이가 틀어지다",
-            "example": "I fell out with my best friend.",
-            "translation": "절친과 사이가 틀어졌어요."
-          },
-          {
-            "expression": "put up with",
-            "meaning": "참다",
-            "example": "I can't **put up with** this anymore.",
-            "translation": "더 이상 참을 수 없어요."
-          },
-          {
-            "expression": "run into",
-            "meaning": "우연히 만나다",
-            "example": "I ran into an old friend.",
-            "translation": "옛 친구를 우연히 만났어요."
-          },
-          {
-            "expression": "hang out",
-            "meaning": "어울리다",
-            "example": "Let's **hang out** this weekend.",
-            "translation": "이번 주말에 놀아요."
-          },
-          {
-            "expression": "get together",
-            "meaning": "모이다",
-            "example": "Let's **get together** sometime.",
-            "translation": "언제 한번 모여요."
-          },
-          {
-            "expression": "look forward to",
-            "meaning": "기대하다",
-            "example": "I **look forward to** seeing you.",
-            "translation": "만나기를 기대해요."
-          },
-          {
-            "expression": "take care of",
-            "meaning": "돌보다",
-            "example": "I **take care of** my parents.",
-            "translation": "부모님을 돌봐요."
-          },
-          {
-            "expression": "look after",
-            "meaning": "돌보다",
-            "example": "Can you **look after** my cat?",
-            "translation": "내 고양이 돌봐줄 수 있어요?"
-          },
-          {
-            "expression": "show up",
-            "meaning": "나타나다",
-            "example": "He didn't **show up**.",
-            "translation": "그가 나타나지 않았어요."
-          },
-          {
-            "expression": "turn up",
-            "meaning": "나타나다",
-            "example": "She finally turned up.",
-            "translation": "그녀가 마침내 나타났어요."
-          },
-          {
-            "expression": "stand by",
-            "meaning": "옆에 있다",
-            "example": "I'll always **stand by** you.",
-            "translation": "항상 곁에 있을게요."
-          },
-          {
-            "expression": "count on",
-            "meaning": "의지하다",
-            "example": "You can **count on** me.",
-            "translation": "나를 믿어도 돼요."
-          },
-          {
-            "expression": "back up",
-            "meaning": "지원하다",
-            "example": "I'll back you up.",
-            "translation": "널 지원할게."
-          },
-          {
-            "expression": "let down",
-            "meaning": "실망시키다",
-            "example": "Don't let me down.",
-            "translation": "실망시키지 마요."
-          },
-          {
-            "expression": "cheer up",
-            "meaning": "기운 내다",
-            "example": "**Cheer up**! Things will get better.",
-            "translation": "기운 내! 상황이 나아질 거야."
-          },
-          {
-            "expression": "calm down",
-            "meaning": "진정하다",
-            "example": "**Calm down** and listen to me.",
-            "translation": "진정하고 내 말 들어요."
-          },
-          {
-            "expression": "settle down",
-            "meaning": "정착하다",
-            "example": "I want to **settle down**.",
-            "translation": "정착하고 싶어요."
-          },
-          {
-            "expression": "grow up",
-            "meaning": "자라다",
-            "example": "I grew up in Seoul.",
-            "translation": "서울에서 자랐어요."
-          },
-          {
-            "expression": "bring up",
-            "meaning": "양육하다",
-            "example": "She was brought up by her grandparents.",
-            "translation": "그녀는 조부모님이 키웠어요."
-          },
-          {
-            "expression": "give up",
-            "meaning": "포기하다",
-            "example": "Don't **give up**!",
-            "translation": "포기하지 마요!"
-          },
-          {
-            "expression": "keep up",
-            "meaning": "유지하다",
-            "example": "**Keep up** the good work!",
-            "translation": "계속 잘해요!"
-          },
-          {
-            "expression": "catch on",
-            "meaning": "이해하다",
-            "example": "He quickly caught on.",
-            "translation": "그가 빨리 이해했어요."
-          },
-          {
-            "expression": "figure out",
-            "meaning": "알아내다",
-            "example": "I finally figured it out.",
-            "translation": "마침내 알아냈어요."
-          },
-          {
-            "expression": "work out",
-            "meaning": "해결되다",
-            "example": "Everything worked out.",
-            "translation": "모든 게 잘 됐어요."
-          },
-          {
-            "expression": "sort out",
-            "meaning": "해결하다",
-            "example": "Let's sort this out.",
-            "translation": "이것을 해결해요."
-          },
-          {
-            "expression": "come up",
-            "meaning": "다가오다",
-            "example": "My birthday is coming up.",
-            "translation": "내 생일이 다가와요."
-          }
-        ]
-      },
-      {
-        "name": "업무/학습 표현",
-        "expressions": [
-          {
-            "expression": "hand in",
-            "meaning": "제출하다",
-            "example": "I handed in my report.",
-            "translation": "보고서를 제출했어요."
-          },
-          {
-            "expression": "hand out",
-            "meaning": "나눠주다",
-            "example": "The teacher handed out the papers.",
-            "translation": "선생님이 종이를 나눠줬어요."
-          },
-          {
-            "expression": "fill in",
-            "meaning": "작성하다",
-            "example": "Please **fill in** this form.",
-            "translation": "이 양식을 작성하세요."
-          },
-          {
-            "expression": "fill out",
-            "meaning": "작성하다",
-            "example": "**Fill out** the application.",
-            "translation": "신청서를 작성하세요."
-          },
-          {
-            "expression": "put off",
-            "meaning": "미루다",
-            "example": "Don't **put off** your homework.",
-            "translation": "숙제를 미루지 마요."
-          },
-          {
-            "expression": "carry out",
-            "meaning": "수행하다",
-            "example": "We carried out the plan.",
-            "translation": "계획을 수행했어요."
-          },
-          {
-            "expression": "set up",
-            "meaning": "설치하다",
-            "example": "I **set up** the computer.",
-            "translation": "컴퓨터를 설치했어요."
-          },
-          {
-            "expression": "take over",
-            "meaning": "인수하다",
-            "example": "She took over the project.",
-            "translation": "그녀가 프로젝트를 인수했어요."
-          },
-          {
-            "expression": "run out of",
-            "meaning": "부족하다",
-            "example": "We ran out of time.",
-            "translation": "시간이 부족해요."
-          },
-          {
-            "expression": "come across",
-            "meaning": "우연히 발견하다",
-            "example": "I came across this article.",
-            "translation": "이 기사를 우연히 발견했어요."
-          },
-          {
-            "expression": "look up",
-            "meaning": "찾아보다",
-            "example": "I'll look it up.",
-            "translation": "찾아볼게요."
-          },
-          {
-            "expression": "look into",
-            "meaning": "조사하다",
-            "example": "We'll **look into** it.",
-            "translation": "조사해볼게요."
-          },
-          {
-            "expression": "go through",
-            "meaning": "검토하다",
-            "example": "Let's **go through** the report.",
-            "translation": "보고서를 검토해요."
-          },
-          {
-            "expression": "deal with",
-            "meaning": "처리하다",
-            "example": "I'll **deal with** it.",
-            "translation": "처리할게요."
-          },
-          {
-            "expression": "focus on",
-            "meaning": "집중하다",
-            "example": "**Focus on** your goals.",
-            "translation": "목표에 집중하세요."
-          },
-          {
-            "expression": "rely on",
-            "meaning": "의존하다",
-            "example": "Don't **rely on** others.",
-            "translation": "다른 사람에게 의존하지 마요."
-          },
-          {
-            "expression": "come up with",
-            "meaning": "생각해내다",
-            "example": "I came up with an idea.",
-            "translation": "아이디어를 생각해냈어요."
-          },
-          {
-            "expression": "keep track of",
-            "meaning": "추적하다",
-            "example": "**Keep track of** your expenses.",
-            "translation": "지출을 추적하세요."
-          },
-          {
-            "expression": "fall behind",
-            "meaning": "뒤처지다",
-            "example": "I fell behind in my work.",
-            "translation": "일에서 뒤처졌어요."
-          },
-          {
-            "expression": "catch up on",
-            "meaning": "밀린 것을 하다",
-            "example": "I need to **catch up on** sleep.",
-            "translation": "밀린 잠을 자야 해요."
-          },
-          {
-            "expression": "sign up for",
-            "meaning": "등록하다",
-            "example": "I signed up for the class.",
-            "translation": "수업에 등록했어요."
-          },
-          {
-            "expression": "drop out of",
-            "meaning": "중퇴하다",
-            "example": "He dropped out of school.",
-            "translation": "그는 학교를 중퇴했어요."
-          },
-          {
-            "expression": "get into",
-            "meaning": "입학하다",
-            "example": "She got into Harvard.",
-            "translation": "그녀는 하버드에 입학했어요."
-          },
-          {
-            "expression": "graduate from",
-            "meaning": "졸업하다",
-            "example": "I graduated from college.",
-            "translation": "대학을 졸업했어요."
-          },
-          {
-            "expression": "major in",
-            "meaning": "전공하다",
-            "example": "I **major in** economics.",
-            "translation": "경제학을 전공해요."
-          },
-          {
-            "expression": "cut down on",
-            "meaning": "줄이다",
-            "example": "I need to **cut down on** sugar.",
-            "translation": "설탕을 줄여야 해요."
-          },
-          {
-            "expression": "take up",
-            "meaning": "시작하다",
-            "example": "I took up yoga.",
-            "translation": "요가를 시작했어요."
-          },
-          {
-            "expression": "pick up",
-            "meaning": "배우다",
-            "example": "I picked up some Korean.",
-            "translation": "한국어를 좀 배웠어요."
-          },
-          {
-            "expression": "brush up on",
-            "meaning": "다시 복습하다",
-            "example": "I need to **brush up on** my English.",
-            "translation": "영어를 다시 복습해야 해요."
-          },
-          {
-            "expression": "stick to",
-            "meaning": "고수하다",
-            "example": "**Stick to** the plan.",
-            "translation": "계획을 고수해요."
-          }
-        ]
-      },
-      {
-        "name": "감정/태도 표현",
-        "expressions": [
-          {
-            "expression": "get over",
-            "meaning": "극복하다",
-            "example": "I can't **get over** it.",
-            "translation": "그것을 극복할 수 없어요."
-          },
-          {
-            "expression": "move on",
-            "meaning": "계속 나아가다",
-            "example": "It's time to **move on**.",
-            "translation": "계속 나아갈 때예요."
-          },
-          {
-            "expression": "let go",
-            "meaning": "놓아주다",
-            "example": "You need to **let go**.",
-            "translation": "놓아줘야 해요."
-          },
-          {
-            "expression": "hold on",
-            "meaning": "기다리다",
-            "example": "**Hold on** a second.",
-            "translation": "잠깐만요."
-          },
-          {
-            "expression": "carry on",
-            "meaning": "계속하다",
-            "example": "**Carry on** with your work.",
-            "translation": "일을 계속하세요."
-          },
-          {
-            "expression": "go on",
-            "meaning": "계속하다",
-            "example": "Please **go on**.",
-            "translation": "계속하세요."
-          },
-          {
-            "expression": "put up with",
-            "meaning": "견디다",
-            "example": "I can't **put up with** it.",
-            "translation": "견딜 수 없어요."
-          },
-          {
-            "expression": "look down on",
-            "meaning": "무시하다",
-            "example": "Don't **look down on** others.",
-            "translation": "다른 사람을 무시하지 마요."
-          },
-          {
-            "expression": "look up to",
-            "meaning": "존경하다",
-            "example": "I **look up to** my father.",
-            "translation": "아버지를 존경해요."
-          },
-          {
-            "expression": "take after",
-            "meaning": "닮다",
-            "example": "She takes after her mother.",
-            "translation": "그녀는 어머니를 닮았어요."
-          },
-          {
-            "expression": "turn down",
-            "meaning": "거절하다",
-            "example": "I turned down the offer.",
-            "translation": "제안을 거절했어요."
-          },
-          {
-            "expression": "turn out",
-            "meaning": "~로 드러나다",
-            "example": "It turned out to be true.",
-            "translation": "사실로 드러났어요."
-          },
-          {
-            "expression": "find out",
-            "meaning": "알아내다",
-            "example": "I found out the truth.",
-            "translation": "진실을 알아냈어요."
-          },
-          {
-            "expression": "freak out",
-            "meaning": "당황하다",
-            "example": "Don't **freak out**.",
-            "translation": "당황하지 마요."
-          },
-          {
-            "expression": "chill out",
-            "meaning": "진정하다",
-            "example": "Just **chill out**.",
-            "translation": "그냥 진정해요."
-          },
-          {
-            "expression": "break down",
-            "meaning": "고장나다",
-            "example": "My car broke down.",
-            "translation": "차가 고장났어요."
-          },
-          {
-            "expression": "break up",
-            "meaning": "헤어지다",
-            "example": "They broke up last month.",
-            "translation": "그들은 지난달에 헤어졌어요."
-          },
-          {
-            "expression": "make up",
-            "meaning": "화해하다",
-            "example": "We made up after the fight.",
-            "translation": "싸움 후에 화해했어요."
-          },
-          {
-            "expression": "come on",
-            "meaning": "어서",
-            "example": "**Come on**, let's go!",
-            "translation": "어서, 가자!"
-          },
-          {
-            "expression": "cheer on",
-            "meaning": "응원하다",
-            "example": "I'll cheer you on.",
-            "translation": "응원할게요."
-          },
-          {
-            "expression": "wind down",
-            "meaning": "긴장을 풀다",
-            "example": "I like to **wind down** with music.",
-            "translation": "음악으로 긴장을 풀어요."
-          },
-          {
-            "expression": "take it out on",
-            "meaning": "~에게 화풀이하다",
-            "example": "Don't **take it out on** me.",
-            "translation": "나한테 화풀이하지 마요."
-          },
-          {
-            "expression": "bottle up",
-            "meaning": "감정을 숨기다",
-            "example": "Don't **bottle up** your feelings.",
-            "translation": "감정을 숨기지 마요."
-          },
-          {
-            "expression": "open up",
-            "meaning": "마음을 열다",
-            "example": "It's hard for me to **open up**.",
-            "translation": "마음을 열기 어려워요."
-          },
-          {
-            "expression": "reach out",
-            "meaning": "연락하다",
-            "example": "Feel free to **reach out**.",
-            "translation": "편하게 연락하세요."
-          },
-          {
-            "expression": "speak up",
-            "meaning": "목소리를 높이다",
-            "example": "Please **speak up**.",
-            "translation": "크게 말씀해 주세요."
-          },
-          {
-            "expression": "stand up for",
-            "meaning": "옹호하다",
-            "example": "**Stand up for** what you believe.",
-            "translation": "믿는 것을 옹호하세요."
-          },
-          {
-            "expression": "back down",
-            "meaning": "물러서다",
-            "example": "I won't **back down**.",
-            "translation": "물러서지 않을 거예요."
-          },
-          {
-            "expression": "give in",
-            "meaning": "양보하다",
-            "example": "I finally gave in.",
-            "translation": "마침내 양보했어요."
-          },
-          {
-            "expression": "hold back",
-            "meaning": "억누르다",
-            "example": "I couldn't **hold back** my tears.",
-            "translation": "눈물을 억누를 수 없었어요."
-          }
-        ]
-      },
-      {
-        "name": "일/생활 표현",
-        "expressions": [
-          {
-            "expression": "wake up",
-            "meaning": "일어나다",
-            "example": "I **wake up** at 7 AM.",
-            "translation": "아침 7시에 일어나요."
-          },
-          {
-            "expression": "get up",
-            "meaning": "일어나다",
-            "example": "I got up late today.",
-            "translation": "오늘 늦게 일어났어요."
-          },
-          {
-            "expression": "sleep in",
-            "meaning": "늦잠 자다",
-            "example": "I slept in this morning.",
-            "translation": "오늘 아침에 늦잠 잤어요."
-          },
-          {
-            "expression": "dress up",
-            "meaning": "차려입다",
-            "example": "I dressed up for the party.",
-            "translation": "파티를 위해 차려입었어요."
-          },
-          {
-            "expression": "put on",
-            "meaning": "입다",
-            "example": "**Put on** your jacket.",
-            "translation": "재킷을 입어요."
-          },
-          {
-            "expression": "take off",
-            "meaning": "벗다",
-            "example": "**Take off** your shoes.",
-            "translation": "신발을 벗으세요."
-          },
-          {
-            "expression": "try on",
-            "meaning": "입어보다",
-            "example": "Can I try this on?",
-            "translation": "이것 입어봐도 될까요?"
-          },
-          {
-            "expression": "pick out",
-            "meaning": "고르다",
-            "example": "I picked out a gift.",
-            "translation": "선물을 골랐어요."
-          },
-          {
-            "expression": "check out",
-            "meaning": "확인하다",
-            "example": "**Check out** this video.",
-            "translation": "이 영상 확인해봐요."
-          },
-          {
-            "expression": "check in",
-            "meaning": "체크인하다",
-            "example": "I checked in at the hotel.",
-            "translation": "호텔에서 체크인했어요."
-          },
-          {
-            "expression": "eat out",
-            "meaning": "외식하다",
-            "example": "Let's **eat out** tonight.",
-            "translation": "오늘 밤 외식해요."
-          },
-          {
-            "expression": "take out",
-            "meaning": "테이크아웃하다",
-            "example": "I'll **take out** some food.",
-            "translation": "음식을 테이크아웃할게요."
-          },
-          {
-            "expression": "drop off",
-            "meaning": "내려주다",
-            "example": "Can you drop me off?",
-            "translation": "나를 내려줄 수 있어요?"
-          },
-          {
-            "expression": "pick up",
-            "meaning": "데리러 가다",
-            "example": "I'll pick you up at 5.",
-            "translation": "5시에 데리러 갈게요."
-          },
-          {
-            "expression": "go out",
-            "meaning": "외출하다",
-            "example": "I'm going out tonight.",
-            "translation": "오늘 밤 외출해요."
-          },
-          {
-            "expression": "stay in",
-            "meaning": "집에 있다",
-            "example": "I'll **stay in** tonight.",
-            "translation": "오늘 밤 집에 있을게요."
-          },
-          {
-            "expression": "come over",
-            "meaning": "방문하다",
-            "example": "**Come over** to my place.",
-            "translation": "우리 집에 와요."
-          },
-          {
-            "expression": "stop by",
-            "meaning": "잠깐 들르다",
-            "example": "I'll **stop by** later.",
-            "translation": "나중에 잠깐 들를게요."
-          },
-          {
-            "expression": "hang around",
-            "meaning": "어슬렁거리다",
-            "example": "I was just hanging around.",
-            "translation": "그냥 어슬렁거리고 있었어요."
-          },
-          {
-            "expression": "move in",
-            "meaning": "이사 오다",
-            "example": "I just moved in.",
-            "translation": "방금 이사 왔어요."
-          },
-          {
-            "expression": "move out",
-            "meaning": "이사 가다",
-            "example": "I'm moving out next week.",
-            "translation": "다음 주에 이사 가요."
-          },
-          {
-            "expression": "clean up",
-            "meaning": "청소하다",
-            "example": "I need to **clean up** my room.",
-            "translation": "방을 청소해야 해요."
-          },
-          {
-            "expression": "tidy up",
-            "meaning": "정리하다",
-            "example": "**Tidy up** your desk.",
-            "translation": "책상을 정리하세요."
-          },
-          {
-            "expression": "throw away",
-            "meaning": "버리다",
-            "example": "**Throw away** the trash.",
-            "translation": "쓰레기를 버리세요."
-          },
-          {
-            "expression": "run out",
-            "meaning": "떨어지다",
-            "example": "We ran out of milk.",
-            "translation": "우유가 떨어졌어요."
-          },
-          {
-            "expression": "stock up",
-            "meaning": "비축하다",
-            "example": "I need to **stock up** on groceries.",
-            "translation": "식료품을 비축해야 해요."
-          },
-          {
-            "expression": "shop around",
-            "meaning": "쇼핑하다",
-            "example": "I like to **shop around** first.",
-            "translation": "먼저 둘러보는 것을 좋아해요."
-          },
-          {
-            "expression": "pay off",
-            "meaning": "갚다",
-            "example": "I paid off my debt.",
-            "translation": "빚을 갚았어요."
-          },
-          {
-            "expression": "save up",
-            "meaning": "저축하다",
-            "example": "I'm saving up for a car.",
-            "translation": "차를 위해 저축하고 있어요."
-          },
-          {
-            "expression": "cut back on",
-            "meaning": "줄이다",
-            "example": "I'm cutting back on expenses.",
-            "translation": "지출을 줄이고 있어요."
-          }
-        ]
-      },
-      {
-        "name": "대화 표현",
-        "expressions": [
-          {
-            "expression": "bring up",
-            "meaning": "언급하다",
-            "example": "Don't **bring up** the past.",
-            "translation": "과거를 언급하지 마요."
-          },
-          {
-            "expression": "point out",
-            "meaning": "지적하다",
-            "example": "I pointed out the mistake.",
-            "translation": "실수를 지적했어요."
-          },
-          {
-            "expression": "speak out",
-            "meaning": "말하다",
-            "example": "**Speak out** if you disagree.",
-            "translation": "동의하지 않으면 말하세요."
-          },
-          {
-            "expression": "talk over",
-            "meaning": "논의하다",
-            "example": "Let's talk it over.",
-            "translation": "논의해봐요."
-          },
-          {
-            "expression": "talk through",
-            "meaning": "상세히 설명하다",
-            "example": "Can you talk me through it?",
-            "translation": "상세히 설명해줄 수 있어요?"
-          },
-          {
-            "expression": "get across",
-            "meaning": "전달하다",
-            "example": "I can't get my point across.",
-            "translation": "내 요점을 전달할 수 없어요."
-          },
-          {
-            "expression": "clear up",
-            "meaning": "명확히 하다",
-            "example": "Let me clear this up.",
-            "translation": "이것을 명확히 할게요."
-          },
-          {
-            "expression": "wrap up",
-            "meaning": "마무리하다",
-            "example": "Let's wrap this up.",
-            "translation": "이것을 마무리해요."
-          },
-          {
-            "expression": "sum up",
-            "meaning": "요약하다",
-            "example": "To **sum up**, it was great.",
-            "translation": "요약하면, 좋았어요."
-          },
-          {
-            "expression": "spell out",
-            "meaning": "자세히 설명하다",
-            "example": "Do I need to spell it out?",
-            "translation": "자세히 설명해야 할까요?"
-          },
-          {
-            "expression": "lay out",
-            "meaning": "설명하다",
-            "example": "Let me **lay out** the plan.",
-            "translation": "계획을 설명할게요."
-          },
-          {
-            "expression": "go over",
-            "meaning": "검토하다",
-            "example": "Let's **go over** the details.",
-            "translation": "세부사항을 검토해요."
-          },
-          {
-            "expression": "touch on",
-            "meaning": "언급하다",
-            "example": "I'll **touch on** that later.",
-            "translation": "나중에 그것을 언급할게요."
-          },
-          {
-            "expression": "dwell on",
-            "meaning": "곰곰이 생각하다",
-            "example": "Don't **dwell on** the past.",
-            "translation": "과거에 얽매이지 마요."
-          },
-          {
-            "expression": "think over",
-            "meaning": "숙고하다",
-            "example": "I'll think it over.",
-            "translation": "숙고해볼게요."
-          },
-          {
-            "expression": "mull over",
-            "meaning": "심사숙고하다",
-            "example": "I've been mulling it over.",
-            "translation": "심사숙고하고 있어요."
-          },
-          {
-            "expression": "talk into",
-            "meaning": "설득하다",
-            "example": "She talked me into it.",
-            "translation": "그녀가 나를 설득했어요."
-          },
-          {
-            "expression": "talk out of",
-            "meaning": "단념시키다",
-            "example": "He talked me out of quitting.",
-            "translation": "그가 그만두지 말라고 설득했어요."
-          },
-          {
-            "expression": "call off",
-            "meaning": "취소하다",
-            "example": "They called off the meeting.",
-            "translation": "회의를 취소했어요."
-          },
-          {
-            "expression": "put off",
-            "meaning": "연기하다",
-            "example": "Let's **put off** the meeting.",
-            "translation": "회의를 연기해요."
-          }
-        ]
-      }
-    ]
-  }
-]
+{
+  "id": "additionalIdioms",
+  "name": "추가 숙어",
+  "icon": "💡",
+  "color": "#009688",
+  "words": [
+    {
+      "id": "additionalIdioms_be_on_cloud_nine_0",
+      "word": "be on cloud nine",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 감정/상태 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "매우 기쁘다",
+          "examples": [
+            {
+              "sentence": "I've been on cloud nine since I got the job.",
+              "translation": "취직 이후로 매우 기뻐요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_be_over_the_moon_1",
+      "word": "be over the moon",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 감정/상태 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "정말 기쁘다",
+          "examples": [
+            {
+              "sentence": "She's over the moon about her promotion.",
+              "translation": "그녀는 승진에 정말 기뻐요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_be_in_high_spirits_2",
+      "word": "be in high spirits",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 감정/상태 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "기분이 좋다",
+          "examples": [
+            {
+              "sentence": "Everyone's in high spirits today.",
+              "translation": "오늘 모두 기분이 좋아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_be_down_in_the_dumps_3",
+      "word": "be down in the dumps",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 감정/상태 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "우울하다",
+          "examples": [
+            {
+              "sentence": "He's been down in the dumps lately.",
+              "translation": "그는 요즘 우울해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_feel_under_the_weather_4",
+      "word": "feel under the weather",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 감정/상태 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "몸이 안 좋다",
+          "examples": [
+            {
+              "sentence": "I'm feeling under the weather today.",
+              "translation": "오늘 몸이 안 좋아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_be_burned_out_5",
+      "word": "be burned out",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 감정/상태 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "지쳐 있다",
+          "examples": [
+            {
+              "sentence": "I'm completely burned out from work.",
+              "translation": "일 때문에 완전히 지쳤어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_be_on_edge_6",
+      "word": "be on edge",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 감정/상태 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "초조하다",
+          "examples": [
+            {
+              "sentence": "I've been on edge all week.",
+              "translation": "일주일 내내 초조했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_be_at_one_s_wits__end_7",
+      "word": "be at one's wits' end",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 감정/상태 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "어쩔 줄 모르다",
+          "examples": [
+            {
+              "sentence": "I'm at my wits' end trying to solve this.",
+              "translation": "이걸 해결하려고 어쩔 줄 모르겠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_be_beside_oneself_8",
+      "word": "be beside oneself",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 감정/상태 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "제정신이 아니다",
+          "examples": [
+            {
+              "sentence": "She was beside herself with joy.",
+              "translation": "그녀는 기쁨에 제정신이 아니었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_have_butterflies_in_one_s_stomach_9",
+      "word": "have butterflies in one's stomach",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 감정/상태 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "긴장되다",
+          "examples": [
+            {
+              "sentence": "I have butterflies in my stomach before interviews.",
+              "translation": "면접 전에 긴장돼요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_be_walking_on_air_10",
+      "word": "be walking on air",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 감정/상태 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "기분이 날아갈 것 같다",
+          "examples": [
+            {
+              "sentence": "I've been walking on air since I met her.",
+              "translation": "그녀를 만난 이후로 기분이 날아갈 것 같아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_keep_one_s_cool_11",
+      "word": "keep one's cool",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 감정/상태 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "침착함을 유지하다",
+          "examples": [
+            {
+              "sentence": "I tried to keep my cool during the argument.",
+              "translation": "논쟁 중에 침착함을 유지하려고 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_lose_one_s_temper_12",
+      "word": "lose one's temper",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 감정/상태 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "화를 내다",
+          "examples": [
+            {
+              "sentence": "I rarely lose my temper.",
+              "translation": "나는 거의 화를 안 내요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_blow_off_steam_13",
+      "word": "blow off steam",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 감정/상태 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "스트레스를 풀다",
+          "examples": [
+            {
+              "sentence": "I go jogging to blow off steam.",
+              "translation": "스트레스 풀려고 조깅해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_get_cold_feet_14",
+      "word": "get cold feet",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 감정/상태 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "겁이 나다",
+          "examples": [
+            {
+              "sentence": "I got cold feet before the presentation.",
+              "translation": "발표 전에 겁이 났어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_in_the_nick_of_time_15",
+      "word": "in the nick of time",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 시간 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "아슬아슬하게",
+          "examples": [
+            {
+              "sentence": "I arrived in the nick of time.",
+              "translation": "아슬아슬하게 도착했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_around_the_clock_16",
+      "word": "around the clock",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 시간 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "24시간 내내",
+          "examples": [
+            {
+              "sentence": "They work around the clock.",
+              "translation": "그들은 24시간 내내 일해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_from_time_to_time_17",
+      "word": "from time to time",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 시간 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "때때로",
+          "examples": [
+            {
+              "sentence": "I visit my parents from time to time.",
+              "translation": "때때로 부모님을 방문해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_once_in_a_blue_moon_18",
+      "word": "once in a blue moon",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 시간 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "아주 가끔",
+          "examples": [
+            {
+              "sentence": "I eat fast food once in a blue moon.",
+              "translation": "아주 가끔 패스트푸드를 먹어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_at_the_drop_of_a_hat_19",
+      "word": "at the drop of a hat",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 시간 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "즉시",
+          "examples": [
+            {
+              "sentence": "She'll help you at the drop of a hat.",
+              "translation": "그녀는 즉시 도와줄 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_time_flies_20",
+      "word": "time flies",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 시간 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "시간이 빠르다",
+          "examples": [
+            {
+              "sentence": "Time flies when you're having fun.",
+              "translation": "재미있을 때 시간이 빨라요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_behind_the_times_21",
+      "word": "behind the times",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 시간 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "시대에 뒤떨어진",
+          "examples": [
+            {
+              "sentence": "His methods are behind the times.",
+              "translation": "그의 방법은 시대에 뒤떨어졌어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_ahead_of_time_22",
+      "word": "ahead of time",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 시간 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "미리",
+          "examples": [
+            {
+              "sentence": "I like to arrive ahead of time.",
+              "translation": "미리 도착하는 것을 좋아해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_better_late_than_never_23",
+      "word": "better late than never",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 시간 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "늦더라도 안 하는 것보다 낫다",
+          "examples": [
+            {
+              "sentence": "Better late than never, I guess.",
+              "translation": "늦더라도 안 하는 것보단 낫죠."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_it_s_high_time_24",
+      "word": "it's high time",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 시간 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~할 때가 됐다",
+          "examples": [
+            {
+              "sentence": "It's high time we made a decision.",
+              "translation": "결정을 내릴 때가 됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_kill_time_25",
+      "word": "kill time",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 시간 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "시간을 때우다",
+          "examples": [
+            {
+              "sentence": "I was just killing time.",
+              "translation": "그냥 시간 때우고 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_pressed_for_time_26",
+      "word": "pressed for time",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 시간 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "시간에 쫓기다",
+          "examples": [
+            {
+              "sentence": "I'm pressed for time today.",
+              "translation": "오늘 시간에 쫓겨요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_stand_the_test_of_time_27",
+      "word": "stand the test of time",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 시간 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "오랜 시간이 지나도 유효하다",
+          "examples": [
+            {
+              "sentence": "Good design stands the test of time.",
+              "translation": "좋은 디자인은 오랜 시간이 지나도 유효해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_at_this_point_in_time_28",
+      "word": "at this point in time",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 시간 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "현재 이 시점에",
+          "examples": [
+            {
+              "sentence": "At this point in time, I'm not sure.",
+              "translation": "현재 이 시점에는 확실하지 않아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_in_the_long_run_29",
+      "word": "in the long run",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 시간 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "장기적으로",
+          "examples": [
+            {
+              "sentence": "It will be beneficial in the long run.",
+              "translation": "장기적으로 유익할 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_go_the_extra_mile_30",
+      "word": "go the extra mile",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 업무/성공 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "더 노력하다",
+          "examples": [
+            {
+              "sentence": "She always goes the extra mile for customers.",
+              "translation": "그녀는 항상 고객을 위해 더 노력해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_think_outside_the_box_31",
+      "word": "think outside the box",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 업무/성공 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "창의적으로 생각하다",
+          "examples": [
+            {
+              "sentence": "We need to think outside the box.",
+              "translation": "창의적으로 생각해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_get_the_ball_rolling_32",
+      "word": "get the ball rolling",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 업무/성공 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "시작하다",
+          "examples": [
+            {
+              "sentence": "Let's get the ball rolling on this project.",
+              "translation": "이 프로젝트를 시작합시다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_pull_one_s_weight_33",
+      "word": "pull one's weight",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 업무/성공 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "제 몫을 하다",
+          "examples": [
+            {
+              "sentence": "Everyone needs to pull their weight.",
+              "translation": "모두가 제 몫을 해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_learn_the_ropes_34",
+      "word": "learn the ropes",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 업무/성공 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "요령을 익히다",
+          "examples": [
+            {
+              "sentence": "It took me a month to learn the ropes.",
+              "translation": "요령을 익히는 데 한 달이 걸렸어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_cut_corners_35",
+      "word": "cut corners",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 업무/성공 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "대충하다",
+          "examples": [
+            {
+              "sentence": "Don't cut corners on quality.",
+              "translation": "품질에서 대충하지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_back_to_square_one_36",
+      "word": "back to square one",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 업무/성공 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "처음부터 다시",
+          "examples": [
+            {
+              "sentence": "We're back to square one.",
+              "translation": "처음부터 다시예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_get_down_to_business_37",
+      "word": "get down to business",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 업무/성공 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "본론으로 들어가다",
+          "examples": [
+            {
+              "sentence": "Let's get down to business.",
+              "translation": "본론으로 들어갑시다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_be_on_the_same_page_38",
+      "word": "be on the same page",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 업무/성공 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "의견이 일치하다",
+          "examples": [
+            {
+              "sentence": "We need to be on the same page.",
+              "translation": "의견이 일치해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_raise_the_bar_39",
+      "word": "raise the bar",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 업무/성공 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "기준을 높이다",
+          "examples": [
+            {
+              "sentence": "They raised the bar for quality.",
+              "translation": "그들이 품질 기준을 높였어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_hit_the_ground_running_40",
+      "word": "hit the ground running",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 업무/성공 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "바로 시작하다",
+          "examples": [
+            {
+              "sentence": "I hit the ground running on my first day.",
+              "translation": "첫날부터 바로 시작했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_in_the_driver_s_seat_41",
+      "word": "in the driver's seat",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 업무/성공 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "주도권을 잡다",
+          "examples": [
+            {
+              "sentence": "She's in the driver's seat now.",
+              "translation": "그녀가 지금 주도권을 잡고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_play_it_by_ear_42",
+      "word": "play it by ear",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 업무/성공 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "상황 봐서 하다",
+          "examples": [
+            {
+              "sentence": "Let's play it by ear.",
+              "translation": "상황 봐서 합시다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_call_the_shots_43",
+      "word": "call the shots",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 업무/성공 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "결정권을 갖다",
+          "examples": [
+            {
+              "sentence": "Who calls the shots here?",
+              "translation": "여기서 누가 결정권을 갖고 있어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_the_bottom_line_44",
+      "word": "the bottom line",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 업무/성공 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "핵심, 결론",
+          "examples": [
+            {
+              "sentence": "The bottom line is we need more time.",
+              "translation": "결론은 더 많은 시간이 필요하다는 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_break_the_ice_45",
+      "word": "break the ice",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 관계/사회적 상황",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "서먹함을 깨다",
+          "examples": [
+            {
+              "sentence": "Let me break the ice with a joke.",
+              "translation": "농담으로 서먹함을 깨볼게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_hit_it_off_46",
+      "word": "hit it off",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 관계/사회적 상황",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "금방 친해지다",
+          "examples": [
+            {
+              "sentence": "We hit it off immediately.",
+              "translation": "우리는 즉시 친해졌어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_get_along_with_47",
+      "word": "get along with",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 관계/사회적 상황",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "잘 지내다",
+          "examples": [
+            {
+              "sentence": "I get along with my coworkers.",
+              "translation": "동료들과 잘 지내요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_see_eye_to_eye_48",
+      "word": "see eye to eye",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 관계/사회적 상황",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "의견이 같다",
+          "examples": [
+            {
+              "sentence": "We don't always see eye to eye.",
+              "translation": "항상 의견이 같진 않아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_give_someone_the_cold_shoulder_49",
+      "word": "give someone the cold shoulder",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 관계/사회적 상황",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "냉대하다",
+          "examples": [
+            {
+              "sentence": "She gave me the cold shoulder.",
+              "translation": "그녀가 나를 냉대했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_bite_one_s_tongue_50",
+      "word": "bite one's tongue",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 관계/사회적 상황",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "말을 참다",
+          "examples": [
+            {
+              "sentence": "I had to bite my tongue.",
+              "translation": "말을 참아야 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_let_the_cat_out_of_the_bag_51",
+      "word": "let the cat out of the bag",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 관계/사회적 상황",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "비밀을 누설하다",
+          "examples": [
+            {
+              "sentence": "Who let the cat out of the bag?",
+              "translation": "누가 비밀을 누설했어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_spill_the_beans_52",
+      "word": "spill the beans",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 관계/사회적 상황",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "비밀을 말하다",
+          "examples": [
+            {
+              "sentence": "Don't spill the beans about the party.",
+              "translation": "파티에 대해 비밀을 말하지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_beat_around_the_bush_53",
+      "word": "beat around the bush",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 관계/사회적 상황",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "둘러 말하다",
+          "examples": [
+            {
+              "sentence": "Don't beat around the bush.",
+              "translation": "둘러 말하지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_put_one_s_foot_in_one_s_mouth_54",
+      "word": "put one's foot in one's mouth",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 관계/사회적 상황",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "실언하다",
+          "examples": [
+            {
+              "sentence": "I really put my foot in my mouth.",
+              "translation": "정말 실언했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_keep_in_touch_55",
+      "word": "keep in touch",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 관계/사회적 상황",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "연락을 유지하다",
+          "examples": [
+            {
+              "sentence": "Let's keep in touch.",
+              "translation": "연락하고 지내요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_get_on_someone_s_nerves_56",
+      "word": "get on someone's nerves",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 관계/사회적 상황",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "짜증나게 하다",
+          "examples": [
+            {
+              "sentence": "His attitude gets on my nerves.",
+              "translation": "그의 태도가 짜증나요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_give_someone_the_benefit_of_the_doubt_57",
+      "word": "give someone the benefit of the doubt",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 관계/사회적 상황",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "좋게 생각하다",
+          "examples": [
+            {
+              "sentence": "I'll give him the benefit of the doubt.",
+              "translation": "좋게 생각해 줄게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_burn_bridges_58",
+      "word": "burn bridges",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 관계/사회적 상황",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "관계를 끊다",
+          "examples": [
+            {
+              "sentence": "Don't burn bridges when you leave a job.",
+              "translation": "직장을 떠날 때 관계를 끊지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_lend_an_ear_59",
+      "word": "lend an ear",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 관계/사회적 상황",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "귀 기울이다",
+          "examples": [
+            {
+              "sentence": "Thanks for lending an ear.",
+              "translation": "들어줘서 고마워요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_take_it_with_a_grain_of_salt_60",
+      "word": "take it with a grain of salt",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 상황/결정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "무조건 믿지 않다",
+          "examples": [
+            {
+              "sentence": "Take his advice with a grain of salt.",
+              "translation": "그의 조언을 무조건 믿지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_on_the_fence_61",
+      "word": "on the fence",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 상황/결정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "결정하지 못하다",
+          "examples": [
+            {
+              "sentence": "I'm still on the fence about it.",
+              "translation": "아직 결정하지 못했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_between_a_rock_and_a_hard_place_62",
+      "word": "between a rock and a hard place",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 상황/결정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "진퇴양난",
+          "examples": [
+            {
+              "sentence": "I'm between a rock and a hard place.",
+              "translation": "진퇴양난이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_have_second_thoughts_63",
+      "word": "have second thoughts",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 상황/결정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "재고하다",
+          "examples": [
+            {
+              "sentence": "I'm having second thoughts about moving.",
+              "translation": "이사에 대해 재고하고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_weigh_the_pros_and_cons_64",
+      "word": "weigh the pros and cons",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 상황/결정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "장단점을 따지다",
+          "examples": [
+            {
+              "sentence": "I need to weigh the pros and cons.",
+              "translation": "장단점을 따져봐야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_jump_to_conclusions_65",
+      "word": "jump to conclusions",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 상황/결정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "성급히 결론짓다",
+          "examples": [
+            {
+              "sentence": "Don't jump to conclusions.",
+              "translation": "성급히 결론짓지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_miss_the_boat_66",
+      "word": "miss the boat",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 상황/결정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "기회를 놓치다",
+          "examples": [
+            {
+              "sentence": "I missed the boat on that opportunity.",
+              "translation": "그 기회를 놓쳤어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_go_with_the_flow_67",
+      "word": "go with the flow",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 상황/결정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "흐름에 따르다",
+          "examples": [
+            {
+              "sentence": "Sometimes you just have to go with the flow.",
+              "translation": "때로는 그냥 흐름에 따라야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_at_the_end_of_the_day_68",
+      "word": "at the end of the day",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 상황/결정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "결국",
+          "examples": [
+            {
+              "sentence": "At the end of the day, it's your decision.",
+              "translation": "결국 당신의 결정이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_when_push_comes_to_shove_69",
+      "word": "when push comes to shove",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 상황/결정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "막상 닥치면",
+          "examples": [
+            {
+              "sentence": "When push comes to shove, I'll figure it out.",
+              "translation": "막상 닥치면 해결할 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_tip_of_the_iceberg_70",
+      "word": "tip of the iceberg",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 상황/결정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "빙산의 일각",
+          "examples": [
+            {
+              "sentence": "This is just the tip of the iceberg.",
+              "translation": "이건 빙산의 일각이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_read_between_the_lines_71",
+      "word": "read between the lines",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 상황/결정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "행간을 읽다",
+          "examples": [
+            {
+              "sentence": "You need to read between the lines.",
+              "translation": "행간을 읽어야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_the_last_straw_72",
+      "word": "the last straw",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 상황/결정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "한계에 이르게 하는 마지막 것",
+          "examples": [
+            {
+              "sentence": "That was the last straw.",
+              "translation": "그게 마지막이었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_a_blessing_in_disguise_73",
+      "word": "a blessing in disguise",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 상황/결정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "전화위복",
+          "examples": [
+            {
+              "sentence": "It turned out to be a blessing in disguise.",
+              "translation": "전화위복이었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_sleep_on_it_74",
+      "word": "sleep on it",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 상황/결정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "하루 자고 생각하다",
+          "examples": [
+            {
+              "sentence": "Let me sleep on it.",
+              "translation": "하루 자고 생각해 볼게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_piece_of_cake_75",
+      "word": "piece of cake",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 능력/노력 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "아주 쉬운",
+          "examples": [
+            {
+              "sentence": "The test was a piece of cake.",
+              "translation": "시험이 아주 쉬웠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_get_the_hang_of_76",
+      "word": "get the hang of",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 능력/노력 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "요령을 터득하다",
+          "examples": [
+            {
+              "sentence": "I'm getting the hang of it.",
+              "translation": "요령을 터득하고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_bend_over_backwards_77",
+      "word": "bend over backwards",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 능력/노력 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "온갖 노력을 하다",
+          "examples": [
+            {
+              "sentence": "She bent over backwards to help me.",
+              "translation": "그녀는 나를 돕기 위해 온갖 노력을 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_give_it_one_s_best_shot_78",
+      "word": "give it one's best shot",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 능력/노력 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "최선을 다하다",
+          "examples": [
+            {
+              "sentence": "I'll give it my best shot.",
+              "translation": "최선을 다할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_have_one_s_hands_full_79",
+      "word": "have one's hands full",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 능력/노력 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "바쁘다",
+          "examples": [
+            {
+              "sentence": "I have my hands full right now.",
+              "translation": "지금 손이 꽉 찼어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_bite_off_more_than_one_can_chew_80",
+      "word": "bite off more than one can chew",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 능력/노력 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "감당 못할 일을 맡다",
+          "examples": [
+            {
+              "sentence": "I think I bit off more than I can chew.",
+              "translation": "감당 못할 일을 맡은 것 같아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_burn_the_midnight_oil_81",
+      "word": "burn the midnight oil",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 능력/노력 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "밤새 일하다",
+          "examples": [
+            {
+              "sentence": "I've been burning the midnight oil.",
+              "translation": "밤새 일하고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_keep_one_s_eye_on_the_ball_82",
+      "word": "keep one's eye on the ball",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 능력/노력 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "집중하다",
+          "examples": [
+            {
+              "sentence": "Keep your eye on the ball.",
+              "translation": "집중하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_get_one_s_act_together_83",
+      "word": "get one's act together",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 능력/노력 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "정신 차리다",
+          "examples": [
+            {
+              "sentence": "I need to get my act together.",
+              "translation": "정신 차려야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_hang_in_there_84",
+      "word": "hang in there",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 능력/노력 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "견디다",
+          "examples": [
+            {
+              "sentence": "Hang in there, you can do it.",
+              "translation": "견뎌, 할 수 있어."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_know_the_ropes_85",
+      "word": "know the ropes",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 능력/노력 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "일을 잘 알다",
+          "examples": [
+            {
+              "sentence": "She really knows the ropes.",
+              "translation": "그녀는 정말 일을 잘 알아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_up_to_speed_86",
+      "word": "up to speed",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 능력/노력 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "최신 정보를 알다",
+          "examples": [
+            {
+              "sentence": "Let me bring you up to speed.",
+              "translation": "최신 정보를 알려줄게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_have_what_it_takes_87",
+      "word": "have what it takes",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 능력/노력 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "자질이 있다",
+          "examples": [
+            {
+              "sentence": "You have what it takes to succeed.",
+              "translation": "성공할 자질이 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_put_one_s_mind_to_88",
+      "word": "put one's mind to",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 능력/노력 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "결심하고 하다",
+          "examples": [
+            {
+              "sentence": "You can do anything if you put your mind to it.",
+              "translation": "결심하면 뭐든 할 수 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_take_the_plunge_89",
+      "word": "take the plunge",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 능력/노력 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "결단을 내리다",
+          "examples": [
+            {
+              "sentence": "I decided to take the plunge and start my own business.",
+              "translation": "결단을 내려 사업을 시작했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_break_the_bank_90",
+      "word": "break the bank",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 돈/재정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "큰 돈을 쓰다",
+          "examples": [
+            {
+              "sentence": "Eating out doesn't have to break the bank.",
+              "translation": "외식이 꼭 큰 돈을 쓸 필요는 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_cost_an_arm_and_a_leg_91",
+      "word": "cost an arm and a leg",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 돈/재정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "매우 비싸다",
+          "examples": [
+            {
+              "sentence": "This apartment costs an arm and a leg.",
+              "translation": "이 아파트는 매우 비싸요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_a_dime_a_dozen_92",
+      "word": "a dime a dozen",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 돈/재정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "아주 흔한",
+          "examples": [
+            {
+              "sentence": "Jobs like that are a dime a dozen.",
+              "translation": "그런 일자리는 아주 흔해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_make_ends_meet_93",
+      "word": "make ends meet",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 돈/재정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "겨우 살아가다",
+          "examples": [
+            {
+              "sentence": "It's hard to make ends meet these days.",
+              "translation": "요즘 겨우 살아가기 힘들어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_live_from_hand_to_mouth_94",
+      "word": "live from hand to mouth",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 돈/재정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그날 벌어 그날 먹다",
+          "examples": [
+            {
+              "sentence": "Many families live from hand to mouth.",
+              "translation": "많은 가족들이 그날 벌어 그날 먹어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_pay_through_the_nose_95",
+      "word": "pay through the nose",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 돈/재정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "바가지 쓰다",
+          "examples": [
+            {
+              "sentence": "We paid through the nose for parking.",
+              "translation": "주차료에 바가지 썼어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_put_money_aside_96",
+      "word": "put money aside",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 돈/재정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "저축하다",
+          "examples": [
+            {
+              "sentence": "I try to put money aside each month.",
+              "translation": "매달 저축하려고 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_get_more_bang_for_the_buck_97",
+      "word": "get more bang for the buck",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 돈/재정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "가성비가 좋다",
+          "examples": [
+            {
+              "sentence": "You get more bang for your buck here.",
+              "translation": "여기가 가성비가 좋아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_in_the_red_98",
+      "word": "in the red",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 돈/재정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "적자인",
+          "examples": [
+            {
+              "sentence": "The company is in the red.",
+              "translation": "회사가 적자예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_in_the_black_99",
+      "word": "in the black",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 돈/재정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "흑자인",
+          "examples": [
+            {
+              "sentence": "We're finally in the black.",
+              "translation": "드디어 흑자예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_penny_pincher_100",
+      "word": "penny pincher",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 돈/재정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "구두쇠",
+          "examples": [
+            {
+              "sentence": "He's such a penny pincher.",
+              "translation": "그는 완전 구두쇠예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_money_doesn_t_grow_on_trees_101",
+      "word": "money doesn't grow on trees",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 돈/재정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "돈은 쉽게 벌리지 않는다",
+          "examples": [
+            {
+              "sentence": "Money doesn't grow on trees.",
+              "translation": "돈은 나무에서 열리지 않아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_save_for_a_rainy_day_102",
+      "word": "save for a rainy day",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 돈/재정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "만일의 경우를 대비해 저축하다",
+          "examples": [
+            {
+              "sentence": "I'm saving for a rainy day.",
+              "translation": "만일의 경우를 대비해 저축하고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_worth_every_penny_103",
+      "word": "worth every penny",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 돈/재정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "가치가 있다",
+          "examples": [
+            {
+              "sentence": "The trip was worth every penny.",
+              "translation": "여행은 쓴 돈만큼 가치가 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_tighten_one_s_belt_104",
+      "word": "tighten one's belt",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 돈/재정 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "허리띠를 졸라매다",
+          "examples": [
+            {
+              "sentence": "We need to tighten our belts.",
+              "translation": "허리띠를 졸라매야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_in_the_pink_105",
+      "word": "in the pink",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 건강/상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "건강한",
+          "examples": [
+            {
+              "sentence": "I'm in the pink these days.",
+              "translation": "요즘 건강해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_as_fit_as_a_fiddle_106",
+      "word": "as fit as a fiddle",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 건강/상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "매우 건강한",
+          "examples": [
+            {
+              "sentence": "My grandmother is as fit as a fiddle.",
+              "translation": "할머니는 매우 건강해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_alive_and_kicking_107",
+      "word": "alive and kicking",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 건강/상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "아직 건재한",
+          "examples": [
+            {
+              "sentence": "Despite his age, he's alive and kicking.",
+              "translation": "나이에도 불구하고 여전히 건재해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_recharge_one_s_batteries_108",
+      "word": "recharge one's batteries",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 건강/상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "휴식을 취하다",
+          "examples": [
+            {
+              "sentence": "I need to recharge my batteries.",
+              "translation": "휴식이 필요해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_run_down_109",
+      "word": "run down",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 건강/상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "지친",
+          "examples": [
+            {
+              "sentence": "I'm feeling run down.",
+              "translation": "지친 기분이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_at_death_s_door_110",
+      "word": "at death's door",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 건강/상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "죽을 지경인",
+          "examples": [
+            {
+              "sentence": "He looked like he was at death's door.",
+              "translation": "그는 죽을 지경처럼 보였어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_on_the_mend_111",
+      "word": "on the mend",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 건강/상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "회복 중인",
+          "examples": [
+            {
+              "sentence": "I'm on the mend now.",
+              "translation": "지금 회복 중이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_pull_through_112",
+      "word": "pull through",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 건강/상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "회복하다",
+          "examples": [
+            {
+              "sentence": "I'm sure she'll pull through.",
+              "translation": "그녀가 회복할 거라 확신해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_take_it_easy_113",
+      "word": "take it easy",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 건강/상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "편히 쉬다",
+          "examples": [
+            {
+              "sentence": "The doctor told me to take it easy.",
+              "translation": "의사가 편히 쉬라고 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_come_down_with_114",
+      "word": "come down with",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 건강/상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 걸리다",
+          "examples": [
+            {
+              "sentence": "I think I'm coming down with a cold.",
+              "translation": "감기에 걸린 것 같아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_kick_the_habit_115",
+      "word": "kick the habit",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 건강/상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "나쁜 습관을 끊다",
+          "examples": [
+            {
+              "sentence": "He finally kicked the smoking habit.",
+              "translation": "그가 드디어 담배를 끊었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_under_the_weather_116",
+      "word": "under the weather",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 건강/상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "컨디션이 안 좋은",
+          "examples": [
+            {
+              "sentence": "I'm feeling under the weather.",
+              "translation": "컨디션이 안 좋아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_fighting_fit_117",
+      "word": "fighting fit",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 건강/상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "완전히 건강한",
+          "examples": [
+            {
+              "sentence": "I'm fighting fit again.",
+              "translation": "다시 완전히 건강해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_off_one_s_feet_118",
+      "word": "off one's feet",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 건강/상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "쉬어야 하는",
+          "examples": [
+            {
+              "sentence": "The doctor told me to stay off my feet.",
+              "translation": "의사가 쉬라고 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_a_clean_bill_of_health_119",
+      "word": "a clean bill of health",
+      "pronunciation": "",
+      "subcategory": "일상 대화 숙어 - 건강/상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "건강 진단서",
+          "examples": [
+            {
+              "sentence": "The doctor gave me a clean bill of health.",
+              "translation": "의사가 건강하다고 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_keep_in_touch_120",
+      "word": "keep in touch",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "연락을 유지하다",
+          "examples": [
+            {
+              "sentence": "Let's keep in touch.",
+              "translation": "연락하고 지내요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_catch_up_with_121",
+      "word": "catch up with",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~를 따라잡다",
+          "examples": [
+            {
+              "sentence": "Let's catch up over coffee.",
+              "translation": "커피 마시며 근황 얘기해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_get_along_with_122",
+      "word": "get along with",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~와 잘 지내다",
+          "examples": [
+            {
+              "sentence": "I get along with my coworkers.",
+              "translation": "동료들과 잘 지내요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_make_friends_123",
+      "word": "make friends",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "친구를 사귀다",
+          "examples": [
+            {
+              "sentence": "I made friends at the party.",
+              "translation": "파티에서 친구를 사귀었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_fall_out_with_124",
+      "word": "fall out with",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~와 사이가 틀어지다",
+          "examples": [
+            {
+              "sentence": "I fell out with my best friend.",
+              "translation": "절친과 사이가 틀어졌어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_put_up_with_125",
+      "word": "put up with",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "참다",
+          "examples": [
+            {
+              "sentence": "I can't put up with this anymore.",
+              "translation": "더 이상 참을 수 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_run_into_126",
+      "word": "run into",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "우연히 만나다",
+          "examples": [
+            {
+              "sentence": "I ran into an old friend.",
+              "translation": "옛 친구를 우연히 만났어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_hang_out_127",
+      "word": "hang out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "어울리다",
+          "examples": [
+            {
+              "sentence": "Let's hang out this weekend.",
+              "translation": "이번 주말에 놀아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_get_together_128",
+      "word": "get together",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "모이다",
+          "examples": [
+            {
+              "sentence": "Let's get together sometime.",
+              "translation": "언제 한번 모여요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_look_forward_to_129",
+      "word": "look forward to",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "기대하다",
+          "examples": [
+            {
+              "sentence": "I look forward to seeing you.",
+              "translation": "만나기를 기대해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_take_care_of_130",
+      "word": "take care of",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "돌보다",
+          "examples": [
+            {
+              "sentence": "I take care of my parents.",
+              "translation": "부모님을 돌봐요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_look_after_131",
+      "word": "look after",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "돌보다",
+          "examples": [
+            {
+              "sentence": "Can you look after my cat?",
+              "translation": "내 고양이 돌봐줄 수 있어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_show_up_132",
+      "word": "show up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "나타나다",
+          "examples": [
+            {
+              "sentence": "He didn't show up.",
+              "translation": "그가 나타나지 않았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_turn_up_133",
+      "word": "turn up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "나타나다",
+          "examples": [
+            {
+              "sentence": "She finally turned up.",
+              "translation": "그녀가 마침내 나타났어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_stand_by_134",
+      "word": "stand by",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "옆에 있다",
+          "examples": [
+            {
+              "sentence": "I'll always stand by you.",
+              "translation": "항상 곁에 있을게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_count_on_135",
+      "word": "count on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "의지하다",
+          "examples": [
+            {
+              "sentence": "You can count on me.",
+              "translation": "나를 믿어도 돼요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_back_up_136",
+      "word": "back up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "지원하다",
+          "examples": [
+            {
+              "sentence": "I'll back you up.",
+              "translation": "널 지원할게."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_let_down_137",
+      "word": "let down",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "실망시키다",
+          "examples": [
+            {
+              "sentence": "Don't let me down.",
+              "translation": "실망시키지 마요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_cheer_up_138",
+      "word": "cheer up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "기운 내다",
+          "examples": [
+            {
+              "sentence": "Cheer up! Things will get better.",
+              "translation": "기운 내! 상황이 나아질 거야."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_calm_down_139",
+      "word": "calm down",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "진정하다",
+          "examples": [
+            {
+              "sentence": "Calm down and listen to me.",
+              "translation": "진정하고 내 말 들어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_settle_down_140",
+      "word": "settle down",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "정착하다",
+          "examples": [
+            {
+              "sentence": "I want to settle down.",
+              "translation": "정착하고 싶어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_grow_up_141",
+      "word": "grow up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "자라다",
+          "examples": [
+            {
+              "sentence": "I grew up in Seoul.",
+              "translation": "서울에서 자랐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_bring_up_142",
+      "word": "bring up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "양육하다",
+          "examples": [
+            {
+              "sentence": "She was brought up by her grandparents.",
+              "translation": "그녀는 조부모님이 키웠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_give_up_143",
+      "word": "give up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "포기하다",
+          "examples": [
+            {
+              "sentence": "Don't give up!",
+              "translation": "포기하지 마요!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_keep_up_144",
+      "word": "keep up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "유지하다",
+          "examples": [
+            {
+              "sentence": "Keep up the good work!",
+              "translation": "계속 잘해요!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_catch_on_145",
+      "word": "catch on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "이해하다",
+          "examples": [
+            {
+              "sentence": "He quickly caught on.",
+              "translation": "그가 빨리 이해했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_figure_out_146",
+      "word": "figure out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "알아내다",
+          "examples": [
+            {
+              "sentence": "I finally figured it out.",
+              "translation": "마침내 알아냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_work_out_147",
+      "word": "work out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "해결되다",
+          "examples": [
+            {
+              "sentence": "Everything worked out.",
+              "translation": "모든 게 잘 됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_sort_out_148",
+      "word": "sort out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "해결하다",
+          "examples": [
+            {
+              "sentence": "Let's sort this out.",
+              "translation": "이것을 해결해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_come_up_149",
+      "word": "come up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일상 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "다가오다",
+          "examples": [
+            {
+              "sentence": "My birthday is coming up.",
+              "translation": "내 생일이 다가와요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_hand_in_150",
+      "word": "hand in",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "제출하다",
+          "examples": [
+            {
+              "sentence": "I handed in my report.",
+              "translation": "보고서를 제출했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_hand_out_151",
+      "word": "hand out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "나눠주다",
+          "examples": [
+            {
+              "sentence": "The teacher handed out the papers.",
+              "translation": "선생님이 종이를 나눠줬어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_fill_in_152",
+      "word": "fill in",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "작성하다",
+          "examples": [
+            {
+              "sentence": "Please fill in this form.",
+              "translation": "이 양식을 작성하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_fill_out_153",
+      "word": "fill out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "작성하다",
+          "examples": [
+            {
+              "sentence": "Fill out the application.",
+              "translation": "신청서를 작성하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_put_off_154",
+      "word": "put off",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "미루다",
+          "examples": [
+            {
+              "sentence": "Don't put off your homework.",
+              "translation": "숙제를 미루지 마요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_carry_out_155",
+      "word": "carry out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "수행하다",
+          "examples": [
+            {
+              "sentence": "We carried out the plan.",
+              "translation": "계획을 수행했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_set_up_156",
+      "word": "set up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "설치하다",
+          "examples": [
+            {
+              "sentence": "I set up the computer.",
+              "translation": "컴퓨터를 설치했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_take_over_157",
+      "word": "take over",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "인수하다",
+          "examples": [
+            {
+              "sentence": "She took over the project.",
+              "translation": "그녀가 프로젝트를 인수했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_run_out_of_158",
+      "word": "run out of",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "부족하다",
+          "examples": [
+            {
+              "sentence": "We ran out of time.",
+              "translation": "시간이 부족해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_come_across_159",
+      "word": "come across",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "우연히 발견하다",
+          "examples": [
+            {
+              "sentence": "I came across this article.",
+              "translation": "이 기사를 우연히 발견했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_look_up_160",
+      "word": "look up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "찾아보다",
+          "examples": [
+            {
+              "sentence": "I'll look it up.",
+              "translation": "찾아볼게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_look_into_161",
+      "word": "look into",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "조사하다",
+          "examples": [
+            {
+              "sentence": "We'll look into it.",
+              "translation": "조사해볼게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_go_through_162",
+      "word": "go through",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "검토하다",
+          "examples": [
+            {
+              "sentence": "Let's go through the report.",
+              "translation": "보고서를 검토해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_deal_with_163",
+      "word": "deal with",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "처리하다",
+          "examples": [
+            {
+              "sentence": "I'll deal with it.",
+              "translation": "처리할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_focus_on_164",
+      "word": "focus on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "집중하다",
+          "examples": [
+            {
+              "sentence": "Focus on your goals.",
+              "translation": "목표에 집중하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_rely_on_165",
+      "word": "rely on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "의존하다",
+          "examples": [
+            {
+              "sentence": "Don't rely on others.",
+              "translation": "다른 사람에게 의존하지 마요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_come_up_with_166",
+      "word": "come up with",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "생각해내다",
+          "examples": [
+            {
+              "sentence": "I came up with an idea.",
+              "translation": "아이디어를 생각해냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_keep_track_of_167",
+      "word": "keep track of",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "추적하다",
+          "examples": [
+            {
+              "sentence": "Keep track of your expenses.",
+              "translation": "지출을 추적하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_fall_behind_168",
+      "word": "fall behind",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "뒤처지다",
+          "examples": [
+            {
+              "sentence": "I fell behind in my work.",
+              "translation": "일에서 뒤처졌어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_catch_up_on_169",
+      "word": "catch up on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "밀린 것을 하다",
+          "examples": [
+            {
+              "sentence": "I need to catch up on sleep.",
+              "translation": "밀린 잠을 자야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_sign_up_for_170",
+      "word": "sign up for",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "등록하다",
+          "examples": [
+            {
+              "sentence": "I signed up for the class.",
+              "translation": "수업에 등록했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_drop_out_of_171",
+      "word": "drop out of",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "중퇴하다",
+          "examples": [
+            {
+              "sentence": "He dropped out of school.",
+              "translation": "그는 학교를 중퇴했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_get_into_172",
+      "word": "get into",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "입학하다",
+          "examples": [
+            {
+              "sentence": "She got into Harvard.",
+              "translation": "그녀는 하버드에 입학했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_graduate_from_173",
+      "word": "graduate from",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "졸업하다",
+          "examples": [
+            {
+              "sentence": "I graduated from college.",
+              "translation": "대학을 졸업했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_major_in_174",
+      "word": "major in",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "전공하다",
+          "examples": [
+            {
+              "sentence": "I major in economics.",
+              "translation": "경제학을 전공해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_cut_down_on_175",
+      "word": "cut down on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "줄이다",
+          "examples": [
+            {
+              "sentence": "I need to cut down on sugar.",
+              "translation": "설탕을 줄여야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_take_up_176",
+      "word": "take up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "시작하다",
+          "examples": [
+            {
+              "sentence": "I took up yoga.",
+              "translation": "요가를 시작했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_pick_up_177",
+      "word": "pick up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "배우다",
+          "examples": [
+            {
+              "sentence": "I picked up some Korean.",
+              "translation": "한국어를 좀 배웠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_brush_up_on_178",
+      "word": "brush up on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "다시 복습하다",
+          "examples": [
+            {
+              "sentence": "I need to brush up on my English.",
+              "translation": "영어를 다시 복습해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_stick_to_179",
+      "word": "stick to",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 업무/학습 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "고수하다",
+          "examples": [
+            {
+              "sentence": "Stick to the plan.",
+              "translation": "계획을 고수해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_get_over_180",
+      "word": "get over",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "극복하다",
+          "examples": [
+            {
+              "sentence": "I can't get over it.",
+              "translation": "그것을 극복할 수 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_move_on_181",
+      "word": "move on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "계속 나아가다",
+          "examples": [
+            {
+              "sentence": "It's time to move on.",
+              "translation": "계속 나아갈 때예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_let_go_182",
+      "word": "let go",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "놓아주다",
+          "examples": [
+            {
+              "sentence": "You need to let go.",
+              "translation": "놓아줘야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_hold_on_183",
+      "word": "hold on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "기다리다",
+          "examples": [
+            {
+              "sentence": "Hold on a second.",
+              "translation": "잠깐만요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_carry_on_184",
+      "word": "carry on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "계속하다",
+          "examples": [
+            {
+              "sentence": "Carry on with your work.",
+              "translation": "일을 계속하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_go_on_185",
+      "word": "go on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "계속하다",
+          "examples": [
+            {
+              "sentence": "Please go on.",
+              "translation": "계속하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_put_up_with_186",
+      "word": "put up with",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "견디다",
+          "examples": [
+            {
+              "sentence": "I can't put up with it.",
+              "translation": "견딜 수 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_look_down_on_187",
+      "word": "look down on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "무시하다",
+          "examples": [
+            {
+              "sentence": "Don't look down on others.",
+              "translation": "다른 사람을 무시하지 마요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_look_up_to_188",
+      "word": "look up to",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "존경하다",
+          "examples": [
+            {
+              "sentence": "I look up to my father.",
+              "translation": "아버지를 존경해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_take_after_189",
+      "word": "take after",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "닮다",
+          "examples": [
+            {
+              "sentence": "She takes after her mother.",
+              "translation": "그녀는 어머니를 닮았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_turn_down_190",
+      "word": "turn down",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "거절하다",
+          "examples": [
+            {
+              "sentence": "I turned down the offer.",
+              "translation": "제안을 거절했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_turn_out_191",
+      "word": "turn out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~로 드러나다",
+          "examples": [
+            {
+              "sentence": "It turned out to be true.",
+              "translation": "사실로 드러났어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_find_out_192",
+      "word": "find out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "알아내다",
+          "examples": [
+            {
+              "sentence": "I found out the truth.",
+              "translation": "진실을 알아냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_freak_out_193",
+      "word": "freak out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "당황하다",
+          "examples": [
+            {
+              "sentence": "Don't freak out.",
+              "translation": "당황하지 마요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_chill_out_194",
+      "word": "chill out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "진정하다",
+          "examples": [
+            {
+              "sentence": "Just chill out.",
+              "translation": "그냥 진정해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_break_down_195",
+      "word": "break down",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "고장나다",
+          "examples": [
+            {
+              "sentence": "My car broke down.",
+              "translation": "차가 고장났어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_break_up_196",
+      "word": "break up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "헤어지다",
+          "examples": [
+            {
+              "sentence": "They broke up last month.",
+              "translation": "그들은 지난달에 헤어졌어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_make_up_197",
+      "word": "make up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "화해하다",
+          "examples": [
+            {
+              "sentence": "We made up after the fight.",
+              "translation": "싸움 후에 화해했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_come_on_198",
+      "word": "come on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "어서",
+          "examples": [
+            {
+              "sentence": "Come on, let's go!",
+              "translation": "어서, 가자!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_cheer_on_199",
+      "word": "cheer on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "응원하다",
+          "examples": [
+            {
+              "sentence": "I'll cheer you on.",
+              "translation": "응원할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_wind_down_200",
+      "word": "wind down",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "긴장을 풀다",
+          "examples": [
+            {
+              "sentence": "I like to wind down with music.",
+              "translation": "음악으로 긴장을 풀어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_take_it_out_on_201",
+      "word": "take it out on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에게 화풀이하다",
+          "examples": [
+            {
+              "sentence": "Don't take it out on me.",
+              "translation": "나한테 화풀이하지 마요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_bottle_up_202",
+      "word": "bottle up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "감정을 숨기다",
+          "examples": [
+            {
+              "sentence": "Don't bottle up your feelings.",
+              "translation": "감정을 숨기지 마요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_open_up_203",
+      "word": "open up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "마음을 열다",
+          "examples": [
+            {
+              "sentence": "It's hard for me to open up.",
+              "translation": "마음을 열기 어려워요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_reach_out_204",
+      "word": "reach out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "연락하다",
+          "examples": [
+            {
+              "sentence": "Feel free to reach out.",
+              "translation": "편하게 연락하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_speak_up_205",
+      "word": "speak up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "목소리를 높이다",
+          "examples": [
+            {
+              "sentence": "Please speak up.",
+              "translation": "크게 말씀해 주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_stand_up_for_206",
+      "word": "stand up for",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "옹호하다",
+          "examples": [
+            {
+              "sentence": "Stand up for what you believe.",
+              "translation": "믿는 것을 옹호하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_back_down_207",
+      "word": "back down",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "물러서다",
+          "examples": [
+            {
+              "sentence": "I won't back down.",
+              "translation": "물러서지 않을 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_give_in_208",
+      "word": "give in",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "양보하다",
+          "examples": [
+            {
+              "sentence": "I finally gave in.",
+              "translation": "마침내 양보했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_hold_back_209",
+      "word": "hold back",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 감정/태도 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "억누르다",
+          "examples": [
+            {
+              "sentence": "I couldn't hold back my tears.",
+              "translation": "눈물을 억누를 수 없었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_wake_up_210",
+      "word": "wake up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "일어나다",
+          "examples": [
+            {
+              "sentence": "I wake up at 7 AM.",
+              "translation": "아침 7시에 일어나요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_get_up_211",
+      "word": "get up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "일어나다",
+          "examples": [
+            {
+              "sentence": "I got up late today.",
+              "translation": "오늘 늦게 일어났어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_sleep_in_212",
+      "word": "sleep in",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "늦잠 자다",
+          "examples": [
+            {
+              "sentence": "I slept in this morning.",
+              "translation": "오늘 아침에 늦잠 잤어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_dress_up_213",
+      "word": "dress up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "차려입다",
+          "examples": [
+            {
+              "sentence": "I dressed up for the party.",
+              "translation": "파티를 위해 차려입었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_put_on_214",
+      "word": "put on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "입다",
+          "examples": [
+            {
+              "sentence": "Put on your jacket.",
+              "translation": "재킷을 입어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_take_off_215",
+      "word": "take off",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "벗다",
+          "examples": [
+            {
+              "sentence": "Take off your shoes.",
+              "translation": "신발을 벗으세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_try_on_216",
+      "word": "try on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "입어보다",
+          "examples": [
+            {
+              "sentence": "Can I try this on?",
+              "translation": "이것 입어봐도 될까요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_pick_out_217",
+      "word": "pick out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "고르다",
+          "examples": [
+            {
+              "sentence": "I picked out a gift.",
+              "translation": "선물을 골랐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_check_out_218",
+      "word": "check out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "확인하다",
+          "examples": [
+            {
+              "sentence": "Check out this video.",
+              "translation": "이 영상 확인해봐요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_check_in_219",
+      "word": "check in",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "체크인하다",
+          "examples": [
+            {
+              "sentence": "I checked in at the hotel.",
+              "translation": "호텔에서 체크인했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_eat_out_220",
+      "word": "eat out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "외식하다",
+          "examples": [
+            {
+              "sentence": "Let's eat out tonight.",
+              "translation": "오늘 밤 외식해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_take_out_221",
+      "word": "take out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "테이크아웃하다",
+          "examples": [
+            {
+              "sentence": "I'll take out some food.",
+              "translation": "음식을 테이크아웃할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_drop_off_222",
+      "word": "drop off",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "내려주다",
+          "examples": [
+            {
+              "sentence": "Can you drop me off?",
+              "translation": "나를 내려줄 수 있어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_pick_up_223",
+      "word": "pick up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "데리러 가다",
+          "examples": [
+            {
+              "sentence": "I'll pick you up at 5.",
+              "translation": "5시에 데리러 갈게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_go_out_224",
+      "word": "go out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "외출하다",
+          "examples": [
+            {
+              "sentence": "I'm going out tonight.",
+              "translation": "오늘 밤 외출해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_stay_in_225",
+      "word": "stay in",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "집에 있다",
+          "examples": [
+            {
+              "sentence": "I'll stay in tonight.",
+              "translation": "오늘 밤 집에 있을게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_come_over_226",
+      "word": "come over",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "방문하다",
+          "examples": [
+            {
+              "sentence": "Come over to my place.",
+              "translation": "우리 집에 와요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_stop_by_227",
+      "word": "stop by",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "잠깐 들르다",
+          "examples": [
+            {
+              "sentence": "I'll stop by later.",
+              "translation": "나중에 잠깐 들를게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_hang_around_228",
+      "word": "hang around",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "어슬렁거리다",
+          "examples": [
+            {
+              "sentence": "I was just hanging around.",
+              "translation": "그냥 어슬렁거리고 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_move_in_229",
+      "word": "move in",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "이사 오다",
+          "examples": [
+            {
+              "sentence": "I just moved in.",
+              "translation": "방금 이사 왔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_move_out_230",
+      "word": "move out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "이사 가다",
+          "examples": [
+            {
+              "sentence": "I'm moving out next week.",
+              "translation": "다음 주에 이사 가요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_clean_up_231",
+      "word": "clean up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "청소하다",
+          "examples": [
+            {
+              "sentence": "I need to clean up my room.",
+              "translation": "방을 청소해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_tidy_up_232",
+      "word": "tidy up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "정리하다",
+          "examples": [
+            {
+              "sentence": "Tidy up your desk.",
+              "translation": "책상을 정리하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_throw_away_233",
+      "word": "throw away",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "버리다",
+          "examples": [
+            {
+              "sentence": "Throw away the trash.",
+              "translation": "쓰레기를 버리세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_run_out_234",
+      "word": "run out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "떨어지다",
+          "examples": [
+            {
+              "sentence": "We ran out of milk.",
+              "translation": "우유가 떨어졌어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_stock_up_235",
+      "word": "stock up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "비축하다",
+          "examples": [
+            {
+              "sentence": "I need to stock up on groceries.",
+              "translation": "식료품을 비축해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_shop_around_236",
+      "word": "shop around",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "쇼핑하다",
+          "examples": [
+            {
+              "sentence": "I like to shop around first.",
+              "translation": "먼저 둘러보는 것을 좋아해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_pay_off_237",
+      "word": "pay off",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "갚다",
+          "examples": [
+            {
+              "sentence": "I paid off my debt.",
+              "translation": "빚을 갚았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_save_up_238",
+      "word": "save up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "저축하다",
+          "examples": [
+            {
+              "sentence": "I'm saving up for a car.",
+              "translation": "차를 위해 저축하고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_cut_back_on_239",
+      "word": "cut back on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 일/생활 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "줄이다",
+          "examples": [
+            {
+              "sentence": "I'm cutting back on expenses.",
+              "translation": "지출을 줄이고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_bring_up_240",
+      "word": "bring up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "언급하다",
+          "examples": [
+            {
+              "sentence": "Don't bring up the past.",
+              "translation": "과거를 언급하지 마요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_point_out_241",
+      "word": "point out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "지적하다",
+          "examples": [
+            {
+              "sentence": "I pointed out the mistake.",
+              "translation": "실수를 지적했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_speak_out_242",
+      "word": "speak out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "말하다",
+          "examples": [
+            {
+              "sentence": "Speak out if you disagree.",
+              "translation": "동의하지 않으면 말하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_talk_over_243",
+      "word": "talk over",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "논의하다",
+          "examples": [
+            {
+              "sentence": "Let's talk it over.",
+              "translation": "논의해봐요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_talk_through_244",
+      "word": "talk through",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "상세히 설명하다",
+          "examples": [
+            {
+              "sentence": "Can you talk me through it?",
+              "translation": "상세히 설명해줄 수 있어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_get_across_245",
+      "word": "get across",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "전달하다",
+          "examples": [
+            {
+              "sentence": "I can't get my point across.",
+              "translation": "내 요점을 전달할 수 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_clear_up_246",
+      "word": "clear up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "명확히 하다",
+          "examples": [
+            {
+              "sentence": "Let me clear this up.",
+              "translation": "이것을 명확히 할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_wrap_up_247",
+      "word": "wrap up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "마무리하다",
+          "examples": [
+            {
+              "sentence": "Let's wrap this up.",
+              "translation": "이것을 마무리해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_sum_up_248",
+      "word": "sum up",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "요약하다",
+          "examples": [
+            {
+              "sentence": "To sum up, it was great.",
+              "translation": "요약하면, 좋았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_spell_out_249",
+      "word": "spell out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "자세히 설명하다",
+          "examples": [
+            {
+              "sentence": "Do I need to spell it out?",
+              "translation": "자세히 설명해야 할까요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_lay_out_250",
+      "word": "lay out",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "설명하다",
+          "examples": [
+            {
+              "sentence": "Let me lay out the plan.",
+              "translation": "계획을 설명할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_go_over_251",
+      "word": "go over",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "검토하다",
+          "examples": [
+            {
+              "sentence": "Let's go over the details.",
+              "translation": "세부사항을 검토해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_touch_on_252",
+      "word": "touch on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "언급하다",
+          "examples": [
+            {
+              "sentence": "I'll touch on that later.",
+              "translation": "나중에 그것을 언급할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_dwell_on_253",
+      "word": "dwell on",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "곰곰이 생각하다",
+          "examples": [
+            {
+              "sentence": "Don't dwell on the past.",
+              "translation": "과거에 얽매이지 마요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_think_over_254",
+      "word": "think over",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "숙고하다",
+          "examples": [
+            {
+              "sentence": "I'll think it over.",
+              "translation": "숙고해볼게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_mull_over_255",
+      "word": "mull over",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "심사숙고하다",
+          "examples": [
+            {
+              "sentence": "I've been mulling it over.",
+              "translation": "심사숙고하고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_talk_into_256",
+      "word": "talk into",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "설득하다",
+          "examples": [
+            {
+              "sentence": "She talked me into it.",
+              "translation": "그녀가 나를 설득했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_talk_out_of_257",
+      "word": "talk out of",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "단념시키다",
+          "examples": [
+            {
+              "sentence": "He talked me out of quitting.",
+              "translation": "그가 그만두지 말라고 설득했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_call_off_258",
+      "word": "call off",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "취소하다",
+          "examples": [
+            {
+              "sentence": "They called off the meeting.",
+              "translation": "회의를 취소했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalIdioms_put_off_259",
+      "word": "put off",
+      "pronunciation": "",
+      "subcategory": "추가 숙어 (More Idioms) - 대화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "연기하다",
+          "examples": [
+            {
+              "sentence": "Let's put off the meeting.",
+              "translation": "회의를 연기해요."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

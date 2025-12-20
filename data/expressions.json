@@ -1,1348 +1,3518 @@
-[
-  {
-    "nameKo": "연결어",
-    "nameEn": "Connectors",
-    "subSections": [
-      {
-        "name": "추가할 때",
-        "expressions": [
-          {
-            "expression": "Also",
-            "meaning": "또한",
-            "example": "Also, I like to read books.",
-            "translation": "또한, 저는 책 읽는 것을 좋아해요."
-          },
-          {
-            "expression": "And",
-            "meaning": "그리고",
-            "example": "I work out and eat healthy.",
-            "translation": "운동하고 건강하게 먹어요."
-          },
-          {
-            "expression": "In addition",
-            "meaning": "게다가",
-            "example": "In addition, I take vitamins daily.",
-            "translation": "게다가, 매일 비타민을 먹어요."
-          },
-          {
-            "expression": "Moreover",
-            "meaning": "더욱이",
-            "example": "Moreover, this saves money.",
-            "translation": "더욱이, 이건 돈을 절약해줘요."
-          },
-          {
-            "expression": "Furthermore",
-            "meaning": "더 나아가",
-            "example": "Furthermore, it's good for the environment.",
-            "translation": "더 나아가, 환경에도 좋아요."
-          },
-          {
-            "expression": "On top of that",
-            "meaning": "그 위에",
-            "example": "On top of that, I got a promotion.",
-            "translation": "그 위에, 승진도 했어요."
-          },
-          {
-            "expression": "Besides",
-            "meaning": "~외에도",
-            "example": "Besides reading, I enjoy writing.",
-            "translation": "독서 외에도, 글쓰기를 좋아해요."
-          },
-          {
-            "expression": "What's more",
-            "meaning": "게다가",
-            "example": "What's more, it's close to my house.",
-            "translation": "게다가, 우리 집에서 가까워요."
-          },
-          {
-            "expression": "Not only ~ but also",
-            "meaning": "~뿐만 아니라",
-            "example": "Not only is it fun, but also educational.",
-            "translation": "재미있을 뿐만 아니라, 교육적이에요."
-          }
-        ]
-      },
-      {
-        "name": "대조할 때",
-        "expressions": [
-          {
-            "expression": "But",
-            "meaning": "하지만",
-            "example": "I like coffee, but I don't drink it often.",
-            "translation": "커피를 좋아하지만, 자주 마시지는 않아요."
-          },
-          {
-            "expression": "However",
-            "meaning": "그러나",
-            "example": "However, there are some drawbacks.",
-            "translation": "그러나, 몇 가지 단점이 있어요."
-          },
-          {
-            "expression": "Although / Even though",
-            "meaning": "~에도 불구하고",
-            "example": "Although it was raining, I went out.",
-            "translation": "비가 왔지만, 나갔어요."
-          },
-          {
-            "expression": "Despite / In spite of",
-            "meaning": "~에도 불구하고",
-            "example": "Despite the cold, I went hiking.",
-            "translation": "추웠지만, 등산을 갔어요."
-          },
-          {
-            "expression": "On the other hand",
-            "meaning": "반면에",
-            "example": "On the other hand, it's expensive.",
-            "translation": "반면에, 비싸요."
-          },
-          {
-            "expression": "While",
-            "meaning": "반면",
-            "example": "While I like traveling, I hate packing.",
-            "translation": "여행은 좋아하지만, 짐 싸는 건 싫어요."
-          },
-          {
-            "expression": "Nevertheless",
-            "meaning": "그럼에도 불구하고",
-            "example": "Nevertheless, I decided to go.",
-            "translation": "그럼에도 불구하고, 가기로 했어요."
-          },
-          {
-            "expression": "Instead",
-            "meaning": "대신에",
-            "example": "I stayed home instead.",
-            "translation": "대신 집에 있었어요."
-          },
-          {
-            "expression": "Rather",
-            "meaning": "오히려",
-            "example": "Rather, I prefer staying home.",
-            "translation": "오히려, 집에 있는 게 좋아요."
-          }
-        ]
-      },
-      {
-        "name": "원인/결과",
-        "expressions": [
-          {
-            "expression": "Because",
-            "meaning": "~때문에",
-            "example": "I was late because of traffic.",
-            "translation": "교통 때문에 늦었어요."
-          },
-          {
-            "expression": "Since",
-            "meaning": "~이므로",
-            "example": "Since I was tired, I went to bed early.",
-            "translation": "피곤해서 일찍 잠자리에 들었어요."
-          },
-          {
-            "expression": "So",
-            "meaning": "그래서",
-            "example": "It was raining, so I stayed home.",
-            "translation": "비가 와서 집에 있었어요."
-          },
-          {
-            "expression": "Therefore",
-            "meaning": "따라서",
-            "example": "Therefore, I decided to change my plan.",
-            "translation": "따라서, 계획을 바꾸기로 했어요."
-          },
-          {
-            "expression": "That's why",
-            "meaning": "그래서",
-            "example": "That's why I started exercising.",
-            "translation": "그래서 운동을 시작했어요."
-          },
-          {
-            "expression": "As a result",
-            "meaning": "결과적으로",
-            "example": "As a result, I got healthier.",
-            "translation": "결과적으로, 더 건강해졌어요."
-          },
-          {
-            "expression": "Due to",
-            "meaning": "~ 때문에",
-            "example": "Due to the weather, we canceled the trip.",
-            "translation": "날씨 때문에 여행을 취소했어요."
-          },
-          {
-            "expression": "Because of this",
-            "meaning": "이 때문에",
-            "example": "Because of this, I learned my lesson.",
-            "translation": "이 때문에, 교훈을 얻었어요."
-          },
-          {
-            "expression": "Thanks to",
-            "meaning": "~ 덕분에",
-            "example": "Thanks to my friend, I found the place.",
-            "translation": "친구 덕분에 그 장소를 찾았어요."
-          }
-        ]
-      },
-      {
-        "name": "순서/시간",
-        "expressions": [
-          {
-            "expression": "First / First of all",
-            "meaning": "먼저",
-            "example": "First, I wake up at 7 AM.",
-            "translation": "먼저, 아침 7시에 일어나요."
-          },
-          {
-            "expression": "Then / After that",
-            "meaning": "그 다음",
-            "example": "Then, I take a shower.",
-            "translation": "그 다음, 샤워를 해요."
-          },
-          {
-            "expression": "Next",
-            "meaning": "다음에",
-            "example": "Next, I have breakfast.",
-            "translation": "다음에, 아침을 먹어요."
-          },
-          {
-            "expression": "Finally / Lastly",
-            "meaning": "마지막으로",
-            "example": "Finally, I leave for work.",
-            "translation": "마지막으로, 출근해요."
-          },
-          {
-            "expression": "Meanwhile",
-            "meaning": "그 동안",
-            "example": "Meanwhile, I listen to music.",
-            "translation": "그 동안, 음악을 들어요."
-          },
-          {
-            "expression": "At the same time",
-            "meaning": "동시에",
-            "example": "At the same time, I check my phone.",
-            "translation": "동시에, 폰을 확인해요."
-          },
-          {
-            "expression": "Before",
-            "meaning": "~전에",
-            "example": "Before going to bed, I read a book.",
-            "translation": "자기 전에, 책을 읽어요."
-          },
-          {
-            "expression": "After",
-            "meaning": "~후에",
-            "example": "After dinner, I watch TV.",
-            "translation": "저녁 먹은 후에, TV를 봐요."
-          },
-          {
-            "expression": "Once",
-            "meaning": "일단 ~하면",
-            "example": "Once I finish work, I go straight home.",
-            "translation": "일단 일이 끝나면, 바로 집에 가요."
-          }
-        ]
-      },
-      {
-        "name": "예시/설명",
-        "expressions": [
-          {
-            "expression": "For example",
-            "meaning": "예를 들어",
-            "example": "For example, I like jazz music.",
-            "translation": "예를 들어, 재즈 음악을 좋아해요."
-          },
-          {
-            "expression": "For instance",
-            "meaning": "예를 들어",
-            "example": "For instance, Korean BBQ is popular.",
-            "translation": "예를 들어, 한국식 바베큐가 인기 있어요."
-          },
-          {
-            "expression": "Such as",
-            "meaning": "~와 같은",
-            "example": "Fruits such as apples and bananas.",
-            "translation": "사과와 바나나 같은 과일."
-          },
-          {
-            "expression": "Like",
-            "meaning": "~처럼",
-            "example": "I enjoy sports like soccer and basketball.",
-            "translation": "축구와 농구 같은 스포츠를 좋아해요."
-          },
-          {
-            "expression": "In other words",
-            "meaning": "다시 말해서",
-            "example": "In other words, it's not easy.",
-            "translation": "다시 말해서, 쉽지 않아요."
-          },
-          {
-            "expression": "What I mean is",
-            "meaning": "내 말은",
-            "example": "What I mean is, we need more time.",
-            "translation": "내 말은, 시간이 더 필요하다는 거예요."
-          },
-          {
-            "expression": "Let me explain",
-            "meaning": "설명하자면",
-            "example": "Let me explain what happened.",
-            "translation": "무슨 일이 있었는지 설명해 드릴게요."
-          },
-          {
-            "expression": "To be more specific",
-            "meaning": "더 구체적으로",
-            "example": "To be more specific, I go there every week.",
-            "translation": "더 구체적으로, 매주 그곳에 가요."
-          }
-        ]
-      },
-      {
-        "name": "요약/결론",
-        "expressions": [
-          {
-            "expression": "In conclusion",
-            "meaning": "결론적으로",
-            "example": "In conclusion, it was a great experience.",
-            "translation": "결론적으로, 좋은 경험이었어요."
-          },
-          {
-            "expression": "To sum up",
-            "meaning": "요약하자면",
-            "example": "To sum up, I had a wonderful time.",
-            "translation": "요약하자면, 멋진 시간을 보냈어요."
-          },
-          {
-            "expression": "Overall",
-            "meaning": "전반적으로",
-            "example": "Overall, I'm satisfied with my life.",
-            "translation": "전반적으로, 제 삶에 만족해요."
-          },
-          {
-            "expression": "All in all",
-            "meaning": "대체로",
-            "example": "All in all, it was worth it.",
-            "translation": "대체로, 가치가 있었어요."
-          },
-          {
-            "expression": "In short",
-            "meaning": "간단히 말해",
-            "example": "In short, I love my job.",
-            "translation": "간단히 말해, 제 직업을 사랑해요."
-          },
-          {
-            "expression": "Basically",
-            "meaning": "기본적으로",
-            "example": "Basically, that's what happened.",
-            "translation": "기본적으로, 그렇게 된 거예요."
-          },
-          {
-            "expression": "So yeah",
-            "meaning": "그래서",
-            "example": "So yeah, that's my story.",
-            "translation": "그래서, 그게 제 이야기예요."
-          },
-          {
-            "expression": "Anyway",
-            "meaning": "어쨌든",
-            "example": "Anyway, that's pretty much it.",
-            "translation": "어쨌든, 대충 그래요."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "nameKo": "감정 표현",
-    "nameEn": "Emotions",
-    "subSections": [
-      {
-        "name": "긍정적 감정",
-        "expressions": [
-          {
-            "expression": "I was so happy",
-            "meaning": "너무 행복했어",
-            "example": "I was so happy when I got the news.",
-            "translation": "그 소식을 듣고 너무 행복했어요."
-          },
-          {
-            "expression": "I was thrilled",
-            "meaning": "매우 기뻤어",
-            "example": "I was thrilled to meet my favorite singer.",
-            "translation": "좋아하는 가수를 만나서 매우 기뻤어요."
-          },
-          {
-            "expression": "I was excited",
-            "meaning": "신났어",
-            "example": "I was excited about the trip.",
-            "translation": "여행 때문에 신났어요."
-          },
-          {
-            "expression": "I felt relieved",
-            "meaning": "안심됐어",
-            "example": "I felt relieved when I heard the result.",
-            "translation": "결과를 듣고 안심됐어요."
-          },
-          {
-            "expression": "I was proud",
-            "meaning": "자랑스러웠어",
-            "example": "I was proud of my achievement.",
-            "translation": "제 성취가 자랑스러웠어요."
-          },
-          {
-            "expression": "I felt grateful",
-            "meaning": "감사했어",
-            "example": "I felt grateful for their help.",
-            "translation": "그들의 도움에 감사했어요."
-          },
-          {
-            "expression": "I was impressed",
-            "meaning": "감동받았어",
-            "example": "I was impressed by the performance.",
-            "translation": "공연에 감동받았어요."
-          },
-          {
-            "expression": "I was amazed",
-            "meaning": "놀라웠어",
-            "example": "I was amazed by the beautiful scenery.",
-            "translation": "아름다운 풍경에 놀랐어요."
-          },
-          {
-            "expression": "It was a blast",
-            "meaning": "정말 즐거웠어",
-            "example": "The party was a blast.",
-            "translation": "파티가 정말 즐거웠어요."
-          },
-          {
-            "expression": "I had a great time",
-            "meaning": "정말 즐거운 시간이었어",
-            "example": "I had a great time at the concert.",
-            "translation": "콘서트에서 정말 즐거운 시간을 보냈어요."
-          }
-        ]
-      },
-      {
-        "name": "부정적 감정",
-        "expressions": [
-          {
-            "expression": "I was disappointed",
-            "meaning": "실망했어",
-            "example": "I was disappointed with the result.",
-            "translation": "결과에 실망했어요."
-          },
-          {
-            "expression": "I was frustrated",
-            "meaning": "답답했어",
-            "example": "I was frustrated because of the delay.",
-            "translation": "지연 때문에 답답했어요."
-          },
-          {
-            "expression": "I was stressed out",
-            "meaning": "스트레스 받았어",
-            "example": "I was stressed out from work.",
-            "translation": "일 때문에 스트레스 받았어요."
-          },
-          {
-            "expression": "I felt overwhelmed",
-            "meaning": "압도당했어",
-            "example": "I felt overwhelmed by the workload.",
-            "translation": "업무량에 압도당했어요."
-          },
-          {
-            "expression": "I was exhausted",
-            "meaning": "지쳤어",
-            "example": "I was exhausted after the trip.",
-            "translation": "여행 후 지쳤어요."
-          },
-          {
-            "expression": "I was nervous",
-            "meaning": "긴장됐어",
-            "example": "I was nervous before the interview.",
-            "translation": "면접 전에 긴장됐어요."
-          },
-          {
-            "expression": "I was embarrassed",
-            "meaning": "창피했어",
-            "example": "I was embarrassed when I made a mistake.",
-            "translation": "실수했을 때 창피했어요."
-          },
-          {
-            "expression": "I was confused",
-            "meaning": "혼란스러웠어",
-            "example": "I was confused at first.",
-            "translation": "처음에 혼란스러웠어요."
-          },
-          {
-            "expression": "I was worried",
-            "meaning": "걱정됐어",
-            "example": "I was worried about the exam.",
-            "translation": "시험이 걱정됐어요."
-          },
-          {
-            "expression": "It was annoying",
-            "meaning": "짜증났어",
-            "example": "The noise was annoying.",
-            "translation": "소음이 짜증났어요."
-          }
-        ]
-      },
-      {
-        "name": "중립적/복합적 감정",
-        "expressions": [
-          {
-            "expression": "I was surprised",
-            "meaning": "놀랐어",
-            "example": "I was surprised to see him there.",
-            "translation": "거기서 그를 보고 놀랐어요."
-          },
-          {
-            "expression": "I was curious",
-            "meaning": "궁금했어",
-            "example": "I was curious about the outcome.",
-            "translation": "결과가 궁금했어요."
-          },
-          {
-            "expression": "I was unsure",
-            "meaning": "확신이 없었어",
-            "example": "I was unsure about what to do.",
-            "translation": "뭘 해야 할지 확신이 없었어요."
-          },
-          {
-            "expression": "I had mixed feelings",
-            "meaning": "복잡한 심경이었어",
-            "example": "I had mixed feelings about the decision.",
-            "translation": "그 결정에 대해 복잡한 심경이었어요."
-          },
-          {
-            "expression": "I was torn between",
-            "meaning": "~사이에서 고민했어",
-            "example": "I was torn between two options.",
-            "translation": "두 가지 옵션 사이에서 고민했어요."
-          },
-          {
-            "expression": "I didn't know what to think",
-            "meaning": "어떻게 생각해야 할지 몰랐어",
-            "example": "I didn't know what to think at first.",
-            "translation": "처음에는 어떻게 생각해야 할지 몰랐어요."
-          }
-        ]
-      },
-      {
-        "name": "감정 강조 표현",
-        "expressions": [
-          {
-            "expression": "I was so + 형용사",
-            "meaning": "I was **so** happy.",
-            "example": "I was **so** happy.",
-            "translation": "너무 행복했어요."
-          },
-          {
-            "expression": "I was really + 형용사",
-            "meaning": "I was **really** nervous.",
-            "example": "I was **really** nervous.",
-            "translation": "정말 긴장됐어요."
-          },
-          {
-            "expression": "I was extremely + 형용사",
-            "meaning": "I was **extremely** tired.",
-            "example": "I was **extremely** tired.",
-            "translation": "극도로 피곤했어요."
-          },
-          {
-            "expression": "I was absolutely + 형용사",
-            "meaning": "I was **absolutely** amazed.",
-            "example": "I was **absolutely** amazed.",
-            "translation": "완전히 놀랐어요."
-          },
-          {
-            "expression": "I couldn't believe ~",
-            "meaning": "I **couldn't believe** my eyes.",
-            "example": "I **couldn't believe** my eyes.",
-            "translation": "내 눈을 믿을 수 없었어요."
-          },
-          {
-            "expression": "I will never forget ~",
-            "meaning": "I will **never forget** that moment.",
-            "example": "I will **never forget** that moment.",
-            "translation": "그 순간을 절대 잊지 못할 거예요."
-          },
-          {
-            "expression": "It was one of the best ~",
-            "meaning": "It was **one of the best** days of my life.",
-            "example": "It was **one of the best** days of my life.",
-            "translation": "인생 최고의 날 중 하나였어요."
-          },
-          {
-            "expression": "Nothing can compare to ~",
-            "meaning": "Nothing can **compare to** that experience.",
-            "example": "Nothing can **compare to** that experience.",
-            "translation": "그 경험에 비할 것이 없어요."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "nameKo": "시간 표현",
-    "nameEn": "Time Expressions",
-    "subSections": [
-      {
-        "name": "과거",
-        "expressions": [
-          {
-            "expression": "yesterday",
-            "meaning": "어제",
-            "example": "I went to the gym yesterday.",
-            "translation": "어제 헬스장에 갔어요."
-          },
-          {
-            "expression": "last week/month/year",
-            "meaning": "지난주/달/해",
-            "example": "I visited Japan last year.",
-            "translation": "작년에 일본에 갔어요."
-          },
-          {
-            "expression": "~ ago",
-            "meaning": "~전에",
-            "example": "I started this job 3 years ago.",
-            "translation": "3년 전에 이 직장을 시작했어요."
-          },
-          {
-            "expression": "when I was young",
-            "meaning": "어렸을 때",
-            "example": "When I was young, I used to play soccer.",
-            "translation": "어렸을 때, 축구를 하곤 했어요."
-          },
-          {
-            "expression": "in the past",
-            "meaning": "과거에",
-            "example": "In the past, I was very shy.",
-            "translation": "과거에, 저는 매우 수줍음을 탔어요."
-          },
-          {
-            "expression": "back in (연도)",
-            "meaning": "(연도)에",
-            "example": "Back in 2020, I lived in Busan.",
-            "translation": "2020년에, 부산에 살았어요."
-          },
-          {
-            "expression": "at that time",
-            "meaning": "그 당시에",
-            "example": "At that time, I didn't know what to do.",
-            "translation": "그 당시에, 뭘 해야 할지 몰랐어요."
-          },
-          {
-            "expression": "a few days/weeks ago",
-            "meaning": "며칠/몇 주 전에",
-            "example": "I saw that movie a few days ago.",
-            "translation": "며칠 전에 그 영화를 봤어요."
-          }
-        ]
-      },
-      {
-        "name": "현재",
-        "expressions": [
-          {
-            "expression": "now",
-            "meaning": "지금",
-            "example": "Now, I work at a tech company.",
-            "translation": "지금, 기술 회사에서 일해요."
-          },
-          {
-            "expression": "nowadays",
-            "meaning": "요즘",
-            "example": "Nowadays, I exercise regularly.",
-            "translation": "요즘, 정기적으로 운동해요."
-          },
-          {
-            "expression": "currently",
-            "meaning": "현재",
-            "example": "I'm currently looking for a new job.",
-            "translation": "현재 새 직장을 찾고 있어요."
-          },
-          {
-            "expression": "at the moment",
-            "meaning": "지금 당장",
-            "example": "At the moment, I'm quite busy.",
-            "translation": "지금 당장은, 꽤 바빠요."
-          },
-          {
-            "expression": "these days",
-            "meaning": "요즘",
-            "example": "These days, I prefer staying home.",
-            "translation": "요즘, 집에 있는 걸 선호해요."
-          },
-          {
-            "expression": "right now",
-            "meaning": "바로 지금",
-            "example": "Right now, I'm studying English.",
-            "translation": "바로 지금, 영어 공부 중이에요."
-          },
-          {
-            "expression": "today",
-            "meaning": "오늘",
-            "example": "Today, I have a meeting.",
-            "translation": "오늘, 회의가 있어요."
-          }
-        ]
-      },
-      {
-        "name": "미래",
-        "expressions": [
-          {
-            "expression": "tomorrow",
-            "meaning": "내일",
-            "example": "I have an interview tomorrow.",
-            "translation": "내일 면접이 있어요."
-          },
-          {
-            "expression": "next week/month/year",
-            "meaning": "다음 주/달/해",
-            "example": "I'm going to travel next month.",
-            "translation": "다음 달에 여행 갈 거예요."
-          },
-          {
-            "expression": "in the future",
-            "meaning": "미래에",
-            "example": "In the future, I want to start my own business.",
-            "translation": "미래에, 사업을 시작하고 싶어요."
-          },
-          {
-            "expression": "soon",
-            "meaning": "곧",
-            "example": "I'll finish this project soon.",
-            "translation": "곧 이 프로젝트를 끝낼 거예요."
-          },
-          {
-            "expression": "someday",
-            "meaning": "언젠가",
-            "example": "Someday, I want to visit Europe.",
-            "translation": "언젠가, 유럽에 가고 싶어요."
-          },
-          {
-            "expression": "eventually",
-            "meaning": "결국",
-            "example": "Eventually, I'll move to a bigger apartment.",
-            "translation": "결국, 더 큰 아파트로 이사할 거예요."
-          },
-          {
-            "expression": "one day",
-            "meaning": "언젠가",
-            "example": "One day, I hope to become fluent.",
-            "translation": "언젠가, 유창해지길 바라요."
-          }
-        ]
-      },
-      {
-        "name": "기간 표현",
-        "expressions": [
-          {
-            "expression": "for + 기간",
-            "meaning": "~동안",
-            "example": "I've lived here for 5 years.",
-            "translation": "여기 5년 동안 살았어요."
-          },
-          {
-            "expression": "since + 시점",
-            "meaning": "~이래로",
-            "example": "I've been working here since 2020.",
-            "translation": "2020년부터 여기서 일해왔어요."
-          },
-          {
-            "expression": "during + 기간",
-            "meaning": "~하는 동안",
-            "example": "I traveled a lot during my vacation.",
-            "translation": "휴가 동안 많이 여행했어요."
-          },
-          {
-            "expression": "throughout",
-            "meaning": "~내내",
-            "example": "I studied hard throughout the year.",
-            "translation": "일 년 내내 열심히 공부했어요."
-          },
-          {
-            "expression": "within + 기간",
-            "meaning": "~ 이내에",
-            "example": "I'll finish it within a week.",
-            "translation": "일주일 이내에 끝낼 거예요."
-          },
-          {
-            "expression": "by + 시점",
-            "meaning": "~까지",
-            "example": "I need to finish by Friday.",
-            "translation": "금요일까지 끝내야 해요."
-          },
-          {
-            "expression": "until + 시점",
-            "meaning": "~까지(계속)",
-            "example": "I worked until midnight.",
-            "translation": "자정까지 일했어요."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "nameKo": "빈도 표현",
-    "nameEn": "Frequency",
-    "subSections": [
-      {
-        "name": "빈도 부사",
-        "expressions": [
-          {
-            "expression": "always",
-            "meaning": "100%",
-            "example": "I always have coffee in the morning.",
-            "translation": "아침에 항상 커피를 마셔요."
-          },
-          {
-            "expression": "usually / normally",
-            "meaning": "80-90%",
-            "example": "I usually wake up at 7 AM.",
-            "translation": "보통 아침 7시에 일어나요."
-          },
-          {
-            "expression": "often / frequently",
-            "meaning": "60-70%",
-            "example": "I often eat out on weekends.",
-            "translation": "주말에 자주 외식해요."
-          },
-          {
-            "expression": "sometimes",
-            "meaning": "40-50%",
-            "example": "I sometimes go to the movies.",
-            "translation": "가끔 영화 보러 가요."
-          },
-          {
-            "expression": "occasionally",
-            "meaning": "20-30%",
-            "example": "I occasionally travel abroad.",
-            "translation": "가끔 해외여행을 해요."
-          },
-          {
-            "expression": "rarely / seldom",
-            "meaning": "10%",
-            "example": "I rarely watch TV.",
-            "translation": "거의 TV를 안 봐요."
-          },
-          {
-            "expression": "hardly ever",
-            "meaning": "5%",
-            "example": "I hardly ever eat fast food.",
-            "translation": "거의 패스트푸드를 안 먹어요."
-          },
-          {
-            "expression": "never",
-            "meaning": "0%",
-            "example": "I never smoke.",
-            "translation": "절대 담배를 안 피워요."
-          }
-        ]
-      },
-      {
-        "name": "구체적 빈도",
-        "expressions": [
-          {
-            "expression": "every day",
-            "meaning": "I exercise **every day**.",
-            "example": "I exercise **every day**.",
-            "translation": "매일 운동해요."
-          },
-          {
-            "expression": "every week / weekly",
-            "meaning": "I go grocery shopping **every week**.",
-            "example": "I go grocery shopping **every week**.",
-            "translation": "매주 장을 봐요."
-          },
-          {
-            "expression": "every month / monthly",
-            "meaning": "I visit my parents **every month**.",
-            "example": "I visit my parents **every month**.",
-            "translation": "매달 부모님을 찾아뵈요."
-          },
-          {
-            "expression": "once a week",
-            "meaning": "I work out **once a week**.",
-            "example": "I work out **once a week**.",
-            "translation": "일주일에 한 번 운동해요."
-          },
-          {
-            "expression": "twice a month",
-            "meaning": "I go to the movies **twice a month**.",
-            "example": "I go to the movies **twice a month**.",
-            "translation": "한 달에 두 번 영화관에 가요."
-          },
-          {
-            "expression": "three times a year",
-            "meaning": "I travel abroad **three times a year**.",
-            "example": "I travel abroad **three times a year**.",
-            "translation": "일 년에 세 번 해외여행을 해요."
-          },
-          {
-            "expression": "once in a while",
-            "meaning": "I treat myself **once in a while**.",
-            "example": "I treat myself **once in a while**.",
-            "translation": "가끔 스스로에게 상을 줘요."
-          },
-          {
-            "expression": "from time to time",
-            "meaning": "I cook at home **from time to time**.",
-            "example": "I cook at home **from time to time**.",
-            "translation": "가끔 집에서 요리해요."
-          },
-          {
-            "expression": "on a daily/weekly basis",
-            "meaning": "I check emails **on a daily basis**.",
-            "example": "I check emails **on a daily basis**.",
-            "translation": "매일 이메일을 확인해요."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "nameKo": "정도/강조 표현",
-    "nameEn": "Degree/Emphasis",
-    "subSections": [
-      {
-        "name": "정도 부사",
-        "expressions": [
-          {
-            "expression": "extremely / incredibly",
-            "meaning": "매우 강함",
-            "example": "It's extremely important.",
-            "translation": "극도로 중요해요."
-          },
-          {
-            "expression": "very / really",
-            "meaning": "강함",
-            "example": "I'm very happy about it.",
-            "translation": "그것에 대해 매우 기뻐요."
-          },
-          {
-            "expression": "pretty / quite",
-            "meaning": "꽤",
-            "example": "It's pretty good.",
-            "translation": "꽤 좋아요."
-          },
-          {
-            "expression": "fairly / reasonably",
-            "meaning": "상당히",
-            "example": "The price is fairly reasonable.",
-            "translation": "가격이 상당히 합리적이에요."
-          },
-          {
-            "expression": "somewhat / kind of / sort of",
-            "meaning": "약간",
-            "example": "I'm kind of tired.",
-            "translation": "좀 피곤해요."
-          },
-          {
-            "expression": "slightly",
-            "meaning": "조금",
-            "example": "I'm slightly nervous.",
-            "translation": "약간 긴장돼요."
-          },
-          {
-            "expression": "a little / a bit",
-            "meaning": "약간",
-            "example": "I'm a bit worried.",
-            "translation": "조금 걱정돼요."
-          },
-          {
-            "expression": "not very",
-            "meaning": "별로 ~않은",
-            "example": "It's not very interesting.",
-            "translation": "별로 재미없어요."
-          },
-          {
-            "expression": "not at all",
-            "meaning": "전혀 ~않은",
-            "example": "I'm not at all surprised.",
-            "translation": "전혀 놀랍지 않아요."
-          }
-        ]
-      },
-      {
-        "name": "강조 표현",
-        "expressions": [
-          {
-            "expression": "definitely",
-            "meaning": "확실히",
-            "example": "I'll definitely come.",
-            "translation": "확실히 갈 거예요."
-          },
-          {
-            "expression": "absolutely",
-            "meaning": "절대적으로",
-            "example": "I absolutely love it.",
-            "translation": "정말 사랑해요."
-          },
-          {
-            "expression": "totally / completely",
-            "meaning": "완전히",
-            "example": "I totally agree.",
-            "translation": "완전히 동의해요."
-          },
-          {
-            "expression": "seriously",
-            "meaning": "진심으로",
-            "example": "I seriously need a vacation.",
-            "translation": "진심으로 휴가가 필요해요."
-          },
-          {
-            "expression": "literally",
-            "meaning": "말 그대로",
-            "example": "I literally couldn't move.",
-            "translation": "말 그대로 움직일 수 없었어요."
-          },
-          {
-            "expression": "honestly",
-            "meaning": "솔직히",
-            "example": "Honestly, I don't know.",
-            "translation": "솔직히, 모르겠어요."
-          },
-          {
-            "expression": "actually",
-            "meaning": "사실은",
-            "example": "Actually, I've never been there.",
-            "translation": "사실, 거기 가본 적 없어요."
-          },
-          {
-            "expression": "basically",
-            "meaning": "기본적으로",
-            "example": "Basically, that's the main idea.",
-            "translation": "기본적으로, 그게 핵심 아이디어예요."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "nameKo": "동의/반대 표현",
-    "nameEn": "",
-    "subSections": [
-      {
-        "name": "동의",
-        "expressions": [
-          {
-            "expression": "I agree.",
-            "meaning": "**I agree**. That's a good idea.",
-            "example": "**I agree**. That's a good idea.",
-            "translation": "동의해요. 좋은 생각이에요."
-          },
-          {
-            "expression": "I think so too.",
-            "meaning": "**I think so too**.",
-            "example": "**I think so too**.",
-            "translation": "저도 그렇게 생각해요."
-          },
-          {
-            "expression": "That's true.",
-            "meaning": "**That's true**. I hadn't thought of that.",
-            "example": "**That's true**. I hadn't thought of that.",
-            "translation": "맞아요. 그건 생각 못 했어요."
-          },
-          {
-            "expression": "Exactly!",
-            "meaning": "**Exactly**! That's what I meant.",
-            "example": "**Exactly**! That's what I meant.",
-            "translation": "정확해요! 그게 제가 말한 거예요."
-          },
-          {
-            "expression": "Absolutely!",
-            "meaning": "**Absolutely**! I couldn't agree more.",
-            "example": "**Absolutely**! I couldn't agree more.",
-            "translation": "물론이죠! 전적으로 동의해요."
-          },
-          {
-            "expression": "That makes sense.",
-            "meaning": "**That makes sense**.",
-            "example": "**That makes sense**.",
-            "translation": "말이 되네요."
-          },
-          {
-            "expression": "I see your point.",
-            "meaning": "**I see your point**.",
-            "example": "**I see your point**.",
-            "translation": "당신의 요점을 알겠어요."
-          },
-          {
-            "expression": "You're right.",
-            "meaning": "**You're right** about that.",
-            "example": "**You're right** about that.",
-            "translation": "그것에 대해 맞아요."
-          }
-        ]
-      },
-      {
-        "name": "부분 동의",
-        "expressions": [
-          {
-            "expression": "I agree to some extent.",
-            "meaning": "**I agree to some extent**, but...",
-            "example": "**I agree to some extent**, but...",
-            "translation": "어느 정도 동의하지만..."
-          },
-          {
-            "expression": "That's partly true.",
-            "meaning": "**That's partly true**.",
-            "example": "**That's partly true**.",
-            "translation": "부분적으로 맞아요."
-          },
-          {
-            "expression": "I see what you mean, but...",
-            "meaning": "**I see what you mean, but** I think...",
-            "example": "**I see what you mean, but** I think...",
-            "translation": "무슨 말인지 알겠지만, 저는..."
-          },
-          {
-            "expression": "You have a point, but...",
-            "meaning": "**You have a point**, but there's also...",
-            "example": "**You have a point**, but there's also...",
-            "translation": "일리가 있지만, 또한..."
-          },
-          {
-            "expression": "In a way, yes.",
-            "meaning": "**In a way, yes**, but it depends.",
-            "example": "**In a way, yes**, but it depends.",
-            "translation": "어떤 면에서는 네, 하지만 상황에 따라요."
-          }
-        ]
-      },
-      {
-        "name": "반대",
-        "expressions": [
-          {
-            "expression": "I don't think so.",
-            "meaning": "**I don't think so**.",
-            "example": "**I don't think so**.",
-            "translation": "그렇게 생각하지 않아요."
-          },
-          {
-            "expression": "I disagree.",
-            "meaning": "**I disagree** on this point.",
-            "example": "**I disagree** on this point.",
-            "translation": "이 점에서 동의하지 않아요."
-          },
-          {
-            "expression": "I'm not sure about that.",
-            "meaning": "**I'm not sure about that**.",
-            "example": "**I'm not sure about that**.",
-            "translation": "그건 잘 모르겠어요."
-          },
-          {
-            "expression": "I see it differently.",
-            "meaning": "**I see it differently**.",
-            "example": "**I see it differently**.",
-            "translation": "다르게 봐요."
-          },
-          {
-            "expression": "I wouldn't say that.",
-            "meaning": "**I wouldn't say that**.",
-            "example": "**I wouldn't say that**.",
-            "translation": "그렇게 말하진 않겠어요."
-          },
-          {
-            "expression": "That's not necessarily true.",
-            "meaning": "**That's not necessarily true**.",
-            "example": "**That's not necessarily true**.",
-            "translation": "반드시 그런 건 아니에요."
-          },
-          {
-            "expression": "I beg to differ.",
-            "meaning": "**I beg to differ**. (공손한 반대)",
-            "example": "**I beg to differ**. (공손한 반대)",
-            "translation": "다른 의견을 말씀드려요."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "nameKo": "상황별 유용한 표현",
-    "nameEn": "",
-    "subSections": [
-      {
-        "name": "말을 잇지 못할 때",
-        "expressions": [
-          {
-            "expression": "How should I put it...",
-            "meaning": "**How should I put it**... It was amazing.",
-            "example": "**How should I put it**... It was amazing.",
-            "translation": "어떻게 말해야 할까... 놀라웠어요."
-          },
-          {
-            "expression": "What's the word...",
-            "meaning": "**What's the word**... Fascinating!",
-            "example": "**What's the word**... Fascinating!",
-            "translation": "그 단어가 뭐였지... 매혹적이었어요!"
-          },
-          {
-            "expression": "It's hard to explain, but...",
-            "meaning": "**It's hard to explain, but** I felt happy.",
-            "example": "**It's hard to explain, but** I felt happy.",
-            "translation": "설명하기 어렵지만, 행복했어요."
-          },
-          {
-            "expression": "It's on the tip of my tongue...",
-            "meaning": "**It's on the tip of my tongue**...",
-            "example": "**It's on the tip of my tongue**...",
-            "translation": "입에서 맴도는데..."
-          },
-          {
-            "expression": "I can't think of the word, but...",
-            "meaning": "**I can't think of the word**, but you know what I mean.",
-            "example": "**I can't think of the word**, but you know what I mean.",
-            "translation": "그 단어가 생각 안 나는데, 무슨 말인지 알죠."
-          }
-        ]
-      },
-      {
-        "name": "주제를 바꿀 때",
-        "expressions": [
-          {
-            "expression": "Speaking of which...",
-            "meaning": "**Speaking of which**, I went there last week.",
-            "example": "**Speaking of which**, I went there last week.",
-            "translation": "말이 나왔으니, 지난주에 거기 갔어요."
-          },
-          {
-            "expression": "By the way...",
-            "meaning": "**By the way**, did you hear about...?",
-            "example": "**By the way**, did you hear about...?",
-            "translation": "그런데, ~에 대해 들었어요?"
-          },
-          {
-            "expression": "That reminds me...",
-            "meaning": "**That reminds me** of a story.",
-            "example": "**That reminds me** of a story.",
-            "translation": "그게 이야기가 생각나게 해요."
-          },
-          {
-            "expression": "On another note...",
-            "meaning": "**On another note**, I also enjoy...",
-            "example": "**On another note**, I also enjoy...",
-            "translation": "다른 얘기로, 저도 ~을 즐겨요..."
-          },
-          {
-            "expression": "Anyway...",
-            "meaning": "**Anyway**, that's what happened.",
-            "example": "**Anyway**, that's what happened.",
-            "translation": "어쨌든, 그렇게 됐어요."
-          }
-        ]
-      },
-      {
-        "name": "예시를 들 때",
-        "expressions": [
-          {
-            "expression": "Let me give you an example.",
-            "meaning": "**Let me give you an example**.",
-            "example": "**Let me give you an example**.",
-            "translation": "예를 들어 드릴게요."
-          },
-          {
-            "expression": "For example / For instance",
-            "meaning": "**For example**, I like to go hiking.",
-            "example": "**For example**, I like to go hiking.",
-            "translation": "예를 들어, 등산을 좋아해요."
-          },
-          {
-            "expression": "To give you an idea...",
-            "meaning": "**To give you an idea**, it takes about an hour.",
-            "example": "**To give you an idea**, it takes about an hour.",
-            "translation": "대략 말씀드리자면, 약 한 시간 걸려요."
-          },
-          {
-            "expression": "Here's an example...",
-            "meaning": "**Here's an example** of what I mean.",
-            "example": "**Here's an example** of what I mean.",
-            "translation": "제 말의 예시가 여기 있어요."
-          },
-          {
-            "expression": "Like...",
-            "meaning": "**Like**, I usually go there on weekends.",
-            "example": "**Like**, I usually go there on weekends.",
-            "translation": "예를 들어, 주말에 보통 거기 가요."
-          }
-        ]
-      },
-      {
-        "name": "경험을 공유할 때",
-        "expressions": [
-          {
-            "expression": "I remember when...",
-            "meaning": "**I remember when** I first moved here.",
-            "example": "**I remember when** I first moved here.",
-            "translation": "처음 여기 이사왔을 때가 기억나요."
-          },
-          {
-            "expression": "One time...",
-            "meaning": "**One time**, I got lost in Tokyo.",
-            "example": "**One time**, I got lost in Tokyo.",
-            "translation": "한번은, 도쿄에서 길을 잃었어요."
-          },
-          {
-            "expression": "There was this time when...",
-            "meaning": "**There was this time when** I met a celebrity.",
-            "example": "**There was this time when** I met a celebrity.",
-            "translation": "유명인을 만났던 때가 있었어요."
-          },
-          {
-            "expression": "A few years ago...",
-            "meaning": "**A few years ago**, I traveled to Europe.",
-            "example": "**A few years ago**, I traveled to Europe.",
-            "translation": "몇 년 전에, 유럽으로 여행 갔어요."
-          },
-          {
-            "expression": "I'll never forget when...",
-            "meaning": "**I'll never forget when** I got my first job.",
-            "example": "**I'll never forget when** I got my first job.",
-            "translation": "첫 직장을 얻었을 때를 절대 잊지 못할 거예요."
-          }
-        ]
-      },
-      {
-        "name": "마무리할 때",
-        "expressions": [
-          {
-            "expression": "So yeah, that's basically...",
-            "meaning": "**So yeah, that's basically** my story.",
-            "example": "**So yeah, that's basically** my story.",
-            "translation": "그래서, 기본적으로 그게 제 이야기예요."
-          },
-          {
-            "expression": "That's pretty much it.",
-            "meaning": "**That's pretty much it**.",
-            "example": "**That's pretty much it**.",
-            "translation": "대충 그래요."
-          },
-          {
-            "expression": "I think that covers it.",
-            "meaning": "**I think that covers it**.",
-            "example": "**I think that covers it**.",
-            "translation": "다 말한 것 같아요."
-          },
-          {
-            "expression": "Anyway, that's what happened.",
-            "meaning": "**Anyway, that's what happened**.",
-            "example": "**Anyway, that's what happened**.",
-            "translation": "어쨌든, 그렇게 됐어요."
-          },
-          {
-            "expression": "Long story short...",
-            "meaning": "**Long story short**, I had a great time.",
-            "example": "**Long story short**, I had a great time.",
-            "translation": "간단히 말해서, 좋은 시간을 보냈어요."
-          },
-          {
-            "expression": "To wrap things up...",
-            "meaning": "**To wrap things up**, it was memorable.",
-            "example": "**To wrap things up**, it was memorable.",
-            "translation": "마무리하자면, 기억에 남았어요."
-          }
-        ]
-      },
-      {
-        "name": "학습 TIP",
-        "expressions": []
-      }
-    ]
-  }
-]
+{
+  "id": "expressions",
+  "name": "추가 표현",
+  "icon": "🗣️",
+  "color": "#e91e63",
+  "words": [
+    {
+      "id": "expressions_also_0",
+      "word": "Also",
+      "pronunciation": "",
+      "subcategory": "연결어 - 추가할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "또한",
+          "examples": [
+            {
+              "sentence": "Also, I like to read books.",
+              "translation": "또한, 저는 책 읽는 것을 좋아해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_and_1",
+      "word": "And",
+      "pronunciation": "",
+      "subcategory": "연결어 - 추가할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그리고",
+          "examples": [
+            {
+              "sentence": "I work out and eat healthy.",
+              "translation": "운동하고 건강하게 먹어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_in_addition_2",
+      "word": "In addition",
+      "pronunciation": "",
+      "subcategory": "연결어 - 추가할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "게다가",
+          "examples": [
+            {
+              "sentence": "In addition, I take vitamins daily.",
+              "translation": "게다가, 매일 비타민을 먹어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_moreover_3",
+      "word": "Moreover",
+      "pronunciation": "",
+      "subcategory": "연결어 - 추가할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "더욱이",
+          "examples": [
+            {
+              "sentence": "Moreover, this saves money.",
+              "translation": "더욱이, 이건 돈을 절약해줘요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_furthermore_4",
+      "word": "Furthermore",
+      "pronunciation": "",
+      "subcategory": "연결어 - 추가할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "더 나아가",
+          "examples": [
+            {
+              "sentence": "Furthermore, it's good for the environment.",
+              "translation": "더 나아가, 환경에도 좋아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_on_top_of_that_5",
+      "word": "On top of that",
+      "pronunciation": "",
+      "subcategory": "연결어 - 추가할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그 위에",
+          "examples": [
+            {
+              "sentence": "On top of that, I got a promotion.",
+              "translation": "그 위에, 승진도 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_besides_6",
+      "word": "Besides",
+      "pronunciation": "",
+      "subcategory": "연결어 - 추가할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~외에도",
+          "examples": [
+            {
+              "sentence": "Besides reading, I enjoy writing.",
+              "translation": "독서 외에도, 글쓰기를 좋아해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_what_s_more_7",
+      "word": "What's more",
+      "pronunciation": "",
+      "subcategory": "연결어 - 추가할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "게다가",
+          "examples": [
+            {
+              "sentence": "What's more, it's close to my house.",
+              "translation": "게다가, 우리 집에서 가까워요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_not_only___but_also_8",
+      "word": "Not only ~ but also",
+      "pronunciation": "",
+      "subcategory": "연결어 - 추가할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~뿐만 아니라",
+          "examples": [
+            {
+              "sentence": "Not only is it fun, but also educational.",
+              "translation": "재미있을 뿐만 아니라, 교육적이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_but_9",
+      "word": "But",
+      "pronunciation": "",
+      "subcategory": "연결어 - 대조할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "하지만",
+          "examples": [
+            {
+              "sentence": "I like coffee, but I don't drink it often.",
+              "translation": "커피를 좋아하지만, 자주 마시지는 않아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_however_10",
+      "word": "However",
+      "pronunciation": "",
+      "subcategory": "연결어 - 대조할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그러나",
+          "examples": [
+            {
+              "sentence": "However, there are some drawbacks.",
+              "translation": "그러나, 몇 가지 단점이 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_although___even_though_11",
+      "word": "Although / Even though",
+      "pronunciation": "",
+      "subcategory": "연결어 - 대조할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에도 불구하고",
+          "examples": [
+            {
+              "sentence": "Although it was raining, I went out.",
+              "translation": "비가 왔지만, 나갔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_despite___in_spite_of_12",
+      "word": "Despite / In spite of",
+      "pronunciation": "",
+      "subcategory": "연결어 - 대조할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에도 불구하고",
+          "examples": [
+            {
+              "sentence": "Despite the cold, I went hiking.",
+              "translation": "추웠지만, 등산을 갔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_on_the_other_hand_13",
+      "word": "On the other hand",
+      "pronunciation": "",
+      "subcategory": "연결어 - 대조할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "반면에",
+          "examples": [
+            {
+              "sentence": "On the other hand, it's expensive.",
+              "translation": "반면에, 비싸요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_while_14",
+      "word": "While",
+      "pronunciation": "",
+      "subcategory": "연결어 - 대조할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "반면",
+          "examples": [
+            {
+              "sentence": "While I like traveling, I hate packing.",
+              "translation": "여행은 좋아하지만, 짐 싸는 건 싫어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_nevertheless_15",
+      "word": "Nevertheless",
+      "pronunciation": "",
+      "subcategory": "연결어 - 대조할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그럼에도 불구하고",
+          "examples": [
+            {
+              "sentence": "Nevertheless, I decided to go.",
+              "translation": "그럼에도 불구하고, 가기로 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_instead_16",
+      "word": "Instead",
+      "pronunciation": "",
+      "subcategory": "연결어 - 대조할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "대신에",
+          "examples": [
+            {
+              "sentence": "I stayed home instead.",
+              "translation": "대신 집에 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_rather_17",
+      "word": "Rather",
+      "pronunciation": "",
+      "subcategory": "연결어 - 대조할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "오히려",
+          "examples": [
+            {
+              "sentence": "Rather, I prefer staying home.",
+              "translation": "오히려, 집에 있는 게 좋아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_because_18",
+      "word": "Because",
+      "pronunciation": "",
+      "subcategory": "연결어 - 원인/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~때문에",
+          "examples": [
+            {
+              "sentence": "I was late because of traffic.",
+              "translation": "교통 때문에 늦었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_since_19",
+      "word": "Since",
+      "pronunciation": "",
+      "subcategory": "연결어 - 원인/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~이므로",
+          "examples": [
+            {
+              "sentence": "Since I was tired, I went to bed early.",
+              "translation": "피곤해서 일찍 잠자리에 들었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_so_20",
+      "word": "So",
+      "pronunciation": "",
+      "subcategory": "연결어 - 원인/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그래서",
+          "examples": [
+            {
+              "sentence": "It was raining, so I stayed home.",
+              "translation": "비가 와서 집에 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_therefore_21",
+      "word": "Therefore",
+      "pronunciation": "",
+      "subcategory": "연결어 - 원인/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "따라서",
+          "examples": [
+            {
+              "sentence": "Therefore, I decided to change my plan.",
+              "translation": "따라서, 계획을 바꾸기로 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_that_s_why_22",
+      "word": "That's why",
+      "pronunciation": "",
+      "subcategory": "연결어 - 원인/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그래서",
+          "examples": [
+            {
+              "sentence": "That's why I started exercising.",
+              "translation": "그래서 운동을 시작했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_as_a_result_23",
+      "word": "As a result",
+      "pronunciation": "",
+      "subcategory": "연결어 - 원인/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "결과적으로",
+          "examples": [
+            {
+              "sentence": "As a result, I got healthier.",
+              "translation": "결과적으로, 더 건강해졌어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_due_to_24",
+      "word": "Due to",
+      "pronunciation": "",
+      "subcategory": "연결어 - 원인/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~ 때문에",
+          "examples": [
+            {
+              "sentence": "Due to the weather, we canceled the trip.",
+              "translation": "날씨 때문에 여행을 취소했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_because_of_this_25",
+      "word": "Because of this",
+      "pronunciation": "",
+      "subcategory": "연결어 - 원인/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "이 때문에",
+          "examples": [
+            {
+              "sentence": "Because of this, I learned my lesson.",
+              "translation": "이 때문에, 교훈을 얻었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_thanks_to_26",
+      "word": "Thanks to",
+      "pronunciation": "",
+      "subcategory": "연결어 - 원인/결과",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~ 덕분에",
+          "examples": [
+            {
+              "sentence": "Thanks to my friend, I found the place.",
+              "translation": "친구 덕분에 그 장소를 찾았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_first___first_of_all_27",
+      "word": "First / First of all",
+      "pronunciation": "",
+      "subcategory": "연결어 - 순서/시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "먼저",
+          "examples": [
+            {
+              "sentence": "First, I wake up at 7 AM.",
+              "translation": "먼저, 아침 7시에 일어나요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_then___after_that_28",
+      "word": "Then / After that",
+      "pronunciation": "",
+      "subcategory": "연결어 - 순서/시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그 다음",
+          "examples": [
+            {
+              "sentence": "Then, I take a shower.",
+              "translation": "그 다음, 샤워를 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_next_29",
+      "word": "Next",
+      "pronunciation": "",
+      "subcategory": "연결어 - 순서/시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "다음에",
+          "examples": [
+            {
+              "sentence": "Next, I have breakfast.",
+              "translation": "다음에, 아침을 먹어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_finally___lastly_30",
+      "word": "Finally / Lastly",
+      "pronunciation": "",
+      "subcategory": "연결어 - 순서/시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "마지막으로",
+          "examples": [
+            {
+              "sentence": "Finally, I leave for work.",
+              "translation": "마지막으로, 출근해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_meanwhile_31",
+      "word": "Meanwhile",
+      "pronunciation": "",
+      "subcategory": "연결어 - 순서/시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그 동안",
+          "examples": [
+            {
+              "sentence": "Meanwhile, I listen to music.",
+              "translation": "그 동안, 음악을 들어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_at_the_same_time_32",
+      "word": "At the same time",
+      "pronunciation": "",
+      "subcategory": "연결어 - 순서/시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "동시에",
+          "examples": [
+            {
+              "sentence": "At the same time, I check my phone.",
+              "translation": "동시에, 폰을 확인해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_before_33",
+      "word": "Before",
+      "pronunciation": "",
+      "subcategory": "연결어 - 순서/시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~전에",
+          "examples": [
+            {
+              "sentence": "Before going to bed, I read a book.",
+              "translation": "자기 전에, 책을 읽어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_after_34",
+      "word": "After",
+      "pronunciation": "",
+      "subcategory": "연결어 - 순서/시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~후에",
+          "examples": [
+            {
+              "sentence": "After dinner, I watch TV.",
+              "translation": "저녁 먹은 후에, TV를 봐요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_once_35",
+      "word": "Once",
+      "pronunciation": "",
+      "subcategory": "연결어 - 순서/시간",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "일단 ~하면",
+          "examples": [
+            {
+              "sentence": "Once I finish work, I go straight home.",
+              "translation": "일단 일이 끝나면, 바로 집에 가요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_for_example_36",
+      "word": "For example",
+      "pronunciation": "",
+      "subcategory": "연결어 - 예시/설명",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "예를 들어",
+          "examples": [
+            {
+              "sentence": "For example, I like jazz music.",
+              "translation": "예를 들어, 재즈 음악을 좋아해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_for_instance_37",
+      "word": "For instance",
+      "pronunciation": "",
+      "subcategory": "연결어 - 예시/설명",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "예를 들어",
+          "examples": [
+            {
+              "sentence": "For instance, Korean BBQ is popular.",
+              "translation": "예를 들어, 한국식 바베큐가 인기 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_such_as_38",
+      "word": "Such as",
+      "pronunciation": "",
+      "subcategory": "연결어 - 예시/설명",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~와 같은",
+          "examples": [
+            {
+              "sentence": "Fruits such as apples and bananas.",
+              "translation": "사과와 바나나 같은 과일."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_like_39",
+      "word": "Like",
+      "pronunciation": "",
+      "subcategory": "연결어 - 예시/설명",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~처럼",
+          "examples": [
+            {
+              "sentence": "I enjoy sports like soccer and basketball.",
+              "translation": "축구와 농구 같은 스포츠를 좋아해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_in_other_words_40",
+      "word": "In other words",
+      "pronunciation": "",
+      "subcategory": "연결어 - 예시/설명",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "다시 말해서",
+          "examples": [
+            {
+              "sentence": "In other words, it's not easy.",
+              "translation": "다시 말해서, 쉽지 않아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_what_i_mean_is_41",
+      "word": "What I mean is",
+      "pronunciation": "",
+      "subcategory": "연결어 - 예시/설명",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "내 말은",
+          "examples": [
+            {
+              "sentence": "What I mean is, we need more time.",
+              "translation": "내 말은, 시간이 더 필요하다는 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_let_me_explain_42",
+      "word": "Let me explain",
+      "pronunciation": "",
+      "subcategory": "연결어 - 예시/설명",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "설명하자면",
+          "examples": [
+            {
+              "sentence": "Let me explain what happened.",
+              "translation": "무슨 일이 있었는지 설명해 드릴게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_to_be_more_specific_43",
+      "word": "To be more specific",
+      "pronunciation": "",
+      "subcategory": "연결어 - 예시/설명",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "더 구체적으로",
+          "examples": [
+            {
+              "sentence": "To be more specific, I go there every week.",
+              "translation": "더 구체적으로, 매주 그곳에 가요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_in_conclusion_44",
+      "word": "In conclusion",
+      "pronunciation": "",
+      "subcategory": "연결어 - 요약/결론",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "결론적으로",
+          "examples": [
+            {
+              "sentence": "In conclusion, it was a great experience.",
+              "translation": "결론적으로, 좋은 경험이었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_to_sum_up_45",
+      "word": "To sum up",
+      "pronunciation": "",
+      "subcategory": "연결어 - 요약/결론",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "요약하자면",
+          "examples": [
+            {
+              "sentence": "To sum up, I had a wonderful time.",
+              "translation": "요약하자면, 멋진 시간을 보냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_overall_46",
+      "word": "Overall",
+      "pronunciation": "",
+      "subcategory": "연결어 - 요약/결론",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "전반적으로",
+          "examples": [
+            {
+              "sentence": "Overall, I'm satisfied with my life.",
+              "translation": "전반적으로, 제 삶에 만족해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_all_in_all_47",
+      "word": "All in all",
+      "pronunciation": "",
+      "subcategory": "연결어 - 요약/결론",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "대체로",
+          "examples": [
+            {
+              "sentence": "All in all, it was worth it.",
+              "translation": "대체로, 가치가 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_in_short_48",
+      "word": "In short",
+      "pronunciation": "",
+      "subcategory": "연결어 - 요약/결론",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "간단히 말해",
+          "examples": [
+            {
+              "sentence": "In short, I love my job.",
+              "translation": "간단히 말해, 제 직업을 사랑해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_basically_49",
+      "word": "Basically",
+      "pronunciation": "",
+      "subcategory": "연결어 - 요약/결론",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "기본적으로",
+          "examples": [
+            {
+              "sentence": "Basically, that's what happened.",
+              "translation": "기본적으로, 그렇게 된 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_so_yeah_50",
+      "word": "So yeah",
+      "pronunciation": "",
+      "subcategory": "연결어 - 요약/결론",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그래서",
+          "examples": [
+            {
+              "sentence": "So yeah, that's my story.",
+              "translation": "그래서, 그게 제 이야기예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_anyway_51",
+      "word": "Anyway",
+      "pronunciation": "",
+      "subcategory": "연결어 - 요약/결론",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "어쨌든",
+          "examples": [
+            {
+              "sentence": "Anyway, that's pretty much it.",
+              "translation": "어쨌든, 대충 그래요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_so_happy_52",
+      "word": "I was so happy",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 긍정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "너무 행복했어",
+          "examples": [
+            {
+              "sentence": "I was so happy when I got the news.",
+              "translation": "그 소식을 듣고 너무 행복했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_thrilled_53",
+      "word": "I was thrilled",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 긍정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "매우 기뻤어",
+          "examples": [
+            {
+              "sentence": "I was thrilled to meet my favorite singer.",
+              "translation": "좋아하는 가수를 만나서 매우 기뻤어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_excited_54",
+      "word": "I was excited",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 긍정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "신났어",
+          "examples": [
+            {
+              "sentence": "I was excited about the trip.",
+              "translation": "여행 때문에 신났어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_felt_relieved_55",
+      "word": "I felt relieved",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 긍정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "안심됐어",
+          "examples": [
+            {
+              "sentence": "I felt relieved when I heard the result.",
+              "translation": "결과를 듣고 안심됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_proud_56",
+      "word": "I was proud",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 긍정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "자랑스러웠어",
+          "examples": [
+            {
+              "sentence": "I was proud of my achievement.",
+              "translation": "제 성취가 자랑스러웠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_felt_grateful_57",
+      "word": "I felt grateful",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 긍정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "감사했어",
+          "examples": [
+            {
+              "sentence": "I felt grateful for their help.",
+              "translation": "그들의 도움에 감사했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_impressed_58",
+      "word": "I was impressed",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 긍정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "감동받았어",
+          "examples": [
+            {
+              "sentence": "I was impressed by the performance.",
+              "translation": "공연에 감동받았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_amazed_59",
+      "word": "I was amazed",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 긍정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "놀라웠어",
+          "examples": [
+            {
+              "sentence": "I was amazed by the beautiful scenery.",
+              "translation": "아름다운 풍경에 놀랐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_it_was_a_blast_60",
+      "word": "It was a blast",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 긍정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "정말 즐거웠어",
+          "examples": [
+            {
+              "sentence": "The party was a blast.",
+              "translation": "파티가 정말 즐거웠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_had_a_great_time_61",
+      "word": "I had a great time",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 긍정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "정말 즐거운 시간이었어",
+          "examples": [
+            {
+              "sentence": "I had a great time at the concert.",
+              "translation": "콘서트에서 정말 즐거운 시간을 보냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_disappointed_62",
+      "word": "I was disappointed",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 부정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "실망했어",
+          "examples": [
+            {
+              "sentence": "I was disappointed with the result.",
+              "translation": "결과에 실망했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_frustrated_63",
+      "word": "I was frustrated",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 부정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "답답했어",
+          "examples": [
+            {
+              "sentence": "I was frustrated because of the delay.",
+              "translation": "지연 때문에 답답했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_stressed_out_64",
+      "word": "I was stressed out",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 부정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "스트레스 받았어",
+          "examples": [
+            {
+              "sentence": "I was stressed out from work.",
+              "translation": "일 때문에 스트레스 받았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_felt_overwhelmed_65",
+      "word": "I felt overwhelmed",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 부정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "압도당했어",
+          "examples": [
+            {
+              "sentence": "I felt overwhelmed by the workload.",
+              "translation": "업무량에 압도당했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_exhausted_66",
+      "word": "I was exhausted",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 부정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "지쳤어",
+          "examples": [
+            {
+              "sentence": "I was exhausted after the trip.",
+              "translation": "여행 후 지쳤어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_nervous_67",
+      "word": "I was nervous",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 부정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "긴장됐어",
+          "examples": [
+            {
+              "sentence": "I was nervous before the interview.",
+              "translation": "면접 전에 긴장됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_embarrassed_68",
+      "word": "I was embarrassed",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 부정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "창피했어",
+          "examples": [
+            {
+              "sentence": "I was embarrassed when I made a mistake.",
+              "translation": "실수했을 때 창피했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_confused_69",
+      "word": "I was confused",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 부정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "혼란스러웠어",
+          "examples": [
+            {
+              "sentence": "I was confused at first.",
+              "translation": "처음에 혼란스러웠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_worried_70",
+      "word": "I was worried",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 부정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "걱정됐어",
+          "examples": [
+            {
+              "sentence": "I was worried about the exam.",
+              "translation": "시험이 걱정됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_it_was_annoying_71",
+      "word": "It was annoying",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 부정적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "짜증났어",
+          "examples": [
+            {
+              "sentence": "The noise was annoying.",
+              "translation": "소음이 짜증났어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_surprised_72",
+      "word": "I was surprised",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 중립적/복합적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "놀랐어",
+          "examples": [
+            {
+              "sentence": "I was surprised to see him there.",
+              "translation": "거기서 그를 보고 놀랐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_curious_73",
+      "word": "I was curious",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 중립적/복합적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "궁금했어",
+          "examples": [
+            {
+              "sentence": "I was curious about the outcome.",
+              "translation": "결과가 궁금했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_unsure_74",
+      "word": "I was unsure",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 중립적/복합적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "확신이 없었어",
+          "examples": [
+            {
+              "sentence": "I was unsure about what to do.",
+              "translation": "뭘 해야 할지 확신이 없었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_had_mixed_feelings_75",
+      "word": "I had mixed feelings",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 중립적/복합적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "복잡한 심경이었어",
+          "examples": [
+            {
+              "sentence": "I had mixed feelings about the decision.",
+              "translation": "그 결정에 대해 복잡한 심경이었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_torn_between_76",
+      "word": "I was torn between",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 중립적/복합적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~사이에서 고민했어",
+          "examples": [
+            {
+              "sentence": "I was torn between two options.",
+              "translation": "두 가지 옵션 사이에서 고민했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_didn_t_know_what_to_think_77",
+      "word": "I didn't know what to think",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 중립적/복합적 감정",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "어떻게 생각해야 할지 몰랐어",
+          "examples": [
+            {
+              "sentence": "I didn't know what to think at first.",
+              "translation": "처음에는 어떻게 생각해야 할지 몰랐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_so___형용사_78",
+      "word": "I was so + 형용사",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 감정 강조 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "I was **so** happy.",
+          "examples": [
+            {
+              "sentence": "I was so happy.",
+              "translation": "너무 행복했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_really___형용사_79",
+      "word": "I was really + 형용사",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 감정 강조 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "I was **really** nervous.",
+          "examples": [
+            {
+              "sentence": "I was really nervous.",
+              "translation": "정말 긴장됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_extremely___형용사_80",
+      "word": "I was extremely + 형용사",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 감정 강조 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "I was **extremely** tired.",
+          "examples": [
+            {
+              "sentence": "I was extremely tired.",
+              "translation": "극도로 피곤했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_was_absolutely___형용사_81",
+      "word": "I was absolutely + 형용사",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 감정 강조 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "I was **absolutely** amazed.",
+          "examples": [
+            {
+              "sentence": "I was absolutely amazed.",
+              "translation": "완전히 놀랐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_couldn_t_believe___82",
+      "word": "I couldn't believe ~",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 감정 강조 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "I **couldn't believe** my eyes.",
+          "examples": [
+            {
+              "sentence": "I couldn't believe my eyes.",
+              "translation": "내 눈을 믿을 수 없었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_will_never_forget___83",
+      "word": "I will never forget ~",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 감정 강조 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "I will **never forget** that moment.",
+          "examples": [
+            {
+              "sentence": "I will never forget that moment.",
+              "translation": "그 순간을 절대 잊지 못할 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_it_was_one_of_the_best___84",
+      "word": "It was one of the best ~",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 감정 강조 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "It was **one of the best** days of my life.",
+          "examples": [
+            {
+              "sentence": "It was one of the best days of my life.",
+              "translation": "인생 최고의 날 중 하나였어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_nothing_can_compare_to___85",
+      "word": "Nothing can compare to ~",
+      "pronunciation": "",
+      "subcategory": "감정 표현 - 감정 강조 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "Nothing can **compare to** that experience.",
+          "examples": [
+            {
+              "sentence": "Nothing can compare to that experience.",
+              "translation": "그 경험에 비할 것이 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_yesterday_86",
+      "word": "yesterday",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 과거",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "어제",
+          "examples": [
+            {
+              "sentence": "I went to the gym yesterday.",
+              "translation": "어제 헬스장에 갔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_last_week_month_year_87",
+      "word": "last week/month/year",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 과거",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "지난주/달/해",
+          "examples": [
+            {
+              "sentence": "I visited Japan last year.",
+              "translation": "작년에 일본에 갔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions___ago_88",
+      "word": "~ ago",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 과거",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~전에",
+          "examples": [
+            {
+              "sentence": "I started this job 3 years ago.",
+              "translation": "3년 전에 이 직장을 시작했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_when_i_was_young_89",
+      "word": "when I was young",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 과거",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "어렸을 때",
+          "examples": [
+            {
+              "sentence": "When I was young, I used to play soccer.",
+              "translation": "어렸을 때, 축구를 하곤 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_in_the_past_90",
+      "word": "in the past",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 과거",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "과거에",
+          "examples": [
+            {
+              "sentence": "In the past, I was very shy.",
+              "translation": "과거에, 저는 매우 수줍음을 탔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_back_in__연도__91",
+      "word": "back in (연도)",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 과거",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "(연도)에",
+          "examples": [
+            {
+              "sentence": "Back in 2020, I lived in Busan.",
+              "translation": "2020년에, 부산에 살았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_at_that_time_92",
+      "word": "at that time",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 과거",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그 당시에",
+          "examples": [
+            {
+              "sentence": "At that time, I didn't know what to do.",
+              "translation": "그 당시에, 뭘 해야 할지 몰랐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_a_few_days_weeks_ago_93",
+      "word": "a few days/weeks ago",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 과거",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "며칠/몇 주 전에",
+          "examples": [
+            {
+              "sentence": "I saw that movie a few days ago.",
+              "translation": "며칠 전에 그 영화를 봤어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_now_94",
+      "word": "now",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 현재",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "지금",
+          "examples": [
+            {
+              "sentence": "Now, I work at a tech company.",
+              "translation": "지금, 기술 회사에서 일해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_nowadays_95",
+      "word": "nowadays",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 현재",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "요즘",
+          "examples": [
+            {
+              "sentence": "Nowadays, I exercise regularly.",
+              "translation": "요즘, 정기적으로 운동해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_currently_96",
+      "word": "currently",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 현재",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "현재",
+          "examples": [
+            {
+              "sentence": "I'm currently looking for a new job.",
+              "translation": "현재 새 직장을 찾고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_at_the_moment_97",
+      "word": "at the moment",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 현재",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "지금 당장",
+          "examples": [
+            {
+              "sentence": "At the moment, I'm quite busy.",
+              "translation": "지금 당장은, 꽤 바빠요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_these_days_98",
+      "word": "these days",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 현재",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "요즘",
+          "examples": [
+            {
+              "sentence": "These days, I prefer staying home.",
+              "translation": "요즘, 집에 있는 걸 선호해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_right_now_99",
+      "word": "right now",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 현재",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "바로 지금",
+          "examples": [
+            {
+              "sentence": "Right now, I'm studying English.",
+              "translation": "바로 지금, 영어 공부 중이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_today_100",
+      "word": "today",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 현재",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "오늘",
+          "examples": [
+            {
+              "sentence": "Today, I have a meeting.",
+              "translation": "오늘, 회의가 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_tomorrow_101",
+      "word": "tomorrow",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 미래",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "내일",
+          "examples": [
+            {
+              "sentence": "I have an interview tomorrow.",
+              "translation": "내일 면접이 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_next_week_month_year_102",
+      "word": "next week/month/year",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 미래",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "다음 주/달/해",
+          "examples": [
+            {
+              "sentence": "I'm going to travel next month.",
+              "translation": "다음 달에 여행 갈 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_in_the_future_103",
+      "word": "in the future",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 미래",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "미래에",
+          "examples": [
+            {
+              "sentence": "In the future, I want to start my own business.",
+              "translation": "미래에, 사업을 시작하고 싶어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_soon_104",
+      "word": "soon",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 미래",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "곧",
+          "examples": [
+            {
+              "sentence": "I'll finish this project soon.",
+              "translation": "곧 이 프로젝트를 끝낼 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_someday_105",
+      "word": "someday",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 미래",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "언젠가",
+          "examples": [
+            {
+              "sentence": "Someday, I want to visit Europe.",
+              "translation": "언젠가, 유럽에 가고 싶어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_eventually_106",
+      "word": "eventually",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 미래",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "결국",
+          "examples": [
+            {
+              "sentence": "Eventually, I'll move to a bigger apartment.",
+              "translation": "결국, 더 큰 아파트로 이사할 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_one_day_107",
+      "word": "one day",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 미래",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "언젠가",
+          "examples": [
+            {
+              "sentence": "One day, I hope to become fluent.",
+              "translation": "언젠가, 유창해지길 바라요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_for___기간_108",
+      "word": "for + 기간",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 기간 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~동안",
+          "examples": [
+            {
+              "sentence": "I've lived here for 5 years.",
+              "translation": "여기 5년 동안 살았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_since___시점_109",
+      "word": "since + 시점",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 기간 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~이래로",
+          "examples": [
+            {
+              "sentence": "I've been working here since 2020.",
+              "translation": "2020년부터 여기서 일해왔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_during___기간_110",
+      "word": "during + 기간",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 기간 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하는 동안",
+          "examples": [
+            {
+              "sentence": "I traveled a lot during my vacation.",
+              "translation": "휴가 동안 많이 여행했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_throughout_111",
+      "word": "throughout",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 기간 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~내내",
+          "examples": [
+            {
+              "sentence": "I studied hard throughout the year.",
+              "translation": "일 년 내내 열심히 공부했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_within___기간_112",
+      "word": "within + 기간",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 기간 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~ 이내에",
+          "examples": [
+            {
+              "sentence": "I'll finish it within a week.",
+              "translation": "일주일 이내에 끝낼 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_by___시점_113",
+      "word": "by + 시점",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 기간 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~까지",
+          "examples": [
+            {
+              "sentence": "I need to finish by Friday.",
+              "translation": "금요일까지 끝내야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_until___시점_114",
+      "word": "until + 시점",
+      "pronunciation": "",
+      "subcategory": "시간 표현 - 기간 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~까지(계속)",
+          "examples": [
+            {
+              "sentence": "I worked until midnight.",
+              "translation": "자정까지 일했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_always_115",
+      "word": "always",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 빈도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "100%",
+          "examples": [
+            {
+              "sentence": "I always have coffee in the morning.",
+              "translation": "아침에 항상 커피를 마셔요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_usually___normally_116",
+      "word": "usually / normally",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 빈도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "80-90%",
+          "examples": [
+            {
+              "sentence": "I usually wake up at 7 AM.",
+              "translation": "보통 아침 7시에 일어나요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_often___frequently_117",
+      "word": "often / frequently",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 빈도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "60-70%",
+          "examples": [
+            {
+              "sentence": "I often eat out on weekends.",
+              "translation": "주말에 자주 외식해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_sometimes_118",
+      "word": "sometimes",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 빈도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "40-50%",
+          "examples": [
+            {
+              "sentence": "I sometimes go to the movies.",
+              "translation": "가끔 영화 보러 가요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_occasionally_119",
+      "word": "occasionally",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 빈도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "20-30%",
+          "examples": [
+            {
+              "sentence": "I occasionally travel abroad.",
+              "translation": "가끔 해외여행을 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_rarely___seldom_120",
+      "word": "rarely / seldom",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 빈도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "10%",
+          "examples": [
+            {
+              "sentence": "I rarely watch TV.",
+              "translation": "거의 TV를 안 봐요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_hardly_ever_121",
+      "word": "hardly ever",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 빈도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "5%",
+          "examples": [
+            {
+              "sentence": "I hardly ever eat fast food.",
+              "translation": "거의 패스트푸드를 안 먹어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_never_122",
+      "word": "never",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 빈도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "0%",
+          "examples": [
+            {
+              "sentence": "I never smoke.",
+              "translation": "절대 담배를 안 피워요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_every_day_123",
+      "word": "every day",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 구체적 빈도",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "I exercise **every day**.",
+          "examples": [
+            {
+              "sentence": "I exercise every day.",
+              "translation": "매일 운동해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_every_week___weekly_124",
+      "word": "every week / weekly",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 구체적 빈도",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "I go grocery shopping **every week**.",
+          "examples": [
+            {
+              "sentence": "I go grocery shopping every week.",
+              "translation": "매주 장을 봐요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_every_month___monthly_125",
+      "word": "every month / monthly",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 구체적 빈도",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "I visit my parents **every month**.",
+          "examples": [
+            {
+              "sentence": "I visit my parents every month.",
+              "translation": "매달 부모님을 찾아뵈요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_once_a_week_126",
+      "word": "once a week",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 구체적 빈도",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "I work out **once a week**.",
+          "examples": [
+            {
+              "sentence": "I work out once a week.",
+              "translation": "일주일에 한 번 운동해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_twice_a_month_127",
+      "word": "twice a month",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 구체적 빈도",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "I go to the movies **twice a month**.",
+          "examples": [
+            {
+              "sentence": "I go to the movies twice a month.",
+              "translation": "한 달에 두 번 영화관에 가요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_three_times_a_year_128",
+      "word": "three times a year",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 구체적 빈도",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "I travel abroad **three times a year**.",
+          "examples": [
+            {
+              "sentence": "I travel abroad three times a year.",
+              "translation": "일 년에 세 번 해외여행을 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_once_in_a_while_129",
+      "word": "once in a while",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 구체적 빈도",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "I treat myself **once in a while**.",
+          "examples": [
+            {
+              "sentence": "I treat myself once in a while.",
+              "translation": "가끔 스스로에게 상을 줘요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_from_time_to_time_130",
+      "word": "from time to time",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 구체적 빈도",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "I cook at home **from time to time**.",
+          "examples": [
+            {
+              "sentence": "I cook at home from time to time.",
+              "translation": "가끔 집에서 요리해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_on_a_daily_weekly_basis_131",
+      "word": "on a daily/weekly basis",
+      "pronunciation": "",
+      "subcategory": "빈도 표현 - 구체적 빈도",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "I check emails **on a daily basis**.",
+          "examples": [
+            {
+              "sentence": "I check emails on a daily basis.",
+              "translation": "매일 이메일을 확인해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_extremely___incredibly_132",
+      "word": "extremely / incredibly",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 정도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "매우 강함",
+          "examples": [
+            {
+              "sentence": "It's extremely important.",
+              "translation": "극도로 중요해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_very___really_133",
+      "word": "very / really",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 정도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "강함",
+          "examples": [
+            {
+              "sentence": "I'm very happy about it.",
+              "translation": "그것에 대해 매우 기뻐요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_pretty___quite_134",
+      "word": "pretty / quite",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 정도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "꽤",
+          "examples": [
+            {
+              "sentence": "It's pretty good.",
+              "translation": "꽤 좋아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_fairly___reasonably_135",
+      "word": "fairly / reasonably",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 정도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "상당히",
+          "examples": [
+            {
+              "sentence": "The price is fairly reasonable.",
+              "translation": "가격이 상당히 합리적이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_somewhat___kind_of___sort_of_136",
+      "word": "somewhat / kind of / sort of",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 정도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "약간",
+          "examples": [
+            {
+              "sentence": "I'm kind of tired.",
+              "translation": "좀 피곤해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_slightly_137",
+      "word": "slightly",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 정도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "조금",
+          "examples": [
+            {
+              "sentence": "I'm slightly nervous.",
+              "translation": "약간 긴장돼요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_a_little___a_bit_138",
+      "word": "a little / a bit",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 정도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "약간",
+          "examples": [
+            {
+              "sentence": "I'm a bit worried.",
+              "translation": "조금 걱정돼요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_not_very_139",
+      "word": "not very",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 정도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "별로 ~않은",
+          "examples": [
+            {
+              "sentence": "It's not very interesting.",
+              "translation": "별로 재미없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_not_at_all_140",
+      "word": "not at all",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 정도 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "전혀 ~않은",
+          "examples": [
+            {
+              "sentence": "I'm not at all surprised.",
+              "translation": "전혀 놀랍지 않아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_definitely_141",
+      "word": "definitely",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 강조 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "확실히",
+          "examples": [
+            {
+              "sentence": "I'll definitely come.",
+              "translation": "확실히 갈 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_absolutely_142",
+      "word": "absolutely",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 강조 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "절대적으로",
+          "examples": [
+            {
+              "sentence": "I absolutely love it.",
+              "translation": "정말 사랑해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_totally___completely_143",
+      "word": "totally / completely",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 강조 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "완전히",
+          "examples": [
+            {
+              "sentence": "I totally agree.",
+              "translation": "완전히 동의해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_seriously_144",
+      "word": "seriously",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 강조 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "진심으로",
+          "examples": [
+            {
+              "sentence": "I seriously need a vacation.",
+              "translation": "진심으로 휴가가 필요해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_literally_145",
+      "word": "literally",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 강조 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "말 그대로",
+          "examples": [
+            {
+              "sentence": "I literally couldn't move.",
+              "translation": "말 그대로 움직일 수 없었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_honestly_146",
+      "word": "honestly",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 강조 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "솔직히",
+          "examples": [
+            {
+              "sentence": "Honestly, I don't know.",
+              "translation": "솔직히, 모르겠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_actually_147",
+      "word": "actually",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 강조 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "사실은",
+          "examples": [
+            {
+              "sentence": "Actually, I've never been there.",
+              "translation": "사실, 거기 가본 적 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_basically_148",
+      "word": "basically",
+      "pronunciation": "",
+      "subcategory": "정도/강조 표현 - 강조 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "기본적으로",
+          "examples": [
+            {
+              "sentence": "Basically, that's the main idea.",
+              "translation": "기본적으로, 그게 핵심 아이디어예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_agree__149",
+      "word": "I agree.",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 동의",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**I agree**. That's a good idea.",
+          "examples": [
+            {
+              "sentence": "I agree. That's a good idea.",
+              "translation": "동의해요. 좋은 생각이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_think_so_too__150",
+      "word": "I think so too.",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 동의",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**I think so too**.",
+          "examples": [
+            {
+              "sentence": "I think so too.",
+              "translation": "저도 그렇게 생각해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_that_s_true__151",
+      "word": "That's true.",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 동의",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**That's true**. I hadn't thought of that.",
+          "examples": [
+            {
+              "sentence": "That's true. I hadn't thought of that.",
+              "translation": "맞아요. 그건 생각 못 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_exactly__152",
+      "word": "Exactly!",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 동의",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**Exactly**! That's what I meant.",
+          "examples": [
+            {
+              "sentence": "Exactly! That's what I meant.",
+              "translation": "정확해요! 그게 제가 말한 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_absolutely__153",
+      "word": "Absolutely!",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 동의",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**Absolutely**! I couldn't agree more.",
+          "examples": [
+            {
+              "sentence": "Absolutely! I couldn't agree more.",
+              "translation": "물론이죠! 전적으로 동의해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_that_makes_sense__154",
+      "word": "That makes sense.",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 동의",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**That makes sense**.",
+          "examples": [
+            {
+              "sentence": "That makes sense.",
+              "translation": "말이 되네요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_see_your_point__155",
+      "word": "I see your point.",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 동의",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**I see your point**.",
+          "examples": [
+            {
+              "sentence": "I see your point.",
+              "translation": "당신의 요점을 알겠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_you_re_right__156",
+      "word": "You're right.",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 동의",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**You're right** about that.",
+          "examples": [
+            {
+              "sentence": "You're right about that.",
+              "translation": "그것에 대해 맞아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_agree_to_some_extent__157",
+      "word": "I agree to some extent.",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 부분 동의",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**I agree to some extent**, but...",
+          "examples": [
+            {
+              "sentence": "I agree to some extent, but...",
+              "translation": "어느 정도 동의하지만..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_that_s_partly_true__158",
+      "word": "That's partly true.",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 부분 동의",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**That's partly true**.",
+          "examples": [
+            {
+              "sentence": "That's partly true.",
+              "translation": "부분적으로 맞아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_see_what_you_mean__but____159",
+      "word": "I see what you mean, but...",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 부분 동의",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**I see what you mean, but** I think...",
+          "examples": [
+            {
+              "sentence": "I see what you mean, but I think...",
+              "translation": "무슨 말인지 알겠지만, 저는..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_you_have_a_point__but____160",
+      "word": "You have a point, but...",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 부분 동의",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**You have a point**, but there's also...",
+          "examples": [
+            {
+              "sentence": "You have a point, but there's also...",
+              "translation": "일리가 있지만, 또한..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_in_a_way__yes__161",
+      "word": "In a way, yes.",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 부분 동의",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**In a way, yes**, but it depends.",
+          "examples": [
+            {
+              "sentence": "In a way, yes, but it depends.",
+              "translation": "어떤 면에서는 네, 하지만 상황에 따라요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_don_t_think_so__162",
+      "word": "I don't think so.",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 반대",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**I don't think so**.",
+          "examples": [
+            {
+              "sentence": "I don't think so.",
+              "translation": "그렇게 생각하지 않아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_disagree__163",
+      "word": "I disagree.",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 반대",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**I disagree** on this point.",
+          "examples": [
+            {
+              "sentence": "I disagree on this point.",
+              "translation": "이 점에서 동의하지 않아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_m_not_sure_about_that__164",
+      "word": "I'm not sure about that.",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 반대",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**I'm not sure about that**.",
+          "examples": [
+            {
+              "sentence": "I'm not sure about that.",
+              "translation": "그건 잘 모르겠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_see_it_differently__165",
+      "word": "I see it differently.",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 반대",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**I see it differently**.",
+          "examples": [
+            {
+              "sentence": "I see it differently.",
+              "translation": "다르게 봐요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_wouldn_t_say_that__166",
+      "word": "I wouldn't say that.",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 반대",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**I wouldn't say that**.",
+          "examples": [
+            {
+              "sentence": "I wouldn't say that.",
+              "translation": "그렇게 말하진 않겠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_that_s_not_necessarily_true__167",
+      "word": "That's not necessarily true.",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 반대",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**That's not necessarily true**.",
+          "examples": [
+            {
+              "sentence": "That's not necessarily true.",
+              "translation": "반드시 그런 건 아니에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_beg_to_differ__168",
+      "word": "I beg to differ.",
+      "pronunciation": "",
+      "subcategory": "동의/반대 표현 - 반대",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**I beg to differ**. (공손한 반대)",
+          "examples": [
+            {
+              "sentence": "I beg to differ. (공손한 반대)",
+              "translation": "다른 의견을 말씀드려요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_how_should_i_put_it____169",
+      "word": "How should I put it...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 말을 잇지 못할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**How should I put it**... It was amazing.",
+          "examples": [
+            {
+              "sentence": "How should I put it... It was amazing.",
+              "translation": "어떻게 말해야 할까... 놀라웠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_what_s_the_word____170",
+      "word": "What's the word...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 말을 잇지 못할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**What's the word**... Fascinating!",
+          "examples": [
+            {
+              "sentence": "What's the word... Fascinating!",
+              "translation": "그 단어가 뭐였지... 매혹적이었어요!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_it_s_hard_to_explain__but____171",
+      "word": "It's hard to explain, but...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 말을 잇지 못할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**It's hard to explain, but** I felt happy.",
+          "examples": [
+            {
+              "sentence": "It's hard to explain, but I felt happy.",
+              "translation": "설명하기 어렵지만, 행복했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_it_s_on_the_tip_of_my_tongue____172",
+      "word": "It's on the tip of my tongue...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 말을 잇지 못할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**It's on the tip of my tongue**...",
+          "examples": [
+            {
+              "sentence": "It's on the tip of my tongue...",
+              "translation": "입에서 맴도는데..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_can_t_think_of_the_word__but____173",
+      "word": "I can't think of the word, but...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 말을 잇지 못할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**I can't think of the word**, but you know what I mean.",
+          "examples": [
+            {
+              "sentence": "I can't think of the word, but you know what I mean.",
+              "translation": "그 단어가 생각 안 나는데, 무슨 말인지 알죠."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_speaking_of_which____174",
+      "word": "Speaking of which...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 주제를 바꿀 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**Speaking of which**, I went there last week.",
+          "examples": [
+            {
+              "sentence": "Speaking of which, I went there last week.",
+              "translation": "말이 나왔으니, 지난주에 거기 갔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_by_the_way____175",
+      "word": "By the way...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 주제를 바꿀 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**By the way**, did you hear about...?",
+          "examples": [
+            {
+              "sentence": "By the way, did you hear about...?",
+              "translation": "그런데, ~에 대해 들었어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_that_reminds_me____176",
+      "word": "That reminds me...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 주제를 바꿀 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**That reminds me** of a story.",
+          "examples": [
+            {
+              "sentence": "That reminds me of a story.",
+              "translation": "그게 이야기가 생각나게 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_on_another_note____177",
+      "word": "On another note...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 주제를 바꿀 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**On another note**, I also enjoy...",
+          "examples": [
+            {
+              "sentence": "On another note, I also enjoy...",
+              "translation": "다른 얘기로, 저도 ~을 즐겨요..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_anyway____178",
+      "word": "Anyway...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 주제를 바꿀 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**Anyway**, that's what happened.",
+          "examples": [
+            {
+              "sentence": "Anyway, that's what happened.",
+              "translation": "어쨌든, 그렇게 됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_let_me_give_you_an_example__179",
+      "word": "Let me give you an example.",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 예시를 들 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**Let me give you an example**.",
+          "examples": [
+            {
+              "sentence": "Let me give you an example.",
+              "translation": "예를 들어 드릴게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_for_example___for_instance_180",
+      "word": "For example / For instance",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 예시를 들 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**For example**, I like to go hiking.",
+          "examples": [
+            {
+              "sentence": "For example, I like to go hiking.",
+              "translation": "예를 들어, 등산을 좋아해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_to_give_you_an_idea____181",
+      "word": "To give you an idea...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 예시를 들 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**To give you an idea**, it takes about an hour.",
+          "examples": [
+            {
+              "sentence": "To give you an idea, it takes about an hour.",
+              "translation": "대략 말씀드리자면, 약 한 시간 걸려요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_here_s_an_example____182",
+      "word": "Here's an example...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 예시를 들 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**Here's an example** of what I mean.",
+          "examples": [
+            {
+              "sentence": "Here's an example of what I mean.",
+              "translation": "제 말의 예시가 여기 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_like____183",
+      "word": "Like...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 예시를 들 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**Like**, I usually go there on weekends.",
+          "examples": [
+            {
+              "sentence": "Like, I usually go there on weekends.",
+              "translation": "예를 들어, 주말에 보통 거기 가요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_remember_when____184",
+      "word": "I remember when...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 경험을 공유할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**I remember when** I first moved here.",
+          "examples": [
+            {
+              "sentence": "I remember when I first moved here.",
+              "translation": "처음 여기 이사왔을 때가 기억나요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_one_time____185",
+      "word": "One time...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 경험을 공유할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**One time**, I got lost in Tokyo.",
+          "examples": [
+            {
+              "sentence": "One time, I got lost in Tokyo.",
+              "translation": "한번은, 도쿄에서 길을 잃었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_there_was_this_time_when____186",
+      "word": "There was this time when...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 경험을 공유할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**There was this time when** I met a celebrity.",
+          "examples": [
+            {
+              "sentence": "There was this time when I met a celebrity.",
+              "translation": "유명인을 만났던 때가 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_a_few_years_ago____187",
+      "word": "A few years ago...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 경험을 공유할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**A few years ago**, I traveled to Europe.",
+          "examples": [
+            {
+              "sentence": "A few years ago, I traveled to Europe.",
+              "translation": "몇 년 전에, 유럽으로 여행 갔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_ll_never_forget_when____188",
+      "word": "I'll never forget when...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 경험을 공유할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**I'll never forget when** I got my first job.",
+          "examples": [
+            {
+              "sentence": "I'll never forget when I got my first job.",
+              "translation": "첫 직장을 얻었을 때를 절대 잊지 못할 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_so_yeah__that_s_basically____189",
+      "word": "So yeah, that's basically...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 마무리할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**So yeah, that's basically** my story.",
+          "examples": [
+            {
+              "sentence": "So yeah, that's basically my story.",
+              "translation": "그래서, 기본적으로 그게 제 이야기예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_that_s_pretty_much_it__190",
+      "word": "That's pretty much it.",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 마무리할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**That's pretty much it**.",
+          "examples": [
+            {
+              "sentence": "That's pretty much it.",
+              "translation": "대충 그래요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_i_think_that_covers_it__191",
+      "word": "I think that covers it.",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 마무리할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**I think that covers it**.",
+          "examples": [
+            {
+              "sentence": "I think that covers it.",
+              "translation": "다 말한 것 같아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_anyway__that_s_what_happened__192",
+      "word": "Anyway, that's what happened.",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 마무리할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**Anyway, that's what happened**.",
+          "examples": [
+            {
+              "sentence": "Anyway, that's what happened.",
+              "translation": "어쨌든, 그렇게 됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_long_story_short____193",
+      "word": "Long story short...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 마무리할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**Long story short**, I had a great time.",
+          "examples": [
+            {
+              "sentence": "Long story short, I had a great time.",
+              "translation": "간단히 말해서, 좋은 시간을 보냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_to_wrap_things_up____194",
+      "word": "To wrap things up...",
+      "pronunciation": "",
+      "subcategory": "상황별 유용한 표현 - 마무리할 때",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "**To wrap things up**, it was memorable.",
+          "examples": [
+            {
+              "sentence": "To wrap things up, it was memorable.",
+              "translation": "마무리하자면, 기억에 남았어요."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

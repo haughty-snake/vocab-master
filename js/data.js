@@ -1,26 +1,8 @@
-// Data Management
+// Data Management - Unified Format
 const VocabData = {
     categories: [],
     allWords: [],
     loaded: false,
-
-    // Category definitions with icons and colors
-    categoryMeta: {
-        nouns: { name: '명사', icon: '📦', color: '#4285f4', dataKey: 'nouns', difficulty: 'basic' },
-        verbs: { name: '동사', icon: '🏃', color: '#34a853', dataKey: 'verbs', difficulty: 'basic' },
-        adjectives: { name: '형용사', icon: '🎨', color: '#fbbc05', dataKey: 'adjectives', difficulty: 'basic' },
-        adverbs: { name: '부사', icon: '⚡', color: '#ea4335', dataKey: 'adverbs', difficulty: 'basic' },
-        prepositions: { name: '전치사/접속사', icon: '🔗', color: '#9c27b0', dataKey: 'prepositions', difficulty: 'basic' },
-        idioms: { name: '숙어/관용표현', icon: '💬', color: '#00bcd4', dataKey: 'idioms', difficulty: 'basic' },
-        phrasalVerbs: { name: '구동사', icon: '🚀', color: '#ff5722', dataKey: 'phrasalVerbs', difficulty: 'basic' },
-        vocabulary: { name: 'OPIC 필수 단어', icon: '📚', color: '#795548', dataKey: 'vocabulary', difficulty: 'basic' },
-        patterns: { name: '문장 패턴', icon: '📝', color: '#607d8b', dataKey: 'patterns', difficulty: 'basic' },
-        expressions: { name: '추가 표현', icon: '🗣️', color: '#e91e63', dataKey: 'expressions', difficulty: 'basic' },
-        vocabIntermediate: { name: '중급 단어', icon: '📗', color: '#2196f3', dataKey: 'vocabIntermediate', difficulty: 'intermediate' },
-        vocabAdvanced: { name: '고급 단어', icon: '📕', color: '#f44336', dataKey: 'vocabAdvanced', difficulty: 'advanced' },
-        additionalIdioms: { name: '추가 숙어', icon: '💡', color: '#009688', dataKey: 'additionalIdioms', difficulty: 'intermediate' },
-        additionalPhrasalVerbs: { name: '추가 구동사', icon: '🔥', color: '#ff9800', dataKey: 'additionalPhrasalVerbs', difficulty: 'intermediate' }
-    },
 
     // TTS (Text-to-Speech) functionality
     tts: {
@@ -30,10 +12,8 @@ const VocabData = {
         pitch: 1,
 
         init() {
-            // Load voices
             const loadVoices = () => {
                 const voices = this.synth.getVoices();
-                // Prefer English voices
                 this.voice = voices.find(v => v.lang.startsWith('en-US')) ||
                              voices.find(v => v.lang.startsWith('en')) ||
                              voices[0];
@@ -47,8 +27,6 @@ const VocabData = {
 
         speak(text, lang = 'en-US') {
             if (!this.synth) return;
-
-            // Cancel any ongoing speech
             this.synth.cancel();
 
             const utterance = new SpeechSynthesisUtterance(text);
@@ -74,19 +52,17 @@ const VocabData = {
     async loadAll() {
         if (this.loaded) return;
 
-        // Check if DATA_BUNDLE exists (loaded from data.bundle.js)
         if (typeof DATA_BUNDLE === 'undefined') {
             console.error('DATA_BUNDLE not found. Make sure data.bundle.js is loaded before data.js');
             return;
         }
 
-        Object.entries(this.categoryMeta).forEach(([key, meta]) => {
+        Object.entries(DATA_BUNDLE).forEach(([key, categoryData]) => {
             try {
-                const data = DATA_BUNDLE[meta.dataKey] || [];
-                this.processCategory(key, data, meta);
-                console.log(`✓ Loaded ${meta.name}: ${data.length} items`);
+                this.processCategory(categoryData);
+                console.log(`✓ Loaded ${categoryData.name}: ${categoryData.words.length} words`);
             } catch (error) {
-                console.error(`Error processing ${meta.name}:`, error);
+                console.error(`Error processing ${key}:`, error);
             }
         });
 
@@ -94,312 +70,56 @@ const VocabData = {
         console.log(`Total loaded: ${this.allWords.length} items`);
     },
 
-    // Process category data into unified format
-    processCategory(key, data, meta) {
+    // Process unified category format
+    processCategory(categoryData) {
         const category = {
-            id: key,
-            name: meta.name,
-            icon: meta.icon,
-            color: meta.color,
+            id: categoryData.id,
+            name: categoryData.name,
+            icon: categoryData.icon,
+            color: categoryData.color,
             subcategories: [],
             words: []
         };
 
-        if (key === 'phrasalVerbs') {
-            // Phrasal verbs have different structure
-            data.forEach(section => {
-                if (!section || !section.phrasalVerbs) return;
-                const subcat = {
-                    name: section.name,
-                    words: []
-                };
-                section.phrasalVerbs.forEach(pv => {
-                    if (!pv.meanings) return;
-                    pv.meanings.forEach((meaning, idx) => {
-                        const word = {
-                            id: `${key}_${pv.phrase.replace(/\s/g, '_')}_${idx}`,
-                            category: key,
-                            categoryName: meta.name,
-                            word: pv.phrase,
-                            pronunciation: pv.pronunciation,
-                            meaning: meaning.meaning,
-                            examples: meaning.examples ? meaning.examples.map(e => ({
-                                sentence: e.example,
-                                translation: e.translation
-                            })) : []
-                        };
-                        subcat.words.push(word);
-                        category.words.push(word);
-                        this.allWords.push(word);
-                    });
-                });
-                category.subcategories.push(subcat);
-            });
-        } else if (key === 'patterns') {
-            // Patterns have sections and patterns - one entry per pattern
-            data.forEach(section => {
-                if (!section || !section.patterns) return;
-                const subcat = {
-                    name: section.name,
-                    words: []
-                };
-                section.patterns.forEach((pattern, idx) => {
-                    if (!pattern.items) return;
-                    const word = {
-                        id: `${key}_${section.name}_${idx}`.replace(/\s/g, '_'),
-                        category: key,
-                        categoryName: meta.name,
-                        word: pattern.name,  // "I usually + 동사원형"
-                        pronunciation: '',
-                        meaning: pattern.meaning || '',  // "나는 보통 ~해"
-                        examples: pattern.items.map(item => ({
-                            sentence: item.example,
-                            translation: item.translation
-                        }))
-                    };
-                    subcat.words.push(word);
-                    category.words.push(word);
-                    this.allWords.push(word);
-                });
-                if (subcat.words.length > 0) {
-                    category.subcategories.push(subcat);
-                }
-            });
-        } else if (key === 'expressions') {
-            // Expressions have sections and subsections
-            data.forEach(section => {
-                if (!section || !section.subSections) return;
-                section.subSections.forEach(sub => {
-                    if (!sub.expressions) return;
-                    const subcat = {
-                        name: `${section.nameKo} - ${sub.name}`,
-                        words: []
-                    };
-                    sub.expressions.forEach((exp, idx) => {
-                        const word = {
-                            id: `${key}_${section.nameKo}_${sub.name}_${idx}`.replace(/\s/g, '_'),
-                            category: key,
-                            categoryName: meta.name,
-                            word: exp.expression,
-                            pronunciation: '',
-                            meaning: exp.meaning,
-                            examples: [{
-                                sentence: exp.example,
-                                translation: exp.translation
-                            }]
-                        };
-                        subcat.words.push(word);
-                        category.words.push(word);
-                        this.allWords.push(word);
-                    });
-                    category.subcategories.push(subcat);
-                });
-            });
-        } else if (key === 'idioms') {
-            // Idioms structure
-            data.forEach(cat => {
-                if (!cat) return;
-                const subcat = {
-                    name: cat.nameKo || cat.name || 'Unknown',
-                    words: []
-                };
-                const items = cat.expressions || cat.words || [];
-                items.forEach((item, idx) => {
-                    const word = {
-                        id: `${key}_${(cat.nameKo || cat.name || 'unknown')}_${idx}`.replace(/\s/g, '_'),
-                        category: key,
-                        categoryName: meta.name,
-                        word: item.expression || item.word,
-                        pronunciation: item.pronunciation || '',
-                        meaning: item.meaning,
-                        difficulty: meta.difficulty || 'basic',
-                        examples: [{
-                            sentence: item.example,
-                            translation: item.translation
-                        }]
-                    };
-                    subcat.words.push(word);
-                    category.words.push(word);
-                    this.allWords.push(word);
-                });
-                category.subcategories.push(subcat);
-            });
-        } else if (key === 'vocabIntermediate' || key === 'vocabAdvanced') {
-            // Additional vocabulary (intermediate/advanced) - has subCategories structure
-            data.forEach(cat => {
-                if (!cat || !cat.subCategories) return;
-                cat.subCategories.forEach(sub => {
-                    const subcat = {
-                        name: `${cat.nameKo || cat.name} - ${sub.name}`,
-                        words: []
-                    };
-                    const items = sub.words || [];
-                    items.forEach((item, idx) => {
-                        const word = {
-                            id: `${key}_${(cat.nameKo || cat.name || 'unknown')}_${sub.name}_${idx}`.replace(/\s/g, '_'),
-                            category: key,
-                            categoryName: meta.name,
-                            word: item.word,
-                            pronunciation: '',
-                            meaning: item.meaning,
-                            difficulty: item.difficulty || meta.difficulty,
-                            examples: [{
-                                sentence: item.example,
-                                translation: item.translation
-                            }]
-                        };
-                        subcat.words.push(word);
-                        category.words.push(word);
-                        this.allWords.push(word);
-                    });
-                    if (subcat.words.length > 0) {
-                        category.subcategories.push(subcat);
-                    }
-                });
-            });
-        } else if (key === 'additionalIdioms') {
-            // Additional idioms - has subCategories structure
-            data.forEach(cat => {
-                if (!cat || !cat.subCategories) return;
-                cat.subCategories.forEach(sub => {
-                    const subcat = {
-                        name: `${cat.name} - ${sub.name}`,
-                        words: []
-                    };
-                    const items = sub.expressions || sub.idioms || [];
-                    items.forEach((item, idx) => {
-                        const word = {
-                            id: `${key}_${(cat.name || 'unknown')}_${sub.name}_${idx}`.replace(/\s/g, '_'),
-                            category: key,
-                            categoryName: meta.name,
-                            word: item.expression || item.idiom,
-                            pronunciation: '',
-                            meaning: item.meaning,
-                            difficulty: meta.difficulty,
-                            examples: [{
-                                sentence: item.example,
-                                translation: item.translation
-                            }]
-                        };
-                        subcat.words.push(word);
-                        category.words.push(word);
-                        this.allWords.push(word);
-                    });
-                    if (subcat.words.length > 0) {
-                        category.subcategories.push(subcat);
-                    }
-                });
-            });
-        } else if (key === 'additionalPhrasalVerbs') {
-            // Additional phrasal verbs - has subCategories structure
-            data.forEach(cat => {
-                if (!cat || !cat.subCategories) return;
-                cat.subCategories.forEach(sub => {
-                    const subcat = {
-                        name: `${cat.name} - ${sub.name}`,
-                        words: []
-                    };
-                    const items = sub.phrasalVerbs || [];
-                    items.forEach((item, idx) => {
-                        const word = {
-                            id: `${key}_${(cat.name || 'unknown')}_${sub.name}_${idx}`.replace(/\s/g, '_'),
-                            category: key,
-                            categoryName: meta.name,
-                            word: item.phrase || item.phrasalVerb,
-                            pronunciation: '',
-                            meaning: item.meaning,
-                            difficulty: meta.difficulty,
-                            examples: [{
-                                sentence: item.example,
-                                translation: item.translation
-                            }]
-                        };
-                        subcat.words.push(word);
-                        category.words.push(word);
-                        this.allWords.push(word);
-                    });
-                    if (subcat.words.length > 0) {
-                        category.subcategories.push(subcat);
-                    }
-                });
-            });
-        } else {
-            // Standard word format (nouns, verbs, adjectives, adverbs, prepositions, vocabulary)
-            // Use a map to merge words with same spelling (polysemy support)
-            const wordMap = new Map();
+        // Group words by subcategory
+        const subcatMap = new Map();
 
-            data.forEach(cat => {
-                if (!cat) return;
-                const items = cat.words || [];
-                items.forEach((item, idx) => {
-                    const wordKey = item.word.toLowerCase();
+        categoryData.words.forEach(wordData => {
+            // Build word object with backward compatibility
+            const word = {
+                id: wordData.id,
+                category: categoryData.id,
+                categoryName: categoryData.name,
+                subcategory: wordData.subcategory || '',
+                word: wordData.word,
+                pronunciation: wordData.pronunciation || '',
+                meanings: wordData.meanings || [],
+                // Backward compatibility: set meaning as joined meanings
+                meaning: wordData.meanings
+                    ? wordData.meanings.map(m => m.meaning).join(', ')
+                    : '',
+                // Backward compatibility: set examples from first meaning
+                examples: wordData.meanings && wordData.meanings[0]
+                    ? wordData.meanings[0].examples || []
+                    : [],
+                // Verb-specific fields
+                pastTense: wordData.pastTense || '',
+                pastParticiple: wordData.pastParticiple || '',
+                antonym: wordData.antonym || ''
+            };
 
-                    if (wordMap.has(wordKey)) {
-                        // Add as additional meaning to existing word
-                        const existing = wordMap.get(wordKey);
-                        existing.meanings.push({
-                            meaning: item.meaning,
-                            examples: [{
-                                sentence: item.example,
-                                translation: item.translation
-                            }]
-                        });
-                        // Update pastTense/pastParticiple if not set
-                        if (!existing.pastTense && item.pastTense) {
-                            existing.pastTense = item.pastTense;
-                        }
-                        if (!existing.pastParticiple && item.pastParticiple) {
-                            existing.pastParticiple = item.pastParticiple;
-                        }
-                    } else {
-                        // Create new word entry with meanings array
-                        const word = {
-                            id: `${key}_${item.word}`.replace(/\s/g, '_'),
-                            category: key,
-                            categoryName: meta.name,
-                            subcategory: cat.nameKo || cat.name || 'Unknown',
-                            word: item.word,
-                            pronunciation: item.pronunciation || '',
-                            difficulty: meta.difficulty || 'basic',
-                            pastTense: item.pastTense || '',
-                            pastParticiple: item.pastParticiple || '',
-                            antonym: item.antonym || '',
-                            meanings: [{
-                                meaning: item.meaning,
-                                examples: [{
-                                    sentence: item.example,
-                                    translation: item.translation
-                                }]
-                            }]
-                        };
-                        wordMap.set(wordKey, word);
-                    }
-                });
-            });
+            category.words.push(word);
+            this.allWords.push(word);
 
-            // Convert map to array and add to category
-            wordMap.forEach(word => {
-                // For backward compatibility, set meaning to first meaning
-                word.meaning = word.meanings.map(m => m.meaning).join(', ');
-                // Set examples to first meaning's examples for backward compatibility
-                word.examples = word.meanings[0].examples;
+            // Group by subcategory
+            const subcatName = word.subcategory || 'Default';
+            if (!subcatMap.has(subcatName)) {
+                subcatMap.set(subcatName, { name: subcatName, words: [] });
+            }
+            subcatMap.get(subcatName).words.push(word);
+        });
 
-                category.words.push(word);
-                this.allWords.push(word);
-            });
-
-            // Group by subcategory for display
-            const subcatMap = new Map();
-            category.words.forEach(word => {
-                const subcatName = word.subcategory || 'Unknown';
-                if (!subcatMap.has(subcatName)) {
-                    subcatMap.set(subcatName, { name: subcatName, words: [] });
-                }
-                subcatMap.get(subcatName).words.push(word);
-            });
-            subcatMap.forEach(subcat => category.subcategories.push(subcat));
-        }
-
+        subcatMap.forEach(subcat => category.subcategories.push(subcat));
         this.categories.push(category);
     },
 
@@ -418,9 +138,15 @@ const VocabData = {
         ).slice(0, 50);
     },
 
-    // Get words by category
+    // Get words by category (respects disabled categories for 'all')
     getWordsByCategory(categoryId) {
-        if (categoryId === 'all') return this.allWords;
+        if (categoryId === 'all') {
+            if (typeof Storage !== 'undefined' && Storage.isCategoryDisabled) {
+                const activeCategories = this.categories.filter(cat => !Storage.isCategoryDisabled(cat.id));
+                return activeCategories.reduce((acc, cat) => acc.concat(cat.words), []);
+            }
+            return this.allWords;
+        }
         const category = this.getCategory(categoryId);
         return category ? category.words : [];
     },
@@ -451,15 +177,69 @@ const VocabData = {
             }
         });
         return counts;
+    },
+
+    // Load custom categories from Storage
+    loadCustomCategories() {
+        if (typeof Storage === 'undefined' || !Storage.customCategories) return;
+
+        Storage.customCategories.forEach(customCat => {
+            if (this.categories.find(c => c.id === customCat.id)) return;
+
+            const category = {
+                id: customCat.id,
+                name: customCat.name,
+                icon: customCat.icon || '📁',
+                color: customCat.color || '#6c757d',
+                isCustom: true,
+                subcategories: [],
+                words: []
+            };
+
+            customCat.words.forEach(wordData => {
+                const word = {
+                    id: wordData.id,
+                    category: customCat.id,
+                    categoryName: customCat.name,
+                    word: wordData.word,
+                    pronunciation: wordData.pronunciation || '',
+                    meanings: wordData.meanings || [],
+                    meaning: wordData.meanings && wordData.meanings.length > 0
+                        ? wordData.meanings.map(m => m.meaning).join(', ')
+                        : wordData.meaning || '',
+                    examples: wordData.meanings && wordData.meanings[0]
+                        ? wordData.meanings[0].examples || []
+                        : wordData.examples || [],
+                    partOfSpeech: wordData.partOfSpeech || '',
+                    isCustom: true
+                };
+                category.words.push(word);
+                this.allWords.push(word);
+            });
+
+            this.categories.push(category);
+        });
+    },
+
+    // Reload custom categories
+    reloadCustomCategories() {
+        this.allWords = this.allWords.filter(w => !w.isCustom);
+        this.categories = this.categories.filter(c => !c.isCustom);
+        this.loadCustomCategories();
     }
 };
 
 // Initialize data loading
 document.addEventListener('DOMContentLoaded', () => {
-    // Initialize TTS
     VocabData.tts.init();
 
+    if (typeof Storage !== 'undefined' && Storage.init) {
+        Storage.init();
+    }
+
     VocabData.loadAll().then(() => {
+        VocabData.loadCustomCategories();
+
         if (typeof initApp === 'function') {
             initApp();
         }
