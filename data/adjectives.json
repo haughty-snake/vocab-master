@@ -8,7 +8,7 @@
         "pronunciation": "/bɪɡ/",
         "meaning": "큰",
         "example": "That's a **big** house.",
-        "translation": "",
+        "translation": "저거 큰 집이야.",
         "antonym": "small"
       },
       {
@@ -16,7 +16,7 @@
         "pronunciation": "/smɔːl/",
         "meaning": "작은",
         "example": "I live in a **small** apartment.",
-        "translation": "",
+        "translation": "나는 작은 아파트에 살아.",
         "antonym": "big"
       },
       {
@@ -24,7 +24,7 @@
         "pronunciation": "/lɑːrdʒ/",
         "meaning": "큰",
         "example": "I'd like a **large** coffee.",
-        "translation": "",
+        "translation": "라지 커피 주세요.",
         "antonym": "small"
       },
       {
@@ -32,7 +32,7 @@
         "pronunciation": "/ˈlɪtl/",
         "meaning": "작은",
         "example": "She has a **little** dog.",
-        "translation": "",
+        "translation": "그녀는 작은 강아지가 있어.",
         "antonym": "big"
       },
       {
@@ -40,7 +40,7 @@
         "pronunciation": "/hjuːdʒ/",
         "meaning": "거대한",
         "example": "There was a **huge** crowd.",
-        "translation": "",
+        "translation": "엄청난 인파가 있었어.",
         "antonym": "tiny"
       },
       {
@@ -48,7 +48,7 @@
         "pronunciation": "/ˈtaɪni/",
         "meaning": "아주 작은",
         "example": "The baby has **tiny** fingers.",
-        "translation": "",
+        "translation": "아기 손가락이 아주 작아.",
         "antonym": "huge"
       },
       {
@@ -56,7 +56,7 @@
         "pronunciation": "/ɪˈnɔːrməs/",
         "meaning": "막대한",
         "example": "They made an **enormous** profit.",
-        "translation": "",
+        "translation": "그들은 막대한 이익을 냈어.",
         "antonym": "tiny"
       },
       {
@@ -64,7 +64,7 @@
         "pronunciation": "/ˈmæsɪv/",
         "meaning": "거대한",
         "example": "It was a **massive** earthquake.",
-        "translation": "",
+        "translation": "엄청난 지진이었어.",
         "antonym": "tiny"
       },
       {
@@ -72,7 +72,7 @@
         "pronunciation": "/ˈdʒaɪənt/",
         "meaning": "거대한",
         "example": "A **giant** wave hit the beach.",
-        "translation": "",
+        "translation": "거대한 파도가 해변을 덮쳤어.",
         "antonym": "miniature"
       },
       {
@@ -80,7 +80,7 @@
         "pronunciation": "/ˈmɪnɪtʃər/",
         "meaning": "소형의",
         "example": "He collects **miniature** cars.",
-        "translation": "",
+        "translation": "그는 미니카를 수집해.",
         "antonym": "giant"
       },
       {
@@ -88,7 +88,7 @@
         "pronunciation": "/tɔːl/",
         "meaning": "키가 큰",
         "example": "He's really **tall**.",
-        "translation": "",
+        "translation": "그는 정말 키가 커.",
         "antonym": "short"
       },
       {
@@ -96,7 +96,7 @@
         "pronunciation": "/ʃɔːrt/",
         "meaning": "짧은/키 작은",
         "example": "I have **short** hair.",
-        "translation": "",
+        "translation": "나는 머리가 짧아.",
         "antonym": "tall"
       },
       {
@@ -104,7 +104,7 @@
         "pronunciation": "/lɔːŋ/",
         "meaning": "긴",
         "example": "It was a **long** day.",
-        "translation": "",
+        "translation": "긴 하루였어.",
         "antonym": "short"
       },
       {
@@ -112,7 +112,7 @@
         "pronunciation": "/waɪd/",
         "meaning": "넓은",
         "example": "The road is very **wide**.",
-        "translation": "",
+        "translation": "그 도로는 매우 넓어.",
         "antonym": "narrow"
       },
       {
@@ -120,7 +120,7 @@
         "pronunciation": "/ˈnæroʊ/",
         "meaning": "좁은",
         "example": "The street is too **narrow**.",
-        "translation": "",
+        "translation": "그 거리는 너무 좁아.",
         "antonym": "wide"
       },
       {
@@ -128,7 +128,7 @@
         "pronunciation": "/θɪk/",
         "meaning": "두꺼운",
         "example": "This book is **thick**.",
-        "translation": "",
+        "translation": "이 책은 두꺼워.",
         "antonym": "thin"
       },
       {
@@ -136,7 +136,7 @@
         "pronunciation": "/θɪn/",
         "meaning": "얇은",
         "example": "The ice is **thin**.",
-        "translation": "",
+        "translation": "얼음이 얇아.",
         "antonym": "thick"
       },
       {
@@ -144,7 +144,7 @@
         "pronunciation": "/diːp/",
         "meaning": "깊은",
         "example": "The pool is **deep**.",
-        "translation": "",
+        "translation": "그 수영장은 깊어.",
         "antonym": "shallow"
       },
       {
@@ -152,7 +152,7 @@
         "pronunciation": "/ˈʃæloʊ/",
         "meaning": "얕은",
         "example": "The water is **shallow** here.",
-        "translation": "",
+        "translation": "여기는 물이 얕아.",
         "antonym": "deep"
       },
       {
@@ -160,7 +160,7 @@
         "pronunciation": "/haɪ/",
         "meaning": "높은",
         "example": "The mountain is **high**.",
-        "translation": "",
+        "translation": "그 산은 높아.",
         "antonym": "low"
       },
       {
@@ -168,7 +168,7 @@
         "pronunciation": "/loʊ/",
         "meaning": "낮은",
         "example": "Keep your voice **low**.",
-        "translation": "",
+        "translation": "목소리 낮춰.",
         "antonym": "high"
       },
       {
@@ -176,7 +176,7 @@
         "pronunciation": "/ˈhevi/",
         "meaning": "무거운",
         "example": "This bag is **heavy**.",
-        "translation": "",
+        "translation": "이 가방 무거워.",
         "antonym": "light"
       },
       {
@@ -184,7 +184,7 @@
         "pronunciation": "/laɪt/",
         "meaning": "가벼운",
         "example": "The laptop is **light**.",
-        "translation": "",
+        "translation": "이 노트북은 가벼워.",
         "antonym": "heavy"
       },
       {
@@ -192,7 +192,7 @@
         "pronunciation": "/fʊl/",
         "meaning": "가득 찬",
         "example": "The glass is **full**.",
-        "translation": "",
+        "translation": "잔이 가득 찼어.",
         "antonym": "empty"
       },
       {
@@ -200,7 +200,7 @@
         "pronunciation": "/ˈempti/",
         "meaning": "빈",
         "example": "The room is **empty**.",
-        "translation": "",
+        "translation": "방이 비어 있어.",
         "antonym": "full"
       },
       {
@@ -208,7 +208,7 @@
         "pronunciation": "/ˈmeni/",
         "meaning": "많은",
         "example": "There are **many** people here.",
-        "translation": "",
+        "translation": "여기 사람이 많아.",
         "antonym": "few"
       },
       {
@@ -216,7 +216,7 @@
         "pronunciation": "/fjuː/",
         "meaning": "적은",
         "example": "I have **few** friends.",
-        "translation": "",
+        "translation": "나는 친구가 적어.",
         "antonym": "many"
       },
       {
@@ -224,7 +224,7 @@
         "pronunciation": "/mʌtʃ/",
         "meaning": "많은",
         "example": "I don't have **much** time.",
-        "translation": "",
+        "translation": "시간이 많지 않아.",
         "antonym": "little"
       },
       {
@@ -232,7 +232,7 @@
         "pronunciation": "/ˈlɪtl/",
         "meaning": "적은",
         "example": "There's **little** hope.",
-        "translation": "",
+        "translation": "희망이 거의 없어.",
         "antonym": "much"
       },
       {
@@ -240,7 +240,7 @@
         "pronunciation": "/sʌm/",
         "meaning": "약간의",
         "example": "I need **some** help.",
-        "translation": "",
+        "translation": "도움이 좀 필요해.",
         "antonym": "none"
       },
       {
@@ -248,7 +248,7 @@
         "pronunciation": "/ˈsevrəl/",
         "meaning": "여러 개의",
         "example": "I've been there **several** times.",
-        "translation": "",
+        "translation": "거기 여러 번 갔었어.",
         "antonym": "-"
       },
       {
@@ -256,7 +256,7 @@
         "pronunciation": "/ˈnuːmərəs/",
         "meaning": "수많은",
         "example": "There are **numerous** options.",
-        "translation": "",
+        "translation": "수많은 옵션이 있어.",
         "antonym": "few"
       },
       {
@@ -264,7 +264,7 @@
         "pronunciation": "/ˈplenti/",
         "meaning": "많은",
         "example": "We have **plenty** of time.",
-        "translation": "",
+        "translation": "시간 충분해.",
         "antonym": "scarce"
       },
       {
@@ -272,7 +272,7 @@
         "pronunciation": "/skers/",
         "meaning": "부족한",
         "example": "Food is **scarce** here.",
-        "translation": "",
+        "translation": "여기는 식량이 부족해.",
         "antonym": "plenty"
       },
       {
@@ -280,7 +280,7 @@
         "pronunciation": "/səˈfɪʃnt/",
         "meaning": "충분한",
         "example": "Is this **sufficient**?",
-        "translation": "",
+        "translation": "이 정도면 충분해?",
         "antonym": "insufficient"
       },
       {
@@ -288,7 +288,7 @@
         "pronunciation": "/ˈekstrə/",
         "meaning": "여분의",
         "example": "Do you have **extra** batteries?",
-        "translation": "",
+        "translation": "여분의 배터리 있어?",
         "antonym": "-"
       },
       {
@@ -296,7 +296,7 @@
         "pronunciation": "/ˈtoʊtl/",
         "meaning": "전체의",
         "example": "What's the **total** cost?",
-        "translation": "",
+        "translation": "총 비용이 얼마야?",
         "antonym": "partial"
       },
       {
@@ -304,7 +304,7 @@
         "pronunciation": "/ˈpɑːrʃl/",
         "meaning": "부분적인",
         "example": "It was a **partial** success.",
-        "translation": "",
+        "translation": "부분적인 성공이었어.",
         "antonym": "total"
       },
       {
@@ -312,7 +312,7 @@
         "pronunciation": "/hoʊl/",
         "meaning": "전체의",
         "example": "I ate the **whole** pizza.",
-        "translation": "",
+        "translation": "피자 전체를 먹었어.",
         "antonym": "partial"
       },
       {
@@ -320,7 +320,7 @@
         "pronunciation": "/hæf/",
         "meaning": "절반의",
         "example": "I'll take **half**.",
-        "translation": "",
+        "translation": "절반만 가져갈게.",
         "antonym": "-"
       }
     ]
@@ -334,7 +334,7 @@
         "pronunciation": "/ˈbjuːtɪfl/",
         "meaning": "아름다운",
         "example": "The view is **beautiful**.",
-        "translation": "",
+        "translation": "경치가 아름다워.",
         "antonym": "ugly"
       },
       {
@@ -342,7 +342,7 @@
         "pronunciation": "/ˈprɪti/",
         "meaning": "예쁜",
         "example": "She looks **pretty** today.",
-        "translation": "",
+        "translation": "그녀 오늘 예뻐 보여.",
         "antonym": "ugly"
       },
       {
@@ -350,7 +350,7 @@
         "pronunciation": "/ˈhænsəm/",
         "meaning": "잘생긴",
         "example": "He's very **handsome**.",
-        "translation": "",
+        "translation": "그는 정말 잘생겼어.",
         "antonym": "ugly"
       },
       {
@@ -358,7 +358,7 @@
         "pronunciation": "/ˈɡɔːrdʒəs/",
         "meaning": "화려한/멋진",
         "example": "The dress is **gorgeous**.",
-        "translation": "",
+        "translation": "그 드레스 정말 멋져.",
         "antonym": "plain"
       },
       {
@@ -366,7 +366,7 @@
         "pronunciation": "/əˈtræktɪv/",
         "meaning": "매력적인",
         "example": "She's very **attractive**.",
-        "translation": "",
+        "translation": "그녀는 매우 매력적이야.",
         "antonym": "unattractive"
       },
       {
@@ -374,7 +374,7 @@
         "pronunciation": "/ˈlʌvli/",
         "meaning": "사랑스러운",
         "example": "What a **lovely** day!",
-        "translation": "",
+        "translation": "정말 좋은 날이다!",
         "antonym": "-"
       },
       {
@@ -382,7 +382,7 @@
         "pronunciation": "/kjuːt/",
         "meaning": "귀여운",
         "example": "Your baby is so **cute**!",
-        "translation": "",
+        "translation": "아기가 너무 귀여워!",
         "antonym": "-"
       },
       {
@@ -390,7 +390,7 @@
         "pronunciation": "/ˈʌɡli/",
         "meaning": "못생긴",
         "example": "The building is **ugly**.",
-        "translation": "",
+        "translation": "그 건물은 못생겼어.",
         "antonym": "beautiful"
       },
       {
@@ -398,7 +398,7 @@
         "pronunciation": "/pleɪn/",
         "meaning": "평범한",
         "example": "She wore a **plain** dress.",
-        "translation": "",
+        "translation": "그녀는 평범한 드레스를 입었어.",
         "antonym": "gorgeous"
       },
       {
@@ -406,7 +406,7 @@
         "pronunciation": "/ˈelɪɡənt/",
         "meaning": "우아한",
         "example": "The hotel is **elegant**.",
-        "translation": "",
+        "translation": "그 호텔은 우아해.",
         "antonym": "awkward"
       },
       {
@@ -414,7 +414,7 @@
         "pronunciation": "/ˈfænsi/",
         "meaning": "화려한",
         "example": "That's a **fancy** restaurant.",
-        "translation": "",
+        "translation": "그거 고급 레스토랑이야.",
         "antonym": "plain"
       },
       {
@@ -422,7 +422,7 @@
         "pronunciation": "/ˈstaɪlɪʃ/",
         "meaning": "세련된",
         "example": "You look **stylish** today.",
-        "translation": "",
+        "translation": "오늘 세련돼 보여.",
         "antonym": "outdated"
       },
       {
@@ -430,7 +430,7 @@
         "pronunciation": "/ˈfæʃnəbl/",
         "meaning": "유행하는",
         "example": "These shoes are **fashionable**.",
-        "translation": "",
+        "translation": "이 신발 유행이야.",
         "antonym": "outdated"
       },
       {
@@ -438,7 +438,7 @@
         "pronunciation": "/ˈtrendi/",
         "meaning": "최신 유행의",
         "example": "That café is **trendy**.",
-        "translation": "",
+        "translation": "그 카페 요즘 핫해.",
         "antonym": "old-fashioned"
       },
       {
@@ -446,7 +446,7 @@
         "pronunciation": "/oʊld ˈfæʃnd/",
         "meaning": "구식의",
         "example": "His ideas are **old-fashioned**.",
-        "translation": "",
+        "translation": "그의 생각은 구식이야.",
         "antonym": "modern"
       },
       {
@@ -454,7 +454,7 @@
         "pronunciation": "/ˈmɑːdərn/",
         "meaning": "현대적인",
         "example": "I like **modern** art.",
-        "translation": "",
+        "translation": "나는 현대 미술을 좋아해.",
         "antonym": "old-fashioned"
       },
       {
@@ -462,7 +462,7 @@
         "pronunciation": "/ˈklæsɪk/",
         "meaning": "고전적인",
         "example": "It's a **classic** design.",
-        "translation": "",
+        "translation": "클래식한 디자인이야.",
         "antonym": "modern"
       },
       {
@@ -470,7 +470,7 @@
         "pronunciation": "/jʌŋ/",
         "meaning": "젊은",
         "example": "She looks **young**.",
-        "translation": "",
+        "translation": "그녀는 젊어 보여.",
         "antonym": "old"
       },
       {
@@ -478,7 +478,7 @@
         "pronunciation": "/oʊld/",
         "meaning": "늙은/오래된",
         "example": "The building is **old**.",
-        "translation": "",
+        "translation": "그 건물은 오래됐어.",
         "antonym": "young"
       },
       {
@@ -486,7 +486,7 @@
         "pronunciation": "/nuː/",
         "meaning": "새로운",
         "example": "I got a **new** phone.",
-        "translation": "",
+        "translation": "새 폰 샀어.",
         "antonym": "old"
       },
       {
@@ -494,7 +494,7 @@
         "pronunciation": "/freʃ/",
         "meaning": "신선한",
         "example": "The bread is **fresh**.",
-        "translation": "",
+        "translation": "빵이 신선해.",
         "antonym": "stale"
       },
       {
@@ -502,7 +502,7 @@
         "pronunciation": "/steɪl/",
         "meaning": "상한/신선하지 않은",
         "example": "The chips are **stale**.",
-        "translation": "",
+        "translation": "과자가 눅눅해.",
         "antonym": "fresh"
       },
       {
@@ -510,7 +510,7 @@
         "pronunciation": "/kliːn/",
         "meaning": "깨끗한",
         "example": "The room is **clean**.",
-        "translation": "",
+        "translation": "방이 깨끗해.",
         "antonym": "dirty"
       },
       {
@@ -518,7 +518,7 @@
         "pronunciation": "/ˈdɜːrti/",
         "meaning": "더러운",
         "example": "My shoes are **dirty**.",
-        "translation": "",
+        "translation": "내 신발이 더러워.",
         "antonym": "clean"
       },
       {
@@ -526,7 +526,7 @@
         "pronunciation": "/niːt/",
         "meaning": "깔끔한",
         "example": "Her handwriting is **neat**.",
-        "translation": "",
+        "translation": "그녀의 필체는 깔끔해.",
         "antonym": "messy"
       },
       {
@@ -534,7 +534,7 @@
         "pronunciation": "/ˈmesi/",
         "meaning": "지저분한",
         "example": "My room is **messy**.",
-        "translation": "",
+        "translation": "내 방 지저분해.",
         "antonym": "neat"
       },
       {
@@ -542,7 +542,7 @@
         "pronunciation": "/ˈtaɪdi/",
         "meaning": "정돈된",
         "example": "Keep your desk **tidy**.",
-        "translation": "",
+        "translation": "책상 정돈해 놔.",
         "antonym": "untidy"
       },
       {
@@ -550,7 +550,7 @@
         "pronunciation": "/braɪt/",
         "meaning": "밝은",
         "example": "The room is **bright**.",
-        "translation": "",
+        "translation": "방이 밝아.",
         "antonym": "dark"
       },
       {
@@ -558,7 +558,7 @@
         "pronunciation": "/dɑːrk/",
         "meaning": "어두운",
         "example": "It's **dark** outside.",
-        "translation": "",
+        "translation": "밖이 어두워.",
         "antonym": "bright"
       },
       {
@@ -566,7 +566,7 @@
         "pronunciation": "/ˈʃaɪni/",
         "meaning": "빛나는",
         "example": "Her hair is **shiny**.",
-        "translation": "",
+        "translation": "그녀 머리가 윤기나.",
         "antonym": "dull"
       },
       {
@@ -574,7 +574,7 @@
         "pronunciation": "/dʌl/",
         "meaning": "칙칙한",
         "example": "The color looks **dull**.",
-        "translation": "",
+        "translation": "색이 칙칙해 보여.",
         "antonym": "bright"
       },
       {
@@ -582,7 +582,7 @@
         "pronunciation": "/peɪl/",
         "meaning": "창백한",
         "example": "You look **pale** today.",
-        "translation": "",
+        "translation": "오늘 안색이 창백해 보여.",
         "antonym": "rosy"
       },
       {
@@ -590,7 +590,7 @@
         "pronunciation": "/tæn/",
         "meaning": "햇볕에 탄",
         "example": "I got a nice **tan**.",
-        "translation": "",
+        "translation": "선탠 잘 됐어.",
         "antonym": "pale"
       },
       {
@@ -598,7 +598,7 @@
         "pronunciation": "/slɪm/",
         "meaning": "날씬한",
         "example": "She's very **slim**.",
-        "translation": "",
+        "translation": "그녀는 매우 날씬해.",
         "antonym": "fat"
       },
       {
@@ -606,7 +606,7 @@
         "pronunciation": "/fæt/",
         "meaning": "뚱뚱한",
         "example": "I feel **fat**.",
-        "translation": "",
+        "translation": "뚱뚱해진 느낌이야.",
         "antonym": "slim"
       },
       {
@@ -614,7 +614,7 @@
         "pronunciation": "/ˈskɪni/",
         "meaning": "마른",
         "example": "He's too **skinny**.",
-        "translation": "",
+        "translation": "그는 너무 말랐어.",
         "antonym": "fat"
       },
       {
@@ -622,7 +622,7 @@
         "pronunciation": "/ˌoʊvərˈweɪt/",
         "meaning": "과체중의",
         "example": "I'm a bit **overweight**.",
-        "translation": "",
+        "translation": "나 좀 과체중이야.",
         "antonym": "underweight"
       },
       {
@@ -630,7 +630,7 @@
         "pronunciation": "/fɪt/",
         "meaning": "건강한",
         "example": "He looks **fit**.",
-        "translation": "",
+        "translation": "그는 건강해 보여.",
         "antonym": "unfit"
       },
       {
@@ -638,7 +638,7 @@
         "pronunciation": "/ˈmʌskjələr/",
         "meaning": "근육질의",
         "example": "He has a **muscular** body.",
-        "translation": "",
+        "translation": "그는 근육질이야.",
         "antonym": "skinny"
       },
       {
@@ -646,7 +646,7 @@
         "pronunciation": "/bɔːld/",
         "meaning": "대머리의",
         "example": "My dad is **bald**.",
-        "translation": "",
+        "translation": "아빠는 대머리야.",
         "antonym": "hairy"
       },
       {
@@ -654,7 +654,7 @@
         "pronunciation": "/ˈkɜːrli/",
         "meaning": "곱슬곱슬한",
         "example": "I have **curly** hair.",
-        "translation": "",
+        "translation": "나 곱슬머리야.",
         "antonym": "straight"
       },
       {
@@ -662,7 +662,7 @@
         "pronunciation": "/streɪt/",
         "meaning": "곧은",
         "example": "Her hair is **straight**.",
-        "translation": "",
+        "translation": "그녀 머리는 직모야.",
         "antonym": "curly"
       },
       {
@@ -670,7 +670,7 @@
         "pronunciation": "/ˈweɪvi/",
         "meaning": "물결치는",
         "example": "She has **wavy** hair.",
-        "translation": "",
+        "translation": "그녀는 웨이브 머리야.",
         "antonym": "straight"
       },
       {
@@ -678,7 +678,7 @@
         "pronunciation": "/blɑːnd/",
         "meaning": "금발의",
         "example": "She's **blonde**.",
-        "translation": "",
+        "translation": "그녀는 금발이야.",
         "antonym": "-"
       },
       {
@@ -686,7 +686,7 @@
         "pronunciation": "/bruːˈnet/",
         "meaning": "갈색 머리의",
         "example": "She's a **brunette**.",
-        "translation": "",
+        "translation": "그녀는 갈색 머리야.",
         "antonym": "-"
       }
     ]
@@ -700,7 +700,7 @@
         "pronunciation": "/kaɪnd/",
         "meaning": "친절한",
         "example": "She's very **kind**.",
-        "translation": "",
+        "translation": "그녀는 매우 친절해.",
         "antonym": "mean"
       },
       {
@@ -708,7 +708,7 @@
         "pronunciation": "/naɪs/",
         "meaning": "좋은/착한",
         "example": "He's a **nice** guy.",
-        "translation": "",
+        "translation": "그는 좋은 사람이야.",
         "antonym": "mean"
       },
       {
@@ -716,7 +716,7 @@
         "pronunciation": "/ˈfrendli/",
         "meaning": "다정한",
         "example": "Everyone here is **friendly**.",
-        "translation": "",
+        "translation": "여기 사람들 다 친절해.",
         "antonym": "unfriendly"
       },
       {
@@ -724,7 +724,7 @@
         "pronunciation": "/wɔːrm/",
         "meaning": "따뜻한",
         "example": "She has a **warm** personality.",
-        "translation": "",
+        "translation": "그녀는 따뜻한 성격이야.",
         "antonym": "cold"
       },
       {
@@ -732,7 +732,7 @@
         "pronunciation": "/ˈdʒenərəs/",
         "meaning": "관대한",
         "example": "He's very **generous**.",
-        "translation": "",
+        "translation": "그는 매우 관대해.",
         "antonym": "selfish"
       },
       {
@@ -740,7 +740,7 @@
         "pronunciation": "/ˈselfɪʃ/",
         "meaning": "이기적인",
         "example": "Don't be **selfish**.",
-        "translation": "",
+        "translation": "이기적으로 굴지 마.",
         "antonym": "generous"
       },
       {
@@ -748,7 +748,7 @@
         "pronunciation": "/miːn/",
         "meaning": "심술궂은",
         "example": "Why are you being **mean**?",
-        "translation": "",
+        "translation": "왜 그렇게 심술궂게 굴어?",
         "antonym": "kind"
       },
       {
@@ -756,7 +756,7 @@
         "pronunciation": "/ˈkruːəl/",
         "meaning": "잔인한",
         "example": "That was **cruel** of you.",
-        "translation": "",
+        "translation": "그건 잔인한 행동이었어.",
         "antonym": "kind"
       },
       {
@@ -764,7 +764,7 @@
         "pronunciation": "/ruːd/",
         "meaning": "무례한",
         "example": "Don't be **rude** to strangers.",
-        "translation": "",
+        "translation": "낯선 사람에게 무례하게 굴지 마.",
         "antonym": "polite"
       },
       {
@@ -772,7 +772,7 @@
         "pronunciation": "/pəˈlaɪt/",
         "meaning": "예의 바른",
         "example": "He's always **polite**.",
-        "translation": "",
+        "translation": "그는 항상 예의 발라.",
         "antonym": "rude"
       },
       {
@@ -780,7 +780,7 @@
         "pronunciation": "/ˈɑːnɪst/",
         "meaning": "정직한",
         "example": "Be **honest** with me.",
-        "translation": "",
+        "translation": "솔직하게 말해.",
         "antonym": "dishonest"
       },
       {
@@ -788,7 +788,7 @@
         "pronunciation": "/dɪsˈɑːnɪst/",
         "meaning": "부정직한",
         "example": "He's **dishonest**.",
-        "translation": "",
+        "translation": "그는 정직하지 않아.",
         "antonym": "honest"
       },
       {
@@ -796,7 +796,7 @@
         "pronunciation": "/sɪnˈsɪr/",
         "meaning": "진실한",
         "example": "She seems **sincere**.",
-        "translation": "",
+        "translation": "그녀는 진심인 것 같아.",
         "antonym": "insincere"
       },
       {
@@ -804,7 +804,7 @@
         "pronunciation": "/ˈlɔɪəl/",
         "meaning": "충성스러운",
         "example": "He's a **loyal** friend.",
-        "translation": "",
+        "translation": "그는 충성스러운 친구야.",
         "antonym": "disloyal"
       },
       {
@@ -812,7 +812,7 @@
         "pronunciation": "/ˈtrʌstwɜːrði/",
         "meaning": "신뢰할 수 있는",
         "example": "She's very **trustworthy**.",
-        "translation": "",
+        "translation": "그녀는 신뢰할 수 있어.",
         "antonym": "untrustworthy"
       },
       {
@@ -820,7 +820,7 @@
         "pronunciation": "/rɪˈlaɪəbl/",
         "meaning": "믿을 수 있는",
         "example": "He's always **reliable**.",
-        "translation": "",
+        "translation": "그는 항상 믿을 수 있어.",
         "antonym": "unreliable"
       },
       {
@@ -828,7 +828,7 @@
         "pronunciation": "/rɪˈspɑːnsəbl/",
         "meaning": "책임감 있는",
         "example": "Be more **responsible**.",
-        "translation": "",
+        "translation": "좀 더 책임감 있게 해.",
         "antonym": "irresponsible"
       },
       {
@@ -836,7 +836,7 @@
         "pronunciation": "/məˈtʃʊr/",
         "meaning": "성숙한",
         "example": "She's very **mature** for her age.",
-        "translation": "",
+        "translation": "그녀는 나이에 비해 성숙해.",
         "antonym": "immature"
       },
       {
@@ -844,7 +844,7 @@
         "pronunciation": "/ˌɪməˈtʃʊr/",
         "meaning": "미성숙한",
         "example": "Stop being **immature**.",
-        "translation": "",
+        "translation": "유치하게 굴지 마.",
         "antonym": "mature"
       },
       {
@@ -852,7 +852,7 @@
         "pronunciation": "/ˈpeɪʃnt/",
         "meaning": "인내심 있는",
         "example": "Please be **patient**.",
-        "translation": "",
+        "translation": "인내심을 가져.",
         "antonym": "impatient"
       },
       {
@@ -860,7 +860,7 @@
         "pronunciation": "/ɪmˈpeɪʃnt/",
         "meaning": "성급한",
         "example": "I'm getting **impatient**.",
-        "translation": "",
+        "translation": "점점 참을 수가 없어.",
         "antonym": "patient"
       },
       {
@@ -868,7 +868,7 @@
         "pronunciation": "/kɑːm/",
         "meaning": "차분한",
         "example": "Stay **calm**.",
-        "translation": "",
+        "translation": "침착해.",
         "antonym": "nervous"
       },
       {
@@ -876,7 +876,7 @@
         "pronunciation": "/ˈkwaɪət/",
         "meaning": "조용한",
         "example": "He's a **quiet** person.",
-        "translation": "",
+        "translation": "그는 조용한 사람이야.",
         "antonym": "loud"
       },
       {
@@ -884,7 +884,7 @@
         "pronunciation": "/laʊd/",
         "meaning": "시끄러운",
         "example": "She's too **loud**.",
-        "translation": "",
+        "translation": "그녀는 너무 시끄러워.",
         "antonym": "quiet"
       },
       {
@@ -892,7 +892,7 @@
         "pronunciation": "/ʃaɪ/",
         "meaning": "수줍은",
         "example": "I'm a bit **shy**.",
-        "translation": "",
+        "translation": "나 좀 수줍어.",
         "antonym": "outgoing"
       },
       {
@@ -900,7 +900,7 @@
         "pronunciation": "/ˈaʊtɡoʊɪŋ/",
         "meaning": "외향적인",
         "example": "She's very **outgoing**.",
-        "translation": "",
+        "translation": "그녀는 매우 외향적이야.",
         "antonym": "shy"
       },
       {
@@ -908,7 +908,7 @@
         "pronunciation": "/ˈɪntrəvɜːrtɪd/",
         "meaning": "내성적인",
         "example": "I'm quite **introverted**.",
-        "translation": "",
+        "translation": "나는 꽤 내성적이야.",
         "antonym": "extroverted"
       },
       {
@@ -916,7 +916,7 @@
         "pronunciation": "/ˈekstrəvɜːrtɪd/",
         "meaning": "외향적인",
         "example": "He's very **extroverted**.",
-        "translation": "",
+        "translation": "그는 매우 외향적이야.",
         "antonym": "introverted"
       },
       {
@@ -924,7 +924,7 @@
         "pronunciation": "/ˈkɑːnfɪdənt/",
         "meaning": "자신감 있는",
         "example": "She seems **confident**.",
-        "translation": "",
+        "translation": "그녀는 자신감 있어 보여.",
         "antonym": "insecure"
       },
       {
@@ -932,7 +932,7 @@
         "pronunciation": "/ˌɪnsɪˈkjʊr/",
         "meaning": "불안정한",
         "example": "I feel **insecure** sometimes.",
-        "translation": "",
+        "translation": "가끔 불안해.",
         "antonym": "secure"
       },
       {
@@ -940,7 +940,7 @@
         "pronunciation": "/ˈhʌmbl/",
         "meaning": "겸손한",
         "example": "Stay **humble**.",
-        "translation": "",
+        "translation": "겸손해라.",
         "antonym": "arrogant"
       },
       {
@@ -948,7 +948,7 @@
         "pronunciation": "/ˈærəɡənt/",
         "meaning": "오만한",
         "example": "Don't be **arrogant**.",
-        "translation": "",
+        "translation": "거만하게 굴지 마.",
         "antonym": "humble"
       },
       {
@@ -956,7 +956,7 @@
         "pronunciation": "/praʊd/",
         "meaning": "자랑스러운",
         "example": "I'm **proud** of you.",
-        "translation": "",
+        "translation": "네가 자랑스러워.",
         "antonym": "humble"
       },
       {
@@ -964,7 +964,7 @@
         "pronunciation": "/ˈmɑːdɪst/",
         "meaning": "겸손한",
         "example": "She's very **modest**.",
-        "translation": "",
+        "translation": "그녀는 매우 겸손해.",
         "antonym": "arrogant"
       },
       {
@@ -972,7 +972,7 @@
         "pronunciation": "/breɪv/",
         "meaning": "용감한",
         "example": "You're so **brave**!",
-        "translation": "",
+        "translation": "넌 정말 용감해!",
         "antonym": "coward"
       },
       {
@@ -980,7 +980,7 @@
         "pronunciation": "/kəˈreɪdʒəs/",
         "meaning": "용감한",
         "example": "That was **courageous**.",
-        "translation": "",
+        "translation": "그건 용감한 행동이었어.",
         "antonym": "cowardly"
       },
       {
@@ -988,7 +988,7 @@
         "pronunciation": "/ˈkaʊərdli/",
         "meaning": "겁 많은",
         "example": "That was **cowardly**.",
-        "translation": "",
+        "translation": "그건 비겁한 행동이었어.",
         "antonym": "brave"
       },
       {
@@ -996,7 +996,7 @@
         "pronunciation": "/smɑːrt/",
         "meaning": "똑똑한",
         "example": "She's very **smart**.",
-        "translation": "",
+        "translation": "그녀는 매우 똑똑해.",
         "antonym": "stupid"
       },
       {
@@ -1004,7 +1004,7 @@
         "pronunciation": "/ɪnˈtelɪdʒənt/",
         "meaning": "지적인",
         "example": "He's highly **intelligent**.",
-        "translation": "",
+        "translation": "그는 매우 지적이야.",
         "antonym": "stupid"
       },
       {
@@ -1012,7 +1012,7 @@
         "pronunciation": "/ˈklevər/",
         "meaning": "영리한",
         "example": "That's a **clever** idea.",
-        "translation": "",
+        "translation": "영리한 생각이야.",
         "antonym": "dull"
       },
       {
@@ -1020,7 +1020,7 @@
         "pronunciation": "/waɪz/",
         "meaning": "현명한",
         "example": "She made a **wise** decision.",
-        "translation": "",
+        "translation": "그녀는 현명한 결정을 했어.",
         "antonym": "foolish"
       },
       {
@@ -1028,7 +1028,7 @@
         "pronunciation": "/ˈfuːlɪʃ/",
         "meaning": "어리석은",
         "example": "It was **foolish** of me.",
-        "translation": "",
+        "translation": "내가 어리석었어.",
         "antonym": "wise"
       },
       {
@@ -1036,7 +1036,7 @@
         "pronunciation": "/ˈstuːpɪd/",
         "meaning": "멍청한",
         "example": "That was a **stupid** mistake.",
-        "translation": "",
+        "translation": "그건 바보 같은 실수였어.",
         "antonym": "smart"
       },
       {
@@ -1044,7 +1044,7 @@
         "pronunciation": "/kriˈeɪtɪv/",
         "meaning": "창의적인",
         "example": "She's very **creative**.",
-        "translation": "",
+        "translation": "그녀는 매우 창의적이야.",
         "antonym": "unimaginative"
       },
       {
@@ -1052,7 +1052,7 @@
         "pronunciation": "/ˈkjʊriəs/",
         "meaning": "호기심 많은",
         "example": "Kids are naturally **curious**.",
-        "translation": "",
+        "translation": "아이들은 원래 호기심이 많아.",
         "antonym": "indifferent"
       },
       {
@@ -1060,7 +1060,7 @@
         "pronunciation": "/ˌhɑːrdˈwɜːrkɪŋ/",
         "meaning": "부지런한",
         "example": "She's very **hardworking**.",
-        "translation": "",
+        "translation": "그녀는 매우 부지런해.",
         "antonym": "lazy"
       },
       {
@@ -1068,7 +1068,7 @@
         "pronunciation": "/ˈleɪzi/",
         "meaning": "게으른",
         "example": "Don't be **lazy**.",
-        "translation": "",
+        "translation": "게으르게 굴지 마.",
         "antonym": "hardworking"
       },
       {
@@ -1076,7 +1076,7 @@
         "pronunciation": "/ˈdɪlɪdʒənt/",
         "meaning": "근면한",
         "example": "He's a **diligent** student.",
-        "translation": "",
+        "translation": "그는 성실한 학생이야.",
         "antonym": "lazy"
       },
       {
@@ -1084,7 +1084,7 @@
         "pronunciation": "/æmˈbɪʃəs/",
         "meaning": "야심 찬",
         "example": "She's very **ambitious**.",
-        "translation": "",
+        "translation": "그녀는 매우 야심 차.",
         "antonym": "unmotivated"
       },
       {
@@ -1092,7 +1092,7 @@
         "pronunciation": "/dɪˈtɜːrmɪnd/",
         "meaning": "단호한",
         "example": "He's **determined** to succeed.",
-        "translation": "",
+        "translation": "그는 성공하겠다고 결심했어.",
         "antonym": "indecisive"
       },
       {
@@ -1100,7 +1100,7 @@
         "pronunciation": "/ˈstʌbərn/",
         "meaning": "완고한",
         "example": "He's too **stubborn**.",
-        "translation": "",
+        "translation": "그는 너무 고집이 세.",
         "antonym": "flexible"
       },
       {
@@ -1108,7 +1108,7 @@
         "pronunciation": "/ˈfleksəbl/",
         "meaning": "유연한",
         "example": "Be more **flexible**.",
-        "translation": "",
+        "translation": "좀 더 유연해져.",
         "antonym": "stubborn"
       },
       {
@@ -1116,7 +1116,7 @@
         "pronunciation": "/ˈiːziɡoʊɪŋ/",
         "meaning": "느긋한",
         "example": "He's very **easygoing**.",
-        "translation": "",
+        "translation": "그는 매우 느긋해.",
         "antonym": "uptight"
       },
       {
@@ -1124,7 +1124,7 @@
         "pronunciation": "/ˈsɪriəs/",
         "meaning": "진지한",
         "example": "Are you **serious**?",
-        "translation": "",
+        "translation": "진심이야?",
         "antonym": "playful"
       },
       {
@@ -1132,7 +1132,7 @@
         "pronunciation": "/ˈfʌni/",
         "meaning": "재미있는",
         "example": "You're so **funny**!",
-        "translation": "",
+        "translation": "넌 정말 재밌어!",
         "antonym": "boring"
       },
       {
@@ -1140,7 +1140,7 @@
         "pronunciation": "/ˈhjuːmərəs/",
         "meaning": "유머러스한",
         "example": "He has a **humorous** personality.",
-        "translation": "",
+        "translation": "그는 유머러스한 성격이야.",
         "antonym": "serious"
       },
       {
@@ -1148,7 +1148,7 @@
         "pronunciation": "/ˈtʃɪrfl/",
         "meaning": "쾌활한",
         "example": "She's always **cheerful**.",
-        "translation": "",
+        "translation": "그녀는 항상 밝아.",
         "antonym": "gloomy"
       },
       {
@@ -1156,7 +1156,7 @@
         "pronunciation": "/ˌɑːptɪˈmɪstɪk/",
         "meaning": "낙관적인",
         "example": "Stay **optimistic**.",
-        "translation": "",
+        "translation": "낙관적으로 생각해.",
         "antonym": "pessimistic"
       },
       {
@@ -1164,7 +1164,7 @@
         "pronunciation": "/ˌpesɪˈmɪstɪk/",
         "meaning": "비관적인",
         "example": "Don't be so **pessimistic**.",
-        "translation": "",
+        "translation": "너무 비관적이지 마.",
         "antonym": "optimistic"
       },
       {
@@ -1172,7 +1172,7 @@
         "pronunciation": "/ˈtɔːkətɪv/",
         "meaning": "말이 많은",
         "example": "She's very **talkative**.",
-        "translation": "",
+        "translation": "그녀는 말이 많아.",
         "antonym": "quiet"
       },
       {
@@ -1180,7 +1180,7 @@
         "pronunciation": "/roʊˈmæntɪk/",
         "meaning": "낭만적인",
         "example": "He's so **romantic**.",
-        "translation": "",
+        "translation": "그는 정말 로맨틱해.",
         "antonym": "practical"
       },
       {
@@ -1188,7 +1188,7 @@
         "pronunciation": "/ˈpræktɪkl/",
         "meaning": "실용적인",
         "example": "She's very **practical**.",
-        "translation": "",
+        "translation": "그녀는 매우 현실적이야.",
         "antonym": "impractical"
       },
       {
@@ -1196,7 +1196,7 @@
         "pronunciation": "/ˌɪndɪˈpendənt/",
         "meaning": "독립적인",
         "example": "I want to be **independent**.",
-        "translation": "",
+        "translation": "독립하고 싶어.",
         "antonym": "dependent"
       },
       {
@@ -1204,7 +1204,7 @@
         "pronunciation": "/ˈsensətɪv/",
         "meaning": "민감한",
         "example": "She's very **sensitive**.",
-        "translation": "",
+        "translation": "그녀는 매우 예민해.",
         "antonym": "insensitive"
       },
       {
@@ -1212,7 +1212,7 @@
         "pronunciation": "/ˈθɔːtfl/",
         "meaning": "사려 깊은",
         "example": "That was very **thoughtful**.",
-        "translation": "",
+        "translation": "정말 사려 깊었어.",
         "antonym": "thoughtless"
       }
     ]
@@ -1226,7 +1226,7 @@
         "pronunciation": "/ˈhæpi/",
         "meaning": "행복한",
         "example": "I'm so **happy**!",
-        "translation": "",
+        "translation": "너무 행복해!",
         "antonym": "sad"
       },
       {
@@ -1234,7 +1234,7 @@
         "pronunciation": "/sæd/",
         "meaning": "슬픈",
         "example": "Why are you **sad**?",
-        "translation": "",
+        "translation": "왜 슬퍼?",
         "antonym": "happy"
       },
       {
@@ -1242,7 +1242,7 @@
         "pronunciation": "/ɡlæd/",
         "meaning": "기쁜",
         "example": "I'm **glad** to hear that.",
-        "translation": "",
+        "translation": "그 말 들으니 기뻐.",
         "antonym": "sad"
       },
       {
@@ -1250,7 +1250,7 @@
         "pronunciation": "/ˈdʒɔɪfl/",
         "meaning": "즐거운",
         "example": "It was a **joyful** moment.",
-        "translation": "",
+        "translation": "즐거운 순간이었어.",
         "antonym": "sorrowful"
       },
       {
@@ -1258,7 +1258,7 @@
         "pronunciation": "/ɪkˈsaɪtɪd/",
         "meaning": "신난",
         "example": "I'm so **excited**!",
-        "translation": "",
+        "translation": "너무 신나!",
         "antonym": "bored"
       },
       {
@@ -1266,7 +1266,7 @@
         "pronunciation": "/θrɪld/",
         "meaning": "매우 기쁜",
         "example": "I'm **thrilled** to meet you.",
-        "translation": "",
+        "translation": "만나서 정말 기뻐요.",
         "antonym": "disappointed"
       },
       {
@@ -1274,7 +1274,7 @@
         "pronunciation": "/pliːzd/",
         "meaning": "기쁜",
         "example": "I'm **pleased** with the results.",
-        "translation": "",
+        "translation": "결과에 만족해.",
         "antonym": "displeased"
       },
       {
@@ -1282,7 +1282,7 @@
         "pronunciation": "/ˈsætɪsfaɪd/",
         "meaning": "만족한",
         "example": "Are you **satisfied**?",
-        "translation": "",
+        "translation": "만족해?",
         "antonym": "dissatisfied"
       },
       {
@@ -1290,7 +1290,7 @@
         "pronunciation": "/kənˈtent/",
         "meaning": "만족한",
         "example": "I feel **content** with life.",
-        "translation": "",
+        "translation": "삶에 만족해.",
         "antonym": "discontent"
       },
       {
@@ -1298,7 +1298,7 @@
         "pronunciation": "/ˈɡreɪtfl/",
         "meaning": "감사하는",
         "example": "I'm **grateful** for your help.",
-        "translation": "",
+        "translation": "도움 주셔서 감사해요.",
         "antonym": "ungrateful"
       },
       {
@@ -1306,7 +1306,7 @@
         "pronunciation": "/ˈθæŋkfl/",
         "meaning": "감사하는",
         "example": "I'm **thankful** for everything.",
-        "translation": "",
+        "translation": "모든 것에 감사해.",
         "antonym": "ungrateful"
       },
       {
@@ -1314,7 +1314,7 @@
         "pronunciation": "/rɪˈliːvd/",
         "meaning": "안도하는",
         "example": "I'm so **relieved**!",
-        "translation": "",
+        "translation": "정말 다행이다!",
         "antonym": "worried"
       },
       {
@@ -1322,7 +1322,7 @@
         "pronunciation": "/praʊd/",
         "meaning": "자랑스러운",
         "example": "I'm **proud** of myself.",
-        "translation": "",
+        "translation": "나 자신이 자랑스러워.",
         "antonym": "ashamed"
       },
       {
@@ -1330,7 +1330,7 @@
         "pronunciation": "/ˈæŋɡri/",
         "meaning": "화난",
         "example": "Don't get **angry**.",
-        "translation": "",
+        "translation": "화내지 마.",
         "antonym": "calm"
       },
       {
@@ -1338,7 +1338,7 @@
         "pronunciation": "/mæd/",
         "meaning": "화난",
         "example": "Are you **mad** at me?",
-        "translation": "",
+        "translation": "나한테 화났어?",
         "antonym": "calm"
       },
       {
@@ -1346,7 +1346,7 @@
         "pronunciation": "/ˈfjʊriəs/",
         "meaning": "격노한",
         "example": "She was **furious**.",
-        "translation": "",
+        "translation": "그녀는 격노했어.",
         "antonym": "calm"
       },
       {
@@ -1354,7 +1354,7 @@
         "pronunciation": "/əˈnɔɪd/",
         "meaning": "짜증난",
         "example": "I'm so **annoyed**!",
-        "translation": "",
+        "translation": "진짜 짜증나!",
         "antonym": "pleased"
       },
       {
@@ -1362,7 +1362,7 @@
         "pronunciation": "/ˈɪrɪteɪtɪd/",
         "meaning": "짜증난",
         "example": "He seemed **irritated**.",
-        "translation": "",
+        "translation": "그는 짜증난 것 같았어.",
         "antonym": "calm"
       },
       {
@@ -1370,7 +1370,7 @@
         "pronunciation": "/ˈfrʌstreɪtɪd/",
         "meaning": "좌절한",
         "example": "I feel **frustrated**.",
-        "translation": "",
+        "translation": "좌절감이 느껴져.",
         "antonym": "satisfied"
       },
       {
@@ -1378,7 +1378,7 @@
         "pronunciation": "/ʌpˈset/",
         "meaning": "속상한",
         "example": "She's **upset** about something.",
-        "translation": "",
+        "translation": "그녀가 뭔가 때문에 속상해.",
         "antonym": "happy"
       },
       {
@@ -1386,7 +1386,7 @@
         "pronunciation": "/ˌdɪsəˈpɔɪntɪd/",
         "meaning": "실망한",
         "example": "I'm so **disappointed**.",
-        "translation": "",
+        "translation": "정말 실망했어.",
         "antonym": "pleased"
       },
       {
@@ -1394,7 +1394,7 @@
         "pronunciation": "/dɪˈprest/",
         "meaning": "우울한",
         "example": "I feel **depressed** lately.",
-        "translation": "",
+        "translation": "요즘 우울해.",
         "antonym": "happy"
       },
       {
@@ -1402,7 +1402,7 @@
         "pronunciation": "/ˈmɪzrəbl/",
         "meaning": "비참한",
         "example": "I feel **miserable**.",
-        "translation": "",
+        "translation": "기분이 비참해.",
         "antonym": "happy"
       },
       {
@@ -1410,7 +1410,7 @@
         "pronunciation": "/ˈloʊnli/",
         "meaning": "외로운",
         "example": "I feel **lonely** sometimes.",
-        "translation": "",
+        "translation": "가끔 외로워.",
         "antonym": "-"
       },
       {
@@ -1418,7 +1418,7 @@
         "pronunciation": "/ˈnɜːrvəs/",
         "meaning": "긴장한",
         "example": "I'm **nervous** about tomorrow.",
-        "translation": "",
+        "translation": "내일이 긴장돼.",
         "antonym": "calm"
       },
       {
@@ -1426,7 +1426,7 @@
         "pronunciation": "/ˈæŋkʃəs/",
         "meaning": "불안한",
         "example": "I feel **anxious**.",
-        "translation": "",
+        "translation": "불안해.",
         "antonym": "calm"
       },
       {
@@ -1434,7 +1434,7 @@
         "pronunciation": "/ˈwɜːrid/",
         "meaning": "걱정되는",
         "example": "I'm **worried** about you.",
-        "translation": "",
+        "translation": "네가 걱정돼.",
         "antonym": "relaxed"
       },
       {
@@ -1442,7 +1442,7 @@
         "pronunciation": "/strest/",
         "meaning": "스트레스 받은",
         "example": "I'm so **stressed** out.",
-        "translation": "",
+        "translation": "스트레스 받아 죽겠어.",
         "antonym": "relaxed"
       },
       {
@@ -1450,7 +1450,7 @@
         "pronunciation": "/tens/",
         "meaning": "긴장된",
         "example": "The atmosphere was **tense**.",
-        "translation": "",
+        "translation": "분위기가 긴장됐어.",
         "antonym": "relaxed"
       },
       {
@@ -1458,7 +1458,7 @@
         "pronunciation": "/skerd/",
         "meaning": "무서운",
         "example": "I'm **scared** of heights.",
-        "translation": "",
+        "translation": "나 고소공포증 있어.",
         "antonym": "brave"
       },
       {
@@ -1466,7 +1466,7 @@
         "pronunciation": "/əˈfreɪd/",
         "meaning": "두려운",
         "example": "Don't be **afraid**.",
-        "translation": "",
+        "translation": "두려워하지 마.",
         "antonym": "brave"
       },
       {
@@ -1474,7 +1474,7 @@
         "pronunciation": "/ˈfraɪtnd/",
         "meaning": "겁먹은",
         "example": "The child was **frightened**.",
-        "translation": "",
+        "translation": "아이가 겁먹었어.",
         "antonym": "calm"
       },
       {
@@ -1482,7 +1482,7 @@
         "pronunciation": "/ˈterəfaɪd/",
         "meaning": "겁에 질린",
         "example": "I was **terrified**!",
-        "translation": "",
+        "translation": "너무 무서웠어!",
         "antonym": "calm"
       },
       {
@@ -1490,7 +1490,7 @@
         "pronunciation": "/ʃɑːkt/",
         "meaning": "충격받은",
         "example": "I was **shocked** by the news.",
-        "translation": "",
+        "translation": "그 소식에 충격받았어.",
         "antonym": "calm"
       },
       {
@@ -1498,7 +1498,7 @@
         "pronunciation": "/sərˈpraɪzd/",
         "meaning": "놀란",
         "example": "I was **surprised** to see you.",
-        "translation": "",
+        "translation": "널 봐서 놀랐어.",
         "antonym": "-"
       },
       {
@@ -1506,7 +1506,7 @@
         "pronunciation": "/əˈmeɪzd/",
         "meaning": "놀란",
         "example": "I was **amazed** by the show.",
-        "translation": "",
+        "translation": "공연에 놀랐어.",
         "antonym": "-"
       },
       {
@@ -1514,7 +1514,7 @@
         "pronunciation": "/kənˈfjuːzd/",
         "meaning": "혼란스러운",
         "example": "I'm **confused**.",
-        "translation": "",
+        "translation": "헷갈려.",
         "antonym": "clear"
       },
       {
@@ -1522,7 +1522,7 @@
         "pronunciation": "/ˈpʌzld/",
         "meaning": "당혹한",
         "example": "He looked **puzzled**.",
-        "translation": "",
+        "translation": "그는 당혹스러워 보였어.",
         "antonym": "-"
       },
       {
@@ -1530,7 +1530,7 @@
         "pronunciation": "/bɔːrd/",
         "meaning": "지루한",
         "example": "I'm so **bored**.",
-        "translation": "",
+        "translation": "너무 지루해.",
         "antonym": "interested"
       },
       {
@@ -1538,7 +1538,7 @@
         "pronunciation": "/ˈtaɪərd/",
         "meaning": "피곤한",
         "example": "I'm **tired** today.",
-        "translation": "",
+        "translation": "오늘 피곤해.",
         "antonym": "energetic"
       },
       {
@@ -1546,7 +1546,7 @@
         "pronunciation": "/ɪɡˈzɔːstɪd/",
         "meaning": "지친",
         "example": "I'm completely **exhausted**.",
-        "translation": "",
+        "translation": "완전히 지쳤어.",
         "antonym": "energetic"
       },
       {
@@ -1554,7 +1554,7 @@
         "pronunciation": "/ˈsliːpi/",
         "meaning": "졸린",
         "example": "I feel **sleepy**.",
-        "translation": "",
+        "translation": "졸려.",
         "antonym": "awake"
       },
       {
@@ -1562,7 +1562,7 @@
         "pronunciation": "/əˈweɪk/",
         "meaning": "깨어 있는",
         "example": "I'm still **awake**.",
-        "translation": "",
+        "translation": "아직 안 잤어.",
         "antonym": "asleep"
       },
       {
@@ -1570,7 +1570,7 @@
         "pronunciation": "/ˌenərˈdʒetɪk/",
         "meaning": "활기찬",
         "example": "She's very **energetic**.",
-        "translation": "",
+        "translation": "그녀는 매우 활기차.",
         "antonym": "tired"
       },
       {
@@ -1578,7 +1578,7 @@
         "pronunciation": "/ˈlaɪvli/",
         "meaning": "활발한",
         "example": "The party was **lively**.",
-        "translation": "",
+        "translation": "파티가 활기찼어.",
         "antonym": "dull"
       },
       {
@@ -1586,7 +1586,7 @@
         "pronunciation": "/ɪnˌθuːziˈæstɪk/",
         "meaning": "열정적인",
         "example": "He's **enthusiastic** about sports.",
-        "translation": "",
+        "translation": "그는 스포츠에 열정적이야.",
         "antonym": "indifferent"
       },
       {
@@ -1594,7 +1594,7 @@
         "pronunciation": "/ˈpæʃənət/",
         "meaning": "열정적인",
         "example": "She's **passionate** about music.",
-        "translation": "",
+        "translation": "그녀는 음악에 열정적이야.",
         "antonym": "apathetic"
       },
       {
@@ -1602,7 +1602,7 @@
         "pronunciation": "/ˈdʒeləs/",
         "meaning": "질투하는",
         "example": "Are you **jealous**?",
-        "translation": "",
+        "translation": "질투나?",
         "antonym": "-"
       },
       {
@@ -1610,7 +1610,7 @@
         "pronunciation": "/ˈenviəs/",
         "meaning": "부러워하는",
         "example": "I'm **envious** of you.",
-        "translation": "",
+        "translation": "부럽다.",
         "antonym": "-"
       },
       {
@@ -1618,7 +1618,7 @@
         "pronunciation": "/ɪmˈbærəst/",
         "meaning": "당혹스러운",
         "example": "I was so **embarrassed**.",
-        "translation": "",
+        "translation": "너무 창피했어.",
         "antonym": "confident"
       },
       {
@@ -1626,7 +1626,7 @@
         "pronunciation": "/əˈʃeɪmd/",
         "meaning": "부끄러운",
         "example": "I'm **ashamed** of myself.",
-        "translation": "",
+        "translation": "나 자신이 부끄러워.",
         "antonym": "proud"
       },
       {
@@ -1634,7 +1634,7 @@
         "pronunciation": "/ˈɡɪlti/",
         "meaning": "죄책감을 느끼는",
         "example": "I feel **guilty** about it.",
-        "translation": "",
+        "translation": "그것에 대해 죄책감이 들어.",
         "antonym": "innocent"
       },
       {
@@ -1642,7 +1642,7 @@
         "pronunciation": "/ˈhoʊpfl/",
         "meaning": "희망적인",
         "example": "I'm **hopeful** about the future.",
-        "translation": "",
+        "translation": "미래에 대해 희망적이야.",
         "antonym": "hopeless"
       },
       {
@@ -1650,7 +1650,7 @@
         "pronunciation": "/ˈhoʊpləs/",
         "meaning": "절망적인",
         "example": "The situation seems **hopeless**.",
-        "translation": "",
+        "translation": "상황이 절망적으로 보여.",
         "antonym": "hopeful"
       },
       {
@@ -1658,7 +1658,7 @@
         "pronunciation": "/ˈkjʊriəs/",
         "meaning": "궁금한",
         "example": "I'm **curious** about that.",
-        "translation": "",
+        "translation": "그게 궁금해.",
         "antonym": "indifferent"
       }
     ]
@@ -1672,7 +1672,7 @@
         "pronunciation": "/ɡʊd/",
         "meaning": "좋은",
         "example": "The food was **good**.",
-        "translation": "",
+        "translation": "음식이 좋았어.",
         "antonym": "bad"
       },
       {
@@ -1680,7 +1680,7 @@
         "pronunciation": "/bæd/",
         "meaning": "나쁜",
         "example": "That's **bad** news.",
-        "translation": "",
+        "translation": "그거 안 좋은 소식이야.",
         "antonym": "good"
       },
       {
@@ -1688,7 +1688,7 @@
         "pronunciation": "/ɡreɪt/",
         "meaning": "훌륭한",
         "example": "You did a **great** job!",
-        "translation": "",
+        "translation": "잘했어!",
         "antonym": "terrible"
       },
       {
@@ -1696,7 +1696,7 @@
         "pronunciation": "/ˈeksələnt/",
         "meaning": "뛰어난",
         "example": "The service was **excellent**.",
-        "translation": "",
+        "translation": "서비스가 훌륭했어.",
         "antonym": "terrible"
       },
       {
@@ -1704,7 +1704,7 @@
         "pronunciation": "/ˈwʌndərfl/",
         "meaning": "멋진",
         "example": "It was **wonderful**!",
-        "translation": "",
+        "translation": "정말 멋졌어!",
         "antonym": "terrible"
       },
       {
@@ -1712,7 +1712,7 @@
         "pronunciation": "/əˈmeɪzɪŋ/",
         "meaning": "놀라운",
         "example": "That's **amazing**!",
-        "translation": "",
+        "translation": "놀랍다!",
         "antonym": "terrible"
       },
       {
@@ -1720,7 +1720,7 @@
         "pronunciation": "/fænˈtæstɪk/",
         "meaning": "환상적인",
         "example": "The view is **fantastic**!",
-        "translation": "",
+        "translation": "경치가 환상적이야!",
         "antonym": "terrible"
       },
       {
@@ -1728,7 +1728,7 @@
         "pronunciation": "/ˈɔːsəm/",
         "meaning": "굉장한",
         "example": "That's **awesome**!",
-        "translation": "",
+        "translation": "대박이다!",
         "antonym": "awful"
       },
       {
@@ -1736,7 +1736,7 @@
         "pronunciation": "/ˈterəbl/",
         "meaning": "끔찍한",
         "example": "The weather is **terrible**.",
-        "translation": "",
+        "translation": "날씨가 끔찍해.",
         "antonym": "wonderful"
       },
       {
@@ -1744,7 +1744,7 @@
         "pronunciation": "/ˈɔːfl/",
         "meaning": "끔찍한",
         "example": "That's **awful**!",
-        "translation": "",
+        "translation": "끔찍해!",
         "antonym": "wonderful"
       },
       {
@@ -1752,7 +1752,7 @@
         "pronunciation": "/ˈhɔːrəbl/",
         "meaning": "끔찍한",
         "example": "The food was **horrible**.",
-        "translation": "",
+        "translation": "음식이 끔찍했어.",
         "antonym": "wonderful"
       },
       {
@@ -1760,7 +1760,7 @@
         "pronunciation": "/oʊˈkeɪ/",
         "meaning": "괜찮은",
         "example": "Are you **okay**?",
-        "translation": "",
+        "translation": "괜찮아?",
         "antonym": "-"
       },
       {
@@ -1768,7 +1768,7 @@
         "pronunciation": "/faɪn/",
         "meaning": "괜찮은",
         "example": "I'm **fine**, thanks.",
-        "translation": "",
+        "translation": "괜찮아, 고마워.",
         "antonym": "-"
       },
       {
@@ -1776,7 +1776,7 @@
         "pronunciation": "/ˈpɜːrfɪkt/",
         "meaning": "완벽한",
         "example": "It's **perfect**!",
-        "translation": "",
+        "translation": "완벽해!",
         "antonym": "imperfect"
       },
       {
@@ -1784,7 +1784,7 @@
         "pronunciation": "/ɪmˈpɜːrfɪkt/",
         "meaning": "불완전한",
         "example": "Nobody is **imperfect**.",
-        "translation": "",
+        "translation": "누구나 불완전해.",
         "antonym": "perfect"
       },
       {
@@ -1792,7 +1792,7 @@
         "pronunciation": "/ˈnɔːrml/",
         "meaning": "정상적인",
         "example": "That's **normal**.",
-        "translation": "",
+        "translation": "그건 정상이야.",
         "antonym": "abnormal"
       },
       {
@@ -1800,7 +1800,7 @@
         "pronunciation": "/æbˈnɔːrml/",
         "meaning": "비정상적인",
         "example": "His behavior is **abnormal**.",
-        "translation": "",
+        "translation": "그의 행동은 비정상이야.",
         "antonym": "normal"
       },
       {
@@ -1808,7 +1808,7 @@
         "pronunciation": "/ˈjuːʒuəl/",
         "meaning": "보통의",
         "example": "As **usual**, I woke up late.",
-        "translation": "",
+        "translation": "평소처럼 늦게 일어났어.",
         "antonym": "unusual"
       },
       {
@@ -1816,7 +1816,7 @@
         "pronunciation": "/ʌnˈjuːʒuəl/",
         "meaning": "드문",
         "example": "That's **unusual** for her.",
-        "translation": "",
+        "translation": "그녀답지 않아.",
         "antonym": "usual"
       },
       {
@@ -1824,7 +1824,7 @@
         "pronunciation": "/ˈkɑːmən/",
         "meaning": "흔한",
         "example": "It's a **common** mistake.",
-        "translation": "",
+        "translation": "흔한 실수야.",
         "antonym": "rare"
       },
       {
@@ -1832,7 +1832,7 @@
         "pronunciation": "/rer/",
         "meaning": "드문",
         "example": "This opportunity is **rare**.",
-        "translation": "",
+        "translation": "이런 기회는 드물어.",
         "antonym": "common"
       },
       {
@@ -1840,7 +1840,7 @@
         "pronunciation": "/ˈtɪpɪkl/",
         "meaning": "전형적인",
         "example": "That's **typical** of him.",
-        "translation": "",
+        "translation": "그 사람 답다.",
         "antonym": "atypical"
       },
       {
@@ -1848,7 +1848,7 @@
         "pronunciation": "/ˈspeʃl/",
         "meaning": "특별한",
         "example": "You're **special** to me.",
-        "translation": "",
+        "translation": "넌 나한테 특별해.",
         "antonym": "ordinary"
       },
       {
@@ -1856,7 +1856,7 @@
         "pronunciation": "/ˈɔːrdneri/",
         "meaning": "평범한",
         "example": "It's just an **ordinary** day.",
-        "translation": "",
+        "translation": "그냥 평범한 날이야.",
         "antonym": "special"
       },
       {
@@ -1864,7 +1864,7 @@
         "pronunciation": "/juˈniːk/",
         "meaning": "독특한",
         "example": "Your style is **unique**.",
-        "translation": "",
+        "translation": "네 스타일은 독특해.",
         "antonym": "common"
       },
       {
@@ -1872,7 +1872,7 @@
         "pronunciation": "/əˈrɪdʒənl/",
         "meaning": "독창적인",
         "example": "That's an **original** idea.",
-        "translation": "",
+        "translation": "독창적인 아이디어야.",
         "antonym": "copied"
       },
       {
@@ -1880,7 +1880,7 @@
         "pronunciation": "/riːl/",
         "meaning": "진짜의",
         "example": "Is this **real**?",
-        "translation": "",
+        "translation": "이거 진짜야?",
         "antonym": "fake"
       },
       {
@@ -1888,7 +1888,7 @@
         "pronunciation": "/feɪk/",
         "meaning": "가짜의",
         "example": "That bag is **fake**.",
-        "translation": "",
+        "translation": "저 가방 가짜야.",
         "antonym": "real"
       },
       {
@@ -1896,7 +1896,7 @@
         "pronunciation": "/ˈdʒenjuɪn/",
         "meaning": "진짜의",
         "example": "It's a **genuine** product.",
-        "translation": "",
+        "translation": "정품이야.",
         "antonym": "fake"
       },
       {
@@ -1904,7 +1904,7 @@
         "pronunciation": "/truː/",
         "meaning": "진실의",
         "example": "Is it **true**?",
-        "translation": "",
+        "translation": "그거 사실이야?",
         "antonym": "false"
       },
       {
@@ -1912,7 +1912,7 @@
         "pronunciation": "/fɔːls/",
         "meaning": "거짓의",
         "example": "That's **false** information.",
-        "translation": "",
+        "translation": "그건 거짓 정보야.",
         "antonym": "true"
       },
       {
@@ -1920,7 +1920,7 @@
         "pronunciation": "/kəˈrekt/",
         "meaning": "맞는",
         "example": "Your answer is **correct**.",
-        "translation": "",
+        "translation": "네 답이 맞아.",
         "antonym": "wrong"
       },
       {
@@ -1928,7 +1928,7 @@
         "pronunciation": "/rɔːŋ/",
         "meaning": "틀린",
         "example": "You're **wrong** about that.",
-        "translation": "",
+        "translation": "그건 네가 틀렸어.",
         "antonym": "correct"
       },
       {
@@ -1936,7 +1936,7 @@
         "pronunciation": "/raɪt/",
         "meaning": "옳은",
         "example": "You're **right**!",
-        "translation": "",
+        "translation": "네 말이 맞아!",
         "antonym": "wrong"
       },
       {
@@ -1944,7 +1944,7 @@
         "pronunciation": "/ˈprɑːpər/",
         "meaning": "적절한",
         "example": "Use **proper** grammar.",
-        "translation": "",
+        "translation": "올바른 문법을 사용해.",
         "antonym": "improper"
       },
       {
@@ -1952,7 +1952,7 @@
         "pronunciation": "/əˈproʊpriət/",
         "meaning": "적절한",
         "example": "That's not **appropriate**.",
-        "translation": "",
+        "translation": "그건 적절하지 않아.",
         "antonym": "inappropriate"
       },
       {
@@ -1960,7 +1960,7 @@
         "pronunciation": "/ˈsuːtəbl/",
         "meaning": "적합한",
         "example": "Is this **suitable**?",
-        "translation": "",
+        "translation": "이게 적합해?",
         "antonym": "unsuitable"
       },
       {
@@ -1968,7 +1968,7 @@
         "pronunciation": "/əˈveɪləbl/",
         "meaning": "이용 가능한",
         "example": "Is this **available**?",
-        "translation": "",
+        "translation": "이거 가능해?",
         "antonym": "unavailable"
       },
       {
@@ -1976,7 +1976,7 @@
         "pronunciation": "/ˈredi/",
         "meaning": "준비된",
         "example": "Are you **ready**?",
-        "translation": "",
+        "translation": "준비됐어?",
         "antonym": "unprepared"
       },
       {
@@ -1984,7 +1984,7 @@
         "pronunciation": "/prɪˈperd/",
         "meaning": "준비된",
         "example": "I'm well **prepared**.",
-        "translation": "",
+        "translation": "잘 준비됐어.",
         "antonym": "unprepared"
       },
       {
@@ -1992,7 +1992,7 @@
         "pronunciation": "/kəmˈpliːt/",
         "meaning": "완전한",
         "example": "The project is **complete**.",
-        "translation": "",
+        "translation": "프로젝트 완료됐어.",
         "antonym": "incomplete"
       },
       {
@@ -2000,7 +2000,7 @@
         "pronunciation": "/ˌɪnkəmˈpliːt/",
         "meaning": "불완전한",
         "example": "The form is **incomplete**.",
-        "translation": "",
+        "translation": "양식이 불완전해.",
         "antonym": "complete"
       },
       {
@@ -2008,7 +2008,7 @@
         "pronunciation": "/ˈbroʊkən/",
         "meaning": "고장난",
         "example": "My phone is **broken**.",
-        "translation": "",
+        "translation": "폰이 고장났어.",
         "antonym": "fixed"
       },
       {
@@ -2016,7 +2016,7 @@
         "pronunciation": "/ˈdæmɪdʒd/",
         "meaning": "손상된",
         "example": "The package was **damaged**.",
-        "translation": "",
+        "translation": "택배가 손상됐어.",
         "antonym": "intact"
       },
       {
@@ -2024,7 +2024,7 @@
         "pronunciation": "/seɪf/",
         "meaning": "안전한",
         "example": "Is it **safe** here?",
-        "translation": "",
+        "translation": "여기 안전해?",
         "antonym": "dangerous"
       },
       {
@@ -2032,7 +2032,7 @@
         "pronunciation": "/ˈdeɪndʒərəs/",
         "meaning": "위험한",
         "example": "It's too **dangerous**.",
-        "translation": "",
+        "translation": "너무 위험해.",
         "antonym": "safe"
       },
       {
@@ -2040,7 +2040,7 @@
         "pronunciation": "/ˈrɪski/",
         "meaning": "위험한",
         "example": "That's **risky**.",
-        "translation": "",
+        "translation": "그건 위험해.",
         "antonym": "safe"
       },
       {
@@ -2048,7 +2048,7 @@
         "pronunciation": "/sɪˈkjʊr/",
         "meaning": "안전한",
         "example": "Is this website **secure**?",
-        "translation": "",
+        "translation": "이 웹사이트 안전해?",
         "antonym": "insecure"
       },
       {
@@ -2056,7 +2056,7 @@
         "pronunciation": "/ˈhelθi/",
         "meaning": "건강한",
         "example": "Stay **healthy**.",
-        "translation": "",
+        "translation": "건강해.",
         "antonym": "unhealthy"
       },
       {
@@ -2064,7 +2064,7 @@
         "pronunciation": "/sɪk/",
         "meaning": "아픈",
         "example": "I feel **sick**.",
-        "translation": "",
+        "translation": "아픈 것 같아.",
         "antonym": "healthy"
       }
     ]
@@ -2078,7 +2078,7 @@
         "pronunciation": "/fæst/",
         "meaning": "빠른",
         "example": "This car is **fast**.",
-        "translation": "",
+        "translation": "이 차는 빨라.",
         "antonym": "slow"
       },
       {
@@ -2086,7 +2086,7 @@
         "pronunciation": "/sloʊ/",
         "meaning": "느린",
         "example": "The internet is **slow**.",
-        "translation": "",
+        "translation": "인터넷이 느려.",
         "antonym": "fast"
       },
       {
@@ -2094,7 +2094,7 @@
         "pronunciation": "/kwɪk/",
         "meaning": "빠른",
         "example": "Can I have a **quick** word?",
-        "translation": "",
+        "translation": "잠깐 얘기할 수 있어?",
         "antonym": "slow"
       },
       {
@@ -2102,7 +2102,7 @@
         "pronunciation": "/ˈræpɪd/",
         "meaning": "급속한",
         "example": "There was **rapid** growth.",
-        "translation": "",
+        "translation": "급속한 성장이 있었어.",
         "antonym": "slow"
       },
       {
@@ -2110,7 +2110,7 @@
         "pronunciation": "/ˈɪnstənt/",
         "meaning": "즉각적인",
         "example": "I need an **instant** reply.",
-        "translation": "",
+        "translation": "즉각적인 답변이 필요해.",
         "antonym": "gradual"
       },
       {
@@ -2118,7 +2118,7 @@
         "pronunciation": "/ɪˈmiːdiət/",
         "meaning": "즉각적인",
         "example": "We need **immediate** action.",
-        "translation": "",
+        "translation": "즉각적인 조치가 필요해.",
         "antonym": "delayed"
       },
       {
@@ -2126,7 +2126,7 @@
         "pronunciation": "/ˈɡrædʒuəl/",
         "meaning": "점진적인",
         "example": "It was a **gradual** change.",
-        "translation": "",
+        "translation": "점진적인 변화였어.",
         "antonym": "sudden"
       },
       {
@@ -2134,7 +2134,7 @@
         "pronunciation": "/ˈsʌdn/",
         "meaning": "갑작스러운",
         "example": "It was a **sudden** decision.",
-        "translation": "",
+        "translation": "갑작스러운 결정이었어.",
         "antonym": "gradual"
       },
       {
@@ -2142,7 +2142,7 @@
         "pronunciation": "/ˈɜːrli/",
         "meaning": "이른",
         "example": "You're **early** today.",
-        "translation": "",
+        "translation": "오늘 일찍 왔네.",
         "antonym": "late"
       },
       {
@@ -2150,7 +2150,7 @@
         "pronunciation": "/leɪt/",
         "meaning": "늦은",
         "example": "Sorry, I'm **late**.",
-        "translation": "",
+        "translation": "미안, 늦었어.",
         "antonym": "early"
       },
       {
@@ -2158,7 +2158,7 @@
         "pronunciation": "/ˈriːsnt/",
         "meaning": "최근의",
         "example": "It's a **recent** photo.",
-        "translation": "",
+        "translation": "최근 사진이야.",
         "antonym": "old"
       },
       {
@@ -2166,7 +2166,7 @@
         "pronunciation": "/ˈkɜːrənt/",
         "meaning": "현재의",
         "example": "What's your **current** job?",
-        "translation": "",
+        "translation": "현재 직업이 뭐야?",
         "antonym": "former"
       },
       {
@@ -2174,7 +2174,7 @@
         "pronunciation": "/ˈfɔːrmər/",
         "meaning": "이전의",
         "example": "He's my **former** boss.",
-        "translation": "",
+        "translation": "그는 전 상사야.",
         "antonym": "current"
       },
       {
@@ -2182,7 +2182,7 @@
         "pronunciation": "/ˈpriːviəs/",
         "meaning": "이전의",
         "example": "What was your **previous** job?",
-        "translation": "",
+        "translation": "이전 직업은 뭐였어?",
         "antonym": "next"
       },
       {
@@ -2190,7 +2190,7 @@
         "pronunciation": "/nekst/",
         "meaning": "다음의",
         "example": "See you **next** week.",
-        "translation": "",
+        "translation": "다음 주에 봐.",
         "antonym": "previous"
       },
       {
@@ -2198,7 +2198,7 @@
         "pronunciation": "/ˈfɑːloʊɪŋ/",
         "meaning": "다음의",
         "example": "The **following** day was sunny.",
-        "translation": "",
+        "translation": "그 다음 날은 화창했어.",
         "antonym": "previous"
       },
       {
@@ -2206,7 +2206,7 @@
         "pronunciation": "/ˈfjuːtʃər/",
         "meaning": "미래의",
         "example": "My **future** plans are unclear.",
-        "translation": "",
+        "translation": "미래 계획이 불분명해.",
         "antonym": "past"
       },
       {
@@ -2214,7 +2214,7 @@
         "pronunciation": "/pæst/",
         "meaning": "과거의",
         "example": "Let go of the **past**.",
-        "translation": "",
+        "translation": "과거를 놓아.",
         "antonym": "future"
       },
       {
@@ -2222,7 +2222,7 @@
         "pronunciation": "/ˈpreznt/",
         "meaning": "현재의",
         "example": "Focus on the **present**.",
-        "translation": "",
+        "translation": "현재에 집중해.",
         "antonym": "past"
       },
       {
@@ -2230,7 +2230,7 @@
         "pronunciation": "/ˈeɪnʃənt/",
         "meaning": "고대의",
         "example": "It's an **ancient** temple.",
-        "translation": "",
+        "translation": "고대 사원이야.",
         "antonym": "modern"
       },
       {
@@ -2238,7 +2238,7 @@
         "pronunciation": "/ˈmɑːdərn/",
         "meaning": "현대의",
         "example": "I prefer **modern** design.",
-        "translation": "",
+        "translation": "현대적 디자인을 선호해.",
         "antonym": "ancient"
       },
       {
@@ -2246,7 +2246,7 @@
         "pronunciation": "/ˈtempəreri/",
         "meaning": "일시적인",
         "example": "It's a **temporary** solution.",
-        "translation": "",
+        "translation": "임시 방편이야.",
         "antonym": "permanent"
       },
       {
@@ -2254,7 +2254,7 @@
         "pronunciation": "/ˈpɜːrmənənt/",
         "meaning": "영구적인",
         "example": "Is this **permanent**?",
-        "translation": "",
+        "translation": "이거 영구적이야?",
         "antonym": "temporary"
       },
       {
@@ -2262,7 +2262,7 @@
         "pronunciation": "/briːf/",
         "meaning": "짧은",
         "example": "I had a **brief** meeting.",
-        "translation": "",
+        "translation": "짧은 회의가 있었어.",
         "antonym": "long"
       },
       {
@@ -2270,7 +2270,7 @@
         "pronunciation": "/ˈkɑːnstənt/",
         "meaning": "끊임없는",
         "example": "There's **constant** noise.",
-        "translation": "",
+        "translation": "소음이 끊이질 않아.",
         "antonym": "occasional"
       },
       {
@@ -2278,7 +2278,7 @@
         "pronunciation": "/ˈfriːkwənt/",
         "meaning": "빈번한",
         "example": "**Frequent** exercise is good.",
-        "translation": "",
+        "translation": "자주 운동하는 게 좋아.",
         "antonym": "rare"
       },
       {
@@ -2286,7 +2286,7 @@
         "pronunciation": "/əˈkeɪʒnəl/",
         "meaning": "가끔의",
         "example": "I drink **occasional** coffee.",
-        "translation": "",
+        "translation": "가끔 커피를 마셔.",
         "antonym": "frequent"
       },
       {
@@ -2294,7 +2294,7 @@
         "pronunciation": "/ˈreɡjələr/",
         "meaning": "정기적인",
         "example": "I need **regular** check-ups.",
-        "translation": "",
+        "translation": "정기 검진이 필요해.",
         "antonym": "irregular"
       },
       {
@@ -2302,7 +2302,7 @@
         "pronunciation": "/ɪˈreɡjələr/",
         "meaning": "불규칙한",
         "example": "My schedule is **irregular**.",
-        "translation": "",
+        "translation": "내 일정은 불규칙해.",
         "antonym": "regular"
       },
       {
@@ -2310,7 +2310,7 @@
         "pronunciation": "/ˈdeɪli/",
         "meaning": "매일의",
         "example": "It's my **daily** routine.",
-        "translation": "",
+        "translation": "내 일과야.",
         "antonym": "-"
       },
       {
@@ -2318,7 +2318,7 @@
         "pronunciation": "/ˈwiːkli/",
         "meaning": "매주의",
         "example": "We have **weekly** meetings.",
-        "translation": "",
+        "translation": "매주 회의가 있어.",
         "antonym": "-"
       },
       {
@@ -2326,7 +2326,7 @@
         "pronunciation": "/ˈmʌnθli/",
         "meaning": "매월의",
         "example": "I pay **monthly** rent.",
-        "translation": "",
+        "translation": "월세를 내.",
         "antonym": "-"
       },
       {
@@ -2334,7 +2334,7 @@
         "pronunciation": "/ˈjɪrli/",
         "meaning": "매년의",
         "example": "It's a **yearly** event.",
-        "translation": "",
+        "translation": "매년 하는 행사야.",
         "antonym": "-"
       },
       {
@@ -2342,7 +2342,7 @@
         "pronunciation": "/ˈænjuəl/",
         "meaning": "연간의",
         "example": "It's the **annual** conference.",
-        "translation": "",
+        "translation": "연례 회의야.",
         "antonym": "-"
       },
       {
@@ -2350,7 +2350,7 @@
         "pronunciation": "/ɪˈtɜːrnl/",
         "meaning": "영원한",
         "example": "Nothing is **eternal**.",
-        "translation": "",
+        "translation": "영원한 건 없어.",
         "antonym": "temporary"
       }
     ]
@@ -2364,7 +2364,7 @@
         "pronunciation": "/sɔːft/",
         "meaning": "부드러운",
         "example": "The pillow is **soft**.",
-        "translation": "",
+        "translation": "베개가 부드러워.",
         "antonym": "hard"
       },
       {
@@ -2372,7 +2372,7 @@
         "pronunciation": "/hɑːrd/",
         "meaning": "딱딱한",
         "example": "This bed is too **hard**.",
-        "translation": "",
+        "translation": "이 침대 너무 딱딱해.",
         "antonym": "soft"
       },
       {
@@ -2380,7 +2380,7 @@
         "pronunciation": "/smuːð/",
         "meaning": "매끄러운",
         "example": "Her skin is **smooth**.",
-        "translation": "",
+        "translation": "그녀 피부가 매끄러워.",
         "antonym": "rough"
       },
       {
@@ -2388,7 +2388,7 @@
         "pronunciation": "/rʌf/",
         "meaning": "거친",
         "example": "The surface is **rough**.",
-        "translation": "",
+        "translation": "표면이 거칠어.",
         "antonym": "smooth"
       },
       {
@@ -2396,7 +2396,7 @@
         "pronunciation": "/ʃɑːrp/",
         "meaning": "날카로운",
         "example": "Be careful, it's **sharp**.",
-        "translation": "",
+        "translation": "조심해, 날카로워.",
         "antonym": "dull"
       },
       {
@@ -2404,7 +2404,7 @@
         "pronunciation": "/blʌnt/",
         "meaning": "무딘",
         "example": "The knife is **blunt**.",
-        "translation": "",
+        "translation": "칼이 무뎌.",
         "antonym": "sharp"
       },
       {
@@ -2412,7 +2412,7 @@
         "pronunciation": "/wet/",
         "meaning": "젖은",
         "example": "My clothes are **wet**.",
-        "translation": "",
+        "translation": "옷이 젖었어.",
         "antonym": "dry"
       },
       {
@@ -2420,7 +2420,7 @@
         "pronunciation": "/draɪ/",
         "meaning": "마른",
         "example": "The paint is **dry**.",
-        "translation": "",
+        "translation": "페인트가 말랐어.",
         "antonym": "wet"
       },
       {
@@ -2428,7 +2428,7 @@
         "pronunciation": "/dæmp/",
         "meaning": "축축한",
         "example": "The towel is **damp**.",
-        "translation": "",
+        "translation": "수건이 축축해.",
         "antonym": "dry"
       },
       {
@@ -2436,7 +2436,7 @@
         "pronunciation": "/mɔɪst/",
         "meaning": "촉촉한",
         "example": "Keep the soil **moist**.",
-        "translation": "",
+        "translation": "흙을 촉촉하게 유지해.",
         "antonym": "dry"
       },
       {
@@ -2444,7 +2444,7 @@
         "pronunciation": "/ˈstɪki/",
         "meaning": "끈적한",
         "example": "My hands are **sticky**.",
-        "translation": "",
+        "translation": "손이 끈적해.",
         "antonym": "-"
       },
       {
@@ -2452,7 +2452,7 @@
         "pronunciation": "/ˈslɪpəri/",
         "meaning": "미끄러운",
         "example": "The floor is **slippery**.",
-        "translation": "",
+        "translation": "바닥이 미끄러워.",
         "antonym": "rough"
       },
       {
@@ -2460,7 +2460,7 @@
         "pronunciation": "/ˈsɑːlɪd/",
         "meaning": "단단한",
         "example": "It's **solid** gold.",
-        "translation": "",
+        "translation": "순금이야.",
         "antonym": "liquid"
       },
       {
@@ -2468,7 +2468,7 @@
         "pronunciation": "/ˈlɪkwɪd/",
         "meaning": "액체의",
         "example": "It's a **liquid** detergent.",
-        "translation": "",
+        "translation": "액체 세제야.",
         "antonym": "solid"
       },
       {
@@ -2476,7 +2476,7 @@
         "pronunciation": "/ˈflʌfi/",
         "meaning": "푹신한",
         "example": "The blanket is **fluffy**.",
-        "translation": "",
+        "translation": "담요가 푹신해.",
         "antonym": "flat"
       },
       {
@@ -2484,7 +2484,7 @@
         "pronunciation": "/flæt/",
         "meaning": "평평한",
         "example": "The road is **flat**.",
-        "translation": "",
+        "translation": "도로가 평평해.",
         "antonym": "bumpy"
       },
       {
@@ -2492,7 +2492,7 @@
         "pronunciation": "/ˈbʌmpi/",
         "meaning": "울퉁불퉁한",
         "example": "The road is **bumpy**.",
-        "translation": "",
+        "translation": "도로가 울퉁불퉁해.",
         "antonym": "smooth"
       },
       {
@@ -2500,7 +2500,7 @@
         "pronunciation": "/ˈkrɪspi/",
         "meaning": "바삭한",
         "example": "I like **crispy** bacon.",
-        "translation": "",
+        "translation": "바삭한 베이컨 좋아해.",
         "antonym": "soggy"
       },
       {
@@ -2508,7 +2508,7 @@
         "pronunciation": "/ˈkrʌntʃi/",
         "meaning": "바삭한",
         "example": "These chips are **crunchy**.",
-        "translation": "",
+        "translation": "이 과자 바삭해.",
         "antonym": "soft"
       },
       {
@@ -2516,7 +2516,7 @@
         "pronunciation": "/ˈtʃuːi/",
         "meaning": "쫄깃한",
         "example": "The noodles are **chewy**.",
-        "translation": "",
+        "translation": "면이 쫄깃해.",
         "antonym": "-"
       },
       {
@@ -2524,7 +2524,7 @@
         "pronunciation": "/ˈtendər/",
         "meaning": "부드러운",
         "example": "The meat is **tender**.",
-        "translation": "",
+        "translation": "고기가 부드러워.",
         "antonym": "tough"
       },
       {
@@ -2532,7 +2532,7 @@
         "pronunciation": "/tʌf/",
         "meaning": "질긴",
         "example": "This steak is **tough**.",
-        "translation": "",
+        "translation": "이 스테이크 질겨.",
         "antonym": "tender"
       },
       {
@@ -2540,7 +2540,7 @@
         "pronunciation": "/ˈsɪlki/",
         "meaning": "실크 같은",
         "example": "Her hair feels **silky**.",
-        "translation": "",
+        "translation": "그녀 머리가 실크 같아.",
         "antonym": "rough"
       },
       {
@@ -2548,7 +2548,7 @@
         "pronunciation": "/ˈfʌzi/",
         "meaning": "보송보송한",
         "example": "The peach is **fuzzy**.",
-        "translation": "",
+        "translation": "복숭아가 보송보송해.",
         "antonym": "smooth"
       },
       {
@@ -2556,7 +2556,7 @@
         "pronunciation": "/ˈwʊdn/",
         "meaning": "나무의",
         "example": "It's a **wooden** table.",
-        "translation": "",
+        "translation": "나무 테이블이야.",
         "antonym": "-"
       },
       {
@@ -2564,7 +2564,7 @@
         "pronunciation": "/ˈmetl/",
         "meaning": "금속의",
         "example": "It's a **metal** frame.",
-        "translation": "",
+        "translation": "금속 프레임이야.",
         "antonym": "-"
       },
       {
@@ -2572,7 +2572,7 @@
         "pronunciation": "/ˈplæstɪk/",
         "meaning": "플라스틱의",
         "example": "It's a **plastic** bag.",
-        "translation": "",
+        "translation": "비닐봉지야.",
         "antonym": "-"
       },
       {
@@ -2580,7 +2580,7 @@
         "pronunciation": "/ˈleðər/",
         "meaning": "가죽의",
         "example": "It's a **leather** jacket.",
-        "translation": "",
+        "translation": "가죽 재킷이야.",
         "antonym": "-"
       },
       {
@@ -2588,7 +2588,7 @@
         "pronunciation": "/ˈkɑːtn/",
         "meaning": "면의",
         "example": "It's 100% **cotton**.",
-        "translation": "",
+        "translation": "100% 면이야.",
         "antonym": "-"
       },
       {
@@ -2596,7 +2596,7 @@
         "pronunciation": "/ˈwʊlən/",
         "meaning": "양모의",
         "example": "It's a **woolen** sweater.",
-        "translation": "",
+        "translation": "울 스웨터야.",
         "antonym": "-"
       }
     ]
@@ -2610,7 +2610,7 @@
         "pronunciation": "/swiːt/",
         "meaning": "달콤한",
         "example": "This cake is **sweet**.",
-        "translation": "",
+        "translation": "이 케이크 달아.",
         "antonym": "bitter"
       },
       {
@@ -2618,7 +2618,7 @@
         "pronunciation": "/ˈbɪtər/",
         "meaning": "쓴",
         "example": "The coffee is **bitter**.",
-        "translation": "",
+        "translation": "커피가 써.",
         "antonym": "sweet"
       },
       {
@@ -2626,7 +2626,7 @@
         "pronunciation": "/ˈsaʊər/",
         "meaning": "신",
         "example": "This lemon is **sour**.",
-        "translation": "",
+        "translation": "이 레몬 셔.",
         "antonym": "sweet"
       },
       {
@@ -2634,7 +2634,7 @@
         "pronunciation": "/ˈsɔːlti/",
         "meaning": "짠",
         "example": "The soup is **salty**.",
-        "translation": "",
+        "translation": "수프가 짜.",
         "antonym": "bland"
       },
       {
@@ -2642,7 +2642,7 @@
         "pronunciation": "/ˈspaɪsi/",
         "meaning": "매운",
         "example": "I love **spicy** food.",
-        "translation": "",
+        "translation": "매운 음식 좋아해.",
         "antonym": "mild"
       },
       {
@@ -2650,7 +2650,7 @@
         "pronunciation": "/maɪld/",
         "meaning": "순한",
         "example": "It's **mild** curry.",
-        "translation": "",
+        "translation": "순한 카레야.",
         "antonym": "spicy"
       },
       {
@@ -2658,7 +2658,7 @@
         "pronunciation": "/hɑːt/",
         "meaning": "매운/뜨거운",
         "example": "This is too **hot**!",
-        "translation": "",
+        "translation": "이거 너무 매워!",
         "antonym": "cold"
       },
       {
@@ -2666,7 +2666,7 @@
         "pronunciation": "/blænd/",
         "meaning": "싱거운",
         "example": "The food is **bland**.",
-        "translation": "",
+        "translation": "음식이 싱거워.",
         "antonym": "tasty"
       },
       {
@@ -2674,7 +2674,7 @@
         "pronunciation": "/ˈteɪsti/",
         "meaning": "맛있는",
         "example": "This is really **tasty**!",
-        "translation": "",
+        "translation": "이거 정말 맛있어!",
         "antonym": "tasteless"
       },
       {
@@ -2682,7 +2682,7 @@
         "pronunciation": "/ˈteɪstləs/",
         "meaning": "맛없는",
         "example": "The food is **tasteless**.",
-        "translation": "",
+        "translation": "음식 맛이 없어.",
         "antonym": "tasty"
       },
       {
@@ -2690,7 +2690,7 @@
         "pronunciation": "/dɪˈlɪʃəs/",
         "meaning": "맛있는",
         "example": "This is **delicious**!",
-        "translation": "",
+        "translation": "맛있다!",
         "antonym": "disgusting"
       },
       {
@@ -2698,7 +2698,7 @@
         "pronunciation": "/ˈjʌmi/",
         "meaning": "맛있는",
         "example": "**Yummy**!",
-        "translation": "",
+        "translation": "맛있어!",
         "antonym": "yucky"
       },
       {
@@ -2706,7 +2706,7 @@
         "pronunciation": "/dɪsˈɡʌstɪŋ/",
         "meaning": "역겨운",
         "example": "That smells **disgusting**.",
-        "translation": "",
+        "translation": "냄새가 역겨워.",
         "antonym": "delicious"
       },
       {
@@ -2714,7 +2714,7 @@
         "pronunciation": "/ˈseɪvəri/",
         "meaning": "풍미있는",
         "example": "I prefer **savory** snacks.",
-        "translation": "",
+        "translation": "짭짤한 간식이 좋아.",
         "antonym": "bland"
       },
       {
@@ -2722,7 +2722,7 @@
         "pronunciation": "/rɪtʃ/",
         "meaning": "진한",
         "example": "This sauce is **rich**.",
-        "translation": "",
+        "translation": "이 소스는 진해.",
         "antonym": "light"
       },
       {
@@ -2730,7 +2730,7 @@
         "pronunciation": "/laɪt/",
         "meaning": "가벼운",
         "example": "I want something **light**.",
-        "translation": "",
+        "translation": "가벼운 거 먹고 싶어.",
         "antonym": "rich"
       },
       {
@@ -2738,7 +2738,7 @@
         "pronunciation": "/ˈkriːmi/",
         "meaning": "크리미한",
         "example": "I love **creamy** pasta.",
-        "translation": "",
+        "translation": "크림 파스타 좋아해.",
         "antonym": "-"
       },
       {
@@ -2746,7 +2746,7 @@
         "pronunciation": "/ˈdʒuːsi/",
         "meaning": "즙이 많은",
         "example": "This orange is **juicy**.",
-        "translation": "",
+        "translation": "이 오렌지 즙이 많아.",
         "antonym": "dry"
       },
       {
@@ -2754,7 +2754,7 @@
         "pronunciation": "/raɪp/",
         "meaning": "익은",
         "example": "The banana is **ripe**.",
-        "translation": "",
+        "translation": "바나나가 익었어.",
         "antonym": "unripe"
       },
       {
@@ -2762,7 +2762,7 @@
         "pronunciation": "/ʌnˈraɪp/",
         "meaning": "덜 익은",
         "example": "This mango is **unripe**.",
-        "translation": "",
+        "translation": "이 망고 덜 익었어.",
         "antonym": "ripe"
       },
       {
@@ -2770,7 +2770,7 @@
         "pronunciation": "/rɔː/",
         "meaning": "날것의",
         "example": "I don't eat **raw** fish.",
-        "translation": "",
+        "translation": "생선회 안 먹어.",
         "antonym": "cooked"
       },
       {
@@ -2778,7 +2778,7 @@
         "pronunciation": "/kʊkt/",
         "meaning": "익힌",
         "example": "Is the chicken **cooked**?",
-        "translation": "",
+        "translation": "치킨 익었어?",
         "antonym": "raw"
       },
       {
@@ -2786,7 +2786,7 @@
         "pronunciation": "/freʃ/",
         "meaning": "신선한",
         "example": "The vegetables are **fresh**.",
-        "translation": "",
+        "translation": "야채가 신선해.",
         "antonym": "stale"
       },
       {
@@ -2794,7 +2794,7 @@
         "pronunciation": "/ˈrɑːtn/",
         "meaning": "썩은",
         "example": "The fruit is **rotten**.",
-        "translation": "",
+        "translation": "과일이 썩었어.",
         "antonym": "fresh"
       },
       {
@@ -2802,7 +2802,7 @@
         "pronunciation": "/ˈfreɪɡrənt/",
         "meaning": "향기로운",
         "example": "The flowers are **fragrant**.",
-        "translation": "",
+        "translation": "꽃이 향기로워.",
         "antonym": "smelly"
       },
       {
@@ -2810,7 +2810,7 @@
         "pronunciation": "/ˈsmeli/",
         "meaning": "냄새나는",
         "example": "Something is **smelly** here.",
-        "translation": "",
+        "translation": "여기 뭔가 냄새나.",
         "antonym": "fragrant"
       },
       {
@@ -2818,7 +2818,7 @@
         "pronunciation": "/ˈstɪŋki/",
         "meaning": "악취나는",
         "example": "That cheese is **stinky**.",
-        "translation": "",
+        "translation": "그 치즈 냄새나.",
         "antonym": "fragrant"
       },
       {
@@ -2826,7 +2826,7 @@
         "pronunciation": "/ˌærəˈmætɪk/",
         "meaning": "향기로운",
         "example": "This coffee is **aromatic**.",
-        "translation": "",
+        "translation": "이 커피 향이 좋아.",
         "antonym": "odorless"
       },
       {
@@ -2834,7 +2834,7 @@
         "pronunciation": "/ˈoʊdərləs/",
         "meaning": "무취의",
         "example": "The gas is **odorless**.",
-        "translation": "",
+        "translation": "그 가스는 냄새가 없어.",
         "antonym": "smelly"
       },
       {
@@ -2842,7 +2842,7 @@
         "pronunciation": "/ˈpʌndʒənt/",
         "meaning": "자극적인",
         "example": "Garlic has a **pungent** smell.",
-        "translation": "",
+        "translation": "마늘은 냄새가 강해.",
         "antonym": "mild"
       }
     ]
@@ -2856,7 +2856,7 @@
         "pronunciation": "/hɑːt/",
         "meaning": "뜨거운",
         "example": "It's **hot** today.",
-        "translation": "",
+        "translation": "오늘 더워.",
         "antonym": "cold"
       },
       {
@@ -2864,7 +2864,7 @@
         "pronunciation": "/koʊld/",
         "meaning": "차가운",
         "example": "It's **cold** outside.",
-        "translation": "",
+        "translation": "밖이 추워.",
         "antonym": "hot"
       },
       {
@@ -2872,7 +2872,7 @@
         "pronunciation": "/wɔːrm/",
         "meaning": "따뜻한",
         "example": "It's nice and **warm**.",
-        "translation": "",
+        "translation": "따뜻해서 좋아.",
         "antonym": "cool"
       },
       {
@@ -2880,7 +2880,7 @@
         "pronunciation": "/kuːl/",
         "meaning": "시원한",
         "example": "The breeze is **cool**.",
-        "translation": "",
+        "translation": "바람이 시원해.",
         "antonym": "warm"
       },
       {
@@ -2888,7 +2888,7 @@
         "pronunciation": "/ˈfriːzɪŋ/",
         "meaning": "얼어붙는",
         "example": "It's **freezing** cold!",
-        "translation": "",
+        "translation": "얼어 죽겠어!",
         "antonym": "boiling"
       },
       {
@@ -2896,7 +2896,7 @@
         "pronunciation": "/ˈbɔɪlɪŋ/",
         "meaning": "끓는",
         "example": "It's **boiling** hot!",
-        "translation": "",
+        "translation": "끓는 듯이 더워!",
         "antonym": "freezing"
       },
       {
@@ -2904,7 +2904,7 @@
         "pronunciation": "/ˈtʃɪli/",
         "meaning": "쌀쌀한",
         "example": "It's a bit **chilly**.",
-        "translation": "",
+        "translation": "좀 쌀쌀해.",
         "antonym": "warm"
       },
       {
@@ -2912,7 +2912,7 @@
         "pronunciation": "/ˈhjuːmɪd/",
         "meaning": "습한",
         "example": "It's very **humid** today.",
-        "translation": "",
+        "translation": "오늘 습해.",
         "antonym": "dry"
       },
       {
@@ -2920,7 +2920,7 @@
         "pronunciation": "/draɪ/",
         "meaning": "건조한",
         "example": "The air is **dry**.",
-        "translation": "",
+        "translation": "공기가 건조해.",
         "antonym": "humid"
       },
       {
@@ -2928,7 +2928,7 @@
         "pronunciation": "/ˈsʌni/",
         "meaning": "화창한",
         "example": "It's a **sunny** day.",
-        "translation": "",
+        "translation": "화창한 날이야.",
         "antonym": "cloudy"
       },
       {
@@ -2936,7 +2936,7 @@
         "pronunciation": "/ˈklaʊdi/",
         "meaning": "흐린",
         "example": "It's **cloudy** today.",
-        "translation": "",
+        "translation": "오늘 흐려.",
         "antonym": "sunny"
       },
       {
@@ -2944,7 +2944,7 @@
         "pronunciation": "/ˈreɪni/",
         "meaning": "비오는",
         "example": "It's a **rainy** day.",
-        "translation": "",
+        "translation": "비 오는 날이야.",
         "antonym": "sunny"
       },
       {
@@ -2952,7 +2952,7 @@
         "pronunciation": "/ˈsnoʊi/",
         "meaning": "눈오는",
         "example": "It's a **snowy** day.",
-        "translation": "",
+        "translation": "눈 오는 날이야.",
         "antonym": "-"
       },
       {
@@ -2960,7 +2960,7 @@
         "pronunciation": "/ˈwɪndi/",
         "meaning": "바람부는",
         "example": "It's very **windy**.",
-        "translation": "",
+        "translation": "바람이 많이 불어.",
         "antonym": "calm"
       },
       {
@@ -2968,7 +2968,7 @@
         "pronunciation": "/ˈstɔːrmi/",
         "meaning": "폭풍의",
         "example": "It's a **stormy** night.",
-        "translation": "",
+        "translation": "폭풍우 치는 밤이야.",
         "antonym": "calm"
       },
       {
@@ -2976,7 +2976,7 @@
         "pronunciation": "/ˈfɔːɡi/",
         "meaning": "안개낀",
         "example": "It's **foggy** this morning.",
-        "translation": "",
+        "translation": "오늘 아침 안개가 꼈어.",
         "antonym": "clear"
       },
       {
@@ -2984,7 +2984,7 @@
         "pronunciation": "/klɪr/",
         "meaning": "맑은",
         "example": "The sky is **clear**.",
-        "translation": "",
+        "translation": "하늘이 맑아.",
         "antonym": "cloudy"
       },
       {
@@ -2992,7 +2992,7 @@
         "pronunciation": "/maɪld/",
         "meaning": "온화한",
         "example": "The weather is **mild**.",
-        "translation": "",
+        "translation": "날씨가 온화해.",
         "antonym": "harsh"
       },
       {
@@ -3000,7 +3000,7 @@
         "pronunciation": "/hɑːrʃ/",
         "meaning": "혹독한",
         "example": "The winter is **harsh**.",
-        "translation": "",
+        "translation": "겨울이 혹독해.",
         "antonym": "mild"
       },
       {
@@ -3008,7 +3008,7 @@
         "pronunciation": "/ˈpleznt/",
         "meaning": "쾌적한",
         "example": "The weather is **pleasant**.",
-        "translation": "",
+        "translation": "날씨가 쾌적해.",
         "antonym": "unpleasant"
       },
       {
@@ -3016,7 +3016,7 @@
         "pronunciation": "/ˈtrɑːpɪkl/",
         "meaning": "열대의",
         "example": "It's a **tropical** climate.",
-        "translation": "",
+        "translation": "열대 기후야.",
         "antonym": "arctic"
       },
       {
@@ -3024,7 +3024,7 @@
         "pronunciation": "/ˈɑːrktɪk/",
         "meaning": "극지방의",
         "example": "It's **arctic** cold!",
-        "translation": "",
+        "translation": "극지방처럼 추워!",
         "antonym": "tropical"
       },
       {
@@ -3032,7 +3032,7 @@
         "pronunciation": "/ˈsiːzənl/",
         "meaning": "계절의",
         "example": "It's a **seasonal** flu.",
-        "translation": "",
+        "translation": "계절 독감이야.",
         "antonym": "-"
       },
       {
@@ -3040,7 +3040,7 @@
         "pronunciation": "/ˈaɪsi/",
         "meaning": "얼음의",
         "example": "The road is **icy**.",
-        "translation": "",
+        "translation": "도로가 빙판이야.",
         "antonym": "-"
       },
       {
@@ -3048,7 +3048,7 @@
         "pronunciation": "/ˈfrɔːsti/",
         "meaning": "서리가 내린",
         "example": "It's a **frosty** morning.",
-        "translation": "",
+        "translation": "서리 낀 아침이야.",
         "antonym": "warm"
       }
     ]
@@ -3062,7 +3062,7 @@
         "pronunciation": "/nɪr/",
         "meaning": "가까운",
         "example": "Is there a bank **near** here?",
-        "translation": "",
+        "translation": "근처에 은행 있어?",
         "antonym": "far"
       },
       {
@@ -3070,7 +3070,7 @@
         "pronunciation": "/fɑːr/",
         "meaning": "먼",
         "example": "It's too **far** to walk.",
-        "translation": "",
+        "translation": "걸어가기엔 너무 멀어.",
         "antonym": "near"
       },
       {
@@ -3078,7 +3078,7 @@
         "pronunciation": "/kloʊs/",
         "meaning": "가까운",
         "example": "The station is **close**.",
-        "translation": "",
+        "translation": "역이 가까워.",
         "antonym": "far"
       },
       {
@@ -3086,7 +3086,7 @@
         "pronunciation": "/ˈdɪstənt/",
         "meaning": "먼",
         "example": "I have **distant** relatives.",
-        "translation": "",
+        "translation": "먼 친척이 있어.",
         "antonym": "close"
       },
       {
@@ -3094,7 +3094,7 @@
         "pronunciation": "/ˈnɪrbaɪ/",
         "meaning": "근처의",
         "example": "There's a café **nearby**.",
-        "translation": "",
+        "translation": "근처에 카페 있어.",
         "antonym": "faraway"
       },
       {
@@ -3102,7 +3102,7 @@
         "pronunciation": "/ˈloʊkl/",
         "meaning": "지역의",
         "example": "I buy **local** products.",
-        "translation": "",
+        "translation": "지역 상품을 사.",
         "antonym": "foreign"
       },
       {
@@ -3110,7 +3110,7 @@
         "pronunciation": "/ˈfɔːrən/",
         "meaning": "외국의",
         "example": "I like **foreign** movies.",
-        "translation": "",
+        "translation": "외국 영화 좋아해.",
         "antonym": "local"
       },
       {
@@ -3118,7 +3118,7 @@
         "pronunciation": "/dəˈmestɪk/",
         "meaning": "국내의",
         "example": "It's a **domestic** flight.",
-        "translation": "",
+        "translation": "국내선이야.",
         "antonym": "foreign"
       },
       {
@@ -3126,7 +3126,7 @@
         "pronunciation": "/ˌɪntərˈnæʃnəl/",
         "meaning": "국제적인",
         "example": "It's an **international** company.",
-        "translation": "",
+        "translation": "국제적인 회사야.",
         "antonym": "domestic"
       },
       {
@@ -3134,7 +3134,7 @@
         "pronunciation": "/ˈɡloʊbl/",
         "meaning": "세계적인",
         "example": "It's a **global** issue.",
-        "translation": "",
+        "translation": "세계적인 문제야.",
         "antonym": "local"
       },
       {
@@ -3142,7 +3142,7 @@
         "pronunciation": "/ˈsentrəl/",
         "meaning": "중앙의",
         "example": "It's in **central** Seoul.",
-        "translation": "",
+        "translation": "서울 중심부에 있어.",
         "antonym": "peripheral"
       },
       {
@@ -3150,7 +3150,7 @@
         "pronunciation": "/ˈaʊtər/",
         "meaning": "외부의",
         "example": "The **outer** wall is damaged.",
-        "translation": "",
+        "translation": "외벽이 손상됐어.",
         "antonym": "inner"
       },
       {
@@ -3158,7 +3158,7 @@
         "pronunciation": "/ˈɪnər/",
         "meaning": "내부의",
         "example": "Find your **inner** peace.",
-        "translation": "",
+        "translation": "내면의 평화를 찾아.",
         "antonym": "outer"
       },
       {
@@ -3166,7 +3166,7 @@
         "pronunciation": "/ˈʌpər/",
         "meaning": "위의",
         "example": "Go to the **upper** floor.",
-        "translation": "",
+        "translation": "위층으로 가.",
         "antonym": "lower"
       },
       {
@@ -3174,7 +3174,7 @@
         "pronunciation": "/ˈloʊər/",
         "meaning": "아래의",
         "example": "Press the **lower** button.",
-        "translation": "",
+        "translation": "아래 버튼을 눌러.",
         "antonym": "upper"
       },
       {
@@ -3182,7 +3182,7 @@
         "pronunciation": "/tɑːp/",
         "meaning": "꼭대기의",
         "example": "It's on the **top** shelf.",
-        "translation": "",
+        "translation": "맨 위 선반에 있어.",
         "antonym": "bottom"
       },
       {
@@ -3190,7 +3190,7 @@
         "pronunciation": "/ˈbɑːtəm/",
         "meaning": "바닥의",
         "example": "It's at the **bottom**.",
-        "translation": "",
+        "translation": "맨 아래에 있어.",
         "antonym": "top"
       },
       {
@@ -3198,7 +3198,7 @@
         "pronunciation": "/frʌnt/",
         "meaning": "앞의",
         "example": "Sit in the **front** row.",
-        "translation": "",
+        "translation": "맨 앞줄에 앉아.",
         "antonym": "back"
       },
       {
@@ -3206,7 +3206,7 @@
         "pronunciation": "/bæk/",
         "meaning": "뒤의",
         "example": "I sat in the **back**.",
-        "translation": "",
+        "translation": "뒤쪽에 앉았어.",
         "antonym": "front"
       },
       {
@@ -3214,7 +3214,7 @@
         "pronunciation": "/left/",
         "meaning": "왼쪽의",
         "example": "Turn **left** here.",
-        "translation": "",
+        "translation": "여기서 왼쪽으로.",
         "antonym": "right"
       },
       {
@@ -3222,7 +3222,7 @@
         "pronunciation": "/raɪt/",
         "meaning": "오른쪽의",
         "example": "It's on your **right**.",
-        "translation": "",
+        "translation": "오른쪽에 있어.",
         "antonym": "left"
       },
       {
@@ -3230,7 +3230,7 @@
         "pronunciation": "/nɔːrθ/",
         "meaning": "북쪽의",
         "example": "Go **north** for 2km.",
-        "translation": "",
+        "translation": "북쪽으로 2km 가.",
         "antonym": "south"
       },
       {
@@ -3238,7 +3238,7 @@
         "pronunciation": "/saʊθ/",
         "meaning": "남쪽의",
         "example": "The beach is to the **south**.",
-        "translation": "",
+        "translation": "해변은 남쪽에 있어.",
         "antonym": "north"
       },
       {
@@ -3246,7 +3246,7 @@
         "pronunciation": "/iːst/",
         "meaning": "동쪽의",
         "example": "The sun rises in the **east**.",
-        "translation": "",
+        "translation": "해는 동쪽에서 떠.",
         "antonym": "west"
       },
       {
@@ -3254,7 +3254,7 @@
         "pronunciation": "/west/",
         "meaning": "서쪽의",
         "example": "The sun sets in the **west**.",
-        "translation": "",
+        "translation": "해는 서쪽으로 져.",
         "antonym": "east"
       },
       {
@@ -3262,7 +3262,7 @@
         "pronunciation": "/ˌhɔːrɪˈzɑːntl/",
         "meaning": "수평의",
         "example": "Draw a **horizontal** line.",
-        "translation": "",
+        "translation": "수평선을 그려.",
         "antonym": "vertical"
       },
       {
@@ -3270,7 +3270,7 @@
         "pronunciation": "/ˈvɜːrtɪkl/",
         "meaning": "수직의",
         "example": "It's a **vertical** line.",
-        "translation": "",
+        "translation": "수직선이야.",
         "antonym": "horizontal"
       },
       {
@@ -3278,7 +3278,7 @@
         "pronunciation": "/ˈpærəlel/",
         "meaning": "평행한",
         "example": "The roads are **parallel**.",
-        "translation": "",
+        "translation": "도로가 평행해.",
         "antonym": "perpendicular"
       },
       {
@@ -3286,7 +3286,7 @@
         "pronunciation": "/ˈɑːpəzɪt/",
         "meaning": "반대의",
         "example": "It's on the **opposite** side.",
-        "translation": "",
+        "translation": "반대편에 있어.",
         "antonym": "same"
       },
       {
@@ -3294,7 +3294,7 @@
         "pronunciation": "/əˈdʒeɪsnt/",
         "meaning": "인접한",
         "example": "The rooms are **adjacent**.",
-        "translation": "",
+        "translation": "방들이 인접해.",
         "antonym": "distant"
       }
     ]
@@ -3308,7 +3308,7 @@
         "pronunciation": "/ˈiːzi/",
         "meaning": "쉬운",
         "example": "This is **easy**.",
-        "translation": "",
+        "translation": "이거 쉬워.",
         "antonym": "hard"
       },
       {
@@ -3316,7 +3316,7 @@
         "pronunciation": "/hɑːrd/",
         "meaning": "어려운",
         "example": "The test was **hard**.",
-        "translation": "",
+        "translation": "시험이 어려웠어.",
         "antonym": "easy"
       },
       {
@@ -3324,7 +3324,7 @@
         "pronunciation": "/ˈdɪfɪkəlt/",
         "meaning": "어려운",
         "example": "It's **difficult** to understand.",
-        "translation": "",
+        "translation": "이해하기 어려워.",
         "antonym": "easy"
       },
       {
@@ -3332,7 +3332,7 @@
         "pronunciation": "/ˈsɪmpl/",
         "meaning": "간단한",
         "example": "Keep it **simple**.",
-        "translation": "",
+        "translation": "간단하게 해.",
         "antonym": "complex"
       },
       {
@@ -3340,7 +3340,7 @@
         "pronunciation": "/ˈkɑːmpleks/",
         "meaning": "복잡한",
         "example": "It's a **complex** problem.",
-        "translation": "",
+        "translation": "복잡한 문제야.",
         "antonym": "simple"
       },
       {
@@ -3348,7 +3348,7 @@
         "pronunciation": "/ˈkɑːmplɪkeɪtɪd/",
         "meaning": "복잡한",
         "example": "The situation is **complicated**.",
-        "translation": "",
+        "translation": "상황이 복잡해.",
         "antonym": "simple"
       },
       {
@@ -3356,7 +3356,7 @@
         "pronunciation": "/ˈbeɪsɪk/",
         "meaning": "기본적인",
         "example": "Learn the basics first.",
-        "translation": "",
+        "translation": "기초부터 배워.",
         "antonym": "advanced"
       },
       {
@@ -3364,7 +3364,7 @@
         "pronunciation": "/ədˈvænst/",
         "meaning": "고급의",
         "example": "It's an **advanced** course.",
-        "translation": "",
+        "translation": "고급 과정이야.",
         "antonym": "basic"
       },
       {
@@ -3372,7 +3372,7 @@
         "pronunciation": "/ˌelɪˈmentri/",
         "meaning": "초급의",
         "example": "Start with **elementary** level.",
-        "translation": "",
+        "translation": "초급부터 시작해.",
         "antonym": "advanced"
       },
       {
@@ -3380,7 +3380,7 @@
         "pronunciation": "/ˌɪntərˈmiːdiət/",
         "meaning": "중급의",
         "example": "I'm at **intermediate** level.",
-        "translation": "",
+        "translation": "나 중급이야.",
         "antonym": "-"
       },
       {
@@ -3388,7 +3388,7 @@
         "pronunciation": "/ɪmˈpɔːrtnt/",
         "meaning": "중요한",
         "example": "This is **important**.",
-        "translation": "",
+        "translation": "이건 중요해.",
         "antonym": "unimportant"
       },
       {
@@ -3396,7 +3396,7 @@
         "pronunciation": "/sɪɡˈnɪfɪkənt/",
         "meaning": "중요한",
         "example": "It's a **significant** change.",
-        "translation": "",
+        "translation": "중요한 변화야.",
         "antonym": "insignificant"
       },
       {
@@ -3404,7 +3404,7 @@
         "pronunciation": "/ɪˈsenʃl/",
         "meaning": "필수적인",
         "example": "It's **essential** for success.",
-        "translation": "",
+        "translation": "성공에 필수야.",
         "antonym": "optional"
       },
       {
@@ -3412,7 +3412,7 @@
         "pronunciation": "/ˈnesəseri/",
         "meaning": "필요한",
         "example": "Is this **necessary**?",
-        "translation": "",
+        "translation": "이게 필요해?",
         "antonym": "unnecessary"
       },
       {
@@ -3420,7 +3420,7 @@
         "pronunciation": "/ʌnˈnesəseri/",
         "meaning": "불필요한",
         "example": "It's **unnecessary** work.",
-        "translation": "",
+        "translation": "불필요한 일이야.",
         "antonym": "necessary"
       },
       {
@@ -3428,7 +3428,7 @@
         "pronunciation": "/ˈɑːpʃənl/",
         "meaning": "선택적인",
         "example": "It's **optional**.",
-        "translation": "",
+        "translation": "선택 사항이야.",
         "antonym": "required"
       },
       {
@@ -3436,7 +3436,7 @@
         "pronunciation": "/rɪˈkwaɪrd/",
         "meaning": "필수의",
         "example": "It's **required** by law.",
-        "translation": "",
+        "translation": "법적으로 필수야.",
         "antonym": "optional"
       },
       {
@@ -3444,7 +3444,7 @@
         "pronunciation": "/meɪn/",
         "meaning": "주요한",
         "example": "What's the **main** reason?",
-        "translation": "",
+        "translation": "주된 이유가 뭐야?",
         "antonym": "minor"
       },
       {
@@ -3452,7 +3452,7 @@
         "pronunciation": "/ˈmeɪdʒər/",
         "meaning": "주요한",
         "example": "It's a **major** issue.",
-        "translation": "",
+        "translation": "큰 문제야.",
         "antonym": "minor"
       },
       {
@@ -3460,7 +3460,7 @@
         "pronunciation": "/ˈmaɪnər/",
         "meaning": "사소한",
         "example": "It's a **minor** problem.",
-        "translation": "",
+        "translation": "사소한 문제야.",
         "antonym": "major"
       },
       {
@@ -3468,7 +3468,7 @@
         "pronunciation": "/ˈpraɪmeri/",
         "meaning": "주요한",
         "example": "What's your **primary** goal?",
-        "translation": "",
+        "translation": "주된 목표가 뭐야?",
         "antonym": "secondary"
       },
       {
@@ -3476,7 +3476,7 @@
         "pronunciation": "/ˈsekənderi/",
         "meaning": "부차적인",
         "example": "It's **secondary** importance.",
-        "translation": "",
+        "translation": "이차적인 중요성이야.",
         "antonym": "primary"
       },
       {
@@ -3484,7 +3484,7 @@
         "pronunciation": "/ˈkrɪtɪkl/",
         "meaning": "중대한",
         "example": "It's a **critical** moment.",
-        "translation": "",
+        "translation": "중대한 순간이야.",
         "antonym": "trivial"
       },
       {
@@ -3492,7 +3492,7 @@
         "pronunciation": "/ˈkruːʃl/",
         "meaning": "결정적인",
         "example": "Your support is **crucial**.",
-        "translation": "",
+        "translation": "네 도움이 결정적이야.",
         "antonym": "trivial"
       },
       {
@@ -3500,7 +3500,7 @@
         "pronunciation": "/ˈvaɪtl/",
         "meaning": "필수적인",
         "example": "It's **vital** information.",
-        "translation": "",
+        "translation": "필수적인 정보야.",
         "antonym": "trivial"
       },
       {
@@ -3508,7 +3508,7 @@
         "pronunciation": "/ˈtrɪviəl/",
         "meaning": "사소한",
         "example": "It's a **trivial** matter.",
-        "translation": "",
+        "translation": "사소한 일이야.",
         "antonym": "important"
       },
       {
@@ -3516,7 +3516,7 @@
         "pronunciation": "/ˈvæljuəbl/",
         "meaning": "가치있는",
         "example": "It's **valuable** advice.",
-        "translation": "",
+        "translation": "가치 있는 조언이야.",
         "antonym": "worthless"
       },
       {
@@ -3524,7 +3524,7 @@
         "pronunciation": "/ˈwɜːrθləs/",
         "meaning": "무가치한",
         "example": "This is **worthless**.",
-        "translation": "",
+        "translation": "이건 쓸모없어.",
         "antonym": "valuable"
       },
       {
@@ -3532,7 +3532,7 @@
         "pronunciation": "/ˈjuːsfl/",
         "meaning": "유용한",
         "example": "This app is **useful**.",
-        "translation": "",
+        "translation": "이 앱 유용해.",
         "antonym": "useless"
       },
       {
@@ -3540,7 +3540,7 @@
         "pronunciation": "/ˈjuːsləs/",
         "meaning": "쓸모없는",
         "example": "This is **useless**.",
-        "translation": "",
+        "translation": "이건 쓸모없어.",
         "antonym": "useful"
       },
       {
@@ -3548,7 +3548,7 @@
         "pronunciation": "/ˈhelpfl/",
         "meaning": "도움이 되는",
         "example": "That's **helpful**, thanks!",
-        "translation": "",
+        "translation": "도움이 돼, 고마워!",
         "antonym": "unhelpful"
       },
       {
@@ -3556,7 +3556,7 @@
         "pronunciation": "/ˈpræktɪkl/",
         "meaning": "실용적인",
         "example": "It's a **practical** solution.",
-        "translation": "",
+        "translation": "실용적인 해결책이야.",
         "antonym": "impractical"
       },
       {
@@ -3564,7 +3564,7 @@
         "pronunciation": "/ɪˈfektɪv/",
         "meaning": "효과적인",
         "example": "It's an **effective** method.",
-        "translation": "",
+        "translation": "효과적인 방법이야.",
         "antonym": "ineffective"
       },
       {
@@ -3572,7 +3572,7 @@
         "pronunciation": "/ɪˈfɪʃnt/",
         "meaning": "효율적인",
         "example": "She's very **efficient**.",
-        "translation": "",
+        "translation": "그녀는 매우 효율적이야.",
         "antonym": "inefficient"
       },
       {
@@ -3580,7 +3580,7 @@
         "pronunciation": "/prəˈdʌktɪv/",
         "meaning": "생산적인",
         "example": "It was a **productive** day.",
-        "translation": "",
+        "translation": "생산적인 하루였어.",
         "antonym": "unproductive"
       }
     ]
@@ -3594,7 +3594,7 @@
         "pronunciation": "/tʃiːp/",
         "meaning": "싼",
         "example": "It's really **cheap**.",
-        "translation": "",
+        "translation": "진짜 싸다.",
         "antonym": "expensive"
       },
       {
@@ -3602,7 +3602,7 @@
         "pronunciation": "/ɪkˈspensɪv/",
         "meaning": "비싼",
         "example": "This is too **expensive**.",
-        "translation": "",
+        "translation": "이건 너무 비싸.",
         "antonym": "cheap"
       },
       {
@@ -3610,7 +3610,7 @@
         "pronunciation": "/əˈfɔːrdəbl/",
         "meaning": "알맞은 가격의",
         "example": "It's **affordable** for students.",
-        "translation": "",
+        "translation": "학생들도 살 수 있어.",
         "antonym": "unaffordable"
       },
       {
@@ -3618,7 +3618,7 @@
         "pronunciation": "/ˈkɔːstli/",
         "meaning": "비싼",
         "example": "It was a **costly** mistake.",
-        "translation": "",
+        "translation": "큰 대가를 치른 실수였어.",
         "antonym": "cheap"
       },
       {
@@ -3626,7 +3626,7 @@
         "pronunciation": "/ˈpraɪsi/",
         "meaning": "비싼",
         "example": "This place is **pricey**.",
-        "translation": "",
+        "translation": "여기 비싸.",
         "antonym": "cheap"
       },
       {
@@ -3634,7 +3634,7 @@
         "pronunciation": "/friː/",
         "meaning": "무료의",
         "example": "It's **free**!",
-        "translation": "",
+        "translation": "공짜야!",
         "antonym": "paid"
       },
       {
@@ -3642,7 +3642,7 @@
         "pronunciation": "/ˌoʊvərˈpraɪst/",
         "meaning": "비싼",
         "example": "The hotel was **overpriced**.",
-        "translation": "",
+        "translation": "호텔이 너무 비쌌어.",
         "antonym": "underpriced"
       },
       {
@@ -3650,7 +3650,7 @@
         "pronunciation": "/ˈriːznəbl/",
         "meaning": "합리적인",
         "example": "The price is **reasonable**.",
-        "translation": "",
+        "translation": "가격이 합리적이야.",
         "antonym": "unreasonable"
       },
       {
@@ -3658,7 +3658,7 @@
         "pronunciation": "/ˌiːkəˈnɑːmɪkl/",
         "meaning": "경제적인",
         "example": "This car is **economical**.",
-        "translation": "",
+        "translation": "이 차는 경제적이야.",
         "antonym": "wasteful"
       },
       {
@@ -3666,7 +3666,7 @@
         "pronunciation": "/ˈbʌdʒɪt/",
         "meaning": "저렴한",
         "example": "It's a **budget** hotel.",
-        "translation": "",
+        "translation": "저가 호텔이야.",
         "antonym": "luxury"
       },
       {
@@ -3674,7 +3674,7 @@
         "pronunciation": "/ˈlʌkʃəri/",
         "meaning": "호화로운",
         "example": "It's a **luxury** brand.",
-        "translation": "",
+        "translation": "명품 브랜드야.",
         "antonym": "budget"
       },
       {
@@ -3682,7 +3682,7 @@
         "pronunciation": "/ˈpriːmiəm/",
         "meaning": "프리미엄의",
         "example": "It's a **premium** service.",
-        "translation": "",
+        "translation": "프리미엄 서비스야.",
         "antonym": "basic"
       },
       {
@@ -3690,7 +3690,7 @@
         "pronunciation": "/rɪtʃ/",
         "meaning": "부유한",
         "example": "He's very **rich**.",
-        "translation": "",
+        "translation": "그는 매우 부유해.",
         "antonym": "poor"
       },
       {
@@ -3698,7 +3698,7 @@
         "pronunciation": "/pʊr/",
         "meaning": "가난한",
         "example": "They're very **poor**.",
-        "translation": "",
+        "translation": "그들은 매우 가난해.",
         "antonym": "rich"
       },
       {
@@ -3706,7 +3706,7 @@
         "pronunciation": "/ˈwelθi/",
         "meaning": "부유한",
         "example": "She's **wealthy**.",
-        "translation": "",
+        "translation": "그녀는 부유해.",
         "antonym": "poor"
       },
       {
@@ -3714,7 +3714,7 @@
         "pronunciation": "/ˈprɑːfɪtəbl/",
         "meaning": "수익성 있는",
         "example": "It's a **profitable** business.",
-        "translation": "",
+        "translation": "수익성 있는 사업이야.",
         "antonym": "unprofitable"
       },
       {
@@ -3722,7 +3722,7 @@
         "pronunciation": "/wɜːrθ/",
         "meaning": "가치있는",
         "example": "It's **worth** trying.",
-        "translation": "",
+        "translation": "해볼 가치가 있어.",
         "antonym": "worthless"
       },
       {
@@ -3730,7 +3730,7 @@
         "pronunciation": "/ˈpraɪsləs/",
         "meaning": "값을 매길 수 없는",
         "example": "The painting is **priceless**.",
-        "translation": "",
+        "translation": "그 그림은 값을 매길 수 없어.",
         "antonym": "worthless"
       },
       {
@@ -3738,7 +3738,7 @@
         "pronunciation": "/faɪˈnænʃl/",
         "meaning": "재정의",
         "example": "I have **financial** problems.",
-        "translation": "",
+        "translation": "재정 문제가 있어.",
         "antonym": "-"
       },
       {
@@ -3746,7 +3746,7 @@
         "pronunciation": "/ˌiːkəˈnɑːmɪk/",
         "meaning": "경제의",
         "example": "It's an **economic** crisis.",
-        "translation": "",
+        "translation": "경제 위기야.",
         "antonym": "-"
       },
       {
@@ -3754,7 +3754,7 @@
         "pronunciation": "/ˈmɑːnɪteri/",
         "meaning": "금전의",
         "example": "**Monetary** support is needed.",
-        "translation": "",
+        "translation": "금전적 지원이 필요해.",
         "antonym": "-"
       },
       {
@@ -3762,7 +3762,7 @@
         "pronunciation": "/kəˈmɜːrʃl/",
         "meaning": "상업의",
         "example": "It's for **commercial** use.",
-        "translation": "",
+        "translation": "상업적 용도야.",
         "antonym": "-"
       },
       {
@@ -3770,7 +3770,7 @@
         "pronunciation": "/ˈriːteɪl/",
         "meaning": "소매의",
         "example": "It's **retail** price.",
-        "translation": "",
+        "translation": "소매가야.",
         "antonym": "wholesale"
       },
       {
@@ -3778,7 +3778,7 @@
         "pronunciation": "/ˈhoʊlseɪl/",
         "meaning": "도매의",
         "example": "I buy **wholesale**.",
-        "translation": "",
+        "translation": "도매로 사.",
         "antonym": "retail"
       },
       {
@@ -3786,7 +3786,7 @@
         "pronunciation": "/ˈdɪskaʊnt/",
         "meaning": "할인된",
         "example": "Is there a **discount**?",
-        "translation": "",
+        "translation": "할인 있어요?",
         "antonym": "-"
       }
     ]
@@ -3800,7 +3800,7 @@
         "pronunciation": "/laʊd/",
         "meaning": "큰 소리의",
         "example": "The music is too **loud**.",
-        "translation": "",
+        "translation": "음악이 너무 시끄러워.",
         "antonym": "quiet"
       },
       {
@@ -3808,7 +3808,7 @@
         "pronunciation": "/ˈkwaɪət/",
         "meaning": "조용한",
         "example": "Please be **quiet**.",
-        "translation": "",
+        "translation": "조용히 해 주세요.",
         "antonym": "loud"
       },
       {
@@ -3816,7 +3816,7 @@
         "pronunciation": "/ˈsaɪlənt/",
         "meaning": "침묵의",
         "example": "The house was **silent**.",
-        "translation": "",
+        "translation": "집이 조용했어.",
         "antonym": "noisy"
       },
       {
@@ -3824,7 +3824,7 @@
         "pronunciation": "/ˈnɔɪzi/",
         "meaning": "시끄러운",
         "example": "It's too **noisy** here.",
-        "translation": "",
+        "translation": "여기 너무 시끄러워.",
         "antonym": "quiet"
       },
       {
@@ -3832,7 +3832,7 @@
         "pronunciation": "/sɔːft/",
         "meaning": "부드러운",
         "example": "Speak in a **soft** voice.",
-        "translation": "",
+        "translation": "부드러운 목소리로 말해.",
         "antonym": "loud"
       },
       {
@@ -3840,7 +3840,7 @@
         "pronunciation": "/hɑːrʃ/",
         "meaning": "거친",
         "example": "The sound is **harsh**.",
-        "translation": "",
+        "translation": "소리가 거칠어.",
         "antonym": "soft"
       },
       {
@@ -3848,7 +3848,7 @@
         "pronunciation": "/ˈmʌfld/",
         "meaning": "둔탁한",
         "example": "I heard **muffled** voices.",
-        "translation": "",
+        "translation": "둔탁한 목소리가 들렸어.",
         "antonym": "clear"
       },
       {
@@ -3856,7 +3856,7 @@
         "pronunciation": "/klɪr/",
         "meaning": "선명한",
         "example": "The sound is **clear**.",
-        "translation": "",
+        "translation": "소리가 선명해.",
         "antonym": "muffled"
       },
       {
@@ -3864,7 +3864,7 @@
         "pronunciation": "/ʃɑːrp/",
         "meaning": "날카로운",
         "example": "I heard a **sharp** noise.",
-        "translation": "",
+        "translation": "날카로운 소리가 들렸어.",
         "antonym": "dull"
       },
       {
@@ -3872,7 +3872,7 @@
         "pronunciation": "/dʌl/",
         "meaning": "둔한",
         "example": "It made a **dull** sound.",
-        "translation": "",
+        "translation": "둔탁한 소리가 났어.",
         "antonym": "sharp"
       },
       {
@@ -3880,7 +3880,7 @@
         "pronunciation": "/haɪ pɪtʃt/",
         "meaning": "높은음의",
         "example": "She has a **high-pitched** voice.",
-        "translation": "",
+        "translation": "그녀는 목소리가 높아.",
         "antonym": "low-pitched"
       },
       {
@@ -3888,7 +3888,7 @@
         "pronunciation": "/loʊ pɪtʃt/",
         "meaning": "낮은음의",
         "example": "He has a **low-pitched** voice.",
-        "translation": "",
+        "translation": "그는 목소리가 낮아.",
         "antonym": "high-pitched"
       },
       {
@@ -3896,7 +3896,7 @@
         "pronunciation": "/ˈmjuːzɪkl/",
         "meaning": "음악적인",
         "example": "She has **musical** talent.",
-        "translation": "",
+        "translation": "그녀는 음악적 재능이 있어.",
         "antonym": "-"
       },
       {
@@ -3904,7 +3904,7 @@
         "pronunciation": "/ˈrɪðmɪk/",
         "meaning": "리드미컬한",
         "example": "The beat is **rhythmic**.",
-        "translation": "",
+        "translation": "비트가 리드미컬해.",
         "antonym": "-"
       },
       {
@@ -3912,7 +3912,7 @@
         "pronunciation": "/məˈlɑːdɪk/",
         "meaning": "멜로디의",
         "example": "The song is **melodic**.",
-        "translation": "",
+        "translation": "노래가 선율적이야.",
         "antonym": "-"
       },
       {
@@ -3920,7 +3920,7 @@
         "pronunciation": "/əˈkuːstɪk/",
         "meaning": "음향의",
         "example": "I prefer **acoustic** guitar.",
-        "translation": "",
+        "translation": "어쿠스틱 기타를 선호해.",
         "antonym": "-"
       },
       {
@@ -3928,7 +3928,7 @@
         "pronunciation": "/ˈɔːdəbl/",
         "meaning": "들리는",
         "example": "It's barely **audible**.",
-        "translation": "",
+        "translation": "겨우 들려.",
         "antonym": "inaudible"
       },
       {
@@ -3936,7 +3936,7 @@
         "pronunciation": "/ɪnˈɔːdəbl/",
         "meaning": "안 들리는",
         "example": "The sound is **inaudible**.",
-        "translation": "",
+        "translation": "소리가 안 들려.",
         "antonym": "audible"
       },
       {
@@ -3944,7 +3944,7 @@
         "pronunciation": "/ˈdefnɪŋ/",
         "meaning": "귀청이 터질 듯한",
         "example": "The applause was **deafening**.",
-        "translation": "",
+        "translation": "박수 소리가 엄청났어.",
         "antonym": "quiet"
       },
       {
@@ -3952,7 +3952,7 @@
         "pronunciation": "/ˈpɪrsɪŋ/",
         "meaning": "찌르는 듯한",
         "example": "She let out a **piercing** scream.",
-        "translation": "",
+        "translation": "그녀가 날카로운 비명을 질렀어.",
         "antonym": "soft"
       }
     ]
@@ -3966,7 +3966,7 @@
         "pronunciation": "/ˈpʌblɪk/",
         "meaning": "공공의",
         "example": "It's a **public** park.",
-        "translation": "",
+        "translation": "공공 공원이야.",
         "antonym": "private"
       },
       {
@@ -3974,7 +3974,7 @@
         "pronunciation": "/ˈpraɪvət/",
         "meaning": "사적인",
         "example": "It's a **private** matter.",
-        "translation": "",
+        "translation": "사적인 문제야.",
         "antonym": "public"
       },
       {
@@ -3982,7 +3982,7 @@
         "pronunciation": "/əˈfɪʃl/",
         "meaning": "공식적인",
         "example": "It's the **official** announcement.",
-        "translation": "",
+        "translation": "공식 발표야.",
         "antonym": "unofficial"
       },
       {
@@ -3990,7 +3990,7 @@
         "pronunciation": "/ˈliːɡl/",
         "meaning": "합법적인",
         "example": "Is this **legal**?",
-        "translation": "",
+        "translation": "이거 합법이야?",
         "antonym": "illegal"
       },
       {
@@ -3998,7 +3998,7 @@
         "pronunciation": "/ɪˈliːɡl/",
         "meaning": "불법적인",
         "example": "That's **illegal**.",
-        "translation": "",
+        "translation": "그건 불법이야.",
         "antonym": "legal"
       },
       {
@@ -4006,7 +4006,7 @@
         "pronunciation": "/pəˈlɪtɪkl/",
         "meaning": "정치적인",
         "example": "It's a **political** issue.",
-        "translation": "",
+        "translation": "정치적 문제야.",
         "antonym": "-"
       },
       {
@@ -4014,7 +4014,7 @@
         "pronunciation": "/ˈsoʊʃl/",
         "meaning": "사회적인",
         "example": "It's a **social** problem.",
-        "translation": "",
+        "translation": "사회 문제야.",
         "antonym": "-"
       },
       {
@@ -4022,7 +4022,7 @@
         "pronunciation": "/ˈkʌltʃərəl/",
         "meaning": "문화적인",
         "example": "It's a **cultural** difference.",
-        "translation": "",
+        "translation": "문화적 차이야.",
         "antonym": "-"
       },
       {
@@ -4030,7 +4030,7 @@
         "pronunciation": "/ˈfɪzɪkl/",
         "meaning": "신체적인",
         "example": "I need **physical** exercise.",
-        "translation": "",
+        "translation": "운동이 필요해.",
         "antonym": "mental"
       },
       {
@@ -4038,7 +4038,7 @@
         "pronunciation": "/ˈmentl/",
         "meaning": "정신적인",
         "example": "**Mental** health is important.",
-        "translation": "",
+        "translation": "정신 건강이 중요해.",
         "antonym": "physical"
       },
       {
@@ -4046,7 +4046,7 @@
         "pronunciation": "/ɪˈmoʊʃənl/",
         "meaning": "감정적인",
         "example": "Don't be so **emotional**.",
-        "translation": "",
+        "translation": "너무 감정적이지 마.",
         "antonym": "rational"
       },
       {
@@ -4054,7 +4054,7 @@
         "pronunciation": "/ˈræʃnəl/",
         "meaning": "이성적인",
         "example": "Be **rational** about this.",
-        "translation": "",
+        "translation": "이성적으로 생각해.",
         "antonym": "emotional"
       },
       {
@@ -4062,7 +4062,7 @@
         "pronunciation": "/ˈlɑːdʒɪkl/",
         "meaning": "논리적인",
         "example": "That's **logical**.",
-        "translation": "",
+        "translation": "논리적이야.",
         "antonym": "illogical"
       },
       {
@@ -4070,7 +4070,7 @@
         "pronunciation": "/ˌsaɪənˈtɪfɪk/",
         "meaning": "과학적인",
         "example": "It's a **scientific** fact.",
-        "translation": "",
+        "translation": "과학적 사실이야.",
         "antonym": "-"
       },
       {
@@ -4078,7 +4078,7 @@
         "pronunciation": "/ˈteknɪkl/",
         "meaning": "기술적인",
         "example": "It's a **technical** problem.",
-        "translation": "",
+        "translation": "기술적 문제야.",
         "antonym": "-"
       },
       {
@@ -4086,7 +4086,7 @@
         "pronunciation": "/ˈdɪdʒɪtl/",
         "meaning": "디지털의",
         "example": "We live in a **digital** age.",
-        "translation": "",
+        "translation": "우리는 디지털 시대에 살아.",
         "antonym": "analog"
       },
       {
@@ -4094,7 +4094,7 @@
         "pronunciation": "/ˈɔːnlaɪn/",
         "meaning": "온라인의",
         "example": "I took an **online** course.",
-        "translation": "",
+        "translation": "온라인 강의 들었어.",
         "antonym": "offline"
       },
       {
@@ -4102,7 +4102,7 @@
         "pronunciation": "/ˈɔːflaɪn/",
         "meaning": "오프라인의",
         "example": "Let's meet **offline**.",
-        "translation": "",
+        "translation": "오프라인에서 만나자.",
         "antonym": "online"
       },
       {
@@ -4110,7 +4110,7 @@
         "pronunciation": "/ˈvɜːrtʃuəl/",
         "meaning": "가상의",
         "example": "It's a **virtual** meeting.",
-        "translation": "",
+        "translation": "화상 회의야.",
         "antonym": "real"
       },
       {
@@ -4118,7 +4118,7 @@
         "pronunciation": "/ˌɔːtəˈmætɪk/",
         "meaning": "자동의",
         "example": "It's **automatic**.",
-        "translation": "",
+        "translation": "자동이야.",
         "antonym": "manual"
       },
       {
@@ -4126,7 +4126,7 @@
         "pronunciation": "/ˈmænjuəl/",
         "meaning": "수동의",
         "example": "It's a **manual** car.",
-        "translation": "",
+        "translation": "수동 차야.",
         "antonym": "automatic"
       },
       {
@@ -4134,7 +4134,7 @@
         "pronunciation": "/ɪˈlektrɪk/",
         "meaning": "전기의",
         "example": "It's an **electric** car.",
-        "translation": "",
+        "translation": "전기차야.",
         "antonym": "-"
       },
       {
@@ -4142,7 +4142,7 @@
         "pronunciation": "/ɪˌlekˈtrɑːnɪk/",
         "meaning": "전자의",
         "example": "I love **electronic** music.",
-        "translation": "",
+        "translation": "전자 음악 좋아해.",
         "antonym": "-"
       },
       {
@@ -4150,7 +4150,7 @@
         "pronunciation": "/ˈwaɪərləs/",
         "meaning": "무선의",
         "example": "I have **wireless** earbuds.",
-        "translation": "",
+        "translation": "무선 이어폰 있어.",
         "antonym": "wired"
       },
       {
@@ -4158,7 +4158,7 @@
         "pronunciation": "/ˈpɔːrtəbl/",
         "meaning": "휴대용의",
         "example": "It's a **portable** charger.",
-        "translation": "",
+        "translation": "휴대용 충전기야.",
         "antonym": "stationary"
       },
       {
@@ -4166,7 +4166,7 @@
         "pronunciation": "/ˈmoʊbl/",
         "meaning": "이동식의",
         "example": "I use **mobile** banking.",
-        "translation": "",
+        "translation": "모바일 뱅킹 써.",
         "antonym": "fixed"
       },
       {
@@ -4174,7 +4174,7 @@
         "pronunciation": "/fɪkst/",
         "meaning": "고정된",
         "example": "The price is **fixed**.",
-        "translation": "",
+        "translation": "가격이 고정이야.",
         "antonym": "mobile"
       },
       {
@@ -4182,7 +4182,7 @@
         "pronunciation": "/əˈdʒʌstəbl/",
         "meaning": "조절 가능한",
         "example": "The chair is **adjustable**.",
-        "translation": "",
+        "translation": "의자가 조절 가능해.",
         "antonym": "fixed"
       },
       {
@@ -4190,7 +4190,7 @@
         "pronunciation": "/rɪˈmuːvəbl/",
         "meaning": "분리 가능한",
         "example": "The cover is **removable**.",
-        "translation": "",
+        "translation": "커버가 분리 가능해.",
         "antonym": "fixed"
       },
       {
@@ -4198,7 +4198,7 @@
         "pronunciation": "/riːˈjuːzəbl/",
         "meaning": "재사용 가능한",
         "example": "Use **reusable** bags.",
-        "translation": "",
+        "translation": "재사용 가능한 가방 사용해.",
         "antonym": "disposable"
       },
       {
@@ -4206,7 +4206,7 @@
         "pronunciation": "/dɪˈspoʊzəbl/",
         "meaning": "일회용의",
         "example": "Don't use **disposable** cups.",
-        "translation": "",
+        "translation": "일회용 컵 쓰지 마.",
         "antonym": "reusable"
       },
       {
@@ -4214,7 +4214,7 @@
         "pronunciation": "/riːˈsaɪkləbl/",
         "meaning": "재활용 가능한",
         "example": "This is **recyclable**.",
-        "translation": "",
+        "translation": "이건 재활용 가능해.",
         "antonym": "-"
       },
       {
@@ -4222,7 +4222,7 @@
         "pronunciation": "/ˈnætʃrəl/",
         "meaning": "자연의",
         "example": "I prefer **natural** ingredients.",
-        "translation": "",
+        "translation": "천연 재료를 선호해.",
         "antonym": "artificial"
       },
       {
@@ -4230,7 +4230,7 @@
         "pronunciation": "/ˌɑːrtɪˈfɪʃl/",
         "meaning": "인공의",
         "example": "It's **artificial** intelligence.",
-        "translation": "",
+        "translation": "인공지능이야.",
         "antonym": "natural"
       },
       {
@@ -4238,7 +4238,7 @@
         "pronunciation": "/ɔːrˈɡænɪk/",
         "meaning": "유기농의",
         "example": "I eat **organic** food.",
-        "translation": "",
+        "translation": "유기농 음식 먹어.",
         "antonym": "synthetic"
       },
       {
@@ -4246,7 +4246,7 @@
         "pronunciation": "/sɪnˈθetɪk/",
         "meaning": "합성의",
         "example": "It's made of **synthetic** material.",
-        "translation": "",
+        "translation": "합성 소재로 만들어졌어.",
         "antonym": "natural"
       },
       {
@@ -4254,7 +4254,7 @@
         "pronunciation": "/ɪnˌvaɪrənˈmentl/",
         "meaning": "환경의",
         "example": "It's an **environmental** issue.",
-        "translation": "",
+        "translation": "환경 문제야.",
         "antonym": "-"
       },
       {
@@ -4262,7 +4262,7 @@
         "pronunciation": "/ˌiːkəˈlɑːdʒɪkl/",
         "meaning": "생태의",
         "example": "It's **ecological** damage.",
-        "translation": "",
+        "translation": "생태 피해야.",
         "antonym": "-"
       },
       {
@@ -4270,7 +4270,7 @@
         "pronunciation": "/səˈsteɪnəbl/",
         "meaning": "지속 가능한",
         "example": "We need **sustainable** energy.",
-        "translation": "",
+        "translation": "지속 가능한 에너지가 필요해.",
         "antonym": "unsustainable"
       },
       {
@@ -4278,7 +4278,7 @@
         "pronunciation": "/rɪˈnuːəbl/",
         "meaning": "재생 가능한",
         "example": "Use **renewable** energy.",
-        "translation": "",
+        "translation": "재생 에너지 사용해.",
         "antonym": "nonrenewable"
       },
       {
@@ -4286,7 +4286,7 @@
         "pronunciation": "/əˈlaɪv/",
         "meaning": "살아있는",
         "example": "He's still **alive**!",
-        "translation": "",
+        "translation": "그는 아직 살아있어!",
         "antonym": "dead"
       },
       {
@@ -4294,7 +4294,7 @@
         "pronunciation": "/ded/",
         "meaning": "죽은",
         "example": "My phone is **dead**.",
-        "translation": "",
+        "translation": "폰 배터리 나갔어.",
         "antonym": "alive"
       },
       {
@@ -4302,7 +4302,7 @@
         "pronunciation": "/ˈæktɪv/",
         "meaning": "활동적인",
         "example": "Stay **active**.",
-        "translation": "",
+        "translation": "활동적으로 지내.",
         "antonym": "inactive"
       },
       {
@@ -4310,7 +4310,7 @@
         "pronunciation": "/ɪnˈæktɪv/",
         "meaning": "비활동적인",
         "example": "The account is **inactive**.",
-        "translation": "",
+        "translation": "계정이 비활성화됐어.",
         "antonym": "active"
       },
       {
@@ -4318,7 +4318,7 @@
         "pronunciation": "/ˈbɪzi/",
         "meaning": "바쁜",
         "example": "I'm **busy** right now.",
-        "translation": "",
+        "translation": "지금 바빠.",
         "antonym": "free"
       },
       {
@@ -4326,7 +4326,7 @@
         "pronunciation": "/friː/",
         "meaning": "자유로운",
         "example": "Are you **free** tomorrow?",
-        "translation": "",
+        "translation": "내일 시간 돼?",
         "antonym": "busy"
       },
       {
@@ -4334,7 +4334,7 @@
         "pronunciation": "/ˈpɑːpjələr/",
         "meaning": "인기있는",
         "example": "This song is **popular**.",
-        "translation": "",
+        "translation": "이 노래 인기 있어.",
         "antonym": "unpopular"
       },
       {
@@ -4342,7 +4342,7 @@
         "pronunciation": "/ˈfeɪməs/",
         "meaning": "유명한",
         "example": "He's **famous** worldwide.",
-        "translation": "",
+        "translation": "그는 전 세계적으로 유명해.",
         "antonym": "unknown"
       },
       {
@@ -4350,7 +4350,7 @@
         "pronunciation": "/ʌnˈnoʊn/",
         "meaning": "알려지지 않은",
         "example": "The cause is **unknown**.",
-        "translation": "",
+        "translation": "원인은 알려지지 않았어.",
         "antonym": "known"
       },
       {
@@ -4358,7 +4358,7 @@
         "pronunciation": "/ˈsɪmələr/",
         "meaning": "비슷한",
         "example": "We have **similar** interests.",
-        "translation": "",
+        "translation": "관심사가 비슷해.",
         "antonym": "different"
       },
       {
@@ -4366,7 +4366,7 @@
         "pronunciation": "/ˈdɪfrənt/",
         "meaning": "다른",
         "example": "We're all **different**.",
-        "translation": "",
+        "translation": "우리는 다 달라.",
         "antonym": "similar"
       },
       {
@@ -4374,7 +4374,7 @@
         "pronunciation": "/seɪm/",
         "meaning": "같은",
         "example": "We have the **same** taste.",
-        "translation": "",
+        "translation": "우리 취향이 같아.",
         "antonym": "different"
       },
       {
@@ -4382,7 +4382,7 @@
         "pronunciation": "/ˈiːkwəl/",
         "meaning": "동등한",
         "example": "We're all **equal**.",
-        "translation": "",
+        "translation": "우리는 모두 평등해.",
         "antonym": "unequal"
       },
       {
@@ -4390,7 +4390,7 @@
         "pronunciation": "/ɪɡˈzækt/",
         "meaning": "정확한",
         "example": "What's the **exact** time?",
-        "translation": "",
+        "translation": "정확한 시간이 뭐야?",
         "antonym": "approximate"
       },
       {
@@ -4398,7 +4398,7 @@
         "pronunciation": "/əˈprɑːksɪmət/",
         "meaning": "대략적인",
         "example": "What's the **approximate** cost?",
-        "translation": "",
+        "translation": "대략적인 비용이 얼마야?",
         "antonym": "exact"
       },
       {
@@ -4406,7 +4406,7 @@
         "pronunciation": "/ˈækjərət/",
         "meaning": "정확한",
         "example": "Is this **accurate**?",
-        "translation": "",
+        "translation": "이게 정확해?",
         "antonym": "inaccurate"
       },
       {
@@ -4414,7 +4414,7 @@
         "pronunciation": "/prɪˈsaɪs/",
         "meaning": "정밀한",
         "example": "Be more **precise**.",
-        "translation": "",
+        "translation": "좀 더 정확히 말해.",
         "antonym": "imprecise"
       },
       {
@@ -4422,7 +4422,7 @@
         "pronunciation": "/spəˈsɪfɪk/",
         "meaning": "구체적인",
         "example": "Be more **specific**.",
-        "translation": "",
+        "translation": "더 구체적으로 말해.",
         "antonym": "general"
       },
       {
@@ -4430,7 +4430,7 @@
         "pronunciation": "/ˈdʒenrəl/",
         "meaning": "일반적인",
         "example": "In **general**, I agree.",
-        "translation": "",
+        "translation": "일반적으로 동의해.",
         "antonym": "specific"
       },
       {
@@ -4438,7 +4438,7 @@
         "pronunciation": "/ɪnˈtaɪr/",
         "meaning": "전체의",
         "example": "I ate the **entire** cake.",
-        "translation": "",
+        "translation": "케이크 전부 먹었어.",
         "antonym": "partial"
       },
       {
@@ -4446,7 +4446,7 @@
         "pronunciation": "/ˌɪndɪˈvɪdʒuəl/",
         "meaning": "개인의",
         "example": "It's an **individual** choice.",
-        "translation": "",
+        "translation": "개인적 선택이야.",
         "antonym": "collective"
       },
       {
@@ -4454,7 +4454,7 @@
         "pronunciation": "/kəˈlektɪv/",
         "meaning": "집단의",
         "example": "It's a **collective** effort.",
-        "translation": "",
+        "translation": "공동의 노력이야.",
         "antonym": "individual"
       },
       {
@@ -4462,7 +4462,7 @@
         "pronunciation": "/ˈmjuːtʃuəl/",
         "meaning": "상호의",
         "example": "It's **mutual** respect.",
-        "translation": "",
+        "translation": "상호 존중이야.",
         "antonym": "one-sided"
       },
       {
@@ -4470,7 +4470,7 @@
         "pronunciation": "/ˈseprət/",
         "meaning": "별개의",
         "example": "Keep them **separate**.",
-        "translation": "",
+        "translation": "그것들을 따로 보관해.",
         "antonym": "combined"
       },
       {
@@ -4478,7 +4478,7 @@
         "pronunciation": "/dʒɔɪnt/",
         "meaning": "공동의",
         "example": "It's a **joint** project.",
-        "translation": "",
+        "translation": "공동 프로젝트야.",
         "antonym": "separate"
       }
     ]

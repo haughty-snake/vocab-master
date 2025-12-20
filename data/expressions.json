@@ -528,50 +528,50 @@
           {
             "expression": "I was so + 형용사",
             "meaning": "I was **so** happy.",
-            "example": "너무 행복했어요.",
-            "translation": ""
+            "example": "I was **so** happy.",
+            "translation": "너무 행복했어요."
           },
           {
             "expression": "I was really + 형용사",
             "meaning": "I was **really** nervous.",
-            "example": "정말 긴장됐어요.",
-            "translation": ""
+            "example": "I was **really** nervous.",
+            "translation": "정말 긴장됐어요."
           },
           {
             "expression": "I was extremely + 형용사",
             "meaning": "I was **extremely** tired.",
-            "example": "극도로 피곤했어요.",
-            "translation": ""
+            "example": "I was **extremely** tired.",
+            "translation": "극도로 피곤했어요."
           },
           {
             "expression": "I was absolutely + 형용사",
             "meaning": "I was **absolutely** amazed.",
-            "example": "완전히 놀랐어요.",
-            "translation": ""
+            "example": "I was **absolutely** amazed.",
+            "translation": "완전히 놀랐어요."
           },
           {
             "expression": "I couldn't believe ~",
             "meaning": "I **couldn't believe** my eyes.",
-            "example": "내 눈을 믿을 수 없었어요.",
-            "translation": ""
+            "example": "I **couldn't believe** my eyes.",
+            "translation": "내 눈을 믿을 수 없었어요."
           },
           {
             "expression": "I will never forget ~",
             "meaning": "I will **never forget** that moment.",
-            "example": "그 순간을 절대 잊지 못할 거예요.",
-            "translation": ""
+            "example": "I will **never forget** that moment.",
+            "translation": "그 순간을 절대 잊지 못할 거예요."
           },
           {
             "expression": "It was one of the best ~",
             "meaning": "It was **one of the best** days of my life.",
-            "example": "인생 최고의 날 중 하나였어요.",
-            "translation": ""
+            "example": "It was **one of the best** days of my life.",
+            "translation": "인생 최고의 날 중 하나였어요."
           },
           {
             "expression": "Nothing can compare to ~",
             "meaning": "Nothing can **compare to** that experience.",
-            "example": "그 경험에 비할 것이 없어요.",
-            "translation": ""
+            "example": "Nothing can **compare to** that experience.",
+            "translation": "그 경험에 비할 것이 없어요."
           }
         ]
       }
@@ -840,56 +840,56 @@
           {
             "expression": "every day",
             "meaning": "I exercise **every day**.",
-            "example": "매일 운동해요.",
-            "translation": ""
+            "example": "I exercise **every day**.",
+            "translation": "매일 운동해요."
           },
           {
             "expression": "every week / weekly",
             "meaning": "I go grocery shopping **every week**.",
-            "example": "매주 장을 봐요.",
-            "translation": ""
+            "example": "I go grocery shopping **every week**.",
+            "translation": "매주 장을 봐요."
           },
           {
             "expression": "every month / monthly",
             "meaning": "I visit my parents **every month**.",
-            "example": "매달 부모님을 찾아뵈요.",
-            "translation": ""
+            "example": "I visit my parents **every month**.",
+            "translation": "매달 부모님을 찾아뵈요."
           },
           {
             "expression": "once a week",
             "meaning": "I work out **once a week**.",
-            "example": "일주일에 한 번 운동해요.",
-            "translation": ""
+            "example": "I work out **once a week**.",
+            "translation": "일주일에 한 번 운동해요."
           },
           {
             "expression": "twice a month",
             "meaning": "I go to the movies **twice a month**.",
-            "example": "한 달에 두 번 영화관에 가요.",
-            "translation": ""
+            "example": "I go to the movies **twice a month**.",
+            "translation": "한 달에 두 번 영화관에 가요."
           },
           {
             "expression": "three times a year",
             "meaning": "I travel abroad **three times a year**.",
-            "example": "일 년에 세 번 해외여행을 해요.",
-            "translation": ""
+            "example": "I travel abroad **three times a year**.",
+            "translation": "일 년에 세 번 해외여행을 해요."
           },
           {
             "expression": "once in a while",
             "meaning": "I treat myself **once in a while**.",
-            "example": "가끔 스스로에게 상을 줘요.",
-            "translation": ""
+            "example": "I treat myself **once in a while**.",
+            "translation": "가끔 스스로에게 상을 줘요."
           },
           {
             "expression": "from time to time",
             "meaning": "I cook at home **from time to time**.",
-            "example": "가끔 집에서 요리해요.",
-            "translation": ""
+            "example": "I cook at home **from time to time**.",
+            "translation": "가끔 집에서 요리해요."
           },
           {
             "expression": "on a daily/weekly basis",
             "meaning": "I check emails **on a daily basis**.",
-            "example": "매일 이메일을 확인해요.",
-            "translation": ""
+            "example": "I check emails **on a daily basis**.",
+            "translation": "매일 이메일을 확인해요."
           }
         ]
       }
@@ -1023,50 +1023,50 @@
           {
             "expression": "I agree.",
             "meaning": "**I agree**. That's a good idea.",
-            "example": "동의해요. 좋은 생각이에요.",
-            "translation": ""
+            "example": "**I agree**. That's a good idea.",
+            "translation": "동의해요. 좋은 생각이에요."
           },
           {
             "expression": "I think so too.",
             "meaning": "**I think so too**.",
-            "example": "저도 그렇게 생각해요.",
-            "translation": ""
+            "example": "**I think so too**.",
+            "translation": "저도 그렇게 생각해요."
           },
           {
             "expression": "That's true.",
             "meaning": "**That's true**. I hadn't thought of that.",
-            "example": "맞아요. 그건 생각 못 했어요.",
-            "translation": ""
+            "example": "**That's true**. I hadn't thought of that.",
+            "translation": "맞아요. 그건 생각 못 했어요."
           },
           {
             "expression": "Exactly!",
             "meaning": "**Exactly**! That's what I meant.",
-            "example": "정확해요! 그게 제가 말한 거예요.",
-            "translation": ""
+            "example": "**Exactly**! That's what I meant.",
+            "translation": "정확해요! 그게 제가 말한 거예요."
           },
           {
             "expression": "Absolutely!",
             "meaning": "**Absolutely**! I couldn't agree more.",
-            "example": "물론이죠! 전적으로 동의해요.",
-            "translation": ""
+            "example": "**Absolutely**! I couldn't agree more.",
+            "translation": "물론이죠! 전적으로 동의해요."
           },
           {
             "expression": "That makes sense.",
             "meaning": "**That makes sense**.",
-            "example": "말이 되네요.",
-            "translation": ""
+            "example": "**That makes sense**.",
+            "translation": "말이 되네요."
           },
           {
             "expression": "I see your point.",
             "meaning": "**I see your point**.",
-            "example": "당신의 요점을 알겠어요.",
-            "translation": ""
+            "example": "**I see your point**.",
+            "translation": "당신의 요점을 알겠어요."
           },
           {
             "expression": "You're right.",
             "meaning": "**You're right** about that.",
-            "example": "그것에 대해 맞아요.",
-            "translation": ""
+            "example": "**You're right** about that.",
+            "translation": "그것에 대해 맞아요."
           }
         ]
       },
@@ -1076,32 +1076,32 @@
           {
             "expression": "I agree to some extent.",
             "meaning": "**I agree to some extent**, but...",
-            "example": "어느 정도 동의하지만...",
-            "translation": ""
+            "example": "**I agree to some extent**, but...",
+            "translation": "어느 정도 동의하지만..."
           },
           {
             "expression": "That's partly true.",
             "meaning": "**That's partly true**.",
-            "example": "부분적으로 맞아요.",
-            "translation": ""
+            "example": "**That's partly true**.",
+            "translation": "부분적으로 맞아요."
           },
           {
             "expression": "I see what you mean, but...",
             "meaning": "**I see what you mean, but** I think...",
-            "example": "무슨 말인지 알겠지만, 저는...",
-            "translation": ""
+            "example": "**I see what you mean, but** I think...",
+            "translation": "무슨 말인지 알겠지만, 저는..."
           },
           {
             "expression": "You have a point, but...",
             "meaning": "**You have a point**, but there's also...",
-            "example": "일리가 있지만, 또한...",
-            "translation": ""
+            "example": "**You have a point**, but there's also...",
+            "translation": "일리가 있지만, 또한..."
           },
           {
             "expression": "In a way, yes.",
             "meaning": "**In a way, yes**, but it depends.",
-            "example": "어떤 면에서는 네, 하지만 상황에 따라요.",
-            "translation": ""
+            "example": "**In a way, yes**, but it depends.",
+            "translation": "어떤 면에서는 네, 하지만 상황에 따라요."
           }
         ]
       },
@@ -1111,44 +1111,44 @@
           {
             "expression": "I don't think so.",
             "meaning": "**I don't think so**.",
-            "example": "그렇게 생각하지 않아요.",
-            "translation": ""
+            "example": "**I don't think so**.",
+            "translation": "그렇게 생각하지 않아요."
           },
           {
             "expression": "I disagree.",
             "meaning": "**I disagree** on this point.",
-            "example": "이 점에서 동의하지 않아요.",
-            "translation": ""
+            "example": "**I disagree** on this point.",
+            "translation": "이 점에서 동의하지 않아요."
           },
           {
             "expression": "I'm not sure about that.",
             "meaning": "**I'm not sure about that**.",
-            "example": "그건 잘 모르겠어요.",
-            "translation": ""
+            "example": "**I'm not sure about that**.",
+            "translation": "그건 잘 모르겠어요."
           },
           {
             "expression": "I see it differently.",
             "meaning": "**I see it differently**.",
-            "example": "다르게 봐요.",
-            "translation": ""
+            "example": "**I see it differently**.",
+            "translation": "다르게 봐요."
           },
           {
             "expression": "I wouldn't say that.",
             "meaning": "**I wouldn't say that**.",
-            "example": "그렇게 말하진 않겠어요.",
-            "translation": ""
+            "example": "**I wouldn't say that**.",
+            "translation": "그렇게 말하진 않겠어요."
           },
           {
             "expression": "That's not necessarily true.",
             "meaning": "**That's not necessarily true**.",
-            "example": "반드시 그런 건 아니에요.",
-            "translation": ""
+            "example": "**That's not necessarily true**.",
+            "translation": "반드시 그런 건 아니에요."
           },
           {
             "expression": "I beg to differ.",
             "meaning": "**I beg to differ**. (공손한 반대)",
-            "example": "다른 의견을 말씀드려요.",
-            "translation": ""
+            "example": "**I beg to differ**. (공손한 반대)",
+            "translation": "다른 의견을 말씀드려요."
           }
         ]
       }
@@ -1164,32 +1164,32 @@
           {
             "expression": "How should I put it...",
             "meaning": "**How should I put it**... It was amazing.",
-            "example": "어떻게 말해야 할까... 놀라웠어요.",
-            "translation": ""
+            "example": "**How should I put it**... It was amazing.",
+            "translation": "어떻게 말해야 할까... 놀라웠어요."
           },
           {
             "expression": "What's the word...",
             "meaning": "**What's the word**... Fascinating!",
-            "example": "그 단어가 뭐였지... 매혹적이었어요!",
-            "translation": ""
+            "example": "**What's the word**... Fascinating!",
+            "translation": "그 단어가 뭐였지... 매혹적이었어요!"
           },
           {
             "expression": "It's hard to explain, but...",
             "meaning": "**It's hard to explain, but** I felt happy.",
-            "example": "설명하기 어렵지만, 행복했어요.",
-            "translation": ""
+            "example": "**It's hard to explain, but** I felt happy.",
+            "translation": "설명하기 어렵지만, 행복했어요."
           },
           {
             "expression": "It's on the tip of my tongue...",
             "meaning": "**It's on the tip of my tongue**...",
-            "example": "입에서 맴도는데...",
-            "translation": ""
+            "example": "**It's on the tip of my tongue**...",
+            "translation": "입에서 맴도는데..."
           },
           {
             "expression": "I can't think of the word, but...",
             "meaning": "**I can't think of the word**, but you know what I mean.",
-            "example": "그 단어가 생각 안 나는데, 무슨 말인지 알죠.",
-            "translation": ""
+            "example": "**I can't think of the word**, but you know what I mean.",
+            "translation": "그 단어가 생각 안 나는데, 무슨 말인지 알죠."
           }
         ]
       },
@@ -1199,32 +1199,32 @@
           {
             "expression": "Speaking of which...",
             "meaning": "**Speaking of which**, I went there last week.",
-            "example": "말이 나왔으니, 지난주에 거기 갔어요.",
-            "translation": ""
+            "example": "**Speaking of which**, I went there last week.",
+            "translation": "말이 나왔으니, 지난주에 거기 갔어요."
           },
           {
             "expression": "By the way...",
             "meaning": "**By the way**, did you hear about...?",
-            "example": "그런데, ~에 대해 들었어요?",
-            "translation": ""
+            "example": "**By the way**, did you hear about...?",
+            "translation": "그런데, ~에 대해 들었어요?"
           },
           {
             "expression": "That reminds me...",
             "meaning": "**That reminds me** of a story.",
-            "example": "그게 이야기가 생각나게 해요.",
-            "translation": ""
+            "example": "**That reminds me** of a story.",
+            "translation": "그게 이야기가 생각나게 해요."
           },
           {
             "expression": "On another note...",
             "meaning": "**On another note**, I also enjoy...",
-            "example": "다른 얘기로, 저도 ~을 즐겨요...",
-            "translation": ""
+            "example": "**On another note**, I also enjoy...",
+            "translation": "다른 얘기로, 저도 ~을 즐겨요..."
           },
           {
             "expression": "Anyway...",
             "meaning": "**Anyway**, that's what happened.",
-            "example": "어쨌든, 그렇게 됐어요.",
-            "translation": ""
+            "example": "**Anyway**, that's what happened.",
+            "translation": "어쨌든, 그렇게 됐어요."
           }
         ]
       },
@@ -1234,32 +1234,32 @@
           {
             "expression": "Let me give you an example.",
             "meaning": "**Let me give you an example**.",
-            "example": "예를 들어 드릴게요.",
-            "translation": ""
+            "example": "**Let me give you an example**.",
+            "translation": "예를 들어 드릴게요."
           },
           {
             "expression": "For example / For instance",
             "meaning": "**For example**, I like to go hiking.",
-            "example": "예를 들어, 등산을 좋아해요.",
-            "translation": ""
+            "example": "**For example**, I like to go hiking.",
+            "translation": "예를 들어, 등산을 좋아해요."
           },
           {
             "expression": "To give you an idea...",
             "meaning": "**To give you an idea**, it takes about an hour.",
-            "example": "대략 말씀드리자면, 약 한 시간 걸려요.",
-            "translation": ""
+            "example": "**To give you an idea**, it takes about an hour.",
+            "translation": "대략 말씀드리자면, 약 한 시간 걸려요."
           },
           {
             "expression": "Here's an example...",
             "meaning": "**Here's an example** of what I mean.",
-            "example": "제 말의 예시가 여기 있어요.",
-            "translation": ""
+            "example": "**Here's an example** of what I mean.",
+            "translation": "제 말의 예시가 여기 있어요."
           },
           {
             "expression": "Like...",
             "meaning": "**Like**, I usually go there on weekends.",
-            "example": "예를 들어, 주말에 보통 거기 가요.",
-            "translation": ""
+            "example": "**Like**, I usually go there on weekends.",
+            "translation": "예를 들어, 주말에 보통 거기 가요."
           }
         ]
       },
@@ -1269,32 +1269,32 @@
           {
             "expression": "I remember when...",
             "meaning": "**I remember when** I first moved here.",
-            "example": "처음 여기 이사왔을 때가 기억나요.",
-            "translation": ""
+            "example": "**I remember when** I first moved here.",
+            "translation": "처음 여기 이사왔을 때가 기억나요."
           },
           {
             "expression": "One time...",
             "meaning": "**One time**, I got lost in Tokyo.",
-            "example": "한번은, 도쿄에서 길을 잃었어요.",
-            "translation": ""
+            "example": "**One time**, I got lost in Tokyo.",
+            "translation": "한번은, 도쿄에서 길을 잃었어요."
           },
           {
             "expression": "There was this time when...",
             "meaning": "**There was this time when** I met a celebrity.",
-            "example": "유명인을 만났던 때가 있었어요.",
-            "translation": ""
+            "example": "**There was this time when** I met a celebrity.",
+            "translation": "유명인을 만났던 때가 있었어요."
           },
           {
             "expression": "A few years ago...",
             "meaning": "**A few years ago**, I traveled to Europe.",
-            "example": "몇 년 전에, 유럽으로 여행 갔어요.",
-            "translation": ""
+            "example": "**A few years ago**, I traveled to Europe.",
+            "translation": "몇 년 전에, 유럽으로 여행 갔어요."
           },
           {
             "expression": "I'll never forget when...",
             "meaning": "**I'll never forget when** I got my first job.",
-            "example": "첫 직장을 얻었을 때를 절대 잊지 못할 거예요.",
-            "translation": ""
+            "example": "**I'll never forget when** I got my first job.",
+            "translation": "첫 직장을 얻었을 때를 절대 잊지 못할 거예요."
           }
         ]
       },
@@ -1304,38 +1304,38 @@
           {
             "expression": "So yeah, that's basically...",
             "meaning": "**So yeah, that's basically** my story.",
-            "example": "그래서, 기본적으로 그게 제 이야기예요.",
-            "translation": ""
+            "example": "**So yeah, that's basically** my story.",
+            "translation": "그래서, 기본적으로 그게 제 이야기예요."
           },
           {
             "expression": "That's pretty much it.",
             "meaning": "**That's pretty much it**.",
-            "example": "대충 그래요.",
-            "translation": ""
+            "example": "**That's pretty much it**.",
+            "translation": "대충 그래요."
           },
           {
             "expression": "I think that covers it.",
             "meaning": "**I think that covers it**.",
-            "example": "다 말한 것 같아요.",
-            "translation": ""
+            "example": "**I think that covers it**.",
+            "translation": "다 말한 것 같아요."
           },
           {
             "expression": "Anyway, that's what happened.",
             "meaning": "**Anyway, that's what happened**.",
-            "example": "어쨌든, 그렇게 됐어요.",
-            "translation": ""
+            "example": "**Anyway, that's what happened**.",
+            "translation": "어쨌든, 그렇게 됐어요."
           },
           {
             "expression": "Long story short...",
             "meaning": "**Long story short**, I had a great time.",
-            "example": "간단히 말해서, 좋은 시간을 보냈어요.",
-            "translation": ""
+            "example": "**Long story short**, I had a great time.",
+            "translation": "간단히 말해서, 좋은 시간을 보냈어요."
           },
           {
             "expression": "To wrap things up...",
             "meaning": "**To wrap things up**, it was memorable.",
-            "example": "마무리하자면, 기억에 남았어요.",
-            "translation": ""
+            "example": "**To wrap things up**, it was memorable.",
+            "translation": "마무리하자면, 기억에 남았어요."
           }
         ]
       },
