@@ -305,7 +305,7 @@ const VocabData = {
                             id: `${key}_${(cat.name || 'unknown')}_${sub.name}_${idx}`.replace(/\s/g, '_'),
                             category: key,
                             categoryName: meta.name,
-                            word: item.phrasalVerb,
+                            word: item.phrase || item.phrasalVerb,
                             pronunciation: '',
                             meaning: item.meaning,
                             difficulty: meta.difficulty,
