@@ -1,5 +1,10 @@
 # VocabMaster - OPIC 영어 단어 학습 PWA
 
+## 접속주소
+```
+https://haughty-snake.github.io/vocab-master/
+```
+
 OPIC AL 등급 달성을 위한 종합 영어 단어 학습 Progressive Web App (PWA)입니다.
 
 ## PWA 기능
