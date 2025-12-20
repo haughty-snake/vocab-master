@@ -141,12 +141,39 @@ function performSearch() {
 function showWordDetail(wordId) {
     const word = VocabData.allWords.find(w => w.id === wordId);
     if (word) {
-        showWordList();
-        // Highlight the word in the list
+        // Change to the word's category
         currentCategory = word.category;
+        saveCategory(currentCategory);
+        updateAllCategoryBadges();
+
+        // Show word list view
+        showWordList();
+
+        // Find the word's index in filtered words
         filterWords();
+        const wordIndex = filteredWords.findIndex(w => w.id === wordId);
+
+        if (wordIndex !== -1) {
+            // Calculate which page the word is on
+            const displayMode = Storage.settings.displayMode || 'paging';
+            if (displayMode === 'paging') {
+                currentPage = Math.floor(wordIndex / itemsPerPage) + 1;
+                renderWordList();
+            }
+
+            // Scroll to and highlight the word after a brief delay
+            setTimeout(() => {
+                const wordElement = document.querySelector(`[data-id="${wordId}"]`);
+                if (wordElement) {
+                    wordElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    wordElement.classList.add('highlighted');
+                    setTimeout(() => wordElement.classList.remove('highlighted'), 2000);
+                }
+            }, 100);
+        }
     }
     document.getElementById('search-results').classList.add('hidden');
+    document.getElementById('search-input').value = '';
 }
 
 // Category rendering
@@ -288,8 +315,40 @@ function renderWordList() {
 
     container.innerHTML = wordsToShow.map(word => {
         const status = Storage.getWordStatus(word.id);
-        const example = word.examples && word.examples[0] ? word.examples[0].sentence : '';
-        const translation = word.examples && word.examples[0] ? word.examples[0].translation : '';
+
+        // Render meanings (support polysemy)
+        let meaningsHtml = '';
+        if (word.meanings && word.meanings.length > 0) {
+            if (word.meanings.length === 1) {
+                // Single meaning
+                const m = word.meanings[0];
+                const ex = m.examples && m.examples[0];
+                meaningsHtml = `
+                    <div class="word-meaning">${m.meaning}</div>
+                    ${ex && ex.sentence ? `<div class="word-example">${formatBold(ex.sentence)}${ex.translation ? `<span class="word-translation"> - ${ex.translation}</span>` : ''}</div>` : ''}
+                `;
+            } else {
+                // Multiple meanings (polysemy)
+                meaningsHtml = word.meanings.map((m, idx) => {
+                    const ex = m.examples && m.examples[0];
+                    return `
+                        <div class="word-meaning-item">
+                            <span class="meaning-number">${idx + 1}.</span>
+                            <span class="meaning-text">${m.meaning}</span>
+                            ${ex && ex.sentence ? `<div class="word-example">${formatBold(ex.sentence)}${ex.translation ? `<span class="word-translation"> - ${ex.translation}</span>` : ''}</div>` : ''}
+                        </div>
+                    `;
+                }).join('');
+            }
+        } else {
+            // Fallback for old structure
+            const example = word.examples && word.examples[0] ? word.examples[0].sentence : '';
+            const translation = word.examples && word.examples[0] ? word.examples[0].translation : '';
+            meaningsHtml = `
+                <div class="word-meaning">${word.meaning}</div>
+                ${example ? `<div class="word-example">${formatBold(example)}${translation ? `<span class="word-translation"> - ${translation}</span>` : ''}</div>` : ''}
+            `;
+        }
 
         return `
             <div class="word-item" data-id="${word.id}">
@@ -299,8 +358,7 @@ function renderWordList() {
                         <span class="word-text">${word.word}</span>
                         ${showPronunciation && word.pronunciation ? `<span class="word-pronunciation">/${word.pronunciation}/</span>` : ''}
                     </div>
-                    <div class="word-meaning">${word.meaning}</div>
-                    ${example ? `<div class="word-example">${formatBold(example)}${translation ? `<span class="word-translation"> - ${translation}</span>` : ''}</div>` : ''}
+                    ${meaningsHtml}
                 </div>
                 <div class="word-actions">
                     <button class="word-action-btn" onclick="markMemorized('${word.id}')" title="암기 완료">
@@ -424,11 +482,30 @@ function updateFlashcard() {
     const word = flashcardWords[flashcardIndex];
     document.getElementById('fc-word').textContent = word.word;
     document.getElementById('fc-pronunciation').textContent = word.pronunciation ? `/${word.pronunciation}/` : '';
-    document.getElementById('fc-meaning').textContent = word.meaning;
 
-    const example = word.examples && word.examples[0];
-    document.getElementById('fc-example').innerHTML = example ? formatBold(example.sentence) : '';
-    document.getElementById('fc-translation').textContent = example ? example.translation : '';
+    // Handle polysemy (multiple meanings)
+    const meaningEl = document.getElementById('fc-meaning');
+    const exampleEl = document.getElementById('fc-example');
+    const translationEl = document.getElementById('fc-translation');
+
+    if (word.meanings && word.meanings.length > 1) {
+        // Multiple meanings
+        meaningEl.innerHTML = word.meanings.map((m, idx) =>
+            `<span class="fc-meaning-item"><span class="fc-meaning-num">${idx + 1}.</span> ${m.meaning}</span>`
+        ).join('');
+
+        // Show first example
+        const firstMeaning = word.meanings[0];
+        const ex = firstMeaning.examples && firstMeaning.examples[0];
+        exampleEl.innerHTML = ex ? formatBold(ex.sentence) : '';
+        translationEl.textContent = ex ? ex.translation : '';
+    } else {
+        // Single meaning or old structure
+        meaningEl.textContent = word.meaning;
+        const example = word.examples && word.examples[0];
+        exampleEl.innerHTML = example ? formatBold(example.sentence) : '';
+        translationEl.textContent = example ? example.translation : '';
+    }
 }
 
 function updateFlashcardProgress() {

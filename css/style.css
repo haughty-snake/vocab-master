@@ -753,6 +753,41 @@ body {
     font-style: normal;
 }
 
+.word-item.highlighted {
+    background: var(--primary-light);
+    animation: highlight-fade 2s ease-out;
+}
+
+@keyframes highlight-fade {
+    0% { background: var(--primary); }
+    100% { background: var(--primary-light); }
+}
+
+.word-meaning-item {
+    margin-bottom: 8px;
+    padding-left: 4px;
+}
+
+.word-meaning-item:last-child {
+    margin-bottom: 0;
+}
+
+.meaning-number {
+    font-weight: 600;
+    color: var(--primary);
+    margin-right: 6px;
+}
+
+.meaning-text {
+    font-size: 15px;
+    color: var(--text-secondary);
+}
+
+.word-meaning-item .word-example {
+    margin-left: 18px;
+    margin-top: 4px;
+}
+
 .word-actions {
     display: flex;
     gap: 8px;
@@ -893,6 +928,21 @@ body {
     color: var(--primary-color);
     margin-bottom: 16px;
     text-align: center;
+}
+
+.fc-meaning-item {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.fc-meaning-item:last-child {
+    margin-bottom: 0;
+}
+
+.fc-meaning-num {
+    color: var(--text-light);
+    margin-right: 6px;
 }
 
 .flashcard-example {

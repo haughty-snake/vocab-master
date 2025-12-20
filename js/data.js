@@ -325,35 +325,79 @@ const VocabData = {
             });
         } else {
             // Standard word format (nouns, verbs, adjectives, adverbs, prepositions, vocabulary)
+            // Use a map to merge words with same spelling (polysemy support)
+            const wordMap = new Map();
+
             data.forEach(cat => {
                 if (!cat) return;
-                const subcat = {
-                    name: cat.nameKo || cat.name || 'Unknown',
-                    words: []
-                };
                 const items = cat.words || [];
                 items.forEach((item, idx) => {
-                    const word = {
-                        id: `${key}_${(cat.nameKo || cat.name || 'unknown')}_${idx}`.replace(/\s/g, '_'),
-                        category: key,
-                        categoryName: meta.name,
-                        word: item.word,
-                        pronunciation: item.pronunciation || '',
-                        meaning: item.meaning,
-                        difficulty: meta.difficulty || 'basic',
-                        pastTense: item.pastTense || '',
-                        pastParticiple: item.pastParticiple || '',
-                        examples: [{
-                            sentence: item.example,
-                            translation: item.translation
-                        }]
-                    };
-                    subcat.words.push(word);
-                    category.words.push(word);
-                    this.allWords.push(word);
+                    const wordKey = item.word.toLowerCase();
+
+                    if (wordMap.has(wordKey)) {
+                        // Add as additional meaning to existing word
+                        const existing = wordMap.get(wordKey);
+                        existing.meanings.push({
+                            meaning: item.meaning,
+                            examples: [{
+                                sentence: item.example,
+                                translation: item.translation
+                            }]
+                        });
+                        // Update pastTense/pastParticiple if not set
+                        if (!existing.pastTense && item.pastTense) {
+                            existing.pastTense = item.pastTense;
+                        }
+                        if (!existing.pastParticiple && item.pastParticiple) {
+                            existing.pastParticiple = item.pastParticiple;
+                        }
+                    } else {
+                        // Create new word entry with meanings array
+                        const word = {
+                            id: `${key}_${item.word}`.replace(/\s/g, '_'),
+                            category: key,
+                            categoryName: meta.name,
+                            subcategory: cat.nameKo || cat.name || 'Unknown',
+                            word: item.word,
+                            pronunciation: item.pronunciation || '',
+                            difficulty: meta.difficulty || 'basic',
+                            pastTense: item.pastTense || '',
+                            pastParticiple: item.pastParticiple || '',
+                            antonym: item.antonym || '',
+                            meanings: [{
+                                meaning: item.meaning,
+                                examples: [{
+                                    sentence: item.example,
+                                    translation: item.translation
+                                }]
+                            }]
+                        };
+                        wordMap.set(wordKey, word);
+                    }
                 });
-                category.subcategories.push(subcat);
             });
+
+            // Convert map to array and add to category
+            wordMap.forEach(word => {
+                // For backward compatibility, set meaning to first meaning
+                word.meaning = word.meanings.map(m => m.meaning).join(', ');
+                // Set examples to first meaning's examples for backward compatibility
+                word.examples = word.meanings[0].examples;
+
+                category.words.push(word);
+                this.allWords.push(word);
+            });
+
+            // Group by subcategory for display
+            const subcatMap = new Map();
+            category.words.forEach(word => {
+                const subcatName = word.subcategory || 'Unknown';
+                if (!subcatMap.has(subcatName)) {
+                    subcatMap.set(subcatName, { name: subcatName, words: [] });
+                }
+                subcatMap.get(subcatName).words.push(word);
+            });
+            subcatMap.forEach(subcat => category.subcategories.push(subcat));
         }
 
         this.categories.push(category);
