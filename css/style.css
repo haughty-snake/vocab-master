@@ -748,6 +748,11 @@ body {
     font-style: italic;
 }
 
+.word-translation {
+    color: var(--text-secondary);
+    font-style: normal;
+}
+
 .word-actions {
     display: flex;
     gap: 8px;

@@ -86,7 +86,7 @@
           {
             "expression": "blow off steam",
             "meaning": "스트레스를 풀다",
-            "example": "I go jogging to blow off steam.",
+            "example": "I go jogging to **blow off steam**.",
             "translation": "스트레스 풀려고 조깅해요."
           },
           {
@@ -103,61 +103,61 @@
           {
             "expression": "in the nick of time",
             "meaning": "아슬아슬하게",
-            "example": "I arrived in the nick of time.",
+            "example": "I arrived **in the nick of time**.",
             "translation": "아슬아슬하게 도착했어요."
           },
           {
             "expression": "around the clock",
             "meaning": "24시간 내내",
-            "example": "They work around the clock.",
+            "example": "They work **around the clock**.",
             "translation": "그들은 24시간 내내 일해요."
           },
           {
             "expression": "from time to time",
             "meaning": "때때로",
-            "example": "I visit my parents from time to time.",
+            "example": "I visit my parents **from time to time**.",
             "translation": "때때로 부모님을 방문해요."
           },
           {
             "expression": "once in a blue moon",
             "meaning": "아주 가끔",
-            "example": "I eat fast food once in a blue moon.",
+            "example": "I eat fast food **once in a blue moon**.",
             "translation": "아주 가끔 패스트푸드를 먹어요."
           },
           {
             "expression": "at the drop of a hat",
             "meaning": "즉시",
-            "example": "She'll help you at the drop of a hat.",
+            "example": "She'll help you **at the drop of a hat**.",
             "translation": "그녀는 즉시 도와줄 거예요."
           },
           {
             "expression": "time flies",
             "meaning": "시간이 빠르다",
-            "example": "Time flies when you're having fun.",
+            "example": "**Time flies** when you're having fun.",
             "translation": "재미있을 때 시간이 빨라요."
           },
           {
             "expression": "behind the times",
             "meaning": "시대에 뒤떨어진",
-            "example": "His methods are behind the times.",
+            "example": "His methods are **behind the times**.",
             "translation": "그의 방법은 시대에 뒤떨어졌어요."
           },
           {
             "expression": "ahead of time",
             "meaning": "미리",
-            "example": "I like to arrive ahead of time.",
+            "example": "I like to arrive **ahead of time**.",
             "translation": "미리 도착하는 것을 좋아해요."
           },
           {
             "expression": "better late than never",
             "meaning": "늦더라도 안 하는 것보다 낫다",
-            "example": "Better late than never, I guess.",
+            "example": "**Better late than never**, I guess.",
             "translation": "늦더라도 안 하는 것보단 낫죠."
           },
           {
             "expression": "it's high time",
             "meaning": "~할 때가 됐다",
-            "example": "It's high time we made a decision.",
+            "example": "**It's high time** we made a decision.",
             "translation": "결정을 내릴 때가 됐어요."
           },
           {
@@ -169,7 +169,7 @@
           {
             "expression": "pressed for time",
             "meaning": "시간에 쫓기다",
-            "example": "I'm pressed for time today.",
+            "example": "I'm **pressed for time** today.",
             "translation": "오늘 시간에 쫓겨요."
           },
           {
@@ -181,13 +181,13 @@
           {
             "expression": "at this point in time",
             "meaning": "현재 이 시점에",
-            "example": "At this point in time, I'm not sure.",
+            "example": "**At this point in time**, I'm not sure.",
             "translation": "현재 이 시점에는 확실하지 않아요."
           },
           {
             "expression": "in the long run",
             "meaning": "장기적으로",
-            "example": "It will be beneficial in the long run.",
+            "example": "It will be beneficial **in the long run**.",
             "translation": "장기적으로 유익할 거예요."
           }
         ]
@@ -204,13 +204,13 @@
           {
             "expression": "think outside the box",
             "meaning": "창의적으로 생각하다",
-            "example": "We need to think outside the box.",
+            "example": "We need to **think outside the box**.",
             "translation": "창의적으로 생각해야 해요."
           },
           {
             "expression": "get the ball rolling",
             "meaning": "시작하다",
-            "example": "Let's get the ball rolling on this project.",
+            "example": "Let's **get the ball rolling** on this project.",
             "translation": "이 프로젝트를 시작합시다."
           },
           {
@@ -222,31 +222,31 @@
           {
             "expression": "learn the ropes",
             "meaning": "요령을 익히다",
-            "example": "It took me a month to learn the ropes.",
+            "example": "It took me a month to **learn the ropes**.",
             "translation": "요령을 익히는 데 한 달이 걸렸어요."
           },
           {
             "expression": "cut corners",
             "meaning": "대충하다",
-            "example": "Don't cut corners on quality.",
+            "example": "Don't **cut corners** on quality.",
             "translation": "품질에서 대충하지 마세요."
           },
           {
             "expression": "back to square one",
             "meaning": "처음부터 다시",
-            "example": "We're back to square one.",
+            "example": "We're **back to square one**.",
             "translation": "처음부터 다시예요."
           },
           {
             "expression": "get down to business",
             "meaning": "본론으로 들어가다",
-            "example": "Let's get down to business.",
+            "example": "Let's **get down to business**.",
             "translation": "본론으로 들어갑시다."
           },
           {
             "expression": "be on the same page",
             "meaning": "의견이 일치하다",
-            "example": "We need to be on the same page.",
+            "example": "We need to **be on the same page**.",
             "translation": "의견이 일치해야 해요."
           },
           {
@@ -258,19 +258,19 @@
           {
             "expression": "hit the ground running",
             "meaning": "바로 시작하다",
-            "example": "I hit the ground running on my first day.",
+            "example": "I **hit the ground running** on my first day.",
             "translation": "첫날부터 바로 시작했어요."
           },
           {
             "expression": "in the driver's seat",
             "meaning": "주도권을 잡다",
-            "example": "She's in the driver's seat now.",
+            "example": "She's **in the driver's seat** now.",
             "translation": "그녀가 지금 주도권을 잡고 있어요."
           },
           {
             "expression": "play it by ear",
             "meaning": "상황 봐서 하다",
-            "example": "Let's play it by ear.",
+            "example": "Let's **play it by ear**.",
             "translation": "상황 봐서 합시다."
           },
           {
@@ -282,7 +282,7 @@
           {
             "expression": "the bottom line",
             "meaning": "핵심, 결론",
-            "example": "The bottom line is we need more time.",
+            "example": "**The bottom line** is we need more time.",
             "translation": "결론은 더 많은 시간이 필요하다는 거예요."
           }
         ]
@@ -293,25 +293,25 @@
           {
             "expression": "break the ice",
             "meaning": "서먹함을 깨다",
-            "example": "Let me break the ice with a joke.",
+            "example": "Let me **break the ice** with a joke.",
             "translation": "농담으로 서먹함을 깨볼게요."
           },
           {
             "expression": "hit it off",
             "meaning": "금방 친해지다",
-            "example": "We hit it off immediately.",
+            "example": "We **hit it off** immediately.",
             "translation": "우리는 즉시 친해졌어요."
           },
           {
             "expression": "get along with",
             "meaning": "잘 지내다",
-            "example": "I get along with my coworkers.",
+            "example": "I **get along with** my coworkers.",
             "translation": "동료들과 잘 지내요."
           },
           {
             "expression": "see eye to eye",
             "meaning": "의견이 같다",
-            "example": "We don't always see eye to eye.",
+            "example": "We don't always **see eye to eye**.",
             "translation": "항상 의견이 같진 않아요."
           },
           {
@@ -329,19 +329,19 @@
           {
             "expression": "let the cat out of the bag",
             "meaning": "비밀을 누설하다",
-            "example": "Who let the cat out of the bag?",
+            "example": "Who **let the cat out of the bag**?",
             "translation": "누가 비밀을 누설했어요?"
           },
           {
             "expression": "spill the beans",
             "meaning": "비밀을 말하다",
-            "example": "Don't spill the beans about the party.",
+            "example": "Don't **spill the beans** about the party.",
             "translation": "파티에 대해 비밀을 말하지 마세요."
           },
           {
             "expression": "beat around the bush",
             "meaning": "둘러 말하다",
-            "example": "Don't beat around the bush.",
+            "example": "Don't **beat around the bush**.",
             "translation": "둘러 말하지 마세요."
           },
           {
@@ -353,7 +353,7 @@
           {
             "expression": "keep in touch",
             "meaning": "연락을 유지하다",
-            "example": "Let's keep in touch.",
+            "example": "Let's **keep in touch**.",
             "translation": "연락하고 지내요."
           },
           {
@@ -371,7 +371,7 @@
           {
             "expression": "burn bridges",
             "meaning": "관계를 끊다",
-            "example": "Don't burn bridges when you leave a job.",
+            "example": "Don't **burn bridges** when you leave a job.",
             "translation": "직장을 떠날 때 관계를 끊지 마세요."
           },
           {
@@ -394,13 +394,13 @@
           {
             "expression": "on the fence",
             "meaning": "결정하지 못하다",
-            "example": "I'm still on the fence about it.",
+            "example": "I'm still **on the fence** about it.",
             "translation": "아직 결정하지 못했어요."
           },
           {
             "expression": "between a rock and a hard place",
             "meaning": "진퇴양난",
-            "example": "I'm between a rock and a hard place.",
+            "example": "I'm **between a rock and a hard place**.",
             "translation": "진퇴양난이에요."
           },
           {
@@ -412,13 +412,13 @@
           {
             "expression": "weigh the pros and cons",
             "meaning": "장단점을 따지다",
-            "example": "I need to weigh the pros and cons.",
+            "example": "I need to **weigh the pros and cons**.",
             "translation": "장단점을 따져봐야 해요."
           },
           {
             "expression": "jump to conclusions",
             "meaning": "성급히 결론짓다",
-            "example": "Don't jump to conclusions.",
+            "example": "Don't **jump to conclusions**.",
             "translation": "성급히 결론짓지 마세요."
           },
           {
@@ -430,49 +430,49 @@
           {
             "expression": "go with the flow",
             "meaning": "흐름에 따르다",
-            "example": "Sometimes you just have to go with the flow.",
+            "example": "Sometimes you just have to **go with the flow**.",
             "translation": "때로는 그냥 흐름에 따라야 해요."
           },
           {
             "expression": "at the end of the day",
             "meaning": "결국",
-            "example": "At the end of the day, it's your decision.",
+            "example": "**At the end of the day**, it's your decision.",
             "translation": "결국 당신의 결정이에요."
           },
           {
             "expression": "when push comes to shove",
             "meaning": "막상 닥치면",
-            "example": "When push comes to shove, I'll figure it out.",
+            "example": "**When push comes to shove**, I'll figure it out.",
             "translation": "막상 닥치면 해결할 거예요."
           },
           {
             "expression": "tip of the iceberg",
             "meaning": "빙산의 일각",
-            "example": "This is just the tip of the iceberg.",
+            "example": "This is just the **tip of the iceberg**.",
             "translation": "이건 빙산의 일각이에요."
           },
           {
             "expression": "read between the lines",
             "meaning": "행간을 읽다",
-            "example": "You need to read between the lines.",
+            "example": "You need to **read between the lines**.",
             "translation": "행간을 읽어야 해요."
           },
           {
             "expression": "the last straw",
             "meaning": "한계에 이르게 하는 마지막 것",
-            "example": "That was the last straw.",
+            "example": "That was **the last straw**.",
             "translation": "그게 마지막이었어요."
           },
           {
             "expression": "a blessing in disguise",
             "meaning": "전화위복",
-            "example": "It turned out to be a blessing in disguise.",
+            "example": "It turned out to be **a blessing in disguise**.",
             "translation": "전화위복이었어요."
           },
           {
             "expression": "sleep on it",
             "meaning": "하루 자고 생각하다",
-            "example": "Let me sleep on it.",
+            "example": "Let me **sleep on it**.",
             "translation": "하루 자고 생각해 볼게요."
           }
         ]
@@ -483,7 +483,7 @@
           {
             "expression": "piece of cake",
             "meaning": "아주 쉬운",
-            "example": "The test was a piece of cake.",
+            "example": "The test was a **piece of cake**.",
             "translation": "시험이 아주 쉬웠어요."
           },
           {
@@ -537,7 +537,7 @@
           {
             "expression": "hang in there",
             "meaning": "견디다",
-            "example": "Hang in there, you can do it.",
+            "example": "**Hang in there**, you can do it.",
             "translation": "견뎌, 할 수 있어."
           },
           {
@@ -549,13 +549,13 @@
           {
             "expression": "up to speed",
             "meaning": "최신 정보를 알다",
-            "example": "Let me bring you up to speed.",
+            "example": "Let me bring you **up to speed**.",
             "translation": "최신 정보를 알려줄게요."
           },
           {
             "expression": "have what it takes",
             "meaning": "자질이 있다",
-            "example": "You have what it takes to succeed.",
+            "example": "You **have what it takes** to succeed.",
             "translation": "성공할 자질이 있어요."
           },
           {
@@ -567,7 +567,7 @@
           {
             "expression": "take the plunge",
             "meaning": "결단을 내리다",
-            "example": "I decided to take the plunge and start my own business.",
+            "example": "I decided to **take the plunge** and start my own business.",
             "translation": "결단을 내려 사업을 시작했어요."
           }
         ]
@@ -578,7 +578,7 @@
           {
             "expression": "break the bank",
             "meaning": "큰 돈을 쓰다",
-            "example": "Eating out doesn't have to break the bank.",
+            "example": "Eating out doesn't have to **break the bank**.",
             "translation": "외식이 꼭 큰 돈을 쓸 필요는 없어요."
           },
           {
@@ -590,19 +590,19 @@
           {
             "expression": "a dime a dozen",
             "meaning": "아주 흔한",
-            "example": "Jobs like that are a dime a dozen.",
+            "example": "Jobs like that are **a dime a dozen**.",
             "translation": "그런 일자리는 아주 흔해요."
           },
           {
             "expression": "make ends meet",
             "meaning": "겨우 살아가다",
-            "example": "It's hard to make ends meet these days.",
+            "example": "It's hard to **make ends meet** these days.",
             "translation": "요즘 겨우 살아가기 힘들어요."
           },
           {
             "expression": "live from hand to mouth",
             "meaning": "그날 벌어 그날 먹다",
-            "example": "Many families live from hand to mouth.",
+            "example": "Many families **live from hand to mouth**.",
             "translation": "많은 가족들이 그날 벌어 그날 먹어요."
           },
           {
@@ -614,7 +614,7 @@
           {
             "expression": "put money aside",
             "meaning": "저축하다",
-            "example": "I try to put money aside each month.",
+            "example": "I try to **put money aside** each month.",
             "translation": "매달 저축하려고 해요."
           },
           {
@@ -626,25 +626,25 @@
           {
             "expression": "in the red",
             "meaning": "적자인",
-            "example": "The company is in the red.",
+            "example": "The company is **in the red**.",
             "translation": "회사가 적자예요."
           },
           {
             "expression": "in the black",
             "meaning": "흑자인",
-            "example": "We're finally in the black.",
+            "example": "We're finally **in the black**.",
             "translation": "드디어 흑자예요."
           },
           {
             "expression": "penny pincher",
             "meaning": "구두쇠",
-            "example": "He's such a penny pincher.",
+            "example": "He's such a **penny pincher**.",
             "translation": "그는 완전 구두쇠예요."
           },
           {
             "expression": "money doesn't grow on trees",
             "meaning": "돈은 쉽게 벌리지 않는다",
-            "example": "Money doesn't grow on trees.",
+            "example": "**Money doesn't grow on trees**.",
             "translation": "돈은 나무에서 열리지 않아요."
           },
           {
@@ -656,7 +656,7 @@
           {
             "expression": "worth every penny",
             "meaning": "가치가 있다",
-            "example": "The trip was worth every penny.",
+            "example": "The trip was **worth every penny**.",
             "translation": "여행은 쓴 돈만큼 가치가 있었어요."
           },
           {
@@ -673,19 +673,19 @@
           {
             "expression": "in the pink",
             "meaning": "건강한",
-            "example": "I'm in the pink these days.",
+            "example": "I'm **in the pink** these days.",
             "translation": "요즘 건강해요."
           },
           {
             "expression": "as fit as a fiddle",
             "meaning": "매우 건강한",
-            "example": "My grandmother is as fit as a fiddle.",
+            "example": "My grandmother is **as fit as a fiddle**.",
             "translation": "할머니는 매우 건강해요."
           },
           {
             "expression": "alive and kicking",
             "meaning": "아직 건재한",
-            "example": "Despite his age, he's alive and kicking.",
+            "example": "Despite his age, he's **alive and kicking**.",
             "translation": "나이에도 불구하고 여전히 건재해요."
           },
           {
@@ -697,31 +697,31 @@
           {
             "expression": "run down",
             "meaning": "지친",
-            "example": "I'm feeling run down.",
+            "example": "I'm feeling **run down**.",
             "translation": "지친 기분이에요."
           },
           {
             "expression": "at death's door",
             "meaning": "죽을 지경인",
-            "example": "He looked like he was at death's door.",
+            "example": "He looked like he was **at death's door**.",
             "translation": "그는 죽을 지경처럼 보였어요."
           },
           {
             "expression": "on the mend",
             "meaning": "회복 중인",
-            "example": "I'm on the mend now.",
+            "example": "I'm **on the mend** now.",
             "translation": "지금 회복 중이에요."
           },
           {
             "expression": "pull through",
             "meaning": "회복하다",
-            "example": "I'm sure she'll pull through.",
+            "example": "I'm sure she'll **pull through**.",
             "translation": "그녀가 회복할 거라 확신해요."
           },
           {
             "expression": "take it easy",
             "meaning": "편히 쉬다",
-            "example": "The doctor told me to take it easy.",
+            "example": "The doctor told me to **take it easy**.",
             "translation": "의사가 편히 쉬라고 했어요."
           },
           {
@@ -739,13 +739,13 @@
           {
             "expression": "under the weather",
             "meaning": "컨디션이 안 좋은",
-            "example": "I'm feeling under the weather.",
+            "example": "I'm feeling **under the weather**.",
             "translation": "컨디션이 안 좋아요."
           },
           {
             "expression": "fighting fit",
             "meaning": "완전히 건강한",
-            "example": "I'm fighting fit again.",
+            "example": "I'm **fighting fit** again.",
             "translation": "다시 완전히 건강해요."
           },
           {
@@ -757,7 +757,7 @@
           {
             "expression": "a clean bill of health",
             "meaning": "건강 진단서",
-            "example": "The doctor gave me a clean bill of health.",
+            "example": "The doctor gave me **a clean bill of health**.",
             "translation": "의사가 건강하다고 했어요."
           }
         ]
@@ -773,7 +773,7 @@
           {
             "expression": "keep in touch",
             "meaning": "연락을 유지하다",
-            "example": "Let's keep in touch.",
+            "example": "Let's **keep in touch**.",
             "translation": "연락하고 지내요."
           },
           {
@@ -785,7 +785,7 @@
           {
             "expression": "get along with",
             "meaning": "~와 잘 지내다",
-            "example": "I get along with my coworkers.",
+            "example": "I **get along with** my coworkers.",
             "translation": "동료들과 잘 지내요."
           },
           {
@@ -803,7 +803,7 @@
           {
             "expression": "put up with",
             "meaning": "참다",
-            "example": "I can't put up with this anymore.",
+            "example": "I can't **put up with** this anymore.",
             "translation": "더 이상 참을 수 없어요."
           },
           {
@@ -815,37 +815,37 @@
           {
             "expression": "hang out",
             "meaning": "어울리다",
-            "example": "Let's hang out this weekend.",
+            "example": "Let's **hang out** this weekend.",
             "translation": "이번 주말에 놀아요."
           },
           {
             "expression": "get together",
             "meaning": "모이다",
-            "example": "Let's get together sometime.",
+            "example": "Let's **get together** sometime.",
             "translation": "언제 한번 모여요."
           },
           {
             "expression": "look forward to",
             "meaning": "기대하다",
-            "example": "I look forward to seeing you.",
+            "example": "I **look forward to** seeing you.",
             "translation": "만나기를 기대해요."
           },
           {
             "expression": "take care of",
             "meaning": "돌보다",
-            "example": "I take care of my parents.",
+            "example": "I **take care of** my parents.",
             "translation": "부모님을 돌봐요."
           },
           {
             "expression": "look after",
             "meaning": "돌보다",
-            "example": "Can you look after my cat?",
+            "example": "Can you **look after** my cat?",
             "translation": "내 고양이 돌봐줄 수 있어요?"
           },
           {
             "expression": "show up",
             "meaning": "나타나다",
-            "example": "He didn't show up.",
+            "example": "He didn't **show up**.",
             "translation": "그가 나타나지 않았어요."
           },
           {
@@ -857,13 +857,13 @@
           {
             "expression": "stand by",
             "meaning": "옆에 있다",
-            "example": "I'll always stand by you.",
+            "example": "I'll always **stand by** you.",
             "translation": "항상 곁에 있을게요."
           },
           {
             "expression": "count on",
             "meaning": "의지하다",
-            "example": "You can count on me.",
+            "example": "You can **count on** me.",
             "translation": "나를 믿어도 돼요."
           },
           {
@@ -881,19 +881,19 @@
           {
             "expression": "cheer up",
             "meaning": "기운 내다",
-            "example": "Cheer up! Things will get better.",
+            "example": "**Cheer up**! Things will get better.",
             "translation": "기운 내! 상황이 나아질 거야."
           },
           {
             "expression": "calm down",
             "meaning": "진정하다",
-            "example": "Calm down and listen to me.",
+            "example": "**Calm down** and listen to me.",
             "translation": "진정하고 내 말 들어요."
           },
           {
             "expression": "settle down",
             "meaning": "정착하다",
-            "example": "I want to settle down.",
+            "example": "I want to **settle down**.",
             "translation": "정착하고 싶어요."
           },
           {
@@ -911,13 +911,13 @@
           {
             "expression": "give up",
             "meaning": "포기하다",
-            "example": "Don't give up!",
+            "example": "Don't **give up**!",
             "translation": "포기하지 마요!"
           },
           {
             "expression": "keep up",
             "meaning": "유지하다",
-            "example": "Keep up the good work!",
+            "example": "**Keep up** the good work!",
             "translation": "계속 잘해요!"
           },
           {
@@ -970,19 +970,19 @@
           {
             "expression": "fill in",
             "meaning": "작성하다",
-            "example": "Please fill in this form.",
+            "example": "Please **fill in** this form.",
             "translation": "이 양식을 작성하세요."
           },
           {
             "expression": "fill out",
             "meaning": "작성하다",
-            "example": "Fill out the application.",
+            "example": "**Fill out** the application.",
             "translation": "신청서를 작성하세요."
           },
           {
             "expression": "put off",
             "meaning": "미루다",
-            "example": "Don't put off your homework.",
+            "example": "Don't **put off** your homework.",
             "translation": "숙제를 미루지 마요."
           },
           {
@@ -994,7 +994,7 @@
           {
             "expression": "set up",
             "meaning": "설치하다",
-            "example": "I set up the computer.",
+            "example": "I **set up** the computer.",
             "translation": "컴퓨터를 설치했어요."
           },
           {
@@ -1024,31 +1024,31 @@
           {
             "expression": "look into",
             "meaning": "조사하다",
-            "example": "We'll look into it.",
+            "example": "We'll **look into** it.",
             "translation": "조사해볼게요."
           },
           {
             "expression": "go through",
             "meaning": "검토하다",
-            "example": "Let's go through the report.",
+            "example": "Let's **go through** the report.",
             "translation": "보고서를 검토해요."
           },
           {
             "expression": "deal with",
             "meaning": "처리하다",
-            "example": "I'll deal with it.",
+            "example": "I'll **deal with** it.",
             "translation": "처리할게요."
           },
           {
             "expression": "focus on",
             "meaning": "집중하다",
-            "example": "Focus on your goals.",
+            "example": "**Focus on** your goals.",
             "translation": "목표에 집중하세요."
           },
           {
             "expression": "rely on",
             "meaning": "의존하다",
-            "example": "Don't rely on others.",
+            "example": "Don't **rely on** others.",
             "translation": "다른 사람에게 의존하지 마요."
           },
           {
@@ -1060,7 +1060,7 @@
           {
             "expression": "keep track of",
             "meaning": "추적하다",
-            "example": "Keep track of your expenses.",
+            "example": "**Keep track of** your expenses.",
             "translation": "지출을 추적하세요."
           },
           {
@@ -1072,7 +1072,7 @@
           {
             "expression": "catch up on",
             "meaning": "밀린 것을 하다",
-            "example": "I need to catch up on sleep.",
+            "example": "I need to **catch up on** sleep.",
             "translation": "밀린 잠을 자야 해요."
           },
           {
@@ -1102,13 +1102,13 @@
           {
             "expression": "major in",
             "meaning": "전공하다",
-            "example": "I major in economics.",
+            "example": "I **major in** economics.",
             "translation": "경제학을 전공해요."
           },
           {
             "expression": "cut down on",
             "meaning": "줄이다",
-            "example": "I need to cut down on sugar.",
+            "example": "I need to **cut down on** sugar.",
             "translation": "설탕을 줄여야 해요."
           },
           {
@@ -1126,13 +1126,13 @@
           {
             "expression": "brush up on",
             "meaning": "다시 복습하다",
-            "example": "I need to brush up on my English.",
+            "example": "I need to **brush up on** my English.",
             "translation": "영어를 다시 복습해야 해요."
           },
           {
             "expression": "stick to",
             "meaning": "고수하다",
-            "example": "Stick to the plan.",
+            "example": "**Stick to** the plan.",
             "translation": "계획을 고수해요."
           }
         ]
@@ -1143,55 +1143,55 @@
           {
             "expression": "get over",
             "meaning": "극복하다",
-            "example": "I can't get over it.",
+            "example": "I can't **get over** it.",
             "translation": "그것을 극복할 수 없어요."
           },
           {
             "expression": "move on",
             "meaning": "계속 나아가다",
-            "example": "It's time to move on.",
+            "example": "It's time to **move on**.",
             "translation": "계속 나아갈 때예요."
           },
           {
             "expression": "let go",
             "meaning": "놓아주다",
-            "example": "You need to let go.",
+            "example": "You need to **let go**.",
             "translation": "놓아줘야 해요."
           },
           {
             "expression": "hold on",
             "meaning": "기다리다",
-            "example": "Hold on a second.",
+            "example": "**Hold on** a second.",
             "translation": "잠깐만요."
           },
           {
             "expression": "carry on",
             "meaning": "계속하다",
-            "example": "Carry on with your work.",
+            "example": "**Carry on** with your work.",
             "translation": "일을 계속하세요."
           },
           {
             "expression": "go on",
             "meaning": "계속하다",
-            "example": "Please go on.",
+            "example": "Please **go on**.",
             "translation": "계속하세요."
           },
           {
             "expression": "put up with",
             "meaning": "견디다",
-            "example": "I can't put up with it.",
+            "example": "I can't **put up with** it.",
             "translation": "견딜 수 없어요."
           },
           {
             "expression": "look down on",
             "meaning": "무시하다",
-            "example": "Don't look down on others.",
+            "example": "Don't **look down on** others.",
             "translation": "다른 사람을 무시하지 마요."
           },
           {
             "expression": "look up to",
             "meaning": "존경하다",
-            "example": "I look up to my father.",
+            "example": "I **look up to** my father.",
             "translation": "아버지를 존경해요."
           },
           {
@@ -1221,13 +1221,13 @@
           {
             "expression": "freak out",
             "meaning": "당황하다",
-            "example": "Don't freak out.",
+            "example": "Don't **freak out**.",
             "translation": "당황하지 마요."
           },
           {
             "expression": "chill out",
             "meaning": "진정하다",
-            "example": "Just chill out.",
+            "example": "Just **chill out**.",
             "translation": "그냥 진정해요."
           },
           {
@@ -1251,7 +1251,7 @@
           {
             "expression": "come on",
             "meaning": "어서",
-            "example": "Come on, let's go!",
+            "example": "**Come on**, let's go!",
             "translation": "어서, 가자!"
           },
           {
@@ -1263,49 +1263,49 @@
           {
             "expression": "wind down",
             "meaning": "긴장을 풀다",
-            "example": "I like to wind down with music.",
+            "example": "I like to **wind down** with music.",
             "translation": "음악으로 긴장을 풀어요."
           },
           {
             "expression": "take it out on",
             "meaning": "~에게 화풀이하다",
-            "example": "Don't take it out on me.",
+            "example": "Don't **take it out on** me.",
             "translation": "나한테 화풀이하지 마요."
           },
           {
             "expression": "bottle up",
             "meaning": "감정을 숨기다",
-            "example": "Don't bottle up your feelings.",
+            "example": "Don't **bottle up** your feelings.",
             "translation": "감정을 숨기지 마요."
           },
           {
             "expression": "open up",
             "meaning": "마음을 열다",
-            "example": "It's hard for me to open up.",
+            "example": "It's hard for me to **open up**.",
             "translation": "마음을 열기 어려워요."
           },
           {
             "expression": "reach out",
             "meaning": "연락하다",
-            "example": "Feel free to reach out.",
+            "example": "Feel free to **reach out**.",
             "translation": "편하게 연락하세요."
           },
           {
             "expression": "speak up",
             "meaning": "목소리를 높이다",
-            "example": "Please speak up.",
+            "example": "Please **speak up**.",
             "translation": "크게 말씀해 주세요."
           },
           {
             "expression": "stand up for",
             "meaning": "옹호하다",
-            "example": "Stand up for what you believe.",
+            "example": "**Stand up for** what you believe.",
             "translation": "믿는 것을 옹호하세요."
           },
           {
             "expression": "back down",
             "meaning": "물러서다",
-            "example": "I won't back down.",
+            "example": "I won't **back down**.",
             "translation": "물러서지 않을 거예요."
           },
           {
@@ -1317,7 +1317,7 @@
           {
             "expression": "hold back",
             "meaning": "억누르다",
-            "example": "I couldn't hold back my tears.",
+            "example": "I couldn't **hold back** my tears.",
             "translation": "눈물을 억누를 수 없었어요."
           }
         ]
@@ -1328,7 +1328,7 @@
           {
             "expression": "wake up",
             "meaning": "일어나다",
-            "example": "I wake up at 7 AM.",
+            "example": "I **wake up** at 7 AM.",
             "translation": "아침 7시에 일어나요."
           },
           {
@@ -1352,13 +1352,13 @@
           {
             "expression": "put on",
             "meaning": "입다",
-            "example": "Put on your jacket.",
+            "example": "**Put on** your jacket.",
             "translation": "재킷을 입어요."
           },
           {
             "expression": "take off",
             "meaning": "벗다",
-            "example": "Take off your shoes.",
+            "example": "**Take off** your shoes.",
             "translation": "신발을 벗으세요."
           },
           {
@@ -1376,7 +1376,7 @@
           {
             "expression": "check out",
             "meaning": "확인하다",
-            "example": "Check out this video.",
+            "example": "**Check out** this video.",
             "translation": "이 영상 확인해봐요."
           },
           {
@@ -1388,13 +1388,13 @@
           {
             "expression": "eat out",
             "meaning": "외식하다",
-            "example": "Let's eat out tonight.",
+            "example": "Let's **eat out** tonight.",
             "translation": "오늘 밤 외식해요."
           },
           {
             "expression": "take out",
             "meaning": "테이크아웃하다",
-            "example": "I'll take out some food.",
+            "example": "I'll **take out** some food.",
             "translation": "음식을 테이크아웃할게요."
           },
           {
@@ -1418,19 +1418,19 @@
           {
             "expression": "stay in",
             "meaning": "집에 있다",
-            "example": "I'll stay in tonight.",
+            "example": "I'll **stay in** tonight.",
             "translation": "오늘 밤 집에 있을게요."
           },
           {
             "expression": "come over",
             "meaning": "방문하다",
-            "example": "Come over to my place.",
+            "example": "**Come over** to my place.",
             "translation": "우리 집에 와요."
           },
           {
             "expression": "stop by",
             "meaning": "잠깐 들르다",
-            "example": "I'll stop by later.",
+            "example": "I'll **stop by** later.",
             "translation": "나중에 잠깐 들를게요."
           },
           {
@@ -1454,19 +1454,19 @@
           {
             "expression": "clean up",
             "meaning": "청소하다",
-            "example": "I need to clean up my room.",
+            "example": "I need to **clean up** my room.",
             "translation": "방을 청소해야 해요."
           },
           {
             "expression": "tidy up",
             "meaning": "정리하다",
-            "example": "Tidy up your desk.",
+            "example": "**Tidy up** your desk.",
             "translation": "책상을 정리하세요."
           },
           {
             "expression": "throw away",
             "meaning": "버리다",
-            "example": "Throw away the trash.",
+            "example": "**Throw away** the trash.",
             "translation": "쓰레기를 버리세요."
           },
           {
@@ -1478,13 +1478,13 @@
           {
             "expression": "stock up",
             "meaning": "비축하다",
-            "example": "I need to stock up on groceries.",
+            "example": "I need to **stock up** on groceries.",
             "translation": "식료품을 비축해야 해요."
           },
           {
             "expression": "shop around",
             "meaning": "쇼핑하다",
-            "example": "I like to shop around first.",
+            "example": "I like to **shop around** first.",
             "translation": "먼저 둘러보는 것을 좋아해요."
           },
           {
@@ -1513,7 +1513,7 @@
           {
             "expression": "bring up",
             "meaning": "언급하다",
-            "example": "Don't bring up the past.",
+            "example": "Don't **bring up** the past.",
             "translation": "과거를 언급하지 마요."
           },
           {
@@ -1525,7 +1525,7 @@
           {
             "expression": "speak out",
             "meaning": "말하다",
-            "example": "Speak out if you disagree.",
+            "example": "**Speak out** if you disagree.",
             "translation": "동의하지 않으면 말하세요."
           },
           {
@@ -1561,7 +1561,7 @@
           {
             "expression": "sum up",
             "meaning": "요약하다",
-            "example": "To sum up, it was great.",
+            "example": "To **sum up**, it was great.",
             "translation": "요약하면, 좋았어요."
           },
           {
@@ -1573,25 +1573,25 @@
           {
             "expression": "lay out",
             "meaning": "설명하다",
-            "example": "Let me lay out the plan.",
+            "example": "Let me **lay out** the plan.",
             "translation": "계획을 설명할게요."
           },
           {
             "expression": "go over",
             "meaning": "검토하다",
-            "example": "Let's go over the details.",
+            "example": "Let's **go over** the details.",
             "translation": "세부사항을 검토해요."
           },
           {
             "expression": "touch on",
             "meaning": "언급하다",
-            "example": "I'll touch on that later.",
+            "example": "I'll **touch on** that later.",
             "translation": "나중에 그것을 언급할게요."
           },
           {
             "expression": "dwell on",
             "meaning": "곰곰이 생각하다",
-            "example": "Don't dwell on the past.",
+            "example": "Don't **dwell on** the past.",
             "translation": "과거에 얽매이지 마요."
           },
           {
@@ -1627,7 +1627,7 @@
           {
             "expression": "put off",
             "meaning": "연기하다",
-            "example": "Let's put off the meeting.",
+            "example": "Let's **put off** the meeting.",
             "translation": "회의를 연기해요."
           }
         ]

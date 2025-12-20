@@ -10,105 +10,105 @@
           {
             "word": "commute",
             "meaning": "통근",
-            "example": "My commute takes about 40 minutes.",
+            "example": "My **commute** takes about 40 minutes.",
             "translation": "통근에 약 40분이 걸려요.",
             "difficulty": "intermediate"
           },
           {
             "word": "routine",
             "meaning": "일과",
-            "example": "I have a morning routine.",
+            "example": "I have a morning **routine**.",
             "translation": "아침 일과가 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "schedule",
             "meaning": "일정",
-            "example": "My schedule is very tight this week.",
+            "example": "My **schedule** is very tight this week.",
             "translation": "이번 주 일정이 매우 빡빡해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "appointment",
             "meaning": "약속, 예약",
-            "example": "I have a doctor's appointment.",
+            "example": "I have a doctor's **appointment**.",
             "translation": "병원 예약이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "deadline",
             "meaning": "마감일",
-            "example": "The deadline is next Friday.",
+            "example": "The **deadline** is next Friday.",
             "translation": "마감일이 다음 금요일이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "priority",
             "meaning": "우선순위",
-            "example": "Family is my top priority.",
+            "example": "Family is my top **priority**.",
             "translation": "가족이 최우선이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "responsibility",
             "meaning": "책임",
-            "example": "It's my responsibility to finish this.",
+            "example": "It's my **responsibility** to finish this.",
             "translation": "이걸 끝내는 건 내 책임이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "opportunity",
             "meaning": "기회",
-            "example": "This is a great opportunity.",
+            "example": "This is a great **opportunity**.",
             "translation": "이건 좋은 기회예요.",
             "difficulty": "intermediate"
           },
           {
             "word": "experience",
             "meaning": "경험",
-            "example": "I have experience in marketing.",
+            "example": "I have **experience** in marketing.",
             "translation": "마케팅 경험이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "achievement",
             "meaning": "성취",
-            "example": "This is my biggest achievement.",
+            "example": "This is my biggest **achievement**.",
             "translation": "이것이 내 가장 큰 성취예요.",
             "difficulty": "intermediate"
           },
           {
             "word": "improvement",
             "meaning": "개선",
-            "example": "There's room for improvement.",
+            "example": "There's room for **improvement**.",
             "translation": "개선의 여지가 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "progress",
             "meaning": "진전",
-            "example": "We're making progress.",
+            "example": "We're making **progress**.",
             "translation": "진전을 이루고 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "challenge",
             "meaning": "도전",
-            "example": "This is a big challenge for me.",
+            "example": "This is a big **challenge** for me.",
             "translation": "이건 나에게 큰 도전이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "advantage",
             "meaning": "장점",
-            "example": "One advantage is the location.",
+            "example": "One **advantage** is the location.",
             "translation": "한 가지 장점은 위치예요.",
             "difficulty": "intermediate"
           },
           {
             "word": "disadvantage",
             "meaning": "단점",
-            "example": "The only disadvantage is the price.",
+            "example": "The only **disadvantage** is the price.",
             "translation": "유일한 단점은 가격이에요.",
             "difficulty": "intermediate"
           },
@@ -129,14 +129,14 @@
           {
             "word": "solution",
             "meaning": "해결책",
-            "example": "We need to find a solution.",
+            "example": "We need to find a **solution**.",
             "translation": "해결책을 찾아야 해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "situation",
             "meaning": "상황",
-            "example": "The situation is complicated.",
+            "example": "The **situation** is complicated.",
             "translation": "상황이 복잡해요.",
             "difficulty": "intermediate"
           },
@@ -162,63 +162,63 @@
           {
             "word": "supervisor",
             "meaning": "상사",
-            "example": "I need to ask my supervisor.",
+            "example": "I need to ask my **supervisor**.",
             "translation": "상사에게 물어봐야 해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "client",
             "meaning": "고객",
-            "example": "I'm meeting with a client today.",
+            "example": "I'm meeting with a **client** today.",
             "translation": "오늘 고객을 만나요.",
             "difficulty": "intermediate"
           },
           {
             "word": "meeting",
             "meaning": "회의",
-            "example": "We have a meeting at 3 PM.",
+            "example": "We have a **meeting** at 3 PM.",
             "translation": "오후 3시에 회의가 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "presentation",
             "meaning": "발표",
-            "example": "I'm preparing a presentation.",
+            "example": "I'm preparing a **presentation**.",
             "translation": "발표를 준비하고 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "project",
             "meaning": "프로젝트",
-            "example": "I'm working on a new project.",
+            "example": "I'm working on a new **project**.",
             "translation": "새 프로젝트를 진행하고 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "report",
             "meaning": "보고서",
-            "example": "I need to submit a report.",
+            "example": "I need to submit a **report**.",
             "translation": "보고서를 제출해야 해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "proposal",
             "meaning": "제안서",
-            "example": "I wrote a proposal for the client.",
+            "example": "I wrote a **proposal** for the client.",
             "translation": "고객을 위한 제안서를 썼어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "contract",
             "meaning": "계약",
-            "example": "We signed a contract yesterday.",
+            "example": "We signed a **contract** yesterday.",
             "translation": "어제 계약서에 서명했어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "budget",
             "meaning": "예산",
-            "example": "We need to stick to the budget.",
+            "example": "We need to stick to the **budget**.",
             "translation": "예산을 지켜야 해요.",
             "difficulty": "intermediate"
           },
@@ -232,63 +232,63 @@
           {
             "word": "revenue",
             "meaning": "수익",
-            "example": "The company's revenue increased.",
+            "example": "The company's **revenue** increased.",
             "translation": "회사 수익이 증가했어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "profit",
             "meaning": "이익",
-            "example": "We made a profit this quarter.",
+            "example": "We made a **profit** this quarter.",
             "translation": "이번 분기에 이익을 냈어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "loss",
             "meaning": "손실",
-            "example": "We suffered a loss last year.",
+            "example": "We suffered a **loss** last year.",
             "translation": "작년에 손실을 입었어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "department",
             "meaning": "부서",
-            "example": "I work in the marketing department.",
+            "example": "I work in the marketing **department**.",
             "translation": "마케팅 부서에서 일해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "position",
             "meaning": "직책",
-            "example": "I applied for a new position.",
+            "example": "I applied for a new **position**.",
             "translation": "새 직책에 지원했어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "promotion",
             "meaning": "승진",
-            "example": "I got a promotion last month.",
+            "example": "I got a **promotion** last month.",
             "translation": "지난달에 승진했어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "salary",
             "meaning": "급여",
-            "example": "I negotiated my salary.",
+            "example": "I negotiated my **salary**.",
             "translation": "급여를 협상했어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "bonus",
             "meaning": "보너스",
-            "example": "We get a yearly bonus.",
+            "example": "We get a yearly **bonus**.",
             "translation": "연간 보너스를 받아요.",
             "difficulty": "intermediate"
           },
           {
             "word": "vacation",
             "meaning": "휴가",
-            "example": "I'm taking a vacation next week.",
+            "example": "I'm taking a **vacation** next week.",
             "translation": "다음 주에 휴가를 가요.",
             "difficulty": "intermediate"
           }
@@ -307,56 +307,56 @@
           {
             "word": "treatment",
             "meaning": "치료",
-            "example": "I'm receiving treatment for it.",
+            "example": "I'm receiving **treatment** for it.",
             "translation": "그것에 대한 치료를 받고 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "medication",
             "meaning": "약",
-            "example": "I take medication daily.",
+            "example": "I take **medication** daily.",
             "translation": "매일 약을 먹어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "prescription",
             "meaning": "처방전",
-            "example": "I need a prescription for this.",
+            "example": "I need a **prescription** for this.",
             "translation": "이거에 대한 처방전이 필요해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "appointment",
             "meaning": "진료 예약",
-            "example": "I made an appointment with the doctor.",
+            "example": "I made an **appointment** with the doctor.",
             "translation": "의사와 진료 예약을 했어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "checkup",
             "meaning": "검진",
-            "example": "I had my annual checkup.",
+            "example": "I had my annual **checkup**.",
             "translation": "연간 검진을 받았어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "exercise",
             "meaning": "운동",
-            "example": "Regular exercise is important.",
+            "example": "Regular **exercise** is important.",
             "translation": "규칙적인 운동이 중요해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "diet",
             "meaning": "식단",
-            "example": "I'm on a healthy diet.",
+            "example": "I'm on a healthy **diet**.",
             "translation": "건강한 식단을 유지하고 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "nutrition",
             "meaning": "영양",
-            "example": "Proper nutrition is essential.",
+            "example": "Proper **nutrition** is essential.",
             "translation": "적절한 영양이 필수적이에요.",
             "difficulty": "intermediate"
           },
@@ -377,28 +377,28 @@
           {
             "word": "stress",
             "meaning": "스트레스",
-            "example": "Stress affects my health.",
+            "example": "**Stress** affects my health.",
             "translation": "스트레스가 건강에 영향을 줘요.",
             "difficulty": "intermediate"
           },
           {
             "word": "fatigue",
             "meaning": "피로",
-            "example": "I'm experiencing fatigue lately.",
+            "example": "I'm experiencing **fatigue** lately.",
             "translation": "요즘 피로를 느끼고 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "insomnia",
             "meaning": "불면증",
-            "example": "I sometimes have insomnia.",
+            "example": "I sometimes have **insomnia**.",
             "translation": "가끔 불면증이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "allergy",
             "meaning": "알레르기",
-            "example": "I have a pollen allergy.",
+            "example": "I have a pollen **allergy**.",
             "translation": "꽃가루 알레르기가 있어요.",
             "difficulty": "intermediate"
           }
@@ -410,42 +410,42 @@
           {
             "word": "curriculum",
             "meaning": "교육과정",
-            "example": "The curriculum was updated.",
+            "example": "The **curriculum** was updated.",
             "translation": "교육과정이 업데이트됐어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "semester",
             "meaning": "학기",
-            "example": "This is my last semester.",
+            "example": "This is my last **semester**.",
             "translation": "이번이 마지막 학기예요.",
             "difficulty": "intermediate"
           },
           {
             "word": "tuition",
             "meaning": "등록금",
-            "example": "Tuition is expensive these days.",
+            "example": "**Tuition** is expensive these days.",
             "translation": "요즘 등록금이 비싸요.",
             "difficulty": "intermediate"
           },
           {
             "word": "scholarship",
             "meaning": "장학금",
-            "example": "I received a scholarship.",
+            "example": "I received a **scholarship**.",
             "translation": "장학금을 받았어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "degree",
             "meaning": "학위",
-            "example": "I'm working on my degree.",
+            "example": "I'm working on my **degree**.",
             "translation": "학위를 위해 공부하고 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "certificate",
             "meaning": "자격증",
-            "example": "I got a certificate in accounting.",
+            "example": "I got a **certificate** in accounting.",
             "translation": "회계 자격증을 땄어요.",
             "difficulty": "intermediate"
           },
@@ -459,21 +459,21 @@
           {
             "word": "assignment",
             "meaning": "과제",
-            "example": "I have an assignment due tomorrow.",
+            "example": "I have an **assignment** due tomorrow.",
             "translation": "내일까지 과제가 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "thesis",
             "meaning": "논문",
-            "example": "I'm writing my thesis.",
+            "example": "I'm writing my **thesis**.",
             "translation": "논문을 쓰고 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "research",
             "meaning": "연구",
-            "example": "I'm doing research on climate change.",
+            "example": "I'm doing **research** on climate change.",
             "translation": "기후 변화에 대해 연구하고 있어요.",
             "difficulty": "intermediate"
           }
@@ -485,14 +485,14 @@
           {
             "word": "acquaintance",
             "meaning": "지인",
-            "example": "He's just an acquaintance.",
+            "example": "He's just an **acquaintance**.",
             "translation": "그는 그냥 지인이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "companion",
             "meaning": "동반자",
-            "example": "She's my travel companion.",
+            "example": "She's my travel **companion**.",
             "translation": "그녀는 내 여행 동반자예요.",
             "difficulty": "intermediate"
           },
@@ -506,42 +506,42 @@
           {
             "word": "community",
             "meaning": "지역사회",
-            "example": "I'm active in my community.",
+            "example": "I'm active in my **community**.",
             "translation": "지역사회에서 활동적이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "gathering",
             "meaning": "모임",
-            "example": "We have a family gathering this weekend.",
+            "example": "We have a family **gathering** this weekend.",
             "translation": "이번 주말에 가족 모임이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "reunion",
             "meaning": "동창회",
-            "example": "I'm going to my high school reunion.",
+            "example": "I'm going to my high school **reunion**.",
             "translation": "고등학교 동창회에 가요.",
             "difficulty": "intermediate"
           },
           {
             "word": "celebration",
             "meaning": "축하",
-            "example": "It's a celebration of our anniversary.",
+            "example": "It's a **celebration** of our anniversary.",
             "translation": "기념일 축하 행사예요.",
             "difficulty": "intermediate"
           },
           {
             "word": "ceremony",
             "meaning": "의식",
-            "example": "The wedding ceremony was beautiful.",
+            "example": "The wedding **ceremony** was beautiful.",
             "translation": "결혼식이 아름다웠어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "tradition",
             "meaning": "전통",
-            "example": "It's a family tradition.",
+            "example": "It's a family **tradition**.",
             "translation": "가족 전통이에요.",
             "difficulty": "intermediate"
           },
@@ -595,7 +595,7 @@
           {
             "word": "adjust",
             "meaning": "조정하다",
-            "example": "I need to adjust my schedule.",
+            "example": "I need to **adjust** my schedule.",
             "translation": "일정을 조정해야 해요.",
             "difficulty": "intermediate"
           },
@@ -609,14 +609,14 @@
           {
             "word": "afford",
             "meaning": "~할 여유가 있다",
-            "example": "I can't afford a new car.",
+            "example": "I can't **afford** a new car.",
             "translation": "새 차를 살 여유가 없어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "appreciate",
             "meaning": "감사하다",
-            "example": "I appreciate your help.",
+            "example": "I **appreciate** your help.",
             "translation": "도움에 감사해요.",
             "difficulty": "intermediate"
           },
@@ -630,7 +630,7 @@
           {
             "word": "arrange",
             "meaning": "준비하다",
-            "example": "I'll arrange a meeting.",
+            "example": "I'll **arrange** a meeting.",
             "translation": "회의를 준비할게요.",
             "difficulty": "intermediate"
           },
@@ -658,14 +658,14 @@
           {
             "word": "avoid",
             "meaning": "피하다",
-            "example": "I avoid eating junk food.",
+            "example": "I **avoid** eating junk food.",
             "translation": "정크푸드 먹는 것을 피해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "balance",
             "meaning": "균형을 맞추다",
-            "example": "I balance work and life.",
+            "example": "I **balance** work and life.",
             "translation": "일과 삶의 균형을 맞춰요.",
             "difficulty": "intermediate"
           },
@@ -693,7 +693,7 @@
           {
             "word": "cancel",
             "meaning": "취소하다",
-            "example": "I had to cancel my trip.",
+            "example": "I had to **cancel** my trip.",
             "translation": "여행을 취소해야 했어요.",
             "difficulty": "intermediate"
           },
@@ -733,28 +733,28 @@
           {
             "word": "clarify",
             "meaning": "명확히 하다",
-            "example": "Let me clarify the situation.",
+            "example": "Let me **clarify** the situation.",
             "translation": "상황을 명확히 할게요.",
             "difficulty": "intermediate"
           },
           {
             "word": "communicate",
             "meaning": "소통하다",
-            "example": "We communicate regularly.",
+            "example": "We **communicate** regularly.",
             "translation": "우리는 정기적으로 소통해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "complain",
             "meaning": "불평하다",
-            "example": "I don't like to complain.",
+            "example": "I don't like to **complain**.",
             "translation": "불평하는 것을 좋아하지 않아요.",
             "difficulty": "intermediate"
           },
           {
             "word": "confirm",
             "meaning": "확인하다",
-            "example": "Can you confirm the date?",
+            "example": "Can you **confirm** the date?",
             "translation": "날짜를 확인해 줄 수 있어요?",
             "difficulty": "intermediate"
           },
@@ -768,7 +768,7 @@
           {
             "word": "criticize",
             "meaning": "비판하다",
-            "example": "Don't criticize without understanding.",
+            "example": "Don't **criticize** without understanding.",
             "translation": "이해하지 못하고 비판하지 마세요.",
             "difficulty": "intermediate"
           },
@@ -796,14 +796,14 @@
           {
             "word": "describe",
             "meaning": "묘사하다",
-            "example": "Can you describe what happened?",
+            "example": "Can you **describe** what happened?",
             "translation": "무슨 일이 있었는지 묘사해 줄 수 있어요?",
             "difficulty": "intermediate"
           },
           {
             "word": "discuss",
             "meaning": "논의하다",
-            "example": "Let's discuss this later.",
+            "example": "Let's **discuss** this later.",
             "translation": "이건 나중에 논의합시다.",
             "difficulty": "intermediate"
           },
@@ -817,7 +817,7 @@
           {
             "word": "explain",
             "meaning": "설명하다",
-            "example": "Let me explain the process.",
+            "example": "Let me **explain** the process.",
             "translation": "과정을 설명할게요.",
             "difficulty": "intermediate"
           },
@@ -831,7 +831,7 @@
           {
             "word": "inform",
             "meaning": "알리다",
-            "example": "Please inform me of any changes.",
+            "example": "Please **inform** me of any changes.",
             "translation": "변경 사항이 있으면 알려주세요.",
             "difficulty": "intermediate"
           },
@@ -878,28 +878,28 @@
           {
             "word": "consider",
             "meaning": "고려하다",
-            "example": "I'll consider your suggestion.",
+            "example": "I'll **consider** your suggestion.",
             "translation": "당신의 제안을 고려할게요.",
             "difficulty": "intermediate"
           },
           {
             "word": "determine",
             "meaning": "결정하다",
-            "example": "I need to determine the cause.",
+            "example": "I need to **determine** the cause.",
             "translation": "원인을 밝혀야 해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "distinguish",
             "meaning": "구별하다",
-            "example": "It's hard to distinguish between them.",
+            "example": "It's hard to **distinguish** between them.",
             "translation": "그것들을 구별하기 어려워요.",
             "difficulty": "intermediate"
           },
           {
             "word": "estimate",
             "meaning": "추정하다",
-            "example": "I estimate it will take two hours.",
+            "example": "I **estimate** it will take two hours.",
             "translation": "두 시간 정도 걸릴 것으로 추정해요.",
             "difficulty": "intermediate"
           },
@@ -934,7 +934,7 @@
           {
             "word": "judge",
             "meaning": "판단하다",
-            "example": "Don't judge too quickly.",
+            "example": "Don't **judge** too quickly.",
             "translation": "너무 빨리 판단하지 마세요.",
             "difficulty": "intermediate"
           },
@@ -948,7 +948,7 @@
           {
             "word": "predict",
             "meaning": "예측하다",
-            "example": "It's hard to predict the future.",
+            "example": "It's hard to **predict** the future.",
             "translation": "미래를 예측하기 어려워요.",
             "difficulty": "intermediate"
           },
@@ -974,175 +974,175 @@
           {
             "word": "ambitious",
             "meaning": "야심 있는",
-            "example": "She's very ambitious.",
+            "example": "She's very **ambitious**.",
             "translation": "그녀는 매우 야심 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "assertive",
             "meaning": "당당한",
-            "example": "You need to be more assertive.",
+            "example": "You need to be more **assertive**.",
             "translation": "더 당당해져야 해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "capable",
             "meaning": "유능한",
-            "example": "He's a capable worker.",
+            "example": "He's a **capable** worker.",
             "translation": "그는 유능한 직원이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "cautious",
             "meaning": "신중한",
-            "example": "I'm cautious about investments.",
+            "example": "I'm **cautious** about investments.",
             "translation": "투자에 신중해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "confident",
             "meaning": "자신감 있는",
-            "example": "She's confident in her abilities.",
+            "example": "She's **confident** in her abilities.",
             "translation": "그녀는 능력에 자신감이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "considerate",
             "meaning": "배려하는",
-            "example": "He's very considerate of others.",
+            "example": "He's very **considerate** of others.",
             "translation": "그는 다른 사람을 매우 배려해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "dedicated",
             "meaning": "헌신적인",
-            "example": "She's a dedicated teacher.",
+            "example": "She's a **dedicated** teacher.",
             "translation": "그녀는 헌신적인 선생님이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "determined",
             "meaning": "단호한",
-            "example": "I'm determined to succeed.",
+            "example": "I'm **determined** to succeed.",
             "translation": "성공하겠다고 단호해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "diligent",
             "meaning": "부지런한",
-            "example": "He's a diligent student.",
+            "example": "He's a **diligent** student.",
             "translation": "그는 부지런한 학생이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "efficient",
             "meaning": "효율적인",
-            "example": "She's very efficient at work.",
+            "example": "She's very **efficient** at work.",
             "translation": "그녀는 일에서 매우 효율적이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "enthusiastic",
             "meaning": "열정적인",
-            "example": "I'm enthusiastic about the project.",
+            "example": "I'm **enthusiastic** about the project.",
             "translation": "프로젝트에 대해 열정적이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "flexible",
             "meaning": "융통성 있는",
-            "example": "I'm flexible with my schedule.",
+            "example": "I'm **flexible** with my schedule.",
             "translation": "일정에 융통성이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "generous",
             "meaning": "관대한",
-            "example": "My grandmother is very generous.",
+            "example": "My grandmother is very **generous**.",
             "translation": "할머니는 매우 관대해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "genuine",
             "meaning": "진실한",
-            "example": "He seems genuine.",
+            "example": "He seems **genuine**.",
             "translation": "그는 진실해 보여요.",
             "difficulty": "intermediate"
           },
           {
             "word": "humble",
             "meaning": "겸손한",
-            "example": "She's humble despite her success.",
+            "example": "She's **humble** despite her success.",
             "translation": "그녀는 성공에도 불구하고 겸손해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "independent",
             "meaning": "독립적인",
-            "example": "I'm very independent.",
+            "example": "I'm very **independent**.",
             "translation": "나는 매우 독립적이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "motivated",
             "meaning": "의욕적인",
-            "example": "I'm motivated to learn.",
+            "example": "I'm **motivated** to learn.",
             "translation": "배우고자 하는 의욕이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "optimistic",
             "meaning": "낙관적인",
-            "example": "I'm optimistic about the future.",
+            "example": "I'm **optimistic** about the future.",
             "translation": "미래에 대해 낙관적이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "patient",
             "meaning": "인내심 있는",
-            "example": "You need to be patient.",
+            "example": "You need to be **patient**.",
             "translation": "인내심이 필요해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "practical",
             "meaning": "실용적인",
-            "example": "She's very practical.",
+            "example": "She's very **practical**.",
             "translation": "그녀는 매우 실용적이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "reliable",
             "meaning": "신뢰할 수 있는",
-            "example": "He's a reliable friend.",
+            "example": "He's a **reliable** friend.",
             "translation": "그는 신뢰할 수 있는 친구예요.",
             "difficulty": "intermediate"
           },
           {
             "word": "resourceful",
             "meaning": "수완 있는",
-            "example": "She's very resourceful.",
+            "example": "She's very **resourceful**.",
             "translation": "그녀는 매우 수완이 좋아요.",
             "difficulty": "intermediate"
           },
           {
             "word": "sensitive",
             "meaning": "민감한",
-            "example": "I'm sensitive to criticism.",
+            "example": "I'm **sensitive** to criticism.",
             "translation": "비판에 민감해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "sincere",
             "meaning": "진심어린",
-            "example": "I appreciate your sincere apology.",
+            "example": "I appreciate your **sincere** apology.",
             "translation": "진심 어린 사과에 감사해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "thoughtful",
             "meaning": "사려 깊은",
-            "example": "That was very thoughtful of you.",
+            "example": "That was very **thoughtful** of you.",
             "translation": "정말 사려 깊으시네요.",
             "difficulty": "intermediate"
           }
@@ -1154,140 +1154,140 @@
           {
             "word": "affordable",
             "meaning": "적당한 가격의",
-            "example": "This is affordable.",
+            "example": "This is **affordable**.",
             "translation": "이건 적당한 가격이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "appropriate",
             "meaning": "적절한",
-            "example": "Is this appropriate?",
+            "example": "Is this **appropriate**?",
             "translation": "이게 적절한가요?",
             "difficulty": "intermediate"
           },
           {
             "word": "available",
             "meaning": "이용 가능한",
-            "example": "Is this available?",
+            "example": "Is this **available**?",
             "translation": "이거 이용 가능해요?",
             "difficulty": "intermediate"
           },
           {
             "word": "beneficial",
             "meaning": "유익한",
-            "example": "Exercise is beneficial to health.",
+            "example": "Exercise is **beneficial** to health.",
             "translation": "운동은 건강에 유익해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "challenging",
             "meaning": "도전적인",
-            "example": "This job is challenging.",
+            "example": "This job is **challenging**.",
             "translation": "이 일은 도전적이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "comfortable",
             "meaning": "편안한",
-            "example": "I feel comfortable here.",
+            "example": "I feel **comfortable** here.",
             "translation": "여기가 편안해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "complicated",
             "meaning": "복잡한",
-            "example": "The situation is complicated.",
+            "example": "The situation is **complicated**.",
             "translation": "상황이 복잡해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "convenient",
             "meaning": "편리한",
-            "example": "This location is convenient.",
+            "example": "This location is **convenient**.",
             "translation": "이 위치가 편리해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "crucial",
             "meaning": "중요한",
-            "example": "This is a crucial moment.",
+            "example": "This is a **crucial** moment.",
             "translation": "이건 중요한 순간이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "demanding",
             "meaning": "힘든",
-            "example": "My job is demanding.",
+            "example": "My job is **demanding**.",
             "translation": "내 직업은 힘들어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "essential",
             "meaning": "필수적인",
-            "example": "Sleep is essential for health.",
+            "example": "Sleep is **essential** for health.",
             "translation": "수면은 건강에 필수적이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "exhausting",
             "meaning": "지치게 하는",
-            "example": "Today was exhausting.",
+            "example": "Today was **exhausting**.",
             "translation": "오늘은 지쳤어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "familiar",
             "meaning": "익숙한",
-            "example": "This place looks familiar.",
+            "example": "This place looks **familiar**.",
             "translation": "이 장소가 익숙해 보여요.",
             "difficulty": "intermediate"
           },
           {
             "word": "impressive",
             "meaning": "인상적인",
-            "example": "Your work is impressive.",
+            "example": "Your work is **impressive**.",
             "translation": "당신의 작업이 인상적이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "inevitable",
             "meaning": "불가피한",
-            "example": "Change is inevitable.",
+            "example": "Change is **inevitable**.",
             "translation": "변화는 불가피해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "obvious",
             "meaning": "명백한",
-            "example": "The answer is obvious.",
+            "example": "The answer is **obvious**.",
             "translation": "답이 명백해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "overwhelming",
             "meaning": "압도적인",
-            "example": "The response was overwhelming.",
+            "example": "The response was **overwhelming**.",
             "translation": "반응이 압도적이었어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "productive",
             "meaning": "생산적인",
-            "example": "Today was productive.",
+            "example": "Today was **productive**.",
             "translation": "오늘은 생산적이었어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "relevant",
             "meaning": "관련 있는",
-            "example": "This is relevant to our discussion.",
+            "example": "This is **relevant** to our discussion.",
             "translation": "이건 우리 논의와 관련 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "significant",
             "meaning": "중요한",
-            "example": "There's a significant difference.",
+            "example": "There's a **significant** difference.",
             "translation": "중요한 차이가 있어요.",
             "difficulty": "intermediate"
           }
@@ -1306,98 +1306,98 @@
           {
             "word": "anxiety",
             "meaning": "불안",
-            "example": "I have anxiety about the exam.",
+            "example": "I have **anxiety** about the exam.",
             "translation": "시험에 대한 불안이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "curiosity",
             "meaning": "호기심",
-            "example": "Curiosity killed the cat.",
+            "example": "**Curiosity** killed the cat.",
             "translation": "호기심이 고양이를 죽였어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "disappointment",
             "meaning": "실망",
-            "example": "I felt disappointment.",
+            "example": "I felt **disappointment**.",
             "translation": "실망감을 느꼈어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "enthusiasm",
             "meaning": "열정",
-            "example": "She shows great enthusiasm.",
+            "example": "She shows great **enthusiasm**.",
             "translation": "그녀는 큰 열정을 보여요.",
             "difficulty": "intermediate"
           },
           {
             "word": "frustration",
             "meaning": "좌절",
-            "example": "I understand your frustration.",
+            "example": "I understand your **frustration**.",
             "translation": "당신의 좌절을 이해해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "gratitude",
             "meaning": "감사",
-            "example": "I express my gratitude.",
+            "example": "I express my **gratitude**.",
             "translation": "감사를 표현해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "jealousy",
             "meaning": "질투",
-            "example": "Jealousy is a negative emotion.",
+            "example": "**Jealousy** is a negative emotion.",
             "translation": "질투는 부정적 감정이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "satisfaction",
             "meaning": "만족",
-            "example": "I get satisfaction from my work.",
+            "example": "I get **satisfaction** from my work.",
             "translation": "일에서 만족을 얻어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "sympathy",
             "meaning": "동정",
-            "example": "I have sympathy for her.",
+            "example": "I have **sympathy** for her.",
             "translation": "그녀에게 동정심이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "tension",
             "meaning": "긴장",
-            "example": "There's tension in the room.",
+            "example": "There's **tension** in the room.",
             "translation": "방에 긴장감이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "relief",
             "meaning": "안도",
-            "example": "I felt relief after the test.",
+            "example": "I felt **relief** after the test.",
             "translation": "시험 후 안도감을 느꼈어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "confusion",
             "meaning": "혼란",
-            "example": "There was some confusion.",
+            "example": "There was some **confusion**.",
             "translation": "약간의 혼란이 있었어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "excitement",
             "meaning": "흥분",
-            "example": "I can feel the excitement.",
+            "example": "I can feel the **excitement**.",
             "translation": "흥분을 느낄 수 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "comfort",
             "meaning": "위로",
-            "example": "I found comfort in music.",
+            "example": "I found **comfort** in music.",
             "translation": "음악에서 위로를 찾았어요.",
             "difficulty": "intermediate"
           }
@@ -1409,91 +1409,91 @@
           {
             "word": "acquaintance",
             "meaning": "아는 사람",
-            "example": "He's just an acquaintance.",
+            "example": "He's just an **acquaintance**.",
             "translation": "그는 그냥 아는 사람이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "community",
             "meaning": "공동체",
-            "example": "I love my community.",
+            "example": "I love my **community**.",
             "translation": "내 공동체를 사랑해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "cooperation",
             "meaning": "협력",
-            "example": "We need cooperation.",
+            "example": "We need **cooperation**.",
             "translation": "협력이 필요해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "generation",
             "meaning": "세대",
-            "example": "The younger generation thinks differently.",
+            "example": "The younger **generation** thinks differently.",
             "translation": "젊은 세대는 다르게 생각해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "influence",
             "meaning": "영향",
-            "example": "He has a lot of influence.",
+            "example": "He has a lot of **influence**.",
             "translation": "그는 많은 영향력이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "reputation",
             "meaning": "평판",
-            "example": "He has a good reputation.",
+            "example": "He has a good **reputation**.",
             "translation": "그는 좋은 평판을 가지고 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "tradition",
             "meaning": "전통",
-            "example": "We keep the tradition.",
+            "example": "We keep the **tradition**.",
             "translation": "우리는 전통을 지켜요.",
             "difficulty": "intermediate"
           },
           {
             "word": "organization",
             "meaning": "조직",
-            "example": "I work for a nonprofit organization.",
+            "example": "I work for a nonprofit **organization**.",
             "translation": "비영리 조직에서 일해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "neighborhood",
             "meaning": "이웃",
-            "example": "My neighborhood is quiet.",
+            "example": "My **neighborhood** is quiet.",
             "translation": "내 동네는 조용해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "society",
             "meaning": "사회",
-            "example": "Society has changed a lot.",
+            "example": "**Society** has changed a lot.",
             "translation": "사회가 많이 변했어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "population",
             "meaning": "인구",
-            "example": "The population is growing.",
+            "example": "The **population** is growing.",
             "translation": "인구가 증가하고 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "citizen",
             "meaning": "시민",
-            "example": "I'm a Korean citizen.",
+            "example": "I'm a Korean **citizen**.",
             "translation": "한국 시민이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "volunteer",
             "meaning": "자원봉사자",
-            "example": "I work as a volunteer.",
+            "example": "I work as a **volunteer**.",
             "translation": "자원봉사자로 일해요.",
             "difficulty": "intermediate"
           },
@@ -1519,91 +1519,91 @@
           {
             "word": "certificate",
             "meaning": "자격증",
-            "example": "I got a certificate.",
+            "example": "I got a **certificate**.",
             "translation": "자격증을 땄어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "curriculum",
             "meaning": "교육과정",
-            "example": "The curriculum is challenging.",
+            "example": "The **curriculum** is challenging.",
             "translation": "교육과정이 어려워요.",
             "difficulty": "intermediate"
           },
           {
             "word": "diploma",
             "meaning": "졸업장",
-            "example": "I received my diploma.",
+            "example": "I received my **diploma**.",
             "translation": "졸업장을 받았어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "faculty",
             "meaning": "교수진",
-            "example": "The faculty is excellent.",
+            "example": "The **faculty** is excellent.",
             "translation": "교수진이 훌륭해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "graduation",
             "meaning": "졸업",
-            "example": "Graduation is next month.",
+            "example": "**Graduation** is next month.",
             "translation": "졸업이 다음 달이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "lecture",
             "meaning": "강의",
-            "example": "The lecture was interesting.",
+            "example": "The **lecture** was interesting.",
             "translation": "강의가 흥미로웠어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "scholarship",
             "meaning": "장학금",
-            "example": "I received a scholarship.",
+            "example": "I received a **scholarship**.",
             "translation": "장학금을 받았어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "semester",
             "meaning": "학기",
-            "example": "This semester is busy.",
+            "example": "This **semester** is busy.",
             "translation": "이번 학기는 바빠요.",
             "difficulty": "intermediate"
           },
           {
             "word": "tuition",
             "meaning": "등록금",
-            "example": "Tuition is expensive.",
+            "example": "**Tuition** is expensive.",
             "translation": "등록금이 비싸요.",
             "difficulty": "intermediate"
           },
           {
             "word": "textbook",
             "meaning": "교과서",
-            "example": "I bought a textbook.",
+            "example": "I bought a **textbook**.",
             "translation": "교과서를 샀어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "major",
             "meaning": "전공",
-            "example": "My major is economics.",
+            "example": "My **major** is economics.",
             "translation": "내 전공은 경제학이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "degree",
             "meaning": "학위",
-            "example": "I have a master's degree.",
+            "example": "I have a master's **degree**.",
             "translation": "석사 학위가 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "thesis",
             "meaning": "논문",
-            "example": "I'm writing my thesis.",
+            "example": "I'm writing my **thesis**.",
             "translation": "논문을 쓰고 있어요.",
             "difficulty": "intermediate"
           }
@@ -1615,35 +1615,35 @@
           {
             "word": "allergy",
             "meaning": "알레르기",
-            "example": "I have a peanut allergy.",
+            "example": "I have a peanut **allergy**.",
             "translation": "땅콩 알레르기가 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "diagnosis",
             "meaning": "진단",
-            "example": "The diagnosis was positive.",
+            "example": "The **diagnosis** was positive.",
             "translation": "진단이 긍정적이었어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "infection",
             "meaning": "감염",
-            "example": "It's just a minor infection.",
+            "example": "It's just a minor **infection**.",
             "translation": "그냥 경미한 감염이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "injury",
             "meaning": "부상",
-            "example": "I have a minor injury.",
+            "example": "I have a minor **injury**.",
             "translation": "경미한 부상이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "prescription",
             "meaning": "처방전",
-            "example": "I need a prescription.",
+            "example": "I need a **prescription**.",
             "translation": "처방전이 필요해요.",
             "difficulty": "intermediate"
           },
@@ -1657,56 +1657,56 @@
           {
             "word": "treatment",
             "meaning": "치료",
-            "example": "The treatment is working.",
+            "example": "The **treatment** is working.",
             "translation": "치료가 효과가 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "therapy",
             "meaning": "치료법",
-            "example": "I'm going to therapy.",
+            "example": "I'm going to **therapy**.",
             "translation": "치료를 받고 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "surgery",
             "meaning": "수술",
-            "example": "I had surgery last year.",
+            "example": "I had **surgery** last year.",
             "translation": "작년에 수술을 받았어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "recovery",
             "meaning": "회복",
-            "example": "I wish you a speedy recovery.",
+            "example": "I wish you a speedy **recovery**.",
             "translation": "빠른 회복을 빌어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "checkup",
             "meaning": "건강검진",
-            "example": "I need a regular checkup.",
+            "example": "I need a regular **checkup**.",
             "translation": "정기 검진이 필요해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "vaccine",
             "meaning": "백신",
-            "example": "I got the vaccine.",
+            "example": "I got the **vaccine**.",
             "translation": "백신을 맞았어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "medication",
             "meaning": "약",
-            "example": "I take medication daily.",
+            "example": "I take **medication** daily.",
             "translation": "매일 약을 먹어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "condition",
             "meaning": "상태",
-            "example": "My condition is stable.",
+            "example": "My **condition** is stable.",
             "translation": "내 상태는 안정적이에요.",
             "difficulty": "intermediate"
           }
@@ -1718,98 +1718,98 @@
           {
             "word": "application",
             "meaning": "앱",
-            "example": "I downloaded a new application.",
+            "example": "I downloaded a new **application**.",
             "translation": "새 앱을 다운받았어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "attachment",
             "meaning": "첨부파일",
-            "example": "I'll send the attachment.",
+            "example": "I'll send the **attachment**.",
             "translation": "첨부파일을 보낼게요.",
             "difficulty": "intermediate"
           },
           {
             "word": "browser",
             "meaning": "브라우저",
-            "example": "Which browser do you use?",
+            "example": "Which **browser** do you use?",
             "translation": "어떤 브라우저를 사용해요?",
             "difficulty": "intermediate"
           },
           {
             "word": "database",
             "meaning": "데이터베이스",
-            "example": "The database is updated.",
+            "example": "The **database** is updated.",
             "translation": "데이터베이스가 업데이트됐어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "device",
             "meaning": "기기",
-            "example": "I bought a new device.",
+            "example": "I bought a new **device**.",
             "translation": "새 기기를 샀어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "network",
             "meaning": "네트워크",
-            "example": "The network is slow.",
+            "example": "The **network** is slow.",
             "translation": "네트워크가 느려요.",
             "difficulty": "intermediate"
           },
           {
             "word": "password",
             "meaning": "비밀번호",
-            "example": "I forgot my password.",
+            "example": "I forgot my **password**.",
             "translation": "비밀번호를 잊었어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "software",
             "meaning": "소프트웨어",
-            "example": "The software needs updating.",
+            "example": "The **software** needs updating.",
             "translation": "소프트웨어 업데이트가 필요해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "storage",
             "meaning": "저장공간",
-            "example": "I need more storage.",
+            "example": "I need more **storage**.",
             "translation": "저장공간이 더 필요해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "update",
             "meaning": "업데이트",
-            "example": "There's a new update.",
+            "example": "There's a new **update**.",
             "translation": "새 업데이트가 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "notification",
             "meaning": "알림",
-            "example": "I received a notification.",
+            "example": "I received a **notification**.",
             "translation": "알림을 받았어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "connection",
             "meaning": "연결",
-            "example": "The connection is unstable.",
+            "example": "The **connection** is unstable.",
             "translation": "연결이 불안정해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "download",
             "meaning": "다운로드",
-            "example": "The download is complete.",
+            "example": "The **download** is complete.",
             "translation": "다운로드가 완료됐어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "upload",
             "meaning": "업로드",
-            "example": "I'll upload the file.",
+            "example": "I'll **upload** the file.",
             "translation": "파일을 업로드할게요.",
             "difficulty": "intermediate"
           }
@@ -1835,35 +1835,35 @@
           {
             "word": "clarify",
             "meaning": "명확히 하다",
-            "example": "Let me clarify.",
+            "example": "Let me **clarify**.",
             "translation": "명확히 할게요.",
             "difficulty": "intermediate"
           },
           {
             "word": "convince",
             "meaning": "설득하다",
-            "example": "I tried to convince him.",
+            "example": "I tried to **convince** him.",
             "translation": "그를 설득하려 했어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "emphasize",
             "meaning": "강조하다",
-            "example": "I want to emphasize this point.",
+            "example": "I want to **emphasize** this point.",
             "translation": "이 점을 강조하고 싶어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "inform",
             "meaning": "알리다",
-            "example": "I'll inform you later.",
+            "example": "I'll **inform** you later.",
             "translation": "나중에 알려줄게요.",
             "difficulty": "intermediate"
           },
           {
             "word": "negotiate",
             "meaning": "협상하다",
-            "example": "We need to negotiate.",
+            "example": "We need to **negotiate**.",
             "translation": "협상해야 해요.",
             "difficulty": "intermediate"
           },
@@ -1877,42 +1877,42 @@
           {
             "word": "respond",
             "meaning": "응답하다",
-            "example": "Please respond quickly.",
+            "example": "Please **respond** quickly.",
             "translation": "빨리 응답해 주세요.",
             "difficulty": "intermediate"
           },
           {
             "word": "summarize",
             "meaning": "요약하다",
-            "example": "Can you summarize this?",
+            "example": "Can you **summarize** this?",
             "translation": "이것을 요약해 줄 수 있어요?",
             "difficulty": "intermediate"
           },
           {
             "word": "translate",
             "meaning": "번역하다",
-            "example": "Can you translate this?",
+            "example": "Can you **translate** this?",
             "translation": "이것을 번역해 줄 수 있어요?",
             "difficulty": "intermediate"
           },
           {
             "word": "inquire",
             "meaning": "문의하다",
-            "example": "I'd like to inquire about the price.",
+            "example": "I'd like to **inquire** about the price.",
             "translation": "가격에 대해 문의하고 싶어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "mention",
             "meaning": "언급하다",
-            "example": "I forgot to mention that.",
+            "example": "I forgot to **mention** that.",
             "translation": "그것을 언급하는 것을 잊었어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "interrupt",
             "meaning": "방해하다",
-            "example": "Sorry to interrupt.",
+            "example": "Sorry to **interrupt**.",
             "translation": "방해해서 죄송해요.",
             "difficulty": "intermediate"
           },
@@ -1931,21 +1931,21 @@
           {
             "word": "analyze",
             "meaning": "분석하다",
-            "example": "Let me analyze the data.",
+            "example": "Let me **analyze** the data.",
             "translation": "데이터를 분석할게요.",
             "difficulty": "intermediate"
           },
           {
             "word": "assume",
             "meaning": "가정하다",
-            "example": "I assume you're busy.",
+            "example": "I **assume** you're busy.",
             "translation": "바쁘다고 가정해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "calculate",
             "meaning": "계산하다",
-            "example": "I'll calculate the cost.",
+            "example": "I'll **calculate** the cost.",
             "translation": "비용을 계산할게요.",
             "difficulty": "intermediate"
           },
@@ -1959,28 +1959,28 @@
           {
             "word": "confirm",
             "meaning": "확인하다",
-            "example": "Can you confirm the time?",
+            "example": "Can you **confirm** the time?",
             "translation": "시간을 확인해 줄 수 있어요?",
             "difficulty": "intermediate"
           },
           {
             "word": "define",
             "meaning": "정의하다",
-            "example": "How do you define success?",
+            "example": "How do you **define** success?",
             "translation": "성공을 어떻게 정의해요?",
             "difficulty": "intermediate"
           },
           {
             "word": "determine",
             "meaning": "결정하다",
-            "example": "I'll determine the best option.",
+            "example": "I'll **determine** the best option.",
             "translation": "최선의 옵션을 결정할게요.",
             "difficulty": "intermediate"
           },
           {
             "word": "evaluate",
             "meaning": "평가하다",
-            "example": "We need to evaluate the results.",
+            "example": "We need to **evaluate** the results.",
             "translation": "결과를 평가해야 해요.",
             "difficulty": "intermediate"
           },
@@ -2001,28 +2001,28 @@
           {
             "word": "predict",
             "meaning": "예측하다",
-            "example": "I can't predict the future.",
+            "example": "I can't **predict** the future.",
             "translation": "미래를 예측할 수 없어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "recognize",
             "meaning": "인식하다",
-            "example": "I didn't recognize you.",
+            "example": "I didn't **recognize** you.",
             "translation": "당신을 못 알아봤어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "estimate",
             "meaning": "추정하다",
-            "example": "I estimate it will take 2 hours.",
+            "example": "I **estimate** it will take 2 hours.",
             "translation": "2시간 걸릴 것으로 추정해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "distinguish",
             "meaning": "구별하다",
-            "example": "I can distinguish the difference.",
+            "example": "I can **distinguish** the difference.",
             "translation": "차이를 구별할 수 있어요.",
             "difficulty": "intermediate"
           }
@@ -2055,7 +2055,7 @@
           {
             "word": "arrange",
             "meaning": "준비하다",
-            "example": "I'll arrange a meeting.",
+            "example": "I'll **arrange** a meeting.",
             "translation": "회의를 준비할게요.",
             "difficulty": "intermediate"
           },
@@ -2076,21 +2076,21 @@
           {
             "word": "collaborate",
             "meaning": "협력하다",
-            "example": "We collaborate on projects.",
+            "example": "We **collaborate** on projects.",
             "translation": "프로젝트에서 협력해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "contribute",
             "meaning": "기여하다",
-            "example": "I want to contribute.",
+            "example": "I want to **contribute**.",
             "translation": "기여하고 싶어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "demonstrate",
             "meaning": "시연하다",
-            "example": "Let me demonstrate how it works.",
+            "example": "Let me **demonstrate** how it works.",
             "translation": "작동 방식을 시연할게요.",
             "difficulty": "intermediate"
           },
@@ -2104,21 +2104,21 @@
           {
             "word": "generate",
             "meaning": "생성하다",
-            "example": "We need to generate more ideas.",
+            "example": "We need to **generate** more ideas.",
             "translation": "더 많은 아이디어를 생성해야 해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "implement",
             "meaning": "실행하다",
-            "example": "We'll implement the plan.",
+            "example": "We'll **implement** the plan.",
             "translation": "계획을 실행할 거예요.",
             "difficulty": "intermediate"
           },
           {
             "word": "maintain",
             "meaning": "유지하다",
-            "example": "I maintain my health.",
+            "example": "I **maintain** my health.",
             "translation": "건강을 유지해요.",
             "difficulty": "intermediate"
           },
@@ -2139,7 +2139,7 @@
           {
             "word": "operate",
             "meaning": "운영하다",
-            "example": "I know how to operate this.",
+            "example": "I know how to **operate** this.",
             "translation": "이것을 작동하는 방법을 알아요.",
             "difficulty": "intermediate"
           },
@@ -2160,14 +2160,14 @@
           {
             "word": "preserve",
             "meaning": "보존하다",
-            "example": "We should preserve nature.",
+            "example": "We should **preserve** nature.",
             "translation": "자연을 보존해야 해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "proceed",
             "meaning": "진행하다",
-            "example": "Let's proceed with the plan.",
+            "example": "Let's **proceed** with the plan.",
             "translation": "계획을 진행해요.",
             "difficulty": "intermediate"
           }
@@ -2200,7 +2200,7 @@
           {
             "word": "boost",
             "meaning": "높이다",
-            "example": "I need to boost my confidence.",
+            "example": "I need to **boost** my confidence.",
             "translation": "자신감을 높여야 해요.",
             "difficulty": "intermediate"
           },
@@ -2221,7 +2221,7 @@
           {
             "word": "enhance",
             "meaning": "향상시키다",
-            "example": "I want to enhance my skills.",
+            "example": "I want to **enhance** my skills.",
             "translation": "기술을 향상시키고 싶어요.",
             "difficulty": "intermediate"
           },
@@ -2296,140 +2296,140 @@
           {
             "word": "acceptable",
             "meaning": "받아들일 만한",
-            "example": "This is acceptable quality.",
+            "example": "This is **acceptable** quality.",
             "translation": "이건 받아들일 만한 품질이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "accurate",
             "meaning": "정확한",
-            "example": "The information is accurate.",
+            "example": "The information is **accurate**.",
             "translation": "정보가 정확해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "adequate",
             "meaning": "적절한",
-            "example": "The space is adequate.",
+            "example": "The space is **adequate**.",
             "translation": "공간이 적절해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "amazing",
             "meaning": "놀라운",
-            "example": "The view is amazing.",
+            "example": "The view is **amazing**.",
             "translation": "경치가 놀라워요.",
             "difficulty": "intermediate"
           },
           {
             "word": "apparent",
             "meaning": "분명한",
-            "example": "The problem is apparent.",
+            "example": "The problem is **apparent**.",
             "translation": "문제가 분명해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "brilliant",
             "meaning": "훌륭한",
-            "example": "That's a brilliant idea.",
+            "example": "That's a **brilliant** idea.",
             "translation": "그거 훌륭한 아이디어예요.",
             "difficulty": "intermediate"
           },
           {
             "word": "capable",
             "meaning": "유능한",
-            "example": "She's very capable.",
+            "example": "She's very **capable**.",
             "translation": "그녀는 매우 유능해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "competitive",
             "meaning": "경쟁력 있는",
-            "example": "Our prices are competitive.",
+            "example": "Our prices are **competitive**.",
             "translation": "우리 가격은 경쟁력이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "comprehensive",
             "meaning": "포괄적인",
-            "example": "It's a comprehensive guide.",
+            "example": "It's a **comprehensive** guide.",
             "translation": "그건 포괄적인 가이드예요.",
             "difficulty": "intermediate"
           },
           {
             "word": "consistent",
             "meaning": "일관된",
-            "example": "Be consistent with your work.",
+            "example": "Be **consistent** with your work.",
             "translation": "일에 일관성을 유지해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "creative",
             "meaning": "창의적인",
-            "example": "I'm trying to be creative.",
+            "example": "I'm trying to be **creative**.",
             "translation": "창의적이려고 노력해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "critical",
             "meaning": "중요한",
-            "example": "This is a critical moment.",
+            "example": "This is a **critical** moment.",
             "translation": "이건 중요한 순간이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "effective",
             "meaning": "효과적인",
-            "example": "The method is effective.",
+            "example": "The method is **effective**.",
             "translation": "그 방법은 효과적이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "excellent",
             "meaning": "훌륭한",
-            "example": "Your work is excellent.",
+            "example": "Your work is **excellent**.",
             "translation": "당신의 작업은 훌륭해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "exceptional",
             "meaning": "예외적인",
-            "example": "Her talent is exceptional.",
+            "example": "Her talent is **exceptional**.",
             "translation": "그녀의 재능은 예외적이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "extensive",
             "meaning": "광범위한",
-            "example": "He has extensive experience.",
+            "example": "He has **extensive** experience.",
             "translation": "그는 광범위한 경험이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "extraordinary",
             "meaning": "비범한",
-            "example": "That's extraordinary!",
+            "example": "That's **extraordinary**!",
             "translation": "그건 비범해요!",
             "difficulty": "intermediate"
           },
           {
             "word": "fascinating",
             "meaning": "매혹적인",
-            "example": "The story is fascinating.",
+            "example": "The story is **fascinating**.",
             "translation": "이야기가 매혹적이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "genuine",
             "meaning": "진정한",
-            "example": "It's a genuine product.",
+            "example": "It's a **genuine** product.",
             "translation": "진정한 제품이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "incredible",
             "meaning": "믿기 힘든",
-            "example": "The results are incredible.",
+            "example": "The results are **incredible**.",
             "translation": "결과가 믿기 힘들어요.",
             "difficulty": "intermediate"
           }
@@ -2441,210 +2441,210 @@
           {
             "word": "accurate",
             "meaning": "정확한",
-            "example": "The data is accurate.",
+            "example": "The data is **accurate**.",
             "translation": "데이터가 정확해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "ancient",
             "meaning": "고대의",
-            "example": "It's an ancient temple.",
+            "example": "It's an **ancient** temple.",
             "translation": "고대 사원이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "annual",
             "meaning": "연례의",
-            "example": "This is our annual meeting.",
+            "example": "This is our **annual** meeting.",
             "translation": "이건 연례 회의예요.",
             "difficulty": "intermediate"
           },
           {
             "word": "apparent",
             "meaning": "명백한",
-            "example": "The reason is apparent.",
+            "example": "The reason is **apparent**.",
             "translation": "이유가 명백해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "brief",
             "meaning": "짧은",
-            "example": "I'll give a brief explanation.",
+            "example": "I'll give a **brief** explanation.",
             "translation": "간단한 설명을 할게요.",
             "difficulty": "intermediate"
           },
           {
             "word": "constant",
             "meaning": "끊임없는",
-            "example": "There's constant noise.",
+            "example": "There's **constant** noise.",
             "translation": "끊임없는 소음이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "current",
             "meaning": "현재의",
-            "example": "My current job is great.",
+            "example": "My **current** job is great.",
             "translation": "현재 직업이 좋아요.",
             "difficulty": "intermediate"
           },
           {
             "word": "distant",
             "meaning": "먼",
-            "example": "I have distant relatives there.",
+            "example": "I have **distant** relatives there.",
             "translation": "거기에 먼 친척이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "entire",
             "meaning": "전체의",
-            "example": "I read the entire book.",
+            "example": "I read the **entire** book.",
             "translation": "책 전체를 읽었어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "former",
             "meaning": "이전의",
-            "example": "My former boss was nice.",
+            "example": "My **former** boss was nice.",
             "translation": "이전 상사는 좋았어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "initial",
             "meaning": "초기의",
-            "example": "The initial plan changed.",
+            "example": "The **initial** plan changed.",
             "translation": "초기 계획이 바뀌었어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "latter",
             "meaning": "후자의",
-            "example": "I prefer the latter option.",
+            "example": "I prefer the **latter** option.",
             "translation": "후자 옵션을 선호해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "local",
             "meaning": "지역의",
-            "example": "I support local businesses.",
+            "example": "I support **local** businesses.",
             "translation": "지역 사업을 지지해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "major",
             "meaning": "주요한",
-            "example": "This is a major problem.",
+            "example": "This is a **major** problem.",
             "translation": "이건 주요 문제예요.",
             "difficulty": "intermediate"
           },
           {
             "word": "minor",
             "meaning": "사소한",
-            "example": "It's just a minor issue.",
+            "example": "It's just a **minor** issue.",
             "translation": "그냥 사소한 문제예요.",
             "difficulty": "intermediate"
           },
           {
             "word": "modern",
             "meaning": "현대의",
-            "example": "I like modern design.",
+            "example": "I like **modern** design.",
             "translation": "현대 디자인을 좋아해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "native",
             "meaning": "원어민의",
-            "example": "She's a native speaker.",
+            "example": "She's a **native** speaker.",
             "translation": "그녀는 원어민이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "numerous",
             "meaning": "많은",
-            "example": "There are numerous options.",
+            "example": "There are **numerous** options.",
             "translation": "많은 옵션이 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "obvious",
             "meaning": "분명한",
-            "example": "The answer is obvious.",
+            "example": "The answer is **obvious**.",
             "translation": "답이 분명해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "particular",
             "meaning": "특정한",
-            "example": "I have no particular preference.",
+            "example": "I have no **particular** preference.",
             "translation": "특정한 선호가 없어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "permanent",
             "meaning": "영구적인",
-            "example": "This is not permanent.",
+            "example": "This is not **permanent**.",
             "translation": "이건 영구적이지 않아요.",
             "difficulty": "intermediate"
           },
           {
             "word": "physical",
             "meaning": "신체적인",
-            "example": "I need physical exercise.",
+            "example": "I need **physical** exercise.",
             "translation": "신체 운동이 필요해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "potential",
             "meaning": "잠재적인",
-            "example": "It has potential problems.",
+            "example": "It has **potential** problems.",
             "translation": "잠재적인 문제가 있어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "precise",
             "meaning": "정밀한",
-            "example": "I need precise measurements.",
+            "example": "I need **precise** measurements.",
             "translation": "정밀한 측정이 필요해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "previous",
             "meaning": "이전의",
-            "example": "My previous experience helped.",
+            "example": "My **previous** experience helped.",
             "translation": "이전 경험이 도움이 됐어요.",
             "difficulty": "intermediate"
           },
           {
             "word": "primary",
             "meaning": "주된",
-            "example": "My primary concern is safety.",
+            "example": "My **primary** concern is safety.",
             "translation": "주된 관심사는 안전이에요.",
             "difficulty": "intermediate"
           },
           {
             "word": "recent",
             "meaning": "최근의",
-            "example": "A recent study shows this.",
+            "example": "A **recent** study shows this.",
             "translation": "최근 연구가 이것을 보여줘요.",
             "difficulty": "intermediate"
           },
           {
             "word": "relevant",
             "meaning": "관련된",
-            "example": "This is relevant information.",
+            "example": "This is **relevant** information.",
             "translation": "이건 관련 정보예요.",
             "difficulty": "intermediate"
           },
           {
             "word": "remarkable",
             "meaning": "주목할 만한",
-            "example": "Her progress is remarkable.",
+            "example": "Her progress is **remarkable**.",
             "translation": "그녀의 진전은 주목할 만해요.",
             "difficulty": "intermediate"
           },
           {
             "word": "severe",
             "meaning": "심한",
-            "example": "There's severe weather.",
+            "example": "There's **severe** weather.",
             "translation": "심한 날씨예요.",
             "difficulty": "intermediate"
           }

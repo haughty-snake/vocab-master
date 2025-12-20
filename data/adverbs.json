@@ -7,239 +7,258 @@
         "word": "always",
         "pronunciation": "/ˈɔːlweɪz/",
         "meaning": "항상",
-        "example": "100%",
-        "translation": "I always wake up at 7."
+        "example": "I **always** wake up at 7.",
+        "translation": "",
+        "frequency": "100%"
       },
       {
         "word": "constantly",
         "pronunciation": "/ˈkɑːnstəntli/",
         "meaning": "끊임없이",
-        "example": "100%",
-        "translation": "She's constantly checking her phone."
+        "example": "She's **constantly** checking her phone.",
+        "translation": "",
+        "frequency": "100%"
       },
       {
         "word": "continually",
         "pronunciation": "/kənˈtɪnjuəli/",
         "meaning": "계속해서",
-        "example": "100%",
-        "translation": "The baby is continually crying."
+        "example": "The baby is **continually** crying.",
+        "translation": "",
+        "frequency": "100%"
       },
       {
         "word": "usually",
         "pronunciation": "/ˈjuːʒuəli/",
         "meaning": "보통",
-        "example": "90%",
-        "translation": "I usually have coffee in the morning."
+        "example": "I **usually** have coffee in the morning.",
+        "translation": "",
+        "frequency": "90%"
       },
       {
         "word": "normally",
         "pronunciation": "/ˈnɔːrməli/",
         "meaning": "보통",
-        "example": "90%",
-        "translation": "Normally, I go to bed early."
+        "example": "**Normally**, I go to bed early.",
+        "translation": "",
+        "frequency": "90%"
       },
       {
         "word": "generally",
         "pronunciation": "/ˈdʒenrəli/",
         "meaning": "일반적으로",
-        "example": "85%",
-        "translation": "Generally, people prefer warm weather."
+        "example": "**Generally**, people prefer warm weather.",
+        "translation": "",
+        "frequency": "85%"
       },
       {
         "word": "typically",
         "pronunciation": "/ˈtɪpɪkli/",
         "meaning": "전형적으로",
-        "example": "85%",
-        "translation": "He typically arrives late."
+        "example": "He **typically** arrives late.",
+        "translation": "",
+        "frequency": "85%"
       },
       {
         "word": "regularly",
         "pronunciation": "/ˈreɡjələrli/",
         "meaning": "정기적으로",
-        "example": "80%",
-        "translation": "I exercise regularly."
+        "example": "I exercise **regularly**.",
+        "translation": "",
+        "frequency": "80%"
       },
       {
         "word": "often",
         "pronunciation": "/ˈɔːfn/",
         "meaning": "자주",
-        "example": "70%",
-        "translation": "We often eat out on weekends."
+        "example": "We **often** eat out on weekends.",
+        "translation": "",
+        "frequency": "70%"
       },
       {
         "word": "frequently",
         "pronunciation": "/ˈfriːkwəntli/",
         "meaning": "빈번히",
-        "example": "70%",
-        "translation": "She frequently travels for work."
+        "example": "She **frequently** travels for work.",
+        "translation": "",
+        "frequency": "70%"
       },
       {
         "word": "sometimes",
         "pronunciation": "/ˈsʌmtaɪmz/",
         "meaning": "때때로",
-        "example": "50%",
-        "translation": "Sometimes I skip breakfast."
+        "example": "**Sometimes** I skip breakfast.",
+        "translation": "",
+        "frequency": "50%"
       },
       {
         "word": "occasionally",
         "pronunciation": "/əˈkeɪʒnəli/",
         "meaning": "가끔",
-        "example": "30%",
-        "translation": "I occasionally watch movies alone."
+        "example": "I **occasionally** watch movies alone.",
+        "translation": "",
+        "frequency": "30%"
       },
       {
         "word": "periodically",
         "pronunciation": "/ˌpɪriˈɑːdɪkli/",
         "meaning": "주기적으로",
-        "example": "30%",
-        "translation": "We meet periodically to discuss."
+        "example": "We meet **periodically** to discuss.",
+        "translation": "",
+        "frequency": "30%"
       },
       {
         "word": "seldom",
         "pronunciation": "/ˈseldəm/",
         "meaning": "드물게",
-        "example": "10%",
-        "translation": "He seldom complains."
+        "example": "He **seldom** complains.",
+        "translation": "",
+        "frequency": "10%"
       },
       {
         "word": "rarely",
         "pronunciation": "/ˈrerli/",
         "meaning": "드물게",
-        "example": "10%",
-        "translation": "I rarely eat fast food."
+        "example": "I **rarely** eat fast food.",
+        "translation": "",
+        "frequency": "10%"
       },
       {
         "word": "hardly ever",
         "pronunciation": "/ˈhɑːrdli ˈevər/",
         "meaning": "거의 ~않다",
-        "example": "5%",
-        "translation": "She hardly ever gets angry."
+        "example": "She **hardly ever** gets angry.",
+        "translation": "",
+        "frequency": "5%"
       },
       {
         "word": "barely",
         "pronunciation": "/ˈberli/",
         "meaning": "거의 ~않다",
-        "example": "5%",
-        "translation": "I barely have time to rest."
+        "example": "I **barely** have time to rest.",
+        "translation": "",
+        "frequency": "5%"
       },
       {
         "word": "scarcely",
         "pronunciation": "/ˈskersli/",
         "meaning": "거의 ~않다",
-        "example": "5%",
-        "translation": "We scarcely see each other."
+        "example": "We **scarcely** see each other.",
+        "translation": "",
+        "frequency": "5%"
       },
       {
         "word": "never",
         "pronunciation": "/ˈnevər/",
         "meaning": "절대 ~않다",
-        "example": "0%",
-        "translation": "I never drink alcohol."
+        "example": "I **never** drink alcohol.",
+        "translation": "",
+        "frequency": "0%"
       },
       {
         "word": "once",
         "pronunciation": "/wʌns/",
         "meaning": "한 번",
-        "example": "-",
-        "translation": "I visit my parents once a month."
+        "example": "I visit my parents **once** a month.",
+        "translation": ""
       },
       {
         "word": "twice",
         "pronunciation": "/twaɪs/",
         "meaning": "두 번",
-        "example": "-",
-        "translation": "I brush my teeth twice a day."
+        "example": "I brush my teeth **twice** a day.",
+        "translation": ""
       },
       {
         "word": "daily",
         "pronunciation": "/ˈdeɪli/",
         "meaning": "매일",
-        "example": "-",
-        "translation": "I check my email daily."
+        "example": "I check my email **daily**.",
+        "translation": ""
       },
       {
         "word": "weekly",
         "pronunciation": "/ˈwiːkli/",
         "meaning": "매주",
-        "example": "-",
-        "translation": "We have weekly meetings."
+        "example": "We have **weekly** meetings.",
+        "translation": ""
       },
       {
         "word": "monthly",
         "pronunciation": "/ˈmʌnθli/",
         "meaning": "매월",
-        "example": "-",
-        "translation": "I pay rent monthly."
+        "example": "I pay rent **monthly**.",
+        "translation": ""
       },
       {
         "word": "yearly",
         "pronunciation": "/ˈjɪrli/",
         "meaning": "매년",
-        "example": "-",
-        "translation": "We take a yearly vacation."
+        "example": "We take a **yearly** vacation.",
+        "translation": ""
       },
       {
         "word": "annually",
         "pronunciation": "/ˈænjuəli/",
         "meaning": "매년",
-        "example": "-",
-        "translation": "The festival is held annually."
+        "example": "The festival is held **annually**.",
+        "translation": ""
       },
       {
         "word": "hourly",
         "pronunciation": "/ˈaʊərli/",
         "meaning": "매시간",
-        "example": "-",
-        "translation": "The bus comes hourly."
+        "example": "The bus comes **hourly**.",
+        "translation": ""
       },
       {
         "word": "nightly",
         "pronunciation": "/ˈnaɪtli/",
         "meaning": "매일 밤",
-        "example": "-",
-        "translation": "I read nightly before bed."
+        "example": "I read **nightly** before bed.",
+        "translation": ""
       },
       {
         "word": "repeatedly",
         "pronunciation": "/rɪˈpiːtɪdli/",
         "meaning": "반복적으로",
-        "example": "-",
-        "translation": "He asked me repeatedly."
+        "example": "He asked me **repeatedly**.",
+        "translation": ""
       },
       {
         "word": "habitually",
         "pronunciation": "/həˈbɪtʃuəli/",
         "meaning": "습관적으로",
-        "example": "-",
-        "translation": "She habitually bites her nails."
+        "example": "She **habitually** bites her nails.",
+        "translation": ""
       },
       {
         "word": "routinely",
         "pronunciation": "/ruːˈtiːnli/",
         "meaning": "일상적으로",
-        "example": "-",
-        "translation": "I routinely check my phone."
+        "example": "I **routinely** check my phone.",
+        "translation": ""
       },
       {
         "word": "intermittently",
         "pronunciation": "/ˌɪntərˈmɪtntli/",
         "meaning": "간헐적으로",
-        "example": "-",
-        "translation": "The rain fell intermittently."
+        "example": "The rain fell **intermittently**.",
+        "translation": ""
       },
       {
         "word": "sporadically",
         "pronunciation": "/spəˈrædɪkli/",
         "meaning": "산발적으로",
-        "example": "-",
-        "translation": "They contact us sporadically."
+        "example": "They contact us **sporadically**.",
+        "translation": ""
       },
       {
         "word": "infrequently",
         "pronunciation": "/ɪnˈfriːkwəntli/",
         "meaning": "드물게",
-        "example": "-",
-        "translation": "We meet infrequently now."
+        "example": "We meet **infrequently** now.",
+        "translation": ""
       }
     ]
   },
@@ -251,315 +270,315 @@
         "word": "now",
         "pronunciation": "/naʊ/",
         "meaning": "지금",
-        "example": "I need it now.",
+        "example": "I need it **now**.",
         "translation": "지금 그거 필요해."
       },
       {
         "word": "then",
         "pronunciation": "/ðen/",
         "meaning": "그때",
-        "example": "I was young then.",
+        "example": "I was young **then**.",
         "translation": "그때 나는 어렸어."
       },
       {
         "word": "today",
         "pronunciation": "/təˈdeɪ/",
         "meaning": "오늘",
-        "example": "I'm busy today.",
+        "example": "I'm busy **today**.",
         "translation": "오늘 바빠."
       },
       {
         "word": "tomorrow",
         "pronunciation": "/təˈmɔːroʊ/",
         "meaning": "내일",
-        "example": "Let's meet tomorrow.",
+        "example": "Let's meet **tomorrow**.",
         "translation": "내일 만나자."
       },
       {
         "word": "yesterday",
         "pronunciation": "/ˈjestərdeɪ/",
         "meaning": "어제",
-        "example": "I saw him yesterday.",
+        "example": "I saw him **yesterday**.",
         "translation": "어제 그를 봤어."
       },
       {
         "word": "tonight",
         "pronunciation": "/təˈnaɪt/",
         "meaning": "오늘 밤",
-        "example": "Are you free tonight?",
+        "example": "Are you free **tonight**?",
         "translation": "오늘 밤 시간 있어?"
       },
       {
         "word": "soon",
         "pronunciation": "/suːn/",
         "meaning": "곧",
-        "example": "I'll be there soon.",
+        "example": "I'll be there **soon**.",
         "translation": "곧 거기 갈게."
       },
       {
         "word": "later",
         "pronunciation": "/ˈleɪtər/",
         "meaning": "나중에",
-        "example": "I'll call you later.",
+        "example": "I'll call you **later**.",
         "translation": "나중에 전화할게."
       },
       {
         "word": "early",
         "pronunciation": "/ˈɜːrli/",
         "meaning": "일찍",
-        "example": "I woke up early.",
+        "example": "I woke up **early**.",
         "translation": "일찍 일어났어."
       },
       {
         "word": "late",
         "pronunciation": "/leɪt/",
         "meaning": "늦게",
-        "example": "Don't stay up late.",
+        "example": "Don't stay up **late**.",
         "translation": "늦게까지 깨어있지 마."
       },
       {
         "word": "recently",
         "pronunciation": "/ˈriːsntli/",
         "meaning": "최근에",
-        "example": "I recently moved here.",
+        "example": "I **recently** moved here.",
         "translation": "최근에 여기로 이사왔어."
       },
       {
         "word": "lately",
         "pronunciation": "/ˈleɪtli/",
         "meaning": "최근에",
-        "example": "Have you seen him lately?",
+        "example": "Have you seen him **lately**?",
         "translation": "최근에 그 봤어?"
       },
       {
         "word": "currently",
         "pronunciation": "/ˈkɜːrəntli/",
         "meaning": "현재",
-        "example": "I'm currently working on it.",
+        "example": "I'm **currently** working on it.",
         "translation": "현재 그거 작업 중이야."
       },
       {
         "word": "presently",
         "pronunciation": "/ˈprezntli/",
         "meaning": "현재",
-        "example": "She's presently unavailable.",
+        "example": "She's **presently** unavailable.",
         "translation": "그녀는 현재 연락이 안 돼."
       },
       {
         "word": "immediately",
         "pronunciation": "/ɪˈmiːdiətli/",
         "meaning": "즉시",
-        "example": "Call me immediately.",
+        "example": "Call me **immediately**.",
         "translation": "즉시 전화해."
       },
       {
         "word": "instantly",
         "pronunciation": "/ˈɪnstəntli/",
         "meaning": "즉각",
-        "example": "He replied instantly.",
+        "example": "He replied **instantly**.",
         "translation": "그가 즉각 답했어."
       },
       {
         "word": "suddenly",
         "pronunciation": "/ˈsʌdnli/",
         "meaning": "갑자기",
-        "example": "It suddenly started raining.",
+        "example": "It **suddenly** started raining.",
         "translation": "갑자기 비가 오기 시작했어."
       },
       {
         "word": "gradually",
         "pronunciation": "/ˈɡrædʒuəli/",
         "meaning": "점차적으로",
-        "example": "Things gradually improved.",
+        "example": "Things **gradually** improved.",
         "translation": "상황이 점차적으로 나아졌어."
       },
       {
         "word": "eventually",
         "pronunciation": "/ɪˈventʃuəli/",
         "meaning": "결국",
-        "example": "He eventually agreed.",
+        "example": "He **eventually** agreed.",
         "translation": "그가 결국 동의했어."
       },
       {
         "word": "finally",
         "pronunciation": "/ˈfaɪnəli/",
         "meaning": "마침내",
-        "example": "We finally arrived.",
+        "example": "We **finally** arrived.",
         "translation": "우리 마침내 도착했어."
       },
       {
         "word": "ultimately",
         "pronunciation": "/ˈʌltɪmətli/",
         "meaning": "궁극적으로",
-        "example": "It ultimately depends on you.",
+        "example": "It **ultimately** depends on you.",
         "translation": "궁극적으로 너에게 달려있어."
       },
       {
         "word": "already",
         "pronunciation": "/ɔːlˈredi/",
         "meaning": "이미",
-        "example": "I already ate.",
+        "example": "I **already** ate.",
         "translation": "이미 먹었어."
       },
       {
         "word": "still",
         "pronunciation": "/stɪl/",
         "meaning": "여전히",
-        "example": "Are you still there?",
+        "example": "Are you **still** there?",
         "translation": "아직 거기 있어?"
       },
       {
         "word": "yet",
         "pronunciation": "/jet/",
         "meaning": "아직",
-        "example": "I haven't finished yet.",
+        "example": "I haven't finished **yet**.",
         "translation": "아직 안 끝났어."
       },
       {
         "word": "anymore",
         "pronunciation": "/ˌeniˈmɔːr/",
         "meaning": "더 이상",
-        "example": "I don't smoke anymore.",
+        "example": "I don't smoke **anymore**.",
         "translation": "더 이상 담배 안 피워."
       },
       {
         "word": "before",
         "pronunciation": "/bɪˈfɔːr/",
         "meaning": "전에",
-        "example": "Have you been here before?",
+        "example": "Have you been here **before**?",
         "translation": "여기 전에 와본 적 있어?"
       },
       {
         "word": "after",
         "pronunciation": "/ˈæftər/",
         "meaning": "후에",
-        "example": "Let's talk after lunch.",
+        "example": "Let's talk **after** lunch.",
         "translation": "점심 후에 얘기하자."
       },
       {
         "word": "afterwards",
         "pronunciation": "/ˈæftərwərdz/",
         "meaning": "그 후에",
-        "example": "We went home afterwards.",
+        "example": "We went home **afterwards**.",
         "translation": "그 후에 우리는 집에 갔어."
       },
       {
         "word": "meanwhile",
         "pronunciation": "/ˈmiːnwaɪl/",
         "meaning": "그동안",
-        "example": "Meanwhile, I'll prepare dinner.",
+        "example": "**Meanwhile**, I'll prepare dinner.",
         "translation": "그동안 내가 저녁 준비할게."
       },
       {
         "word": "simultaneously",
         "pronunciation": "/ˌsaɪmlˈteɪniəsli/",
         "meaning": "동시에",
-        "example": "Both events happened simultaneously.",
+        "example": "Both events happened **simultaneously**.",
         "translation": "두 사건이 동시에 일어났어."
       },
       {
         "word": "temporarily",
         "pronunciation": "/ˌtempəˈrerəli/",
         "meaning": "일시적으로",
-        "example": "The store is temporarily closed.",
+        "example": "The store is **temporarily** closed.",
         "translation": "가게가 일시적으로 닫혀있어."
       },
       {
         "word": "permanently",
         "pronunciation": "/ˈpɜːrmənəntli/",
         "meaning": "영구적으로",
-        "example": "They moved permanently to Canada.",
+        "example": "They moved **permanently** to Canada.",
         "translation": "그들은 캐나다로 영구적으로 이사갔어."
       },
       {
         "word": "forever",
         "pronunciation": "/fərˈevər/",
         "meaning": "영원히",
-        "example": "I'll love you forever.",
+        "example": "I'll love you **forever**.",
         "translation": "널 영원히 사랑할 거야."
       },
       {
         "word": "first",
         "pronunciation": "/fɜːrst/",
         "meaning": "먼저",
-        "example": "Let me go first.",
+        "example": "Let me go **first**.",
         "translation": "내가 먼저 갈게."
       },
       {
         "word": "second",
         "pronunciation": "/ˈsekənd/",
         "meaning": "두 번째로",
-        "example": "Second, we need to plan.",
+        "example": "**Second**, we need to plan.",
         "translation": "두 번째로, 계획을 세워야 해."
       },
       {
         "word": "next",
         "pronunciation": "/nekst/",
         "meaning": "다음에",
-        "example": "What should we do next?",
+        "example": "What should we do **next**?",
         "translation": "다음에 뭐 해야 해?"
       },
       {
         "word": "lastly",
         "pronunciation": "/ˈlæstli/",
         "meaning": "마지막으로",
-        "example": "Lastly, thank you all.",
+        "example": "**Lastly**, thank you all.",
         "translation": "마지막으로, 모두 감사해요."
       },
       {
         "word": "previously",
         "pronunciation": "/ˈpriːviəsli/",
         "meaning": "이전에",
-        "example": "I previously worked there.",
+        "example": "I **previously** worked there.",
         "translation": "나는 이전에 거기서 일했어."
       },
       {
         "word": "formerly",
         "pronunciation": "/ˈfɔːrmərli/",
         "meaning": "예전에",
-        "example": "He was formerly a teacher.",
+        "example": "He was **formerly** a teacher.",
         "translation": "그는 예전에 선생님이었어."
       },
       {
         "word": "originally",
         "pronunciation": "/əˈrɪdʒənəli/",
         "meaning": "원래",
-        "example": "I'm originally from Seoul.",
+        "example": "I'm **originally** from Seoul.",
         "translation": "원래 서울 출신이야."
       },
       {
         "word": "initially",
         "pronunciation": "/ɪˈnɪʃəli/",
         "meaning": "처음에",
-        "example": "Initially, I was nervous.",
+        "example": "**Initially**, I was nervous.",
         "translation": "처음에는 긴장됐어."
       },
       {
         "word": "shortly",
         "pronunciation": "/ˈʃɔːrtli/",
         "meaning": "곧",
-        "example": "The train will arrive shortly.",
+        "example": "The train will arrive **shortly**.",
         "translation": "기차가 곧 도착해."
       },
       {
         "word": "promptly",
         "pronunciation": "/ˈprɑːmptli/",
         "meaning": "즉시",
-        "example": "Please reply promptly.",
+        "example": "Please reply **promptly**.",
         "translation": "즉시 답장해 주세요."
       },
       {
         "word": "straightaway",
         "pronunciation": "/ˌstreɪtəˈweɪ/",
         "meaning": "곧바로",
-        "example": "I'll do it straightaway.",
+        "example": "I'll do it **straightaway**.",
         "translation": "곧바로 할게."
       },
       {
         "word": "henceforth",
         "pronunciation": "/ˌhensˈfɔːrθ/",
         "meaning": "이제부터",
-        "example": "Henceforth, we follow the rules.",
+        "example": "**Henceforth**, we follow the rules.",
         "translation": "이제부터 규칙을 따라."
       }
     ]
@@ -796,92 +815,92 @@
         "word": "almost",
         "pronunciation": "/ˈɔːlmoʊst/",
         "meaning": "거의",
-        "example": "-",
-        "translation": "I'm almost done."
+        "example": "I'm **almost** done.",
+        "translation": ""
       },
       {
         "word": "nearly",
         "pronunciation": "/ˈnɪrli/",
         "meaning": "거의",
-        "example": "-",
-        "translation": "It's nearly 5 o'clock."
+        "example": "It's **nearly** 5 o'clock.",
+        "translation": ""
       },
       {
         "word": "approximately",
         "pronunciation": "/əˈprɑːksɪmətli/",
         "meaning": "대략",
-        "example": "-",
-        "translation": "It takes approximately an hour."
+        "example": "It takes **approximately** an hour.",
+        "translation": ""
       },
       {
         "word": "roughly",
         "pronunciation": "/ˈrʌfli/",
         "meaning": "대충",
-        "example": "-",
-        "translation": "It costs roughly $50."
+        "example": "It costs **roughly** $50.",
+        "translation": ""
       },
       {
         "word": "about",
         "pronunciation": "/əˈbaʊt/",
         "meaning": "약",
-        "example": "-",
-        "translation": "There were about 100 people."
+        "example": "There were **about** 100 people.",
+        "translation": ""
       },
       {
         "word": "around",
         "pronunciation": "/əˈraʊnd/",
         "meaning": "약",
-        "example": "-",
-        "translation": "I'll be there around 3."
+        "example": "I'll be there **around** 3.",
+        "translation": ""
       },
       {
         "word": "mostly",
         "pronunciation": "/ˈmoʊstli/",
         "meaning": "대부분",
-        "example": "-",
-        "translation": "I mostly work from home."
+        "example": "I **mostly** work from home.",
+        "translation": ""
       },
       {
         "word": "mainly",
         "pronunciation": "/ˈmeɪnli/",
         "meaning": "주로",
-        "example": "-",
-        "translation": "I mainly eat vegetables."
+        "example": "I **mainly** eat vegetables.",
+        "translation": ""
       },
       {
         "word": "largely",
         "pronunciation": "/ˈlɑːrdʒli/",
         "meaning": "대체로",
-        "example": "-",
-        "translation": "The project was largely successful."
+        "example": "The project was **largely** successful.",
+        "translation": ""
       },
       {
         "word": "particularly",
         "pronunciation": "/pərˈtɪkjələrli/",
         "meaning": "특히",
-        "example": "-",
-        "translation": "I'm not particularly hungry."
+        "example": "I'm not **particularly** hungry.",
+        "translation": ""
       },
       {
         "word": "especially",
         "pronunciation": "/ɪˈspeʃəli/",
         "meaning": "특히",
-        "example": "-",
-        "translation": "I love summer, especially the beach."
+        "example": "I love summer, **especially** the beach.",
+        "translation": ""
       },
       {
         "word": "specifically",
         "pronunciation": "/spəˈsɪfɪkli/",
         "meaning": "구체적으로",
-        "example": "-",
-        "translation": "What specifically do you mean?"
+        "example": "What **specifically** do you mean?",
+        "translation": ""
       },
       {
         "word": "merely",
         "pronunciation": "/ˈmɪrli/",
         "meaning": "단지",
-        "example": "-",
-        "translation": "I merely suggested it."
+        "example": "I **merely** suggested it.",
+        "translation": ""
       }
     ]
   },
@@ -893,420 +912,420 @@
         "word": "quickly",
         "pronunciation": "/ˈkwɪkli/",
         "meaning": "빨리",
-        "example": "Come quickly!",
+        "example": "Come **quickly**!",
         "translation": "빨리 와!"
       },
       {
         "word": "slowly",
         "pronunciation": "/ˈsloʊli/",
         "meaning": "천천히",
-        "example": "Please speak slowly.",
+        "example": "Please speak **slowly**.",
         "translation": "천천히 말해 주세요."
       },
       {
         "word": "fast",
         "pronunciation": "/fæst/",
         "meaning": "빠르게",
-        "example": "Don't drive too fast.",
+        "example": "Don't drive too **fast**.",
         "translation": "너무 빨리 운전하지 마."
       },
       {
         "word": "rapidly",
         "pronunciation": "/ˈræpɪdli/",
         "meaning": "급속히",
-        "example": "Technology is changing rapidly.",
+        "example": "Technology is changing **rapidly**.",
         "translation": "기술이 급속히 변하고 있어."
       },
       {
         "word": "carefully",
         "pronunciation": "/ˈkerfl̩i/",
         "meaning": "조심스럽게",
-        "example": "Drive carefully.",
+        "example": "Drive **carefully**.",
         "translation": "조심해서 운전해."
       },
       {
         "word": "carelessly",
         "pronunciation": "/ˈkerləsli/",
         "meaning": "부주의하게",
-        "example": "He carelessly left the door open.",
+        "example": "He **carelessly** left the door open.",
         "translation": "그가 부주의하게 문을 열어놨어."
       },
       {
         "word": "easily",
         "pronunciation": "/ˈiːzɪli/",
         "meaning": "쉽게",
-        "example": "You can easily fix it.",
+        "example": "You can **easily** fix it.",
         "translation": "쉽게 고칠 수 있어."
       },
       {
         "word": "hard",
         "pronunciation": "/hɑːrd/",
         "meaning": "열심히",
-        "example": "He works hard every day.",
+        "example": "He works **hard** every day.",
         "translation": "그는 매일 열심히 일해."
       },
       {
         "word": "softly",
         "pronunciation": "/ˈsɔːftli/",
         "meaning": "부드럽게",
-        "example": "She spoke softly.",
+        "example": "She spoke **softly**.",
         "translation": "그녀가 부드럽게 말했어."
       },
       {
         "word": "loudly",
         "pronunciation": "/ˈlaʊdli/",
         "meaning": "크게",
-        "example": "Please speak more loudly.",
+        "example": "Please speak more **loudly**.",
         "translation": "더 크게 말해 주세요."
       },
       {
         "word": "quietly",
         "pronunciation": "/ˈkwaɪətli/",
         "meaning": "조용히",
-        "example": "Close the door quietly.",
+        "example": "Close the door **quietly**.",
         "translation": "문 조용히 닫아."
       },
       {
         "word": "silently",
         "pronunciation": "/ˈsaɪləntli/",
         "meaning": "침묵하며",
-        "example": "He sat silently.",
+        "example": "He sat **silently**.",
         "translation": "그가 침묵 속에 앉아있었어."
       },
       {
         "word": "clearly",
         "pronunciation": "/ˈklɪrli/",
         "meaning": "명확하게",
-        "example": "Please explain clearly.",
+        "example": "Please explain **clearly**.",
         "translation": "명확하게 설명해 주세요."
       },
       {
         "word": "directly",
         "pronunciation": "/dəˈrektli/",
         "meaning": "직접적으로",
-        "example": "Talk to him directly.",
+        "example": "Talk to him **directly**.",
         "translation": "그에게 직접 말해."
       },
       {
         "word": "indirectly",
         "pronunciation": "/ˌɪndəˈrektli/",
         "meaning": "간접적으로",
-        "example": "She indirectly mentioned it.",
+        "example": "She **indirectly** mentioned it.",
         "translation": "그녀가 간접적으로 언급했어."
       },
       {
         "word": "properly",
         "pronunciation": "/ˈprɑːpərli/",
         "meaning": "적절하게",
-        "example": "Do it properly.",
+        "example": "Do it **properly**.",
         "translation": "제대로 해."
       },
       {
         "word": "badly",
         "pronunciation": "/ˈbædli/",
         "meaning": "나쁘게",
-        "example": "I played badly today.",
+        "example": "I played **badly** today.",
         "translation": "오늘 못 했어."
       },
       {
         "word": "well",
         "pronunciation": "/wel/",
         "meaning": "잘",
-        "example": "You did well.",
+        "example": "You did **well**.",
         "translation": "잘 했어."
       },
       {
         "word": "nicely",
         "pronunciation": "/ˈnaɪsli/",
         "meaning": "좋게",
-        "example": "Ask nicely.",
+        "example": "Ask **nicely**.",
         "translation": "잘 부탁해."
       },
       {
         "word": "beautifully",
         "pronunciation": "/ˈbjuːtɪfl̩i/",
         "meaning": "아름답게",
-        "example": "She sings beautifully.",
+        "example": "She sings **beautifully**.",
         "translation": "그녀는 아름답게 노래해."
       },
       {
         "word": "perfectly",
         "pronunciation": "/ˈpɜːrfɪktli/",
         "meaning": "완벽하게",
-        "example": "Everything went perfectly.",
+        "example": "Everything went **perfectly**.",
         "translation": "모든 게 완벽하게 됐어."
       },
       {
         "word": "correctly",
         "pronunciation": "/kəˈrektli/",
         "meaning": "정확하게",
-        "example": "Answer correctly.",
+        "example": "Answer **correctly**.",
         "translation": "정확하게 답해."
       },
       {
         "word": "wrongly",
         "pronunciation": "/ˈrɔːŋli/",
         "meaning": "잘못",
-        "example": "I was wrongly accused.",
+        "example": "I was **wrongly** accused.",
         "translation": "나는 잘못 고발당했어."
       },
       {
         "word": "accurately",
         "pronunciation": "/ˈækjərətli/",
         "meaning": "정확하게",
-        "example": "Measure it accurately.",
+        "example": "Measure it **accurately**.",
         "translation": "정확하게 재."
       },
       {
         "word": "precisely",
         "pronunciation": "/prɪˈsaɪsli/",
         "meaning": "정밀하게",
-        "example": "That's precisely what I meant.",
+        "example": "That's **precisely** what I meant.",
         "translation": "바로 그게 내 말이야."
       },
       {
         "word": "roughly",
         "pronunciation": "/ˈrʌfli/",
         "meaning": "거칠게",
-        "example": "Don't treat me roughly.",
+        "example": "Don't treat me **roughly**.",
         "translation": "나를 거칠게 대하지 마."
       },
       {
         "word": "gently",
         "pronunciation": "/ˈdʒentli/",
         "meaning": "부드럽게",
-        "example": "Touch it gently.",
+        "example": "Touch it **gently**.",
         "translation": "부드럽게 만져."
       },
       {
         "word": "kindly",
         "pronunciation": "/ˈkaɪndli/",
         "meaning": "친절하게",
-        "example": "She kindly helped me.",
+        "example": "She **kindly** helped me.",
         "translation": "그녀가 친절하게 도와줬어."
       },
       {
         "word": "politely",
         "pronunciation": "/pəˈlaɪtli/",
         "meaning": "정중하게",
-        "example": "Ask politely.",
+        "example": "Ask **politely**.",
         "translation": "정중하게 부탁해."
       },
       {
         "word": "rudely",
         "pronunciation": "/ˈruːdli/",
         "meaning": "무례하게",
-        "example": "He rudely interrupted me.",
+        "example": "He **rudely** interrupted me.",
         "translation": "그가 무례하게 끼어들었어."
       },
       {
         "word": "honestly",
         "pronunciation": "/ˈɑːnɪstli/",
         "meaning": "솔직하게",
-        "example": "Honestly, I don't know.",
+        "example": "**Honestly**, I don't know.",
         "translation": "솔직히, 몰라."
       },
       {
         "word": "sincerely",
         "pronunciation": "/sɪnˈsɪrli/",
         "meaning": "진심으로",
-        "example": "I sincerely apologize.",
+        "example": "I **sincerely** apologize.",
         "translation": "진심으로 사과해."
       },
       {
         "word": "seriously",
         "pronunciation": "/ˈsɪriəsli/",
         "meaning": "진지하게",
-        "example": "Take it seriously.",
+        "example": "Take it **seriously**.",
         "translation": "진지하게 받아들여."
       },
       {
         "word": "casually",
         "pronunciation": "/ˈkæʒuəli/",
         "meaning": "편하게",
-        "example": "Dress casually.",
+        "example": "Dress **casually**.",
         "translation": "편하게 입어."
       },
       {
         "word": "formally",
         "pronunciation": "/ˈfɔːrməli/",
         "meaning": "공식적으로",
-        "example": "We were formally introduced.",
+        "example": "We were **formally** introduced.",
         "translation": "우리는 공식적으로 소개받았어."
       },
       {
         "word": "informally",
         "pronunciation": "/ɪnˈfɔːrməli/",
         "meaning": "비공식적으로",
-        "example": "Let's meet informally.",
+        "example": "Let's meet **informally**.",
         "translation": "비공식적으로 만나자."
       },
       {
         "word": "professionally",
         "pronunciation": "/prəˈfeʃənəli/",
         "meaning": "전문적으로",
-        "example": "Handle it professionally.",
+        "example": "Handle it **professionally**.",
         "translation": "전문적으로 처리해."
       },
       {
         "word": "personally",
         "pronunciation": "/ˈpɜːrsənəli/",
         "meaning": "개인적으로",
-        "example": "Personally, I prefer tea.",
+        "example": "**Personally**, I prefer tea.",
         "translation": "개인적으로 차를 선호해."
       },
       {
         "word": "privately",
         "pronunciation": "/ˈpraɪvətli/",
         "meaning": "사적으로",
-        "example": "Can we talk privately?",
+        "example": "Can we talk **privately**?",
         "translation": "사적으로 얘기할 수 있을까?"
       },
       {
         "word": "publicly",
         "pronunciation": "/ˈpʌblɪkli/",
         "meaning": "공개적으로",
-        "example": "He publicly apologized.",
+        "example": "He **publicly** apologized.",
         "translation": "그가 공개적으로 사과했어."
       },
       {
         "word": "secretly",
         "pronunciation": "/ˈsiːkrətli/",
         "meaning": "비밀리에",
-        "example": "They secretly met.",
+        "example": "They **secretly** met.",
         "translation": "그들은 비밀리에 만났어."
       },
       {
         "word": "openly",
         "pronunciation": "/ˈoʊpənli/",
         "meaning": "공개적으로",
-        "example": "Let's discuss it openly.",
+        "example": "Let's discuss it **openly**.",
         "translation": "공개적으로 토론하자."
       },
       {
         "word": "happily",
         "pronunciation": "/ˈhæpɪli/",
         "meaning": "행복하게",
-        "example": "They lived happily.",
+        "example": "They lived **happily**.",
         "translation": "그들은 행복하게 살았어."
       },
       {
         "word": "sadly",
         "pronunciation": "/ˈsædli/",
         "meaning": "슬프게",
-        "example": "Sadly, he passed away.",
+        "example": "**Sadly**, he passed away.",
         "translation": "슬프게도 그가 돌아가셨어."
       },
       {
         "word": "angrily",
         "pronunciation": "/ˈæŋɡrəli/",
         "meaning": "화나서",
-        "example": "She angrily left the room.",
+        "example": "She **angrily** left the room.",
         "translation": "그녀가 화나서 방을 나갔어."
       },
       {
         "word": "nervously",
         "pronunciation": "/ˈnɜːrvəsli/",
         "meaning": "긴장하여",
-        "example": "He waited nervously.",
+        "example": "He waited **nervously**.",
         "translation": "그가 긴장하여 기다렸어."
       },
       {
         "word": "calmly",
         "pronunciation": "/ˈkɑːmli/",
         "meaning": "침착하게",
-        "example": "Stay calm and speak calmly.",
+        "example": "Stay calm and speak **calmly**.",
         "translation": "침착하게 말해."
       },
       {
         "word": "patiently",
         "pronunciation": "/ˈpeɪʃntli/",
         "meaning": "인내심 있게",
-        "example": "Wait patiently.",
+        "example": "Wait **patiently**.",
         "translation": "인내심 있게 기다려."
       },
       {
         "word": "impatiently",
         "pronunciation": "/ɪmˈpeɪʃntli/",
         "meaning": "성급하게",
-        "example": "He impatiently tapped his foot.",
+        "example": "He **impatiently** tapped his foot.",
         "translation": "그가 성급하게 발을 굴렀어."
       },
       {
         "word": "eagerly",
         "pronunciation": "/ˈiːɡərli/",
         "meaning": "열심히",
-        "example": "She eagerly accepted.",
+        "example": "She **eagerly** accepted.",
         "translation": "그녀가 열심히 수락했어."
       },
       {
         "word": "reluctantly",
         "pronunciation": "/rɪˈlʌktəntli/",
         "meaning": "마지못해",
-        "example": "He reluctantly agreed.",
+        "example": "He **reluctantly** agreed.",
         "translation": "그가 마지못해 동의했어."
       },
       {
         "word": "willingly",
         "pronunciation": "/ˈwɪlɪŋli/",
         "meaning": "기꺼이",
-        "example": "I willingly helped her.",
+        "example": "I **willingly** helped her.",
         "translation": "나는 기꺼이 그녀를 도왔어."
       },
       {
         "word": "unwillingly",
         "pronunciation": "/ʌnˈwɪlɪŋli/",
         "meaning": "마지못해",
-        "example": "She unwillingly complied.",
+        "example": "She **unwillingly** complied.",
         "translation": "그녀는 마지못해 따랐어."
       },
       {
         "word": "deliberately",
         "pronunciation": "/dɪˈlɪbərətli/",
         "meaning": "고의로",
-        "example": "He deliberately ignored me.",
+        "example": "He **deliberately** ignored me.",
         "translation": "그가 고의로 나를 무시했어."
       },
       {
         "word": "accidentally",
         "pronunciation": "/ˌæksɪˈdentəli/",
         "meaning": "우연히",
-        "example": "I accidentally deleted it.",
+        "example": "I **accidentally** deleted it.",
         "translation": "우연히 그걸 삭제했어."
       },
       {
         "word": "naturally",
         "pronunciation": "/ˈnætʃrəli/",
         "meaning": "자연스럽게",
-        "example": "It comes naturally to her.",
+        "example": "It comes **naturally** to her.",
         "translation": "그건 그녀에게 자연스럽게 와."
       },
       {
         "word": "artificially",
         "pronunciation": "/ˌɑːrtɪˈfɪʃəli/",
         "meaning": "인위적으로",
-        "example": "It's artificially sweetened.",
+        "example": "It's **artificially** sweetened.",
         "translation": "인공적으로 단맛이 나."
       },
       {
         "word": "automatically",
         "pronunciation": "/ˌɔːtəˈmætɪkli/",
         "meaning": "자동으로",
-        "example": "It saves automatically.",
+        "example": "It saves **automatically**.",
         "translation": "자동으로 저장돼."
       },
       {
         "word": "manually",
         "pronunciation": "/ˈmænjuəli/",
         "meaning": "수동으로",
-        "example": "You need to do it manually.",
+        "example": "You need to do it **manually**.",
         "translation": "수동으로 해야 해."
       },
       {
         "word": "independently",
         "pronunciation": "/ˌɪndɪˈpendəntli/",
         "meaning": "독립적으로",
-        "example": "She works independently.",
+        "example": "She works **independently**.",
         "translation": "그녀는 독립적으로 일해."
       }
     ]
@@ -1319,245 +1338,245 @@
         "word": "here",
         "pronunciation": "/hɪr/",
         "meaning": "여기에",
-        "example": "Come here.",
+        "example": "Come **here**.",
         "translation": "여기로 와."
       },
       {
         "word": "there",
         "pronunciation": "/ðer/",
         "meaning": "저기에",
-        "example": "Put it there.",
+        "example": "Put it **there**.",
         "translation": "저기에 놔."
       },
       {
         "word": "everywhere",
         "pronunciation": "/ˈevriˌwer/",
         "meaning": "어디에나",
-        "example": "I looked everywhere.",
+        "example": "I looked **everywhere**.",
         "translation": "어디나 다 찾아봤어."
       },
       {
         "word": "somewhere",
         "pronunciation": "/ˈsʌmwer/",
         "meaning": "어딘가에",
-        "example": "Let's go somewhere nice.",
+        "example": "Let's go **somewhere** nice.",
         "translation": "좋은 데로 가자."
       },
       {
         "word": "anywhere",
         "pronunciation": "/ˈeniˌwer/",
         "meaning": "어디든지",
-        "example": "I'll go anywhere with you.",
+        "example": "I'll go **anywhere** with you.",
         "translation": "너랑이면 어디든 갈게."
       },
       {
         "word": "nowhere",
         "pronunciation": "/ˈnoʊˌwer/",
         "meaning": "아무데도",
-        "example": "There's nowhere to hide.",
+        "example": "There's **nowhere** to hide.",
         "translation": "숨을 데가 없어."
       },
       {
         "word": "inside",
         "pronunciation": "/ˌɪnˈsaɪd/",
         "meaning": "안에",
-        "example": "Let's go inside.",
+        "example": "Let's go **inside**.",
         "translation": "안으로 들어가자."
       },
       {
         "word": "outside",
         "pronunciation": "/ˌaʊtˈsaɪd/",
         "meaning": "밖에",
-        "example": "Wait outside please.",
+        "example": "Wait **outside** please.",
         "translation": "밖에서 기다려 주세요."
       },
       {
         "word": "upstairs",
         "pronunciation": "/ˌʌpˈsterz/",
         "meaning": "위층에",
-        "example": "He's upstairs.",
+        "example": "He's **upstairs**.",
         "translation": "그는 위층에 있어."
       },
       {
         "word": "downstairs",
         "pronunciation": "/ˌdaʊnˈsterz/",
         "meaning": "아래층에",
-        "example": "Go downstairs.",
+        "example": "Go **downstairs**.",
         "translation": "아래층으로 가."
       },
       {
         "word": "underground",
         "pronunciation": "/ˌʌndərˈɡraʊnd/",
         "meaning": "지하에",
-        "example": "The parking is underground.",
+        "example": "The parking is **underground**.",
         "translation": "주차장은 지하에 있어."
       },
       {
         "word": "above",
         "pronunciation": "/əˈbʌv/",
         "meaning": "위에",
-        "example": "Look above.",
+        "example": "Look **above**.",
         "translation": "위를 봐."
       },
       {
         "word": "below",
         "pronunciation": "/bɪˈloʊ/",
         "meaning": "아래에",
-        "example": "See below for details.",
+        "example": "See **below** for details.",
         "translation": "자세한 건 아래를 봐."
       },
       {
         "word": "nearby",
         "pronunciation": "/ˌnɪrˈbaɪ/",
         "meaning": "가까이에",
-        "example": "Is there a cafe nearby?",
+        "example": "Is there a cafe **nearby**?",
         "translation": "가까운 데 카페 있어?"
       },
       {
         "word": "far",
         "pronunciation": "/fɑːr/",
         "meaning": "멀리",
-        "example": "Don't go too far.",
+        "example": "Don't go too **far**.",
         "translation": "너무 멀리 가지 마."
       },
       {
         "word": "away",
         "pronunciation": "/əˈweɪ/",
         "meaning": "떨어져",
-        "example": "Go away!",
+        "example": "Go **away**!",
         "translation": "저리 가!"
       },
       {
         "word": "apart",
         "pronunciation": "/əˈpɑːrt/",
         "meaning": "떨어져",
-        "example": "They live apart.",
+        "example": "They live **apart**.",
         "translation": "그들은 따로 살아."
       },
       {
         "word": "together",
         "pronunciation": "/təˈɡeðər/",
         "meaning": "함께",
-        "example": "Let's work together.",
+        "example": "Let's work **together**.",
         "translation": "같이 일하자."
       },
       {
         "word": "aside",
         "pronunciation": "/əˈsaɪd/",
         "meaning": "옆으로",
-        "example": "Step aside please.",
+        "example": "Step **aside** please.",
         "translation": "옆으로 비켜 주세요."
       },
       {
         "word": "forward",
         "pronunciation": "/ˈfɔːrwərd/",
         "meaning": "앞으로",
-        "example": "Move forward.",
+        "example": "Move **forward**.",
         "translation": "앞으로 가."
       },
       {
         "word": "backward",
         "pronunciation": "/ˈbækwərd/",
         "meaning": "뒤로",
-        "example": "Step backward.",
+        "example": "Step **backward**.",
         "translation": "뒤로 물러나."
       },
       {
         "word": "onwards",
         "pronunciation": "/ˈɑːnwərdz/",
         "meaning": "앞으로",
-        "example": "From now onwards.",
+        "example": "From now **onwards**.",
         "translation": "지금부터 앞으로."
       },
       {
         "word": "upward",
         "pronunciation": "/ˈʌpwərd/",
         "meaning": "위로",
-        "example": "Look upward.",
+        "example": "Look **upward**.",
         "translation": "위로 봐."
       },
       {
         "word": "downward",
         "pronunciation": "/ˈdaʊnwərd/",
         "meaning": "아래로",
-        "example": "The trend is going downward.",
+        "example": "The trend is going **downward**.",
         "translation": "추세가 아래로 가고 있어."
       },
       {
         "word": "inward",
         "pronunciation": "/ˈɪnwərd/",
         "meaning": "안으로",
-        "example": "The door opens inward.",
+        "example": "The door opens **inward**.",
         "translation": "문이 안으로 열려."
       },
       {
         "word": "outward",
         "pronunciation": "/ˈaʊtwərd/",
         "meaning": "밖으로",
-        "example": "The door opens outward.",
+        "example": "The door opens **outward**.",
         "translation": "문이 밖으로 열려."
       },
       {
         "word": "homeward",
         "pronunciation": "/ˈhoʊmwərd/",
         "meaning": "집으로",
-        "example": "We headed homeward.",
+        "example": "We headed **homeward**.",
         "translation": "우리는 집으로 향했어."
       },
       {
         "word": "northward",
         "pronunciation": "/ˈnɔːrθwərd/",
         "meaning": "북쪽으로",
-        "example": "They traveled northward.",
+        "example": "They traveled **northward**.",
         "translation": "그들은 북쪽으로 여행했어."
       },
       {
         "word": "southward",
         "pronunciation": "/ˈsaʊθwərd/",
         "meaning": "남쪽으로",
-        "example": "The birds flew southward.",
+        "example": "The birds flew **southward**.",
         "translation": "새들이 남쪽으로 날아갔어."
       },
       {
         "word": "eastward",
         "pronunciation": "/ˈiːstwərd/",
         "meaning": "동쪽으로",
-        "example": "Head eastward.",
+        "example": "Head **eastward**.",
         "translation": "동쪽으로 가."
       },
       {
         "word": "westward",
         "pronunciation": "/ˈwestwərd/",
         "meaning": "서쪽으로",
-        "example": "The sun sets westward.",
+        "example": "The sun sets **westward**.",
         "translation": "해는 서쪽으로 져."
       },
       {
         "word": "abroad",
         "pronunciation": "/əˈbrɔːd/",
         "meaning": "해외에",
-        "example": "Have you been abroad?",
+        "example": "Have you been **abroad**?",
         "translation": "해외에 가본 적 있어?"
       },
       {
         "word": "overseas",
         "pronunciation": "/ˌoʊvərˈsiːz/",
         "meaning": "해외에",
-        "example": "She works overseas.",
+        "example": "She works **overseas**.",
         "translation": "그녀는 해외에서 일해."
       },
       {
         "word": "outdoors",
         "pronunciation": "/ˌaʊtˈdɔːrz/",
         "meaning": "야외에서",
-        "example": "Let's eat outdoors.",
+        "example": "Let's eat **outdoors**.",
         "translation": "밖에서 먹자."
       },
       {
         "word": "indoors",
         "pronunciation": "/ˌɪnˈdɔːrz/",
         "meaning": "실내에서",
-        "example": "Stay indoors today.",
+        "example": "Stay **indoors** today.",
         "translation": "오늘은 실내에 있어."
       }
     ]
@@ -1570,211 +1589,231 @@
         "word": "certainly",
         "pronunciation": "/ˈsɜːrtnli/",
         "meaning": "확실히",
-        "example": "100%",
-        "translation": "I'll certainly be there."
+        "example": "I'll **certainly** be there.",
+        "translation": "",
+        "frequency": "100%"
       },
       {
         "word": "definitely",
         "pronunciation": "/ˈdefɪnətli/",
         "meaning": "분명히",
-        "example": "100%",
-        "translation": "I definitely want to go."
+        "example": "I **definitely** want to go.",
+        "translation": "",
+        "frequency": "100%"
       },
       {
         "word": "surely",
         "pronunciation": "/ˈʃʊrli/",
         "meaning": "틀림없이",
-        "example": "100%",
-        "translation": "Surely you're joking."
+        "example": "**Surely** you're joking.",
+        "translation": "",
+        "frequency": "100%"
       },
       {
         "word": "undoubtedly",
         "pronunciation": "/ʌnˈdaʊtɪdli/",
         "meaning": "의심할 여지없이",
-        "example": "100%",
-        "translation": "She's undoubtedly talented."
+        "example": "She's **undoubtedly** talented.",
+        "translation": "",
+        "frequency": "100%"
       },
       {
         "word": "obviously",
         "pronunciation": "/ˈɑːbviəsli/",
         "meaning": "분명히",
-        "example": "95%",
-        "translation": "Obviously, he's lying."
+        "example": "**Obviously**, he's lying.",
+        "translation": "",
+        "frequency": "95%"
       },
       {
         "word": "clearly",
         "pronunciation": "/ˈklɪrli/",
         "meaning": "분명히",
-        "example": "95%",
-        "translation": "Clearly, something is wrong."
+        "example": "**Clearly**, something is wrong.",
+        "translation": "",
+        "frequency": "95%"
       },
       {
         "word": "evidently",
         "pronunciation": "/ˈevɪdəntli/",
         "meaning": "분명히",
-        "example": "95%",
-        "translation": "Evidently, he didn't know."
+        "example": "**Evidently**, he didn't know.",
+        "translation": "",
+        "frequency": "95%"
       },
       {
         "word": "apparently",
         "pronunciation": "/əˈpærəntli/",
         "meaning": "명백히",
-        "example": "90%",
-        "translation": "Apparently, they broke up."
+        "example": "**Apparently**, they broke up.",
+        "translation": "",
+        "frequency": "90%"
       },
       {
         "word": "probably",
         "pronunciation": "/ˈprɑːbəbli/",
         "meaning": "아마",
-        "example": "80%",
-        "translation": "I'll probably be late."
+        "example": "I'll **probably** be late.",
+        "translation": "",
+        "frequency": "80%"
       },
       {
         "word": "likely",
         "pronunciation": "/ˈlaɪkli/",
         "meaning": "아마도",
-        "example": "75%",
-        "translation": "It's likely to rain."
+        "example": "It's **likely** to rain.",
+        "translation": "",
+        "frequency": "75%"
       },
       {
         "word": "presumably",
         "pronunciation": "/prɪˈzuːməbli/",
         "meaning": "추정컨대",
-        "example": "70%",
-        "translation": "Presumably, he's at work."
+        "example": "**Presumably**, he's at work.",
+        "translation": "",
+        "frequency": "70%"
       },
       {
         "word": "possibly",
         "pronunciation": "/ˈpɑːsəbli/",
         "meaning": "어쩌면",
-        "example": "50%",
-        "translation": "Could you possibly help me?"
+        "example": "Could you **possibly** help me?",
+        "translation": "",
+        "frequency": "50%"
       },
       {
         "word": "perhaps",
         "pronunciation": "/pərˈhæps/",
         "meaning": "아마",
-        "example": "50%",
-        "translation": "Perhaps we should wait."
+        "example": "**Perhaps** we should wait.",
+        "translation": "",
+        "frequency": "50%"
       },
       {
         "word": "maybe",
         "pronunciation": "/ˈmeɪbi/",
         "meaning": "어쩌면",
-        "example": "50%",
-        "translation": "Maybe I'll come later."
+        "example": "**Maybe** I'll come later.",
+        "translation": "",
+        "frequency": "50%"
       },
       {
         "word": "conceivably",
         "pronunciation": "/kənˈsiːvəbli/",
         "meaning": "생각건대",
-        "example": "40%",
-        "translation": "It could conceivably work."
+        "example": "It could **conceivably** work.",
+        "translation": "",
+        "frequency": "40%"
       },
       {
         "word": "supposedly",
         "pronunciation": "/səˈpoʊzɪdli/",
         "meaning": "추정상",
-        "example": "40%",
-        "translation": "He's supposedly very rich."
+        "example": "He's **supposedly** very rich.",
+        "translation": "",
+        "frequency": "40%"
       },
       {
         "word": "allegedly",
         "pronunciation": "/əˈledʒɪdli/",
         "meaning": "주장하기를",
-        "example": "30%",
-        "translation": "He allegedly stole money."
+        "example": "He **allegedly** stole money.",
+        "translation": "",
+        "frequency": "30%"
       },
       {
         "word": "reportedly",
         "pronunciation": "/rɪˈpɔːrtɪdli/",
         "meaning": "보도에 따르면",
-        "example": "30%",
-        "translation": "Reportedly, sales are down."
+        "example": "**Reportedly**, sales are down.",
+        "translation": "",
+        "frequency": "30%"
       },
       {
         "word": "seemingly",
         "pronunciation": "/ˈsiːmɪŋli/",
         "meaning": "겉보기에",
-        "example": "30%",
-        "translation": "He's seemingly happy."
+        "example": "He's **seemingly** happy.",
+        "translation": "",
+        "frequency": "30%"
       },
       {
         "word": "hardly",
         "pronunciation": "/ˈhɑːrdli/",
         "meaning": "거의 ~않게",
-        "example": "5%",
-        "translation": "I hardly think so."
+        "example": "I **hardly** think so.",
+        "translation": "",
+        "frequency": "5%"
       },
       {
         "word": "hopefully",
         "pronunciation": "/ˈhoʊpfəli/",
         "meaning": "바라건대",
-        "example": "-",
-        "translation": "Hopefully, it works out."
+        "example": "**Hopefully**, it works out.",
+        "translation": ""
       },
       {
         "word": "frankly",
         "pronunciation": "/ˈfræŋkli/",
         "meaning": "솔직히",
-        "example": "-",
-        "translation": "Frankly, I don't care."
+        "example": "**Frankly**, I don't care.",
+        "translation": ""
       },
       {
         "word": "honestly",
         "pronunciation": "/ˈɑːnɪstli/",
         "meaning": "솔직히",
-        "example": "-",
-        "translation": "Honestly, I forgot."
+        "example": "**Honestly**, I forgot.",
+        "translation": ""
       },
       {
         "word": "actually",
         "pronunciation": "/ˈæktʃuəli/",
         "meaning": "실제로",
-        "example": "-",
-        "translation": "Actually, I changed my mind."
+        "example": "**Actually**, I changed my mind.",
+        "translation": ""
       },
       {
         "word": "really",
         "pronunciation": "/ˈriːəli/",
         "meaning": "정말로",
-        "example": "-",
-        "translation": "Do you really mean it?"
+        "example": "Do you **really** mean it?",
+        "translation": ""
       },
       {
         "word": "truly",
         "pronunciation": "/ˈtruːli/",
         "meaning": "진실로",
-        "example": "-",
-        "translation": "I truly appreciate it."
+        "example": "I **truly** appreciate it.",
+        "translation": ""
       },
       {
         "word": "literally",
         "pronunciation": "/ˈlɪtərəli/",
         "meaning": "문자 그대로",
-        "example": "-",
-        "translation": "I literally can't move."
+        "example": "I **literally** can't move.",
+        "translation": ""
       },
       {
         "word": "technically",
         "pronunciation": "/ˈteknɪkli/",
         "meaning": "엄밀히 말해",
-        "example": "-",
-        "translation": "Technically, you're right."
+        "example": "**Technically**, you're right.",
+        "translation": ""
       },
       {
         "word": "theoretically",
         "pronunciation": "/ˌθiːəˈretɪkli/",
         "meaning": "이론상으로",
-        "example": "-",
-        "translation": "Theoretically, it's possible."
+        "example": "**Theoretically**, it's possible.",
+        "translation": ""
       },
       {
         "word": "practically",
         "pronunciation": "/ˈpræktɪkli/",
         "meaning": "사실상",
-        "example": "-",
-        "translation": "It's practically impossible."
+        "example": "It's **practically** impossible.",
+        "translation": ""
       }
     ]
   },
@@ -2072,210 +2111,210 @@
         "word": "only",
         "pronunciation": "/ˈoʊnli/",
         "meaning": "오직",
-        "example": "I only have $10.",
+        "example": "I **only** have $10.",
         "translation": "10달러밖에 없어."
       },
       {
         "word": "just",
         "pronunciation": "/dʒʌst/",
         "meaning": "단지",
-        "example": "I just want to help.",
+        "example": "I **just** want to help.",
         "translation": "단지 돕고 싶을 뿐이야."
       },
       {
         "word": "even",
         "pronunciation": "/ˈiːvn/",
         "meaning": "심지어",
-        "example": "Even I can do it.",
+        "example": "**Even** I can do it.",
         "translation": "나조차도 할 수 있어."
       },
       {
         "word": "simply",
         "pronunciation": "/ˈsɪmpli/",
         "meaning": "단순히",
-        "example": "I simply don't understand.",
+        "example": "I **simply** don't understand.",
         "translation": "단순히 이해가 안 돼."
       },
       {
         "word": "merely",
         "pronunciation": "/ˈmɪrli/",
         "meaning": "단지",
-        "example": "I merely asked.",
+        "example": "I **merely** asked.",
         "translation": "그냥 물어본 것뿐이야."
       },
       {
         "word": "solely",
         "pronunciation": "/ˈsoʊlli/",
         "meaning": "오로지",
-        "example": "It's solely my fault.",
+        "example": "It's **solely** my fault.",
         "translation": "오로지 내 잘못이야."
       },
       {
         "word": "purely",
         "pronunciation": "/ˈpjʊrli/",
         "meaning": "순전히",
-        "example": "It's purely coincidence.",
+        "example": "It's **purely** coincidence.",
         "translation": "순전히 우연이야."
       },
       {
         "word": "exclusively",
         "pronunciation": "/ɪkˈskluːsɪvli/",
         "meaning": "독점적으로",
-        "example": "It's exclusively for members.",
+        "example": "It's **exclusively** for members.",
         "translation": "회원 전용이야."
       },
       {
         "word": "especially",
         "pronunciation": "/ɪˈspeʃəli/",
         "meaning": "특히",
-        "example": "I love fruit, especially apples.",
+        "example": "I love fruit, **especially** apples.",
         "translation": "과일 좋아해, 특히 사과."
       },
       {
         "word": "particularly",
         "pronunciation": "/pərˈtɪkjələrli/",
         "meaning": "특히",
-        "example": "I'm not particularly interested.",
+        "example": "I'm not **particularly** interested.",
         "translation": "특별히 관심 없어."
       },
       {
         "word": "specifically",
         "pronunciation": "/spəˈsɪfɪkli/",
         "meaning": "구체적으로",
-        "example": "I specifically asked for this.",
+        "example": "I **specifically** asked for this.",
         "translation": "구체적으로 이거 달라고 했어."
       },
       {
         "word": "notably",
         "pronunciation": "/ˈnoʊtəbli/",
         "meaning": "특히",
-        "example": "Notably, the CEO attended.",
+        "example": "**Notably**, the CEO attended.",
         "translation": "특히 CEO가 참석했어."
       },
       {
         "word": "mainly",
         "pronunciation": "/ˈmeɪnli/",
         "meaning": "주로",
-        "example": "I mainly work at home.",
+        "example": "I **mainly** work at home.",
         "translation": "주로 집에서 일해."
       },
       {
         "word": "mostly",
         "pronunciation": "/ˈmoʊstli/",
         "meaning": "대부분",
-        "example": "I'm mostly vegetarian.",
+        "example": "I'm **mostly** vegetarian.",
         "translation": "대부분 채식이야."
       },
       {
         "word": "primarily",
         "pronunciation": "/praɪˈmerəli/",
         "meaning": "주로",
-        "example": "It's primarily for kids.",
+        "example": "It's **primarily** for kids.",
         "translation": "주로 아이들 위한 거야."
       },
       {
         "word": "chiefly",
         "pronunciation": "/ˈtʃiːfli/",
         "meaning": "주로",
-        "example": "It's chiefly my decision.",
+        "example": "It's **chiefly** my decision.",
         "translation": "주로 내 결정이야."
       },
       {
         "word": "largely",
         "pronunciation": "/ˈlɑːrdʒli/",
         "meaning": "대체로",
-        "example": "It's largely true.",
+        "example": "It's **largely** true.",
         "translation": "대체로 사실이야."
       },
       {
         "word": "partly",
         "pronunciation": "/ˈpɑːrtli/",
         "meaning": "부분적으로",
-        "example": "I'm partly responsible.",
+        "example": "I'm **partly** responsible.",
         "translation": "부분적으로 책임 있어."
       },
       {
         "word": "entirely",
         "pronunciation": "/ɪnˈtaɪərli/",
         "meaning": "전적으로",
-        "example": "That's entirely different.",
+        "example": "That's **entirely** different.",
         "translation": "그건 전혀 달라."
       },
       {
         "word": "altogether",
         "pronunciation": "/ˌɔːltəˈɡeðər/",
         "meaning": "전체적으로",
-        "example": "Altogether, it cost $100.",
+        "example": "**Altogether**, it cost $100.",
         "translation": "전부 해서 100달러야."
       },
       {
         "word": "literally",
         "pronunciation": "/ˈlɪtərəli/",
         "meaning": "말 그대로",
-        "example": "I literally died laughing.",
+        "example": "I **literally** died laughing.",
         "translation": "말 그대로 웃겨 죽는 줄 알았어."
       },
       {
         "word": "actually",
         "pronunciation": "/ˈæktʃuəli/",
         "meaning": "사실은",
-        "example": "Actually, I changed my mind.",
+        "example": "**Actually**, I changed my mind.",
         "translation": "사실 마음이 바뀌었어."
       },
       {
         "word": "indeed",
         "pronunciation": "/ɪnˈdiːd/",
         "meaning": "정말로",
-        "example": "Indeed, it's true.",
+        "example": "**Indeed**, it's true.",
         "translation": "정말로 사실이야."
       },
       {
         "word": "certainly",
         "pronunciation": "/ˈsɜːrtnli/",
         "meaning": "확실히",
-        "example": "I'll certainly try.",
+        "example": "I'll **certainly** try.",
         "translation": "확실히 노력할게."
       },
       {
         "word": "positively",
         "pronunciation": "/ˈpɑːzətɪvli/",
         "meaning": "확실히",
-        "example": "I'm positively sure.",
+        "example": "I'm **positively** sure.",
         "translation": "확실히 확신해."
       },
       {
         "word": "undeniably",
         "pronunciation": "/ˌʌndɪˈnaɪəbli/",
         "meaning": "부인할 수 없이",
-        "example": "He's undeniably talented.",
+        "example": "He's **undeniably** talented.",
         "translation": "그는 부인할 수 없이 재능 있어."
       },
       {
         "word": "unquestionably",
         "pronunciation": "/ʌnˈkwestʃənəbli/",
         "meaning": "의심할 여지없이",
-        "example": "It's unquestionably the best.",
+        "example": "It's **unquestionably** the best.",
         "translation": "의심할 여지없이 최고야."
       },
       {
         "word": "admittedly",
         "pronunciation": "/ədˈmɪtɪdli/",
         "meaning": "인정하건대",
-        "example": "Admittedly, I was wrong.",
+        "example": "**Admittedly**, I was wrong.",
         "translation": "인정하건대 내가 틀렸어."
       },
       {
         "word": "interestingly",
         "pronunciation": "/ˈɪntrəstɪŋli/",
         "meaning": "흥미롭게도",
-        "example": "Interestingly, he agreed.",
+        "example": "**Interestingly**, he agreed.",
         "translation": "흥미롭게도 그가 동의했어."
       },
       {
         "word": "surprisingly",
         "pronunciation": "/sərˈpraɪzɪŋli/",
         "meaning": "놀랍게도",
-        "example": "Surprisingly, it worked.",
+        "example": "**Surprisingly**, it worked.",
         "translation": "놀랍게도 효과가 있었어."
       }
     ]

@@ -1,6 +1,12 @@
 // VocabMaster Main Application
 let currentView = 'home';
 let currentCategory = localStorage.getItem('selectedCategory') || 'all';
+
+// Markdown bold to HTML bold converter
+function formatBold(text) {
+    if (!text) return '';
+    return text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+}
 let currentPage = 1;
 let itemsPerPage = 20;
 let filteredWords = [];
@@ -283,6 +289,7 @@ function renderWordList() {
     container.innerHTML = wordsToShow.map(word => {
         const status = Storage.getWordStatus(word.id);
         const example = word.examples && word.examples[0] ? word.examples[0].sentence : '';
+        const translation = word.examples && word.examples[0] ? word.examples[0].translation : '';
 
         return `
             <div class="word-item" data-id="${word.id}">
@@ -293,7 +300,7 @@ function renderWordList() {
                         ${showPronunciation && word.pronunciation ? `<span class="word-pronunciation">/${word.pronunciation}/</span>` : ''}
                     </div>
                     <div class="word-meaning">${word.meaning}</div>
-                    ${example ? `<div class="word-example">${example}</div>` : ''}
+                    ${example ? `<div class="word-example">${formatBold(example)}${translation ? `<span class="word-translation"> - ${translation}</span>` : ''}</div>` : ''}
                 </div>
                 <div class="word-actions">
                     <button class="word-action-btn" onclick="markMemorized('${word.id}')" title="암기 완료">
@@ -420,7 +427,7 @@ function updateFlashcard() {
     document.getElementById('fc-meaning').textContent = word.meaning;
 
     const example = word.examples && word.examples[0];
-    document.getElementById('fc-example').textContent = example ? example.sentence : '';
+    document.getElementById('fc-example').innerHTML = example ? formatBold(example.sentence) : '';
     document.getElementById('fc-translation').textContent = example ? example.translation : '';
 }
 
