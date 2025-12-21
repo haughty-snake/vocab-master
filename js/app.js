@@ -610,12 +610,12 @@ function renderWordItems(words) {
                 </div>
                 <div class="word-actions">
                     ${wordOnlyBtns}
-                    <button class="word-action-btn" onclick="markMemorized('${word.id}')" title="암기 완료">
+                    <button class="word-action-btn ${status === 'memorized' ? 'active memorized' : ''}" onclick="markMemorized('${word.id}')" title="암기 완료">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
                     </button>
-                    <button class="word-action-btn" onclick="markLearning('${word.id}')" title="학습 중">
+                    <button class="word-action-btn ${status === 'learning' ? 'active learning' : ''}" onclick="markLearning('${word.id}')" title="학습 중">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <circle cx="12" cy="12" r="10"></circle>
                             <polyline points="12 6 12 12 16 14"></polyline>
@@ -777,31 +777,83 @@ function toggleFullInfo(wordId) {
 
 function toggleWordStatus(wordId) {
     const newStatus = Storage.toggleStatus(wordId);
-    const statusElement = document.querySelector(`[data-id="${wordId}"] .word-status`);
-    if (statusElement) {
-        statusElement.className = `word-status ${newStatus}`;
+    const wordItem = document.querySelector(`[data-id="${wordId}"]`);
+
+    if (wordItem) {
+        // Update status indicator
+        const statusElement = wordItem.querySelector('.word-status');
+        if (statusElement) {
+            statusElement.className = `word-status ${newStatus}`;
+        }
+
+        // Update action buttons
+        const memorizedBtn = wordItem.querySelectorAll('.word-action-btn')[0];
+        const learningBtn = wordItem.querySelectorAll('.word-action-btn')[1];
+
+        // Reset both buttons
+        memorizedBtn?.classList.remove('active', 'memorized');
+        learningBtn?.classList.remove('active', 'learning');
+
+        // Set active state based on new status
+        if (newStatus === 'memorized') {
+            memorizedBtn?.classList.add('active', 'memorized');
+        } else if (newStatus === 'learning') {
+            learningBtn?.classList.add('active', 'learning');
+        }
     }
     renderProgress();
 }
 
 function markMemorized(wordId) {
-    Storage.markMemorized(wordId);
-    const statusElement = document.querySelector(`[data-id="${wordId}"] .word-status`);
-    if (statusElement) {
-        statusElement.className = 'word-status memorized';
+    const currentStatus = Storage.getWordStatus(wordId);
+    const wordItem = document.querySelector(`[data-id="${wordId}"]`);
+
+    if (currentStatus === 'memorized') {
+        // Toggle off - set to new
+        Storage.markNew(wordId);
+        if (wordItem) {
+            wordItem.querySelector('.word-status').className = 'word-status new';
+            wordItem.querySelector('.word-action-btn.memorized')?.classList.remove('active', 'memorized');
+        }
+        showToast('새 단어로 표시했습니다');
+    } else {
+        // Set to memorized
+        Storage.markMemorized(wordId);
+        if (wordItem) {
+            wordItem.querySelector('.word-status').className = 'word-status memorized';
+            wordItem.querySelector('.word-action-btn.learning')?.classList.remove('active', 'learning');
+            const memorizedBtn = wordItem.querySelectorAll('.word-action-btn')[0];
+            memorizedBtn?.classList.add('active', 'memorized');
+        }
+        showToast('암기 완료로 표시했습니다');
     }
     renderProgress();
-    showToast('암기 완료로 표시했습니다');
 }
 
 function markLearning(wordId) {
-    Storage.markLearning(wordId);
-    const statusElement = document.querySelector(`[data-id="${wordId}"] .word-status`);
-    if (statusElement) {
-        statusElement.className = 'word-status learning';
+    const currentStatus = Storage.getWordStatus(wordId);
+    const wordItem = document.querySelector(`[data-id="${wordId}"]`);
+
+    if (currentStatus === 'learning') {
+        // Toggle off - set to new
+        Storage.markNew(wordId);
+        if (wordItem) {
+            wordItem.querySelector('.word-status').className = 'word-status new';
+            wordItem.querySelector('.word-action-btn.learning')?.classList.remove('active', 'learning');
+        }
+        showToast('새 단어로 표시했습니다');
+    } else {
+        // Set to learning
+        Storage.markLearning(wordId);
+        if (wordItem) {
+            wordItem.querySelector('.word-status').className = 'word-status learning';
+            wordItem.querySelector('.word-action-btn.memorized')?.classList.remove('active', 'memorized');
+            const learningBtn = wordItem.querySelectorAll('.word-action-btn')[1];
+            learningBtn?.classList.add('active', 'learning');
+        }
+        showToast('학습 중으로 표시했습니다');
     }
     renderProgress();
-    showToast('학습 중으로 표시했습니다');
 }
 
 // Flashcard functions
@@ -2815,19 +2867,22 @@ function saveWordListSettings(key, value) {
 function loadFlashcardSettings() {
     const ui = Storage.settings.ui?.flashcard || {};
     const statusSelect = document.getElementById('flashcard-status-filter');
-    const autoTTSSelect = document.getElementById('flashcard-auto-tts');
+    const autoTTSToggle = document.getElementById('flashcard-auto-tts');
     const animToggle = document.getElementById('flashcard-animation-toggle');
 
     if (statusSelect && ui.statusFilter) {
         statusSelect.value = ui.statusFilter;
     }
-    if (autoTTSSelect && ui.autoTTS !== undefined) {
-        autoTTSSelect.value = ui.autoTTS ? 'true' : 'false';
-        flashcardAutoTTS = ui.autoTTS === true;
+    if (autoTTSToggle) {
+        const autoTTSValue = ui.autoTTS === true;
+        autoTTSToggle.checked = autoTTSValue;
+        flashcardAutoTTS = autoTTSValue;
     }
-    if (animToggle && ui.animation !== undefined) {
-        animToggle.checked = ui.animation;
-        flashcardAnimation = ui.animation;
+    if (animToggle) {
+        // Default is true if not set
+        const animValue = ui.animation !== undefined ? ui.animation : true;
+        animToggle.checked = animValue;
+        flashcardAnimation = animValue;
     }
 }
 
@@ -2836,12 +2891,6 @@ function saveFlashcardSettings(key, value) {
     if (!Storage.settings.ui.flashcard) Storage.settings.ui.flashcard = {};
     if (key && value !== undefined) {
         Storage.settings.ui.flashcard[key] = value;
-    }
-    // Also save TTS setting from select
-    const autoTTSSelect = document.getElementById('flashcard-auto-tts');
-    if (autoTTSSelect) {
-        Storage.settings.ui.flashcard.autoTTS = autoTTSSelect.value === 'true';
-        flashcardAutoTTS = autoTTSSelect.value === 'true';
     }
     Storage.saveSettings();
 }
@@ -2852,6 +2901,15 @@ function toggleFlashcardAnimation() {
     if (!Storage.settings.ui) Storage.settings.ui = {};
     if (!Storage.settings.ui.flashcard) Storage.settings.ui.flashcard = {};
     Storage.settings.ui.flashcard.animation = flashcardAnimation;
+    Storage.saveSettings();
+}
+
+function toggleFlashcardAutoTTS() {
+    const toggle = document.getElementById('flashcard-auto-tts');
+    flashcardAutoTTS = toggle.checked;
+    if (!Storage.settings.ui) Storage.settings.ui = {};
+    if (!Storage.settings.ui.flashcard) Storage.settings.ui.flashcard = {};
+    Storage.settings.ui.flashcard.autoTTS = flashcardAutoTTS;
     Storage.saveSettings();
 }
 

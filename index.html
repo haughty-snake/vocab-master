@@ -139,10 +139,10 @@
                         <option value="new">새 단어</option>
                     </select>
                     <select id="view-mode-select" class="select-input" onchange="changeViewMode(this.value)">
-                        <option value="full">정보 전체보기</option>
+                        <option value="full">전체정보</option>
                         <option value="word-only">뜻가리기</option>
                     </select>
-                    <button class="btn btn-outline" onclick="shuffleList()">
+                    <button class="btn btn-outline shuffle-btn" onclick="shuffleList()">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <polyline points="16 3 21 3 21 8"></polyline>
                             <line x1="4" y1="20" x2="21" y2="3"></line>
@@ -150,7 +150,7 @@
                             <line x1="15" y1="15" x2="21" y2="21"></line>
                             <line x1="4" y1="4" x2="9" y2="9"></line>
                         </svg>
-                        섞기
+                        <span class="shuffle-text">섞기</span>
                     </button>
                     <button class="btn btn-outline" onclick="refreshWordList()" title="새로고침">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -196,12 +196,23 @@
                         <option value="learning">학습 중</option>
                         <option value="memorized">암기 완료</option>
                     </select>
-                    <select id="flashcard-auto-tts" class="select-input select-sm" onchange="saveFlashcardSettings()">
-                        <option value="false">TTS 수동</option>
-                        <option value="true">TTS 자동</option>
-                    </select>
-                    <button class="btn btn-sm" onclick="shuffleFlashcards()">섞기</button>
-                    <button class="btn btn-sm" onclick="resetFlashcards()">처음으로</button>
+                    <button class="btn btn-sm shuffle-btn" onclick="shuffleFlashcards()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 3 21 3 21 8"></polyline>
+                            <line x1="4" y1="20" x2="21" y2="3"></line>
+                            <polyline points="21 16 21 21 16 21"></polyline>
+                            <line x1="15" y1="15" x2="21" y2="21"></line>
+                            <line x1="4" y1="4" x2="9" y2="9"></line>
+                        </svg>
+                        <span class="shuffle-text">섞기</span>
+                    </button>
+                    <button class="btn btn-sm reset-btn" onclick="resetFlashcards()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                        <span class="reset-text">처음으로</span>
+                    </button>
                 </div>
             </div>
             <div class="flashcard-container">
@@ -439,6 +450,13 @@
                         <span class="slider"></span>
                     </label>
                 </div>
+                <div class="setting-item">
+                    <label>플래시카드 TTS 자동 재생</label>
+                    <label class="switch">
+                        <input type="checkbox" id="flashcard-auto-tts" onchange="toggleFlashcardAutoTTS()">
+                        <span class="slider"></span>
+                    </label>
+                </div>
                 <hr>
                 <div class="setting-item">
                     <h4>백업 알림</h4>
@@ -662,7 +680,7 @@
                                         <circle cx="11" cy="11" r="8"></circle>
                                         <path d="m21 21-4.35-4.35"></path>
                                     </svg>
-                                    사전
+                                    <span class="btn-label">사전</span>
                                 </button>
                             </div>
                         </div>
@@ -675,7 +693,7 @@
                                         <circle cx="11" cy="11" r="8"></circle>
                                         <path d="m21 21-4.35-4.35"></path>
                                     </svg>
-                                    조회
+                                    <span class="btn-label">조회</span>
                                 </button>
                             </div>
                         </div>
