@@ -1090,14 +1090,10 @@ function flipCard() {
     const card = document.getElementById('flashcard');
     if (!flashcardAnimation) {
         card.classList.add('no-animation');
+    } else {
+        card.classList.remove('no-animation');
     }
     card.classList.toggle('flipped');
-    if (!flashcardAnimation) {
-        // Remove no-animation after the toggle is applied
-        requestAnimationFrame(() => {
-            card.classList.remove('no-animation');
-        });
-    }
 }
 
 function nextCard() {
@@ -1451,6 +1447,7 @@ function toggleSettings() {
     // Update last backup date when opening settings
     if (!modal.classList.contains('hidden')) {
         updateLastBackupDateDisplay();
+        loadDebugModeSettings();
     }
 }
 
@@ -1492,6 +1489,9 @@ function handleImport(event) {
     reader.onload = (e) => {
         const result = Storage.importData(e.target.result, true); // merge mode
         if (result && result.success) {
+            // Reload custom categories to VocabData
+            VocabData.reloadCustomCategories();
+
             showToast('데이터를 병합하여 가져왔습니다 (높은 상태 유지)');
             renderCategories();
             renderProgress();
@@ -1928,6 +1928,131 @@ function updateLastBackupDateDisplay() {
     }
 
     dateEl.textContent = dateStr;
+}
+
+// ============================================
+// Debug Mode Functions (개발자 디버그 모드)
+// ============================================
+
+function loadDebugModeSettings() {
+    const debugSettings = Storage.settings.debugMode || { enabled: false, showTestPage: false, showArchitecturePage: false };
+
+    // 디버그 모드 토글 체크박스
+    const debugToggle = document.getElementById('debug-mode-toggle');
+    if (debugToggle) {
+        debugToggle.checked = debugSettings.enabled;
+    }
+
+    // 디버그 서브 옵션들 (디버그 모드가 켜져있을 때만 표시)
+    const debugSubOptions = document.querySelectorAll('.debug-sub-option');
+    debugSubOptions.forEach(el => {
+        el.classList.toggle('hidden', !debugSettings.enabled);
+    });
+
+    // 디버그 링크 섹션
+    const debugLinksSection = document.getElementById('debug-links-section');
+    if (debugLinksSection) {
+        debugLinksSection.classList.toggle('hidden', !debugSettings.enabled);
+    }
+
+    // 테스트 페이지 토글
+    const testPageToggle = document.getElementById('show-test-page-toggle');
+    if (testPageToggle) {
+        testPageToggle.checked = debugSettings.showTestPage;
+    }
+
+    // 아키텍처 페이지 토글
+    const archPageToggle = document.getElementById('show-architecture-toggle');
+    if (archPageToggle) {
+        archPageToggle.checked = debugSettings.showArchitecturePage;
+    }
+
+    // 페이지 링크 표시/숨김
+    updateDebugPageLinks();
+}
+
+function toggleDebugSection() {
+    const section = document.getElementById('debug-mode-section');
+    const button = document.getElementById('toggle-debug-section');
+
+    if (section && button) {
+        const isHidden = section.classList.toggle('hidden');
+        button.textContent = isHidden ? '🔧 개발자 옵션 보기' : '🔧 개발자 옵션 숨기기';
+    }
+}
+
+function toggleDebugMode() {
+    const debugToggle = document.getElementById('debug-mode-toggle');
+    if (!debugToggle) return;
+
+    const enabled = debugToggle.checked;
+
+    // Storage에 설정 저장
+    if (!Storage.settings.debugMode) {
+        Storage.settings.debugMode = { enabled: false, showTestPage: false, showArchitecturePage: false };
+    }
+    Storage.settings.debugMode.enabled = enabled;
+    Storage.saveSettings();
+
+    // 서브 옵션들 표시/숨김
+    const debugSubOptions = document.querySelectorAll('.debug-sub-option');
+    debugSubOptions.forEach(el => {
+        el.classList.toggle('hidden', !enabled);
+    });
+
+    // 디버그 링크 섹션 표시/숨김
+    const debugLinksSection = document.getElementById('debug-links-section');
+    if (debugLinksSection) {
+        debugLinksSection.classList.toggle('hidden', !enabled);
+    }
+
+    showToast(enabled ? '디버그 모드가 활성화되었습니다' : '디버그 모드가 비활성화되었습니다');
+}
+
+function toggleShowTestPage() {
+    const toggle = document.getElementById('show-test-page-toggle');
+    if (!toggle) return;
+
+    const enabled = toggle.checked;
+
+    if (!Storage.settings.debugMode) {
+        Storage.settings.debugMode = { enabled: true, showTestPage: false, showArchitecturePage: false };
+    }
+    Storage.settings.debugMode.showTestPage = enabled;
+    Storage.saveSettings();
+
+    updateDebugPageLinks();
+    showToast(enabled ? '테스트 페이지 링크가 표시됩니다' : '테스트 페이지 링크가 숨겨집니다');
+}
+
+function toggleShowArchitecturePage() {
+    const toggle = document.getElementById('show-architecture-toggle');
+    if (!toggle) return;
+
+    const enabled = toggle.checked;
+
+    if (!Storage.settings.debugMode) {
+        Storage.settings.debugMode = { enabled: true, showTestPage: false, showArchitecturePage: false };
+    }
+    Storage.settings.debugMode.showArchitecturePage = enabled;
+    Storage.saveSettings();
+
+    updateDebugPageLinks();
+    showToast(enabled ? '아키텍처 페이지 링크가 표시됩니다' : '아키텍처 페이지 링크가 숨겨집니다');
+}
+
+function updateDebugPageLinks() {
+    const debugSettings = Storage.settings.debugMode || { enabled: false, showTestPage: false, showArchitecturePage: false };
+
+    const testPageLinkItem = document.getElementById('test-page-link-item');
+    const archPageLinkItem = document.getElementById('architecture-page-link-item');
+
+    if (testPageLinkItem) {
+        testPageLinkItem.style.display = debugSettings.showTestPage ? 'block' : 'none';
+    }
+    if (archPageLinkItem) {
+        archPageLinkItem.style.display = debugSettings.showArchitecturePage ? 'block' : 'none';
+    }
 }
 
 // Category Badge Functions
@@ -3002,11 +3127,20 @@ function initFlashcardTouchGestures() {
 }
 
 function handleFlashcardTouchStart(e) {
+    // Ignore if touch started on TTS button
+    if (e.target.closest('.tts-btn')) {
+        return;
+    }
     touchStartX = e.changedTouches[0].screenX;
     touchStartY = e.changedTouches[0].screenY;
 }
 
 function handleFlashcardTouchEnd(e) {
+    // Ignore if touch ended on TTS button
+    if (e.target.closest('.tts-btn')) {
+        return;
+    }
+
     touchEndX = e.changedTouches[0].screenX;
     touchEndY = e.changedTouches[0].screenY;
 
@@ -3044,6 +3178,10 @@ function handleFlashcardTouchEnd(e) {
 }
 
 function handleFlashcardClick(e) {
+    // Ignore if click was on TTS button
+    if (e.target.closest('.tts-btn')) {
+        return;
+    }
     // Only handle click on non-touch devices or when not handling touch
     if (e.sourceCapabilities && e.sourceCapabilities.firesTouchEvents) {
         return; // Ignore click events from touch
@@ -3055,4 +3193,89 @@ function handleFlashcardClick(e) {
 document.addEventListener('DOMContentLoaded', () => {
     // Delay to ensure flashcard element exists
     setTimeout(initFlashcardTouchGestures, 100);
+});
+
+// PWA Back Button Exit Handler
+let backPressedOnce = false;
+let backPressTimeout = null;
+
+function initPWABackHandler() {
+    // Push initial state to enable back button handling
+    if (window.history && window.history.pushState) {
+        // Push a state so we can intercept the back button
+        window.history.pushState({ page: 'app' }, '', '');
+
+        window.addEventListener('popstate', handleBackButton);
+    }
+}
+
+function handleBackButton(e) {
+    // Always push state back to maintain back button functionality
+    window.history.pushState({ page: 'app' }, '', '');
+
+    // Check if any modal is open
+    const openModals = document.querySelectorAll('.modal:not(.hidden)');
+    if (openModals.length > 0) {
+        // Close the topmost modal
+        const topModal = openModals[openModals.length - 1];
+        const closeBtn = topModal.querySelector('.modal-close');
+        if (closeBtn) {
+            closeBtn.click();
+        } else {
+            topModal.classList.add('hidden');
+        }
+        return;
+    }
+
+    // Check if blink mode is running
+    if (currentView === 'blink-view' && !document.getElementById('blink-display-area').classList.contains('hidden')) {
+        stopBlink();
+        return;
+    }
+
+    // Check if quiz is in progress
+    if (currentView === 'quiz-view' && !document.getElementById('quiz-container').classList.contains('hidden')) {
+        // Show quiz settings (end quiz)
+        document.getElementById('quiz-container').classList.add('hidden');
+        document.getElementById('quiz-result').classList.add('hidden');
+        document.getElementById('quiz-settings').classList.remove('hidden');
+        return;
+    }
+
+    // If not on home view, go to home
+    if (currentView !== 'home-view') {
+        showHome();
+        return;
+    }
+
+    // On home view - handle double back to exit
+    if (backPressedOnce) {
+        // User pressed back twice - close the app
+        if (backPressTimeout) {
+            clearTimeout(backPressTimeout);
+        }
+        // Remove the popstate handler to allow actual exit
+        window.removeEventListener('popstate', handleBackButton);
+        // Go back to actually exit
+        window.history.back();
+        return;
+    }
+
+    // First back press on home
+    backPressedOnce = true;
+    showToast('한번 더 누르면 앱이 종료됩니다');
+
+    // Reset after 2 seconds
+    backPressTimeout = setTimeout(() => {
+        backPressedOnce = false;
+    }, 2000);
+}
+
+// Initialize PWA back handler when DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+    // Only initialize for PWA (standalone mode)
+    if (window.matchMedia('(display-mode: standalone)').matches ||
+        window.navigator.standalone === true) {
+        initPWABackHandler();
+    }
 });

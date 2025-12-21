@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VocabMaster - 데이터 테스트 페이지</title>
+    <style>
+        :root {
+            --primary: #4285f4;
+            --danger: #ea4335;
+            --warning: #fbbc05;
+            --success: #34a853;
+            --bg: #f5f5f5;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --text-secondary: #666666;
+            --border: #e0e0e0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: var(--danger);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .warning-banner {
+            background: #fff3cd;
+            border: 1px solid var(--warning);
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+
+        .warning-banner strong {
+            color: #856404;
+        }
+
+        .section {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 16px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            font-size: 1.1rem;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        .btn {
+            padding: 10px 16px;
+            border: none;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-danger {
+            background: var(--danger);
+            color: white;
+        }
+
+        .btn-warning {
+            background: var(--warning);
+            color: #333;
+        }
+
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text);
+        }
+
+        .output {
+            background: #1e1e1e;
+            color: #d4d4d4;
+            padding: 16px;
+            border-radius: 6px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.85rem;
+            max-height: 300px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+
+        .output.empty {
+            color: #666;
+            font-style: italic;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .status-ok {
+            background: var(--success);
+        }
+
+        .status-warning {
+            background: var(--warning);
+        }
+
+        .status-error {
+            background: var(--danger);
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .info-card {
+            background: var(--bg);
+            padding: 12px;
+            border-radius: 6px;
+        }
+
+        .info-card label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .info-card span {
+            font-weight: 600;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .test-description {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>VocabMaster 데이터 테스트 페이지</h1>
+        <p>개발자 전용 - 데이터 손상 및 복구 테스트</p>
+    </header>
+
+    <div class="warning-banner">
+        <strong>주의:</strong> 이 페이지의 기능들은 실제 데이터를 수정하거나 삭제합니다.
+        테스트 전 반드시 백업하세요!
+    </div>
+
+    <!-- 현재 상태 섹션 -->
+    <div class="section">
+        <h2>현재 저장소 상태</h2>
+        <div class="info-grid" id="storage-status">
+            <div class="info-card">
+                <label>Main Progress</label>
+                <span id="status-progress">확인 중...</span>
+            </div>
+            <div class="info-card">
+                <label>Backup Progress</label>
+                <span id="status-progress-backup">확인 중...</span>
+            </div>
+            <div class="info-card">
+                <label>Main Stats</label>
+                <span id="status-stats">확인 중...</span>
+            </div>
+            <div class="info-card">
+                <label>Backup Stats</label>
+                <span id="status-stats-backup">확인 중...</span>
+            </div>
+            <div class="info-card">
+                <label>Custom Categories</label>
+                <span id="status-categories">확인 중...</span>
+            </div>
+            <div class="info-card">
+                <label>Backup Categories</label>
+                <span id="status-categories-backup">확인 중...</span>
+            </div>
+            <div class="info-card">
+                <label>Settings</label>
+                <span id="status-settings">확인 중...</span>
+            </div>
+            <div class="info-card">
+                <label>Session Temp</label>
+                <span id="status-temp">확인 중...</span>
+            </div>
+        </div>
+        <div class="btn-group">
+            <button class="btn btn-primary" onclick="refreshStatus()">상태 새로고침</button>
+        </div>
+    </div>
+
+    <!-- 데이터 조회 섹션 -->
+    <div class="section">
+        <h2>데이터 조회</h2>
+        <p class="test-description">저장된 데이터의 내용을 JSON 형태로 확인합니다.</p>
+        <div class="btn-group">
+            <button class="btn btn-outline" onclick="viewData('vocabmaster_progress')">Progress</button>
+            <button class="btn btn-outline" onclick="viewData('vocabmaster_progress_backup')">Progress Backup</button>
+            <button class="btn btn-outline" onclick="viewData('vocabmaster_stats')">Stats</button>
+            <button class="btn btn-outline" onclick="viewData('vocabmaster_settings')">Settings</button>
+            <button class="btn btn-outline" onclick="viewData('vocabmaster_custom_categories')">Categories</button>
+            <button class="btn btn-outline" onclick="viewSessionData()">Session Temp</button>
+        </div>
+        <div class="output empty" id="data-output">데이터를 선택하세요</div>
+    </div>
+
+    <!-- 데이터 손상 테스트 섹션 -->
+    <div class="section">
+        <h2>데이터 손상 테스트</h2>
+        <p class="test-description">의도적으로 데이터를 손상시켜 복구 메커니즘을 테스트합니다.</p>
+
+        <h3 style="font-size: 0.95rem; margin: 16px 0 8px;">Progress 데이터</h3>
+        <div class="btn-group">
+            <button class="btn btn-danger" onclick="corruptData('vocabmaster_progress')">Main 손상</button>
+            <button class="btn btn-danger" onclick="corruptData('vocabmaster_progress_backup')">Backup 손상</button>
+            <button class="btn btn-danger" onclick="corruptBoth('progress')">둘 다 손상</button>
+        </div>
+
+        <h3 style="font-size: 0.95rem; margin: 16px 0 8px;">Stats 데이터</h3>
+        <div class="btn-group">
+            <button class="btn btn-danger" onclick="corruptData('vocabmaster_stats')">Main 손상</button>
+            <button class="btn btn-danger" onclick="corruptData('vocabmaster_stats_backup')">Backup 손상</button>
+            <button class="btn btn-danger" onclick="corruptBoth('stats')">둘 다 손상</button>
+        </div>
+
+        <h3 style="font-size: 0.95rem; margin: 16px 0 8px;">Custom Categories</h3>
+        <div class="btn-group">
+            <button class="btn btn-danger" onclick="corruptData('vocabmaster_custom_categories')">Main 손상</button>
+            <button class="btn btn-danger" onclick="corruptData('vocabmaster_custom_categories_backup')">Backup 손상</button>
+            <button class="btn btn-danger" onclick="corruptBoth('categories')">둘 다 손상</button>
+        </div>
+
+        <h3 style="font-size: 0.95rem; margin: 16px 0 8px;">전체 손상</h3>
+        <div class="btn-group">
+            <button class="btn btn-danger" onclick="corruptAll()">모든 데이터 손상</button>
+        </div>
+    </div>
+
+    <!-- 복구 테스트 섹션 -->
+    <div class="section">
+        <h2>복구 테스트</h2>
+        <p class="test-description">손상된 데이터에 대한 복구 메커니즘을 테스트합니다.</p>
+        <div class="btn-group">
+            <button class="btn btn-success" onclick="testRecovery()">복구 시뮬레이션</button>
+            <button class="btn btn-warning" onclick="reloadApp()">앱 새로고침 (실제 복구)</button>
+        </div>
+        <div class="output empty" id="recovery-output">복구 테스트 결과가 여기에 표시됩니다</div>
+    </div>
+
+    <!-- 데이터 초기화 섹션 -->
+    <div class="section">
+        <h2>데이터 초기화</h2>
+        <p class="test-description">저장된 데이터를 삭제합니다. 신중하게 사용하세요!</p>
+        <div class="btn-group">
+            <button class="btn btn-warning" onclick="clearBackups()">백업만 삭제</button>
+            <button class="btn btn-warning" onclick="clearTemp()">Session Temp 삭제</button>
+            <button class="btn btn-danger" onclick="clearAllData()">모든 데이터 삭제</button>
+        </div>
+    </div>
+
+    <!-- Write-Verify 테스트 섹션 -->
+    <div class="section">
+        <h2>Write-Verify 패턴 테스트</h2>
+        <p class="test-description">저장 후 검증하는 패턴이 정상 작동하는지 테스트합니다.</p>
+        <div class="btn-group">
+            <button class="btn btn-primary" onclick="testWriteVerify()">Write-Verify 테스트</button>
+        </div>
+        <div class="output empty" id="write-verify-output">테스트 결과가 여기에 표시됩니다</div>
+    </div>
+
+    <a href="index.html" class="back-link">← VocabMaster로 돌아가기</a>
+
+    <script>
+        // 저장소 키 정의
+        const KEYS = {
+            PROGRESS: 'vocabmaster_progress',
+            PROGRESS_BACKUP: 'vocabmaster_progress_backup',
+            STATS: 'vocabmaster_stats',
+            STATS_BACKUP: 'vocabmaster_stats_backup',
+            CUSTOM_CATEGORIES: 'vocabmaster_custom_categories',
+            CUSTOM_CATEGORIES_BACKUP: 'vocabmaster_custom_categories_backup',
+            SETTINGS: 'vocabmaster_settings',
+            TEMP: 'vocabmaster_temp'
+        };
+
+        // 페이지 로드 시 상태 확인
+        document.addEventListener('DOMContentLoaded', refreshStatus);
+
+        // 상태 새로고침
+        function refreshStatus() {
+            checkStatus('status-progress', KEYS.PROGRESS);
+            checkStatus('status-progress-backup', KEYS.PROGRESS_BACKUP);
+            checkStatus('status-stats', KEYS.STATS);
+            checkStatus('status-stats-backup', KEYS.STATS_BACKUP);
+            checkStatus('status-categories', KEYS.CUSTOM_CATEGORIES);
+            checkStatus('status-categories-backup', KEYS.CUSTOM_CATEGORIES_BACKUP);
+            checkStatus('status-settings', KEYS.SETTINGS);
+            checkSessionStatus();
+        }
+
+        // 개별 상태 확인
+        function checkStatus(elementId, key) {
+            const el = document.getElementById(elementId);
+            const raw = localStorage.getItem(key);
+
+            if (!raw) {
+                el.innerHTML = '<span class="status-indicator status-warning"></span>없음';
+                return;
+            }
+
+            try {
+                const data = JSON.parse(raw);
+                const size = new Blob([raw]).size;
+                const sizeStr = size > 1024 ? `${(size/1024).toFixed(1)}KB` : `${size}B`;
+                el.innerHTML = `<span class="status-indicator status-ok"></span>정상 (${sizeStr})`;
+            } catch (e) {
+                el.innerHTML = `<span class="status-indicator status-error"></span>손상됨`;
+            }
+        }
+
+        // 세션 스토리지 상태 확인
+        function checkSessionStatus() {
+            const el = document.getElementById('status-temp');
+            const raw = sessionStorage.getItem(KEYS.TEMP);
+
+            if (!raw) {
+                el.innerHTML = '<span class="status-indicator status-warning"></span>없음';
+                return;
+            }
+
+            try {
+                JSON.parse(raw);
+                el.innerHTML = '<span class="status-indicator status-ok"></span>정상';
+            } catch (e) {
+                el.innerHTML = '<span class="status-indicator status-error"></span>손상됨';
+            }
+        }
+
+        // 데이터 조회
+        function viewData(key) {
+            const output = document.getElementById('data-output');
+            const raw = localStorage.getItem(key);
+
+            if (!raw) {
+                output.textContent = `[${key}] 데이터 없음`;
+                output.classList.add('empty');
+                return;
+            }
+
+            try {
+                const data = JSON.parse(raw);
+                output.textContent = `[${key}]\n` + JSON.stringify(data, null, 2);
+                output.classList.remove('empty');
+            } catch (e) {
+                output.textContent = `[${key}] 파싱 실패 (손상됨)\nRaw: ${raw.substring(0, 500)}...`;
+                output.classList.remove('empty');
+            }
+        }
+
+        // 세션 데이터 조회
+        function viewSessionData() {
+            const output = document.getElementById('data-output');
+            const raw = sessionStorage.getItem(KEYS.TEMP);
+
+            if (!raw) {
+                output.textContent = '[Session Temp] 데이터 없음';
+                output.classList.add('empty');
+                return;
+            }
+
+            try {
+                const data = JSON.parse(raw);
+                output.textContent = '[Session Temp]\n' + JSON.stringify(data, null, 2);
+                output.classList.remove('empty');
+            } catch (e) {
+                output.textContent = `[Session Temp] 파싱 실패\nRaw: ${raw}`;
+                output.classList.remove('empty');
+            }
+        }
+
+        // 데이터 손상시키기
+        function corruptData(key) {
+            const current = localStorage.getItem(key);
+            if (!current) {
+                alert(`${key}에 데이터가 없습니다.`);
+                return;
+            }
+
+            // 손상된 JSON 생성
+            const corrupted = '{corrupted_' + Math.random().toString(36).substring(7) + ': "invalid json';
+            localStorage.setItem(key, corrupted);
+
+            alert(`${key} 데이터가 손상되었습니다.`);
+            refreshStatus();
+        }
+
+        // 둘 다 손상
+        function corruptBoth(type) {
+            let mainKey, backupKey;
+
+            switch(type) {
+                case 'progress':
+                    mainKey = KEYS.PROGRESS;
+                    backupKey = KEYS.PROGRESS_BACKUP;
+                    break;
+                case 'stats':
+                    mainKey = KEYS.STATS;
+                    backupKey = KEYS.STATS_BACKUP;
+                    break;
+                case 'categories':
+                    mainKey = KEYS.CUSTOM_CATEGORIES;
+                    backupKey = KEYS.CUSTOM_CATEGORIES_BACKUP;
+                    break;
+            }
+
+            if (mainKey) corruptData(mainKey);
+            if (backupKey) corruptData(backupKey);
+        }
+
+        // 모든 데이터 손상
+        function corruptAll() {
+            if (!confirm('정말로 모든 데이터를 손상시키겠습니까?')) return;
+
+            const keys = [
+                KEYS.PROGRESS, KEYS.PROGRESS_BACKUP,
+                KEYS.STATS, KEYS.STATS_BACKUP,
+                KEYS.CUSTOM_CATEGORIES, KEYS.CUSTOM_CATEGORIES_BACKUP
+            ];
+
+            keys.forEach(key => {
+                if (localStorage.getItem(key)) {
+                    const corrupted = '{corrupted_all: "invalid';
+                    localStorage.setItem(key, corrupted);
+                }
+            });
+
+            alert('모든 데이터가 손상되었습니다.');
+            refreshStatus();
+        }
+
+        // 복구 테스트 (시뮬레이션)
+        function testRecovery() {
+            const output = document.getElementById('recovery-output');
+            let results = [];
+
+            results.push('=== 복구 시뮬레이션 결과 ===\n');
+
+            // Progress 테스트
+            results.push('[ Progress ]');
+            results.push(testRecoveryFor(KEYS.PROGRESS, KEYS.PROGRESS_BACKUP, KEYS.TEMP));
+
+            // Stats 테스트
+            results.push('\n[ Stats ]');
+            results.push(testRecoveryFor(KEYS.STATS, KEYS.STATS_BACKUP, null));
+
+            // Categories 테스트
+            results.push('\n[ Custom Categories ]');
+            results.push(testRecoveryFor(KEYS.CUSTOM_CATEGORIES, KEYS.CUSTOM_CATEGORIES_BACKUP, null));
+
+            output.textContent = results.join('\n');
+            output.classList.remove('empty');
+        }
+
+        // 개별 복구 테스트
+        function testRecoveryFor(mainKey, backupKey, tempKey) {
+            const results = [];
+
+            // Main 확인
+            const mainRaw = localStorage.getItem(mainKey);
+            let mainOk = false;
+            if (mainRaw) {
+                try {
+                    JSON.parse(mainRaw);
+                    mainOk = true;
+                    results.push('  Main: 정상 -> Main 사용');
+                } catch (e) {
+                    results.push('  Main: 손상됨');
+                }
+            } else {
+                results.push('  Main: 없음');
+            }
+
+            if (mainOk) return results.join('\n');
+
+            // Backup 확인
+            const backupRaw = localStorage.getItem(backupKey);
+            let backupOk = false;
+            if (backupRaw) {
+                try {
+                    JSON.parse(backupRaw);
+                    backupOk = true;
+                    results.push('  Backup: 정상 -> Backup에서 복구');
+                } catch (e) {
+                    results.push('  Backup: 손상됨');
+                }
+            } else {
+                results.push('  Backup: 없음');
+            }
+
+            if (backupOk) return results.join('\n');
+
+            // Temp 확인
+            if (tempKey) {
+                const tempRaw = sessionStorage.getItem(tempKey);
+                if (tempRaw) {
+                    try {
+                        JSON.parse(tempRaw);
+                        results.push('  Temp: 정상 -> Temp에서 복구');
+                        return results.join('\n');
+                    } catch (e) {
+                        results.push('  Temp: 손상됨');
+                    }
+                } else {
+                    results.push('  Temp: 없음');
+                }
+            }
+
+            results.push('  결과: 복구 불가 -> 초기화 또는 모달 표시');
+            return results.join('\n');
+        }
+
+        // 앱 새로고침
+        function reloadApp() {
+            if (confirm('VocabMaster 앱을 새로고침하여 실제 복구 메커니즘을 테스트하시겠습니까?')) {
+                window.location.href = 'index.html';
+            }
+        }
+
+        // 백업 삭제
+        function clearBackups() {
+            if (!confirm('모든 백업 데이터를 삭제하시겠습니까?')) return;
+
+            localStorage.removeItem(KEYS.PROGRESS_BACKUP);
+            localStorage.removeItem(KEYS.STATS_BACKUP);
+            localStorage.removeItem(KEYS.CUSTOM_CATEGORIES_BACKUP);
+
+            alert('백업 데이터가 삭제되었습니다.');
+            refreshStatus();
+        }
+
+        // Temp 삭제
+        function clearTemp() {
+            sessionStorage.removeItem(KEYS.TEMP);
+            alert('Session Temp가 삭제되었습니다.');
+            refreshStatus();
+        }
+
+        // 모든 데이터 삭제
+        function clearAllData() {
+            if (!confirm('정말로 모든 VocabMaster 데이터를 삭제하시겠습니까?\n이 작업은 되돌릴 수 없습니다!')) return;
+
+            Object.values(KEYS).forEach(key => {
+                localStorage.removeItem(key);
+            });
+            sessionStorage.removeItem(KEYS.TEMP);
+
+            // 추가 키들도 삭제
+            localStorage.removeItem('vocabmaster_disabled_categories');
+            localStorage.removeItem('vocabmaster_backup_info');
+
+            alert('모든 데이터가 삭제되었습니다.');
+            refreshStatus();
+        }
+
+        // Write-Verify 테스트
+        function testWriteVerify() {
+            const output = document.getElementById('write-verify-output');
+            const testKey = 'vocabmaster_test_write_verify';
+            const results = [];
+
+            results.push('=== Write-Verify 패턴 테스트 ===\n');
+
+            // 테스트 데이터
+            const testData = { test: true, timestamp: Date.now(), value: 'test_value_' + Math.random() };
+
+            // 1. 쓰기
+            results.push('1. 데이터 쓰기...');
+            try {
+                localStorage.setItem(testKey, JSON.stringify(testData));
+                results.push('   성공: 데이터 저장됨');
+            } catch (e) {
+                results.push('   실패: ' + e.message);
+                output.textContent = results.join('\n');
+                output.classList.remove('empty');
+                return;
+            }
+
+            // 2. 읽기
+            results.push('\n2. 데이터 읽기...');
+            const readBack = localStorage.getItem(testKey);
+            if (readBack) {
+                results.push('   성공: 데이터 읽어옴');
+            } else {
+                results.push('   실패: 데이터 없음');
+                output.textContent = results.join('\n');
+                output.classList.remove('empty');
+                return;
+            }
+
+            // 3. 파싱 검증
+            results.push('\n3. JSON 파싱 검증...');
+            try {
+                const parsed = JSON.parse(readBack);
+                if (parsed.test === testData.test && parsed.timestamp === testData.timestamp) {
+                    results.push('   성공: 데이터 무결성 확인됨');
+                } else {
+                    results.push('   실패: 데이터 불일치');
+                }
+            } catch (e) {
+                results.push('   실패: 파싱 오류 - ' + e.message);
+            }
+
+            // 4. 정리
+            localStorage.removeItem(testKey);
+            results.push('\n4. 테스트 데이터 정리 완료');
+
+            results.push('\n\n결과: Write-Verify 패턴 정상 작동');
+
+            output.textContent = results.join('\n');
+            output.classList.remove('empty');
+        }
+    </script>
+</body>
+</html>

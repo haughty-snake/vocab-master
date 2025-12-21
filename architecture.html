@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VocabMaster - 시스템 아키텍처</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        :root {
+            --primary: #4285f4;
+            --success: #34a853;
+            --warning: #fbbc05;
+            --danger: #ea4335;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --text-secondary: #666666;
+            --border: #e0e0e0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, #1a73e8 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        nav {
+            background: var(--card-bg);
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+        }
+
+        nav a {
+            color: var(--primary);
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+
+        nav a:hover {
+            background: rgba(66, 133, 244, 0.1);
+        }
+
+        .section {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .section h2 {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--border);
+        }
+
+        .section h3 {
+            font-size: 1.1rem;
+            margin: 20px 0 12px;
+            color: var(--text);
+        }
+
+        .section p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .diagram-container {
+            background: #fafbfc;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 16px 0;
+            overflow-x: auto;
+        }
+
+        .mermaid {
+            display: flex;
+            justify-content: center;
+        }
+
+        .info-box {
+            padding: 16px;
+            border-radius: 8px;
+            margin: 16px 0;
+        }
+
+        .info-box.blue {
+            background: #e8f0fe;
+            border-left: 4px solid var(--primary);
+        }
+
+        .info-box.green {
+            background: #e6f4ea;
+            border-left: 4px solid var(--success);
+        }
+
+        .info-box.yellow {
+            background: #fef7e0;
+            border-left: 4px solid var(--warning);
+        }
+
+        .info-box.red {
+            background: #fce8e6;
+            border-left: 4px solid var(--danger);
+        }
+
+        .code-block {
+            background: #1e1e1e;
+            color: #d4d4d4;
+            padding: 16px;
+            border-radius: 8px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.9rem;
+            overflow-x: auto;
+            white-space: pre;
+        }
+
+        .key-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 12px;
+            margin: 16px 0;
+        }
+
+        .key-item {
+            background: var(--bg);
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+        }
+
+        .key-item code {
+            display: block;
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .key-item span {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin: 20px 0;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            .section {
+                padding: 16px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>VocabMaster 시스템 아키텍처</h1>
+        <p>데이터 보호 및 복구 메커니즘 설계 문서</p>
+    </header>
+
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#overview">전체 구조</a></li>
+                <li><a href="#storage">저장소 구조</a></li>
+                <li><a href="#write-verify">Write-Verify 패턴</a></li>
+                <li><a href="#recovery">복구 우선순위</a></li>
+                <li><a href="#data-flow">데이터 흐름</a></li>
+                <li><a href="#keys">저장소 키</a></li>
+            </ul>
+        </nav>
+
+        <!-- 전체 구조 -->
+        <div class="section" id="overview">
+            <h2>전체 시스템 구조</h2>
+            <p>VocabMaster PWA는 클라이언트 사이드에서 동작하며, 모든 데이터를 브라우저 저장소에 관리합니다.</p>
+
+            <div class="diagram-container">
+                <div class="mermaid">
+graph TB
+    subgraph "VocabMaster PWA"
+        UI[UI Layer<br/>index.html]
+        APP[Application Logic<br/>app.js]
+        DATA[Data Layer<br/>data.js]
+        STORAGE[Storage Layer<br/>storage.js]
+        VERSION[Version Manager<br/>version.js]
+    end
+
+    subgraph "Browser Storage"
+        LOCAL[(localStorage)]
+        SESSION[(sessionStorage)]
+    end
+
+    subgraph "External"
+        DICT[Free Dictionary API]
+        TTS[Web Speech API]
+    end
+
+    UI --> APP
+    APP --> DATA
+    APP --> STORAGE
+    STORAGE --> VERSION
+    STORAGE --> LOCAL
+    STORAGE --> SESSION
+    DATA --> DICT
+    DATA --> TTS
+                </div>
+            </div>
+
+            <div class="info-box blue">
+                <strong>아키텍처 특징:</strong>
+                <ul>
+                    <li>서버 없이 순수 클라이언트 사이드 동작</li>
+                    <li>PWA 지원으로 오프라인 사용 가능</li>
+                    <li>localStorage + sessionStorage 이중 저장</li>
+                    <li>Write-Verify 패턴으로 데이터 무결성 보장</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 저장소 구조 -->
+        <div class="section" id="storage">
+            <h2>저장소 구조</h2>
+            <p>중요 데이터는 Main + Backup 이중 저장, 세션 중에는 sessionStorage에도 임시 저장합니다.</p>
+
+            <div class="diagram-container">
+                <div class="mermaid">
+graph LR
+    subgraph "localStorage (영구)"
+        subgraph "Main Data"
+            MP[progress]
+            MS[stats]
+            MC[custom_categories]
+            SET[settings]
+        end
+        subgraph "Backup Data"
+            BP[progress_backup]
+            BS[stats_backup]
+            BC[categories_backup]
+        end
+    end
+
+    subgraph "sessionStorage (세션)"
+        TEMP[temp<br/>실시간 스냅샷]
+    end
+
+    MP -.->|백업| BP
+    MS -.->|백업| BS
+    MC -.->|백업| BC
+    MP -->|스냅샷| TEMP
+                </div>
+            </div>
+
+            <h3>저장소 역할</h3>
+            <div class="info-box green">
+                <strong>localStorage (영구 저장):</strong>
+                <ul>
+                    <li>브라우저를 닫아도 데이터 유지</li>
+                    <li>Main: 실제 사용되는 데이터</li>
+                    <li>Backup: Main 저장 성공 후 복제본</li>
+                </ul>
+            </div>
+
+            <div class="info-box yellow">
+                <strong>sessionStorage (임시 저장):</strong>
+                <ul>
+                    <li>탭이 열려있는 동안만 유지</li>
+                    <li>localStorage 손상 시 마지막 보루</li>
+                    <li>진행 상황 실시간 스냅샷</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Write-Verify 패턴 -->
+        <div class="section" id="write-verify">
+            <h2>Write-Verify 패턴</h2>
+            <p>데이터 저장 시 무결성을 보장하는 핵심 패턴입니다. 저장 → 읽기 → 검증 → 백업 순서로 진행됩니다.</p>
+
+            <div class="diagram-container">
+                <div class="mermaid">
+flowchart TD
+    START([데이터 저장 요청]) --> SERIALIZE[JSON 직렬화]
+    SERIALIZE --> WRITE[localStorage에 쓰기]
+    WRITE --> READ[다시 읽어오기]
+    READ --> PARSE{JSON 파싱<br/>성공?}
+
+    PARSE -->|성공| BACKUP[백업 데이터 갱신]
+    BACKUP --> TEMP[sessionStorage 갱신]
+    TEMP --> SUCCESS([저장 완료])
+
+    PARSE -->|실패| RESTORE{백업에서<br/>복구 시도}
+    RESTORE -->|성공| NOTIFY[디버그 알림]
+    NOTIFY --> PARTIAL([부분 성공])
+    RESTORE -->|실패| ERROR([저장 실패])
+
+    style SUCCESS fill:#34a853,color:#fff
+    style PARTIAL fill:#fbbc05,color:#333
+    style ERROR fill:#ea4335,color:#fff
+                </div>
+            </div>
+
+            <h3>코드 구현</h3>
+            <div class="code-block">saveWithBackup(mainKey, backupKey, data) {
+    const serialized = JSON.stringify(data);
+    try {
+        // 1. 쓰기
+        localStorage.setItem(mainKey, serialized);
+        // 2. 읽기 + 검증
+        const readBack = localStorage.getItem(mainKey);
+        JSON.parse(readBack);
+        // 3. 백업 갱신
+        if (backupKey) {
+            localStorage.setItem(backupKey, serialized);
+        }
+        return true;
+    } catch (e) {
+        // 복구 시도
+        if (backupKey) {
+            this.restoreFromBackup(mainKey, backupKey);
+        }
+        return false;
+    }
+}</div>
+        </div>
+
+        <!-- 복구 우선순위 -->
+        <div class="section" id="recovery">
+            <h2>복구 우선순위 시스템</h2>
+            <p>데이터 로드 시 Main → Backup → Temp → Modal 순서로 복구를 시도합니다.</p>
+
+            <div class="diagram-container">
+                <div class="mermaid">
+flowchart TD
+    START([앱 초기화]) --> MAIN{Main 데이터<br/>정상?}
+
+    MAIN -->|정상| USE_MAIN[Main 사용]
+    USE_MAIN --> DONE([로드 완료])
+
+    MAIN -->|손상/없음| BACKUP{Backup 데이터<br/>정상?}
+
+    BACKUP -->|정상| RESTORE_BACKUP[Backup에서 복구]
+    RESTORE_BACKUP --> NOTIFY1[디버그 알림:<br/>백업에서 복구됨]
+    NOTIFY1 --> DONE
+
+    BACKUP -->|손상/없음| TEMP{Temp 데이터<br/>정상?}
+
+    TEMP -->|정상| RESTORE_TEMP[Temp에서 복구]
+    RESTORE_TEMP --> NOTIFY2[디버그 알림:<br/>임시저장에서 복구됨]
+    NOTIFY2 --> DONE
+
+    TEMP -->|손상/없음| HAD_DATA{이전에<br/>데이터 있었음?}
+
+    HAD_DATA -->|예| MODAL[복구 불가 모달 표시]
+    MODAL --> CHOICE{사용자 선택}
+    CHOICE -->|Import| IMPORT[백업 파일 가져오기]
+    CHOICE -->|Continue| INIT[초기 상태로 시작]
+
+    HAD_DATA -->|아니오| INIT
+
+    IMPORT --> DONE
+    INIT --> DONE
+
+    style USE_MAIN fill:#34a853,color:#fff
+    style RESTORE_BACKUP fill:#fbbc05,color:#333
+    style RESTORE_TEMP fill:#fbbc05,color:#333
+    style MODAL fill:#ea4335,color:#fff
+                </div>
+            </div>
+
+            <div class="info-box red">
+                <strong>복구 불가 모달:</strong>
+                <ul>
+                    <li>이전에 데이터가 있었으나 모두 손상된 경우에만 표시</li>
+                    <li>신규 사용자에게는 표시되지 않음</li>
+                    <li>사용자가 반드시 선택해야 진행 가능 (Import 또는 초기화)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 데이터 흐름 -->
+        <div class="section" id="data-flow">
+            <h2>데이터 흐름</h2>
+
+            <h3>학습 진행 상황 저장</h3>
+            <div class="diagram-container">
+                <div class="mermaid">
+sequenceDiagram
+    participant U as 사용자
+    participant A as App
+    participant S as Storage
+    participant L as localStorage
+    participant B as Backup
+    participant T as sessionStorage
+
+    U->>A: 단어 상태 변경
+    A->>S: saveProgress()
+    S->>S: JSON 직렬화
+    S->>L: setItem(main)
+    S->>L: getItem(main)
+    S->>S: JSON 파싱 검증
+
+    alt 검증 성공
+        S->>B: setItem(backup)
+        S->>T: setItem(temp)
+        S-->>A: true
+    else 검증 실패
+        S->>B: getItem(backup)
+        S->>L: setItem(main, backup)
+        S-->>A: false (복구됨)
+    end
+                </div>
+            </div>
+
+            <h3>앱 초기화 흐름</h3>
+            <div class="diagram-container">
+                <div class="mermaid">
+sequenceDiagram
+    participant A as App
+    participant S as Storage
+    participant L as localStorage
+    participant B as Backup
+    participant T as sessionStorage
+    participant U as UI
+
+    A->>S: init()
+    S->>L: loadSettings()
+    S->>S: loadWithRecovery(progress)
+
+    alt Main 정상
+        S->>S: source = 'main'
+    else Backup 복구
+        S->>S: source = 'backup'
+        S->>U: 디버그 알림
+    else Temp 복구
+        S->>S: source = 'temp'
+        S->>U: 디버그 알림
+    else 복구 불가
+        S->>U: 복구 모달 표시
+    end
+
+    S->>S: loadWithRecovery(stats)
+    S->>S: loadWithRecovery(categories)
+    S-->>A: 초기화 완료
+                </div>
+            </div>
+        </div>
+
+        <!-- 저장소 키 -->
+        <div class="section" id="keys">
+            <h2>저장소 키 목록</h2>
+            <p>VocabMaster에서 사용하는 모든 localStorage/sessionStorage 키 목록입니다.</p>
+
+            <h3>Main 데이터 키</h3>
+            <div class="key-list">
+                <div class="key-item">
+                    <code>vocabmaster_progress</code>
+                    <span>단어별 학습 상태 (unknown/learning/known)</span>
+                </div>
+                <div class="key-item">
+                    <code>vocabmaster_stats</code>
+                    <span>학습 통계 (총 시간, 세션 수 등)</span>
+                </div>
+                <div class="key-item">
+                    <code>vocabmaster_custom_categories</code>
+                    <span>사용자 정의 카테고리 및 단어</span>
+                </div>
+                <div class="key-item">
+                    <code>vocabmaster_settings</code>
+                    <span>사용자 설정 (다크모드, 발음 등)</span>
+                </div>
+            </div>
+
+            <h3>Backup 데이터 키</h3>
+            <div class="key-list">
+                <div class="key-item">
+                    <code>vocabmaster_progress_backup</code>
+                    <span>progress의 백업본</span>
+                </div>
+                <div class="key-item">
+                    <code>vocabmaster_stats_backup</code>
+                    <span>stats의 백업본</span>
+                </div>
+                <div class="key-item">
+                    <code>vocabmaster_custom_categories_backup</code>
+                    <span>custom_categories의 백업본</span>
+                </div>
+            </div>
+
+            <h3>기타 키</h3>
+            <div class="key-list">
+                <div class="key-item">
+                    <code>vocabmaster_disabled_categories</code>
+                    <span>비활성화된 카테고리 ID 목록</span>
+                </div>
+                <div class="key-item">
+                    <code>vocabmaster_backup_info</code>
+                    <span>마지막 백업 날짜 정보</span>
+                </div>
+                <div class="key-item">
+                    <code>vocabmaster_temp</code>
+                    <span>sessionStorage - 실시간 진행 스냅샷</span>
+                </div>
+            </div>
+        </div>
+
+        <a href="index.html" class="back-link">← VocabMaster로 돌아가기</a>
+    </div>
+
+    <footer>
+        VocabMaster Architecture Document | Version 1.0.0
+    </footer>
+
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose',
+            flowchart: {
+                useMaxWidth: true,
+                htmlLabels: true,
+                curve: 'basis'
+            },
+            sequence: {
+                useMaxWidth: true,
+                wrap: true
+            }
+        });
+    </script>
+</body>
+</html>

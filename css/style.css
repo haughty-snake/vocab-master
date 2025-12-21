@@ -2196,12 +2196,11 @@ hr {
     border-radius: var(--radius-sm);
     font-size: 12px;
     color: var(--text-secondary);
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    word-break: break-all;
 }
 
 .import-format-help p {
+    white-space: nowrap;
+    overflow-x: auto;
     margin-bottom: 4px;
 }
 

@@ -568,6 +568,60 @@
                     <span id="app-version" class="version-badge">v1.0.0</span>
                 </div>
                 <hr>
+                <!-- 개발자 디버그 모드 섹션 (기본 숨김) -->
+                <div class="setting-item">
+                    <button class="btn btn-text btn-small" id="toggle-debug-section" onclick="toggleDebugSection()">
+                        🔧 개발자 옵션 보기
+                    </button>
+                </div>
+                <div id="debug-mode-section" class="hidden">
+                    <div class="setting-item">
+                        <h4>🔧 개발자 디버그 모드</h4>
+                        <p class="setting-description">데이터 복구 알림, 저장소 상태 등 개발자용 정보 표시</p>
+                    </div>
+                    <div class="setting-item">
+                        <label>디버그 모드</label>
+                        <label class="switch">
+                            <input type="checkbox" id="debug-mode-toggle" onchange="toggleDebugMode()">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="setting-item debug-sub-option hidden" id="debug-test-page-option">
+                        <label>테스트 페이지</label>
+                        <label class="switch">
+                            <input type="checkbox" id="show-test-page-toggle" onchange="toggleShowTestPage()">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="setting-item debug-sub-option hidden" id="debug-architecture-option">
+                        <label>시스템 구성 페이지</label>
+                        <label class="switch">
+                            <input type="checkbox" id="show-architecture-toggle" onchange="toggleShowArchitecturePage()">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div id="debug-links-section" class="hidden">
+                        <div class="setting-item" id="test-page-link-item" style="display:none;">
+                            <a href="test.html" class="btn btn-outline btn-full btn-warning" target="_blank">
+                                ⚠️ 데이터 손상 테스트 페이지
+                            </a>
+                        </div>
+                        <div class="setting-item" id="architecture-page-link-item" style="display:none;">
+                            <a href="architecture.html" class="btn btn-outline btn-full" target="_blank">
+                                📊 시스템 아키텍처 페이지
+                            </a>
+                        </div>
+                    </div>
+                    <div class="setting-item">
+                        <p class="setting-description" style="font-size: 0.75rem; color: var(--text-secondary);">
+                            <strong>디버그 알림 항목:</strong><br>
+                            • 데이터 자동 복구 시 알림<br>
+                            • Write-Verify 패턴 실패 감지<br>
+                            • 백업에서 복구 성공 알림
+                        </p>
+                    </div>
+                </div>
+                <hr>
                 <div class="setting-item">
                     <h4>오픈소스 라이선스</h4>
                 </div>
