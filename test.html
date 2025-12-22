@@ -368,8 +368,12 @@
     </style>
     <script>
         function goBack() {
-            // 항상 location.replace로 이동 (popstate 이벤트 방지)
-            location.replace('index.html');
+            // history.back()으로 정상적인 히스토리 탐색 (PWA 뒤로가기와 연동)
+            if (history.length > 1) {
+                history.back();
+            } else {
+                location.href = 'index.html';
+            }
         }
     </script>
 </head>

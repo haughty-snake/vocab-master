@@ -400,8 +400,12 @@
     </style>
     <script>
         function goBack() {
-            // 항상 location.replace로 이동 (popstate 이벤트 방지)
-            location.replace('index.html');
+            // history.back()으로 정상적인 히스토리 탐색 (PWA 뒤로가기와 연동)
+            if (history.length > 1) {
+                history.back();
+            } else {
+                location.href = 'index.html';
+            }
         }
     </script>
 </head>
@@ -1451,7 +1455,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</div>
     </div>
 
     <footer>
-        VocabMaster Architecture Document | Version 1.4.0 (데이터 복구 흐름 개선, 실제 크기 계산, 백업 확인 모달 추가)
+        VocabMaster Architecture Document | Version 1.5.0 (일괄 가져오기, PWA 종료 확인 비활성화)
     </footer>
 
     <script>
