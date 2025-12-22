@@ -75,7 +75,7 @@ const Storage = {
         // 데이터 압축 설정
         // ====================================================================
         compression: {
-            enabled: false            // 데이터 압축 사용 여부
+            enabled: true             // 데이터 압축 사용 여부 (기본값: 사용)
         },
         // 각 학습 모드별 UI 설정
         ui: {
@@ -2390,14 +2390,18 @@ const Storage = {
     canImportWords(wordCount, avgSizePerWord = 500) {
         const stats = this.getStorageStats();
         const THRESHOLD_PERCENT = 85;
+        const isCompressionEnabled = this.settings.compression?.enabled;
 
-        // 예상 크기: (단어 데이터 + 진행 상태) * 2 (백업 포함)
-        const estimatedWordData = wordCount * avgSizePerWord;
-        const estimatedProgressData = wordCount * 50; // 진행 상태는 약 50바이트/단어
+        // 압축 사용 시 약 60% 크기로 추정 (LZ-String 평균 압축률)
+        const compressionRatio = isCompressionEnabled ? 0.4 : 1;
+
+        // 예상 크기: (단어 데이터 + 진행 상태) * 2 (백업 포함) * 압축률
+        const estimatedWordData = wordCount * avgSizePerWord * compressionRatio;
+        const estimatedProgressData = wordCount * 50 * compressionRatio; // 진행 상태는 약 50바이트/단어
         const estimatedTotalNew = (estimatedWordData + estimatedProgressData) * 2;
 
         const estimatedPercent = Math.round(((stats.totalUsed + estimatedTotalNew) / stats.total) * 100);
-        const maxImportable = Math.floor((stats.total * (THRESHOLD_PERCENT / 100) - stats.totalUsed) / (avgSizePerWord * 2 + 100));
+        const maxImportable = Math.floor((stats.total * (THRESHOLD_PERCENT / 100) - stats.totalUsed) / (avgSizePerWord * compressionRatio * 2 + 100));
 
         if (estimatedPercent >= THRESHOLD_PERCENT) {
             return {
@@ -2405,7 +2409,7 @@ const Storage = {
                 currentPercent: stats.percentUsed,
                 estimatedPercent,
                 maxImportable: Math.max(0, maxImportable),
-                message: `${wordCount}개 단어 가져오기 시 저장소가 ${estimatedPercent}%가 됩니다.\n최대 약 ${Math.max(0, maxImportable)}개까지 가져올 수 있습니다.`
+                message: `${wordCount}개 단어 가져오기 시 저장소가 ${estimatedPercent}%가 됩니다.\n최대 약 ${Math.max(0, maxImportable)}개까지 가져올 수 있습니다.${isCompressionEnabled ? ' (압축 적용)' : ''}`
             };
         }
 
@@ -2860,7 +2864,7 @@ const Storage = {
                 showArchitecturePage: false
             },
             compression: {
-                enabled: false
+                enabled: true
             },
             ui: {
                 wordList: {

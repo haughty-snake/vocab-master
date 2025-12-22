@@ -128,7 +128,7 @@
                 <span class="loading-text">단어 목록 로딩 중...</span>
             </div>
             <div class="view-header-bar">
-                <button class="back-btn" onclick="showHome()" title="홈으로">
+                <button class="back-btn" onclick="history.back()" title="뒤로가기">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="15 18 9 12 15 6"></polyline>
                     </svg>
@@ -182,7 +182,7 @@
         <!-- Flashcard View -->
         <section id="flashcard-view" class="view">
             <div class="view-header-bar">
-                <button class="back-btn" onclick="showHome()" title="홈으로">
+                <button class="back-btn" onclick="history.back()" title="뒤로가기">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="15 18 9 12 15 6"></polyline>
                     </svg>
@@ -284,7 +284,7 @@
         <!-- Blink View -->
         <section id="blink-view" class="view">
             <div class="view-header-bar">
-                <button class="back-btn" onclick="showHome()" title="홈으로">
+                <button class="back-btn" onclick="history.back()" title="뒤로가기">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="15 18 9 12 15 6"></polyline>
                     </svg>
@@ -358,7 +358,7 @@
         <!-- Quiz View -->
         <section id="quiz-view" class="view">
             <div class="view-header-bar">
-                <button class="back-btn" onclick="showHome()" title="홈으로">
+                <button class="back-btn" onclick="history.back()" title="뒤로가기">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="15 18 9 12 15 6"></polyline>
                     </svg>
@@ -651,7 +651,7 @@
                     <div id="debug-links-section" class="hidden">
                         <div class="setting-item" id="test-page-link-item" style="display:none;">
                             <button class="btn btn-outline btn-full btn-warning" onclick="location.href='test.html'">
-                                ⚠️ 데이터 손상 테스트 페이지
+                                🛠️ 개발자 테스트 페이지
                             </button>
                         </div>
                         <div class="setting-item" id="architecture-page-link-item" style="display:none;">

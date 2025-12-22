@@ -2523,6 +2523,11 @@ hr {
         display: none;
     }
 
+    /* Reduce padding for shuffle/refresh buttons in word list */
+    .list-controls .btn-outline {
+        padding: 6px 8px;
+    }
+
     /* Word add form - stack word/pronunciation inputs vertically */
     .add-word-form .form-row {
         flex-direction: column;

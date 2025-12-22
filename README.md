@@ -199,7 +199,7 @@ npx serve .
 vocab-master/
 ├── index.html          # 메인 HTML
 ├── manual.html         # 사용 매뉴얼
-├── test.html           # 데이터 손상 테스트 페이지 (개발자용)
+├── test.html           # 개발자 테스트 페이지
 ├── architecture.html   # 시스템 아키텍처 문서 (Mermaid 다이어그램)
 ├── manifest.json       # PWA 매니페스트
 ├── sw.js               # Service Worker
