@@ -193,10 +193,10 @@ function showView(viewId) {
     currentView = viewId;
 }
 
-// 히스토리 클리어 후 홈으로 이동
+// 이전 페이지가 홈이면 뒤로가기, 아니면 홈으로 이동
 function goBack() {
+    // SPA 내부에서는 항상 홈으로 이동
     showHome();
-    history.replaceState(null, '', location.pathname);
 }
 
 async function showHome() {

@@ -204,7 +204,12 @@
     </style>
     <script>
         function goBack() {
-            location.replace('index.html');
+            // 이전 페이지가 홈(index.html)이면 뒤로가기, 아니면 홈으로 이동
+            if (document.referrer && document.referrer.includes('index.html')) {
+                history.back();
+            } else {
+                location.replace('index.html');
+            }
         }
     </script>
 </head>
