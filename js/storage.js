@@ -57,7 +57,7 @@ const Storage = {
     settings: {
         darkMode: false,              // 다크 모드 활성화 여부
         showPronunciation: true,      // 발음 기호 표시 여부
-        displayMode: 'paging',        // 단어 목록 표시 방식: 'all' (전체) / 'paging' (페이징)
+        displayMode: 'all',           // 단어 목록 표시 방식: 'all' (전체) / 'paging' (페이징)
         itemsPerPage: 20,             // 페이지당 단어 수
         backupReminder: {
             enabled: true,            // 백업 알림 활성화
@@ -70,6 +70,12 @@ const Storage = {
             enabled: false,           // 디버그 모드 활성화 여부
             showTestPage: false,      // 테스트 페이지 링크 표시
             showArchitecturePage: false // 시스템 구성 페이지 링크 표시
+        },
+        // ====================================================================
+        // 데이터 압축 설정
+        // ====================================================================
+        compression: {
+            enabled: false            // 데이터 압축 사용 여부
         },
         // 각 학습 모드별 UI 설정
         ui: {
@@ -86,7 +92,7 @@ const Storage = {
                 speed: '2000',        // 표시 속도 (밀리초)
                 displayMode: 'both',  // 'word', 'meaning', 'both'
                 repeatCount: '2',     // 반복 횟수
-                autoTTS: true
+                autoTTS: false        // 자동 발음 비활성화 (기본값)
             },
             quiz: {
                 statusFilter: 'all',
@@ -258,7 +264,13 @@ const Storage = {
      * @returns {boolean} 저장 성공 여부
      */
     saveWithBackup(mainKey, backupKey, data) {
-        const serialized = JSON.stringify(data);
+        // 압축 설정에 따라 직렬화 방식 결정
+        let serialized;
+        if (this.settings.compression?.enabled) {
+            serialized = this.compress(data);
+        } else {
+            serialized = JSON.stringify(data);
+        }
 
         try {
             // 1. Write: 새 데이터 저장
@@ -266,7 +278,10 @@ const Storage = {
 
             // 2. Verify: 저장된 데이터 검증
             const readBack = localStorage.getItem(mainKey);
-            JSON.parse(readBack); // 파싱 가능한지 확인 (실패 시 throw)
+            const parsed = this.decompress(readBack); // 자동 형식 감지로 검증
+            if (!parsed) {
+                throw new Error('데이터 검증 실패');
+            }
 
             // 3. 검증 성공: 백업 갱신
             if (backupKey) {
@@ -304,8 +319,9 @@ const Storage = {
             const backup = localStorage.getItem(backupKey);
             if (!backup) return false;
 
-            // 백업 데이터 검증
-            JSON.parse(backup);
+            // 백업 데이터 검증 (자동 형식 감지)
+            const parsed = this.decompress(backup);
+            if (!parsed) return false;
 
             // 메인 키에 복구
             localStorage.setItem(mainKey, backup);
@@ -340,37 +356,38 @@ const Storage = {
 
         const hadData = !!(mainRaw || backupRaw || tempRaw);
 
-        // 1순위: 메인 데이터
+        // 1순위: 메인 데이터 (자동 형식 감지)
         if (mainRaw) {
-            try {
-                const parsed = JSON.parse(mainRaw);
+            const parsed = this.decompress(mainRaw);
+            if (parsed) {
                 return { data: parsed, source: 'main', hadData };
-            } catch (e) {
-                console.warn('[Storage] 메인 데이터 손상:', mainKey);
             }
+            console.warn('[Storage] 메인 데이터 손상:', mainKey);
         }
 
-        // 2순위: 백업 데이터
+        // 2순위: 백업 데이터 (자동 형식 감지)
         if (backupRaw) {
-            try {
-                const parsed = JSON.parse(backupRaw);
+            const parsed = this.decompress(backupRaw);
+            if (parsed) {
                 // 백업에서 복구 성공 시 메인에도 복원
                 localStorage.setItem(mainKey, backupRaw);
                 this.debugLog(`백업에서 자동 복구: ${mainKey}`);
                 return { data: parsed, source: 'backup', hadData };
-            } catch (e) {
-                console.warn('[Storage] 백업 데이터도 손상:', backupKey);
             }
+            console.warn('[Storage] 백업 데이터도 손상:', backupKey);
         }
 
-        // 3순위: 임시 데이터 (sessionStorage)
+        // 3순위: 임시 데이터 (sessionStorage) - JSON만 지원
         if (tempRaw) {
             try {
                 const parsed = JSON.parse(tempRaw);
-                // 임시 데이터로 메인 복원
-                localStorage.setItem(mainKey, tempRaw);
+                // 임시 데이터로 메인 복원 (현재 압축 설정에 따라)
+                const serialized = this.settings.compression?.enabled
+                    ? this.compress(parsed)
+                    : tempRaw;
+                localStorage.setItem(mainKey, serialized);
                 if (backupKey) {
-                    localStorage.setItem(backupKey, tempRaw);
+                    localStorage.setItem(backupKey, serialized);
                 }
                 this.debugLog(`임시 저장소에서 복구: ${mainKey}`);
                 return { data: parsed, source: 'temp', hadData };
@@ -626,6 +643,137 @@ const Storage = {
 
         // 7. sessionStorage 임시 데이터 정리 (복구 완료 후)
         this.clearTempData();
+
+        // 8. 멀티탭 동기화: storage 이벤트 리스닝
+        this.setupStorageEventListener();
+    },
+
+    /**
+     * 멀티탭 동기화를 위한 storage 이벤트 리스너 설정
+     * 다른 탭에서 localStorage 변경 시 현재 탭 데이터 동기화
+     */
+    setupStorageEventListener() {
+        window.addEventListener('storage', (event) => {
+            // vocabmaster 관련 키만 처리
+            if (!event.key || !event.key.startsWith('vocabmaster_')) return;
+
+            // 백업 키는 무시 (메인 키 변경만 처리)
+            if (event.key.includes('_backup')) return;
+
+            this.debugLog(`[멀티탭] 다른 탭에서 변경 감지: ${event.key}`);
+
+            // 변경된 키에 따라 데이터 리로드
+            switch (event.key) {
+                case this.KEYS.PROGRESS:
+                    this.reloadProgressFromStorage();
+                    break;
+                case this.KEYS.STATS:
+                    this.reloadStatsFromStorage();
+                    break;
+                case this.KEYS.CUSTOM_CATEGORIES:
+                    this.reloadCustomCategoriesFromStorage();
+                    break;
+                case this.KEYS.SETTINGS:
+                    this.reloadSettingsFromStorage();
+                    break;
+            }
+        });
+    },
+
+    /**
+     * 다른 탭에서 변경된 Progress 데이터 리로드
+     * 현재 메모리 데이터와 머지하여 높은 상태 유지
+     */
+    reloadProgressFromStorage() {
+        try {
+            const raw = localStorage.getItem(this.KEYS.PROGRESS);
+            if (!raw) return;
+
+            const newData = JSON.parse(raw);
+            // 현재 데이터와 머지 (높은 상태 유지)
+            this.progress = this._mergeProgress(this.progress, newData);
+            this._loadStatus.progress = 'loaded';
+
+            this.debugLog('[멀티탭] Progress 동기화 완료');
+
+            // UI 갱신 (앱에서 정의된 경우)
+            if (typeof renderProgress === 'function') {
+                renderProgress();
+            }
+            if (typeof renderWordList === 'function' && typeof currentView !== 'undefined' && currentView === 'list-view') {
+                renderWordList();
+            }
+        } catch (e) {
+            console.error('[Storage] Progress 리로드 실패:', e);
+        }
+    },
+
+    /**
+     * 다른 탭에서 변경된 Stats 데이터 리로드
+     */
+    reloadStatsFromStorage() {
+        try {
+            const raw = localStorage.getItem(this.KEYS.STATS);
+            if (!raw) return;
+
+            const newData = JSON.parse(raw);
+            // Stats는 최신 값으로 덮어쓰기 (머지할 필요 없음)
+            this.stats = { ...this.stats, ...newData };
+            this._loadStatus.stats = 'loaded';
+
+            this.debugLog('[멀티탭] Stats 동기화 완료');
+        } catch (e) {
+            console.error('[Storage] Stats 리로드 실패:', e);
+        }
+    },
+
+    /**
+     * 다른 탭에서 변경된 CustomCategories 데이터 리로드
+     */
+    reloadCustomCategoriesFromStorage() {
+        try {
+            const raw = localStorage.getItem(this.KEYS.CUSTOM_CATEGORIES);
+            if (!raw) return;
+
+            const newData = JSON.parse(raw);
+            if (Array.isArray(newData)) {
+                this.customCategories = newData;
+                this._loadStatus.customCategories = 'loaded';
+
+                this.debugLog('[멀티탭] CustomCategories 동기화 완료');
+
+                // VocabData 갱신
+                if (typeof VocabData !== 'undefined' && VocabData.reloadCustomCategories) {
+                    VocabData.reloadCustomCategories();
+                }
+                // UI 갱신
+                if (typeof renderCategories === 'function') {
+                    renderCategories();
+                }
+            }
+        } catch (e) {
+            console.error('[Storage] CustomCategories 리로드 실패:', e);
+        }
+    },
+
+    /**
+     * 다른 탭에서 변경된 Settings 데이터 리로드
+     */
+    reloadSettingsFromStorage() {
+        try {
+            const raw = localStorage.getItem(this.KEYS.SETTINGS);
+            if (!raw) return;
+
+            const newData = JSON.parse(raw);
+            this.settings = { ...this.settings, ...newData };
+
+            // 설정 적용 (다크모드 등)
+            this.applySettings();
+
+            this.debugLog('[멀티탭] Settings 동기화 완료');
+        } catch (e) {
+            console.error('[Storage] Settings 리로드 실패:', e);
+        }
     },
 
     /**
@@ -886,12 +1034,17 @@ const Storage = {
     },
 
     /**
-     * 학습 진도를 localStorage에 저장 (Write-Verify 패턴)
+     * 학습 진도를 localStorage에 저장 (Read-Modify-Write + Write-Verify 패턴)
      *
      * [저장 로직]
      * 1. 초기화 전이면 저장 안 함 (데이터 보호)
-     * 2. 정상 상태면 Write-Verify 패턴으로 저장 + 백업 갱신
+     * 2. 정상 상태면 Read-Modify-Write + Write-Verify 패턴으로 저장
      * 3. 손상 상태면 sessionStorage에 임시 저장 (기존 데이터 보호)
+     *
+     * [Read-Modify-Write 패턴] (멀티탭 충돌 방지)
+     * - 저장 전 localStorage에서 최신 데이터 읽기
+     * - 현재 메모리 데이터와 머지 (높은 상태 유지)
+     * - 머지된 데이터로 저장
      *
      * [Write-Verify 패턴]
      * - 저장 후 다시 읽어서 검증
@@ -907,12 +1060,28 @@ const Storage = {
 
         const status = this._loadStatus.progress;
 
-        // 정상/복구됨 상태: Write-Verify 패턴으로 저장
+        // 정상/복구됨 상태: Read-Modify-Write + Write-Verify 패턴으로 저장
         if (status === 'empty' || status === 'loaded' || status === 'recovered') {
+            // Read: localStorage에서 최신 데이터 읽기 (다른 탭에서 변경되었을 수 있음)
+            let dataToSave = this.progress;
+            try {
+                const latestRaw = localStorage.getItem(this.KEYS.PROGRESS);
+                if (latestRaw) {
+                    const latestData = JSON.parse(latestRaw);
+                    // Modify: 현재 메모리 데이터와 머지 (높은 상태 유지)
+                    dataToSave = this._mergeProgress(latestData, this.progress);
+                    this.progress = dataToSave;  // 메모리도 업데이트
+                }
+            } catch (e) {
+                // 읽기 실패 시 현재 메모리 데이터 그대로 저장
+                console.warn('[Storage] Read-Modify-Write: 최신 데이터 읽기 실패, 현재 데이터로 저장');
+            }
+
+            // Write: Write-Verify 패턴으로 저장
             const success = this.saveWithBackup(
                 this.KEYS.PROGRESS,
                 this.BACKUP_KEYS.PROGRESS,
-                this.progress
+                dataToSave
             );
             if (success) {
                 this._loadStatus.progress = 'loaded';
@@ -965,6 +1134,11 @@ const Storage = {
                     debugMode: {
                         ...this.settings.debugMode,
                         ...(saved.debugMode || {})
+                    },
+                    // 압축 설정 병합
+                    compression: {
+                        ...this.settings.compression,
+                        ...(saved.compression || {})
                     },
                     ui: {
                         wordList: {
@@ -1455,13 +1629,26 @@ const Storage = {
         const category = this.getCustomCategory(categoryId);
         if (!category) return null;
 
-        // 입력을 meanings 배열 형식으로 정규화
-        let inputMeanings = this.normalizeToMeaningsArray(word);
-
-        // 동일 단어 존재 여부 확인 (대소문자 무시)
+        // 용량 확인 (새 단어 추가 시에만)
         const existingWord = category.words.find(w =>
             w.word.toLowerCase() === word.word.toLowerCase()
         );
+        if (!existingWord) {
+            const capacityCheck = this.canAddWord();
+            if (!capacityCheck.canAdd) {
+                return {
+                    success: false,
+                    action: 'capacity_exceeded',
+                    message: capacityCheck.message,
+                    currentPercent: capacityCheck.currentPercent
+                };
+            }
+        }
+
+        // 입력을 meanings 배열 형식으로 정규화
+        let inputMeanings = this.normalizeToMeaningsArray(word);
+
+        // existingWord는 위에서 이미 확인됨
 
         if (existingWord) {
             // 기존 단어 있음 - 뜻 머지
@@ -1772,6 +1959,458 @@ const Storage = {
         }
         result.push(current);
         return result;
+    },
+
+    /**
+     * 단어를 카테고리에 추가 (메모리만, 저장 안함)
+     * 배치 처리용 내부 함수
+     *
+     * @param {Object} category - 카테고리 객체 (참조)
+     * @param {Object} word - 추가할 단어 데이터
+     * @returns {string|null} 'created'|'updated'|'polysemy_added'|null
+     */
+    addWordToCategoryInMemory(category, word) {
+        // 입력을 meanings 배열 형식으로 정규화
+        let inputMeanings = this.normalizeToMeaningsArray(word);
+
+        // 동일 단어 존재 여부 확인 (대소문자 무시)
+        const existingWord = category.words.find(w =>
+            w.word.toLowerCase() === word.word.toLowerCase()
+        );
+
+        if (existingWord) {
+            // 기존 단어 있음 - 뜻 머지
+            const existingMeaningsArray = existingWord.meanings || this.convertOldFormatToMeanings(existingWord);
+            const mergedMeanings = [...existingMeaningsArray];
+            let addedCount = 0;
+
+            inputMeanings.forEach(newMeaning => {
+                const exists = mergedMeanings.some(m =>
+                    m.meaning.toLowerCase() === newMeaning.meaning.toLowerCase()
+                );
+                if (!exists) {
+                    mergedMeanings.push(newMeaning);
+                    addedCount++;
+                }
+            });
+
+            existingWord.pronunciation = word.pronunciation || existingWord.pronunciation;
+            existingWord.partOfSpeech = word.partOfSpeech || existingWord.partOfSpeech || '';
+            existingWord.meanings = mergedMeanings;
+            existingWord.meaning = mergedMeanings.map(m => m.meaning).join(', ');
+            existingWord.updatedAt = new Date().toISOString();
+            delete existingWord.examples;
+
+            return addedCount > 0 ? 'polysemy_added' : 'updated';
+        } else {
+            // 새 단어 생성
+            const wordId = 'custom_word_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+            category.words.push({
+                id: wordId,
+                word: word.word,
+                pronunciation: word.pronunciation || '',
+                partOfSpeech: word.partOfSpeech || '',
+                meanings: inputMeanings,
+                meaning: inputMeanings.map(m => m.meaning).join(', '),
+                createdAt: new Date().toISOString()
+            });
+            return 'created';
+        }
+    },
+
+    /**
+     * JSON 파일에서 단어 가져오기 (비동기 + 프로그레스 + 배치 저장)
+     * 메모리에서 처리 후 한 번만 저장하여 성능 최적화
+     *
+     * @param {string} categoryId - 대상 카테고리 ID
+     * @param {string|Object} jsonData - JSON 문자열 또는 객체
+     * @param {Function} onProgress - 진행률 콜백 (current, total)
+     * @param {Object} options - { signal: AbortSignal } 취소 지원
+     * @returns {Promise<Object>} { success, imported, created, updated, polysemy, cancelled }
+     */
+    async importWordsFromJSONAsync(categoryId, jsonData, onProgress, options = {}) {
+        try {
+            const data = typeof jsonData === 'string' ? JSON.parse(jsonData) : jsonData;
+            const words = Array.isArray(data) ? data : (data.words || []);
+            const stats = { created: 0, updated: 0, polysemy: 0 };
+            const total = words.length;
+            const CHUNK_SIZE = 200; // 200개씩 처리 후 UI 업데이트
+
+            // 용량 체크 (가져오기 전)
+            const capacityCheck = this.canImportWords(total);
+            if (!capacityCheck.canImport) {
+                return {
+                    success: false,
+                    error: capacityCheck.message,
+                    capacityExceeded: true,
+                    maxImportable: capacityCheck.maxImportable
+                };
+            }
+
+            // 카테고리를 메모리에 로드 (한 번만)
+            const category = this.getCustomCategory(categoryId);
+            if (!category) {
+                return { success: false, error: '카테고리를 찾을 수 없습니다' };
+            }
+
+            for (let i = 0; i < words.length; i++) {
+                // 취소 확인
+                if (options.signal?.aborted) {
+                    return { success: false, cancelled: true, error: '가져오기가 취소되었습니다' };
+                }
+
+                const word = words[i];
+                if (word.word && (word.meanings || word.meaning)) {
+                    const wordData = {
+                        word: word.word,
+                        pronunciation: word.pronunciation || '',
+                        partOfSpeech: word.partOfSpeech || ''
+                    };
+
+                    if (word.meanings && Array.isArray(word.meanings)) {
+                        wordData.meanings = word.meanings;
+                    } else {
+                        wordData.meaning = word.meaning;
+                        wordData.examples = word.examples || (word.example ? [{
+                            sentence: word.example,
+                            translation: word.translation || ''
+                        }] : []);
+                    }
+
+                    // 메모리에만 추가 (저장 안함)
+                    const action = this.addWordToCategoryInMemory(category, wordData);
+                    if (action === 'created') stats.created++;
+                    else if (action === 'updated') stats.updated++;
+                    else if (action === 'polysemy_added') stats.polysemy++;
+                }
+
+                // 청크 단위로 UI 업데이트 허용
+                if ((i + 1) % CHUNK_SIZE === 0 || i === words.length - 1) {
+                    if (onProgress) onProgress(i + 1, total);
+                    await new Promise(resolve => setTimeout(resolve, 0));
+                }
+            }
+
+            // 한 번만 저장
+            this.saveCustomCategories();
+
+            const importedTotal = stats.created + stats.updated + stats.polysemy;
+            return { success: true, imported: importedTotal, ...stats };
+        } catch (e) {
+            console.error('JSON Import 에러:', e);
+            return { success: false, error: e.message };
+        }
+    },
+
+    /**
+     * CSV 파일에서 단어 가져오기 (비동기 + 프로그레스 + 배치 저장)
+     * 메모리에서 처리 후 한 번만 저장하여 성능 최적화
+     *
+     * @param {string} categoryId - 대상 카테고리 ID
+     * @param {string} csvData - CSV 문자열
+     * @param {Function} onProgress - 진행률 콜백 (current, total)
+     * @param {Object} options - { signal: AbortSignal } 취소 지원
+     * @returns {Promise<Object>} { success, imported, created, updated, polysemy, cancelled }
+     */
+    async importWordsFromCSVAsync(categoryId, csvData, onProgress, options = {}) {
+        try {
+            const lines = csvData.trim().split('\n');
+            const stats = { created: 0, updated: 0, polysemy: 0 };
+            const startIndex = lines[0].toLowerCase().includes('word') ? 1 : 0;
+            const total = lines.length - startIndex;
+            const CHUNK_SIZE = 200;
+
+            // 용량 체크 (가져오기 전)
+            const capacityCheck = this.canImportWords(total);
+            if (!capacityCheck.canImport) {
+                return {
+                    success: false,
+                    error: capacityCheck.message,
+                    capacityExceeded: true,
+                    maxImportable: capacityCheck.maxImportable
+                };
+            }
+
+            // 카테고리를 메모리에 로드 (한 번만)
+            const category = this.getCustomCategory(categoryId);
+            if (!category) {
+                return { success: false, error: '카테고리를 찾을 수 없습니다' };
+            }
+
+            for (let i = startIndex; i < lines.length; i++) {
+                // 취소 확인
+                if (options.signal?.aborted) {
+                    return { success: false, cancelled: true, error: '가져오기가 취소되었습니다' };
+                }
+
+                const parts = this.parseCSVLine(lines[i]);
+                if (parts.length >= 2) {
+                    const action = this.addWordToCategoryInMemory(category, {
+                        word: parts[0].trim(),
+                        pronunciation: parts[1]?.trim() || '',
+                        partOfSpeech: parts[2]?.trim() || '',
+                        meaning: parts[3]?.trim() || parts[2]?.trim() || parts[1]?.trim() || '',
+                        examples: parts[4] ? [{
+                            sentence: parts[4].trim(),
+                            translation: parts[5]?.trim() || ''
+                        }] : []
+                    });
+                    if (action === 'created') stats.created++;
+                    else if (action === 'updated') stats.updated++;
+                    else if (action === 'polysemy_added') stats.polysemy++;
+                }
+
+                const processed = i - startIndex + 1;
+                if (processed % CHUNK_SIZE === 0 || i === lines.length - 1) {
+                    if (onProgress) onProgress(processed, total);
+                    await new Promise(resolve => setTimeout(resolve, 0));
+                }
+            }
+
+            // 한 번만 저장
+            this.saveCustomCategories();
+
+            const importedTotal = stats.created + stats.updated + stats.polysemy;
+            return { success: true, imported: importedTotal, ...stats };
+        } catch (e) {
+            console.error('CSV Import 에러:', e);
+            return { success: false, error: e.message };
+        }
+    },
+
+    /**
+     * localStorage 사용량 정보 반환
+     * @returns {Object} { used, total, percent, usedFormatted, totalFormatted }
+     */
+    getStorageUsage() {
+        let used = 0;
+        for (let key in localStorage) {
+            if (localStorage.hasOwnProperty(key)) {
+                used += localStorage[key].length * 2; // UTF-16 = 2 bytes per char
+            }
+        }
+
+        // 대부분의 브라우저는 5MB 또는 10MB 제한
+        const total = 5 * 1024 * 1024; // 5MB 보수적 추정
+
+        const formatBytes = (bytes) => {
+            if (bytes < 1024) return bytes + ' B';
+            if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+            return (bytes / (1024 * 1024)).toFixed(2) + ' MB';
+        };
+
+        return {
+            used,
+            total,
+            percent: Math.round((used / total) * 100),
+            usedFormatted: formatBytes(used),
+            totalFormatted: formatBytes(total)
+        };
+    },
+
+    /**
+     * 압축 해제 시 예상 용량 초과 여부 확인
+     * @returns {Object} { canDisable, estimatedPercent, message }
+     */
+    canDisableCompression() {
+        const keys = [this.KEYS.PROGRESS, this.KEYS.STATS, this.KEYS.CUSTOM_CATEGORIES];
+        const total = 5 * 1024 * 1024; // 5MB
+        let currentUsed = 0;
+        let compressedSize = 0;
+        let decompressedSize = 0;
+
+        // 전체 사용량 계산
+        for (let key in localStorage) {
+            if (localStorage.hasOwnProperty(key)) {
+                currentUsed += localStorage[key].length * 2;
+            }
+        }
+
+        // 압축된 키들의 예상 해제 크기 계산
+        for (const key of keys) {
+            const raw = localStorage.getItem(key);
+            if (raw && raw.startsWith('LZ:')) {
+                compressedSize += raw.length * 2;
+                // 압축 해제 시도하여 실제 크기 계산
+                const data = this.decompress(raw);
+                if (data) {
+                    const jsonStr = JSON.stringify(data);
+                    decompressedSize += jsonStr.length * 2;
+                }
+            }
+        }
+
+        // 압축 해제 후 예상 사용량
+        const estimatedUsed = currentUsed - compressedSize + decompressedSize;
+        const estimatedPercent = Math.round((estimatedUsed / total) * 100);
+
+        // 90% 초과 시 (남은 용량 10% 미만) 비활성화 금지
+        if (estimatedPercent > 90) {
+            return {
+                canDisable: false,
+                estimatedPercent,
+                message: `압축 해제 시 저장소 사용량이 ${estimatedPercent}%가 되어 남은 용량이 10% 미만입니다.\n데이터를 일부 삭제한 후 다시 시도해주세요.`
+            };
+        }
+
+        return { canDisable: true, estimatedPercent, message: '' };
+    },
+
+    /**
+     * 저장소 상세 통계 반환
+     * 단어 데이터 vs 학습 상태 데이터 비율 분석
+     *
+     * [저장소 구성 분석]
+     * - 단어 데이터 (custom_categories): 단어당 평균 ~500바이트
+     * - 학습 상태 (progress): 단어당 평균 ~50바이트 (ID + 상태)
+     * - 비율: 단어 데이터가 학습 상태의 약 10배
+     *
+     * @returns {Object} 상세 저장소 통계
+     */
+    getStorageStats() {
+        const total = 5 * 1024 * 1024; // 5MB
+        let totalUsed = 0;
+        let wordDataSize = 0;
+        let progressDataSize = 0;
+        let settingsSize = 0;
+        let backupSize = 0;
+        let otherSize = 0;
+
+        for (let key in localStorage) {
+            if (!localStorage.hasOwnProperty(key)) continue;
+            const size = localStorage[key].length * 2;
+            totalUsed += size;
+
+            if (key === this.KEYS.CUSTOM_CATEGORIES) {
+                wordDataSize = size;
+            } else if (key === this.KEYS.PROGRESS) {
+                progressDataSize = size;
+            } else if (key === this.KEYS.SETTINGS) {
+                settingsSize = size;
+            } else if (key.includes('_backup')) {
+                backupSize += size;
+            } else if (key.startsWith('vocabmaster_')) {
+                otherSize += size;
+            }
+        }
+
+        // 단어 수 계산
+        const categories = this.getCustomCategories();
+        const wordCount = categories.reduce((sum, cat) => sum + (cat.words?.length || 0), 0);
+
+        // 단어당 평균 크기 계산
+        const avgWordSize = wordCount > 0 ? Math.round(wordDataSize / wordCount) : 500;
+        const avgProgressSize = wordCount > 0 ? Math.round(progressDataSize / wordCount) : 50;
+
+        return {
+            total,
+            totalUsed,
+            available: total - totalUsed,
+            percentUsed: Math.round((totalUsed / total) * 100),
+            wordDataSize,
+            progressDataSize,
+            settingsSize,
+            backupSize,
+            otherSize,
+            wordCount,
+            avgWordSize,
+            avgProgressSize,
+            wordToProgressRatio: avgProgressSize > 0 ? (avgWordSize / avgProgressSize).toFixed(1) : '10.0'
+        };
+    },
+
+    /**
+     * 단어 추가 가능 여부 확인
+     *
+     * [용량 제한 정책]
+     * - 기본 한계: 저장소 사용량 85% 초과 시 추가 금지
+     * - 안전 여유: 10% (시스템 오버헤드)
+     * - 학습 상태 여유: 5% (진행 상황 저장 공간)
+     *
+     * [계산 근거]
+     * - 단어 데이터: 학습 상태의 약 10배 크기
+     * - 학습 상태는 단어 추가 없이도 계속 변경됨
+     * - 백업 데이터도 동일 크기로 증가
+     *
+     * @param {number} estimatedNewDataSize - 추가될 데이터 예상 크기 (기본 1KB)
+     * @returns {Object} { canAdd, currentPercent, message, availableSpace }
+     */
+    canAddWord(estimatedNewDataSize = 1024) {
+        const stats = this.getStorageStats();
+        const THRESHOLD_PERCENT = 85; // 85% 초과 시 추가 금지
+
+        // 추가 후 예상 사용량 (백업도 함께 증가하므로 2배 계산)
+        const estimatedTotalSize = estimatedNewDataSize * 2; // 메인 + 백업
+        const estimatedPercent = Math.round(((stats.totalUsed + estimatedTotalSize) / stats.total) * 100);
+
+        if (stats.percentUsed >= THRESHOLD_PERCENT) {
+            return {
+                canAdd: false,
+                currentPercent: stats.percentUsed,
+                estimatedPercent,
+                availableSpace: stats.available,
+                threshold: THRESHOLD_PERCENT,
+                message: `저장소 용량이 ${stats.percentUsed}%로 한계(${THRESHOLD_PERCENT}%)에 도달했습니다.\n기존 데이터를 삭제하거나 내보내기 후 정리해주세요.`
+            };
+        }
+
+        if (estimatedPercent >= THRESHOLD_PERCENT) {
+            return {
+                canAdd: false,
+                currentPercent: stats.percentUsed,
+                estimatedPercent,
+                availableSpace: stats.available,
+                threshold: THRESHOLD_PERCENT,
+                message: `이 데이터를 추가하면 저장소가 ${estimatedPercent}%가 됩니다.\n용량 확보 후 다시 시도해주세요.`
+            };
+        }
+
+        return {
+            canAdd: true,
+            currentPercent: stats.percentUsed,
+            estimatedPercent,
+            availableSpace: stats.available,
+            threshold: THRESHOLD_PERCENT,
+            message: ''
+        };
+    },
+
+    /**
+     * 대량 가져오기 전 용량 확인
+     *
+     * @param {number} wordCount - 가져올 단어 수
+     * @param {number} avgSizePerWord - 단어당 평균 크기 (기본 500바이트)
+     * @returns {Object} { canImport, estimatedPercent, message }
+     */
+    canImportWords(wordCount, avgSizePerWord = 500) {
+        const stats = this.getStorageStats();
+        const THRESHOLD_PERCENT = 85;
+
+        // 예상 크기: (단어 데이터 + 진행 상태) * 2 (백업 포함)
+        const estimatedWordData = wordCount * avgSizePerWord;
+        const estimatedProgressData = wordCount * 50; // 진행 상태는 약 50바이트/단어
+        const estimatedTotalNew = (estimatedWordData + estimatedProgressData) * 2;
+
+        const estimatedPercent = Math.round(((stats.totalUsed + estimatedTotalNew) / stats.total) * 100);
+        const maxImportable = Math.floor((stats.total * (THRESHOLD_PERCENT / 100) - stats.totalUsed) / (avgSizePerWord * 2 + 100));
+
+        if (estimatedPercent >= THRESHOLD_PERCENT) {
+            return {
+                canImport: false,
+                currentPercent: stats.percentUsed,
+                estimatedPercent,
+                maxImportable: Math.max(0, maxImportable),
+                message: `${wordCount}개 단어 가져오기 시 저장소가 ${estimatedPercent}%가 됩니다.\n최대 약 ${Math.max(0, maxImportable)}개까지 가져올 수 있습니다.`
+            };
+        }
+
+        return {
+            canImport: true,
+            currentPercent: stats.percentUsed,
+            estimatedPercent,
+            maxImportable,
+            message: ''
+        };
     },
 
     // ========================================================================
@@ -2177,6 +2816,473 @@ const Storage = {
 
         localStorage.removeItem(this.KEYS.PROGRESS);
         localStorage.removeItem(this.KEYS.STATS);
+        // 백업 데이터도 삭제
+        localStorage.removeItem(this.BACKUP_KEYS.PROGRESS);
+        localStorage.removeItem(this.BACKUP_KEYS.STATS);
+    },
+
+    // ========================================================================
+    // 설정 초기화 함수
+    // ========================================================================
+
+    /**
+     * 사용자 설정을 기본값으로 초기화
+     *
+     * [초기화 대상]
+     * - darkMode, showPronunciation
+     * - backupReminder, debugMode, compression
+     * - ui 설정 (wordList, flashcard, blink, quiz)
+     *
+     * [초기화하지 않는 것]
+     * - progress: 학습 진도
+     * - customCategories: 사용자 카테고리
+     * - stats: 학습 통계
+     */
+    resetSettings() {
+        // 기본 설정 객체
+        const defaultSettings = {
+            darkMode: false,
+            showPronunciation: true,
+            displayMode: 'paging',
+            itemsPerPage: 20,
+            backupReminder: {
+                enabled: true,
+                frequency: 7
+            },
+            debugMode: {
+                enabled: false,
+                showTestPage: false,
+                showArchitecturePage: false
+            },
+            compression: {
+                enabled: false
+            },
+            ui: {
+                wordList: {
+                    statusFilter: 'all',
+                    viewMode: 'full'
+                },
+                flashcard: {
+                    statusFilter: 'all',
+                    autoTTS: false
+                },
+                blink: {
+                    statusFilter: 'all',
+                    speed: '2000',
+                    displayMode: 'both',
+                    repeatCount: '2',
+                    autoTTS: true
+                },
+                quiz: {
+                    statusFilter: 'all',
+                    count: '20',
+                    type: 'meaning'
+                }
+            }
+        };
+
+        // 설정 초기화
+        this.settings = defaultSettings;
+
+        // localStorage에 저장
+        try {
+            localStorage.setItem(this.KEYS.SETTINGS, JSON.stringify(this.settings));
+            this._loadStatus.settings = 'loaded';
+        } catch (e) {
+            console.error('Settings 초기화 저장 에러:', e);
+        }
+    },
+
+    // ========================================================================
+    // 데이터 압축/해제 함수 (LZ-String 사용)
+    // ========================================================================
+
+    /**
+     * 데이터를 압축하여 문자열로 반환
+     * @param {any} data - 압축할 데이터 (객체/배열)
+     * @returns {string} 압축된 문자열 (접두사 포함)
+     */
+    compress(data) {
+        if (typeof LZString === 'undefined') {
+            console.warn('[Storage] LZString 라이브러리가 로드되지 않음, JSON으로 저장');
+            return JSON.stringify(data);
+        }
+
+        try {
+            const json = JSON.stringify(data);
+            const compressed = LZString.compressToUTF16(json);
+            // 압축 데이터임을 표시하는 접두사 추가
+            return 'LZ:' + compressed;
+        } catch (e) {
+            console.error('[Storage] 압축 실패:', e);
+            return JSON.stringify(data);
+        }
+    },
+
+    /**
+     * 압축된 문자열을 데이터로 해제
+     * 자동으로 JSON과 압축 형식을 감지
+     * @param {string} raw - 저장된 원본 문자열
+     * @returns {any} 해제된 데이터 (객체/배열)
+     */
+    decompress(raw) {
+        if (!raw) return null;
+
+        // LZ-String 압축 형식 감지 (접두사 'LZ:')
+        if (raw.startsWith('LZ:')) {
+            if (typeof LZString === 'undefined') {
+                console.error('[Storage] LZString 라이브러리 없이 압축 데이터 해제 불가');
+                return null;
+            }
+
+            try {
+                const compressed = raw.substring(3); // 'LZ:' 접두사 제거
+                const json = LZString.decompressFromUTF16(compressed);
+                if (!json) {
+                    console.error('[Storage] LZ-String 해제 실패');
+                    return null;
+                }
+                return JSON.parse(json);
+            } catch (e) {
+                console.error('[Storage] 압축 해제 실패:', e);
+                return null;
+            }
+        }
+
+        // JSON 형식 감지 ('{' 또는 '[' 으로 시작)
+        if (raw.startsWith('{') || raw.startsWith('[')) {
+            try {
+                return JSON.parse(raw);
+            } catch (e) {
+                console.error('[Storage] JSON 파싱 실패:', e);
+                return null;
+            }
+        }
+
+        // 알 수 없는 형식
+        console.warn('[Storage] 알 수 없는 데이터 형식');
+        return null;
+    },
+
+    /**
+     * 데이터를 설정에 따라 저장 (압축 또는 JSON)
+     * @param {string} key - localStorage 키
+     * @param {any} data - 저장할 데이터
+     * @returns {boolean} 저장 성공 여부
+     */
+    saveCompressed(key, data) {
+        try {
+            let serialized;
+            if (this.settings.compression?.enabled) {
+                serialized = this.compress(data);
+            } else {
+                serialized = JSON.stringify(data);
+            }
+            localStorage.setItem(key, serialized);
+            return true;
+        } catch (e) {
+            console.error('[Storage] 저장 실패:', key, e);
+            return false;
+        }
+    },
+
+    /**
+     * 저장소에서 데이터 로드 (자동 형식 감지)
+     * @param {string} key - localStorage 키
+     * @returns {any} 로드된 데이터 (null if failed)
+     */
+    loadCompressed(key) {
+        try {
+            const raw = localStorage.getItem(key);
+            if (!raw) return null;
+            return this.decompress(raw);
+        } catch (e) {
+            console.error('[Storage] 로드 실패:', key, e);
+            return null;
+        }
+    },
+
+    /**
+     * 마이그레이션 진행 상태 플래그
+     * UI 차단 및 중복 실행 방지에 사용
+     */
+    _migrationInProgress: false,
+
+    /**
+     * 안전한 압축 마이그레이션 (JSON ↔ LZ-String)
+     *
+     * [안전 메커니즘]
+     * 1. UI 차단 (마이그레이션 중 사용자 조작 방지)
+     * 2. 원본 데이터 유지 (성공 시에만 삭제)
+     * 3. 실패 시 롤백 (원본 복구, 새 데이터 삭제)
+     * 4. 용량 부족 시 JSON 유지
+     *
+     * @param {boolean} enableCompression - 압축 사용 여부
+     * @returns {Promise<Object>} { success, message, details }
+     */
+    async migrateCompression(enableCompression) {
+        // 중복 실행 방지
+        if (this._migrationInProgress) {
+            return { success: false, message: '이미 마이그레이션이 진행 중입니다.' };
+        }
+
+        this._migrationInProgress = true;
+        const results = { success: true, message: '', details: [] };
+
+        // UI 차단 오버레이 표시
+        this._showMigrationOverlay(enableCompression);
+
+        const keysToMigrate = [
+            { main: this.KEYS.PROGRESS, backup: this.BACKUP_KEYS.PROGRESS, name: 'Progress' },
+            { main: this.KEYS.STATS, backup: this.BACKUP_KEYS.STATS, name: 'Stats' },
+            { main: this.KEYS.CUSTOM_CATEGORIES, backup: this.BACKUP_KEYS.CUSTOM_CATEGORIES, name: 'Categories' }
+        ];
+
+        // 임시 키 접미사 (마이그레이션 중간 상태 저장용)
+        const TEMP_SUFFIX = '_migration_temp';
+
+        try {
+            for (const { main, backup, name } of keysToMigrate) {
+                const originalRaw = localStorage.getItem(main);
+                if (!originalRaw) {
+                    results.details.push({ key: name, status: 'skipped', reason: '데이터 없음' });
+                    continue;
+                }
+
+                // 현재 형식 확인
+                const isCurrentlyCompressed = originalRaw.startsWith('LZ:');
+                if (enableCompression === isCurrentlyCompressed) {
+                    results.details.push({ key: name, status: 'skipped', reason: '이미 대상 형식' });
+                    continue;
+                }
+
+                // 데이터 해제
+                const data = this.decompress(originalRaw);
+                if (!data) {
+                    results.details.push({ key: name, status: 'error', reason: '데이터 파싱 실패' });
+                    results.success = false;
+                    continue;
+                }
+
+                // 새 형식으로 직렬화
+                let newSerialized;
+                if (enableCompression) {
+                    newSerialized = this.compress(data);
+                } else {
+                    newSerialized = JSON.stringify(data);
+                }
+
+                // 1단계: 임시 키에 새 데이터 저장 (원본 보존)
+                const tempKey = main + TEMP_SUFFIX;
+                const tempBackupKey = backup + TEMP_SUFFIX;
+
+                try {
+                    localStorage.setItem(tempKey, newSerialized);
+                    if (backup) {
+                        localStorage.setItem(tempBackupKey, newSerialized);
+                    }
+                } catch (quotaError) {
+                    // 용량 부족 시 롤백
+                    localStorage.removeItem(tempKey);
+                    localStorage.removeItem(tempBackupKey);
+
+                    results.details.push({ key: name, status: 'error', reason: '용량 부족' });
+                    results.success = false;
+                    results.message = '저장소 용량이 부족하여 마이그레이션을 중단했습니다.';
+
+                    // 모든 임시 데이터 정리
+                    this._cleanupMigrationTemp(keysToMigrate, TEMP_SUFFIX);
+                    break;
+                }
+
+                // 2단계: 임시 데이터 검증
+                const verifyRaw = localStorage.getItem(tempKey);
+                const verifyData = this.decompress(verifyRaw);
+
+                if (!verifyData || JSON.stringify(data) !== JSON.stringify(verifyData)) {
+                    // 검증 실패 - 롤백
+                    localStorage.removeItem(tempKey);
+                    localStorage.removeItem(tempBackupKey);
+
+                    results.details.push({ key: name, status: 'error', reason: '데이터 검증 실패' });
+                    results.success = false;
+                    continue;
+                }
+
+                // 3단계: 검증 성공 - 메인/백업 키에 적용
+                try {
+                    localStorage.setItem(main, newSerialized);
+                    if (backup) {
+                        localStorage.setItem(backup, newSerialized);
+                    }
+
+                    // 4단계: 임시 데이터 삭제 (성공 완료)
+                    localStorage.removeItem(tempKey);
+                    localStorage.removeItem(tempBackupKey);
+
+                    results.details.push({ key: name, status: 'success', reason: '' });
+                } catch (e) {
+                    // 적용 실패 - 원본 복구
+                    localStorage.setItem(main, originalRaw);
+                    if (backup) {
+                        const originalBackup = localStorage.getItem(backup) || originalRaw;
+                        localStorage.setItem(backup, originalBackup);
+                    }
+                    localStorage.removeItem(tempKey);
+                    localStorage.removeItem(tempBackupKey);
+
+                    results.details.push({ key: name, status: 'error', reason: '적용 실패' });
+                    results.success = false;
+                }
+            }
+
+            // 최종 메시지 설정
+            if (results.success) {
+                const successCount = results.details.filter(d => d.status === 'success').length;
+                results.message = successCount > 0
+                    ? `${successCount}개 데이터 ${enableCompression ? '압축' : 'JSON 변환'} 완료`
+                    : '변환할 데이터가 없습니다.';
+                this.debugLog(results.message);
+            } else if (!results.message) {
+                results.message = '일부 데이터 마이그레이션에 실패했습니다.';
+            }
+
+        } catch (e) {
+            console.error('[Storage] 마이그레이션 오류:', e);
+            results.success = false;
+            results.message = '마이그레이션 중 오류가 발생했습니다: ' + e.message;
+
+            // 모든 임시 데이터 정리
+            this._cleanupMigrationTemp(keysToMigrate, TEMP_SUFFIX);
+        } finally {
+            // UI 차단 해제
+            this._hideMigrationOverlay();
+            this._migrationInProgress = false;
+        }
+
+        return results;
+    },
+
+    /**
+     * 마이그레이션 임시 데이터 정리
+     * @param {Array} keys - 마이그레이션 키 목록
+     * @param {string} suffix - 임시 키 접미사
+     */
+    _cleanupMigrationTemp(keys, suffix) {
+        keys.forEach(({ main, backup }) => {
+            try {
+                localStorage.removeItem(main + suffix);
+                if (backup) {
+                    localStorage.removeItem(backup + suffix);
+                }
+            } catch (e) { }
+        });
+    },
+
+    /**
+     * 마이그레이션 UI 차단 오버레이 표시
+     * @param {boolean} enableCompression - 압축 여부 (메시지용)
+     */
+    _showMigrationOverlay(enableCompression) {
+        // 기존 오버레이 제거
+        const existing = document.getElementById('migration-overlay');
+        if (existing) existing.remove();
+
+        const overlay = document.createElement('div');
+        overlay.id = 'migration-overlay';
+        overlay.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 99999;
+        `;
+        overlay.innerHTML = `
+            <div style="
+                background: white;
+                padding: 32px;
+                border-radius: 12px;
+                text-align: center;
+                max-width: 300px;
+            ">
+                <div style="
+                    width: 48px;
+                    height: 48px;
+                    border: 4px solid #e0e0e0;
+                    border-top-color: #4285f4;
+                    border-radius: 50%;
+                    animation: spin 1s linear infinite;
+                    margin: 0 auto 16px;
+                "></div>
+                <div style="font-weight: 600; margin-bottom: 8px;">
+                    ${enableCompression ? '데이터 압축 중...' : 'JSON 변환 중...'}
+                </div>
+                <div style="color: #666; font-size: 14px;">
+                    잠시만 기다려 주세요.<br>
+                    창을 닫지 마세요.
+                </div>
+            </div>
+            <style>
+                @keyframes spin {
+                    to { transform: rotate(360deg); }
+                }
+            </style>
+        `;
+        document.body.appendChild(overlay);
+    },
+
+    /**
+     * 마이그레이션 UI 차단 오버레이 제거
+     */
+    _hideMigrationOverlay() {
+        const overlay = document.getElementById('migration-overlay');
+        if (overlay) {
+            overlay.remove();
+        }
+    },
+
+    /**
+     * 현재 저장소 사용량 및 압축률 계산
+     * @returns {Object} { totalSize, compressedSize, ratio }
+     */
+    getCompressionStats() {
+        let totalJsonSize = 0;
+        let totalStoredSize = 0;
+
+        const keys = [
+            this.KEYS.PROGRESS,
+            this.KEYS.STATS,
+            this.KEYS.CUSTOM_CATEGORIES
+        ];
+
+        keys.forEach(key => {
+            const raw = localStorage.getItem(key);
+            if (!raw) return;
+
+            totalStoredSize += raw.length * 2; // UTF-16은 문자당 2바이트
+
+            // 원본 JSON 크기 계산
+            const data = this.decompress(raw);
+            if (data) {
+                const jsonStr = JSON.stringify(data);
+                totalJsonSize += jsonStr.length * 2;
+            }
+        });
+
+        const ratio = totalJsonSize > 0
+            ? Math.round((1 - totalStoredSize / totalJsonSize) * 100)
+            : 0;
+
+        return {
+            totalJsonSize: Math.round(totalJsonSize / 1024), // KB
+            totalStoredSize: Math.round(totalStoredSize / 1024), // KB
+            ratio: ratio // 압축률 (%)
+        };
     }
 };
 

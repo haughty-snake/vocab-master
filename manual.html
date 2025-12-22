@@ -270,6 +270,211 @@
                 </div>
             </section>
 
+            <!-- 설정 기능 -->
+            <section class="section">
+                <h2 class="section-title">앱 설정 기능</h2>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">기본 설정</h3>
+                    <table>
+                        <tr>
+                            <th>설정 항목</th>
+                            <th>설명</th>
+                        </tr>
+                        <tr>
+                            <td>다크 모드</td>
+                            <td>어두운 테마로 전환 (눈의 피로 감소)</td>
+                        </tr>
+                        <tr>
+                            <td>발음 기호 표시</td>
+                            <td>단어 카드에 IPA 발음 기호 표시</td>
+                        </tr>
+                        <tr>
+                            <td>발음 억양</td>
+                            <td>미국식(US) / 영국식(UK) 발음 선택</td>
+                        </tr>
+                        <tr>
+                            <td>TTS 자동 재생</td>
+                            <td>카드 표시 시 자동으로 발음 재생</td>
+                        </tr>
+                        <tr>
+                            <td>데이터 압축</td>
+                            <td>LZ-String으로 저장 용량 50~90% 절감</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">데이터 압축 기능</h3>
+                    <div class="content-box info-box">
+                        <div class="box-title">
+                            <span class="box-icon">🗜️</span>
+                            LZ-String 압축
+                        </div>
+                        <p>대용량 학습 데이터를 효율적으로 저장하기 위한 압축 기능입니다.</p>
+                        <ul>
+                            <li><strong>압축률:</strong> 데이터 유형에 따라 50~90% 용량 절감</li>
+                            <li><strong>자동 감지:</strong> 기존 JSON 데이터와 압축 데이터 모두 자동 인식</li>
+                            <li><strong>무손실:</strong> 압축/해제 시 데이터 손실 없음</li>
+                            <li><strong>안전 변환:</strong> 변환 중 데이터 손실 방지 메커니즘 내장</li>
+                        </ul>
+                        <p style="margin-top: 12px;"><strong>사용 방법:</strong> 설정 → "데이터 압축 사용" 토글 활성화</p>
+                    </div>
+
+                    <div class="content-box success-box" style="margin-top: 12px;">
+                        <div class="box-title">
+                            <span class="box-icon">🛡️</span>
+                            안전한 형식 변환
+                        </div>
+                        <p>압축 설정 변경 시 다음 안전 메커니즘이 작동합니다:</p>
+                        <ul>
+                            <li>변환 중 화면 잠금 (작업 완료까지 대기)</li>
+                            <li>원본 데이터 보존 (임시 공간에 먼저 저장)</li>
+                            <li>데이터 검증 후 적용 (손상 시 자동 롤백)</li>
+                            <li>저장 공간 부족 시 기존 형식 유지</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">설정 초기화</h3>
+                    <div class="content-box warning-box">
+                        <div class="box-title">
+                            <span class="box-icon">🔄</span>
+                            설정 초기화 기능
+                        </div>
+                        <p>모든 설정을 기본값으로 되돌립니다.</p>
+                        <ul>
+                            <li><strong>초기화 항목:</strong> 다크 모드, 발음 설정, TTS 설정, 압축 설정 등</li>
+                            <li><strong>유지 항목:</strong> 학습 데이터(단어 진행률, 통계, 사용자 카테고리)</li>
+                        </ul>
+                        <p style="margin-top: 12px;"><strong>사용 방법:</strong> 설정 → 하단의 "설정 초기화" 버튼 클릭</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">학습 초기화</h3>
+                    <div class="content-box" style="background: #fce8e6; border-color: #ea4335;">
+                        <div class="box-title" style="color: #ea4335;">
+                            <span class="box-icon">⚠️</span>
+                            학습 초기화 (주의!)
+                        </div>
+                        <p>모든 학습 데이터를 삭제합니다. <strong>복구 불가능합니다!</strong></p>
+                        <ul>
+                            <li>단어별 학습 상태 (암기 완료/학습 중/새 단어)</li>
+                            <li>학습 통계</li>
+                            <li>사용자 정의 카테고리 및 단어</li>
+                        </ul>
+                        <p style="margin-top: 12px;"><strong>사용 방법:</strong> 설정 → 하단의 "학습 초기화" 버튼 클릭</p>
+                        <p style="color: #ea4335; font-weight: 500;">※ 실행 전 반드시 데이터 백업을 권장합니다!</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">저장소 용량 관리</h3>
+                    <div class="content-box info-box">
+                        <div class="box-title">
+                            <span class="box-icon">💾</span>
+                            용량 모니터링
+                        </div>
+                        <p>설정 화면에서 현재 저장소 사용량을 실시간으로 확인할 수 있습니다.</p>
+                        <ul>
+                            <li><strong>사용량 표시:</strong> 프로그레스 바와 수치로 현재 용량 확인</li>
+                            <li><strong>경고 표시:</strong> 70% 이상 시 노란색, 90% 이상 시 빨간색</li>
+                            <li><strong>압축률 표시:</strong> 데이터 압축 시 절감 효과 확인</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-box info-box" style="margin-top: 12px;">
+                        <div class="box-title">
+                            <span class="box-icon">📊</span>
+                            사용량과 압축률 차이
+                        </div>
+                        <p><strong>데이터 사용량</strong>과 <strong>압축률에 표시된 용량</strong>이 다른 이유:</p>
+                        <ul>
+                            <li><strong>데이터 사용량:</strong> 전체 저장소 사용량 (메인 + 백업 + 설정 + 기타)</li>
+                            <li><strong>압축률 용량:</strong> 메인 데이터만 표시 (백업 제외)</li>
+                        </ul>
+                        <p style="margin-top: 8px;">VocabMaster는 데이터 안전을 위해 <strong>메인 + 백업 이중 저장</strong> 방식을 사용합니다. 따라서 실제 저장소 사용량은 메인 데이터의 약 <strong>2배</strong>가 됩니다.</p>
+                    </div>
+
+                    <div class="content-box warning-box" style="margin-top: 12px;">
+                        <div class="box-title">
+                            <span class="box-icon">⚠️</span>
+                            용량 제한 정책
+                        </div>
+                        <p>저장소가 <strong>85%</strong>를 초과하면 새 단어 추가가 제한됩니다.</p>
+                        <ul>
+                            <li><strong>85% 한계:</strong> 시스템 안정성과 학습 상태 저장 공간 확보</li>
+                            <li><strong>자동 차단:</strong> 용량 초과 시 단어 추가/가져오기 차단</li>
+                            <li><strong>사전 경고:</strong> 대량 가져오기 시 예상 용량 미리 계산</li>
+                        </ul>
+                        <p style="margin-top: 12px;"><strong>용량 부족 해결 방법:</strong></p>
+                        <ol>
+                            <li>데이터 압축 활성화 (50~90% 절감)</li>
+                            <li>불필요한 카테고리/단어 삭제</li>
+                            <li>데이터 내보내기 후 정리</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 멀티탭 동기화 -->
+            <section class="section">
+                <h2 class="section-title">멀티탭 동기화</h2>
+
+                <div class="content-box success-box">
+                    <div class="box-title">
+                        <span class="box-icon">🔄</span>
+                        실시간 동기화
+                    </div>
+                    <p>같은 브라우저에서 여러 탭을 열어 사용해도 학습 데이터가 자동으로 동기화됩니다.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">동기화 원리</h3>
+                    <ul>
+                        <li><strong>Storage 이벤트 감지:</strong> 다른 탭에서 데이터 변경 시 자동 감지</li>
+                        <li><strong>스마트 병합:</strong> 학습 상태 충돌 시 더 높은 상태 유지</li>
+                        <li><strong>실시간 UI 업데이트:</strong> 진행률 바, 카테고리 상태 자동 갱신</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">사용 시나리오</h3>
+                    <table>
+                        <tr>
+                            <th>상황</th>
+                            <th>동작</th>
+                        </tr>
+                        <tr>
+                            <td>탭 A에서 단어 "암기 완료" 표시</td>
+                            <td>탭 B의 진행률이 자동 업데이트</td>
+                        </tr>
+                        <tr>
+                            <td>탭 A: "학습 중", 탭 B: "암기 완료"</td>
+                            <td>둘 다 "암기 완료"로 통일 (높은 상태 유지)</td>
+                        </tr>
+                        <tr>
+                            <td>탭 A에서 사용자 카테고리 추가</td>
+                            <td>탭 B에서 새 카테고리 자동 표시</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="content-box info-box">
+                    <div class="box-title">
+                        <span class="box-icon">💡</span>
+                        참고 사항
+                    </div>
+                    <ul>
+                        <li>같은 브라우저 내에서만 동기화됩니다 (Chrome ↔ Chrome)</li>
+                        <li>다른 브라우저나 기기 간에는 Export/Import를 사용하세요</li>
+                        <li>시크릿/프라이빗 모드에서는 동기화되지 않습니다</li>
+                    </ul>
+                </div>
+            </section>
+
             <!-- 데이터 백업 및 복원 -->
             <section class="section">
                 <h2 class="section-title">데이터 백업 및 복원</h2>
@@ -688,6 +893,35 @@ run,/rʌn/,명사,달리기,Let's go for a run.,달리기 하러 가자.</pre>
                         <p>뜻은 <strong>쉼표(,)</strong>로 구분하여 비교합니다.</p>
                         <p>예시: 기존 뜻이 "사과, 바나나"이고 "사과, 포도"를 입력하면 → "사과, 바나나, 포도"가 됩니다.</p>
                         <p>중복된 뜻은 자동으로 제거됩니다.</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">대량 가져오기 (Bulk Import)</h3>
+                    <p>10,000개 이상의 단어도 빠르게 가져올 수 있습니다.</p>
+
+                    <div class="content-box info-box">
+                        <div class="box-title">
+                            <span class="box-icon">⚡</span>
+                            배치 처리 성능
+                        </div>
+                        <ul>
+                            <li><strong>최적화된 처리:</strong> 메모리에서 일괄 처리 후 한 번에 저장</li>
+                            <li><strong>빠른 속도:</strong> 10,000개 단어도 수 초 내 완료</li>
+                            <li><strong>프로그레스 바:</strong> 진행률 실시간 표시 (예: 5,000 / 10,000)</li>
+                            <li><strong>중간 취소:</strong> 가져오기 중 닫기 버튼으로 취소 가능</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-box">
+                        <div class="box-title">사용 방법</div>
+                        <ol>
+                            <li>사용자 정의 카테고리 선택</li>
+                            <li>"파일 가져오기" 버튼 클릭</li>
+                            <li>JSON 또는 CSV 파일 선택</li>
+                            <li>프로그레스 바로 진행률 확인</li>
+                            <li>완료 시 결과 토스트 표시 (신규/업데이트/다의어 개수)</li>
+                        </ol>
                     </div>
                 </div>
 

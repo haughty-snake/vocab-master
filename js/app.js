@@ -2,6 +2,7 @@
 let currentView = 'home';
 let currentCategory = 'all';
 let currentCategoryFilter = 'all'; // 'all', 'active', 'inactive'
+let importAbortController = null; // 파일 가져오기 취소용
 
 // Load category from localStorage on script load
 (function loadStoredCategory() {
@@ -1444,10 +1445,12 @@ function toggleSettings() {
     const modal = document.getElementById('settings-modal');
     modal.classList.toggle('hidden');
 
-    // Update last backup date when opening settings
+    // Update displays when opening settings
     if (!modal.classList.contains('hidden')) {
         updateLastBackupDateDisplay();
         loadDebugModeSettings();
+        updateCompressionStats();  // 압축률 통계 실시간 업데이트
+        updateStorageUsage();      // 저장소 사용량 실시간 업데이트
     }
 }
 
@@ -1498,6 +1501,9 @@ function handleImport(event) {
             if (currentView === 'list-view') {
                 filterWords();
             }
+            // 압축률 통계 업데이트
+            updateCompressionStats();
+            updateStorageUsage();
         } else {
             showToast('데이터 가져오기 실패');
         }
@@ -1677,6 +1683,120 @@ function resetAllData() {
     }
 }
 
+// Settings reset function
+function resetSettings() {
+    if (confirm('설정을 기본값으로 초기화하시겠습니까?\n\n(학습 기록과 단어장은 유지됩니다)')) {
+        Storage.resetSettings();
+        showToast('설정이 초기화되었습니다');
+        // Reload page to apply default settings
+        setTimeout(() => {
+            location.reload();
+        }, 500);
+    }
+}
+
+// Compression toggle function (async for safe migration)
+async function toggleCompression() {
+    const toggle = document.getElementById('compression-toggle');
+    const enableCompression = toggle.checked;
+
+    // 비활성화 시 용량 초과 여부 사전 확인
+    if (!enableCompression) {
+        const check = Storage.canDisableCompression();
+        if (!check.canDisable) {
+            toggle.checked = true; // 토글 되돌리기
+            showToast(`❌ ${check.message}`, 5000);
+            return;
+        }
+    }
+
+    // Confirm before changing compression
+    const confirmMsg = enableCompression
+        ? '데이터 압축을 활성화하시겠습니까?\n\n저장 용량이 줄어들지만, 다른 기기에서 데이터를 가져올 때 호환성 문제가 발생할 수 있습니다.'
+        : '데이터 압축을 비활성화하시겠습니까?\n\n저장 용량이 늘어나지만, 데이터 호환성이 향상됩니다.';
+
+    if (!confirm(confirmMsg)) {
+        // Revert toggle if cancelled
+        toggle.checked = !enableCompression;
+        return;
+    }
+
+    // Migrate existing data (with UI blocking and safety checks)
+    const result = await Storage.migrateCompression(enableCompression);
+
+    if (result.success) {
+        // Update settings only if migration succeeded
+        Storage.settings.compression.enabled = enableCompression;
+        Storage.saveSettings();
+
+        // Update compression stats display
+        updateCompressionStats();
+        updateStorageUsage();
+
+        showToast(enableCompression ? '데이터 압축이 활성화되었습니다' : '데이터 압축이 비활성화되었습니다');
+    } else {
+        // Revert toggle on failure
+        toggle.checked = !enableCompression;
+        showToast(`❌ ${result.message}`, 4000);
+
+        // Log details for debugging
+        console.error('[Compression] Migration failed:', result);
+    }
+}
+
+// Update compression stats display
+function updateCompressionStats() {
+    const statsEl = document.getElementById('compression-stats');
+    const infoEl = document.getElementById('compression-info');
+
+    if (!statsEl || !infoEl) return;
+
+    if (Storage.settings.compression?.enabled) {
+        const stats = Storage.getCompressionStats();
+        statsEl.style.display = 'flex';
+
+        if (stats.ratio > 0) {
+            infoEl.textContent = `압축률: ${stats.ratio}% (${stats.totalJsonSize}KB → ${stats.totalStoredSize}KB)`;
+        } else if (stats.totalStoredSize > 0) {
+            infoEl.textContent = `저장 용량: ${stats.totalStoredSize}KB`;
+        } else {
+            infoEl.textContent = '압축률: 데이터 없음';
+        }
+    } else {
+        statsEl.style.display = 'none';
+    }
+}
+
+// Update storage usage display
+function updateStorageUsage() {
+    const barFill = document.getElementById('storage-bar-fill');
+    const textEl = document.getElementById('storage-text');
+
+    if (!barFill || !textEl) return;
+
+    const usage = Storage.getStorageUsage();
+    barFill.style.width = `${Math.min(usage.percent, 100)}%`;
+    textEl.textContent = `${usage.usedFormatted} / ${usage.totalFormatted}`;
+
+    // 색상 변경 (warning: 70%, danger: 90%)
+    barFill.classList.remove('warning', 'danger');
+    if (usage.percent >= 90) {
+        barFill.classList.add('danger');
+    } else if (usage.percent >= 70) {
+        barFill.classList.add('warning');
+    }
+}
+
+// Load compression settings
+function loadCompressionSettings() {
+    const toggle = document.getElementById('compression-toggle');
+    if (toggle) {
+        toggle.checked = Storage.settings.compression?.enabled || false;
+    }
+    updateCompressionStats();
+    updateStorageUsage();
+}
+
 // Display mode functions
 function changeDisplayMode(mode) {
     Storage.settings.displayMode = mode;
@@ -1807,6 +1927,7 @@ const originalInitApp = initApp;
 initApp = function() {
     loadDisplaySettings();
     loadBackupReminderSettings();
+    loadCompressionSettings();
     originalInitApp();
 
     // Check backup reminder after a short delay (when not studying)
@@ -1914,10 +2035,8 @@ function updateLastBackupDateDisplay() {
 
     let dateStr = `${year}-${month}-${day} ${hours}:${minutes}`;
 
-    // Add relative time
-    if (diffDays === 0) {
-        dateStr += ' (오늘)';
-    } else if (diffDays === 1) {
+    // Add relative time (skip "today" as it becomes inaccurate next day)
+    if (diffDays === 1) {
         dateStr += ' (어제)';
     } else if (diffDays < 7) {
         dateStr += ` (${diffDays}일 전)`;
@@ -2791,14 +2910,45 @@ function showImportWordsForm() {
     document.getElementById('import-words-form').classList.remove('hidden');
     document.getElementById('add-word-form').classList.add('hidden');
     document.getElementById('custom-word-list').classList.add('hidden');
+    // 초기 형식 도움말 표시 (JSON이 기본값)
+    toggleImportFormatHelp();
 }
 
 function hideImportWordsForm() {
+    // 진행 중인 가져오기 취소
+    if (importAbortController) {
+        importAbortController.abort();
+        importAbortController = null;
+    }
+    // UI 복원
+    const progressDiv = document.getElementById('import-progress');
+    const formActions = document.getElementById('import-form-actions');
+    if (progressDiv) progressDiv.classList.add('hidden');
+    if (formActions) formActions.classList.remove('hidden');
+
     document.getElementById('import-words-form').classList.add('hidden');
     document.getElementById('custom-word-list').classList.remove('hidden');
 }
 
-function importWordsFromFile() {
+// 파일 형식 선택에 따라 해당 도움말만 표시
+function toggleImportFormatHelp() {
+    const fileType = document.getElementById('import-file-type').value;
+    const jsonHelp = document.getElementById('import-format-json');
+    const csvHelp = document.getElementById('import-format-csv');
+    const fileInput = document.getElementById('import-words-file');
+
+    if (fileType === 'json') {
+        jsonHelp.classList.remove('hidden');
+        csvHelp.classList.add('hidden');
+        fileInput.accept = '.json';
+    } else {
+        jsonHelp.classList.add('hidden');
+        csvHelp.classList.remove('hidden');
+        fileInput.accept = '.csv';
+    }
+}
+
+async function importWordsFromFile() {
     const fileType = document.getElementById('import-file-type').value;
     const fileInput = document.getElementById('import-words-file');
     const file = fileInput.files[0];
@@ -2808,16 +2958,54 @@ function importWordsFromFile() {
         return;
     }
 
+    // 프로그레스 바 UI 요소
+    const formActions = document.getElementById('import-form-actions');
+    const progressDiv = document.getElementById('import-progress');
+    const progressLabel = document.getElementById('import-progress-label');
+    const progressCount = document.getElementById('import-progress-count');
+    const progressFill = document.getElementById('import-progress-fill');
+
+    // 취소용 AbortController 생성
+    importAbortController = new AbortController();
+    const signal = importAbortController.signal;
+
+    // 프로그레스 콜백
+    const onProgress = (current, total) => {
+        const percent = Math.round((current / total) * 100);
+        progressCount.textContent = `${current.toLocaleString()} / ${total.toLocaleString()}`;
+        progressFill.style.width = `${percent}%`;
+    };
+
     const reader = new FileReader();
-    reader.onload = (e) => {
+    reader.onload = async (e) => {
+        // 폼 버튼 숨기고 프로그레스 표시
+        formActions.classList.add('hidden');
+        progressDiv.classList.remove('hidden');
+        progressLabel.textContent = '가져오는 중...';
+        progressCount.textContent = '준비 중...';
+        progressFill.style.width = '0%';
+
         let result;
-        if (fileType === 'json') {
-            result = Storage.importWordsFromJSON(managingCategoryId, e.target.result);
-        } else {
-            result = Storage.importWordsFromCSV(managingCategoryId, e.target.result);
+        try {
+            if (fileType === 'json') {
+                result = await Storage.importWordsFromJSONAsync(managingCategoryId, e.target.result, onProgress, { signal });
+            } else {
+                result = await Storage.importWordsFromCSVAsync(managingCategoryId, e.target.result, onProgress, { signal });
+            }
+        } catch (err) {
+            result = { success: false, error: err.message };
         }
 
-        if (result.success) {
+        // 작업 완료 후 AbortController 해제
+        importAbortController = null;
+
+        // 프로그레스 숨기고 폼 버튼 복원
+        progressDiv.classList.add('hidden');
+        formActions.classList.remove('hidden');
+
+        if (result.cancelled) {
+            showToast('가져오기가 취소되었습니다');
+        } else if (result.success) {
             let message = '';
             if (result.created > 0) message += `신규 ${result.created}개`;
             if (result.updated > 0) message += `${message ? ', ' : ''}업데이트 ${result.updated}개`;
@@ -2825,6 +3013,10 @@ function importWordsFromFile() {
             showToast(message || '변경 없음');
             hideImportWordsForm();
             renderCustomWordList();
+            // 압축률 통계 업데이트
+            updateCompressionStats();
+            // 저장소 사용량 업데이트
+            updateStorageUsage();
         } else {
             showToast(`가져오기 실패: ${result.error}`);
         }

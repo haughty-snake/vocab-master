@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VocabMaster - 시스템 아키텍처</title>
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
     <style>
         :root {
             --primary: #4285f4;
@@ -59,26 +59,69 @@
             border-radius: 8px;
             margin-bottom: 24px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-toggle {
+            display: none;
+            width: 100%;
+            padding: 12px 16px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            margin-bottom: 0;
+            transition: background 0.2s;
+        }
+
+        .nav-toggle:hover {
+            background: #1a73e8;
+        }
+
+        .nav-toggle::after {
+            content: ' ▼';
+            font-size: 0.8rem;
+        }
+
+        .nav-toggle.active::after {
+            content: ' ▲';
         }
 
         nav ul {
             list-style: none;
             display: flex;
             flex-wrap: wrap;
-            gap: 12px;
+            row-gap: 20px;
+            column-gap: 12px;
             justify-content: center;
         }
 
         nav a {
-            color: var(--primary);
+            color: var(--text-secondary);
             text-decoration: none;
-            padding: 8px 16px;
-            border-radius: 4px;
-            transition: background 0.2s;
+            padding: 10px 18px;
+            border-radius: 20px;
+            transition: all 0.2s;
+            font-size: 0.9rem;
+            border: 1px solid var(--border);
+            background: var(--bg);
         }
 
         nav a:hover {
             background: rgba(66, 133, 244, 0.1);
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        nav a.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
         }
 
         .section {
@@ -87,6 +130,28 @@
             padding: 24px;
             margin-bottom: 24px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            padding: 0;
+            margin: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .section.active {
+            max-height: none;
+            overflow: visible;
+            opacity: 1;
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+
+        .section.rendering {
+            max-height: none;
+            overflow: visible;
+            opacity: 0;
+            padding: 24px;
+            margin-bottom: 24px;
         }
 
         .section h2 {
@@ -125,6 +190,51 @@
             padding: 16px;
             border-radius: 8px;
             margin: 16px 0;
+        }
+
+        .info-box strong {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .info-box ul,
+        .info-box ol {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            counter-reset: item;
+        }
+
+        .info-box li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 4px;
+        }
+
+        .info-box ul li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: inherit;
+        }
+
+        .info-box ol li::before {
+            counter-increment: item;
+            content: counter(item) ".";
+            position: absolute;
+            left: 0;
+            color: inherit;
+            font-weight: 600;
+        }
+
+        .section ul,
+        .section ol {
+            margin: 0 0 16px 0;
+            padding-left: 20px;
+        }
+
+        .section li {
+            margin-bottom: 4px;
         }
 
         .info-box.blue {
@@ -184,6 +294,20 @@
             color: var(--text-secondary);
         }
 
+        .key-item .json-example {
+            display: block;
+            margin-top: 8px;
+            padding: 8px;
+            background: #1e1e1e;
+            color: #9cdcfe;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.75rem;
+            border-radius: 4px;
+            white-space: pre-wrap;
+            word-break: break-all;
+            overflow-x: auto;
+        }
+
         .back-link {
             display: inline-block;
             margin: 20px 0;
@@ -211,9 +335,50 @@
                 padding: 16px;
             }
 
+            nav {
+                padding: 12px;
+            }
+
+            .nav-toggle {
+                display: block;
+            }
+
             nav ul {
-                flex-direction: column;
-                align-items: center;
+                display: none;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 8px;
+                margin-top: 12px;
+            }
+
+            nav ul.show {
+                display: grid;
+            }
+
+            nav li {
+                display: flex;
+            }
+
+            nav a {
+                flex: 1;
+                text-align: center;
+                padding: 12px 8px;
+                font-size: 0.8rem;
+                border-radius: 8px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+
+        @media (max-width: 480px) {
+            nav ul {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 6px;
+            }
+
+            nav a {
+                padding: 10px 6px;
+                font-size: 0.75rem;
             }
         }
     </style>
@@ -221,18 +386,25 @@
 <body>
     <header>
         <h1>VocabMaster 시스템 아키텍처</h1>
-        <p>데이터 보호 및 복구 메커니즘 설계 문서</p>
+        <p>데이터 보호, 복구, 멀티탭 동기화, 데이터 압축 메커니즘 설계 문서</p>
     </header>
 
     <div class="container">
         <nav>
-            <ul>
+            <button class="nav-toggle" id="navToggle">메뉴 선택</button>
+            <ul id="navMenu">
                 <li><a href="#overview">전체 구조</a></li>
                 <li><a href="#storage">저장소 구조</a></li>
                 <li><a href="#write-verify">Write-Verify 패턴</a></li>
                 <li><a href="#recovery">복구 우선순위</a></li>
                 <li><a href="#data-flow">데이터 흐름</a></li>
+                <li><a href="#multi-tab">멀티탭 동기화</a></li>
+                <li><a href="#compression">데이터 압축</a></li>
+                <li><a href="#lz-string">LZ-String 알고리즘</a></li>
+                <li><a href="#capacity">용량 관리</a></li>
+                <li><a href="#bulk-import">대량 가져오기</a></li>
                 <li><a href="#keys">저장소 키</a></li>
+                <li><a href="#license">라이선스</a></li>
             </ul>
         </nav>
 
@@ -244,23 +416,15 @@
             <div class="diagram-container">
                 <div class="mermaid">
 graph TB
-    subgraph "VocabMaster PWA"
-        UI[UI Layer<br/>index.html]
-        APP[Application Logic<br/>app.js]
-        DATA[Data Layer<br/>data.js]
-        STORAGE[Storage Layer<br/>storage.js]
-        VERSION[Version Manager<br/>version.js]
-    end
-
-    subgraph "Browser Storage"
-        LOCAL[(localStorage)]
-        SESSION[(sessionStorage)]
-    end
-
-    subgraph "External"
-        DICT[Free Dictionary API]
-        TTS[Web Speech API]
-    end
+    UI[UI Layer - index.html]
+    APP[Application Logic - app.js]
+    DATA[Data Layer - data.js]
+    STORAGE[Storage Layer - storage.js]
+    VERSION[Version Manager - version.js]
+    LOCAL[(localStorage)]
+    SESSION[(sessionStorage)]
+    DICT[Free Dictionary API]
+    TTS[Web Speech API]
 
     UI --> APP
     APP --> DATA
@@ -280,6 +444,8 @@ graph TB
                     <li>PWA 지원으로 오프라인 사용 가능</li>
                     <li>localStorage + sessionStorage 이중 저장</li>
                     <li>Write-Verify 패턴으로 데이터 무결성 보장</li>
+                    <li>멀티탭 동기화로 데이터 충돌 방지</li>
+                    <li>LZ-String 압축으로 50~90% 용량 절감</li>
                 </ul>
             </div>
         </div>
@@ -292,28 +458,11 @@ graph TB
             <div class="diagram-container">
                 <div class="mermaid">
 graph LR
-    subgraph "localStorage (영구)"
-        subgraph "Main Data"
-            MP[progress]
-            MS[stats]
-            MC[custom_categories]
-            SET[settings]
-        end
-        subgraph "Backup Data"
-            BP[progress_backup]
-            BS[stats_backup]
-            BC[categories_backup]
-        end
-    end
-
-    subgraph "sessionStorage (세션)"
-        TEMP[temp<br/>실시간 스냅샷]
-    end
-
-    MP -.->|백업| BP
-    MS -.->|백업| BS
-    MC -.->|백업| BC
-    MP -->|스냅샷| TEMP
+    MP[progress] -.->|backup| BP[progress_backup]
+    MS[stats] -.->|backup| BS[stats_backup]
+    MC[custom_categories] -.->|backup| BC[categories_backup]
+    SET[settings]
+    MP -->|snapshot| TEMP[temp - Realtime]
                 </div>
             </div>
 
@@ -345,16 +494,16 @@ graph LR
             <div class="diagram-container">
                 <div class="mermaid">
 flowchart TD
-    START([데이터 저장 요청]) --> SERIALIZE[JSON 직렬화]
+    START([저장 요청]) --> SERIALIZE[JSON 직렬화]
     SERIALIZE --> WRITE[localStorage에 쓰기]
     WRITE --> READ[다시 읽어오기]
-    READ --> PARSE{JSON 파싱<br/>성공?}
+    READ --> PARSE{JSON 파싱 성공?}
 
-    PARSE -->|성공| BACKUP[백업 데이터 갱신]
+    PARSE -->|성공| BACKUP[백업 갱신]
     BACKUP --> TEMP[sessionStorage 갱신]
     TEMP --> SUCCESS([저장 완료])
 
-    PARSE -->|실패| RESTORE{백업에서<br/>복구 시도}
+    PARSE -->|실패| RESTORE{백업에서 복구?}
     RESTORE -->|성공| NOTIFY[디버그 알림]
     NOTIFY --> PARTIAL([부분 성공])
     RESTORE -->|실패| ERROR([저장 실패])
@@ -397,38 +546,18 @@ flowchart TD
             <div class="diagram-container">
                 <div class="mermaid">
 flowchart TD
-    START([앱 초기화]) --> MAIN{Main 데이터<br/>정상?}
-
-    MAIN -->|정상| USE_MAIN[Main 사용]
-    USE_MAIN --> DONE([로드 완료])
-
-    MAIN -->|손상/없음| BACKUP{Backup 데이터<br/>정상?}
-
-    BACKUP -->|정상| RESTORE_BACKUP[Backup에서 복구]
-    RESTORE_BACKUP --> NOTIFY1[디버그 알림:<br/>백업에서 복구됨]
-    NOTIFY1 --> DONE
-
-    BACKUP -->|손상/없음| TEMP{Temp 데이터<br/>정상?}
-
-    TEMP -->|정상| RESTORE_TEMP[Temp에서 복구]
-    RESTORE_TEMP --> NOTIFY2[디버그 알림:<br/>임시저장에서 복구됨]
-    NOTIFY2 --> DONE
-
-    TEMP -->|손상/없음| HAD_DATA{이전에<br/>데이터 있었음?}
-
-    HAD_DATA -->|예| MODAL[복구 불가 모달 표시]
-    MODAL --> CHOICE{사용자 선택}
-    CHOICE -->|Import| IMPORT[백업 파일 가져오기]
-    CHOICE -->|Continue| INIT[초기 상태로 시작]
-
-    HAD_DATA -->|아니오| INIT
-
-    IMPORT --> DONE
-    INIT --> DONE
+    START([앱 초기화]) --> MAIN{Main 정상?}
+    MAIN -->|정상| USE_MAIN[Main 사용 완료]
+    MAIN -->|손상| BACKUP{Backup 정상?}
+    BACKUP -->|정상| RESTORE_B[Backup 복구 완료]
+    BACKUP -->|손상| TEMP{Temp 정상?}
+    TEMP -->|정상| RESTORE_T[Temp 복구 완료]
+    TEMP -->|손상| MODAL[복구 모달]
+    MODAL --> INIT[초기화 또는 Import]
 
     style USE_MAIN fill:#34a853,color:#fff
-    style RESTORE_BACKUP fill:#fbbc05,color:#333
-    style RESTORE_TEMP fill:#fbbc05,color:#333
+    style RESTORE_B fill:#fbbc05,color:#333
+    style RESTORE_T fill:#fbbc05,color:#333
     style MODAL fill:#ea4335,color:#fff
                 </div>
             </div>
@@ -459,20 +588,20 @@ sequenceDiagram
     participant T as sessionStorage
 
     U->>A: 단어 상태 변경
-    A->>S: saveProgress()
+    A->>S: saveProgress
     S->>S: JSON 직렬화
-    S->>L: setItem(main)
-    S->>L: getItem(main)
+    S->>L: setItem main
+    S->>L: getItem main
     S->>S: JSON 파싱 검증
 
     alt 검증 성공
-        S->>B: setItem(backup)
-        S->>T: setItem(temp)
+        S->>B: setItem backup
+        S->>T: setItem temp
         S-->>A: true
     else 검증 실패
-        S->>B: getItem(backup)
-        S->>L: setItem(main, backup)
-        S-->>A: false (복구됨)
+        S->>B: getItem backup
+        S->>L: setItem main backup
+        S-->>A: false 복구됨
     end
                 </div>
             </div>
@@ -488,26 +617,549 @@ sequenceDiagram
     participant T as sessionStorage
     participant U as UI
 
-    A->>S: init()
-    S->>L: loadSettings()
-    S->>S: loadWithRecovery(progress)
+    A->>S: init
+    S->>L: loadSettings
+    S->>S: loadWithRecovery progress
 
     alt Main 정상
-        S->>S: source = 'main'
+        S->>S: source = main
     else Backup 복구
-        S->>S: source = 'backup'
+        S->>S: source = backup
         S->>U: 디버그 알림
     else Temp 복구
-        S->>S: source = 'temp'
+        S->>S: source = temp
         S->>U: 디버그 알림
     else 복구 불가
         S->>U: 복구 모달 표시
     end
 
-    S->>S: loadWithRecovery(stats)
-    S->>S: loadWithRecovery(categories)
+    S->>S: loadWithRecovery stats
+    S->>S: loadWithRecovery categories
     S-->>A: 초기화 완료
                 </div>
+            </div>
+        </div>
+
+        <!-- 멀티탭 동기화 -->
+        <div class="section" id="multi-tab">
+            <h2>멀티탭 동기화</h2>
+            <p>여러 탭에서 동시에 앱을 사용할 때 데이터 충돌을 방지하는 메커니즘입니다.</p>
+
+            <h3>Storage 이벤트 리스닝</h3>
+            <div class="diagram-container">
+                <div class="mermaid">
+flowchart LR
+    A1[사용자 액션] --> A2[saveProgress]
+    A2 --> A3[localStorage 변경]
+    A3 -->|storage event| B1[storage 이벤트 감지]
+    B1 --> B2[reloadFromStorage]
+    B2 --> B3[UI 갱신]
+
+    style A3 fill:#4285f4,color:#fff
+    style B1 fill:#34a853,color:#fff
+                </div>
+            </div>
+
+            <div class="info-box blue">
+                <strong>Storage 이벤트:</strong>
+                <ul>
+                    <li>다른 탭에서 localStorage를 변경하면 <code>storage</code> 이벤트 발생</li>
+                    <li>현재 탭에서 변경한 경우는 이벤트가 발생하지 않음</li>
+                    <li><code>vocabmaster_</code> 접두사가 있는 키만 처리 (백업 키 제외)</li>
+                </ul>
+            </div>
+
+            <h3>Read-Modify-Write 패턴</h3>
+            <div class="diagram-container">
+                <div class="mermaid">
+flowchart LR
+    READ[1. Read] --> MODIFY[2. Modify/Merge] --> WRITE[3. Write-Verify]
+
+    style READ fill:#e8f0fe,color:#333
+    style MODIFY fill:#fef7e0,color:#333
+    style WRITE fill:#e6f4ea,color:#333
+                </div>
+            </div>
+
+            <h3>Progress 머지 전략</h3>
+            <div class="diagram-container">
+                <div class="mermaid">
+flowchart LR
+    NEW[new 0] --> LEARNING[learning 1]
+    LEARNING --> MEMORIZED[memorized 2]
+
+    style MEMORIZED fill:#34a853,color:#fff
+                </div>
+            </div>
+
+            <div class="info-box green">
+                <strong>머지 규칙:</strong>
+                <ul>
+                    <li>동일 단어의 학습 상태가 충돌하면 더 높은 상태를 유지</li>
+                    <li><code>new(0) < learning(1) < memorized(2)</code></li>
+                    <li>학습 진행은 절대 뒤로 가지 않음 (사용자 경험 보호)</li>
+                </ul>
+            </div>
+
+            <h3>동기화 함수 목록</h3>
+            <div class="key-list">
+                <div class="key-item">
+                    <code>setupStorageEventListener()</code>
+                    <span>storage 이벤트 리스너 등록 (init 시 호출)</span>
+                </div>
+                <div class="key-item">
+                    <code>reloadProgressFromStorage()</code>
+                    <span>진행률 재로드 + renderProgress() 호출</span>
+                </div>
+                <div class="key-item">
+                    <code>reloadCustomCategoriesFromStorage()</code>
+                    <span>사용자 카테고리 재로드 + renderCategories() 호출</span>
+                </div>
+                <div class="key-item">
+                    <code>_mergeProgress(base, overlay)</code>
+                    <span>진행률 머지 (높은 상태 유지)</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 데이터 압축 -->
+        <div class="section" id="compression">
+            <h2>데이터 압축 (LZ-String)</h2>
+            <p>localStorage 용량 최적화를 위한 선택적 압축 기능입니다.</p>
+
+            <h3>압축 흐름</h3>
+            <div class="diagram-container">
+                <div class="mermaid">
+flowchart LR
+    S1[데이터] --> S2{압축?}
+    S2 -->|예| S3[LZ 압축] --> S5[저장]
+    S2 -->|아니오| S5
+    S5 --> L1[로드] --> L2{LZ:?}
+    L2 -->|예| L3[압축 해제] --> L5[데이터]
+    L2 -->|아니오| L5
+
+    style S3 fill:#4285f4,color:#fff
+    style L3 fill:#4285f4,color:#fff
+                </div>
+            </div>
+
+            <div class="info-box blue">
+                <strong>자동 형식 감지:</strong>
+                <ul>
+                    <li><code>'LZ:'</code> 접두사: LZ-String 압축 형식</li>
+                    <li><code>'{'</code> 또는 <code>'['</code>: JSON 형식</li>
+                    <li>로드 시 자동 감지하여 적절한 방식으로 해제</li>
+                </ul>
+            </div>
+
+            <h3>압축률 예시</h3>
+            <div class="diagram-container">
+                <div class="mermaid">
+pie title 1000개 단어 데이터 압축
+    "압축 후 4KB" : 9
+    "절감 용량 36KB" : 91
+                </div>
+            </div>
+
+            <div class="info-box green">
+                <strong>압축 효과:</strong>
+                <ul>
+                    <li>반복적인 패턴이 많은 데이터에서 50~90% 용량 절감</li>
+                    <li>UTF-16 최적화로 localStorage에 효율적 저장</li>
+                    <li>설정에서 압축 사용 여부 선택 가능</li>
+                </ul>
+            </div>
+
+            <h3>압축 관련 함수</h3>
+            <div class="key-list">
+                <div class="key-item">
+                    <code>compress(data)</code>
+                    <span>LZ-String UTF-16 압축 (접두사 'LZ:' 추가)</span>
+                </div>
+                <div class="key-item">
+                    <code>decompress(raw)</code>
+                    <span>자동 형식 감지 및 해제</span>
+                </div>
+                <div class="key-item">
+                    <code>migrateCompression(enable)</code>
+                    <span>안전한 압축 형식 변환 (async, UI 차단, 롤백 지원)</span>
+                </div>
+                <div class="key-item">
+                    <code>getCompressionStats()</code>
+                    <span>압축률 통계 계산</span>
+                </div>
+                <div class="key-item">
+                    <code>_showMigrationOverlay()</code>
+                    <span>마이그레이션 중 UI 차단 오버레이 표시</span>
+                </div>
+                <div class="key-item">
+                    <code>_cleanupMigrationTemp()</code>
+                    <span>임시 마이그레이션 데이터 정리</span>
+                </div>
+            </div>
+
+            <div class="info-box blue">
+                <strong>안전한 마이그레이션 메커니즘:</strong>
+                <ul>
+                    <li>UI 차단: 마이그레이션 중 사용자 조작 방지</li>
+                    <li>원본 보존: 임시 키(_migration_temp)에 먼저 저장</li>
+                    <li>데이터 검증: 원본과 일치하는지 확인 후 적용</li>
+                    <li>자동 롤백: 실패 시 임시 데이터 삭제, 원본 유지</li>
+                    <li>용량 확인: 저장소 부족 시 JSON 형식 유지</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- LZ-String 알고리즘 상세 -->
+        <div class="section" id="lz-string">
+            <h2>LZ-String 압축 알고리즘</h2>
+            <p>LZ-String은 JavaScript 환경에 최적화된 무손실 압축 라이브러리입니다.</p>
+
+            <h3>알고리즘 원리</h3>
+            <div class="info-box blue">
+                <strong>LZ77 기반 사전 압축:</strong>
+                <ul>
+                    <li><strong>슬라이딩 윈도우</strong>: 이미 처리된 데이터에서 반복 패턴 탐색</li>
+                    <li><strong>거리-길이 쌍</strong>: 반복되는 문자열을 (거리, 길이) 참조로 대체</li>
+                    <li><strong>적응형 사전</strong>: 압축 중 동적으로 사전 구축</li>
+                </ul>
+            </div>
+
+            <h3>동작 방식 예시</h3>
+            <div class="code-block">// 원본 데이터
+"ABRACADABRA"
+
+// LZ77 압축 과정
+A → 리터럴 'A'
+B → 리터럴 'B'
+R → 리터럴 'R'
+A → 리터럴 'A'
+C → 리터럴 'C'
+A → 리터럴 'A'
+D → 리터럴 'D'
+ABRA → (거리:7, 길이:4) // 7글자 전 위치에서 4글자 복사
+
+// 결과: "ABRACAD" + (7,4)
+// 11자 → 8개 토큰으로 압축</div>
+
+            <h3>UTF-16 최적화</h3>
+            <div class="info-box green">
+                <strong>compressToUTF16() 사용 이유:</strong>
+                <ul>
+                    <li>JavaScript 문자열은 UTF-16으로 저장 (문자당 2바이트)</li>
+                    <li>localStorage도 UTF-16 기반</li>
+                    <li>일반 압축 결과는 바이너리 → UTF-16 변환 시 오버헤드 발생</li>
+                    <li><code>compressToUTF16()</code>은 결과를 UTF-16 호환 문자로 출력</li>
+                    <li>저장 공간 효율 극대화 (50~90% 절감)</li>
+                </ul>
+            </div>
+
+            <h3>압축 효율 특성</h3>
+            <table style="width:100%; border-collapse: collapse; margin: 16px 0;">
+                <tr style="background: var(--primary); color: white;">
+                    <th style="padding: 12px; text-align: left;">데이터 유형</th>
+                    <th style="padding: 12px; text-align: center;">예상 압축률</th>
+                    <th style="padding: 12px; text-align: left;">이유</th>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 12px;">단어 목록 (JSON)</td>
+                    <td style="padding: 12px; text-align: center;">70~90%</td>
+                    <td style="padding: 12px;">반복 키 이름, 유사 구조</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 12px;">학습 진행 상태</td>
+                    <td style="padding: 12px; text-align: center;">80~95%</td>
+                    <td style="padding: 12px;">ID 패턴 반복, 상태값 제한적</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 12px;">설정 데이터</td>
+                    <td style="padding: 12px; text-align: center;">30~50%</td>
+                    <td style="padding: 12px;">데이터 크기 작음, 효율 낮음</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px;">바이너리/이미지</td>
+                    <td style="padding: 12px; text-align: center;">0~20%</td>
+                    <td style="padding: 12px;">이미 압축됨, 엔트로피 높음</td>
+                </tr>
+            </table>
+
+            <h3>구현 코드</h3>
+            <div class="code-block">// 압축 (저장 시)
+compress(data) {
+    if (!this.settings.useCompression) {
+        return JSON.stringify(data);
+    }
+    const json = JSON.stringify(data);
+    const compressed = LZString.compressToUTF16(json);
+    return 'LZ:' + compressed; // 접두사로 형식 표시
+}
+
+// 해제 (로드 시)
+decompress(raw) {
+    if (!raw) return null;
+    if (raw.startsWith('LZ:')) {
+        // LZ-String 압축 형식
+        const decompressed = LZString.decompressFromUTF16(raw.slice(3));
+        return JSON.parse(decompressed);
+    }
+    // JSON 형식 (호환성)
+    return JSON.parse(raw);
+}</div>
+
+            <div class="info-box yellow">
+                <strong>주의사항:</strong>
+                <ul>
+                    <li>압축/해제는 CPU 집약적 작업 → 대량 데이터는 비동기 처리 권장</li>
+                    <li>이미 압축된 데이터를 다시 압축하면 오히려 커질 수 있음</li>
+                    <li>마이그레이션 시 원본 보존 후 변환 (롤백 대비)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 저장소 용량 관리 -->
+        <div class="section" id="capacity">
+            <h2>저장소 용량 관리</h2>
+            <p>localStorage의 제한된 용량(5MB)을 효율적으로 관리하고, 용량 초과를 방지합니다.</p>
+
+            <h3>용량 구성 분석</h3>
+            <table style="width:100%; border-collapse: collapse; margin: 16px 0;">
+                <tr style="background: var(--primary); color: white;">
+                    <th style="padding: 12px; text-align: left;">데이터 유형</th>
+                    <th style="padding: 12px; text-align: center;">단어당 크기</th>
+                    <th style="padding: 12px; text-align: center;">10,000단어 시</th>
+                    <th style="padding: 12px; text-align: left;">설명</th>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 12px;">단어 데이터</td>
+                    <td style="padding: 12px; text-align: center;">~500 bytes</td>
+                    <td style="padding: 12px; text-align: center;">~5 MB</td>
+                    <td style="padding: 12px;">단어, 발음, 뜻, 예문</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 12px;">학습 상태</td>
+                    <td style="padding: 12px; text-align: center;">~50 bytes</td>
+                    <td style="padding: 12px; text-align: center;">~500 KB</td>
+                    <td style="padding: 12px;">ID + 상태(new/learning/memorized)</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 12px;">백업 데이터</td>
+                    <td style="padding: 12px; text-align: center;">동일</td>
+                    <td style="padding: 12px; text-align: center;">~5.5 MB</td>
+                    <td style="padding: 12px;">메인 + 백업 이중 저장</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px;"><strong>비율</strong></td>
+                    <td style="padding: 12px; text-align: center;" colspan="3">단어 데이터 : 학습 상태 ≈ <strong>10 : 1</strong></td>
+                </tr>
+            </table>
+
+            <h3>용량 제한 정책</h3>
+            <div class="diagram-container">
+                <div class="mermaid">
+flowchart LR
+    CHECK[용량 체크] --> PERCENT{사용률?}
+    PERCENT -->|85% 미만| ALLOW[추가 허용]
+    PERCENT -->|85% 이상| BLOCK[추가 차단]
+    BLOCK --> MSG[경고 메시지]
+
+    style ALLOW fill:#34a853,color:#fff
+    style BLOCK fill:#ea4335,color:#fff
+                </div>
+            </div>
+
+            <div class="info-box red">
+                <strong>85% 한계 설정 근거:</strong>
+                <ul>
+                    <li><strong>10% 시스템 여유</strong>: 브라우저 오버헤드, 임시 데이터</li>
+                    <li><strong>5% 학습 상태 여유</strong>: 단어 추가 없이도 상태 변경됨</li>
+                    <li><strong>백업 데이터 고려</strong>: 메인 + 백업 이중 저장</li>
+                </ul>
+            </div>
+
+            <h3>용량 체크 함수</h3>
+            <div class="key-list">
+                <div class="key-item">
+                    <code>getStorageUsage()</code>
+                    <span>현재 사용량 / 전체 용량 / 퍼센트 반환</span>
+                </div>
+                <div class="key-item">
+                    <code>getStorageStats()</code>
+                    <span>상세 통계: 단어/진행/백업 별 용량, 단어당 평균 크기</span>
+                </div>
+                <div class="key-item">
+                    <code>canAddWord(estimatedSize)</code>
+                    <span>단어 추가 가능 여부 확인 (85% 한계)</span>
+                </div>
+                <div class="key-item">
+                    <code>canImportWords(count, avgSize)</code>
+                    <span>대량 가져오기 전 용량 확인 + 최대 가져올 수 있는 단어 수 계산</span>
+                </div>
+                <div class="key-item">
+                    <code>canDisableCompression()</code>
+                    <span>압축 해제 시 90% 초과 여부 확인</span>
+                </div>
+            </div>
+
+            <h3>사용량 표시 차이</h3>
+            <div class="info-box blue">
+                <strong>데이터 사용량 vs 압축률 용량이 다른 이유:</strong>
+                <ul>
+                    <li><strong>getStorageUsage()</strong>: localStorage 전체 사용량 (메인 + 백업 + 설정 + 기타)</li>
+                    <li><strong>getCompressionStats()</strong>: 메인 데이터만 계산 (progress, stats, custom_categories)</li>
+                </ul>
+            </div>
+
+            <div class="diagram-container">
+                <div class="mermaid">
+flowchart LR
+    subgraph TOTAL["전체 사용량 (getStorageUsage)"]
+        MAIN[메인 데이터]
+        BACKUP[백업 데이터]
+        SETTINGS[설정]
+        OTHER[기타]
+    end
+    subgraph COMP["압축률 계산 (getCompressionStats)"]
+        MAIN2[메인 데이터만]
+    end
+
+    style BACKUP fill:#fbbc05,color:#333
+    style MAIN fill:#34a853,color:#fff
+    style MAIN2 fill:#34a853,color:#fff
+                </div>
+            </div>
+
+            <div class="info-box yellow">
+                <strong>백업으로 인한 용량 증가:</strong>
+                <ul>
+                    <li>VocabMaster는 데이터 안전을 위해 <strong>메인 + 백업 이중 저장</strong> 방식 사용</li>
+                    <li>실제 저장소 사용량은 메인 데이터의 약 <strong>2배</strong></li>
+                    <li>압축률 화면에는 메인 데이터만 표시되어 전체 사용량과 차이 발생</li>
+                </ul>
+            </div>
+
+            <h3>용량 부족 시 대응</h3>
+            <div class="info-box green">
+                <strong>권장 조치:</strong>
+                <ul>
+                    <li>데이터 압축 활성화 (50~90% 절감)</li>
+                    <li>불필요한 카테고리/단어 삭제</li>
+                    <li>데이터 내보내기 → 정리 → 필요한 것만 다시 가져오기</li>
+                    <li>완료된 학습 데이터 초기화</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 대량 가져오기 -->
+        <div class="section" id="bulk-import">
+            <h2>대량 가져오기 (Bulk Import)</h2>
+            <p>10,000개 이상의 단어를 효율적으로 가져오기 위한 배치 처리 아키텍처입니다.</p>
+
+            <h3>성능 최적화 구조</h3>
+            <div class="diagram-container">
+                <div class="mermaid">
+flowchart LR
+    O1[단어] --> S1[저장] --> O2[단어] --> S2[저장] --> O3[...]
+    N1[단어들] --> M[메모리] --> SAVE[한번 저장]
+
+    style S1 fill:#ff6b6b,color:#fff
+    style S2 fill:#ff6b6b,color:#fff
+    style SAVE fill:#4caf50,color:#fff
+                </div>
+            </div>
+
+            <div class="info-box red">
+                <strong>기존 방식의 문제점:</strong>
+                <ul>
+                    <li>단어마다 <code>saveCustomCategories()</code> 호출</li>
+                    <li>10,000단어 = 10,000번 localStorage 쓰기</li>
+                    <li>O(n²) 복잡도로 수 분 이상 소요</li>
+                    <li>UI 블로킹으로 화면 멈춤 현상</li>
+                </ul>
+            </div>
+
+            <div class="info-box green">
+                <strong>배치 방식의 장점:</strong>
+                <ul>
+                    <li>메모리에서 모든 단어 처리 후 한 번만 저장</li>
+                    <li>O(n) 복잡도로 수 초 내 완료</li>
+                    <li>200개 단위로 UI 업데이트 (프로그레스 바)</li>
+                    <li>AbortController로 중간 취소 지원</li>
+                </ul>
+            </div>
+
+            <h3>처리 흐름</h3>
+            <div class="diagram-container">
+                <div class="mermaid">
+sequenceDiagram
+    participant U as 사용자
+    participant A as App
+    participant S as Storage
+    participant L as localStorage
+
+    U->>A: 파일 선택
+    A->>A: AbortController 생성
+    A->>S: importWordsFromJSONAsync
+    S->>S: 카테고리 메모리 로드
+
+    loop 200단어마다
+        S->>S: addWordToCategoryInMemory
+        S-->>A: onProgress 콜백
+        A->>A: 프로그레스바 업데이트
+        S->>S: await setTimeout
+        Note over S: UI 스레드 양보
+    end
+
+    S->>L: saveCustomCategories
+    S-->>A: 결과 반환
+    A->>U: 토스트 표시
+                </div>
+            </div>
+
+            <h3>취소 메커니즘</h3>
+            <div class="diagram-container">
+                <div class="mermaid">
+flowchart LR
+    START[시작] --> LOOP[단어 처리 루프]
+    LOOP --> CHECK{취소?}
+    CHECK -->|예| CANCEL[취소]
+    CHECK -->|아니오| DONE{완료?}
+    DONE -->|예| SAVE[저장 성공]
+    DONE -->|아니오| LOOP
+
+    style CANCEL fill:#ff6b6b,color:#fff
+    style SAVE fill:#4caf50,color:#fff
+                </div>
+            </div>
+
+            <h3>관련 함수</h3>
+            <div class="key-list">
+                <div class="key-item">
+                    <code>importWordsFromJSONAsync(categoryId, jsonData, onProgress, options)</code>
+                    <span>JSON 비동기 배치 가져오기 (취소 지원)</span>
+                </div>
+                <div class="key-item">
+                    <code>importWordsFromCSVAsync(categoryId, csvData, onProgress, options)</code>
+                    <span>CSV 비동기 배치 가져오기 (취소 지원)</span>
+                </div>
+                <div class="key-item">
+                    <code>addWordToCategoryInMemory(category, word)</code>
+                    <span>메모리 전용 단어 추가 (저장 안함)</span>
+                </div>
+                <div class="key-item">
+                    <code>importAbortController</code>
+                    <span>가져오기 취소용 AbortController (app.js 전역)</span>
+                </div>
+            </div>
+
+            <h3>프로그레스 UI</h3>
+            <div class="info-box blue">
+                <strong>사용자 피드백:</strong>
+                <ul>
+                    <li>프로그레스 바로 진행률 시각화</li>
+                    <li>현재/전체 카운트 표시 (예: 5,000 / 10,000)</li>
+                    <li>폼 닫기 시 자동 취소 + 토스트 알림</li>
+                    <li>완료 시 신규/업데이트/다의어 통계 표시</li>
+                </ul>
             </div>
         </div>
 
@@ -521,18 +1173,39 @@ sequenceDiagram
                 <div class="key-item">
                     <code>vocabmaster_progress</code>
                     <span>단어별 학습 상태 (unknown/learning/known)</span>
+                    <div class="json-example">{
+  "apple": "memorized",
+  "banana": "learning",
+  "cherry": "new"
+}</div>
                 </div>
                 <div class="key-item">
                     <code>vocabmaster_stats</code>
                     <span>학습 통계 (총 시간, 세션 수 등)</span>
+                    <div class="json-example">{
+  "totalTime": 3600,
+  "sessions": 15,
+  "lastStudy": "2025-01-15T10:30:00Z"
+}</div>
                 </div>
                 <div class="key-item">
                     <code>vocabmaster_custom_categories</code>
                     <span>사용자 정의 카테고리 및 단어</span>
+                    <div class="json-example">[{
+  "id": "cat_1",
+  "name": "비즈니스",
+  "words": ["meeting", "proposal"]
+}]</div>
                 </div>
                 <div class="key-item">
                     <code>vocabmaster_settings</code>
                     <span>사용자 설정 (다크모드, 발음 등)</span>
+                    <div class="json-example">{
+  "darkMode": false,
+  "pronunciation": "us",
+  "autoplay": true,
+  "compression": true
+}</div>
                 </div>
             </div>
 
@@ -540,15 +1213,21 @@ sequenceDiagram
             <div class="key-list">
                 <div class="key-item">
                     <code>vocabmaster_progress_backup</code>
-                    <span>progress의 백업본</span>
+                    <span>progress의 백업본 (동일 구조)</span>
+                    <div class="json-example">// progress와 동일한 JSON 구조
+// Main 저장 성공 시 자동 복제</div>
                 </div>
                 <div class="key-item">
                     <code>vocabmaster_stats_backup</code>
-                    <span>stats의 백업본</span>
+                    <span>stats의 백업본 (동일 구조)</span>
+                    <div class="json-example">// stats와 동일한 JSON 구조
+// Main 저장 성공 시 자동 복제</div>
                 </div>
                 <div class="key-item">
                     <code>vocabmaster_custom_categories_backup</code>
-                    <span>custom_categories의 백업본</span>
+                    <span>custom_categories의 백업본 (동일 구조)</span>
+                    <div class="json-example">// custom_categories와 동일
+// Main 저장 성공 시 자동 복제</div>
                 </div>
             </div>
 
@@ -557,15 +1236,100 @@ sequenceDiagram
                 <div class="key-item">
                     <code>vocabmaster_disabled_categories</code>
                     <span>비활성화된 카테고리 ID 목록</span>
+                    <div class="json-example">["toeic", "toefl", "cat_1"]</div>
                 </div>
                 <div class="key-item">
                     <code>vocabmaster_backup_info</code>
                     <span>마지막 백업 날짜 정보</span>
+                    <div class="json-example">{
+  "lastBackup": "2025-01-15"
+}</div>
                 </div>
                 <div class="key-item">
                     <code>vocabmaster_temp</code>
                     <span>sessionStorage - 실시간 진행 스냅샷</span>
+                    <div class="json-example">// progress와 동일한 구조
+// 탭 열려있는 동안만 유지</div>
                 </div>
+            </div>
+        </div>
+
+        <!-- 라이선스 정보 -->
+        <div class="section" id="license">
+            <h2>라이선스 정보</h2>
+            <p>VocabMaster에서 사용하는 외부 라이브러리 및 리소스의 라이선스입니다.</p>
+
+            <h3>사용 라이브러리</h3>
+            <table style="width:100%; border-collapse: collapse; margin: 16px 0;">
+                <tr style="background: var(--primary); color: white;">
+                    <th style="padding: 12px; text-align: left;">라이브러리</th>
+                    <th style="padding: 12px; text-align: center;">버전</th>
+                    <th style="padding: 12px; text-align: center;">라이선스</th>
+                    <th style="padding: 12px; text-align: left;">용도</th>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 12px;"><strong>LZ-String</strong></td>
+                    <td style="padding: 12px; text-align: center;">1.5.0</td>
+                    <td style="padding: 12px; text-align: center;">MIT</td>
+                    <td style="padding: 12px;">데이터 압축 (localStorage 최적화)</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 12px;"><strong>Mermaid.js</strong></td>
+                    <td style="padding: 12px; text-align: center;">10.6.1</td>
+                    <td style="padding: 12px; text-align: center;">MIT</td>
+                    <td style="padding: 12px;">아키텍처 문서 다이어그램</td>
+                </tr>
+            </table>
+
+            <h3>외부 API</h3>
+            <table style="width:100%; border-collapse: collapse; margin: 16px 0;">
+                <tr style="background: var(--primary); color: white;">
+                    <th style="padding: 12px; text-align: left;">API</th>
+                    <th style="padding: 12px; text-align: center;">제공자</th>
+                    <th style="padding: 12px; text-align: left;">용도</th>
+                    <th style="padding: 12px; text-align: left;">이용 조건</th>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 12px;"><strong>Free Dictionary API</strong></td>
+                    <td style="padding: 12px; text-align: center;">dictionaryapi.dev</td>
+                    <td style="padding: 12px;">단어 정의, 발음, 예문 조회</td>
+                    <td style="padding: 12px;">무료, 상업적 사용 가능</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 12px;"><strong>Web Speech API</strong></td>
+                    <td style="padding: 12px; text-align: center;">브라우저 내장</td>
+                    <td style="padding: 12px;">TTS 발음 재생</td>
+                    <td style="padding: 12px;">브라우저 표준 API</td>
+                </tr>
+            </table>
+
+            <h3>MIT 라이선스 전문</h3>
+            <div class="code-block" style="font-size: 0.85rem;">MIT License
+
+Copyright (c) [라이브러리 저작권자]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</div>
+
+            <div class="info-box green">
+                <strong>VocabMaster 라이선스:</strong>
+                <ul>
+                    <li>VocabMaster는 개인 학습 목적의 오픈소스 프로젝트입니다.</li>
+                    <li>모든 사용 라이브러리는 MIT 라이선스 (상업적 사용 가능)</li>
+                    <li>Free Dictionary API는 무료 공개 API</li>
+                    <li>저작권 표시 의무: LZ-String 사용 시 MIT 라이선스 명시</li>
+                </ul>
             </div>
         </div>
 
@@ -573,23 +1337,95 @@ sequenceDiagram
     </div>
 
     <footer>
-        VocabMaster Architecture Document | Version 1.0.0
+        VocabMaster Architecture Document | Version 1.3.0 (용량 관리, LZ-String 상세, 라이선스 추가)
     </footer>
 
     <script>
         mermaid.initialize({
-            startOnLoad: true,
+            startOnLoad: false,
             theme: 'default',
             securityLevel: 'loose',
-            flowchart: {
-                useMaxWidth: true,
-                htmlLabels: true,
-                curve: 'basis'
-            },
-            sequence: {
-                useMaxWidth: true,
-                wrap: true
+            suppressErrorRendering: true
+        });
+
+        // 탭 네비게이션
+        document.addEventListener('DOMContentLoaded', async function() {
+            const navLinks = document.querySelectorAll('nav a');
+            const sections = document.querySelectorAll('.section');
+            const navToggle = document.getElementById('navToggle');
+            const navMenu = document.getElementById('navMenu');
+
+            // 모바일 메뉴 토글
+            navToggle.addEventListener('click', function() {
+                navMenu.classList.toggle('show');
+                navToggle.classList.toggle('active');
+            });
+
+            // 모든 섹션을 렌더링 모드로 (보이지만 투명)
+            sections.forEach(s => s.classList.add('rendering'));
+
+            // mermaid 렌더링 (v10 API)
+            try {
+                await mermaid.run({
+                    nodes: document.querySelectorAll('.mermaid'),
+                    suppressErrors: true
+                });
+            } catch (e) {
+                console.log('Mermaid render warning:', e);
             }
+
+            // 렌더링 후 렌더링 클래스 제거
+            sections.forEach(s => s.classList.remove('rendering'));
+
+            function showSection(targetId) {
+                // 모든 섹션 숨기기
+                sections.forEach(section => {
+                    section.classList.remove('active');
+                });
+
+                // 모든 네비게이션 비활성화
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                });
+
+                // 대상 섹션 표시
+                const targetSection = document.querySelector(targetId);
+                if (targetSection) {
+                    targetSection.classList.add('active');
+                }
+
+                // 해당 네비게이션 활성화
+                const activeLink = document.querySelector(`nav a[href="${targetId}"]`);
+                if (activeLink) {
+                    activeLink.classList.add('active');
+                }
+            }
+
+            // 네비게이션 클릭 이벤트
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    showSection(targetId);
+                    // URL 해시 업데이트 (뒤로가기 지원)
+                    history.pushState(null, '', targetId);
+                    // 모바일에서 메뉴 선택 후 닫기
+                    if (window.innerWidth <= 768) {
+                        navMenu.classList.remove('show');
+                        navToggle.classList.remove('active');
+                    }
+                });
+            });
+
+            // 뒤로가기/앞으로가기 지원
+            window.addEventListener('popstate', function() {
+                const hash = window.location.hash || '#overview';
+                showSection(hash);
+            });
+
+            // 초기 로드 시 해시가 있으면 해당 섹션 표시, 없으면 첫 번째 섹션
+            const initialHash = window.location.hash || '#overview';
+            showSection(initialHash);
         });
     </script>
 </body>

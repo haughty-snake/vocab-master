@@ -1,7 +1,7 @@
 // VocabMaster Service Worker
-const CACHE_NAME = 'vocabmaster-v3';
-const STATIC_CACHE = 'vocabmaster-static-v3';
-const DATA_CACHE = 'vocabmaster-data-v3';
+const CACHE_NAME = 'vocabmaster-v4';
+const STATIC_CACHE = 'vocabmaster-static-v4';
+const DATA_CACHE = 'vocabmaster-data-v4';
 
 // Files to cache immediately on install
 const STATIC_FILES = [
@@ -12,6 +12,8 @@ const STATIC_FILES = [
   './js/app.js',
   './js/data.js',
   './js/storage.js',
+  './js/version.js',
+  './js/lz-string.min.js',
   './js/data.bundle.js',
   './manifest.json',
   './icons/icon-72x72.png',
