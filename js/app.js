@@ -3679,18 +3679,22 @@ let backPressTimeout = null;
 function initPWABackHandler() {
     // Push initial state to enable back button handling
     if (window.history && window.history.pushState) {
-        // Push a state so we can intercept the back button
-        window.history.pushState({ page: 'app' }, '', '');
+        // Push multiple states to create a buffer for back button interception
+        // This prevents immediate exit on first back press
+        window.history.pushState({ page: 'app', index: 1 }, '', '');
+        window.history.pushState({ page: 'app', index: 2 }, '', '');
 
         window.addEventListener('popstate', handleBackButton);
     }
 }
 
 function handleBackButton(e) {
-    console.log('[PWA] Back button pressed, currentView:', currentView);
+    console.log('[PWA] Back button pressed, currentView:', currentView, 'history.length:', history.length);
 
     // Always push state back to maintain back button functionality
-    window.history.pushState({ page: 'app' }, '', '');
+    // Push two states to ensure we have enough buffer
+    window.history.pushState({ page: 'app', index: 1 }, '', '');
+    window.history.pushState({ page: 'app', index: 2 }, '', '');
 
     // Check if any modal is open
     const openModals = document.querySelectorAll('.modal:not(.hidden)');
@@ -3733,10 +3737,11 @@ function handleBackButton(e) {
         if (backPressTimeout) {
             clearTimeout(backPressTimeout);
         }
+        console.log('[PWA] Double back press - exiting app');
         // Remove the popstate handler to allow actual exit
         window.removeEventListener('popstate', handleBackButton);
-        // Go back to actually exit
-        window.history.back();
+        // Go back multiple times to actually exit (clear our pushed states)
+        window.history.go(-(history.length - 1));
         return;
     }
 
