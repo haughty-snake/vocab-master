@@ -3687,6 +3687,8 @@ function initPWABackHandler() {
 }
 
 function handleBackButton(e) {
+    console.log('[PWA] Back button pressed, currentView:', currentView);
+
     // Always push state back to maintain back button functionality
     window.history.pushState({ page: 'app' }, '', '');
 
@@ -3740,6 +3742,7 @@ function handleBackButton(e) {
 
     // First back press on home
     backPressedOnce = true;
+    console.log('[PWA] First back press on home - showing exit toast');
     showToast('한번 더 누르면 앱이 종료됩니다');
 
     // Reset after 2 seconds
@@ -3749,8 +3752,19 @@ function handleBackButton(e) {
 }
 
 // Initialize PWA back handler when DOM is ready
-document.addEventListener('DOMContentLoaded', () => {
-    // Initialize for all modes (PWA and browser)
-    // This provides consistent back button behavior
-    initPWABackHandler();
-});
+(function() {
+    function init() {
+        // Initialize for all modes (PWA and browser)
+        // This provides consistent back button behavior
+        initPWABackHandler();
+        console.log('[PWA] Back button handler initialized');
+    }
+
+    // Check if DOM is already ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        // DOM is already ready, call immediately
+        init();
+    }
+})();
