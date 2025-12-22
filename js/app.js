@@ -3725,7 +3725,14 @@ function initPWABackHandler() {
         // Samsung Internet & iOS Safari: Use hash-based navigation
         initHashBasedBackHandler();
     } else if (window.history && window.history.pushState) {
-        // Other browsers: Use history API
+        // 이미 초기화된 상태면 이벤트 리스너만 등록 (서브페이지에서 돌아온 경우)
+        if (sessionStorage.getItem('pwa_history_initialized')) {
+            console.log('[PWA] Already initialized, just adding listener');
+            window.addEventListener('popstate', handleBackButton);
+            return;
+        }
+        // 첫 로드 시에만 히스토리 설정
+        sessionStorage.setItem('pwa_history_initialized', 'true');
         window.history.replaceState({ page: 'app' }, '', '');
         window.history.pushState({ page: 'app' }, '', '');
         window.addEventListener('popstate', handleBackButton);
@@ -3734,17 +3741,27 @@ function initPWABackHandler() {
 
 // Hash-based back handler for Samsung Internet & iOS Safari
 function initHashBasedBackHandler() {
+    // 이미 초기화되었으면 이벤트 리스너만 등록 (서브페이지에서 돌아온 경우)
+    if (sessionStorage.getItem('pwa_hash_initialized')) {
+        console.log('[PWA] Hash handler already initialized');
+        window.addEventListener('hashchange', handleHashChange);
+        return;
+    }
+    sessionStorage.setItem('pwa_hash_initialized', 'true');
+
     // Set initial hash if not present
     if (!window.location.hash || window.location.hash === '#') {
         window.location.hash = '#app';
     }
 
     // Listen for hash changes (back button)
-    window.addEventListener('hashchange', (e) => {
-        console.log('[PWA] hashchange detected');
-        // Handle back navigation (restoreHistoryEntry will restore hash)
-        handleBackButton(e);
-    });
+    window.addEventListener('hashchange', handleHashChange);
+}
+
+function handleHashChange(e) {
+    console.log('[PWA] hashchange detected');
+    // Handle back navigation (restoreHistoryEntry will restore hash)
+    handleBackButton(e);
 }
 
 // Helper to check if using hash-based navigation
