@@ -3677,21 +3677,66 @@ let backPressedOnce = false;
 let backPressTimeout = null;
 
 function initPWABackHandler() {
-    if (window.history && window.history.pushState) {
-        // Replace current state to mark as app
-        window.history.replaceState({ page: 'app' }, '', '');
-        // Push one state for back button interception
-        window.history.pushState({ page: 'app' }, '', '');
+    // Detect browser type
+    const ua = navigator.userAgent;
+    const isSamsungInternet = /SamsungBrowser/i.test(ua);
+    const isSafari = /Safari/i.test(ua) && !/Chrome/i.test(ua) && !/CriOS/i.test(ua);
+    const isIOS = /iPad|iPhone|iPod/.test(ua) && !window.MSStream;
 
+    console.log('[PWA] Browser detected:', {
+        samsung: isSamsungInternet,
+        safari: isSafari,
+        iOS: isIOS
+    });
+
+    if (isSamsungInternet || (isSafari && isIOS)) {
+        // Samsung Internet & iOS Safari: Use hash-based navigation
+        initHashBasedBackHandler();
+    } else if (window.history && window.history.pushState) {
+        // Other browsers: Use history API
+        window.history.replaceState({ page: 'app' }, '', '');
+        window.history.pushState({ page: 'app' }, '', '');
         window.addEventListener('popstate', handleBackButton);
     }
+}
+
+// Hash-based back handler for Samsung Internet & iOS Safari
+function initHashBasedBackHandler() {
+    // Set initial hash if not present
+    if (!window.location.hash || window.location.hash === '#') {
+        window.location.hash = '#app';
+    }
+
+    // Listen for hash changes (back button)
+    window.addEventListener('hashchange', (e) => {
+        console.log('[PWA] hashchange detected');
+
+        // Restore hash to intercept next back press
+        if (!window.location.hash || window.location.hash === '#') {
+            window.location.hash = '#app';
+        }
+
+        // Handle back navigation
+        handleBackButton(e);
+    });
+}
+
+// Helper to check if using hash-based navigation
+function isHashBasedNavigation() {
+    const ua = navigator.userAgent;
+    const isSamsungInternet = /SamsungBrowser/i.test(ua);
+    const isSafari = /Safari/i.test(ua) && !/Chrome/i.test(ua) && !/CriOS/i.test(ua);
+    const isIOS = /iPad|iPhone|iPod/.test(ua) && !window.MSStream;
+    return isSamsungInternet || (isSafari && isIOS);
 }
 
 function handleBackButton(e) {
     console.log('[PWA] Back button pressed, currentView:', currentView);
 
-    // Push state back to maintain back button interception
-    window.history.pushState({ page: 'app' }, '', '');
+    // For browsers using history API, push state back
+    if (!isHashBasedNavigation() && window.history && window.history.pushState) {
+        window.history.pushState({ page: 'app' }, '', '');
+    }
 
     // Check if any modal is open
     const openModals = document.querySelectorAll('.modal:not(.hidden)');
@@ -3735,10 +3780,17 @@ function handleBackButton(e) {
             clearTimeout(backPressTimeout);
         }
         console.log('[PWA] Double back press - exiting app');
-        // Remove the popstate handler to allow actual exit
-        window.removeEventListener('popstate', handleBackButton);
-        // Go back to exit
-        window.history.back();
+
+        if (isHashBasedNavigation()) {
+            // Samsung Internet & iOS Safari: remove hash and go back
+            window.removeEventListener('hashchange', handleBackButton);
+            window.location.hash = '';
+            window.history.back();
+        } else {
+            // Chrome, Firefox, Edge, etc.
+            window.removeEventListener('popstate', handleBackButton);
+            window.history.back();
+        }
         return;
     }
 
