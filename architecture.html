@@ -130,25 +130,18 @@
             padding: 24px;
             margin-bottom: 24px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-            max-height: 0;
-            overflow: hidden;
-            opacity: 0;
-            padding: 0;
-            margin: 0;
-            transition: opacity 0.2s ease;
+            display: none;
         }
 
         .section.active {
-            max-height: none;
-            overflow: visible;
+            display: block;
             opacity: 1;
             padding: 24px;
             margin-bottom: 24px;
         }
 
         .section.rendering {
-            max-height: none;
-            overflow: visible;
+            display: block;
             opacity: 0;
             padding: 24px;
             margin-bottom: 24px;
@@ -331,12 +324,19 @@
                 font-size: 1.5rem;
             }
 
-            .section {
+            .container {
+                padding: 12px;
+            }
+
+            .section.active,
+            .section.rendering {
                 padding: 16px;
+                margin-bottom: 12px;
             }
 
             nav {
-                padding: 12px;
+                padding: 10px;
+                margin-bottom: 12px;
             }
 
             .nav-toggle {
@@ -347,7 +347,7 @@
                 display: none;
                 grid-template-columns: repeat(2, 1fr);
                 gap: 8px;
-                margin-top: 12px;
+                margin-top: 10px;
             }
 
             nav ul.show {
@@ -361,7 +361,7 @@
             nav a {
                 flex: 1;
                 text-align: center;
-                padding: 12px 8px;
+                padding: 10px 6px;
                 font-size: 0.8rem;
                 border-radius: 8px;
                 white-space: nowrap;
@@ -371,14 +371,30 @@
         }
 
         @media (max-width: 480px) {
+            .container {
+                padding: 8px;
+            }
+
+            nav {
+                padding: 8px;
+                margin-bottom: 10px;
+            }
+
             nav ul {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 6px;
+                margin-top: 8px;
             }
 
             nav a {
-                padding: 10px 6px;
+                padding: 8px 4px;
                 font-size: 0.75rem;
+            }
+
+            .section.active,
+            .section.rendering {
+                padding: 12px;
+                margin-bottom: 10px;
             }
         }
     </style>

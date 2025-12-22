@@ -75,6 +75,11 @@
     <main class="main-content">
         <!-- Home View -->
         <section id="home-view" class="view active">
+            <!-- Loading Overlay for Home -->
+            <div class="view-loading-overlay hidden" id="home-loading">
+                <div class="spinner"></div>
+                <span class="loading-text">로딩 중...</span>
+            </div>
             <div class="home-hero">
                 <h1 class="hero-title">영어 단어 암기 마스터</h1>
 
@@ -117,6 +122,11 @@
 
         <!-- Word List View -->
         <section id="list-view" class="view">
+            <!-- Loading Overlay for Word List -->
+            <div class="view-loading-overlay hidden" id="list-loading">
+                <div class="spinner"></div>
+                <span class="loading-text">단어 목록 로딩 중...</span>
+            </div>
             <div class="view-header-bar">
                 <button class="back-btn" onclick="showHome()" title="홈으로">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -424,6 +434,11 @@
     <div class="modal hidden" id="settings-modal">
         <div class="modal-backdrop" onclick="toggleSettings()"></div>
         <div class="modal-content">
+            <!-- Loading Overlay for Settings -->
+            <div class="loading-overlay hidden" id="settings-loading">
+                <div class="spinner"></div>
+                <span class="loading-text">설정 로딩 중...</span>
+            </div>
             <div class="modal-header">
                 <h3>설정</h3>
                 <button class="modal-close" onclick="toggleSettings()">&times;</button>
@@ -635,14 +650,14 @@
                     </div>
                     <div id="debug-links-section" class="hidden">
                         <div class="setting-item" id="test-page-link-item" style="display:none;">
-                            <a href="test.html" class="btn btn-outline btn-full btn-warning" target="_blank">
+                            <button class="btn btn-outline btn-full btn-warning" onclick="location.href='test.html'">
                                 ⚠️ 데이터 손상 테스트 페이지
-                            </a>
+                            </button>
                         </div>
                         <div class="setting-item" id="architecture-page-link-item" style="display:none;">
-                            <a href="architecture.html" class="btn btn-outline btn-full" target="_blank">
+                            <button class="btn btn-outline btn-full" onclick="location.href='architecture.html'">
                                 📊 시스템 아키텍처 페이지
-                            </a>
+                            </button>
                         </div>
                     </div>
                     <div class="setting-item">
@@ -730,6 +745,11 @@
     <div class="modal hidden" id="word-management-modal">
         <div class="modal-backdrop" onclick="closeWordManagementModal()"></div>
         <div class="modal-content modal-lg">
+            <!-- Loading Spinner -->
+            <div class="loading-overlay hidden" id="word-loading-overlay">
+                <div class="spinner"></div>
+                <span class="loading-text">처리 중...</span>
+            </div>
             <div class="modal-header">
                 <div class="title-with-edit">
                     <h3 id="word-management-title">단어 관리</h3>

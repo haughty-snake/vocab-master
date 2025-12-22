@@ -638,6 +638,11 @@ const Storage = {
         // 5. 초기화 완료 표시 (이제부터 save 가능)
         this.initialized = true;
 
+        // 5-1. 첫 접속 시 기본 설정 저장 (스토리지 사용량 표시용)
+        if (this._loadStatus.settings === 'empty') {
+            this.saveSettings();
+        }
+
         // 6. 복구 불가 시 모달 표시, 아니면 경고
         this.checkAndWarnCorruptedData();
 
@@ -2034,7 +2039,7 @@ const Storage = {
             const words = Array.isArray(data) ? data : (data.words || []);
             const stats = { created: 0, updated: 0, polysemy: 0 };
             const total = words.length;
-            const CHUNK_SIZE = 200; // 200개씩 처리 후 UI 업데이트
+            const CHUNK_SIZE = 50; // 50개씩 처리 후 UI 업데이트
 
             // 용량 체크 (가져오기 전)
             const capacityCheck = this.canImportWords(total);
@@ -2118,7 +2123,7 @@ const Storage = {
             const stats = { created: 0, updated: 0, polysemy: 0 };
             const startIndex = lines[0].toLowerCase().includes('word') ? 1 : 0;
             const total = lines.length - startIndex;
-            const CHUNK_SIZE = 200;
+            const CHUNK_SIZE = 50; // 50개씩 처리 후 UI 업데이트
 
             // 용량 체크 (가져오기 전)
             const capacityCheck = this.canImportWords(total);
@@ -2295,7 +2300,7 @@ const Storage = {
         }
 
         // 단어 수 계산
-        const categories = this.getCustomCategories();
+        const categories = this.customCategories || [];
         const wordCount = categories.reduce((sum, cat) => sum + (cat.words?.length || 0), 0);
 
         // 단어당 평균 크기 계산

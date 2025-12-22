@@ -98,6 +98,11 @@ const itemsPerLoad = 100;
 let isLoadingMore = false;
 let scrollHandler = null;
 
+// Category grid lazy loading state
+let categoryGridLoaded = 0;
+const categoryGridPerLoad = 20;
+let categoryGridObserver = null;
+
 // Save category to localStorage
 function saveCategory(categoryId) {
     currentCategory = categoryId;
@@ -125,14 +130,34 @@ let quizQuestions = [];
 let quizIndex = 0;
 let quizScore = 0;
 
+// View loading helpers
+function showViewLoading(viewId) {
+    const overlay = document.getElementById(viewId);
+    if (overlay) overlay.classList.remove('hidden');
+}
+
+function hideViewLoading(viewId) {
+    const overlay = document.getElementById(viewId);
+    if (overlay) overlay.classList.add('hidden');
+}
+
 // Initialize application
-function initApp() {
-    validateStoredCategory();
-    renderCategories();
-    renderProgress();
-    updateNavigation();
-    updateAllCategoryBadges();
-    displayAppVersion();
+async function initApp() {
+    showViewLoading('home-loading');
+
+    // Allow UI to show loading state
+    await new Promise(resolve => setTimeout(resolve, 10));
+
+    try {
+        validateStoredCategory();
+        renderCategories();
+        renderProgress();
+        updateNavigation();
+        updateAllCategoryBadges();
+        displayAppVersion();
+    } finally {
+        hideViewLoading('home-loading');
+    }
 }
 
 // Display app version in settings
@@ -168,20 +193,36 @@ function showView(viewId) {
     currentView = viewId;
 }
 
-function showHome() {
+async function showHome() {
     showView('home-view');
-    renderCategories();
-    renderProgress();
+    showViewLoading('home-loading');
+
+    await new Promise(resolve => setTimeout(resolve, 10));
+
+    try {
+        renderCategories();
+        renderProgress();
+    } finally {
+        hideViewLoading('home-loading');
+    }
 }
 
-function showWordList() {
+async function showWordList() {
     showView('list-view');
-    populateCategorySelect();
-    updateAllCategoryBadges();
-    loadWordListSettings();
-    // Use saved status filter
-    const statusFilter = Storage.settings.ui?.wordList?.statusFilter || 'all';
-    filterWords(statusFilter);
+    showViewLoading('list-loading');
+
+    await new Promise(resolve => setTimeout(resolve, 10));
+
+    try {
+        populateCategorySelect();
+        updateAllCategoryBadges();
+        loadWordListSettings();
+        // Use saved status filter
+        const statusFilter = Storage.settings.ui?.wordList?.statusFilter || 'all';
+        filterWords(statusFilter);
+    } finally {
+        hideViewLoading('list-loading');
+    }
 }
 
 function showFlashcard() {
@@ -289,9 +330,15 @@ function showWordDetail(wordId) {
     document.getElementById('search-input').value = '';
 }
 
-// Category rendering
+// Category rendering with lazy loading
 function renderCategories() {
     const grid = document.getElementById('category-grid');
+
+    // Disconnect previous observer
+    if (categoryGridObserver) {
+        categoryGridObserver.disconnect();
+        categoryGridObserver = null;
+    }
 
     // Get active categories and their words for total count
     const activeCategories = VocabData.categories.filter(cat => !Storage.isCategoryDisabled(cat.id));
@@ -306,6 +353,9 @@ function renderCategories() {
     } else if (currentCategoryFilter === 'inactive') {
         filteredCategories = VocabData.categories.filter(cat => Storage.isCategoryDisabled(cat.id));
     }
+
+    // Reset loaded count
+    categoryGridLoaded = Math.min(categoryGridPerLoad, filteredCategories.length);
 
     // "All" category card (only show if not filtering to inactive only)
     let html = '';
@@ -323,7 +373,47 @@ function renderCategories() {
         `;
     }
 
-    html += filteredCategories.map(cat => {
+    // Render only initial batch of categories
+    const categoriesToShow = filteredCategories.slice(0, categoryGridLoaded);
+    html += renderCategoryCards(categoriesToShow);
+
+    // Add load more indicator if there are more categories
+    if (categoryGridLoaded < filteredCategories.length) {
+        html += `
+            <div id="category-load-indicator" class="category-card load-more-card">
+                <div class="category-icon">⏳</div>
+                <div class="category-name">더 보기</div>
+                <div class="category-count">${filteredCategories.length - categoryGridLoaded}개 남음</div>
+            </div>
+        `;
+    } else {
+        // Add "새 카테고리 추가" button (only if not filtering to inactive)
+        if (currentCategoryFilter !== 'inactive') {
+            html += `
+                <div class="category-card add-category-card" onclick="openCustomCategoryModal()">
+                    <div class="category-icon add-icon">+</div>
+                    <div class="category-name">카테고리 추가</div>
+                    <div class="category-count">나만의 단어장 만들기</div>
+                </div>
+            `;
+        }
+    }
+
+    // Show empty state if no categories match filter
+    if (filteredCategories.length === 0 && currentCategoryFilter === 'inactive') {
+        html = '<div class="empty-state">비활성화된 카테고리가 없습니다.</div>';
+    }
+
+    grid.innerHTML = html;
+
+    // Setup Intersection Observer for lazy loading
+    if (categoryGridLoaded < filteredCategories.length) {
+        setupCategoryGridObserver(filteredCategories);
+    }
+}
+
+function renderCategoryCards(categories) {
+    return categories.map(cat => {
         const progress = Storage.getCategoryProgress(cat.words);
         const isSelected = currentCategory === cat.id ? 'selected' : '';
         const isCustom = cat.isCustom ? 'custom-category' : '';
@@ -348,24 +438,67 @@ function renderCategories() {
             </div>
         `;
     }).join('');
+}
 
-    // Add "새 카테고리 추가" button (only if not filtering to inactive)
-    if (currentCategoryFilter !== 'inactive') {
-        html += `
+function setupCategoryGridObserver(filteredCategories) {
+    const indicator = document.getElementById('category-load-indicator');
+    if (!indicator) return;
+
+    categoryGridObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadMoreCategories(filteredCategories);
+            }
+        });
+    }, { rootMargin: '100px' });
+
+    categoryGridObserver.observe(indicator);
+}
+
+function loadMoreCategories(filteredCategories) {
+    if (categoryGridLoaded >= filteredCategories.length) return;
+
+    const grid = document.getElementById('category-grid');
+    const indicator = document.getElementById('category-load-indicator');
+
+    // Disconnect observer while loading
+    if (categoryGridObserver) {
+        categoryGridObserver.disconnect();
+    }
+
+    const startIndex = categoryGridLoaded;
+    const endIndex = Math.min(startIndex + categoryGridPerLoad, filteredCategories.length);
+    const newCategories = filteredCategories.slice(startIndex, endIndex);
+
+    // Remove indicator
+    if (indicator) {
+        indicator.remove();
+    }
+
+    // Append new category cards
+    grid.insertAdjacentHTML('beforeend', renderCategoryCards(newCategories));
+
+    categoryGridLoaded = endIndex;
+
+    // Add new indicator or add button
+    if (categoryGridLoaded < filteredCategories.length) {
+        grid.insertAdjacentHTML('beforeend', `
+            <div id="category-load-indicator" class="category-card load-more-card">
+                <div class="category-icon">⏳</div>
+                <div class="category-name">더 보기</div>
+                <div class="category-count">${filteredCategories.length - categoryGridLoaded}개 남음</div>
+            </div>
+        `);
+        setupCategoryGridObserver(filteredCategories);
+    } else if (currentCategoryFilter !== 'inactive') {
+        grid.insertAdjacentHTML('beforeend', `
             <div class="category-card add-category-card" onclick="openCustomCategoryModal()">
                 <div class="category-icon add-icon">+</div>
                 <div class="category-name">카테고리 추가</div>
                 <div class="category-count">나만의 단어장 만들기</div>
             </div>
-        `;
+        `);
     }
-
-    // Show empty state if no categories match filter
-    if (filteredCategories.length === 0 && currentCategoryFilter === 'inactive') {
-        html = '<div class="empty-state">비활성화된 카테고리가 없습니다.</div>';
-    }
-
-    grid.innerHTML = html;
 }
 
 // Filter categories by status (all, active, inactive)
@@ -1441,16 +1574,29 @@ function retryQuiz() {
 }
 
 // Settings functions
-function toggleSettings() {
+async function toggleSettings() {
     const modal = document.getElementById('settings-modal');
+    const loadingOverlay = document.getElementById('settings-loading');
+
     modal.classList.toggle('hidden');
 
     // Update displays when opening settings
     if (!modal.classList.contains('hidden')) {
-        updateLastBackupDateDisplay();
-        loadDebugModeSettings();
-        updateCompressionStats();  // 압축률 통계 실시간 업데이트
-        updateStorageUsage();      // 저장소 사용량 실시간 업데이트
+        // Show loading spinner
+        if (loadingOverlay) loadingOverlay.classList.remove('hidden');
+
+        // Allow UI to update
+        await new Promise(resolve => setTimeout(resolve, 10));
+
+        try {
+            updateLastBackupDateDisplay();
+            loadDebugModeSettings();
+            updateCompressionStats();  // 압축률 통계 실시간 업데이트
+            updateStorageUsage();      // 저장소 사용량 실시간 업데이트
+        } finally {
+            // Hide loading spinner
+            if (loadingOverlay) loadingOverlay.classList.add('hidden');
+        }
     }
 }
 
@@ -2281,6 +2427,28 @@ function selectCategoryFromModal(categoryId, mode) {
 let editingCategoryId = null;
 let managingCategoryId = null;
 
+// Custom word list lazy loading state
+let customWordListLoaded = 0;
+const customWordListPerLoad = 50;
+let customWordListScrollHandler = null;
+
+// Word operation loading spinner
+function showWordLoading(message = '처리 중...') {
+    const overlay = document.getElementById('word-loading-overlay');
+    if (overlay) {
+        const textEl = overlay.querySelector('.loading-text');
+        if (textEl) textEl.textContent = message;
+        overlay.classList.remove('hidden');
+    }
+}
+
+function hideWordLoading() {
+    const overlay = document.getElementById('word-loading-overlay');
+    if (overlay) {
+        overlay.classList.add('hidden');
+    }
+}
+
 // Open custom category modal for creating new category
 function openCustomCategoryModal(categoryId = null) {
     editingCategoryId = categoryId;
@@ -2366,7 +2534,7 @@ document.addEventListener('click', (e) => {
 });
 
 // Word Management Modal
-function openWordManagementModal(categoryId) {
+async function openWordManagementModal(categoryId) {
     managingCategoryId = categoryId;
     const category = Storage.getCustomCategory(categoryId);
     if (!category) return;
@@ -2376,7 +2544,16 @@ function openWordManagementModal(categoryId) {
 
     hideAddWordForm();
     hideImportWordsForm();
-    renderCustomWordList();
+
+    // Show loading while rendering word list
+    showWordLoading('단어 목록 로딩 중...');
+    await new Promise(resolve => setTimeout(resolve, 10));
+
+    try {
+        renderCustomWordList();
+    } finally {
+        hideWordLoading();
+    }
 }
 
 function closeWordManagementModal() {
@@ -2834,7 +3011,7 @@ function fillFormFromDictionary(dictData) {
     }
 }
 
-function saveWordToCategory() {
+async function saveWordToCategory() {
     const word = document.getElementById('new-word-word').value.trim();
     const pronunciation = document.getElementById('new-word-pronunciation').value.trim();
 
@@ -2865,40 +3042,54 @@ function saveWordToCategory() {
         return;
     }
 
-    if (editingWordId) {
-        // Edit mode - update existing word
-        const result = Storage.updateWordInCustomCategory(managingCategoryId, editingWordId, {
-            word,
-            pronunciation,
-            meanings
-        });
+    // Show loading spinner
+    showWordLoading(editingWordId ? '수정 중...' : '추가 중...');
 
-        if (result) {
-            showToast('단어가 수정되었습니다');
+    // Allow UI to update
+    await new Promise(resolve => setTimeout(resolve, 50));
+
+    try {
+        if (editingWordId) {
+            // Edit mode - update existing word
+            const result = Storage.updateWordInCustomCategory(managingCategoryId, editingWordId, {
+                word,
+                pronunciation,
+                meanings
+            });
+
+            if (result) {
+                showToast('단어가 수정되었습니다');
+            } else {
+                showToast('단어 수정 실패');
+            }
         } else {
-            showToast('단어 수정 실패');
-        }
-    } else {
-        // Add mode - create new word
-        const result = Storage.addWordToCustomCategory(managingCategoryId, {
-            word,
-            pronunciation,
-            meanings
-        });
+            // Add mode - create new word
+            const result = Storage.addWordToCustomCategory(managingCategoryId, {
+                word,
+                pronunciation,
+                meanings
+            });
 
-        if (result) {
-            if (result.action === 'created') {
-                showToast('단어가 추가되었습니다');
-            } else if (result.action === 'updated') {
-                showToast('기존 단어가 업데이트되었습니다');
-            } else if (result.action === 'polysemy_added') {
-                showToast('다의어로 뜻이 추가되었습니다');
+            if (result) {
+                if (result.action === 'capacity_exceeded') {
+                    showToast(`저장소 용량 부족 (${result.currentPercent}% 사용 중)`);
+                    hideWordLoading();
+                    return; // 폼을 닫지 않고 종료
+                } else if (result.action === 'created') {
+                    showToast('단어가 추가되었습니다');
+                } else if (result.action === 'updated') {
+                    showToast('기존 단어가 업데이트되었습니다');
+                } else if (result.action === 'polysemy_added') {
+                    showToast('다의어로 뜻이 추가되었습니다');
+                }
             }
         }
-    }
 
-    hideAddWordForm();
-    renderCustomWordList();
+        hideAddWordForm();
+        renderCustomWordList();
+    } finally {
+        hideWordLoading();
+    }
 }
 
 // Keep old function name for backward compatibility
@@ -2985,6 +3176,9 @@ async function importWordsFromFile() {
         progressCount.textContent = '준비 중...';
         progressFill.style.width = '0%';
 
+        // UI 업데이트를 위한 짧은 대기
+        await new Promise(resolve => setTimeout(resolve, 50));
+
         let result;
         try {
             if (fileType === 'json') {
@@ -3026,16 +3220,43 @@ async function importWordsFromFile() {
     fileInput.value = '';
 }
 
-function renderCustomWordList() {
+function renderCustomWordList(preserveLoadedCount = false) {
     const container = document.getElementById('custom-word-list');
     const category = Storage.getCustomCategory(managingCategoryId);
 
+    // Remove previous scroll handler
+    if (customWordListScrollHandler) {
+        container.removeEventListener('scroll', customWordListScrollHandler);
+        customWordListScrollHandler = null;
+    }
+
     if (!category || category.words.length === 0) {
         container.innerHTML = '<p class="empty-message">등록된 단어가 없습니다.</p>';
+        customWordListLoaded = 0;
         return;
     }
 
-    container.innerHTML = category.words.map(word => {
+    // Reset or preserve loaded count
+    if (!preserveLoadedCount) {
+        customWordListLoaded = Math.min(customWordListPerLoad, category.words.length);
+    }
+
+    const wordsToShow = category.words.slice(0, customWordListLoaded);
+    container.innerHTML = renderCustomWordItems(wordsToShow);
+
+    // Add load more indicator if there are more words
+    if (customWordListLoaded < category.words.length) {
+        container.innerHTML += `
+            <div id="custom-word-load-indicator" class="load-more-indicator">
+                <span class="load-more-text">스크롤하여 더 보기 (${customWordListLoaded}/${category.words.length})</span>
+            </div>
+        `;
+        setupCustomWordListScroll();
+    }
+}
+
+function renderCustomWordItems(words) {
+    return words.map(word => {
         // Get display meaning (from meanings array or fallback to meaning string)
         let displayMeaning = word.meaning || '';
         if (word.meanings && word.meanings.length > 0) {
@@ -3058,11 +3279,75 @@ function renderCustomWordList() {
     }).join('');
 }
 
-function deleteWordFromCategory(wordId) {
+function setupCustomWordListScroll() {
+    const container = document.getElementById('custom-word-list');
+
+    customWordListScrollHandler = () => {
+        const scrollTop = container.scrollTop;
+        const scrollHeight = container.scrollHeight;
+        const clientHeight = container.clientHeight;
+
+        // Load more when scrolled to bottom (with 100px threshold)
+        if (scrollTop + clientHeight >= scrollHeight - 100) {
+            loadMoreCustomWords();
+        }
+    };
+
+    container.addEventListener('scroll', customWordListScrollHandler);
+}
+
+function loadMoreCustomWords() {
+    const category = Storage.getCustomCategory(managingCategoryId);
+    if (!category) return;
+    if (customWordListLoaded >= category.words.length) return;
+
+    const container = document.getElementById('custom-word-list');
+    const indicator = document.getElementById('custom-word-load-indicator');
+
+    if (indicator) {
+        indicator.innerHTML = '<span class="load-more-text">로딩 중...</span>';
+    }
+
+    setTimeout(() => {
+        const startIndex = customWordListLoaded;
+        const endIndex = Math.min(startIndex + customWordListPerLoad, category.words.length);
+        const newWords = category.words.slice(startIndex, endIndex);
+
+        // Remove indicator before adding new items
+        if (indicator) {
+            indicator.remove();
+        }
+
+        // Append new word items
+        container.insertAdjacentHTML('beforeend', renderCustomWordItems(newWords));
+
+        customWordListLoaded = endIndex;
+
+        // Add new indicator if there are more words
+        if (customWordListLoaded < category.words.length) {
+            container.insertAdjacentHTML('beforeend', `
+                <div id="custom-word-load-indicator" class="load-more-indicator">
+                    <span class="load-more-text">스크롤하여 더 보기 (${customWordListLoaded}/${category.words.length})</span>
+                </div>
+            `);
+        }
+    }, 50);
+}
+
+async function deleteWordFromCategory(wordId) {
     if (confirm('이 단어를 삭제하시겠습니까?')) {
-        Storage.deleteWordFromCustomCategory(managingCategoryId, wordId);
-        showToast('단어가 삭제되었습니다');
-        renderCustomWordList();
+        showWordLoading('삭제 중...');
+
+        // Allow UI to update
+        await new Promise(resolve => setTimeout(resolve, 50));
+
+        try {
+            Storage.deleteWordFromCustomCategory(managingCategoryId, wordId);
+            showToast('단어가 삭제되었습니다');
+            renderCustomWordList();
+        } finally {
+            hideWordLoading();
+        }
     }
 }
 
