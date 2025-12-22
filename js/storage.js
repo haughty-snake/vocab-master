@@ -2422,6 +2422,41 @@ const Storage = {
         };
     },
 
+    /**
+     * 데이터 가져오기 전 용량 확인 (바이트 기반)
+     *
+     * @param {number} dataSize - 가져올 데이터 크기 (바이트)
+     * @returns {Object} { canImport, estimatedPercent, message }
+     */
+    canImportData(dataSize) {
+        const stats = this.getStorageStats();
+        const THRESHOLD_PERCENT = 85;
+        const isCompressionEnabled = this.settings.compression?.enabled;
+
+        // 압축 사용 시 약 40% 크기로 추정
+        const compressionRatio = isCompressionEnabled ? 0.4 : 1;
+
+        // 예상 크기: 데이터 * 2 (백업 포함) * 압축률
+        const estimatedTotalNew = dataSize * 2 * compressionRatio;
+        const estimatedPercent = Math.round(((stats.totalUsed + estimatedTotalNew) / stats.total) * 100);
+
+        if (estimatedPercent >= THRESHOLD_PERCENT) {
+            return {
+                canImport: false,
+                currentPercent: stats.percentUsed,
+                estimatedPercent,
+                message: `데이터 가져오기 시 저장소가 ${estimatedPercent}%가 됩니다.\n저장소 용량이 부족합니다.${isCompressionEnabled ? ' (압축 적용)' : ''}`
+            };
+        }
+
+        return {
+            canImport: true,
+            currentPercent: stats.percentUsed,
+            estimatedPercent,
+            message: ''
+        };
+    },
+
     // ========================================================================
     // UI 적용 및 학습 상태 관리 함수
     // ========================================================================
@@ -2635,8 +2670,8 @@ const Storage = {
             disabledCategories: this.disabledCategories
         };
 
-        // JSON 파일 생성 및 다운로드
-        const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+        // JSON 파일 생성 및 다운로드 (공백 제거하여 용량 최소화)
+        const blob = new Blob([JSON.stringify(data)], { type: 'application/json' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;

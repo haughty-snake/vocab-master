@@ -1640,6 +1640,14 @@ function handleImport(event) {
     const file = event.target.files[0];
     if (!file) return;
 
+    // 용량 체크 (압축 고려)
+    const capacityCheck = Storage.canImportData(file.size);
+    if (!capacityCheck.canImport) {
+        showToast(capacityCheck.message);
+        event.target.value = '';
+        return;
+    }
+
     const reader = new FileReader();
     reader.onload = (e) => {
         const result = Storage.importData(e.target.result, true); // merge mode
@@ -1731,7 +1739,8 @@ function confirmExportCategories() {
         }))
     };
 
-    const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+    // 공백 제거하여 용량 최소화
+    const blob = new Blob([JSON.stringify(exportData)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
@@ -1766,12 +1775,29 @@ function handleImportCustomCategories(event) {
                 return;
             }
 
+            // Get existing category names for duplicate check
+            const existingNames = Storage.customCategories.map(c => c.name.toLowerCase());
+
+            // 가져올 단어 수 미리 계산 (중복 카테고리 제외)
+            let totalWordCount = 0;
+            data.categories.forEach(cat => {
+                if (!existingNames.includes(cat.name.toLowerCase()) && cat.words) {
+                    totalWordCount += cat.words.length;
+                }
+            });
+
+            // 용량 체크 (압축 고려)
+            if (totalWordCount > 0) {
+                const capacityCheck = Storage.canImportWords(totalWordCount);
+                if (!capacityCheck.canImport) {
+                    showToast(capacityCheck.message);
+                    return;
+                }
+            }
+
             let importedCount = 0;
             let skippedCount = 0;
             let wordCount = 0;
-
-            // Get existing category names for duplicate check
-            const existingNames = Storage.customCategories.map(c => c.name.toLowerCase());
 
             data.categories.forEach(cat => {
                 // Check for duplicate name
