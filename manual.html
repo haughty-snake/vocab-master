@@ -202,16 +202,21 @@
             font-weight: 600;
         }
     </style>
+    <script>
+        function goBack() {
+            location.replace('index.html');
+        }
+    </script>
 </head>
 <body>
     <header class="header">
         <div class="header-content">
-            <div class="logo" onclick="location.href='index.html'">
+            <div class="logo" onclick="goBack()">
                 <img src="icons/icon-96x96.png" alt="Logo" class="logo-icon">
                 <span class="logo-text">VocabMaster</span>
             </div>
             <nav class="nav-menu">
-                <button class="nav-btn" onclick="location.href='index.html'">홈</button>
+                <button class="nav-btn" onclick="goBack()">홈</button>
                 <button class="nav-btn active">매뉴얼</button>
             </nav>
         </div>
@@ -219,7 +224,7 @@
 
     <main class="main-content">
         <div class="manual-content">
-            <a href="index.html" class="back-link">
+            <a href="javascript:void(0)" onclick="goBack()" class="back-link">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <polyline points="15 18 9 12 15 6"></polyline>
                 </svg>

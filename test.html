@@ -303,6 +303,11 @@
             margin-left: 8px;
         }
     </style>
+    <script>
+        function goBack() {
+            location.replace('index.html');
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -544,7 +549,7 @@
         </div>
     </div>
 
-    <a href="index.html" class="back-link">← VocabMaster로 돌아가기</a>
+    <a href="javascript:void(0)" onclick="goBack()" class="back-link">← VocabMaster로 돌아가기</a>
 
     <script src="js/lz-string.min.js"></script>
     <script>

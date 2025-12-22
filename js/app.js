@@ -193,6 +193,12 @@ function showView(viewId) {
     currentView = viewId;
 }
 
+// 히스토리 클리어 후 홈으로 이동
+function goBack() {
+    showHome();
+    history.replaceState(null, '', location.pathname);
+}
+
 async function showHome() {
     showView('home-view');
     showViewLoading('home-loading');
