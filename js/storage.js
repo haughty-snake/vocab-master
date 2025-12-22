@@ -2384,7 +2384,7 @@ const Storage = {
      * 대량 가져오기 전 용량 확인
      *
      * @param {number} wordCount - 가져올 단어 수
-     * @param {number} avgSizePerWord - 단어당 평균 크기 (기본 500바이트)
+     * @param {number} avgSizePerWord - 단어당 평균 크기 (기본값: 500)
      * @returns {Object} { canImport, estimatedPercent, message }
      */
     canImportWords(wordCount, avgSizePerWord = 500) {
@@ -2392,8 +2392,17 @@ const Storage = {
         const THRESHOLD_PERCENT = 85;
         const isCompressionEnabled = this.settings.compression?.enabled;
 
-        // 압축 사용 시 약 60% 크기로 추정 (LZ-String 평균 압축률)
-        const compressionRatio = isCompressionEnabled ? 0.4 : 1;
+        let compressionRatio;
+        let compressionNote = '';
+
+        if (isCompressionEnabled) {
+            // 압축 모드: 압축률 40% 적용
+            compressionRatio = 0.4;
+            compressionNote = ' (압축 적용)';
+        } else {
+            // 일반 모드: 그대로
+            compressionRatio = 1;
+        }
 
         // 예상 크기: (단어 데이터 + 진행 상태) * 2 (백업 포함) * 압축률
         const estimatedWordData = wordCount * avgSizePerWord * compressionRatio;
@@ -2409,7 +2418,7 @@ const Storage = {
                 currentPercent: stats.percentUsed,
                 estimatedPercent,
                 maxImportable: Math.max(0, maxImportable),
-                message: `${wordCount}개 단어 가져오기 시 저장소가 ${estimatedPercent}%가 됩니다.\n최대 약 ${Math.max(0, maxImportable)}개까지 가져올 수 있습니다.${isCompressionEnabled ? ' (압축 적용)' : ''}`
+                message: `${wordCount}개 단어 가져오기 시 저장소가 ${estimatedPercent}%가 됩니다.\n최대 약 ${Math.max(0, maxImportable)}개까지 가져올 수 있습니다.${compressionNote}`
             };
         }
 
@@ -2423,21 +2432,29 @@ const Storage = {
     },
 
     /**
-     * 데이터 가져오기 전 용량 확인 (바이트 기반)
+     * 데이터 가져오기 전 용량 확인 (압축 해제된 JSON 크기 기준)
      *
-     * @param {number} dataSize - 가져올 데이터 크기 (바이트)
+     * @param {number} jsonDataSize - 압축 해제된 JSON 문자열의 길이 (문자 수)
      * @returns {Object} { canImport, estimatedPercent, message }
      */
-    canImportData(dataSize) {
+    canImportData(jsonDataSize) {
+        // jsonDataSize: 압축 해제된 JSON 문자열의 크기 (bytes)
         const stats = this.getStorageStats();
         const THRESHOLD_PERCENT = 85;
         const isCompressionEnabled = this.settings.compression?.enabled;
 
-        // 압축 사용 시 약 40% 크기로 추정
-        const compressionRatio = isCompressionEnabled ? 0.4 : 1;
+        let estimatedTotalNew;
+        let compressionNote = '';
 
-        // 예상 크기: 데이터 * 2 (백업 포함) * 압축률
-        const estimatedTotalNew = dataSize * 2 * compressionRatio;
+        if (isCompressionEnabled) {
+            // 압축 모드: JSON 데이터를 압축해서 저장하므로 압축률 40% 적용
+            estimatedTotalNew = jsonDataSize * 2 * 0.4;
+            compressionNote = ' (압축 적용 예정)';
+        } else {
+            // 일반 모드: JSON 그대로 저장
+            estimatedTotalNew = jsonDataSize * 2;
+        }
+
         const estimatedPercent = Math.round(((stats.totalUsed + estimatedTotalNew) / stats.total) * 100);
 
         if (estimatedPercent >= THRESHOLD_PERCENT) {
@@ -2445,7 +2462,7 @@ const Storage = {
                 canImport: false,
                 currentPercent: stats.percentUsed,
                 estimatedPercent,
-                message: `데이터 가져오기 시 저장소가 ${estimatedPercent}%가 됩니다.\n저장소 용량이 부족합니다.${isCompressionEnabled ? ' (압축 적용)' : ''}`
+                message: `데이터 가져오기 시 저장소가 ${estimatedPercent}%가 됩니다.\n저장소 용량이 부족합니다.${compressionNote}`
             };
         }
 
@@ -2654,7 +2671,8 @@ const Storage = {
      * - disabledCategories: 비활성화된 카테고리
      *
      * [파일명]
-     * vocabmaster_backup_YYYY-MM-DD.json
+     * - 압축 모드: vocabmaster_backup_YYYY-MM-DD.lzstr
+     * - 일반 모드: vocabmaster_backup_YYYY-MM-DD.json
      *
      * @returns {boolean} 성공 여부
      */
@@ -2670,12 +2688,24 @@ const Storage = {
             disabledCategories: this.disabledCategories
         };
 
-        // JSON 파일 생성 및 다운로드 (공백 제거하여 용량 최소화)
-        const blob = new Blob([JSON.stringify(data)], { type: 'application/json' });
+        const dateStr = new Date().toISOString().split('T')[0];
+        let blob, filename;
+
+        if (this.settings.compression?.enabled && typeof LZString !== 'undefined') {
+            // 압축 모드: LZ-String으로 압축하여 .lzstr로 내보내기
+            const compressed = LZString.compressToUTF16(JSON.stringify(data));
+            blob = new Blob([compressed], { type: 'application/octet-stream' });
+            filename = `vocabmaster_backup_${dateStr}.lzstr`;
+        } else {
+            // 일반 모드: JSON으로 내보내기 (공백 제거)
+            blob = new Blob([JSON.stringify(data)], { type: 'application/json' });
+            filename = `vocabmaster_backup_${dateStr}.json`;
+        }
+
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = `vocabmaster_backup_${new Date().toISOString().split('T')[0]}.json`;
+        a.download = filename;
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);

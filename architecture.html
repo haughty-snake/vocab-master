@@ -424,6 +424,7 @@
                 <li><a href="#compression">데이터 압축</a></li>
                 <li><a href="#lz-string">LZ-String 알고리즘</a></li>
                 <li><a href="#capacity">용량 관리</a></li>
+                <li><a href="#export-import-format">내보내기/가져오기 포맷</a></li>
                 <li><a href="#bulk-import">대량 가져오기</a></li>
                 <li><a href="#keys">저장소 키</a></li>
                 <li><a href="#license">라이선스</a></li>
@@ -1013,8 +1014,12 @@ flowchart LR
                     <span>단어 추가 가능 여부 확인 (85% 한계)</span>
                 </div>
                 <div class="key-item">
+                    <code>canImportData(jsonDataSize)</code>
+                    <span>압축 해제된 JSON 크기 기준 용량 확인</span>
+                </div>
+                <div class="key-item">
                     <code>canImportWords(count, avgSize)</code>
-                    <span>대량 가져오기 전 용량 확인 + 최대 가져올 수 있는 단어 수 계산</span>
+                    <span>단어 수 기준 용량 확인 + 최대 가져올 수 있는 단어 수 계산</span>
                 </div>
                 <div class="key-item">
                     <code>canDisableCompression()</code>
@@ -1067,6 +1072,60 @@ flowchart LR
                     <li>불필요한 카테고리/단어 삭제</li>
                     <li>데이터 내보내기 → 정리 → 필요한 것만 다시 가져오기</li>
                     <li>완료된 학습 데이터 초기화</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 내보내기/가져오기 파일 포맷 -->
+        <div class="section" id="export-import-format">
+            <h2>내보내기/가져오기 파일 포맷</h2>
+            <p>압축 모드 설정에 따라 다른 파일 포맷으로 내보내기됩니다.</p>
+
+            <h3>파일 포맷</h3>
+            <table style="width: 100%; border-collapse: collapse; margin-bottom: 1rem;">
+                <tr>
+                    <th style="padding: 12px; text-align: left;">압축 모드</th>
+                    <th style="padding: 12px; text-align: center;">확장자</th>
+                    <th style="padding: 12px;">설명</th>
+                </tr>
+                <tr>
+                    <td style="padding: 12px;">OFF</td>
+                    <td style="padding: 12px; text-align: center;">.json</td>
+                    <td style="padding: 12px;">일반 JSON 텍스트 파일</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px;">ON</td>
+                    <td style="padding: 12px; text-align: center;">.lzstr</td>
+                    <td style="padding: 12px;">LZ-String UTF16 압축 파일 (약 60% 절감)</td>
+                </tr>
+            </table>
+
+            <h3>가져오기 용량 체크 흐름</h3>
+            <div class="diagram-container">
+                <div class="mermaid">
+flowchart TB
+    A[파일 선택] --> B{.lzstr?}
+    B -->|Yes| C[압축 해제]
+    B -->|No| D[JSON 그대로]
+    C --> E[JSON 크기 계산]
+    D --> E
+    E --> F{압축 모드 ON?}
+    F -->|Yes| G[크기 × 2 × 0.4]
+    F -->|No| H[크기 × 2]
+    G --> I{85% 초과?}
+    H --> I
+    I -->|Yes| J[가져오기 거부]
+    I -->|No| K[가져오기 진행]
+                </div>
+            </div>
+
+            <div class="info-box blue">
+                <strong>핵심 포인트:</strong>
+                <ul>
+                    <li><strong>.lzstr 파일:</strong> 압축 해제 후 JSON 크기를 기준으로 용량 계산</li>
+                    <li><strong>.json 파일:</strong> 파일 크기 그대로 용량 계산</li>
+                    <li>압축 모드 ON 시 40% 압축률 적용</li>
+                    <li>× 2 는 백업 데이터 포함 (메인 + 백업)</li>
                 </ul>
             </div>
         </div>

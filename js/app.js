@@ -1640,17 +1640,40 @@ function handleImport(event) {
     const file = event.target.files[0];
     if (!file) return;
 
-    // 용량 체크 (압축 고려)
-    const capacityCheck = Storage.canImportData(file.size);
-    if (!capacityCheck.canImport) {
-        showToast(capacityCheck.message);
-        event.target.value = '';
-        return;
-    }
+    const isLzstr = file.name.toLowerCase().endsWith('.lzstr');
 
     const reader = new FileReader();
     reader.onload = (e) => {
-        const result = Storage.importData(e.target.result, true); // merge mode
+        let jsonData = e.target.result;
+
+        // .lzstr 파일이면 압축 해제
+        if (isLzstr) {
+            try {
+                if (typeof LZString === 'undefined') {
+                    showToast('압축 해제 라이브러리가 로드되지 않았습니다');
+                    return;
+                }
+                jsonData = LZString.decompressFromUTF16(e.target.result);
+                if (!jsonData) {
+                    showToast('압축 해제 실패');
+                    return;
+                }
+            } catch (err) {
+                console.error('Decompress error:', err);
+                showToast('압축 해제 중 오류 발생');
+                return;
+            }
+        }
+
+        // 압축 해제 후 용량 체크 (항상 decompressed JSON 크기 기준)
+        const capacityCheck = Storage.canImportData(jsonData.length);
+        if (!capacityCheck.canImport) {
+            showToast(capacityCheck.message);
+            event.target.value = '';
+            return;
+        }
+
+        const result = Storage.importData(jsonData, true); // merge mode
         if (result && result.success) {
             // Reload custom categories to VocabData
             VocabData.reloadCustomCategories();
@@ -1739,12 +1762,24 @@ function confirmExportCategories() {
         }))
     };
 
-    // 공백 제거하여 용량 최소화
-    const blob = new Blob([JSON.stringify(exportData)], { type: 'application/json' });
+    const dateStr = new Date().toISOString().split('T')[0];
+    let blob, filename;
+
+    if (Storage.settings.compression?.enabled && typeof LZString !== 'undefined') {
+        // 압축 모드: LZ-String으로 압축하여 .lzstr로 내보내기
+        const compressed = LZString.compressToUTF16(JSON.stringify(exportData));
+        blob = new Blob([compressed], { type: 'application/octet-stream' });
+        filename = `vocabmaster_categories_${dateStr}.lzstr`;
+    } else {
+        // 일반 모드: JSON으로 내보내기 (공백 제거)
+        blob = new Blob([JSON.stringify(exportData)], { type: 'application/json' });
+        filename = `vocabmaster_categories_${dateStr}.json`;
+    }
+
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `vocabmaster_categories_${new Date().toISOString().split('T')[0]}.json`;
+    a.download = filename;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -1764,10 +1799,27 @@ function handleImportCustomCategories(event) {
     const file = event.target.files[0];
     if (!file) return;
 
+    const isLzstr = file.name.toLowerCase().endsWith('.lzstr');
+
     const reader = new FileReader();
     reader.onload = (e) => {
         try {
-            const data = JSON.parse(e.target.result);
+            let jsonData = e.target.result;
+
+            // .lzstr 파일이면 압축 해제
+            if (isLzstr) {
+                if (typeof LZString === 'undefined') {
+                    showToast('압축 해제 라이브러리가 로드되지 않았습니다');
+                    return;
+                }
+                jsonData = LZString.decompressFromUTF16(e.target.result);
+                if (!jsonData) {
+                    showToast('압축 해제 실패');
+                    return;
+                }
+            }
+
+            const data = JSON.parse(jsonData);
 
             // Validate file format
             if (data.type !== 'vocabmaster_custom_categories' || !data.categories) {
@@ -1786,7 +1838,7 @@ function handleImportCustomCategories(event) {
                 }
             });
 
-            // 용량 체크 (압축 고려)
+            // 용량 체크 (압축 해제된 JSON 기준으로 단어 수 계산됨)
             if (totalWordCount > 0) {
                 const capacityCheck = Storage.canImportWords(totalWordCount);
                 if (!capacityCheck.canImport) {
