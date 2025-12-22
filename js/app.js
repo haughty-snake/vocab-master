@@ -3678,40 +3678,20 @@ let backPressTimeout = null;
 
 function initPWABackHandler() {
     if (window.history && window.history.pushState) {
-        // Replace current state first to mark it as our app state
-        window.history.replaceState({ page: 'app', index: 0 }, '', '');
-
-        // Push multiple states to create a buffer for back button interception
-        for (let i = 1; i <= 3; i++) {
-            window.history.pushState({ page: 'app', index: i }, '', '');
-        }
+        // Replace current state to mark as app
+        window.history.replaceState({ page: 'app' }, '', '');
+        // Push one state for back button interception
+        window.history.pushState({ page: 'app' }, '', '');
 
         window.addEventListener('popstate', handleBackButton);
-
-        // Fallback: prevent accidental page unload
-        window.addEventListener('beforeunload', (e) => {
-            // Only trigger if we haven't confirmed exit
-            if (!backPressedOnce) {
-                // Note: Modern browsers may not show custom message
-                e.preventDefault();
-                e.returnValue = '';
-            }
-        });
     }
 }
 
 function handleBackButton(e) {
-    console.log('[PWA] Back button pressed, currentView:', currentView, 'history.length:', history.length, 'state:', e?.state);
+    console.log('[PWA] Back button pressed, currentView:', currentView);
 
-    // Prevent default behavior
-    if (e) {
-        e.preventDefault();
-    }
-
-    // Always push states back to maintain back button functionality
-    for (let i = 1; i <= 3; i++) {
-        window.history.pushState({ page: 'app', index: i }, '', '');
-    }
+    // Push state back to maintain back button interception
+    window.history.pushState({ page: 'app' }, '', '');
 
     // Check if any modal is open
     const openModals = document.querySelectorAll('.modal:not(.hidden)');
@@ -3757,8 +3737,8 @@ function handleBackButton(e) {
         console.log('[PWA] Double back press - exiting app');
         // Remove the popstate handler to allow actual exit
         window.removeEventListener('popstate', handleBackButton);
-        // Go back multiple times to actually exit (clear our pushed states)
-        window.history.go(-(history.length - 1));
+        // Go back to exit
+        window.history.back();
         return;
     }
 
