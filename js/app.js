@@ -3716,13 +3716,7 @@ function initHashBasedBackHandler() {
     // Listen for hash changes (back button)
     window.addEventListener('hashchange', (e) => {
         console.log('[PWA] hashchange detected');
-
-        // Restore hash to intercept next back press
-        if (!window.location.hash || window.location.hash === '#') {
-            window.location.hash = '#app';
-        }
-
-        // Handle back navigation
+        // Handle back navigation (restoreHistoryEntry will restore hash)
         handleBackButton(e);
     });
 }
@@ -3736,13 +3730,21 @@ function isHashBasedNavigation() {
     return isSamsungInternet || (isSafari && isIOS);
 }
 
-function handleBackButton(e) {
-    console.log('[PWA] Back button pressed, currentView:', currentView);
-
-    // For browsers using history API, push state back
-    if (!isHashBasedNavigation() && window.history && window.history.pushState) {
+// Restore history entry after handling back button
+function restoreHistoryEntry() {
+    if (isHashBasedNavigation()) {
+        // Hash-based: ensure hash is set
+        if (!window.location.hash || window.location.hash === '#') {
+            window.location.hash = '#app';
+        }
+    } else if (window.history && window.history.pushState) {
+        // History API: push state back
         window.history.pushState({ page: 'app' }, '', '');
     }
+}
+
+function handleBackButton(e) {
+    console.log('[PWA] Back button pressed, currentView:', currentView);
 
     // Check if any modal is open
     const openModals = document.querySelectorAll('.modal:not(.hidden)');
@@ -3755,12 +3757,15 @@ function handleBackButton(e) {
         } else {
             topModal.classList.add('hidden');
         }
+        // Restore history entry
+        restoreHistoryEntry();
         return;
     }
 
     // Check if blink mode is running
     if (currentView === 'blink-view' && !document.getElementById('blink-display-area').classList.contains('hidden')) {
         stopBlink();
+        restoreHistoryEntry();
         return;
     }
 
@@ -3770,12 +3775,14 @@ function handleBackButton(e) {
         document.getElementById('quiz-container').classList.add('hidden');
         document.getElementById('quiz-result').classList.add('hidden');
         document.getElementById('quiz-settings').classList.remove('hidden');
+        restoreHistoryEntry();
         return;
     }
 
     // If not on home view, go to home
     if (currentView !== 'home-view') {
         showHome();
+        restoreHistoryEntry();
         return;
     }
 
@@ -3800,8 +3807,9 @@ function handleBackButton(e) {
         return;
     }
 
-    // First back press on home
+    // First back press on home - restore history and show toast
     backPressedOnce = true;
+    restoreHistoryEntry();
     console.log('[PWA] First back press on home - showing exit toast');
     showToast('한번 더 누르면 앱이 종료됩니다');
 
