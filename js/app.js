@@ -3,6 +3,24 @@ let currentView = 'home';
 let currentCategory = 'all';
 let currentCategoryFilter = 'all'; // 'all', 'active', 'inactive'
 let importAbortController = null; // 파일 가져오기 취소용
+let pendingRecoveryData = null; // 복구 대기 중인 머지 데이터
+
+// Global Loading Overlay Functions
+function showGlobalLoading(message = '처리 중...') {
+    const overlay = document.getElementById('global-loading');
+    const text = document.getElementById('global-loading-text');
+    if (overlay && text) {
+        text.textContent = message;
+        overlay.classList.remove('hidden');
+    }
+}
+
+function hideGlobalLoading() {
+    const overlay = document.getElementById('global-loading');
+    if (overlay) {
+        overlay.classList.add('hidden');
+    }
+}
 
 // Load category from localStorage on script load
 (function loadStoredCategory() {
@@ -1641,6 +1659,7 @@ function handleImport(event) {
     if (!file) return;
 
     const isLzstr = file.name.toLowerCase().endsWith('.lzstr');
+    showGlobalLoading('데이터 분석 중...');
 
     const reader = new FileReader();
     reader.onload = (e) => {
@@ -1650,50 +1669,119 @@ function handleImport(event) {
         if (isLzstr) {
             try {
                 if (typeof LZString === 'undefined') {
+                    hideGlobalLoading();
                     showToast('압축 해제 라이브러리가 로드되지 않았습니다');
                     return;
                 }
                 jsonData = LZString.decompressFromUTF16(e.target.result);
                 if (!jsonData) {
+                    hideGlobalLoading();
                     showToast('압축 해제 실패');
                     return;
                 }
             } catch (err) {
+                hideGlobalLoading();
                 console.error('Decompress error:', err);
                 showToast('압축 해제 중 오류 발생');
                 return;
             }
         }
 
-        // 압축 해제 후 용량 체크 (항상 decompressed JSON 크기 기준)
-        const capacityCheck = Storage.canImportData(jsonData.length);
-        if (!capacityCheck.canImport) {
-            showToast(capacityCheck.message);
+        // 실제 압축 크기로 용량 체크 (메모리에서 병합 시뮬레이션)
+        const recoveryCheck = Storage.prepareDataRecovery(jsonData);
+        hideGlobalLoading();
+
+        if (!recoveryCheck.canRecover) {
+            showToast(recoveryCheck.message);
             event.target.value = '';
             return;
         }
 
-        const result = Storage.importData(jsonData, true); // merge mode
-        if (result && result.success) {
-            // Reload custom categories to VocabData
-            VocabData.reloadCustomCategories();
+        // 병합 데이터 저장 및 확인 모달 표시
+        pendingRecoveryData = recoveryCheck.mergedData;
 
-            showToast('데이터를 병합하여 가져왔습니다 (높은 상태 유지)');
+        // 용량 정보 표시
+        const capacityInfo = document.getElementById('recovery-capacity-info');
+        if (capacityInfo) {
+            capacityInfo.innerHTML = `예상 저장소 사용량: <strong>${recoveryCheck.estimatedPercent.toFixed(1)}%</strong>`;
+        }
+
+        // 데이터 복구 확인 모달 표시
+        document.getElementById('data-recovery-modal').classList.remove('hidden');
+    };
+    reader.readAsText(file);
+
+    event.target.value = '';
+}
+
+// 데이터 복구 취소
+function cancelDataRecovery() {
+    pendingRecoveryData = null;
+    document.getElementById('data-recovery-modal').classList.add('hidden');
+    showToast('복구가 취소되었습니다');
+}
+
+// 백업 없이 복구 진행
+function proceedRecoveryWithoutBackup() {
+    document.getElementById('data-recovery-modal').classList.add('hidden');
+
+    if (!pendingRecoveryData) {
+        showToast('복구 데이터가 없습니다');
+        return;
+    }
+
+    showGlobalLoading('데이터 복구 중...');
+
+    setTimeout(() => {
+        const result = Storage.executeDataRecovery(pendingRecoveryData);
+        pendingRecoveryData = null;
+
+        hideGlobalLoading();
+
+        if (result && result.success) {
+            VocabData.reloadCustomCategories();
+            showToast('데이터를 성공적으로 복구했습니다');
             renderCategories();
             renderProgress();
             if (currentView === 'list-view') {
                 filterWords();
             }
-            // 압축률 통계 업데이트
             updateCompressionStats();
             updateStorageUsage();
         } else {
-            showToast('데이터 가져오기 실패');
+            showToast(result?.error || '데이터 복구 실패');
         }
-    };
-    reader.readAsText(file);
+    }, 100);
+}
 
-    event.target.value = '';
+// 백업 후 복구 진행
+function proceedRecoveryWithBackup() {
+    showGlobalLoading('백업 파일 생성 중...');
+
+    setTimeout(() => {
+        try {
+            const backupBlob = Storage.createBackupBlob();
+            const timestamp = new Date().toISOString().slice(0, 10);
+            const ext = Storage.settings.compression?.enabled ? '.lzstr' : '.json';
+            const filename = `vocabmaster_backup_${timestamp}${ext}`;
+
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(backupBlob);
+            link.download = filename;
+            link.click();
+            URL.revokeObjectURL(link.href);
+
+            hideGlobalLoading();
+            showToast('백업 파일이 다운로드되었습니다');
+
+            // 백업 후 복구 진행
+            proceedRecoveryWithoutBackup();
+        } catch (err) {
+            hideGlobalLoading();
+            console.error('Backup error:', err);
+            showToast('백업 생성 중 오류 발생');
+        }
+    }, 100);
 }
 
 // Export custom categories - show selection modal
@@ -1794,12 +1882,13 @@ function triggerImportCustomCategories() {
     document.getElementById('import-custom-categories-file').click();
 }
 
-// Handle custom categories import
+// Handle custom categories import (bulk import)
 function handleImportCustomCategories(event) {
     const file = event.target.files[0];
     if (!file) return;
 
     const isLzstr = file.name.toLowerCase().endsWith('.lzstr');
+    showGlobalLoading('단어장 분석 중...');
 
     const reader = new FileReader();
     reader.onload = (e) => {
@@ -1809,11 +1898,13 @@ function handleImportCustomCategories(event) {
             // .lzstr 파일이면 압축 해제
             if (isLzstr) {
                 if (typeof LZString === 'undefined') {
+                    hideGlobalLoading();
                     showToast('압축 해제 라이브러리가 로드되지 않았습니다');
                     return;
                 }
                 jsonData = LZString.decompressFromUTF16(e.target.result);
                 if (!jsonData) {
+                    hideGlobalLoading();
                     showToast('압축 해제 실패');
                     return;
                 }
@@ -1823,76 +1914,52 @@ function handleImportCustomCategories(event) {
 
             // Validate file format
             if (data.type !== 'vocabmaster_custom_categories' || !data.categories) {
+                hideGlobalLoading();
                 showToast('올바른 카테고리 공유 파일이 아닙니다');
                 return;
             }
 
-            // Get existing category names for duplicate check
-            const existingNames = Storage.customCategories.map(c => c.name.toLowerCase());
+            // 실제 압축 크기로 용량 체크 (메모리에서 병합 시뮬레이션)
+            const importCheck = Storage.prepareSharedCategoryImport(data.categories);
+            hideGlobalLoading();
 
-            // 가져올 단어 수 미리 계산 (중복 카테고리 제외)
-            let totalWordCount = 0;
-            data.categories.forEach(cat => {
-                if (!existingNames.includes(cat.name.toLowerCase()) && cat.words) {
-                    totalWordCount += cat.words.length;
-                }
-            });
-
-            // 용량 체크 (압축 해제된 JSON 기준으로 단어 수 계산됨)
-            if (totalWordCount > 0) {
-                const capacityCheck = Storage.canImportWords(totalWordCount);
-                if (!capacityCheck.canImport) {
-                    showToast(capacityCheck.message);
-                    return;
-                }
+            if (!importCheck.canImport) {
+                showToast(importCheck.message);
+                return;
             }
 
-            let importedCount = 0;
-            let skippedCount = 0;
-            let wordCount = 0;
+            if (importCheck.newCategories.length === 0) {
+                showToast(`모든 카테고리가 동일 이름으로 건너뛰어졌습니다 (${importCheck.skippedCount}개)`);
+                return;
+            }
 
-            data.categories.forEach(cat => {
-                // Check for duplicate name
-                if (existingNames.includes(cat.name.toLowerCase())) {
-                    skippedCount++;
-                    return; // Skip this category
-                }
+            // 일괄 저장 실행
+            showGlobalLoading('단어장 가져오는 중...');
 
-                // Create new category with new ID
-                const newCategory = Storage.createCustomCategory(
-                    cat.name,
-                    cat.icon || '📁',
-                    cat.color || '#6c757d'
+            setTimeout(() => {
+                const result = Storage.executeSharedCategoryImport(
+                    importCheck.mergedCategories,
+                    importCheck.newCategories
                 );
 
-                // Add words to the category
-                if (cat.words && cat.words.length > 0) {
-                    cat.words.forEach(word => {
-                        Storage.addWordToCustomCategory(newCategory.id, {
-                            word: word.word,
-                            pronunciation: word.pronunciation || '',
-                            meanings: word.meanings || [],
-                            meaning: word.meaning || ''
-                        });
-                        wordCount++;
-                    });
+                hideGlobalLoading();
+
+                if (result.success) {
+                    VocabData.reloadCustomCategories();
+                    renderCategories();
+
+                    if (importCheck.skippedCount > 0) {
+                        showToast(`${result.importedCount}개 카테고리 가져옴, ${importCheck.skippedCount}개 동일 이름으로 건너뜀`);
+                    } else {
+                        showToast(`${result.importedCount}개 카테고리, ${result.wordCount}개 단어를 가져왔습니다`);
+                    }
+                } else {
+                    showToast(result.error || '카테고리 가져오기 실패');
                 }
-                importedCount++;
-            });
-
-            VocabData.reloadCustomCategories();
-            renderCategories();
-
-            // Show appropriate message
-            if (skippedCount > 0 && importedCount > 0) {
-                showToast(`${importedCount}개 카테고리 가져옴, ${skippedCount}개 동일 이름으로 건너뜀`);
-            } else if (skippedCount > 0 && importedCount === 0) {
-                showToast(`모든 카테고리가 동일 이름으로 건너뛰어졌습니다 (${skippedCount}개)`);
-            } else {
-                showToast(`${importedCount}개 카테고리, ${wordCount}개 단어를 가져왔습니다`);
-            }
+            }, 100);
 
         } catch (err) {
+            hideGlobalLoading();
             console.error('Import error:', err);
             showToast('파일을 읽는 중 오류가 발생했습니다');
         }
@@ -3881,6 +3948,12 @@ function handleBackButton(e) {
         return;
     }
 
+    // On home view - just stay on home (PWA에서는 종료 확인 없이 유지)
+    // 홈 화면에서 뒤로가기 시 히스토리만 복원하고 아무 동작 안함
+    restoreHistoryEntry();
+
+    /*
+    // [DISABLED] Double back to exit feature - 주석 처리됨
     // On home view - handle double back to exit
     if (backPressedOnce) {
         // User pressed back twice - close the app
@@ -3912,6 +3985,7 @@ function handleBackButton(e) {
     backPressTimeout = setTimeout(() => {
         backPressedOnce = false;
     }, 2000);
+    */
 }
 
 // Initialize PWA back handler when DOM is ready

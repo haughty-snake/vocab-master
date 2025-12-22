@@ -319,6 +319,52 @@
             font-size: 0.75rem;
             margin-left: 8px;
         }
+
+        /* Global Loading Overlay */
+        .global-loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 10000;
+        }
+
+        .global-loading-overlay.hidden {
+            display: none;
+        }
+
+        .loading-content {
+            background: white;
+            padding: 32px 48px;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .spinner {
+            width: 48px;
+            height: 48px;
+            border: 4px solid #e0e0e0;
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            font-size: 16px;
+            color: #333;
+        }
     </style>
     <script>
         function goBack() {
@@ -569,6 +615,14 @@
 
     <a href="javascript:void(0)" onclick="goBack()" class="back-link">← VocabMaster로 돌아가기</a>
 
+    <!-- Global Loading Overlay -->
+    <div class="global-loading-overlay hidden" id="test-loading">
+        <div class="loading-content">
+            <div class="spinner"></div>
+            <span class="loading-text" id="test-loading-text">처리 중...</span>
+        </div>
+    </div>
+
     <script src="js/lz-string.min.js"></script>
     <script>
         // 저장소 키 정의
@@ -585,10 +639,31 @@
 
         let currentViewMode = 'json';
 
+        // ==================== 로딩 오버레이 ====================
+        function showTestLoading(message = '처리 중...') {
+            const overlay = document.getElementById('test-loading');
+            const text = document.getElementById('test-loading-text');
+            if (overlay && text) {
+                text.textContent = message;
+                overlay.classList.remove('hidden');
+            }
+        }
+
+        function hideTestLoading() {
+            const overlay = document.getElementById('test-loading');
+            if (overlay) {
+                overlay.classList.add('hidden');
+            }
+        }
+
         // 페이지 로드 시 상태 확인
         document.addEventListener('DOMContentLoaded', () => {
-            refreshStatus();
-            updateStorageSummary();
+            showTestLoading('데이터 로딩 중...');
+            setTimeout(() => {
+                refreshStatus();
+                updateStorageSummary();
+                hideTestLoading();
+            }, 100);
         });
 
         // ==================== 압축 관련 함수 ====================
@@ -930,6 +1005,8 @@
             const results = [];
             const actionName = enableCompression ? '압축' : 'JSON 변환';
 
+            showTestLoading(actionName + ' 중...');
+
             results.push(`=== 안전한 ${actionName} 마이그레이션 ===\n`);
 
             const keysToMigrate = [
@@ -1019,6 +1096,7 @@
             results.push('\n' + '─'.repeat(50));
             results.push(allSuccess ? `\n✅ ${actionName} 마이그레이션 완료!` : `\n⚠️ 일부 데이터 ${actionName} 실패`);
 
+            hideTestLoading();
             output.textContent = results.join('\n');
             output.classList.remove('empty');
             refreshStatus();
@@ -1560,16 +1638,21 @@
         function clearAllData() {
             if (!confirm('정말로 모든 VocabMaster 데이터를 삭제하시겠습니까?\n이 작업은 되돌릴 수 없습니다!')) return;
 
-            Object.values(KEYS).forEach(key => {
-                localStorage.removeItem(key);
-            });
-            sessionStorage.removeItem(KEYS.TEMP);
+            showTestLoading('데이터 삭제 중...');
 
-            localStorage.removeItem('vocabmaster_disabled_categories');
-            localStorage.removeItem('vocabmaster_backup_info');
+            setTimeout(() => {
+                Object.values(KEYS).forEach(key => {
+                    localStorage.removeItem(key);
+                });
+                sessionStorage.removeItem(KEYS.TEMP);
 
-            alert('모든 데이터가 삭제되었습니다.');
-            refreshStatus();
+                localStorage.removeItem('vocabmaster_disabled_categories');
+                localStorage.removeItem('vocabmaster_backup_info');
+
+                hideTestLoading();
+                alert('모든 데이터가 삭제되었습니다.');
+                refreshStatus();
+            }, 100);
         }
     </script>
 </body>

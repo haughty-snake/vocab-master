@@ -1647,11 +1647,16 @@ body {
     align-items: center;
     padding: 20px 24px;
     border-bottom: 1px solid var(--border-color);
+    gap: 8px;
+    min-width: 0;
 }
 
 .modal-header h3 {
     font-size: 18px;
     font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /* Category name edit in modal header */
@@ -1659,6 +1664,9 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
 }
 
 .edit-title-btn {
@@ -1679,10 +1687,14 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
+    flex: 1;
+    min-width: 0;
 }
 
 .title-edit-form .input-field {
-    width: 200px;
+    flex: 1;
+    min-width: 80px;
+    max-width: 200px;
     padding: 6px 10px;
     font-size: 14px;
 }
@@ -2791,5 +2803,133 @@ hr {
     .sw-update-toast button {
         padding: 5px 10px;
         font-size: 12px;
+    }
+}
+
+/* ================================
+   Global Loading Overlay
+   ================================ */
+.global-loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+.global-loading-overlay .loading-content {
+    background: var(--bg-primary);
+    padding: 32px 48px;
+    border-radius: var(--radius-lg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    box-shadow: var(--shadow-lg);
+}
+
+.global-loading-overlay .spinner {
+    width: 48px;
+    height: 48px;
+    border-width: 4px;
+}
+
+.global-loading-overlay .loading-text {
+    font-size: 16px;
+    color: var(--text-primary);
+}
+
+/* ================================
+   Data Recovery Modal
+   ================================ */
+.recovery-modal-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.recovery-modal-footer .btn {
+    flex: 0 0 auto;
+}
+
+@media (max-width: 480px) {
+    .recovery-modal-footer {
+        flex-direction: column;
+    }
+
+    .recovery-modal-footer .btn {
+        width: 100%;
+    }
+}
+
+.warning-text {
+    color: var(--danger-color);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.recovery-info {
+    margin-top: 12px;
+    padding: 12px;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-sm);
+    font-size: 14px;
+}
+
+.recovery-info .info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.recovery-info .info-row:last-child {
+    margin-bottom: 0;
+}
+
+/* ================================
+   Capacity Warning
+   ================================ */
+.capacity-warning {
+    padding: 8px 12px;
+    background: rgba(234, 67, 53, 0.1);
+    border: 1px solid var(--danger-color);
+    border-radius: var(--radius-sm);
+    color: var(--danger-color);
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* ================================
+   Mobile title edit form fix
+   ================================ */
+@media (max-width: 480px) {
+    .title-edit-form {
+        gap: 4px;
+    }
+
+    .title-edit-form .input-field {
+        max-width: 120px;
+        padding: 4px 8px;
+        font-size: 13px;
+    }
+
+    .title-edit-form .btn-xs {
+        padding: 4px 8px;
+        font-size: 11px;
+    }
+
+    .modal-close {
+        flex-shrink: 0;
     }
 }

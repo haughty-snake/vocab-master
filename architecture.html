@@ -1100,34 +1100,55 @@ flowchart LR
                 </tr>
             </table>
 
-            <h3>가져오기 용량 체크 흐름</h3>
+            <h3>전체 데이터 복구 흐름</h3>
             <div class="diagram-container">
                 <div class="mermaid">
 flowchart TB
     A[파일 선택] --> B{.lzstr?}
-    B -->|Yes| C[압축 해제]
+    B -->|Yes| C[LZString.decompressFromUTF16]
     B -->|No| D[JSON 그대로]
-    C --> E[JSON 크기 계산]
+    C --> E[prepareDataRecovery]
     D --> E
-    E --> F{압축 모드 ON?}
-    F -->|Yes| G[크기 × 2 × 0.4]
-    F -->|No| H[크기 × 2]
-    G --> I{85% 초과?}
-    H --> I
-    I -->|Yes| J[가져오기 거부]
-    I -->|No| K[가져오기 진행]
+    E --> F[메모리에서 병합 시뮬레이션]
+    F --> G[실제 압축 크기 계산]
+    G --> H{85% 초과?}
+    H -->|Yes| I[가져오기 거부]
+    H -->|No| J[백업 확인 모달 표시]
+    J --> K{사용자 선택}
+    K -->|취소| L[복구 취소]
+    K -->|백업 후 진행| M[createBackupBlob → 다운로드]
+    K -->|백업 없이 진행| N[executeDataRecovery]
+    M --> N
+    N --> O[병합 데이터 저장]
+    O --> P[UI 갱신]
+                </div>
+            </div>
+            <div class="info-box blue">
+                <strong>새로운 복구 흐름 특징:</strong>
+                <ul>
+                    <li><strong>메모리 우선 처리</strong>: <code>prepareDataRecovery()</code>로 디바이스 메모리에서 먼저 병합 후 용량 확인</li>
+                    <li><strong>실제 크기 계산</strong>: 압축 후 실제 저장 크기로 용량 확인 (추정치 아님)</li>
+                    <li><strong>백업 확인 모달</strong>: 복구 전 현재 데이터 백업 여부 선택 가능</li>
+                    <li><strong>안전한 저장</strong>: <code>executeDataRecovery()</code>로 병합 완료 후 한 번에 저장 (중간 실패 방지)</li>
+                </ul>
+            </div>
+
+            <h3>관련 함수</h3>
+            <div class="key-list">
+                <div class="key-item">
+                    <code>prepareDataRecovery(jsonData)</code>
+                    <span>메모리에서 병합 시뮬레이션, 실제 압축 크기 계산, 용량 체크</span>
+                </div>
+                <div class="key-item">
+                    <code>executeDataRecovery(mergedData)</code>
+                    <span>병합된 데이터를 실제 localStorage에 저장</span>
+                </div>
+                <div class="key-item">
+                    <code>createBackupBlob()</code>
+                    <span>현재 데이터 백업 파일 생성 (압축 모드에 따라 .json/.lzstr)</span>
                 </div>
             </div>
 
-            <div class="info-box blue">
-                <strong>핵심 포인트:</strong>
-                <ul>
-                    <li><strong>.lzstr 파일:</strong> 압축 해제 후 JSON 크기를 기준으로 용량 계산</li>
-                    <li><strong>.json 파일:</strong> 파일 크기 그대로 용량 계산</li>
-                    <li>압축 모드 ON 시 40% 압축률 적용</li>
-                    <li>× 2 는 백업 데이터 포함 (메인 + 백업)</li>
-                </ul>
-            </div>
         </div>
 
         <!-- 대량 가져오기 -->
@@ -1229,6 +1250,18 @@ flowchart LR
                 <div class="key-item">
                     <code>importAbortController</code>
                     <span>가져오기 취소용 AbortController (app.js 전역)</span>
+                </div>
+            </div>
+
+            <h3>공유 카테고리 일괄 가져오기</h3>
+            <div class="key-list">
+                <div class="key-item">
+                    <code>prepareSharedCategoryImport(categories)</code>
+                    <span>공유 파일 병합 준비: 중복 체크, 실제 압축 크기 계산, 용량 확인</span>
+                </div>
+                <div class="key-item">
+                    <code>executeSharedCategoryImport(mergedCategories, newCategories)</code>
+                    <span>병합된 카테고리 일괄 저장 (단일 localStorage 쓰기)</span>
                 </div>
             </div>
 
@@ -1418,7 +1451,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</div>
     </div>
 
     <footer>
-        VocabMaster Architecture Document | Version 1.3.0 (용량 관리, LZ-String 상세, 라이선스 추가)
+        VocabMaster Architecture Document | Version 1.4.0 (데이터 복구 흐름 개선, 실제 크기 계산, 백업 확인 모달 추가)
     </footer>
 
     <script>

@@ -2475,6 +2475,356 @@ const Storage = {
     },
 
     // ========================================================================
+    // 실제 용량 기반 가져오기 검증 함수
+    // ========================================================================
+
+    /**
+     * 데이터를 압축하고 실제 저장될 크기를 계산
+     * @param {Object} data - 저장할 데이터 객체
+     * @returns {number} 실제 저장될 바이트 수
+     */
+    calculateActualStorageSize(data) {
+        const jsonStr = JSON.stringify(data);
+        if (this.settings.compression?.enabled && typeof LZString !== 'undefined') {
+            const compressed = LZString.compressToUTF16(jsonStr);
+            return ('LZ:' + compressed).length * 2; // UTF-16은 문자당 2바이트
+        }
+        return jsonStr.length * 2;
+    },
+
+    /**
+     * 복구 데이터를 메모리에서 머지하고 실제 용량 확인
+     * 실제 저장 전에 용량을 검증하기 위해 사용
+     *
+     * @param {string} jsonData - 복구할 JSON 문자열
+     * @returns {Object} { canRecover, mergedData, actualSize, estimatedPercent, message }
+     */
+    prepareDataRecovery(jsonData) {
+        try {
+            let importData = JSON.parse(jsonData);
+            const statusPriority = { 'new': 0, 'learning': 1, 'memorized': 2 };
+            const THRESHOLD_PERCENT = 85;
+
+            // 버전 확인 및 마이그레이션
+            const importVersion = importData.version || '0.0.0';
+            if (Version.compare(Version.normalize(importVersion), Version.CURRENT) < 0) {
+                importData = Version.migrate(importData, importVersion);
+            }
+
+            // 메모리에서 머지 시뮬레이션
+            const mergedProgress = { ...this.progress };
+            if (importData.progress) {
+                Object.entries(importData.progress).forEach(([wordId, importedStatus]) => {
+                    const currentStatus = mergedProgress[wordId] || 'new';
+                    const currentPriority = statusPriority[currentStatus] || 0;
+                    const importedPriority = statusPriority[importedStatus] || 0;
+                    if (importedPriority > currentPriority) {
+                        mergedProgress[wordId] = importedStatus;
+                    }
+                });
+            }
+
+            const mergedSettings = importData.settings
+                ? { ...this.settings, ...importData.settings }
+                : { ...this.settings };
+
+            const mergedStats = { ...this.stats };
+            if (importData.stats) {
+                mergedStats.totalStudied = Math.max(mergedStats.totalStudied || 0, importData.stats.totalStudied || 0);
+                mergedStats.streakDays = Math.max(mergedStats.streakDays || 0, importData.stats.streakDays || 0);
+                mergedStats.totalMemorized = Object.values(mergedProgress).filter(s => s === 'memorized').length;
+            }
+
+            // Custom Categories 머지
+            const mergedCategories = [...this.customCategories];
+            if (importData.customCategories && Array.isArray(importData.customCategories)) {
+                importData.customCategories.forEach(importedCat => {
+                    const existingCat = mergedCategories.find(c => c.id === importedCat.id);
+                    if (existingCat) {
+                        importedCat.words?.forEach(word => {
+                            if (!existingCat.words.find(w => w.id === word.id)) {
+                                existingCat.words.push(word);
+                            }
+                        });
+                    } else {
+                        mergedCategories.push(importedCat);
+                    }
+                });
+            }
+
+            const mergedDisabled = [...new Set([
+                ...this.disabledCategories,
+                ...(importData.disabledCategories || [])
+            ])];
+
+            // 실제 저장될 크기 계산
+            const progressSize = this.calculateActualStorageSize(mergedProgress);
+            const statsSize = this.calculateActualStorageSize(mergedStats);
+            const categoriesSize = this.calculateActualStorageSize(mergedCategories);
+            const settingsSize = this.calculateActualStorageSize(mergedSettings);
+            const disabledSize = this.calculateActualStorageSize(mergedDisabled);
+
+            // 백업 데이터 포함 (메인 + 백업)
+            const totalSize = (progressSize + statsSize + categoriesSize + settingsSize + disabledSize) * 2;
+
+            const stats = this.getStorageStats();
+            const estimatedPercent = Math.round((totalSize / stats.total) * 100);
+
+            if (estimatedPercent >= THRESHOLD_PERCENT) {
+                return {
+                    canRecover: false,
+                    mergedData: null,
+                    actualSize: totalSize,
+                    estimatedPercent,
+                    currentPercent: stats.percentUsed,
+                    message: `복구 시 저장소가 ${estimatedPercent}%가 됩니다.\n저장소 용량이 부족합니다. (한계: ${THRESHOLD_PERCENT}%)`
+                };
+            }
+
+            return {
+                canRecover: true,
+                mergedData: {
+                    progress: mergedProgress,
+                    settings: mergedSettings,
+                    stats: mergedStats,
+                    customCategories: mergedCategories,
+                    disabledCategories: mergedDisabled
+                },
+                actualSize: totalSize,
+                estimatedPercent,
+                currentPercent: stats.percentUsed,
+                message: ''
+            };
+
+        } catch (err) {
+            console.error('prepareDataRecovery error:', err);
+            return {
+                canRecover: false,
+                mergedData: null,
+                actualSize: 0,
+                estimatedPercent: 0,
+                message: '데이터 처리 중 오류가 발생했습니다: ' + err.message
+            };
+        }
+    },
+
+    /**
+     * 준비된 머지 데이터로 실제 복구 실행
+     * localStorage를 클리어하고 새 데이터 저장
+     *
+     * @param {Object} mergedData - prepareDataRecovery에서 반환된 mergedData
+     * @returns {Object} { success, error }
+     */
+    executeDataRecovery(mergedData) {
+        try {
+            // 메모리에 적용
+            this.progress = mergedData.progress;
+            this.settings = mergedData.settings;
+            this.stats = mergedData.stats;
+            this.customCategories = mergedData.customCategories;
+            this.disabledCategories = mergedData.disabledCategories;
+
+            // _loadStatus 정상화
+            this._loadStatus = {
+                progress: 'loaded',
+                stats: 'loaded',
+                settings: 'loaded',
+                customCategories: 'loaded'
+            };
+
+            // localStorage 저장 (백업 포함)
+            this.saveProgress();
+            this.saveStats();
+            this.saveSettings();
+            this.saveCustomCategories();
+            this.saveDisabledCategories();
+            this.applySettings();
+
+            return { success: true };
+        } catch (err) {
+            console.error('executeDataRecovery error:', err);
+            return { success: false, error: err.message };
+        }
+    },
+
+    /**
+     * 현재 데이터로 백업 Blob 생성 (다운로드용)
+     * @returns {Object} { blob, filename }
+     */
+    createBackupBlob() {
+        const data = {
+            type: 'vocabmaster_backup',
+            version: Version.CURRENT,
+            exportDate: new Date().toISOString(),
+            progress: this.progress,
+            settings: this.settings,
+            stats: this.stats,
+            customCategories: this.customCategories,
+            disabledCategories: this.disabledCategories
+        };
+
+        const dateStr = new Date().toISOString().split('T')[0];
+        let blob, filename;
+
+        if (this.settings.compression?.enabled && typeof LZString !== 'undefined') {
+            const compressed = LZString.compressToUTF16(JSON.stringify(data));
+            blob = new Blob([compressed], { type: 'application/octet-stream' });
+            filename = `vocabmaster_backup_${dateStr}.lzstr`;
+        } else {
+            blob = new Blob([JSON.stringify(data)], { type: 'application/json' });
+            filename = `vocabmaster_backup_${dateStr}.json`;
+        }
+
+        return { blob, filename };
+    },
+
+    /**
+     * 공유 카테고리 데이터를 메모리에서 머지하고 실제 용량 확인
+     *
+     * @param {Array} categories - 가져올 카테고리 배열
+     * @returns {Object} { canImport, mergedCategories, actualSize, estimatedPercent, message }
+     */
+    prepareSharedCategoryImport(categories) {
+        try {
+            const THRESHOLD_PERCENT = 85;
+            const existingNames = this.customCategories.map(c => c.name.toLowerCase());
+
+            // 중복 제외하고 가져올 카테고리 필터링
+            const newCategories = categories.filter(cat =>
+                !existingNames.includes(cat.name.toLowerCase())
+            );
+
+            if (newCategories.length === 0) {
+                return {
+                    canImport: true,
+                    mergedCategories: [],
+                    actualSize: 0,
+                    estimatedPercent: this.getStorageStats().percentUsed,
+                    skippedCount: categories.length,
+                    message: ''
+                };
+            }
+
+            // 메모리에서 머지 시뮬레이션
+            const mergedCategories = [...this.customCategories];
+            newCategories.forEach(cat => {
+                const newCategory = {
+                    id: 'custom_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9),
+                    name: cat.name,
+                    icon: cat.icon || '📁',
+                    color: cat.color || '#6c757d',
+                    createdAt: new Date().toISOString(),
+                    words: (cat.words || []).map(word => ({
+                        id: 'custom_word_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9),
+                        word: word.word,
+                        pronunciation: word.pronunciation || '',
+                        meanings: word.meanings || [],
+                        meaning: word.meaning || '',
+                        createdAt: new Date().toISOString()
+                    }))
+                };
+                mergedCategories.push(newCategory);
+            });
+
+            // 실제 저장될 크기 계산
+            const categoriesSize = this.calculateActualStorageSize(mergedCategories);
+            const totalNewSize = categoriesSize * 2; // 백업 포함
+
+            const stats = this.getStorageStats();
+            // 현재 카테고리 크기를 제외한 사용량 + 새 크기
+            const currentCategoriesSize = this.calculateActualStorageSize(this.customCategories) * 2;
+            const otherUsage = stats.totalUsed - currentCategoriesSize;
+            const estimatedTotal = otherUsage + totalNewSize;
+            const estimatedPercent = Math.round((estimatedTotal / stats.total) * 100);
+
+            if (estimatedPercent >= THRESHOLD_PERCENT) {
+                return {
+                    canImport: false,
+                    mergedCategories: null,
+                    actualSize: totalNewSize,
+                    estimatedPercent,
+                    currentPercent: stats.percentUsed,
+                    skippedCount: categories.length - newCategories.length,
+                    message: `카테고리 가져오기 시 저장소가 ${estimatedPercent}%가 됩니다.\n저장소 용량이 부족합니다.`
+                };
+            }
+
+            return {
+                canImport: true,
+                mergedCategories: mergedCategories,
+                newCategories: newCategories,
+                actualSize: totalNewSize,
+                estimatedPercent,
+                currentPercent: stats.percentUsed,
+                skippedCount: categories.length - newCategories.length,
+                message: ''
+            };
+
+        } catch (err) {
+            console.error('prepareSharedCategoryImport error:', err);
+            return {
+                canImport: false,
+                mergedCategories: null,
+                actualSize: 0,
+                estimatedPercent: 0,
+                message: '데이터 처리 중 오류가 발생했습니다: ' + err.message
+            };
+        }
+    },
+
+    /**
+     * 준비된 카테고리 데이터로 실제 가져오기 실행 (벌크)
+     *
+     * @param {Array} mergedCategories - prepareSharedCategoryImport에서 반환된 mergedCategories
+     * @param {Array} newCategories - 새로 추가된 카테고리 배열
+     * @returns {Object} { success, importedCount, wordCount, error }
+     */
+    executeSharedCategoryImport(mergedCategories, newCategories) {
+        try {
+            let wordCount = 0;
+            newCategories.forEach(cat => {
+                wordCount += (cat.words || []).length;
+            });
+
+            // 메모리에 적용
+            this.customCategories = mergedCategories;
+            this._loadStatus.customCategories = 'loaded';
+
+            // 한 번만 저장 (벌크)
+            this.saveCustomCategories();
+
+            return {
+                success: true,
+                importedCount: newCategories.length,
+                wordCount: wordCount
+            };
+        } catch (err) {
+            console.error('executeSharedCategoryImport error:', err);
+            return { success: false, error: err.message };
+        }
+    },
+
+    /**
+     * 현재 저장소 용량이 임계치에 도달했는지 확인
+     * 단어 추가 등의 기능을 막기 위해 사용
+     *
+     * @returns {Object} { isAtCapacity, percentUsed, message }
+     */
+    isAtCapacityThreshold() {
+        const stats = this.getStorageStats();
+        const THRESHOLD = 85;
+        const isAtCapacity = stats.percentUsed >= THRESHOLD;
+
+        return {
+            isAtCapacity,
+            percentUsed: stats.percentUsed,
+            message: isAtCapacity
+                ? `저장소 용량이 ${stats.percentUsed}%입니다. 단어를 더 추가하려면 데이터를 정리하거나 압축을 활성화하세요.`
+                : ''
+        };
+    },
+
+    // ========================================================================
     // UI 적용 및 학습 상태 관리 함수
     // ========================================================================
 

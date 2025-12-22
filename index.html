@@ -522,23 +522,23 @@
                     <h4>데이터 관리</h4>
                 </div>
                 <div class="setting-item">
-                    <button class="btn btn-outline btn-full" onclick="exportData()">
+                    <button class="btn btn-outline btn-full" onclick="exportData()" id="btn-export-data">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                             <polyline points="7 10 12 15 17 10"></polyline>
                             <line x1="12" y1="15" x2="12" y2="3"></line>
                         </svg>
-                        학습 데이터 내보내기
+                        전체 데이터 백업
                     </button>
                 </div>
                 <div class="setting-item">
-                    <button class="btn btn-outline btn-full" onclick="importData()">
+                    <button class="btn btn-outline btn-full" onclick="importData()" id="btn-import-data">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                             <polyline points="17 8 12 3 7 8"></polyline>
                             <line x1="12" y1="3" x2="12" y2="15"></line>
                         </svg>
-                        학습 데이터 가져오기
+                        전체 데이터 복구
                     </button>
                     <input type="file" id="import-file" class="hidden" accept=".json,.lzstr" onchange="handleImport(event)">
                 </div>
@@ -953,6 +953,34 @@ example,ɪɡˈzæmpl,명사,예시,This is an example.,이것은 예시입니다
                 <button class="btn btn-outline" onclick="closeExportCategoriesModal()">취소</button>
                 <button class="btn btn-primary" onclick="confirmExportCategories()">내보내기</button>
             </div>
+        </div>
+    </div>
+
+    <!-- Data Recovery Confirmation Modal -->
+    <div class="modal hidden" id="data-recovery-modal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content modal-sm">
+            <div class="modal-header">
+                <h3>⚠️ 데이터 복구 확인</h3>
+            </div>
+            <div class="modal-body">
+                <p class="warning-text">복구 중 앱이 종료되면 데이터가 손상될 수 있습니다.</p>
+                <p>계속하기 전에 현재 데이터를 백업하시겠습니까?</p>
+                <div id="recovery-capacity-info" class="recovery-info"></div>
+            </div>
+            <div class="modal-footer recovery-modal-footer">
+                <button class="btn btn-outline" onclick="cancelDataRecovery()">취소</button>
+                <button class="btn btn-outline" onclick="proceedRecoveryWithoutBackup()">백업 없이 진행</button>
+                <button class="btn btn-primary" onclick="proceedRecoveryWithBackup()">백업 후 진행</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Global Loading Overlay -->
+    <div class="global-loading-overlay hidden" id="global-loading">
+        <div class="loading-content">
+            <div class="spinner"></div>
+            <span class="loading-text" id="global-loading-text">처리 중...</span>
         </div>
     </div>
 
