@@ -3677,24 +3677,41 @@ let backPressedOnce = false;
 let backPressTimeout = null;
 
 function initPWABackHandler() {
-    // Push initial state to enable back button handling
     if (window.history && window.history.pushState) {
+        // Replace current state first to mark it as our app state
+        window.history.replaceState({ page: 'app', index: 0 }, '', '');
+
         // Push multiple states to create a buffer for back button interception
-        // This prevents immediate exit on first back press
-        window.history.pushState({ page: 'app', index: 1 }, '', '');
-        window.history.pushState({ page: 'app', index: 2 }, '', '');
+        for (let i = 1; i <= 3; i++) {
+            window.history.pushState({ page: 'app', index: i }, '', '');
+        }
 
         window.addEventListener('popstate', handleBackButton);
+
+        // Fallback: prevent accidental page unload
+        window.addEventListener('beforeunload', (e) => {
+            // Only trigger if we haven't confirmed exit
+            if (!backPressedOnce) {
+                // Note: Modern browsers may not show custom message
+                e.preventDefault();
+                e.returnValue = '';
+            }
+        });
     }
 }
 
 function handleBackButton(e) {
-    console.log('[PWA] Back button pressed, currentView:', currentView, 'history.length:', history.length);
+    console.log('[PWA] Back button pressed, currentView:', currentView, 'history.length:', history.length, 'state:', e?.state);
 
-    // Always push state back to maintain back button functionality
-    // Push two states to ensure we have enough buffer
-    window.history.pushState({ page: 'app', index: 1 }, '', '');
-    window.history.pushState({ page: 'app', index: 2 }, '', '');
+    // Prevent default behavior
+    if (e) {
+        e.preventDefault();
+    }
+
+    // Always push states back to maintain back button functionality
+    for (let i = 1; i <= 3; i++) {
+        window.history.pushState({ page: 'app', index: i }, '', '');
+    }
 
     // Check if any modal is open
     const openModals = document.querySelectorAll('.modal:not(.hidden)');
