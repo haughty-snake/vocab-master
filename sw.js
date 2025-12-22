@@ -1,7 +1,11 @@
 // VocabMaster Service Worker
-const CACHE_NAME = 'vocabmaster-v4';
-const STATIC_CACHE = 'vocabmaster-static-v4';
-const DATA_CACHE = 'vocabmaster-data-v4';
+const SW_VERSION = '5.1.0';
+const CACHE_NAME = 'vocabmaster-v5';
+const STATIC_CACHE = 'vocabmaster-static-v5';
+const DATA_CACHE = 'vocabmaster-data-v5';
+
+// Cache expiration time (7 days for data files)
+const DATA_CACHE_MAX_AGE = 7 * 24 * 60 * 60 * 1000;
 
 // Files to cache immediately on install
 const STATIC_FILES = [
@@ -146,11 +150,113 @@ self.addEventListener('message', (event) => {
   }
 
   if (event.data && event.data.type === 'GET_VERSION') {
-    event.ports[0].postMessage({ version: CACHE_NAME });
+    event.ports[0].postMessage({ version: SW_VERSION, cache: CACHE_NAME });
+  }
+
+  if (event.data && event.data.type === 'CLEAR_CACHE') {
+    clearAllCaches().then(() => {
+      event.ports[0].postMessage({ success: true });
+    });
+  }
+
+  if (event.data && event.data.type === 'GET_CACHE_SIZE') {
+    getCacheSize().then((size) => {
+      event.ports[0].postMessage({ size });
+    });
   }
 });
 
 // Background sync for future use
 self.addEventListener('sync', (event) => {
   console.log('[SW] Background sync:', event.tag);
+});
+
+// Periodic background sync (if supported)
+self.addEventListener('periodicsync', (event) => {
+  if (event.tag === 'update-check') {
+    console.log('[SW] Periodic sync: checking for updates');
+  }
+});
+
+// Push notification support (for future use)
+self.addEventListener('push', (event) => {
+  if (event.data) {
+    const data = event.data.json();
+    const options = {
+      body: data.body || '새로운 알림이 있습니다.',
+      icon: './icons/icon-192x192.png',
+      badge: './icons/icon-72x72.png',
+      vibrate: [100, 50, 100],
+      data: data.data || {},
+      actions: data.actions || []
+    };
+    event.waitUntil(
+      self.registration.showNotification(data.title || 'VocabMaster', options)
+    );
+  }
+});
+
+// Notification click handler
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+  event.waitUntil(
+    clients.matchAll({ type: 'window' }).then((clientList) => {
+      // Focus existing window or open new one
+      for (const client of clientList) {
+        if (client.url.includes('vocab-master') && 'focus' in client) {
+          return client.focus();
+        }
+      }
+      if (clients.openWindow) {
+        return clients.openWindow('./');
+      }
+    })
+  );
+});
+
+// Utility: Clear all caches
+async function clearAllCaches() {
+  const cacheNames = await caches.keys();
+  await Promise.all(
+    cacheNames.map((cacheName) => caches.delete(cacheName))
+  );
+  console.log('[SW] All caches cleared');
+}
+
+// Utility: Get total cache size
+async function getCacheSize() {
+  let totalSize = 0;
+  const cacheNames = await caches.keys();
+
+  for (const cacheName of cacheNames) {
+    const cache = await caches.open(cacheName);
+    const keys = await cache.keys();
+
+    for (const request of keys) {
+      const response = await cache.match(request);
+      if (response) {
+        const blob = await response.clone().blob();
+        totalSize += blob.size;
+      }
+    }
+  }
+
+  return totalSize;
+}
+
+// Utility: Broadcast message to all clients
+async function broadcastMessage(message) {
+  const allClients = await clients.matchAll({ includeUncontrolled: true });
+  allClients.forEach((client) => {
+    client.postMessage(message);
+  });
+}
+
+// Online/Offline status change broadcast
+self.addEventListener('online', () => {
+  broadcastMessage({ type: 'ONLINE_STATUS', online: true });
+});
+
+self.addEventListener('offline', () => {
+  broadcastMessage({ type: 'ONLINE_STATUS', online: false });
 });
