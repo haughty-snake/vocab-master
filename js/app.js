@@ -3750,9 +3750,7 @@ function handleBackButton(e) {
 
 // Initialize PWA back handler when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
-    // Only initialize for PWA (standalone mode)
-    if (window.matchMedia('(display-mode: standalone)').matches ||
-        window.navigator.standalone === true) {
-        initPWABackHandler();
-    }
+    // Initialize for all modes (PWA and browser)
+    // This provides consistent back button behavior
+    initPWABackHandler();
 });
