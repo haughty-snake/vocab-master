@@ -1346,6 +1346,11 @@ function startBlink() {
     document.querySelector('.blink-settings').classList.add('hidden');
     document.getElementById('blink-display-area').classList.remove('hidden');
 
+    // 블링크 시작 시 히스토리 추가 (뒤로가기로 설정창 복귀 지원)
+    if (window.history && window.history.pushState) {
+        window.history.pushState({ page: 'app', view: 'blink-running' }, '', '');
+    }
+
     showBlinkWord(displayMode);
 
     // Set up interval based on display mode
@@ -4007,13 +4012,12 @@ function handleBackButton(e) {
         const blinkDisplayArea = document.getElementById('blink-display-area');
         if (!blinkDisplayArea.classList.contains('hidden')) {
             // 블링크 실행 중 - 중지하고 설정창으로
+            // (startBlink에서 히스토리를 추가했으므로 여기서 복원 불필요)
             stopBlink();
-            restoreHistoryEntry();
             return;
         }
         // 블링크 설정창 - 홈으로 이동
         showHome();
-        restoreHistoryEntry();
         return;
     }
 

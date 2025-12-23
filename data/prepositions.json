@@ -849,7 +849,7 @@
           "examples": [
             {
               "sentence": "이유",
-              "translation": "I left, **for** it was late."
+              "translation": "I left, for it was late."
             }
           ]
         },
@@ -1884,7 +1884,7 @@
           "examples": [
             {
               "sentence": "추가",
-              "translation": "I like coffee **and** tea."
+              "translation": "I like coffee and tea."
             }
           ]
         }
@@ -1905,7 +1905,7 @@
           "examples": [
             {
               "sentence": "대조",
-              "translation": "I tried, **but** I failed."
+              "translation": "I tried, but I failed."
             }
           ]
         }
@@ -1926,7 +1926,7 @@
           "examples": [
             {
               "sentence": "선택",
-              "translation": "Tea **or** coffee?"
+              "translation": "Tea or coffee?"
             }
           ]
         }
@@ -1947,7 +1947,7 @@
           "examples": [
             {
               "sentence": "부정",
-              "translation": "I don't smoke, **nor** do I drink."
+              "translation": "I don't smoke, nor do I drink."
             }
           ]
         }
@@ -1968,7 +1968,7 @@
           "examples": [
             {
               "sentence": "결과",
-              "translation": "It was late, **so** I left."
+              "translation": "It was late, so I left."
             }
           ]
         },
@@ -1999,7 +1999,7 @@
           "examples": [
             {
               "sentence": "대조",
-              "translation": "Simple **yet** elegant."
+              "translation": "Simple yet elegant."
             }
           ]
         }
@@ -2020,7 +2020,7 @@
           "examples": [
             {
               "sentence": "추가",
-              "translation": "**Both** Tom **and** Jane came."
+              "translation": "Both Tom and Jane came."
             }
           ]
         }
@@ -2041,7 +2041,7 @@
           "examples": [
             {
               "sentence": "선택",
-              "translation": "**Either** call **or** text me."
+              "translation": "Either call or text me."
             }
           ]
         }
@@ -2062,7 +2062,7 @@
           "examples": [
             {
               "sentence": "부정",
-              "translation": "**Neither** he **nor** she knows."
+              "translation": "Neither he nor she knows."
             }
           ]
         }
