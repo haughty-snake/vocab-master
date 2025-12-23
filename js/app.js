@@ -1953,6 +1953,8 @@ function handleImportCustomCategories(event) {
                 if (result.success) {
                     VocabData.reloadCustomCategories();
                     renderCategories();
+                    updateStorageUsage();
+                    updateCompressionStats();
 
                     if (importCheck.skippedCount > 0) {
                         showToast(`${result.importedCount}개 카테고리 가져옴, ${importCheck.skippedCount}개 동일 이름으로 건너뜀`);
@@ -2673,22 +2675,31 @@ function saveCustomCategory() {
             VocabData.reloadCustomCategories();
             renderCategories();
             populateCategorySelect();
+            updateStorageUsage();
+            updateCompressionStats();
             hideWordLoading();
             showToast('카테고리가 수정되었습니다');
         }, 100);
     } else {
-        // Create new category
-        const result = Storage.createCustomCategory(name, icon, color);
-        if (!result) {
+        // Create new category - check for duplicate name first
+        if (Storage.customCategoryNameExists(name)) {
             showToast('이미 같은 이름의 카테고리가 있습니다');
             return;
         }
         showWordLoading('카테고리 생성 중...');
         setTimeout(() => {
+            const result = Storage.createCustomCategory(name, icon, color);
+            if (!result) {
+                hideWordLoading();
+                showToast('카테고리 생성 실패');
+                return;
+            }
             closeCustomCategoryModal();
             VocabData.reloadCustomCategories();
             renderCategories();
             populateCategorySelect();
+            updateStorageUsage();
+            updateCompressionStats();
             hideWordLoading();
             showToast('새 카테고리가 생성되었습니다');
         }, 100);
@@ -3262,6 +3273,8 @@ async function saveWordToCategory() {
 
         hideAddWordForm();
         renderCustomWordList();
+        updateStorageUsage();
+        updateCompressionStats();
     } finally {
         hideWordLoading();
     }
@@ -3354,12 +3367,19 @@ async function importWordsFromFile() {
         // UI 업데이트를 위한 짧은 대기
         await new Promise(resolve => setTimeout(resolve, 50));
 
+        // 저장 시작 시 UI 업데이트 콜백
+        const onSaving = () => {
+            progressLabel.textContent = '저장 중...';
+            progressCount.textContent = '';
+            progressFill.style.width = '100%';
+        };
+
         let result;
         try {
             if (fileType === 'json') {
-                result = await Storage.importWordsFromJSONAsync(managingCategoryId, e.target.result, onProgress, { signal });
+                result = await Storage.importWordsFromJSONAsync(managingCategoryId, e.target.result, onProgress, { signal, onSaving });
             } else {
-                result = await Storage.importWordsFromCSVAsync(managingCategoryId, e.target.result, onProgress, { signal });
+                result = await Storage.importWordsFromCSVAsync(managingCategoryId, e.target.result, onProgress, { signal, onSaving });
             }
         } catch (err) {
             result = { success: false, error: err.message };
@@ -3520,6 +3540,8 @@ async function deleteWordFromCategory(wordId) {
             Storage.deleteWordFromCustomCategory(managingCategoryId, wordId);
             showToast('단어가 삭제되었습니다');
             renderCustomWordList();
+            updateStorageUsage();
+            updateCompressionStats();
         } finally {
             hideWordLoading();
         }
@@ -3539,6 +3561,11 @@ function deleteCurrentCategory() {
                 updateAllCategoryBadges();
             }
 
+            VocabData.reloadCustomCategories();
+            renderCategories();
+            populateCategorySelect();
+            updateStorageUsage();
+            updateCompressionStats();
             closeWordManagementModal();
             hideWordLoading();
             showToast('카테고리가 삭제되었습니다');

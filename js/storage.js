@@ -2112,6 +2112,12 @@ const Storage = {
                 };
             }
 
+            // 저장 시작 콜백 호출
+            if (options.onSaving) {
+                options.onSaving();
+                await new Promise(resolve => setTimeout(resolve, 50));
+            }
+
             // 용량 확인 완료 - 실제 카테고리에 적용
             this.customCategories[categoryIndex] = simulationCategory;
             this.saveCustomCategories();
@@ -2203,6 +2209,12 @@ const Storage = {
                     capacityExceeded: true,
                     estimatedPercent
                 };
+            }
+
+            // 저장 시작 콜백 호출
+            if (options.onSaving) {
+                options.onSaving();
+                await new Promise(resolve => setTimeout(resolve, 50));
             }
 
             // 용량 확인 완료 - 실제 카테고리에 적용
