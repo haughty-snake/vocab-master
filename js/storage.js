@@ -2743,9 +2743,9 @@ const Storage = {
             const mergedCategories = [...this.customCategories];
             const baseTime = Date.now();
             let categoryCounter = 0;
+            let wordCounter = 0;  // 전체 단어에 대해 고유 ID 생성을 위해 바깥에서 선언
 
             newCategories.forEach(cat => {
-                let wordCounter = 0;
                 const newCategory = {
                     id: 'custom_' + (baseTime + categoryCounter++) + '_' + Math.random().toString(36).substr(2, 9),
                     name: cat.name,

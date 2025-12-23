@@ -3855,15 +3855,14 @@ document.addEventListener('DOMContentLoaded', () => {
 let backPressedOnce = false;
 let backPressTimeout = null;
 
-// bfcache 복원 후 첫 번째 popstate 무시 플래그
-let skipNextPopstate = false;
-
 // bfcache에서 복원될 때 감지 (서브페이지에서 돌아올 때)
 window.addEventListener('pageshow', function(e) {
     if (e.persisted) {
-        // bfcache에서 복원됨 - 다음 popstate 무시
-        skipNextPopstate = true;
-        console.log('[PWA] Page restored from bfcache, will skip next popstate');
+        // bfcache에서 복원됨 - 히스토리 스택 복원
+        console.log('[PWA] Page restored from bfcache, restoring history entry');
+        if (window.history && window.history.pushState) {
+            window.history.pushState({ page: 'app' }, '', '');
+        }
     }
 });
 
@@ -3884,9 +3883,11 @@ function initPWABackHandler() {
         // Samsung Internet & iOS Safari: Use hash-based navigation
         initHashBasedBackHandler();
     } else if (window.history && window.history.pushState) {
-        // 이미 초기화된 상태면 이벤트 리스너만 등록 (서브페이지에서 돌아온 경우)
+        // 이미 초기화된 상태면 (서브페이지에서 돌아온 경우)
         if (sessionStorage.getItem('pwa_history_initialized')) {
-            console.log('[PWA] Already initialized, just adding listener');
+            console.log('[PWA] Already initialized, restoring history entry');
+            // 서브페이지에서 돌아올 때 히스토리 스택이 하나 줄어들었으므로 복원
+            window.history.pushState({ page: 'app' }, '', '');
             window.addEventListener('popstate', handleBackButton);
             return;
         }
@@ -3946,13 +3947,6 @@ function restoreHistoryEntry() {
 }
 
 function handleBackButton(e) {
-    // bfcache에서 복원 후 첫 번째 popstate는 무시 (서브페이지에서 돌아올 때)
-    if (skipNextPopstate) {
-        skipNextPopstate = false;
-        console.log('[PWA] Skipping popstate after bfcache restore');
-        return;
-    }
-
     console.log('[PWA] Back button pressed, currentView:', currentView);
 
     // Check if any modal is open
