@@ -3934,8 +3934,9 @@ function initPWABackHandler() {
         // 이미 초기화된 상태면 (서브페이지에서 돌아온 경우)
         if (sessionStorage.getItem('pwa_history_initialized')) {
             console.log('[PWA] Already initialized from sub-page return');
-            // 서브페이지에서 돌아올 때 - replaceState만 (추가 push 없음)
             window.history.replaceState({ page: 'app' }, '', '');
+            // 서브페이지에서 돌아올 때 모달이 열려있을 수 있으므로 히스토리 추가
+            window.history.pushState({ page: 'app' }, '', '');
             window.addEventListener('popstate', handleBackButton);
             return;
         }
