@@ -1953,6 +1953,7 @@ function handleImportCustomCategories(event) {
                 if (result.success) {
                     VocabData.reloadCustomCategories();
                     renderCategories();
+                    renderProgress();
                     updateStorageUsage();
                     updateCompressionStats();
 
@@ -2686,11 +2687,11 @@ function saveCustomCategory() {
             showToast('이미 같은 이름의 카테고리가 있습니다');
             return;
         }
-        showWordLoading('카테고리 생성 중...');
+        showGlobalLoading('카테고리 생성 중...');
         setTimeout(() => {
             const result = Storage.createCustomCategory(name, icon, color);
             if (!result) {
-                hideWordLoading();
+                hideGlobalLoading();
                 showToast('카테고리 생성 실패');
                 return;
             }
@@ -2700,7 +2701,7 @@ function saveCustomCategory() {
             populateCategorySelect();
             updateStorageUsage();
             updateCompressionStats();
-            hideWordLoading();
+            hideGlobalLoading();
             showToast('새 카테고리가 생성되었습니다');
         }, 100);
     }
@@ -3367,18 +3368,10 @@ async function importWordsFromFile() {
         // UI 업데이트를 위한 짧은 대기
         await new Promise(resolve => setTimeout(resolve, 50));
 
-        // 저장 중 점 애니메이션
-        let savingDotsInterval = null;
+        // 저장 시작 시 프로그래스바 숨기고 스피너 표시
         const onSaving = () => {
-            progressCount.textContent = '';
-            progressFill.style.width = '100%';
-            // 점 애니메이션 시작
-            let dotCount = 1;
-            progressLabel.textContent = '저장 중.';
-            savingDotsInterval = setInterval(() => {
-                dotCount = (dotCount % 3) + 1;
-                progressLabel.textContent = '저장 중' + '.'.repeat(dotCount);
-            }, 400);
+            progressDiv.classList.add('hidden');
+            showWordLoading('저장 중...');
         };
 
         let result;
@@ -3392,16 +3385,11 @@ async function importWordsFromFile() {
             result = { success: false, error: err.message };
         }
 
-        // 점 애니메이션 정리
-        if (savingDotsInterval) {
-            clearInterval(savingDotsInterval);
-            savingDotsInterval = null;
-        }
-
         // 작업 완료 후 AbortController 해제
         importAbortController = null;
 
-        // 프로그레스 숨기고 폼 버튼 복원
+        // 스피너 숨기고 폼 버튼 복원
+        hideWordLoading();
         progressDiv.classList.add('hidden');
         formActions.classList.remove('hidden');
 
@@ -4006,10 +3994,19 @@ function handleBackButton(e) {
     }
 
     // Check if blink mode is running
-    if (currentView === 'blink-view' && !document.getElementById('blink-display-area').classList.contains('hidden')) {
-        stopBlink();
-        restoreHistoryEntry();
-        return;
+    if (currentView === 'blink-view') {
+        const blinkDisplayArea = document.getElementById('blink-display-area');
+        if (!blinkDisplayArea.classList.contains('hidden')) {
+            // 블링크 실행 중 - 중지하고 설정창으로
+            stopBlink();
+            restoreHistoryEntry();
+            return;
+        } else {
+            // 블링크 설정창 - 홈으로 이동
+            showHome();
+            restoreHistoryEntry();
+            return;
+        }
     }
 
     // Check if quiz is in progress
