@@ -4006,13 +4006,14 @@ function handleBackButton(e) {
     if (currentView === 'blink-view') {
         const blinkDisplayArea = document.getElementById('blink-display-area');
         if (!blinkDisplayArea.classList.contains('hidden')) {
-            // 블링크 실행 중 - 중지하고 설정창으로 (히스토리 복원하여 다음 뒤로가기에서 홈으로)
+            // 블링크 실행 중 - 중지하고 설정창으로
             stopBlink();
             restoreHistoryEntry();
             return;
         }
-        // 블링크 설정창 - 홈으로 이동 (히스토리 복원 불필요)
+        // 블링크 설정창 - 홈으로 이동
         showHome();
+        restoreHistoryEntry();
         return;
     }
 
