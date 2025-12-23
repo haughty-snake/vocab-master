@@ -1646,8 +1646,12 @@ function togglePronunciation() {
 }
 
 function exportData() {
-    Storage.exportData();
-    showToast('데이터를 내보냈습니다');
+    showWordLoading('데이터 내보내기 중...');
+    setTimeout(() => {
+        Storage.exportData();
+        hideWordLoading();
+        showToast('데이터를 내보냈습니다');
+    }, 100);
 }
 
 function importData() {
@@ -1760,13 +1764,10 @@ function proceedRecoveryWithBackup() {
 
     setTimeout(() => {
         try {
-            const backupBlob = Storage.createBackupBlob();
-            const timestamp = new Date().toISOString().slice(0, 10);
-            const ext = Storage.settings.compression?.enabled ? '.lzstr' : '.json';
-            const filename = `vocabmaster_backup_${timestamp}${ext}`;
+            const { blob, filename } = Storage.createBackupBlob();
 
             const link = document.createElement('a');
-            link.href = URL.createObjectURL(backupBlob);
+            link.href = URL.createObjectURL(blob);
             link.download = filename;
             link.click();
             URL.revokeObjectURL(link.href);
@@ -1831,50 +1832,55 @@ function confirmExportCategories() {
         return;
     }
 
-    const selectedCategories = Storage.customCategories.filter(cat => selectedIds.includes(cat.id));
+    showWordLoading('카테고리 내보내기 중...');
 
-    const exportData = {
-        type: 'vocabmaster_custom_categories',
-        version: Version.CURRENT,
-        exportDate: new Date().toISOString(),
-        categories: selectedCategories.map(cat => ({
-            name: cat.name,
-            icon: cat.icon,
-            color: cat.color,
-            words: cat.words.map(word => ({
-                word: word.word,
-                pronunciation: word.pronunciation || '',
-                meanings: word.meanings || [],
-                meaning: word.meaning || ''
+    setTimeout(() => {
+        const selectedCategories = Storage.customCategories.filter(cat => selectedIds.includes(cat.id));
+
+        const exportData = {
+            type: 'vocabmaster_custom_categories',
+            version: Version.CURRENT,
+            exportDate: new Date().toISOString(),
+            categories: selectedCategories.map(cat => ({
+                name: cat.name,
+                icon: cat.icon,
+                color: cat.color,
+                words: (cat.words || []).map(word => ({
+                    word: word.word,
+                    pronunciation: word.pronunciation || '',
+                    meanings: word.meanings || [],
+                    meaning: word.meaning || ''
+                }))
             }))
-        }))
-    };
+        };
 
-    const dateStr = new Date().toISOString().split('T')[0];
-    let blob, filename;
+        const dateStr = new Date().toISOString().split('T')[0];
+        let blob, filename;
 
-    if (Storage.settings.compression?.enabled && typeof LZString !== 'undefined') {
-        // 압축 모드: LZ-String으로 압축하여 .lzstr로 내보내기
-        const compressed = LZString.compressToUTF16(JSON.stringify(exportData));
-        blob = new Blob([compressed], { type: 'application/octet-stream' });
-        filename = `vocabmaster_categories_${dateStr}.lzstr`;
-    } else {
-        // 일반 모드: JSON으로 내보내기 (공백 제거)
-        blob = new Blob([JSON.stringify(exportData)], { type: 'application/json' });
-        filename = `vocabmaster_categories_${dateStr}.json`;
-    }
+        if (Storage.settings.compression?.enabled && typeof LZString !== 'undefined') {
+            // 압축 모드: LZ-String으로 압축하여 .lzstr로 내보내기
+            const compressed = LZString.compressToUTF16(JSON.stringify(exportData));
+            blob = new Blob([compressed], { type: 'application/octet-stream' });
+            filename = `vocabmaster_categories_${dateStr}.lzstr`;
+        } else {
+            // 일반 모드: JSON으로 내보내기 (공백 제거)
+            blob = new Blob([JSON.stringify(exportData)], { type: 'application/json' });
+            filename = `vocabmaster_categories_${dateStr}.json`;
+        }
 
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = filename;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
 
-    closeExportCategoriesModal();
-    showToast(`${selectedCategories.length}개의 카테고리를 내보냈습니다`);
+        closeExportCategoriesModal();
+        hideWordLoading();
+        showToast(`${selectedCategories.length}개의 카테고리를 내보냈습니다`);
+    }, 100);
 }
 
 // Trigger import file dialog
@@ -2305,8 +2311,12 @@ function dismissBackupReminder() {
 
 function performBackupFromReminder() {
     dismissBackupReminder();
-    Storage.exportData();
-    showToast('데이터를 백업했습니다');
+    showWordLoading('데이터 백업 중...');
+    setTimeout(() => {
+        Storage.exportData();
+        hideWordLoading();
+        showToast('데이터를 백업했습니다');
+    }, 100);
 }
 
 function updateLastBackupDateDisplay() {
@@ -2656,8 +2666,16 @@ function saveCustomCategory() {
             showToast('이미 같은 이름의 카테고리가 있습니다');
             return;
         }
-        Storage.updateCustomCategory(editingCategoryId, { name, icon, color });
-        showToast('카테고리가 수정되었습니다');
+        showWordLoading('카테고리 수정 중...');
+        setTimeout(() => {
+            Storage.updateCustomCategory(editingCategoryId, { name, icon, color });
+            closeCustomCategoryModal();
+            VocabData.reloadCustomCategories();
+            renderCategories();
+            populateCategorySelect();
+            hideWordLoading();
+            showToast('카테고리가 수정되었습니다');
+        }, 100);
     } else {
         // Create new category
         const result = Storage.createCustomCategory(name, icon, color);
@@ -2665,13 +2683,16 @@ function saveCustomCategory() {
             showToast('이미 같은 이름의 카테고리가 있습니다');
             return;
         }
-        showToast('새 카테고리가 생성되었습니다');
+        showWordLoading('카테고리 생성 중...');
+        setTimeout(() => {
+            closeCustomCategoryModal();
+            VocabData.reloadCustomCategories();
+            renderCategories();
+            populateCategorySelect();
+            hideWordLoading();
+            showToast('새 카테고리가 생성되었습니다');
+        }, 100);
     }
-
-    closeCustomCategoryModal();
-    VocabData.reloadCustomCategories();
-    renderCategories();
-    populateCategorySelect();
 }
 
 // Icon picker event handler
@@ -2750,11 +2771,14 @@ function saveCategoryName() {
         return;
     }
 
-    Storage.updateCustomCategory(managingCategoryId, { name: newName });
-    document.getElementById('word-management-title').textContent = `${newName} - 단어 관리`;
-
-    cancelCategoryNameEdit();
-    showToast('카테고리명이 수정되었습니다');
+    showWordLoading('카테고리명 변경 중...');
+    setTimeout(() => {
+        Storage.updateCustomCategory(managingCategoryId, { name: newName });
+        document.getElementById('word-management-title').textContent = `${newName} - 단어 관리`;
+        cancelCategoryNameEdit();
+        hideWordLoading();
+        showToast('카테고리명이 수정되었습니다');
+    }, 100);
 }
 
 function cancelCategoryNameEdit() {
@@ -3504,17 +3528,21 @@ async function deleteWordFromCategory(wordId) {
 
 function deleteCurrentCategory() {
     if (confirm('이 카테고리와 포함된 모든 단어를 삭제하시겠습니까?\n이 작업은 되돌릴 수 없습니다.')) {
-        const deletedCategoryId = managingCategoryId;
-        Storage.deleteCustomCategory(deletedCategoryId);
-        showToast('카테고리가 삭제되었습니다');
+        showWordLoading('카테고리 삭제 중...');
+        setTimeout(() => {
+            const deletedCategoryId = managingCategoryId;
+            Storage.deleteCustomCategory(deletedCategoryId);
 
-        // If current category was deleted, reset to 'all'
-        if (currentCategory === deletedCategoryId) {
-            saveCategory('all');
-            updateAllCategoryBadges();
-        }
+            // If current category was deleted, reset to 'all'
+            if (currentCategory === deletedCategoryId) {
+                saveCategory('all');
+                updateAllCategoryBadges();
+            }
 
-        closeWordManagementModal();
+            closeWordManagementModal();
+            hideWordLoading();
+            showToast('카테고리가 삭제되었습니다');
+        }, 100);
     }
 }
 
@@ -3827,6 +3855,18 @@ document.addEventListener('DOMContentLoaded', () => {
 let backPressedOnce = false;
 let backPressTimeout = null;
 
+// bfcache 복원 후 첫 번째 popstate 무시 플래그
+let skipNextPopstate = false;
+
+// bfcache에서 복원될 때 감지 (서브페이지에서 돌아올 때)
+window.addEventListener('pageshow', function(e) {
+    if (e.persisted) {
+        // bfcache에서 복원됨 - 다음 popstate 무시
+        skipNextPopstate = true;
+        console.log('[PWA] Page restored from bfcache, will skip next popstate');
+    }
+});
+
 function initPWABackHandler() {
     // Detect browser type
     const ua = navigator.userAgent;
@@ -3906,6 +3946,13 @@ function restoreHistoryEntry() {
 }
 
 function handleBackButton(e) {
+    // bfcache에서 복원 후 첫 번째 popstate는 무시 (서브페이지에서 돌아올 때)
+    if (skipNextPopstate) {
+        skipNextPopstate = false;
+        console.log('[PWA] Skipping popstate after bfcache restore');
+        return;
+    }
+
     console.log('[PWA] Back button pressed, currentView:', currentView);
 
     // Check if any modal is open

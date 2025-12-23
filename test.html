@@ -831,176 +831,203 @@
 
         function viewData(key) {
             const output = document.getElementById('data-output');
-            const raw = localStorage.getItem(key);
+            showTestLoading('데이터 조회 중...');
 
-            if (!raw) {
-                output.textContent = `[${key}] 데이터 없음`;
-                output.classList.add('empty');
-                return;
-            }
+            setTimeout(() => {
+                const raw = localStorage.getItem(key);
 
-            const format = detectFormat(raw);
-            let result = `[${key}]\n형식: ${format.toUpperCase()}\n저장 크기: ${(raw.length * 2 / 1024).toFixed(2)}KB\n`;
-            result += '─'.repeat(50) + '\n\n';
-
-            if (currentViewMode === 'raw' || currentViewMode === 'both') {
-                result += '=== RAW 데이터 ===\n';
-                result += raw.length > 1000 ? raw.substring(0, 1000) + '...\n(truncated)' : raw;
-                result += '\n\n';
-            }
-
-            if (currentViewMode === 'json' || currentViewMode === 'both') {
-                result += '=== JSON 데이터 ===\n';
-                try {
-                    const data = decompress(raw);
-                    if (data) {
-                        const jsonStr = JSON.stringify(data, null, 2);
-                        result += jsonStr.length > 5000 ? jsonStr.substring(0, 5000) + '\n...(truncated)' : jsonStr;
-                        result += `\n\nJSON 크기: ${(JSON.stringify(data).length * 2 / 1024).toFixed(2)}KB`;
-                    } else {
-                        result += '파싱 실패';
-                    }
-                } catch (e) {
-                    result += '파싱 실패: ' + e.message;
+                if (!raw) {
+                    output.textContent = `[${key}] 데이터 없음`;
+                    output.classList.add('empty');
+                    hideTestLoading();
+                    return;
                 }
-            }
 
-            output.textContent = result;
-            output.classList.remove('empty');
+                const format = detectFormat(raw);
+                let result = `[${key}]\n형식: ${format.toUpperCase()}\n저장 크기: ${(raw.length * 2 / 1024).toFixed(2)}KB\n`;
+                result += '─'.repeat(50) + '\n\n';
+
+                if (currentViewMode === 'raw' || currentViewMode === 'both') {
+                    result += '=== RAW 데이터 ===\n';
+                    result += raw.length > 1000 ? raw.substring(0, 1000) + '...\n(truncated)' : raw;
+                    result += '\n\n';
+                }
+
+                if (currentViewMode === 'json' || currentViewMode === 'both') {
+                    result += '=== JSON 데이터 ===\n';
+                    try {
+                        const data = decompress(raw);
+                        if (data) {
+                            const jsonStr = JSON.stringify(data, null, 2);
+                            result += jsonStr.length > 5000 ? jsonStr.substring(0, 5000) + '\n...(truncated)' : jsonStr;
+                            result += `\n\nJSON 크기: ${(JSON.stringify(data).length * 2 / 1024).toFixed(2)}KB`;
+                        } else {
+                            result += '파싱 실패';
+                        }
+                    } catch (e) {
+                        result += '파싱 실패: ' + e.message;
+                    }
+                }
+
+                output.textContent = result;
+                output.classList.remove('empty');
+                hideTestLoading();
+            }, 100);
         }
 
         function viewSessionData() {
             const output = document.getElementById('data-output');
-            const raw = sessionStorage.getItem(KEYS.TEMP);
+            showTestLoading('세션 데이터 조회 중...');
 
-            if (!raw) {
-                output.textContent = '[Session Temp] 데이터 없음';
-                output.classList.add('empty');
-                return;
-            }
+            setTimeout(() => {
+                const raw = sessionStorage.getItem(KEYS.TEMP);
 
-            try {
-                const data = JSON.parse(raw);
-                output.textContent = '[Session Temp]\n' + JSON.stringify(data, null, 2);
-                output.classList.remove('empty');
-            } catch (e) {
-                output.textContent = `[Session Temp] 파싱 실패\nRaw: ${raw}`;
-                output.classList.remove('empty');
-            }
+                if (!raw) {
+                    output.textContent = '[Session Temp] 데이터 없음';
+                    output.classList.add('empty');
+                    hideTestLoading();
+                    return;
+                }
+
+                try {
+                    const data = JSON.parse(raw);
+                    output.textContent = '[Session Temp]\n' + JSON.stringify(data, null, 2);
+                    output.classList.remove('empty');
+                } catch (e) {
+                    output.textContent = `[Session Temp] 파싱 실패\nRaw: ${raw}`;
+                    output.classList.remove('empty');
+                }
+                hideTestLoading();
+            }, 100);
         }
 
         // ==================== 압축 테스트 ====================
 
         function testCompression() {
             const output = document.getElementById('compression-output');
-            const results = [];
+            showTestLoading('압축 테스트 중...');
 
-            results.push('=== LZ-String 압축/해제 테스트 ===\n');
+            setTimeout(() => {
+                const results = [];
 
-            const testData = {
-                word1: 'memorized',
-                word2: 'learning',
-                word3: 'new',
-                timestamp: Date.now()
-            };
+                results.push('=== LZ-String 압축/해제 테스트 ===\n');
 
-            // 압축
-            results.push('1. 원본 데이터:');
-            results.push('   ' + JSON.stringify(testData));
+                const testData = {
+                    word1: 'memorized',
+                    word2: 'learning',
+                    word3: 'new',
+                    timestamp: Date.now()
+                };
 
-            const compressed = compress(testData);
-            results.push('\n2. 압축 결과:');
-            results.push('   ' + compressed.substring(0, 50) + '...');
-            results.push('   접두사: ' + (compressed.startsWith('LZ:') ? 'LZ: (정상)' : '오류'));
+                // 압축
+                results.push('1. 원본 데이터:');
+                results.push('   ' + JSON.stringify(testData));
 
-            // 해제
-            const decompressed = decompress(compressed);
-            results.push('\n3. 해제 결과:');
-            results.push('   ' + JSON.stringify(decompressed));
+                const compressed = compress(testData);
+                results.push('\n2. 압축 결과:');
+                results.push('   ' + compressed.substring(0, 50) + '...');
+                results.push('   접두사: ' + (compressed.startsWith('LZ:') ? 'LZ: (정상)' : '오류'));
 
-            // 검증
-            const isValid = JSON.stringify(testData) === JSON.stringify(decompressed);
-            results.push('\n4. 검증:');
-            results.push('   ' + (isValid ? '✅ 성공 - 데이터 무결성 확인' : '❌ 실패 - 데이터 불일치'));
+                // 해제
+                const decompressed = decompress(compressed);
+                results.push('\n3. 해제 결과:');
+                results.push('   ' + JSON.stringify(decompressed));
 
-            // 크기 비교
-            const jsonSize = JSON.stringify(testData).length * 2;
-            const compressedSize = compressed.length * 2;
-            results.push('\n5. 크기 비교:');
-            results.push(`   JSON: ${jsonSize}B, 압축: ${compressedSize}B`);
+                // 검증
+                const isValid = JSON.stringify(testData) === JSON.stringify(decompressed);
+                results.push('\n4. 검증:');
+                results.push('   ' + (isValid ? '✅ 성공 - 데이터 무결성 확인' : '❌ 실패 - 데이터 불일치'));
 
-            output.textContent = results.join('\n');
-            output.classList.remove('empty');
+                // 크기 비교
+                const jsonSize = JSON.stringify(testData).length * 2;
+                const compressedSize = compressed.length * 2;
+                results.push('\n5. 크기 비교:');
+                results.push(`   JSON: ${jsonSize}B, 압축: ${compressedSize}B`);
+
+                output.textContent = results.join('\n');
+                output.classList.remove('empty');
+                hideTestLoading();
+            }, 100);
         }
 
         function testAutoDetect() {
             const output = document.getElementById('compression-output');
-            const results = [];
+            showTestLoading('자동 감지 테스트 중...');
 
-            results.push('=== 자동 형식 감지 테스트 ===\n');
+            setTimeout(() => {
+                const results = [];
 
-            const testData = { test: 'data', value: 123 };
+                results.push('=== 자동 형식 감지 테스트 ===\n');
 
-            // JSON 형식
-            const jsonStr = JSON.stringify(testData);
-            results.push('1. JSON 형식:');
-            results.push('   입력: ' + jsonStr.substring(0, 30) + '...');
-            results.push('   감지: ' + detectFormat(jsonStr));
-            results.push('   해제: ' + (decompress(jsonStr) ? '✅ 성공' : '❌ 실패'));
+                const testData = { test: 'data', value: 123 };
 
-            // LZ-String 형식
-            const lzStr = compress(testData);
-            results.push('\n2. LZ-String 형식:');
-            results.push('   입력: ' + lzStr.substring(0, 30) + '...');
-            results.push('   감지: ' + detectFormat(lzStr));
-            results.push('   해제: ' + (decompress(lzStr) ? '✅ 성공' : '❌ 실패'));
+                // JSON 형식
+                const jsonStr = JSON.stringify(testData);
+                results.push('1. JSON 형식:');
+                results.push('   입력: ' + jsonStr.substring(0, 30) + '...');
+                results.push('   감지: ' + detectFormat(jsonStr));
+                results.push('   해제: ' + (decompress(jsonStr) ? '✅ 성공' : '❌ 실패'));
 
-            // 손상된 데이터
-            const corrupted = '{invalid json';
-            results.push('\n3. 손상된 데이터:');
-            results.push('   입력: ' + corrupted);
-            results.push('   감지: ' + detectFormat(corrupted));
-            try {
-                decompress(corrupted);
-                results.push('   해제: ❌ 예외 미발생');
-            } catch (e) {
-                results.push('   해제: ✅ 예외 발생 (정상)');
-            }
+                // LZ-String 형식
+                const lzStr = compress(testData);
+                results.push('\n2. LZ-String 형식:');
+                results.push('   입력: ' + lzStr.substring(0, 30) + '...');
+                results.push('   감지: ' + detectFormat(lzStr));
+                results.push('   해제: ' + (decompress(lzStr) ? '✅ 성공' : '❌ 실패'));
 
-            output.textContent = results.join('\n');
-            output.classList.remove('empty');
+                // 손상된 데이터
+                const corrupted = '{invalid json';
+                results.push('\n3. 손상된 데이터:');
+                results.push('   입력: ' + corrupted);
+                results.push('   감지: ' + detectFormat(corrupted));
+                try {
+                    decompress(corrupted);
+                    results.push('   해제: ❌ 예외 미발생');
+                } catch (e) {
+                    results.push('   해제: ✅ 예외 발생 (정상)');
+                }
+
+                output.textContent = results.join('\n');
+                output.classList.remove('empty');
+                hideTestLoading();
+            }, 100);
         }
 
         function testCompressionRatio() {
             const output = document.getElementById('compression-output');
-            const results = [];
+            showTestLoading('압축률 테스트 중...');
 
-            results.push('=== 압축률 테스트 ===\n');
+            setTimeout(() => {
+                const results = [];
 
-            // 다양한 크기의 테스트 데이터
-            const sizes = [100, 500, 1000, 2000];
+                results.push('=== 압축률 테스트 ===\n');
 
-            sizes.forEach(size => {
-                const data = {};
-                for (let i = 0; i < size; i++) {
-                    data[`word_${i}`] = i % 3 === 0 ? 'memorized' : i % 3 === 1 ? 'learning' : 'new';
-                }
+                // 다양한 크기의 테스트 데이터
+                const sizes = [100, 500, 1000, 2000];
 
-                const jsonStr = JSON.stringify(data);
-                const compressed = compress(data);
+                sizes.forEach(size => {
+                    const data = {};
+                    for (let i = 0; i < size; i++) {
+                        data[`word_${i}`] = i % 3 === 0 ? 'memorized' : i % 3 === 1 ? 'learning' : 'new';
+                    }
 
-                const jsonSize = jsonStr.length * 2;
-                const compressedSize = compressed.length * 2;
-                const ratio = Math.round((1 - compressedSize / jsonSize) * 100);
+                    const jsonStr = JSON.stringify(data);
+                    const compressed = compress(data);
 
-                results.push(`${size}개 단어:`);
-                results.push(`  JSON: ${(jsonSize/1024).toFixed(1)}KB → 압축: ${(compressedSize/1024).toFixed(1)}KB (${ratio}% 절감)`);
-            });
+                    const jsonSize = jsonStr.length * 2;
+                    const compressedSize = compressed.length * 2;
+                    const ratio = Math.round((1 - compressedSize / jsonSize) * 100);
 
-            results.push('\n결론: 반복 패턴이 많은 데이터에서 50~90% 압축률 달성');
+                    results.push(`${size}개 단어:`);
+                    results.push(`  JSON: ${(jsonSize/1024).toFixed(1)}KB → 압축: ${(compressedSize/1024).toFixed(1)}KB (${ratio}% 절감)`);
+                });
 
-            output.textContent = results.join('\n');
-            output.classList.remove('empty');
+                results.push('\n결론: 반복 패턴이 많은 데이터에서 50~90% 압축률 달성');
+
+                output.textContent = results.join('\n');
+                output.classList.remove('empty');
+                hideTestLoading();
+            }, 100);
         }
 
         // 안전한 마이그레이션 (임시 키 사용 + 검증 + 롤백)
@@ -1119,55 +1146,60 @@
         // 안전 마이그레이션 테스트 (강제 실패 시뮬레이션)
         function testSafeMigrationRollback() {
             const output = document.getElementById('compression-output');
-            const testKey = 'vocabmaster_test_migration';
-            const testBackupKey = 'vocabmaster_test_migration_backup';
-            const TEMP_SUFFIX = '_migration_temp';
-            const results = [];
+            showTestLoading('롤백 테스트 중...');
 
-            results.push('=== 안전 마이그레이션 롤백 테스트 ===\n');
+            setTimeout(() => {
+                const testKey = 'vocabmaster_test_migration';
+                const testBackupKey = 'vocabmaster_test_migration_backup';
+                const TEMP_SUFFIX = '_migration_temp';
+                const results = [];
 
-            // 테스트 데이터 생성
-            const testData = { word1: 'memorized', word2: 'learning', timestamp: Date.now() };
-            const originalJson = JSON.stringify(testData);
-            localStorage.setItem(testKey, originalJson);
-            localStorage.setItem(testBackupKey, originalJson);
-            results.push('1. 테스트 데이터 생성 (JSON 형식)');
-            results.push(`   원본: ${originalJson.substring(0, 50)}...`);
+                results.push('=== 안전 마이그레이션 롤백 테스트 ===\n');
 
-            // 압축 시도 (임시 키 사용)
-            const compressed = compress(testData);
-            const tempKey = testKey + TEMP_SUFFIX;
-            localStorage.setItem(tempKey, compressed);
-            results.push('\n2. 임시 키에 압축 데이터 저장');
-            results.push(`   임시: ${compressed.substring(0, 30)}...`);
+                // 테스트 데이터 생성
+                const testData = { word1: 'memorized', word2: 'learning', timestamp: Date.now() };
+                const originalJson = JSON.stringify(testData);
+                localStorage.setItem(testKey, originalJson);
+                localStorage.setItem(testBackupKey, originalJson);
+                results.push('1. 테스트 데이터 생성 (JSON 형식)');
+                results.push(`   원본: ${originalJson.substring(0, 50)}...`);
 
-            // 검증 시뮬레이션 (의도적 실패)
-            results.push('\n3. 검증 실패 시뮬레이션...');
-            const simulateFailure = true;
+                // 압축 시도 (임시 키 사용)
+                const compressed = compress(testData);
+                const tempKey = testKey + TEMP_SUFFIX;
+                localStorage.setItem(tempKey, compressed);
+                results.push('\n2. 임시 키에 압축 데이터 저장');
+                results.push(`   임시: ${compressed.substring(0, 30)}...`);
 
-            if (simulateFailure) {
-                results.push('   → 검증 실패! 롤백 시작...');
+                // 검증 시뮬레이션 (의도적 실패)
+                results.push('\n3. 검증 실패 시뮬레이션...');
+                const simulateFailure = true;
 
-                // 임시 데이터 삭제
+                if (simulateFailure) {
+                    results.push('   → 검증 실패! 롤백 시작...');
+
+                    // 임시 데이터 삭제
+                    localStorage.removeItem(tempKey);
+                    results.push('   → 임시 데이터 삭제');
+
+                    // 원본 확인
+                    const originalStillExists = localStorage.getItem(testKey) === originalJson;
+                    results.push(`   → 원본 데이터 확인: ${originalStillExists ? '✅ 보존됨' : '❌ 손상됨'}`);
+                }
+
+                // 정리
+                localStorage.removeItem(testKey);
+                localStorage.removeItem(testBackupKey);
                 localStorage.removeItem(tempKey);
-                results.push('   → 임시 데이터 삭제');
+                results.push('\n4. 테스트 데이터 정리 완료');
 
-                // 원본 확인
-                const originalStillExists = localStorage.getItem(testKey) === originalJson;
-                results.push(`   → 원본 데이터 확인: ${originalStillExists ? '✅ 보존됨' : '❌ 손상됨'}`);
-            }
+                results.push('\n결과: ✅ 롤백 메커니즘 정상 동작');
+                results.push('      원본 데이터는 검증 실패 시에도 보존됩니다.');
 
-            // 정리
-            localStorage.removeItem(testKey);
-            localStorage.removeItem(testBackupKey);
-            localStorage.removeItem(tempKey);
-            results.push('\n4. 테스트 데이터 정리 완료');
-
-            results.push('\n결과: ✅ 롤백 메커니즘 정상 동작');
-            results.push('      원본 데이터는 검증 실패 시에도 보존됩니다.');
-
-            output.textContent = results.join('\n');
-            output.classList.remove('empty');
+                output.textContent = results.join('\n');
+                output.classList.remove('empty');
+                hideTestLoading();
+            }, 100);
         }
 
         // ==================== 데이터 손상 ====================
@@ -1179,11 +1211,14 @@
                 return;
             }
 
-            const corrupted = '{corrupted_' + Math.random().toString(36).substring(7) + ': "invalid json';
-            localStorage.setItem(key, corrupted);
-
-            alert(`${key} 데이터가 손상되었습니다.`);
-            refreshStatus();
+            showTestLoading('데이터 손상 중...');
+            setTimeout(() => {
+                const corrupted = '{corrupted_' + Math.random().toString(36).substring(7) + ': "invalid json';
+                localStorage.setItem(key, corrupted);
+                refreshStatus();
+                hideTestLoading();
+                alert(`${key} 데이터가 손상되었습니다.`);
+            }, 100);
         }
 
         function corruptBoth(type) {
@@ -1211,42 +1246,51 @@
         function corruptAll() {
             if (!confirm('정말로 모든 데이터를 손상시키겠습니까?')) return;
 
-            const keys = [
-                KEYS.PROGRESS, KEYS.PROGRESS_BACKUP,
-                KEYS.STATS, KEYS.STATS_BACKUP,
-                KEYS.CUSTOM_CATEGORIES, KEYS.CUSTOM_CATEGORIES_BACKUP
-            ];
+            showTestLoading('모든 데이터 손상 중...');
+            setTimeout(() => {
+                const keys = [
+                    KEYS.PROGRESS, KEYS.PROGRESS_BACKUP,
+                    KEYS.STATS, KEYS.STATS_BACKUP,
+                    KEYS.CUSTOM_CATEGORIES, KEYS.CUSTOM_CATEGORIES_BACKUP
+                ];
 
-            keys.forEach(key => {
-                if (localStorage.getItem(key)) {
-                    const corrupted = '{corrupted_all: "invalid';
-                    localStorage.setItem(key, corrupted);
-                }
-            });
+                keys.forEach(key => {
+                    if (localStorage.getItem(key)) {
+                        const corrupted = '{corrupted_all: "invalid';
+                        localStorage.setItem(key, corrupted);
+                    }
+                });
 
-            alert('모든 데이터가 손상되었습니다.');
-            refreshStatus();
+                refreshStatus();
+                hideTestLoading();
+                alert('모든 데이터가 손상되었습니다.');
+            }, 100);
         }
 
         // ==================== 복구 테스트 ====================
 
         function testRecovery() {
             const output = document.getElementById('recovery-output');
-            let results = [];
+            showTestLoading('복구 시뮬레이션 중...');
 
-            results.push('=== 복구 시뮬레이션 결과 ===\n');
+            setTimeout(() => {
+                let results = [];
 
-            results.push('[ Progress ]');
-            results.push(testRecoveryFor(KEYS.PROGRESS, KEYS.PROGRESS_BACKUP, KEYS.TEMP));
+                results.push('=== 복구 시뮬레이션 결과 ===\n');
 
-            results.push('\n[ Stats ]');
-            results.push(testRecoveryFor(KEYS.STATS, KEYS.STATS_BACKUP, null));
+                results.push('[ Progress ]');
+                results.push(testRecoveryFor(KEYS.PROGRESS, KEYS.PROGRESS_BACKUP, KEYS.TEMP));
 
-            results.push('\n[ Custom Categories ]');
-            results.push(testRecoveryFor(KEYS.CUSTOM_CATEGORIES, KEYS.CUSTOM_CATEGORIES_BACKUP, null));
+                results.push('\n[ Stats ]');
+                results.push(testRecoveryFor(KEYS.STATS, KEYS.STATS_BACKUP, null));
 
-            output.textContent = results.join('\n');
-            output.classList.remove('empty');
+                results.push('\n[ Custom Categories ]');
+                results.push(testRecoveryFor(KEYS.CUSTOM_CATEGORIES, KEYS.CUSTOM_CATEGORIES_BACKUP, null));
+
+                output.textContent = results.join('\n');
+                output.classList.remove('empty');
+                hideTestLoading();
+            }, 100);
         }
 
         function testRecoveryFor(mainKey, backupKey, tempKey) {
@@ -1326,176 +1370,198 @@
 
         function testWriteVerify() {
             const output = document.getElementById('write-verify-output');
-            const testKey = 'vocabmaster_test_write_verify';
-            const results = [];
+            showTestLoading('Write-Verify 테스트 중...');
 
-            results.push('=== 기본 Write-Verify 패턴 테스트 ===\n');
+            setTimeout(() => {
+                const testKey = 'vocabmaster_test_write_verify';
+                const results = [];
 
-            const testData = { test: true, timestamp: Date.now(), value: 'test_' + Math.random() };
+                results.push('=== 기본 Write-Verify 패턴 테스트 ===\n');
 
-            // 1. 쓰기
-            results.push('1. 데이터 쓰기 (JSON)...');
-            try {
-                localStorage.setItem(testKey, JSON.stringify(testData));
-                results.push('   성공: 데이터 저장됨');
-            } catch (e) {
-                results.push('   실패: ' + e.message);
-                output.textContent = results.join('\n');
-                return;
-            }
+                const testData = { test: true, timestamp: Date.now(), value: 'test_' + Math.random() };
 
-            // 2. 읽기 + 검증
-            results.push('\n2. 데이터 읽기 및 검증...');
-            const readBack = localStorage.getItem(testKey);
-            try {
-                const parsed = JSON.parse(readBack);
-                if (parsed.test === testData.test && parsed.timestamp === testData.timestamp) {
-                    results.push('   성공: 데이터 무결성 확인됨');
-                } else {
-                    results.push('   실패: 데이터 불일치');
+                // 1. 쓰기
+                results.push('1. 데이터 쓰기 (JSON)...');
+                try {
+                    localStorage.setItem(testKey, JSON.stringify(testData));
+                    results.push('   성공: 데이터 저장됨');
+                } catch (e) {
+                    results.push('   실패: ' + e.message);
+                    output.textContent = results.join('\n');
+                    hideTestLoading();
+                    return;
                 }
-            } catch (e) {
-                results.push('   실패: 파싱 오류');
-            }
 
-            // 정리
-            localStorage.removeItem(testKey);
-            results.push('\n3. 테스트 데이터 정리 완료');
-            results.push('\n결과: ✅ Write-Verify 패턴 정상 작동');
+                // 2. 읽기 + 검증
+                results.push('\n2. 데이터 읽기 및 검증...');
+                const readBack = localStorage.getItem(testKey);
+                try {
+                    const parsed = JSON.parse(readBack);
+                    if (parsed.test === testData.test && parsed.timestamp === testData.timestamp) {
+                        results.push('   성공: 데이터 무결성 확인됨');
+                    } else {
+                        results.push('   실패: 데이터 불일치');
+                    }
+                } catch (e) {
+                    results.push('   실패: 파싱 오류');
+                }
 
-            output.textContent = results.join('\n');
-            output.classList.remove('empty');
+                // 정리
+                localStorage.removeItem(testKey);
+                results.push('\n3. 테스트 데이터 정리 완료');
+                results.push('\n결과: ✅ Write-Verify 패턴 정상 작동');
+
+                output.textContent = results.join('\n');
+                output.classList.remove('empty');
+                hideTestLoading();
+            }, 100);
         }
 
         function testWriteVerifyCompressed() {
             const output = document.getElementById('write-verify-output');
-            const testKey = 'vocabmaster_test_write_verify_lz';
-            const results = [];
+            showTestLoading('압축 Write-Verify 테스트 중...');
 
-            results.push('=== 압축 Write-Verify 패턴 테스트 ===\n');
+            setTimeout(() => {
+                const testKey = 'vocabmaster_test_write_verify_lz';
+                const results = [];
 
-            const testData = { test: true, timestamp: Date.now(), value: 'test_' + Math.random() };
+                results.push('=== 압축 Write-Verify 패턴 테스트 ===\n');
 
-            // 1. 압축 후 쓰기
-            results.push('1. 데이터 압축 후 쓰기...');
-            const compressed = compress(testData);
-            try {
-                localStorage.setItem(testKey, compressed);
-                results.push('   성공: 압축 데이터 저장됨');
-                results.push('   형식: ' + (compressed.startsWith('LZ:') ? 'LZ-String' : 'Unknown'));
-            } catch (e) {
-                results.push('   실패: ' + e.message);
-                output.textContent = results.join('\n');
-                return;
-            }
+                const testData = { test: true, timestamp: Date.now(), value: 'test_' + Math.random() };
 
-            // 2. 읽기 + 해제 + 검증
-            results.push('\n2. 데이터 읽기, 해제, 검증...');
-            const readBack = localStorage.getItem(testKey);
-            try {
-                const decompressed = decompress(readBack);
-                if (decompressed && decompressed.test === testData.test && decompressed.timestamp === testData.timestamp) {
-                    results.push('   성공: 압축 해제 및 무결성 확인됨');
-                } else {
-                    results.push('   실패: 데이터 불일치');
+                // 1. 압축 후 쓰기
+                results.push('1. 데이터 압축 후 쓰기...');
+                const compressed = compress(testData);
+                try {
+                    localStorage.setItem(testKey, compressed);
+                    results.push('   성공: 압축 데이터 저장됨');
+                    results.push('   형식: ' + (compressed.startsWith('LZ:') ? 'LZ-String' : 'Unknown'));
+                } catch (e) {
+                    results.push('   실패: ' + e.message);
+                    output.textContent = results.join('\n');
+                    hideTestLoading();
+                    return;
                 }
-            } catch (e) {
-                results.push('   실패: 해제 오류 - ' + e.message);
-            }
 
-            // 정리
-            localStorage.removeItem(testKey);
-            results.push('\n3. 테스트 데이터 정리 완료');
-            results.push('\n결과: ✅ 압축 Write-Verify 패턴 정상 작동');
+                // 2. 읽기 + 해제 + 검증
+                results.push('\n2. 데이터 읽기, 해제, 검증...');
+                const readBack = localStorage.getItem(testKey);
+                try {
+                    const decompressed = decompress(readBack);
+                    if (decompressed && decompressed.test === testData.test && decompressed.timestamp === testData.timestamp) {
+                        results.push('   성공: 압축 해제 및 무결성 확인됨');
+                    } else {
+                        results.push('   실패: 데이터 불일치');
+                    }
+                } catch (e) {
+                    results.push('   실패: 해제 오류 - ' + e.message);
+                }
 
-            output.textContent = results.join('\n');
-            output.classList.remove('empty');
+                // 정리
+                localStorage.removeItem(testKey);
+                results.push('\n3. 테스트 데이터 정리 완료');
+                results.push('\n결과: ✅ 압축 Write-Verify 패턴 정상 작동');
+
+                output.textContent = results.join('\n');
+                output.classList.remove('empty');
+                hideTestLoading();
+            }, 100);
         }
 
         // ==================== 멀티탭 테스트 ====================
 
         function testReadModifyWrite() {
             const output = document.getElementById('multitab-output');
-            const testKey = 'vocabmaster_test_rmw';
-            const results = [];
+            showTestLoading('Read-Modify-Write 테스트 중...');
 
-            results.push('=== Read-Modify-Write 패턴 테스트 ===\n');
+            setTimeout(() => {
+                const testKey = 'vocabmaster_test_rmw';
+                const results = [];
 
-            // 초기 데이터 설정
-            const initialData = { word1: 'learning', word2: 'new' };
-            localStorage.setItem(testKey, JSON.stringify(initialData));
-            results.push('1. 초기 데이터 설정: ' + JSON.stringify(initialData));
+                results.push('=== Read-Modify-Write 패턴 테스트 ===\n');
 
-            // 다른 탭에서 변경 시뮬레이션
-            const otherTabData = { word1: 'learning', word2: 'new', word3: 'memorized' };
-            localStorage.setItem(testKey, JSON.stringify(otherTabData));
-            results.push('2. 다른 탭에서 word3 추가: ' + JSON.stringify(otherTabData));
+                // 초기 데이터 설정
+                const initialData = { word1: 'learning', word2: 'new' };
+                localStorage.setItem(testKey, JSON.stringify(initialData));
+                results.push('1. 초기 데이터 설정: ' + JSON.stringify(initialData));
 
-            // 현재 탭에서 Read-Modify-Write
-            results.push('\n3. Read-Modify-Write 실행:');
-            const latest = JSON.parse(localStorage.getItem(testKey));
-            results.push('   Read: ' + JSON.stringify(latest));
+                // 다른 탭에서 변경 시뮬레이션
+                const otherTabData = { word1: 'learning', word2: 'new', word3: 'memorized' };
+                localStorage.setItem(testKey, JSON.stringify(otherTabData));
+                results.push('2. 다른 탭에서 word3 추가: ' + JSON.stringify(otherTabData));
 
-            const myChange = { word1: 'memorized' };
-            const merged = { ...latest, ...myChange };
-            results.push('   Modify: word1 -> memorized');
+                // 현재 탭에서 Read-Modify-Write
+                results.push('\n3. Read-Modify-Write 실행:');
+                const latest = JSON.parse(localStorage.getItem(testKey));
+                results.push('   Read: ' + JSON.stringify(latest));
 
-            localStorage.setItem(testKey, JSON.stringify(merged));
-            results.push('   Write: ' + JSON.stringify(merged));
+                const myChange = { word1: 'memorized' };
+                const merged = { ...latest, ...myChange };
+                results.push('   Modify: word1 -> memorized');
 
-            // 검증
-            const final = JSON.parse(localStorage.getItem(testKey));
-            results.push('\n4. 최종 결과: ' + JSON.stringify(final));
+                localStorage.setItem(testKey, JSON.stringify(merged));
+                results.push('   Write: ' + JSON.stringify(merged));
 
-            const allPreserved = final.word1 === 'memorized' &&
-                                 final.word2 === 'new' &&
-                                 final.word3 === 'memorized';
-            results.push('\n결과: ' + (allPreserved ? '✅ 모든 변경사항 보존됨' : '❌ 데이터 손실 발생'));
+                // 검증
+                const final = JSON.parse(localStorage.getItem(testKey));
+                results.push('\n4. 최종 결과: ' + JSON.stringify(final));
 
-            localStorage.removeItem(testKey);
+                const allPreserved = final.word1 === 'memorized' &&
+                                     final.word2 === 'new' &&
+                                     final.word3 === 'memorized';
+                results.push('\n결과: ' + (allPreserved ? '✅ 모든 변경사항 보존됨' : '❌ 데이터 손실 발생'));
 
-            output.textContent = results.join('\n');
-            output.classList.remove('empty');
+                localStorage.removeItem(testKey);
+
+                output.textContent = results.join('\n');
+                output.classList.remove('empty');
+                hideTestLoading();
+            }, 100);
         }
 
         function testProgressMerge() {
             const output = document.getElementById('multitab-output');
-            const results = [];
+            showTestLoading('Progress 머지 테스트 중...');
 
-            results.push('=== Progress 머지 테스트 (높은 상태 유지) ===\n');
+            setTimeout(() => {
+                const results = [];
 
-            const statusPriority = { 'new': 0, 'learning': 1, 'memorized': 2 };
+                results.push('=== Progress 머지 테스트 (높은 상태 유지) ===\n');
 
-            const tabAData = { word1: 'learning', word2: 'memorized', word3: 'new' };
-            const tabBData = { word1: 'memorized', word2: 'learning', word3: 'learning' };
+                const statusPriority = { 'new': 0, 'learning': 1, 'memorized': 2 };
 
-            results.push('Tab A 데이터: ' + JSON.stringify(tabAData));
-            results.push('Tab B 데이터: ' + JSON.stringify(tabBData));
-            results.push('\n머지 로직: 각 단어별로 더 높은 상태 유지\n');
+                const tabAData = { word1: 'learning', word2: 'memorized', word3: 'new' };
+                const tabBData = { word1: 'memorized', word2: 'learning', word3: 'learning' };
 
-            // 머지 실행
-            const merged = {};
-            const allKeys = new Set([...Object.keys(tabAData), ...Object.keys(tabBData)]);
-            allKeys.forEach(key => {
-                const aStatus = tabAData[key] || 'new';
-                const bStatus = tabBData[key] || 'new';
-                const aPriority = statusPriority[aStatus] || 0;
-                const bPriority = statusPriority[bStatus] || 0;
-                merged[key] = bPriority > aPriority ? bStatus : aStatus;
-            });
+                results.push('Tab A 데이터: ' + JSON.stringify(tabAData));
+                results.push('Tab B 데이터: ' + JSON.stringify(tabBData));
+                results.push('\n머지 로직: 각 단어별로 더 높은 상태 유지\n');
 
-            results.push('머지 결과:');
-            results.push(`  word1: A=${tabAData.word1}, B=${tabBData.word1} -> ${merged.word1}`);
-            results.push(`  word2: A=${tabAData.word2}, B=${tabBData.word2} -> ${merged.word2}`);
-            results.push(`  word3: A=${tabAData.word3}, B=${tabBData.word3} -> ${merged.word3}`);
+                // 머지 실행
+                const merged = {};
+                const allKeys = new Set([...Object.keys(tabAData), ...Object.keys(tabBData)]);
+                allKeys.forEach(key => {
+                    const aStatus = tabAData[key] || 'new';
+                    const bStatus = tabBData[key] || 'new';
+                    const aPriority = statusPriority[aStatus] || 0;
+                    const bPriority = statusPriority[bStatus] || 0;
+                    merged[key] = bPriority > aPriority ? bStatus : aStatus;
+                });
 
-            const correct = merged.word1 === 'memorized' &&
-                           merged.word2 === 'memorized' &&
-                           merged.word3 === 'learning';
-            results.push('\n결과: ' + (correct ? '✅ 높은 상태가 유지됨' : '❌ 머지 오류'));
+                results.push('머지 결과:');
+                results.push(`  word1: A=${tabAData.word1}, B=${tabBData.word1} -> ${merged.word1}`);
+                results.push(`  word2: A=${tabAData.word2}, B=${tabBData.word2} -> ${merged.word2}`);
+                results.push(`  word3: A=${tabAData.word3}, B=${tabBData.word3} -> ${merged.word3}`);
 
-            output.textContent = results.join('\n');
-            output.classList.remove('empty');
+                const correct = merged.word1 === 'memorized' &&
+                               merged.word2 === 'memorized' &&
+                               merged.word3 === 'learning';
+                results.push('\n결과: ' + (correct ? '✅ 높은 상태가 유지됨' : '❌ 머지 오류'));
+
+                output.textContent = results.join('\n');
+                output.classList.remove('empty');
+                hideTestLoading();
+            }, 100);
         }
 
         function simulateOtherTabChange() {
@@ -1525,18 +1591,26 @@
         function clearBackups() {
             if (!confirm('모든 백업 데이터를 삭제하시겠습니까?')) return;
 
-            localStorage.removeItem(KEYS.PROGRESS_BACKUP);
-            localStorage.removeItem(KEYS.STATS_BACKUP);
-            localStorage.removeItem(KEYS.CUSTOM_CATEGORIES_BACKUP);
+            showTestLoading('백업 데이터 삭제 중...');
+            setTimeout(() => {
+                localStorage.removeItem(KEYS.PROGRESS_BACKUP);
+                localStorage.removeItem(KEYS.STATS_BACKUP);
+                localStorage.removeItem(KEYS.CUSTOM_CATEGORIES_BACKUP);
 
-            alert('백업 데이터가 삭제되었습니다.');
-            refreshStatus();
+                refreshStatus();
+                hideTestLoading();
+                alert('백업 데이터가 삭제되었습니다.');
+            }, 100);
         }
 
         function clearTemp() {
-            sessionStorage.removeItem(KEYS.TEMP);
-            alert('Session Temp가 삭제되었습니다.');
-            refreshStatus();
+            showTestLoading('세션 데이터 삭제 중...');
+            setTimeout(() => {
+                sessionStorage.removeItem(KEYS.TEMP);
+                refreshStatus();
+                hideTestLoading();
+                alert('Session Temp가 삭제되었습니다.');
+            }, 100);
         }
 
         // ==================== 테스트 데이터 생성 ====================
@@ -1563,80 +1637,90 @@
         }
 
         function generateAndDownloadJSON() {
-            const WORD_COUNT = 10000;
-            const partsOfSpeech = ['noun', 'verb', 'adj', 'adv', 'prep'];
-            const prefixes = ['test', 'sample', 'demo', 'mock', 'dummy'];
-            const suffixes = ['word', 'data', 'item', 'value', 'text'];
+            showTestLoading('JSON 테스트 데이터 생성 중...');
 
-            const words = [];
-            for (let i = 0; i < WORD_COUNT; i++) {
-                const wordLength = Math.floor(Math.random() * 8) + 3;
-                const word = `test_${randomString(wordLength)}_${i + 1}`;
-                const hasMultipleMeanings = Math.random() > 0.7;
-                const meaningCount = hasMultipleMeanings ? Math.floor(Math.random() * 3) + 2 : 1;
+            setTimeout(() => {
+                const WORD_COUNT = 10000;
+                const partsOfSpeech = ['noun', 'verb', 'adj', 'adv', 'prep'];
+                const prefixes = ['test', 'sample', 'demo', 'mock', 'dummy'];
+                const suffixes = ['word', 'data', 'item', 'value', 'text'];
 
-                const meanings = [];
-                for (let j = 0; j < meaningCount; j++) {
-                    const prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
-                    const suffix = suffixes[Math.floor(Math.random() * suffixes.length)];
-                    meanings.push({
-                        partOfSpeech: partsOfSpeech[Math.floor(Math.random() * partsOfSpeech.length)],
-                        meaning: `${prefix} ${suffix} ${Math.floor(Math.random() * 1000)}`,
-                        examples: [{
-                            sentence: `This is a test sentence for ${word}.`,
-                            translation: `This is translation for ${word}.`
-                        }]
+                const words = [];
+                for (let i = 0; i < WORD_COUNT; i++) {
+                    const wordLength = Math.floor(Math.random() * 8) + 3;
+                    const word = `test_${randomString(wordLength)}_${i + 1}`;
+                    const hasMultipleMeanings = Math.random() > 0.7;
+                    const meaningCount = hasMultipleMeanings ? Math.floor(Math.random() * 3) + 2 : 1;
+
+                    const meanings = [];
+                    for (let j = 0; j < meaningCount; j++) {
+                        const prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
+                        const suffix = suffixes[Math.floor(Math.random() * suffixes.length)];
+                        meanings.push({
+                            partOfSpeech: partsOfSpeech[Math.floor(Math.random() * partsOfSpeech.length)],
+                            meaning: `${prefix} ${suffix} ${Math.floor(Math.random() * 1000)}`,
+                            examples: [{
+                                sentence: `This is a test sentence for ${word}.`,
+                                translation: `This is translation for ${word}.`
+                            }]
+                        });
+                    }
+
+                    words.push({
+                        word: word,
+                        pronunciation: randomPronunciation(),
+                        meanings: meanings
                     });
                 }
 
-                words.push({
-                    word: word,
-                    pronunciation: randomPronunciation(),
-                    meanings: meanings
-                });
-            }
-
-            const blob = new Blob([JSON.stringify(words, null, 2)], { type: 'application/json' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'test-10000-words.json';
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            URL.revokeObjectURL(url);
+                const blob = new Blob([JSON.stringify(words, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'test-10000-words.json';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+                hideTestLoading();
+            }, 100);
         }
 
         function generateAndDownloadCSV() {
-            const WORD_COUNT = 10000;
-            const partsOfSpeech = ['noun', 'verb', 'adj', 'adv', 'prep'];
-            const prefixes = ['test', 'sample', 'demo', 'mock', 'dummy'];
-            const suffixes = ['word', 'data', 'item', 'value', 'text'];
+            showTestLoading('CSV 테스트 데이터 생성 중...');
 
-            const lines = ['word,pronunciation,partOfSpeech,meaning,example,translation'];
-            for (let i = 0; i < WORD_COUNT; i++) {
-                const wordLength = Math.floor(Math.random() * 8) + 3;
-                const word = `csv_${randomString(wordLength)}_${i + 1}`;
-                const pronunciation = randomPronunciation();
-                const partOfSpeech = partsOfSpeech[Math.floor(Math.random() * partsOfSpeech.length)];
-                const prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
-                const suffix = suffixes[Math.floor(Math.random() * suffixes.length)];
-                const meaning = `${prefix} ${suffix} ${Math.floor(Math.random() * 1000)}`;
-                const example = `This is a CSV test for ${word}.`;
-                const translation = `This is CSV translation for ${word}.`;
+            setTimeout(() => {
+                const WORD_COUNT = 10000;
+                const partsOfSpeech = ['noun', 'verb', 'adj', 'adv', 'prep'];
+                const prefixes = ['test', 'sample', 'demo', 'mock', 'dummy'];
+                const suffixes = ['word', 'data', 'item', 'value', 'text'];
 
-                lines.push(`${word},${pronunciation},${partOfSpeech},${meaning},"${example}","${translation}"`);
-            }
+                const lines = ['word,pronunciation,partOfSpeech,meaning,example,translation'];
+                for (let i = 0; i < WORD_COUNT; i++) {
+                    const wordLength = Math.floor(Math.random() * 8) + 3;
+                    const word = `csv_${randomString(wordLength)}_${i + 1}`;
+                    const pronunciation = randomPronunciation();
+                    const partOfSpeech = partsOfSpeech[Math.floor(Math.random() * partsOfSpeech.length)];
+                    const prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
+                    const suffix = suffixes[Math.floor(Math.random() * suffixes.length)];
+                    const meaning = `${prefix} ${suffix} ${Math.floor(Math.random() * 1000)}`;
+                    const example = `This is a CSV test for ${word}.`;
+                    const translation = `This is CSV translation for ${word}.`;
 
-            const blob = new Blob([lines.join('\n')], { type: 'text/csv' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'test-10000-words.csv';
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            URL.revokeObjectURL(url);
+                    lines.push(`${word},${pronunciation},${partOfSpeech},${meaning},"${example}","${translation}"`);
+                }
+
+                const blob = new Blob([lines.join('\n')], { type: 'text/csv' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'test-10000-words.csv';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+                hideTestLoading();
+            }, 100);
         }
 
         function clearAllData() {

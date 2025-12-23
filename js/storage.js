@@ -2025,7 +2025,7 @@ const Storage = {
 
     /**
      * JSON 파일에서 단어 가져오기 (비동기 + 프로그레스 + 배치 저장)
-     * 메모리에서 처리 후 한 번만 저장하여 성능 최적화
+     * 메모리에서 처리 후 실제 용량 계산하여 한 번만 저장
      *
      * @param {string} categoryId - 대상 카테고리 ID
      * @param {string|Object} jsonData - JSON 문자열 또는 객체
@@ -2040,24 +2040,18 @@ const Storage = {
             const stats = { created: 0, updated: 0, polysemy: 0 };
             const total = words.length;
             const CHUNK_SIZE = 50; // 50개씩 처리 후 UI 업데이트
+            const THRESHOLD_PERCENT = 85;
 
-            // 용량 체크 (가져오기 전)
-            const capacityCheck = this.canImportWords(total);
-            if (!capacityCheck.canImport) {
-                return {
-                    success: false,
-                    error: capacityCheck.message,
-                    capacityExceeded: true,
-                    maxImportable: capacityCheck.maxImportable
-                };
-            }
-
-            // 카테고리를 메모리에 로드 (한 번만)
-            const category = this.getCustomCategory(categoryId);
-            if (!category) {
+            // 카테고리 인덱스 확인
+            const categoryIndex = this.customCategories.findIndex(c => c.id === categoryId);
+            if (categoryIndex === -1) {
                 return { success: false, error: '카테고리를 찾을 수 없습니다' };
             }
 
+            // 깊은 복사로 시뮬레이션용 카테고리 생성
+            const simulationCategory = JSON.parse(JSON.stringify(this.customCategories[categoryIndex]));
+
+            // 모든 단어를 시뮬레이션 카테고리에 병합
             for (let i = 0; i < words.length; i++) {
                 // 취소 확인
                 if (options.signal?.aborted) {
@@ -2082,8 +2076,8 @@ const Storage = {
                         }] : []);
                     }
 
-                    // 메모리에만 추가 (저장 안함)
-                    const action = this.addWordToCategoryInMemory(category, wordData);
+                    // 시뮬레이션 카테고리에 추가
+                    const action = this.addWordToCategoryInMemory(simulationCategory, wordData);
                     if (action === 'created') stats.created++;
                     else if (action === 'updated') stats.updated++;
                     else if (action === 'polysemy_added') stats.polysemy++;
@@ -2096,7 +2090,30 @@ const Storage = {
                 }
             }
 
-            // 한 번만 저장
+            // 실제 용량 계산 (시뮬레이션 결과 기반)
+            const simulationCategories = this.customCategories.map((cat, idx) =>
+                idx === categoryIndex ? simulationCategory : cat
+            );
+            const newCategoriesSize = this.calculateActualStorageSize(simulationCategories);
+            const totalNewSize = newCategoriesSize * 2; // 백업 포함
+
+            const storageStats = this.getStorageStats();
+            const currentCategoriesSize = this.calculateActualStorageSize(this.customCategories) * 2;
+            const otherUsage = storageStats.totalUsed - currentCategoriesSize;
+            const estimatedTotal = otherUsage + totalNewSize;
+            const estimatedPercent = Math.round((estimatedTotal / storageStats.total) * 100);
+
+            if (estimatedPercent >= THRESHOLD_PERCENT) {
+                return {
+                    success: false,
+                    error: `단어 가져오기 시 저장소가 ${estimatedPercent}%가 됩니다.\n저장소 용량이 부족합니다. (한계: ${THRESHOLD_PERCENT}%)`,
+                    capacityExceeded: true,
+                    estimatedPercent
+                };
+            }
+
+            // 용량 확인 완료 - 실제 카테고리에 적용
+            this.customCategories[categoryIndex] = simulationCategory;
             this.saveCustomCategories();
 
             const importedTotal = stats.created + stats.updated + stats.polysemy;
@@ -2109,7 +2126,7 @@ const Storage = {
 
     /**
      * CSV 파일에서 단어 가져오기 (비동기 + 프로그레스 + 배치 저장)
-     * 메모리에서 처리 후 한 번만 저장하여 성능 최적화
+     * 메모리에서 처리 후 실제 용량 계산하여 한 번만 저장
      *
      * @param {string} categoryId - 대상 카테고리 ID
      * @param {string} csvData - CSV 문자열
@@ -2124,24 +2141,18 @@ const Storage = {
             const startIndex = lines[0].toLowerCase().includes('word') ? 1 : 0;
             const total = lines.length - startIndex;
             const CHUNK_SIZE = 50; // 50개씩 처리 후 UI 업데이트
+            const THRESHOLD_PERCENT = 85;
 
-            // 용량 체크 (가져오기 전)
-            const capacityCheck = this.canImportWords(total);
-            if (!capacityCheck.canImport) {
-                return {
-                    success: false,
-                    error: capacityCheck.message,
-                    capacityExceeded: true,
-                    maxImportable: capacityCheck.maxImportable
-                };
-            }
-
-            // 카테고리를 메모리에 로드 (한 번만)
-            const category = this.getCustomCategory(categoryId);
-            if (!category) {
+            // 카테고리 인덱스 확인
+            const categoryIndex = this.customCategories.findIndex(c => c.id === categoryId);
+            if (categoryIndex === -1) {
                 return { success: false, error: '카테고리를 찾을 수 없습니다' };
             }
 
+            // 깊은 복사로 시뮬레이션용 카테고리 생성
+            const simulationCategory = JSON.parse(JSON.stringify(this.customCategories[categoryIndex]));
+
+            // 모든 단어를 시뮬레이션 카테고리에 병합
             for (let i = startIndex; i < lines.length; i++) {
                 // 취소 확인
                 if (options.signal?.aborted) {
@@ -2150,7 +2161,7 @@ const Storage = {
 
                 const parts = this.parseCSVLine(lines[i]);
                 if (parts.length >= 2) {
-                    const action = this.addWordToCategoryInMemory(category, {
+                    const action = this.addWordToCategoryInMemory(simulationCategory, {
                         word: parts[0].trim(),
                         pronunciation: parts[1]?.trim() || '',
                         partOfSpeech: parts[2]?.trim() || '',
@@ -2172,7 +2183,30 @@ const Storage = {
                 }
             }
 
-            // 한 번만 저장
+            // 실제 용량 계산 (시뮬레이션 결과 기반)
+            const simulationCategories = this.customCategories.map((cat, idx) =>
+                idx === categoryIndex ? simulationCategory : cat
+            );
+            const newCategoriesSize = this.calculateActualStorageSize(simulationCategories);
+            const totalNewSize = newCategoriesSize * 2; // 백업 포함
+
+            const storageStats = this.getStorageStats();
+            const currentCategoriesSize = this.calculateActualStorageSize(this.customCategories) * 2;
+            const otherUsage = storageStats.totalUsed - currentCategoriesSize;
+            const estimatedTotal = otherUsage + totalNewSize;
+            const estimatedPercent = Math.round((estimatedTotal / storageStats.total) * 100);
+
+            if (estimatedPercent >= THRESHOLD_PERCENT) {
+                return {
+                    success: false,
+                    error: `단어 가져오기 시 저장소가 ${estimatedPercent}%가 됩니다.\n저장소 용량이 부족합니다. (한계: ${THRESHOLD_PERCENT}%)`,
+                    capacityExceeded: true,
+                    estimatedPercent
+                };
+            }
+
+            // 용량 확인 완료 - 실제 카테고리에 적용
+            this.customCategories[categoryIndex] = simulationCategory;
             this.saveCustomCategories();
 
             const importedTotal = stats.created + stats.updated + stats.polysemy;
@@ -2707,15 +2741,19 @@ const Storage = {
 
             // 메모리에서 머지 시뮬레이션
             const mergedCategories = [...this.customCategories];
+            const baseTime = Date.now();
+            let categoryCounter = 0;
+
             newCategories.forEach(cat => {
+                let wordCounter = 0;
                 const newCategory = {
-                    id: 'custom_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9),
+                    id: 'custom_' + (baseTime + categoryCounter++) + '_' + Math.random().toString(36).substr(2, 9),
                     name: cat.name,
                     icon: cat.icon || '📁',
                     color: cat.color || '#6c757d',
                     createdAt: new Date().toISOString(),
                     words: (cat.words || []).map(word => ({
-                        id: 'custom_word_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9),
+                        id: 'custom_word_' + (baseTime + wordCounter++) + '_' + Math.random().toString(36).substr(2, 9),
                         word: word.word,
                         pronunciation: word.pronunciation || '',
                         meanings: word.meanings || [],
