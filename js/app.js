@@ -1,5 +1,5 @@
 // VocabMaster Main Application
-let currentView = 'home';
+let currentView = 'home-view';
 let currentCategory = 'all';
 let currentCategoryFilter = 'all'; // 'all', 'active', 'inactive'
 let importAbortController = null; // 파일 가져오기 취소용
