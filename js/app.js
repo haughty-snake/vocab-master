@@ -1534,6 +1534,11 @@ function startQuiz() {
     document.getElementById('quiz-result').classList.add('hidden');
     document.getElementById('quiz-total').textContent = quizQuestions.length;
 
+    // 퀴즈 시작 시 히스토리 추가 (뒤로가기로 설정창 복귀 지원)
+    if (window.history && window.history.pushState) {
+        window.history.pushState({ page: 'app', view: 'quiz-running' }, '', '');
+    }
+
     showQuizQuestion();
 }
 
@@ -4022,25 +4027,29 @@ function handleBackButton(e) {
     }
 
     // Check if quiz is in progress
-    if (currentView === 'quiz-view' && !document.getElementById('quiz-container').classList.contains('hidden')) {
-        // Show quiz settings (end quiz)
-        document.getElementById('quiz-container').classList.add('hidden');
-        document.getElementById('quiz-result').classList.add('hidden');
-        document.getElementById('quiz-settings').classList.remove('hidden');
-        restoreHistoryEntry();
+    if (currentView === 'quiz-view') {
+        const quizContainer = document.getElementById('quiz-container');
+        if (!quizContainer.classList.contains('hidden')) {
+            // 퀴즈 실행 중 - 설정창으로
+            // (startQuiz에서 히스토리를 추가했으므로 여기서 복원 불필요)
+            quizContainer.classList.add('hidden');
+            document.getElementById('quiz-result').classList.add('hidden');
+            document.getElementById('quiz-settings').classList.remove('hidden');
+            return;
+        }
+        // 퀴즈 설정창 - 홈으로 이동
+        showHome();
         return;
     }
 
     // If not on home view, go to home
     if (currentView !== 'home-view') {
         showHome();
-        restoreHistoryEntry();
         return;
     }
 
-    // On home view - just stay on home (PWA에서는 종료 확인 없이 유지)
-    // 홈 화면에서 뒤로가기 시 히스토리만 복원하고 아무 동작 안함
-    restoreHistoryEntry();
+    // On home view - 앱 종료 허용 (히스토리 복원 안함)
+    // 브라우저가 자연스럽게 뒤로가기 처리
 
     /*
     // [DISABLED] Double back to exit feature - 주석 처리됨
