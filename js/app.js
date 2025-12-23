@@ -3905,9 +3905,10 @@ let backPressTimeout = null;
 // bfcache에서 복원될 때 감지 (서브페이지에서 돌아올 때)
 window.addEventListener('pageshow', function(e) {
     if (e.persisted) {
-        // bfcache에서 복원됨 - 히스토리 스택 복원
-        console.log('[PWA] Page restored from bfcache, restoring history entry');
-        if (window.history && window.history.pushState) {
+        // bfcache에서 복원됨 - 현재 뷰에 따라 히스토리 복원
+        console.log('[PWA] Page restored from bfcache, currentView:', currentView);
+        if (window.history && window.history.pushState && currentView !== 'home-view') {
+            // 홈이 아닌 뷰에서 복원된 경우에만 히스토리 추가
             window.history.pushState({ page: 'app' }, '', '');
         }
     }
@@ -3932,16 +3933,16 @@ function initPWABackHandler() {
     } else if (window.history && window.history.pushState) {
         // 이미 초기화된 상태면 (서브페이지에서 돌아온 경우)
         if (sessionStorage.getItem('pwa_history_initialized')) {
-            console.log('[PWA] Already initialized, restoring history entry');
-            // 서브페이지에서 돌아올 때 히스토리 스택이 하나 줄어들었으므로 복원
-            window.history.pushState({ page: 'app' }, '', '');
+            console.log('[PWA] Already initialized from sub-page return');
+            // 서브페이지에서 돌아올 때 - replaceState만 (추가 push 없음)
+            window.history.replaceState({ page: 'app' }, '', '');
             window.addEventListener('popstate', handleBackButton);
             return;
         }
         // 첫 로드 시에만 히스토리 설정
         sessionStorage.setItem('pwa_history_initialized', 'true');
         window.history.replaceState({ page: 'app' }, '', '');
-        window.history.pushState({ page: 'app' }, '', '');
+        // 초기 상태에서는 pushState 하지 않음 - 홈에서 바로 종료 가능
         window.addEventListener('popstate', handleBackButton);
     }
 }
