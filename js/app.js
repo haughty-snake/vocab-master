@@ -3367,11 +3367,18 @@ async function importWordsFromFile() {
         // UI 업데이트를 위한 짧은 대기
         await new Promise(resolve => setTimeout(resolve, 50));
 
-        // 저장 시작 시 UI 업데이트 콜백
+        // 저장 중 점 애니메이션
+        let savingDotsInterval = null;
         const onSaving = () => {
-            progressLabel.textContent = '저장 중...';
             progressCount.textContent = '';
             progressFill.style.width = '100%';
+            // 점 애니메이션 시작
+            let dotCount = 1;
+            progressLabel.textContent = '저장 중.';
+            savingDotsInterval = setInterval(() => {
+                dotCount = (dotCount % 3) + 1;
+                progressLabel.textContent = '저장 중' + '.'.repeat(dotCount);
+            }, 400);
         };
 
         let result;
@@ -3383,6 +3390,12 @@ async function importWordsFromFile() {
             }
         } catch (err) {
             result = { success: false, error: err.message };
+        }
+
+        // 점 애니메이션 정리
+        if (savingDotsInterval) {
+            clearInterval(savingDotsInterval);
+            savingDotsInterval = null;
         }
 
         // 작업 완료 후 AbortController 해제
