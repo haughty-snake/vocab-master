@@ -754,15 +754,19 @@
         // ==================== 상태 확인 ====================
 
         function refreshStatus() {
-            checkStatus('status-progress', 'status-progress-format', KEYS.PROGRESS);
-            checkStatus('status-progress-backup', 'status-progress-backup-format', KEYS.PROGRESS_BACKUP);
-            checkStatus('status-stats', 'status-stats-format', KEYS.STATS);
-            checkStatus('status-stats-backup', 'status-stats-backup-format', KEYS.STATS_BACKUP);
-            checkStatus('status-categories', 'status-categories-format', KEYS.CUSTOM_CATEGORIES);
-            checkStatus('status-categories-backup', 'status-categories-backup-format', KEYS.CUSTOM_CATEGORIES_BACKUP);
-            checkStatus('status-settings', 'status-settings-format', KEYS.SETTINGS);
-            checkSessionStatus();
-            updateStorageSummary();
+            showTestLoading('상태 새로고침 중...');
+            setTimeout(() => {
+                checkStatus('status-progress', 'status-progress-format', KEYS.PROGRESS);
+                checkStatus('status-progress-backup', 'status-progress-backup-format', KEYS.PROGRESS_BACKUP);
+                checkStatus('status-stats', 'status-stats-format', KEYS.STATS);
+                checkStatus('status-stats-backup', 'status-stats-backup-format', KEYS.STATS_BACKUP);
+                checkStatus('status-categories', 'status-categories-format', KEYS.CUSTOM_CATEGORIES);
+                checkStatus('status-categories-backup', 'status-categories-backup-format', KEYS.CUSTOM_CATEGORIES_BACKUP);
+                checkStatus('status-settings', 'status-settings-format', KEYS.SETTINGS);
+                checkSessionStatus();
+                updateStorageSummary();
+                hideTestLoading();
+            }, 100);
         }
 
         function checkStatus(elementId, formatId, key) {

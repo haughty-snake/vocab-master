@@ -2744,6 +2744,7 @@ const Storage = {
                 return {
                     canImport: true,
                     mergedCategories: [],
+                    newCategories: [],
                     actualSize: 0,
                     estimatedPercent: this.getStorageStats().percentUsed,
                     skippedCount: categories.length,
