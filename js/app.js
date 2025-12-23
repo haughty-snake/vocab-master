@@ -201,6 +201,8 @@ function validateStoredCategory() {
 
 // Navigation
 function showView(viewId) {
+    const previousView = currentView;
+
     document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
     document.getElementById(viewId).classList.add('active');
 
@@ -209,6 +211,13 @@ function showView(viewId) {
     });
 
     currentView = viewId;
+
+    // 홈에서 다른 뷰로 이동할 때 히스토리 추가
+    if (previousView === 'home-view' && viewId !== 'home-view') {
+        if (window.history && window.history.pushState) {
+            window.history.pushState({ page: 'app', view: viewId }, '', '');
+        }
+    }
 }
 
 // 이전 페이지가 홈이면 뒤로가기, 아니면 홈으로 이동
@@ -3368,10 +3377,10 @@ async function importWordsFromFile() {
         // UI 업데이트를 위한 짧은 대기
         await new Promise(resolve => setTimeout(resolve, 50));
 
-        // 저장 시작 시 프로그래스바 숨기고 스피너 표시
+        // 저장 시작 시 프로그래스바 숨기고 모달형 스피너 표시
         const onSaving = () => {
             progressDiv.classList.add('hidden');
-            showWordLoading('저장 중...');
+            showGlobalLoading('저장 중...');
         };
 
         let result;
@@ -3388,8 +3397,8 @@ async function importWordsFromFile() {
         // 작업 완료 후 AbortController 해제
         importAbortController = null;
 
-        // 스피너 숨기고 폼 버튼 복원
-        hideWordLoading();
+        // 모달형 스피너 숨기고 폼 버튼 복원
+        hideGlobalLoading();
         progressDiv.classList.add('hidden');
         formActions.classList.remove('hidden');
 
@@ -3997,16 +4006,14 @@ function handleBackButton(e) {
     if (currentView === 'blink-view') {
         const blinkDisplayArea = document.getElementById('blink-display-area');
         if (!blinkDisplayArea.classList.contains('hidden')) {
-            // 블링크 실행 중 - 중지하고 설정창으로
+            // 블링크 실행 중 - 중지하고 설정창으로 (히스토리 복원하여 다음 뒤로가기에서 홈으로)
             stopBlink();
             restoreHistoryEntry();
             return;
-        } else {
-            // 블링크 설정창 - 홈으로 이동
-            showHome();
-            restoreHistoryEntry();
-            return;
         }
+        // 블링크 설정창 - 홈으로 이동 (히스토리 복원 불필요)
+        showHome();
+        return;
     }
 
     // Check if quiz is in progress
