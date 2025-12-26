@@ -1,0 +1,1059 @@
+{
+  "id": "japaneseBasic",
+  "name": "일본어 기초",
+  "icon": "🇯🇵",
+  "color": "#bc002d",
+  "lang": "ja-JP",
+  "words": [
+    {
+      "id": "japanese_konnichiwa_0",
+      "word": "こんにちは",
+      "pronunciation": "konnichiwa",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "안녕하세요 (낮)", "examples": [{ "sentence": "こんにちは、元気ですか？", "translation": "안녕하세요, 잘 지내세요?" }] }]
+    },
+    {
+      "id": "japanese_ohayou_1",
+      "word": "おはようございます",
+      "pronunciation": "ohayou gozaimasu",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "안녕하세요 (아침)", "examples": [{ "sentence": "おはようございます、今日もよろしく。", "translation": "좋은 아침이에요, 오늘도 잘 부탁해요." }] }]
+    },
+    {
+      "id": "japanese_konbanwa_2",
+      "word": "こんばんは",
+      "pronunciation": "konbanwa",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "안녕하세요 (저녁)", "examples": [{ "sentence": "こんばんは、お疲れ様です。", "translation": "안녕하세요, 수고하셨습니다." }] }]
+    },
+    {
+      "id": "japanese_sayounara_3",
+      "word": "さようなら",
+      "pronunciation": "sayounara",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "안녕히 가세요/계세요", "examples": [{ "sentence": "さようなら、また明日。", "translation": "안녕, 내일 또 봐." }] }]
+    },
+    {
+      "id": "japanese_arigatou_4",
+      "word": "ありがとうございます",
+      "pronunciation": "arigatou gozaimasu",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "감사합니다", "examples": [{ "sentence": "手伝ってくれてありがとうございます。", "translation": "도와주셔서 감사합니다." }] }]
+    },
+    {
+      "id": "japanese_sumimasen_5",
+      "word": "すみません",
+      "pronunciation": "sumimasen",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "실례합니다, 죄송합니다", "examples": [{ "sentence": "すみません、ちょっといいですか？", "translation": "실례합니다, 잠깐 괜찮으세요?" }] }]
+    },
+    {
+      "id": "japanese_gomenasai_6",
+      "word": "ごめんなさい",
+      "pronunciation": "gomen nasai",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "미안합니다", "examples": [{ "sentence": "遅れてごめんなさい。", "translation": "늦어서 미안합니다." }] }]
+    },
+    {
+      "id": "japanese_watashi_7",
+      "word": "私",
+      "pronunciation": "watashi",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "나, 저", "examples": [{ "sentence": "私は韓国人です。", "translation": "저는 한국 사람입니다." }] }]
+    },
+    {
+      "id": "japanese_anata_8",
+      "word": "あなた",
+      "pronunciation": "anata",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "당신", "examples": [{ "sentence": "あなたの名前は何ですか？", "translation": "당신의 이름은 무엇입니까?" }] }]
+    },
+    {
+      "id": "japanese_kare_9",
+      "word": "彼/彼女",
+      "pronunciation": "kare/kanojo",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "그/그녀", "examples": [{ "sentence": "彼は私の友達です。", "translation": "그는 내 친구입니다." }] }]
+    },
+    {
+      "id": "japanese_desu_10",
+      "word": "です",
+      "pronunciation": "desu",
+      "subcategory": "기본 문법",
+      "meanings": [{ "partOfSpeech": "조동사", "meaning": "~입니다", "examples": [{ "sentence": "これは本です。", "translation": "이것은 책입니다." }] }]
+    },
+    {
+      "id": "japanese_aru_11",
+      "word": "ある/いる",
+      "pronunciation": "aru/iru",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "있다 (사물/생물)", "examples": [{ "sentence": "ここに猫がいます。", "translation": "여기에 고양이가 있습니다." }] }]
+    },
+    {
+      "id": "japanese_iku_12",
+      "word": "行く",
+      "pronunciation": "iku",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "가다", "examples": [{ "sentence": "学校に行きます。", "translation": "학교에 갑니다." }] }]
+    },
+    {
+      "id": "japanese_kuru_13",
+      "word": "来る",
+      "pronunciation": "kuru",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "오다", "examples": [{ "sentence": "友達が来ます。", "translation": "친구가 옵니다." }] }]
+    },
+    {
+      "id": "japanese_taberu_14",
+      "word": "食べる",
+      "pronunciation": "taberu",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "먹다", "examples": [{ "sentence": "朝ご飯を食べます。", "translation": "아침 밥을 먹습니다." }] }]
+    },
+    {
+      "id": "japanese_nomu_15",
+      "word": "飲む",
+      "pronunciation": "nomu",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "마시다", "examples": [{ "sentence": "お茶を飲みます。", "translation": "차를 마십니다." }] }]
+    },
+    {
+      "id": "japanese_miru_16",
+      "word": "見る",
+      "pronunciation": "miru",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "보다", "examples": [{ "sentence": "映画を見ます。", "translation": "영화를 봅니다." }] }]
+    },
+    {
+      "id": "japanese_kiku_17",
+      "word": "聞く",
+      "pronunciation": "kiku",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "듣다, 묻다", "examples": [{ "sentence": "音楽を聞きます。", "translation": "음악을 듣습니다." }] }]
+    },
+    {
+      "id": "japanese_hanasu_18",
+      "word": "話す",
+      "pronunciation": "hanasu",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "말하다", "examples": [{ "sentence": "日本語を話します。", "translation": "일본어를 말합니다." }] }]
+    },
+    {
+      "id": "japanese_yomu_19",
+      "word": "読む",
+      "pronunciation": "yomu",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "읽다", "examples": [{ "sentence": "本を読みます。", "translation": "책을 읽습니다." }] }]
+    },
+    {
+      "id": "japanese_kaku_20",
+      "word": "書く",
+      "pronunciation": "kaku",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "쓰다", "examples": [{ "sentence": "手紙を書きます。", "translation": "편지를 씁니다." }] }]
+    },
+    {
+      "id": "japanese_suru_21",
+      "word": "する",
+      "pronunciation": "suru",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "하다", "examples": [{ "sentence": "勉強をします。", "translation": "공부를 합니다." }] }]
+    },
+    {
+      "id": "japanese_ii_22",
+      "word": "いい/良い",
+      "pronunciation": "ii/yoi",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "좋다", "examples": [{ "sentence": "今日は天気がいいです。", "translation": "오늘은 날씨가 좋습니다." }] }]
+    },
+    {
+      "id": "japanese_ookii_23",
+      "word": "大きい",
+      "pronunciation": "ookii",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "크다", "examples": [{ "sentence": "この部屋は大きいです。", "translation": "이 방은 큽니다." }] }]
+    },
+    {
+      "id": "japanese_chiisai_24",
+      "word": "小さい",
+      "pronunciation": "chiisai",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "작다", "examples": [{ "sentence": "小さい犬がいます。", "translation": "작은 개가 있습니다." }] }]
+    },
+    {
+      "id": "japanese_takai_25",
+      "word": "高い",
+      "pronunciation": "takai",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "높다, 비싸다", "examples": [{ "sentence": "この時計は高いです。", "translation": "이 시계는 비쌉니다." }] }]
+    },
+    {
+      "id": "japanese_yasui_26",
+      "word": "安い",
+      "pronunciation": "yasui",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "싸다", "examples": [{ "sentence": "このレストランは安いです。", "translation": "이 레스토랑은 쌉니다." }] }]
+    },
+    {
+      "id": "japanese_oishii_27",
+      "word": "美味しい",
+      "pronunciation": "oishii",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "맛있다", "examples": [{ "sentence": "このラーメンは美味しいです。", "translation": "이 라멘은 맛있습니다." }] }]
+    },
+    {
+      "id": "japanese_ichi_28",
+      "word": "一",
+      "pronunciation": "ichi",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "1, 하나", "examples": [{ "sentence": "一つください。", "translation": "하나 주세요." }] }]
+    },
+    {
+      "id": "japanese_ni_29",
+      "word": "二",
+      "pronunciation": "ni",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "2, 둘", "examples": [{ "sentence": "二人です。", "translation": "두 명입니다." }] }]
+    },
+    {
+      "id": "japanese_san_30",
+      "word": "三",
+      "pronunciation": "san",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "3, 셋", "examples": [{ "sentence": "三時に会いましょう。", "translation": "3시에 만납시다." }] }]
+    },
+    {
+      "id": "japanese_juu_31",
+      "word": "十",
+      "pronunciation": "juu",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "10, 열", "examples": [{ "sentence": "十分待ってください。", "translation": "10분 기다려 주세요." }] }]
+    },
+    {
+      "id": "japanese_hyaku_32",
+      "word": "百",
+      "pronunciation": "hyaku",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "100, 백", "examples": [{ "sentence": "百円です。", "translation": "100엔입니다." }] }]
+    },
+    {
+      "id": "japanese_kyou_33",
+      "word": "今日",
+      "pronunciation": "kyou",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "오늘", "examples": [{ "sentence": "今日は月曜日です。", "translation": "오늘은 월요일입니다." }] }]
+    },
+    {
+      "id": "japanese_ashita_34",
+      "word": "明日",
+      "pronunciation": "ashita",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "내일", "examples": [{ "sentence": "明日また会いましょう。", "translation": "내일 또 만납시다." }] }]
+    },
+    {
+      "id": "japanese_kinou_35",
+      "word": "昨日",
+      "pronunciation": "kinou",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "어제", "examples": [{ "sentence": "昨日は忙しかったです。", "translation": "어제는 바빴습니다." }] }]
+    },
+    {
+      "id": "japanese_ima_36",
+      "word": "今",
+      "pronunciation": "ima",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "지금", "examples": [{ "sentence": "今、何時ですか？", "translation": "지금 몇 시입니까?" }] }]
+    },
+    {
+      "id": "japanese_ikura_37",
+      "word": "いくらですか",
+      "pronunciation": "ikura desu ka",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "얼마입니까?", "examples": [{ "sentence": "これはいくらですか？", "translation": "이것은 얼마입니까?" }] }]
+    },
+    {
+      "id": "japanese_doko_38",
+      "word": "どこですか",
+      "pronunciation": "doko desu ka",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "어디입니까?", "examples": [{ "sentence": "トイレはどこですか？", "translation": "화장실은 어디입니까?" }] }]
+    },
+    {
+      "id": "japanese_tai_39",
+      "word": "〜たいです",
+      "pronunciation": "~tai desu",
+      "subcategory": "필수 패턴",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "~하고 싶습니다", "examples": [{ "sentence": "日本料理を食べたいです。", "translation": "일본 요리를 먹고 싶습니다." }] }]
+    },
+    {
+      "id": "japanese_temo_ii_40",
+      "word": "〜てもいいですか",
+      "pronunciation": "~temo ii desu ka",
+      "subcategory": "필수 패턴",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "~해도 됩니까?", "examples": [{ "sentence": "写真を撮ってもいいですか？", "translation": "사진을 찍어도 됩니까?" }] }]
+    },
+    {
+      "id": "japanese_wakarimasen_41",
+      "word": "わかりません",
+      "pronunciation": "wakarimasen",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "모르겠습니다", "examples": [{ "sentence": "すみません、わかりません。", "translation": "죄송합니다, 모르겠습니다." }] }]
+    },
+    {
+      "id": "japanese_mouichido_42",
+      "word": "もう一度お願いします",
+      "pronunciation": "mou ichido onegai shimasu",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "다시 한번 부탁드립니다", "examples": [{ "sentence": "すみません、もう一度お願いします。", "translation": "죄송합니다, 다시 한번 말씀해 주세요." }] }]
+    },
+    {
+      "id": "japanese_eki_43",
+      "word": "駅",
+      "pronunciation": "eki",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "역", "examples": [{ "sentence": "駅はどこですか？", "translation": "역은 어디입니까?" }] }]
+    },
+    {
+      "id": "japanese_kuukou_44",
+      "word": "空港",
+      "pronunciation": "kuukou",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "공항", "examples": [{ "sentence": "空港まで行きたいです。", "translation": "공항까지 가고 싶습니다." }] }]
+    },
+    {
+      "id": "japanese_byouin_45",
+      "word": "病院",
+      "pronunciation": "byouin",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "병원", "examples": [{ "sentence": "近くに病院はありますか？", "translation": "근처에 병원이 있습니까?" }] }]
+    },
+    {
+      "id": "japanese_kazoku_46",
+      "word": "家族",
+      "pronunciation": "kazoku",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "가족", "examples": [{ "sentence": "家族は何人ですか？", "translation": "가족은 몇 명입니까?" }] }]
+    },
+    {
+      "id": "japanese_otousan_47",
+      "word": "お父さん",
+      "pronunciation": "otousan",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "아버지", "examples": [{ "sentence": "お父さんは会社員です。", "translation": "아버지는 회사원입니다." }] }]
+    },
+    {
+      "id": "japanese_okaasan_48",
+      "word": "お母さん",
+      "pronunciation": "okaasan",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "어머니", "examples": [{ "sentence": "お母さんの料理が大好きです。", "translation": "어머니의 요리를 정말 좋아합니다." }] }]
+    },
+    {
+      "id": "japanese_tomodachi_49",
+      "word": "友達",
+      "pronunciation": "tomodachi",
+      "subcategory": "관계",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "친구", "examples": [{ "sentence": "彼は私の親友です。", "translation": "그는 내 절친한 친구입니다." }] }]
+    },
+    {
+      "id": "japanese_watashitachi_50",
+      "word": "私たち",
+      "pronunciation": "watashitachi",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "우리", "examples": [{ "sentence": "私たちは学生です。", "translation": "우리는 학생입니다." }] }]
+    },
+    {
+      "id": "japanese_kore_51",
+      "word": "これ",
+      "pronunciation": "kore",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "이것", "examples": [{ "sentence": "これは何ですか？", "translation": "이것은 무엇입니까?" }] }]
+    },
+    {
+      "id": "japanese_sore_52",
+      "word": "それ",
+      "pronunciation": "sore",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "그것", "examples": [{ "sentence": "それをください。", "translation": "그것을 주세요." }] }]
+    },
+    {
+      "id": "japanese_are_53",
+      "word": "あれ",
+      "pronunciation": "are",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "저것", "examples": [{ "sentence": "あれは何ですか？", "translation": "저것은 무엇입니까?" }] }]
+    },
+    {
+      "id": "japanese_nani_54",
+      "word": "何",
+      "pronunciation": "nani",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문대명사", "meaning": "무엇", "examples": [{ "sentence": "何を食べますか？", "translation": "무엇을 먹습니까?" }] }]
+    },
+    {
+      "id": "japanese_dare_55",
+      "word": "誰",
+      "pronunciation": "dare",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문대명사", "meaning": "누구", "examples": [{ "sentence": "あの人は誰ですか？", "translation": "저 사람은 누구입니까?" }] }]
+    },
+    {
+      "id": "japanese_doko_56",
+      "word": "どこ",
+      "pronunciation": "doko",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문대명사", "meaning": "어디", "examples": [{ "sentence": "どこに行きますか？", "translation": "어디에 갑니까?" }] }]
+    },
+    {
+      "id": "japanese_itsu_57",
+      "word": "いつ",
+      "pronunciation": "itsu",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문부사", "meaning": "언제", "examples": [{ "sentence": "いつ来ますか？", "translation": "언제 옵니까?" }] }]
+    },
+    {
+      "id": "japanese_naze_58",
+      "word": "なぜ/どうして",
+      "pronunciation": "naze/doushite",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문부사", "meaning": "왜", "examples": [{ "sentence": "なぜ遅れましたか？", "translation": "왜 늦었습니까?" }] }]
+    },
+    {
+      "id": "japanese_ikutsu_59",
+      "word": "いくつ",
+      "pronunciation": "ikutsu",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문수사", "meaning": "몇 개, 몇 살", "examples": [{ "sentence": "いくつですか？", "translation": "몇 개입니까?" }] }]
+    },
+    {
+      "id": "japanese_kaeru_60",
+      "word": "帰る",
+      "pronunciation": "kaeru",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "돌아가다", "examples": [{ "sentence": "家に帰ります。", "translation": "집에 돌아갑니다." }] }]
+    },
+    {
+      "id": "japanese_kau_61",
+      "word": "買う",
+      "pronunciation": "kau",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "사다", "examples": [{ "sentence": "本を買います。", "translation": "책을 삽니다." }] }]
+    },
+    {
+      "id": "japanese_neru_62",
+      "word": "寝る",
+      "pronunciation": "neru",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "자다", "examples": [{ "sentence": "毎日11時に寝ます。", "translation": "매일 11시에 잡니다." }] }]
+    },
+    {
+      "id": "japanese_okiru_63",
+      "word": "起きる",
+      "pronunciation": "okiru",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "일어나다", "examples": [{ "sentence": "朝6時に起きます。", "translation": "아침 6시에 일어납니다." }] }]
+    },
+    {
+      "id": "japanese_aruku_64",
+      "word": "歩く",
+      "pronunciation": "aruku",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "걷다", "examples": [{ "sentence": "公園を歩きます。", "translation": "공원을 걷습니다." }] }]
+    },
+    {
+      "id": "japanese_hashiru_65",
+      "word": "走る",
+      "pronunciation": "hashiru",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "달리다", "examples": [{ "sentence": "毎朝走ります。", "translation": "매일 아침 달립니다." }] }]
+    },
+    {
+      "id": "japanese_matsu_66",
+      "word": "待つ",
+      "pronunciation": "matsu",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "기다리다", "examples": [{ "sentence": "ここで待ってください。", "translation": "여기서 기다려 주세요." }] }]
+    },
+    {
+      "id": "japanese_au_67",
+      "word": "会う",
+      "pronunciation": "au",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "만나다", "examples": [{ "sentence": "友達に会います。", "translation": "친구를 만납니다." }] }]
+    },
+    {
+      "id": "japanese_tsukau_68",
+      "word": "使う",
+      "pronunciation": "tsukau",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "사용하다", "examples": [{ "sentence": "スマホを使います。", "translation": "스마트폰을 사용합니다." }] }]
+    },
+    {
+      "id": "japanese_shiru_69",
+      "word": "知る",
+      "pronunciation": "shiru",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "알다", "examples": [{ "sentence": "彼を知っていますか？", "translation": "그를 알고 있습니까?" }] }]
+    },
+    {
+      "id": "japanese_omou_70",
+      "word": "思う",
+      "pronunciation": "omou",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "생각하다", "examples": [{ "sentence": "いいと思います。", "translation": "좋다고 생각합니다." }] }]
+    },
+    {
+      "id": "japanese_ageru_71",
+      "word": "あげる",
+      "pronunciation": "ageru",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "주다", "examples": [{ "sentence": "プレゼントをあげます。", "translation": "선물을 줍니다." }] }]
+    },
+    {
+      "id": "japanese_morau_72",
+      "word": "もらう",
+      "pronunciation": "morau",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "받다", "examples": [{ "sentence": "プレゼントをもらいました。", "translation": "선물을 받았습니다." }] }]
+    },
+    {
+      "id": "japanese_dekiru_73",
+      "word": "できる",
+      "pronunciation": "dekiru",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "할 수 있다", "examples": [{ "sentence": "日本語ができます。", "translation": "일본어를 할 수 있습니다." }] }]
+    },
+    {
+      "id": "japanese_suki_74",
+      "word": "好き",
+      "pronunciation": "suki",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용동사", "meaning": "좋아하다", "examples": [{ "sentence": "音楽が好きです。", "translation": "음악을 좋아합니다." }] }]
+    },
+    {
+      "id": "japanese_kirai_75",
+      "word": "嫌い",
+      "pronunciation": "kirai",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용동사", "meaning": "싫어하다", "examples": [{ "sentence": "野菜が嫌いです。", "translation": "야채를 싫어합니다." }] }]
+    },
+    {
+      "id": "japanese_atarashii_76",
+      "word": "新しい",
+      "pronunciation": "atarashii",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "새롭다", "examples": [{ "sentence": "新しい車を買いました。", "translation": "새 차를 샀습니다." }] }]
+    },
+    {
+      "id": "japanese_furui_77",
+      "word": "古い",
+      "pronunciation": "furui",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "오래되다", "examples": [{ "sentence": "古いお寺です。", "translation": "오래된 절입니다." }] }]
+    },
+    {
+      "id": "japanese_hayai_78",
+      "word": "早い/速い",
+      "pronunciation": "hayai",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "빠르다, 이르다", "examples": [{ "sentence": "電車は速いです。", "translation": "전철은 빠릅니다." }] }]
+    },
+    {
+      "id": "japanese_osoi_79",
+      "word": "遅い",
+      "pronunciation": "osoi",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "느리다, 늦다", "examples": [{ "sentence": "バスは遅いです。", "translation": "버스는 느립니다." }] }]
+    },
+    {
+      "id": "japanese_atsui_80",
+      "word": "暑い/熱い",
+      "pronunciation": "atsui",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "덥다, 뜨겁다", "examples": [{ "sentence": "今日は暑いです。", "translation": "오늘은 덥습니다." }] }]
+    },
+    {
+      "id": "japanese_samui_81",
+      "word": "寒い",
+      "pronunciation": "samui",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "춥다", "examples": [{ "sentence": "冬は寒いです。", "translation": "겨울은 춥습니다." }] }]
+    },
+    {
+      "id": "japanese_tanoshii_82",
+      "word": "楽しい",
+      "pronunciation": "tanoshii",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "즐겁다", "examples": [{ "sentence": "旅行は楽しいです。", "translation": "여행은 즐겁습니다." }] }]
+    },
+    {
+      "id": "japanese_muzukashii_83",
+      "word": "難しい",
+      "pronunciation": "muzukashii",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "어렵다", "examples": [{ "sentence": "日本語は難しいです。", "translation": "일본어는 어렵습니다." }] }]
+    },
+    {
+      "id": "japanese_yasashii_84",
+      "word": "易しい/優しい",
+      "pronunciation": "yasashii",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "쉽다, 상냥하다", "examples": [{ "sentence": "この問題は易しいです。", "translation": "이 문제는 쉽습니다." }] }]
+    },
+    {
+      "id": "japanese_shi_85",
+      "word": "四",
+      "pronunciation": "shi/yon",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "4, 넷", "examples": [{ "sentence": "四人家族です。", "translation": "네 식구입니다." }] }]
+    },
+    {
+      "id": "japanese_go_86",
+      "word": "五",
+      "pronunciation": "go",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "5, 다섯", "examples": [{ "sentence": "五分待ってください。", "translation": "5분 기다려 주세요." }] }]
+    },
+    {
+      "id": "japanese_roku_87",
+      "word": "六",
+      "pronunciation": "roku",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "6, 여섯", "examples": [{ "sentence": "六時に起きます。", "translation": "6시에 일어납니다." }] }]
+    },
+    {
+      "id": "japanese_shichi_88",
+      "word": "七",
+      "pronunciation": "shichi/nana",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "7, 일곱", "examples": [{ "sentence": "一週間は七日です。", "translation": "일주일은 7일입니다." }] }]
+    },
+    {
+      "id": "japanese_hachi_89",
+      "word": "八",
+      "pronunciation": "hachi",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "8, 여덟", "examples": [{ "sentence": "八月に行きます。", "translation": "8월에 갑니다." }] }]
+    },
+    {
+      "id": "japanese_kyuu_90",
+      "word": "九",
+      "pronunciation": "kyuu/ku",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "9, 아홉", "examples": [{ "sentence": "九時から始まります。", "translation": "9시부터 시작합니다." }] }]
+    },
+    {
+      "id": "japanese_sen_91",
+      "word": "千",
+      "pronunciation": "sen",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "1000, 천", "examples": [{ "sentence": "千円です。", "translation": "천 엔입니다." }] }]
+    },
+    {
+      "id": "japanese_man_92",
+      "word": "万",
+      "pronunciation": "man",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "10000, 만", "examples": [{ "sentence": "一万円かかります。", "translation": "만 엔이 듭니다." }] }]
+    },
+    {
+      "id": "japanese_nen_93",
+      "word": "年",
+      "pronunciation": "nen/toshi",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "년, 해", "examples": [{ "sentence": "今年は2024年です。", "translation": "올해는 2024년입니다." }] }]
+    },
+    {
+      "id": "japanese_gatsu_94",
+      "word": "月",
+      "pronunciation": "gatsu/tsuki",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "월, 달", "examples": [{ "sentence": "来月日本に行きます。", "translation": "다음 달 일본에 갑니다." }] }]
+    },
+    {
+      "id": "japanese_nichi_95",
+      "word": "日",
+      "pronunciation": "nichi/hi",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "일, 날", "examples": [{ "sentence": "今日は何日ですか？", "translation": "오늘은 며칠입니까?" }] }]
+    },
+    {
+      "id": "japanese_youbi_96",
+      "word": "曜日",
+      "pronunciation": "youbi",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "요일", "examples": [{ "sentence": "今日は何曜日ですか？", "translation": "오늘은 무슨 요일입니까?" }] }]
+    },
+    {
+      "id": "japanese_ji_97",
+      "word": "時",
+      "pronunciation": "ji",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "시", "examples": [{ "sentence": "今何時ですか？", "translation": "지금 몇 시입니까?" }] }]
+    },
+    {
+      "id": "japanese_fun_98",
+      "word": "分",
+      "pronunciation": "fun/pun",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "분", "examples": [{ "sentence": "十分かかります。", "translation": "10분 걸립니다." }] }]
+    },
+    {
+      "id": "japanese_asa_99",
+      "word": "朝",
+      "pronunciation": "asa",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "아침", "examples": [{ "sentence": "朝ご飯を食べます。", "translation": "아침 밥을 먹습니다." }] }]
+    },
+    {
+      "id": "japanese_hiru_100",
+      "word": "昼",
+      "pronunciation": "hiru",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "낮, 점심", "examples": [{ "sentence": "昼ご飯を食べましょう。", "translation": "점심을 먹읍시다." }] }]
+    },
+    {
+      "id": "japanese_yoru_101",
+      "word": "夜",
+      "pronunciation": "yoru",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "밤", "examples": [{ "sentence": "夜は涼しいです。", "translation": "밤은 시원합니다." }] }]
+    },
+    {
+      "id": "japanese_gakkou_102",
+      "word": "学校",
+      "pronunciation": "gakkou",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "학교", "examples": [{ "sentence": "学校に行きます。", "translation": "학교에 갑니다." }] }]
+    },
+    {
+      "id": "japanese_kaisha_103",
+      "word": "会社",
+      "pronunciation": "kaisha",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "회사", "examples": [{ "sentence": "会社で働きます。", "translation": "회사에서 일합니다." }] }]
+    },
+    {
+      "id": "japanese_mise_104",
+      "word": "店",
+      "pronunciation": "mise",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "가게", "examples": [{ "sentence": "あの店は有名です。", "translation": "저 가게는 유명합니다." }] }]
+    },
+    {
+      "id": "japanese_suupaa_105",
+      "word": "スーパー",
+      "pronunciation": "suupaa",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "슈퍼마켓", "examples": [{ "sentence": "スーパーで買い物します。", "translation": "슈퍼에서 쇼핑합니다." }] }]
+    },
+    {
+      "id": "japanese_hoteru_106",
+      "word": "ホテル",
+      "pronunciation": "hoteru",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "호텔", "examples": [{ "sentence": "ホテルを予約しました。", "translation": "호텔을 예약했습니다." }] }]
+    },
+    {
+      "id": "japanese_toire_107",
+      "word": "トイレ",
+      "pronunciation": "toire",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "화장실", "examples": [{ "sentence": "トイレはどこですか？", "translation": "화장실은 어디입니까?" }] }]
+    },
+    {
+      "id": "japanese_ie_108",
+      "word": "家",
+      "pronunciation": "ie/uchi",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "집", "examples": [{ "sentence": "家に帰ります。", "translation": "집에 돌아갑니다." }] }]
+    },
+    {
+      "id": "japanese_heya_109",
+      "word": "部屋",
+      "pronunciation": "heya",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "방", "examples": [{ "sentence": "部屋は広いです。", "translation": "방은 넓습니다." }] }]
+    },
+    {
+      "id": "japanese_michi_110",
+      "word": "道",
+      "pronunciation": "michi",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "길", "examples": [{ "sentence": "道を教えてください。", "translation": "길을 가르쳐 주세요." }] }]
+    },
+    {
+      "id": "japanese_densha_111",
+      "word": "電車",
+      "pronunciation": "densha",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "전철", "examples": [{ "sentence": "電車で行きます。", "translation": "전철로 갑니다." }] }]
+    },
+    {
+      "id": "japanese_kuruma_112",
+      "word": "車",
+      "pronunciation": "kuruma",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "차", "examples": [{ "sentence": "車を運転します。", "translation": "차를 운전합니다." }] }]
+    },
+    {
+      "id": "japanese_basu_113",
+      "word": "バス",
+      "pronunciation": "basu",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "버스", "examples": [{ "sentence": "バスで通勤します。", "translation": "버스로 출퇴근합니다." }] }]
+    },
+    {
+      "id": "japanese_hikouki_114",
+      "word": "飛行機",
+      "pronunciation": "hikouki",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "비행기", "examples": [{ "sentence": "飛行機で行きます。", "translation": "비행기로 갑니다." }] }]
+    },
+    {
+      "id": "japanese_takushii_115",
+      "word": "タクシー",
+      "pronunciation": "takushii",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "택시", "examples": [{ "sentence": "タクシーを呼んでください。", "translation": "택시를 불러 주세요." }] }]
+    },
+    {
+      "id": "japanese_chikatetsu_116",
+      "word": "地下鉄",
+      "pronunciation": "chikatetsu",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "지하철", "examples": [{ "sentence": "地下鉄は便利です。", "translation": "지하철은 편리합니다." }] }]
+    },
+    {
+      "id": "japanese_gohan_117",
+      "word": "ご飯",
+      "pronunciation": "gohan",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "밥, 식사", "examples": [{ "sentence": "ご飯を食べましょう。", "translation": "밥 먹읍시다." }] }]
+    },
+    {
+      "id": "japanese_pan_118",
+      "word": "パン",
+      "pronunciation": "pan",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "빵", "examples": [{ "sentence": "朝はパンを食べます。", "translation": "아침은 빵을 먹습니다." }] }]
+    },
+    {
+      "id": "japanese_niku_119",
+      "word": "肉",
+      "pronunciation": "niku",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "고기", "examples": [{ "sentence": "肉が好きです。", "translation": "고기를 좋아합니다." }] }]
+    },
+    {
+      "id": "japanese_sakana_120",
+      "word": "魚",
+      "pronunciation": "sakana",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "생선", "examples": [{ "sentence": "魚を焼きます。", "translation": "생선을 굽습니다." }] }]
+    },
+    {
+      "id": "japanese_yasai_121",
+      "word": "野菜",
+      "pronunciation": "yasai",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "야채", "examples": [{ "sentence": "野菜を食べてください。", "translation": "야채를 드세요." }] }]
+    },
+    {
+      "id": "japanese_kudamono_122",
+      "word": "果物",
+      "pronunciation": "kudamono",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "과일", "examples": [{ "sentence": "果物は体にいいです。", "translation": "과일은 몸에 좋습니다." }] }]
+    },
+    {
+      "id": "japanese_mizu_123",
+      "word": "水",
+      "pronunciation": "mizu",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "물", "examples": [{ "sentence": "水をください。", "translation": "물 주세요." }] }]
+    },
+    {
+      "id": "japanese_ocha_124",
+      "word": "お茶",
+      "pronunciation": "ocha",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "차", "examples": [{ "sentence": "お茶をどうぞ。", "translation": "차 드세요." }] }]
+    },
+    {
+      "id": "japanese_koohii_125",
+      "word": "コーヒー",
+      "pronunciation": "koohii",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "커피", "examples": [{ "sentence": "コーヒーを飲みます。", "translation": "커피를 마십니다." }] }]
+    },
+    {
+      "id": "japanese_biiru_126",
+      "word": "ビール",
+      "pronunciation": "biiru",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "맥주", "examples": [{ "sentence": "ビールを一杯ください。", "translation": "맥주 한 잔 주세요." }] }]
+    },
+    {
+      "id": "japanese_ani_127",
+      "word": "兄",
+      "pronunciation": "ani",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "형, 오빠", "examples": [{ "sentence": "兄は大学生です。", "translation": "형은 대학생입니다." }] }]
+    },
+    {
+      "id": "japanese_ane_128",
+      "word": "姉",
+      "pronunciation": "ane",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "누나, 언니", "examples": [{ "sentence": "姉は結婚しています。", "translation": "언니는 결혼했습니다." }] }]
+    },
+    {
+      "id": "japanese_otouto_129",
+      "word": "弟",
+      "pronunciation": "otouto",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "남동생", "examples": [{ "sentence": "弟は高校生です。", "translation": "남동생은 고등학생입니다." }] }]
+    },
+    {
+      "id": "japanese_imouto_130",
+      "word": "妹",
+      "pronunciation": "imouto",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "여동생", "examples": [{ "sentence": "妹は可愛いです。", "translation": "여동생은 귀엽습니다." }] }]
+    },
+    {
+      "id": "japanese_musuko_131",
+      "word": "息子",
+      "pronunciation": "musuko",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "아들", "examples": [{ "sentence": "息子は五歳です。", "translation": "아들은 다섯 살입니다." }] }]
+    },
+    {
+      "id": "japanese_musume_132",
+      "word": "娘",
+      "pronunciation": "musume",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "딸", "examples": [{ "sentence": "娘は学校に行きます。", "translation": "딸은 학교에 갑니다." }] }]
+    },
+    {
+      "id": "japanese_sensei_133",
+      "word": "先生",
+      "pronunciation": "sensei",
+      "subcategory": "직업",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "선생님", "examples": [{ "sentence": "先生、質問があります。", "translation": "선생님, 질문이 있습니다." }] }]
+    },
+    {
+      "id": "japanese_gakusei_134",
+      "word": "学生",
+      "pronunciation": "gakusei",
+      "subcategory": "직업",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "학생", "examples": [{ "sentence": "私は学生です。", "translation": "저는 학생입니다." }] }]
+    },
+    {
+      "id": "japanese_isha_135",
+      "word": "医者",
+      "pronunciation": "isha",
+      "subcategory": "직업",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "의사", "examples": [{ "sentence": "彼女は医者です。", "translation": "그녀는 의사입니다." }] }]
+    },
+    {
+      "id": "japanese_kaishain_136",
+      "word": "会社員",
+      "pronunciation": "kaishain",
+      "subcategory": "직업",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "회사원", "examples": [{ "sentence": "父は会社員です。", "translation": "아버지는 회사원입니다." }] }]
+    },
+    {
+      "id": "japanese_hon_137",
+      "word": "本",
+      "pronunciation": "hon",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "책", "examples": [{ "sentence": "本を読みます。", "translation": "책을 읽습니다." }] }]
+    },
+    {
+      "id": "japanese_kaban_138",
+      "word": "鞄",
+      "pronunciation": "kaban",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "가방", "examples": [{ "sentence": "鞄を買いました。", "translation": "가방을 샀습니다." }] }]
+    },
+    {
+      "id": "japanese_kasa_139",
+      "word": "傘",
+      "pronunciation": "kasa",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "우산", "examples": [{ "sentence": "傘を持っていますか？", "translation": "우산 가지고 있습니까?" }] }]
+    },
+    {
+      "id": "japanese_tokei_140",
+      "word": "時計",
+      "pronunciation": "tokei",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "시계", "examples": [{ "sentence": "時計を見てください。", "translation": "시계를 봐 주세요." }] }]
+    },
+    {
+      "id": "japanese_keitai_141",
+      "word": "携帯",
+      "pronunciation": "keitai",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "휴대폰", "examples": [{ "sentence": "携帯を忘れました。", "translation": "휴대폰을 잊어버렸습니다." }] }]
+    },
+    {
+      "id": "japanese_pasokon_142",
+      "word": "パソコン",
+      "pronunciation": "pasokon",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "컴퓨터", "examples": [{ "sentence": "パソコンを使います。", "translation": "컴퓨터를 사용합니다." }] }]
+    },
+    {
+      "id": "japanese_tenki_143",
+      "word": "天気",
+      "pronunciation": "tenki",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "날씨", "examples": [{ "sentence": "今日の天気はいいです。", "translation": "오늘 날씨가 좋습니다." }] }]
+    },
+    {
+      "id": "japanese_ame_144",
+      "word": "雨",
+      "pronunciation": "ame",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "비", "examples": [{ "sentence": "明日は雨です。", "translation": "내일은 비입니다." }] }]
+    },
+    {
+      "id": "japanese_yuki_145",
+      "word": "雪",
+      "pronunciation": "yuki",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "눈", "examples": [{ "sentence": "雪が降っています。", "translation": "눈이 내리고 있습니다." }] }]
+    },
+    {
+      "id": "japanese_hare_146",
+      "word": "晴れ",
+      "pronunciation": "hare",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "맑음", "examples": [{ "sentence": "今日は晴れです。", "translation": "오늘은 맑습니다." }] }]
+    },
+    {
+      "id": "japanese_kumori_147",
+      "word": "曇り",
+      "pronunciation": "kumori",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "흐림", "examples": [{ "sentence": "明日は曇りです。", "translation": "내일은 흐립니다." }] }]
+    },
+    {
+      "id": "japanese_onegai_148",
+      "word": "お願いします",
+      "pronunciation": "onegai shimasu",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "부탁합니다", "examples": [{ "sentence": "これをお願いします。", "translation": "이것을 부탁합니다." }] }]
+    },
+    {
+      "id": "japanese_daijoubu_149",
+      "word": "大丈夫",
+      "pronunciation": "daijoubu",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "형용동사", "meaning": "괜찮다", "examples": [{ "sentence": "大丈夫ですか？", "translation": "괜찮습니까?" }] }]
+    }
+  ]
+}

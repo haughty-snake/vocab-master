@@ -335,6 +335,30 @@ body {
     box-shadow: var(--shadow-sm);
 }
 
+/* Category Filters Container */
+.category-filters {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.language-filter-select {
+    padding: 6px 12px;
+    font-size: 13px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.language-filter-select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
 /* Category Grid */
 .category-section {
     margin-top: 48px;
@@ -411,6 +435,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 4px;
+    word-break: break-word;
 }
 
 .category-count {
@@ -1938,14 +1963,38 @@ hr {
     position: relative;
 }
 
+.badge-area {
+    position: absolute;
+    top: 12px;
+    left: 72px; /* after toggle button (8px + 32px + 32px gap) */
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    z-index: 5;
+}
+
 .custom-badge {
     font-size: 10px;
     background: var(--primary-color);
     color: white;
     padding: 2px 6px;
     border-radius: 10px;
-    margin-left: 6px;
+    white-space: nowrap;
+    margin-left: 8px;
     vertical-align: middle;
+    display: inline-block;
+    line-height: 1;
+    position: relative;
+    top: -1px;
+}
+
+.lang-badge {
+    font-size: 10px;
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    padding: 2px 8px;
+    border-radius: 10px;
+    white-space: nowrap;
 }
 
 .category-manage-btn {
@@ -2072,6 +2121,23 @@ hr {
     border-color: var(--primary-color);
 }
 
+.select-field {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 14px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.select-field:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
 /* Input with button */
 .input-with-button {
     display: flex;
@@ -2156,6 +2222,23 @@ hr {
     display: flex;
     gap: 8px;
     margin-bottom: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.word-add-unsupported {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-sm);
+    color: var(--text-secondary);
+    font-size: 13px;
+}
+
+.word-add-unsupported .unsupported-icon {
+    font-size: 14px;
 }
 
 .add-word-form,

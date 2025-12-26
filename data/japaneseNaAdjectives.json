@@ -1,0 +1,1989 @@
+{
+  "id": "japaneseNaAdjectives",
+  "name": "일본어 な형용사",
+  "icon": "🌟",
+  "color": "#9C27B0",
+  "lang": "ja-JP",
+  "words": [
+    {
+      "id": "jna_001",
+      "word": "静か",
+      "pronunciation": "しずか",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "조용하다",
+          "examples": [
+            {
+              "sentence": "図書館は静かだ。",
+              "translation": "도서관은 조용하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_002",
+      "word": "元気",
+      "pronunciation": "げんき",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "건강하다, 기운차다",
+          "examples": [
+            {
+              "sentence": "お元気ですか。",
+              "translation": "건강하세요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_003",
+      "word": "有名",
+      "pronunciation": "ゆうめい",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "유명하다",
+          "examples": [
+            {
+              "sentence": "この店は有名だ。",
+              "translation": "이 가게는 유명하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_004",
+      "word": "綺麗",
+      "pronunciation": "きれい",
+      "subcategory": "외모",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "예쁘다, 깨끗하다",
+          "examples": [
+            {
+              "sentence": "部屋を綺麗にする。",
+              "translation": "방을 깨끗이 한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_005",
+      "word": "好き",
+      "pronunciation": "すき",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "좋아하다",
+          "examples": [
+            {
+              "sentence": "音楽が好きだ。",
+              "translation": "음악을 좋아한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_006",
+      "word": "嫌い",
+      "pronunciation": "きらい",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "싫어하다",
+          "examples": [
+            {
+              "sentence": "野菜が嫌いだ。",
+              "translation": "채소를 싫어한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_007",
+      "word": "上手",
+      "pronunciation": "じょうず",
+      "subcategory": "능력",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "잘하다, 능숙하다",
+          "examples": [
+            {
+              "sentence": "日本語が上手だ。",
+              "translation": "일본어를 잘한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_008",
+      "word": "下手",
+      "pronunciation": "へた",
+      "subcategory": "능력",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "서투르다",
+          "examples": [
+            {
+              "sentence": "料理が下手だ。",
+              "translation": "요리를 못한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_009",
+      "word": "便利",
+      "pronunciation": "べんり",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "편리하다",
+          "examples": [
+            {
+              "sentence": "この道具は便利だ。",
+              "translation": "이 도구는 편리하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_010",
+      "word": "不便",
+      "pronunciation": "ふべん",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "불편하다",
+          "examples": [
+            {
+              "sentence": "交通が不便だ。",
+              "translation": "교통이 불편하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_011",
+      "word": "大切",
+      "pronunciation": "たいせつ",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "소중하다",
+          "examples": [
+            {
+              "sentence": "家族は大切だ。",
+              "translation": "가족은 소중하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_012",
+      "word": "大事",
+      "pronunciation": "だいじ",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "중요하다",
+          "examples": [
+            {
+              "sentence": "健康は大事だ。",
+              "translation": "건강은 중요하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_013",
+      "word": "簡単",
+      "pronunciation": "かんたん",
+      "subcategory": "난이도",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "간단하다",
+          "examples": [
+            {
+              "sentence": "この問題は簡単だ。",
+              "translation": "이 문제는 간단하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_014",
+      "word": "複雑",
+      "pronunciation": "ふくざつ",
+      "subcategory": "난이도",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "복잡하다",
+          "examples": [
+            {
+              "sentence": "この話は複雑だ。",
+              "translation": "이 이야기는 복잡하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_015",
+      "word": "親切",
+      "pronunciation": "しんせつ",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "친절하다",
+          "examples": [
+            {
+              "sentence": "彼は親切だ。",
+              "translation": "그는 친절하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_016",
+      "word": "丁寧",
+      "pronunciation": "ていねい",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "정중하다, 꼼꼼하다",
+          "examples": [
+            {
+              "sentence": "丁寧に説明する。",
+              "translation": "정중하게 설명한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_017",
+      "word": "真面目",
+      "pronunciation": "まじめ",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "성실하다",
+          "examples": [
+            {
+              "sentence": "彼は真面目だ。",
+              "translation": "그는 성실하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_018",
+      "word": "暇",
+      "pronunciation": "ひま",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "한가하다",
+          "examples": [
+            {
+              "sentence": "今日は暇だ。",
+              "translation": "오늘은 한가하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_019",
+      "word": "賑やか",
+      "pronunciation": "にぎやか",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "번화하다, 활기차다",
+          "examples": [
+            {
+              "sentence": "この街は賑やかだ。",
+              "translation": "이 거리는 번화하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_020",
+      "word": "安全",
+      "pronunciation": "あんぜん",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "안전하다",
+          "examples": [
+            {
+              "sentence": "この地域は安全だ。",
+              "translation": "이 지역은 안전하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_021",
+      "word": "危険",
+      "pronunciation": "きけん",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "위험하다",
+          "examples": [
+            {
+              "sentence": "この場所は危険だ。",
+              "translation": "이 장소는 위험하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_022",
+      "word": "特別",
+      "pronunciation": "とくべつ",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "특별하다",
+          "examples": [
+            {
+              "sentence": "今日は特別な日だ。",
+              "translation": "오늘은 특별한 날이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_023",
+      "word": "普通",
+      "pronunciation": "ふつう",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "보통이다",
+          "examples": [
+            {
+              "sentence": "これは普通のことだ。",
+              "translation": "이것은 보통의 일이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_024",
+      "word": "完全",
+      "pronunciation": "かんぜん",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "완전하다",
+          "examples": [
+            {
+              "sentence": "完全に回復した。",
+              "translation": "완전히 회복했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_025",
+      "word": "不完全",
+      "pronunciation": "ふかんぜん",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "불완전하다",
+          "examples": [
+            {
+              "sentence": "まだ不完全だ。",
+              "translation": "아직 불완전하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_026",
+      "word": "必要",
+      "pronunciation": "ひつよう",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "필요하다",
+          "examples": [
+            {
+              "sentence": "お金が必要だ。",
+              "translation": "돈이 필요하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_027",
+      "word": "不要",
+      "pronunciation": "ふよう",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "불필요하다",
+          "examples": [
+            {
+              "sentence": "それは不要だ。",
+              "translation": "그것은 불필요하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_028",
+      "word": "重要",
+      "pronunciation": "じゅうよう",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "중요하다",
+          "examples": [
+            {
+              "sentence": "これは重要な問題だ。",
+              "translation": "이것은 중요한 문제다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_029",
+      "word": "自由",
+      "pronunciation": "じゆう",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "자유롭다",
+          "examples": [
+            {
+              "sentence": "自由に選んでください。",
+              "translation": "자유롭게 고르세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_030",
+      "word": "幸せ",
+      "pronunciation": "しあわせ",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "행복하다",
+          "examples": [
+            {
+              "sentence": "私は幸せだ。",
+              "translation": "나는 행복하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_031",
+      "word": "不幸",
+      "pronunciation": "ふこう",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "불행하다",
+          "examples": [
+            {
+              "sentence": "彼は不幸だ。",
+              "translation": "그는 불행하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_032",
+      "word": "残念",
+      "pronunciation": "ざんねん",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "유감이다, 아쉽다",
+          "examples": [
+            {
+              "sentence": "行けなくて残念だ。",
+              "translation": "갈 수 없어서 아쉽다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_033",
+      "word": "心配",
+      "pronunciation": "しんぱい",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "걱정되다",
+          "examples": [
+            {
+              "sentence": "彼のことが心配だ。",
+              "translation": "그가 걱정된다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_034",
+      "word": "安心",
+      "pronunciation": "あんしん",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "안심이다",
+          "examples": [
+            {
+              "sentence": "無事で安心した。",
+              "translation": "무사해서 안심했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_035",
+      "word": "得意",
+      "pronunciation": "とくい",
+      "subcategory": "능력",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "자신 있다, 잘하다",
+          "examples": [
+            {
+              "sentence": "数学が得意だ。",
+              "translation": "수학을 잘한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_036",
+      "word": "苦手",
+      "pronunciation": "にがて",
+      "subcategory": "능력",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "서투르다, 약하다",
+          "examples": [
+            {
+              "sentence": "運動が苦手だ。",
+              "translation": "운동을 못한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_037",
+      "word": "駄目",
+      "pronunciation": "だめ",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "안 되다",
+          "examples": [
+            {
+              "sentence": "ここは駄目だ。",
+              "translation": "여기는 안 된다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_038",
+      "word": "素敵",
+      "pronunciation": "すてき",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "멋지다",
+          "examples": [
+            {
+              "sentence": "素敵な服ですね。",
+              "translation": "멋진 옷이네요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_039",
+      "word": "立派",
+      "pronunciation": "りっぱ",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "훌륭하다",
+          "examples": [
+            {
+              "sentence": "立派な建物だ。",
+              "translation": "훌륭한 건물이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_040",
+      "word": "十分",
+      "pronunciation": "じゅうぶん",
+      "subcategory": "수량",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "충분하다",
+          "examples": [
+            {
+              "sentence": "時間は十分だ。",
+              "translation": "시간은 충분하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_041",
+      "word": "不十分",
+      "pronunciation": "ふじゅうぶん",
+      "subcategory": "수량",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "불충분하다",
+          "examples": [
+            {
+              "sentence": "説明が不十分だ。",
+              "translation": "설명이 불충분하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_042",
+      "word": "正直",
+      "pronunciation": "しょうじき",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "정직하다",
+          "examples": [
+            {
+              "sentence": "彼は正直だ。",
+              "translation": "그는 정직하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_043",
+      "word": "熱心",
+      "pronunciation": "ねっしん",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "열심이다",
+          "examples": [
+            {
+              "sentence": "彼女は熱心だ。",
+              "translation": "그녀는 열심이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_044",
+      "word": "適当",
+      "pronunciation": "てきとう",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "적당하다, 대충",
+          "examples": [
+            {
+              "sentence": "適当に選んだ。",
+              "translation": "대충 골랐다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_045",
+      "word": "確か",
+      "pronunciation": "たしか",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "확실하다",
+          "examples": [
+            {
+              "sentence": "確かな情報だ。",
+              "translation": "확실한 정보다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_046",
+      "word": "曖昧",
+      "pronunciation": "あいまい",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "애매하다",
+          "examples": [
+            {
+              "sentence": "答えが曖昧だ。",
+              "translation": "대답이 애매하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_047",
+      "word": "明らか",
+      "pronunciation": "あきらか",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "명확하다, 분명하다",
+          "examples": [
+            {
+              "sentence": "理由は明らかだ。",
+              "translation": "이유는 분명하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_048",
+      "word": "可能",
+      "pronunciation": "かのう",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "가능하다",
+          "examples": [
+            {
+              "sentence": "それは可能だ。",
+              "translation": "그것은 가능하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_049",
+      "word": "不可能",
+      "pronunciation": "ふかのう",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "불가능하다",
+          "examples": [
+            {
+              "sentence": "それは不可能だ。",
+              "translation": "그것은 불가능하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_050",
+      "word": "有効",
+      "pronunciation": "ゆうこう",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "유효하다",
+          "examples": [
+            {
+              "sentence": "この券は有効だ。",
+              "translation": "이 쿠폰은 유효하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_051",
+      "word": "無効",
+      "pronunciation": "むこう",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "무효다",
+          "examples": [
+            {
+              "sentence": "契約は無効だ。",
+              "translation": "계약은 무효다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_052",
+      "word": "正確",
+      "pronunciation": "せいかく",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "정확하다",
+          "examples": [
+            {
+              "sentence": "時計が正確だ。",
+              "translation": "시계가 정확하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_053",
+      "word": "不正確",
+      "pronunciation": "ふせいかく",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "부정확하다",
+          "examples": [
+            {
+              "sentence": "データが不正確だ。",
+              "translation": "데이터가 부정확하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_054",
+      "word": "豊か",
+      "pronunciation": "ゆたか",
+      "subcategory": "수량",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "풍부하다",
+          "examples": [
+            {
+              "sentence": "自然が豊かだ。",
+              "translation": "자연이 풍부하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_055",
+      "word": "穏やか",
+      "pronunciation": "おだやか",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "온화하다, 잔잔하다",
+          "examples": [
+            {
+              "sentence": "海が穏やかだ。",
+              "translation": "바다가 잔잔하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_056",
+      "word": "爽やか",
+      "pronunciation": "さわやか",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "상쾌하다",
+          "examples": [
+            {
+              "sentence": "爽やかな朝だ。",
+              "translation": "상쾌한 아침이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_057",
+      "word": "健康",
+      "pronunciation": "けんこう",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "건강하다",
+          "examples": [
+            {
+              "sentence": "体が健康だ。",
+              "translation": "몸이 건강하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_058",
+      "word": "幸運",
+      "pronunciation": "こううん",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "행운이다",
+          "examples": [
+            {
+              "sentence": "とても幸運だ。",
+              "translation": "매우 행운이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_059",
+      "word": "不運",
+      "pronunciation": "ふうん",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "불운이다",
+          "examples": [
+            {
+              "sentence": "彼は不運だ。",
+              "translation": "그는 불운하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_060",
+      "word": "清潔",
+      "pronunciation": "せいけつ",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "청결하다",
+          "examples": [
+            {
+              "sentence": "部屋が清潔だ。",
+              "translation": "방이 청결하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_061",
+      "word": "不潔",
+      "pronunciation": "ふけつ",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "불결하다",
+          "examples": [
+            {
+              "sentence": "トイレが不潔だ。",
+              "translation": "화장실이 불결하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_062",
+      "word": "純粋",
+      "pronunciation": "じゅんすい",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "순수하다",
+          "examples": [
+            {
+              "sentence": "彼女は純粋だ。",
+              "translation": "그녀는 순수하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_063",
+      "word": "勝手",
+      "pronunciation": "かって",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "제멋대로다",
+          "examples": [
+            {
+              "sentence": "勝手にしないで。",
+              "translation": "마음대로 하지 마."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_064",
+      "word": "素直",
+      "pronunciation": "すなお",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "솔직하다, 순하다",
+          "examples": [
+            {
+              "sentence": "彼は素直だ。",
+              "translation": "그는 솔직하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_065",
+      "word": "意外",
+      "pronunciation": "いがい",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "의외다",
+          "examples": [
+            {
+              "sentence": "結果は意外だった。",
+              "translation": "결과는 의외였다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_066",
+      "word": "当然",
+      "pronunciation": "とうぜん",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "당연하다",
+          "examples": [
+            {
+              "sentence": "それは当然だ。",
+              "translation": "그것은 당연하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_067",
+      "word": "自然",
+      "pronunciation": "しぜん",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "자연스럽다",
+          "examples": [
+            {
+              "sentence": "発音が自然だ。",
+              "translation": "발음이 자연스럽다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_068",
+      "word": "不自然",
+      "pronunciation": "ふしぜん",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "부자연스럽다",
+          "examples": [
+            {
+              "sentence": "動きが不自然だ。",
+              "translation": "움직임이 부자연스럽다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_069",
+      "word": "奇妙",
+      "pronunciation": "きみょう",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "기묘하다, 이상하다",
+          "examples": [
+            {
+              "sentence": "奇妙な話だ。",
+              "translation": "기묘한 이야기다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_070",
+      "word": "変",
+      "pronunciation": "へん",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "이상하다",
+          "examples": [
+            {
+              "sentence": "変な人だ。",
+              "translation": "이상한 사람이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_071",
+      "word": "微妙",
+      "pronunciation": "びみょう",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "미묘하다",
+          "examples": [
+            {
+              "sentence": "味が微妙だ。",
+              "translation": "맛이 미묘하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_072",
+      "word": "同じ",
+      "pronunciation": "おなじ",
+      "subcategory": "비교",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "같다",
+          "examples": [
+            {
+              "sentence": "同じ意見だ。",
+              "translation": "같은 의견이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_073",
+      "word": "別",
+      "pronunciation": "べつ",
+      "subcategory": "비교",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "다르다, 별개다",
+          "examples": [
+            {
+              "sentence": "それは別の話だ。",
+              "translation": "그건 다른 이야기다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_074",
+      "word": "様々",
+      "pronunciation": "さまざま",
+      "subcategory": "수량",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "다양하다",
+          "examples": [
+            {
+              "sentence": "様々な意見がある。",
+              "translation": "다양한 의견이 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_075",
+      "word": "色々",
+      "pronunciation": "いろいろ",
+      "subcategory": "수량",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "여러 가지다",
+          "examples": [
+            {
+              "sentence": "色々な人がいる。",
+              "translation": "여러 가지 사람이 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_076",
+      "word": "盛ん",
+      "pronunciation": "さかん",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "활발하다, 성하다",
+          "examples": [
+            {
+              "sentence": "議論が盛んだ。",
+              "translation": "논의가 활발하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_077",
+      "word": "急",
+      "pronunciation": "きゅう",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "급하다",
+          "examples": [
+            {
+              "sentence": "急な話だ。",
+              "translation": "급한 이야기다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_078",
+      "word": "新鮮",
+      "pronunciation": "しんせん",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "신선하다",
+          "examples": [
+            {
+              "sentence": "野菜が新鮮だ。",
+              "translation": "채소가 신선하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_079",
+      "word": "平和",
+      "pronunciation": "へいわ",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "평화롭다",
+          "examples": [
+            {
+              "sentence": "世界が平和だ。",
+              "translation": "세계가 평화롭다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_080",
+      "word": "活発",
+      "pronunciation": "かっぱつ",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "활발하다",
+          "examples": [
+            {
+              "sentence": "彼女は活発だ。",
+              "translation": "그녀는 활발하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_081",
+      "word": "貴重",
+      "pronunciation": "きちょう",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "귀중하다",
+          "examples": [
+            {
+              "sentence": "貴重な経験だ。",
+              "translation": "귀중한 경험이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_082",
+      "word": "高価",
+      "pronunciation": "こうか",
+      "subcategory": "가격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "고가다, 비싸다",
+          "examples": [
+            {
+              "sentence": "この宝石は高価だ。",
+              "translation": "이 보석은 비싸다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_083",
+      "word": "無料",
+      "pronunciation": "むりょう",
+      "subcategory": "가격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "무료다",
+          "examples": [
+            {
+              "sentence": "入場は無料だ。",
+              "translation": "입장은 무료다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_084",
+      "word": "有料",
+      "pronunciation": "ゆうりょう",
+      "subcategory": "가격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "유료다",
+          "examples": [
+            {
+              "sentence": "駐車場は有料だ。",
+              "translation": "주차장은 유료다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_085",
+      "word": "無理",
+      "pronunciation": "むり",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "무리다",
+          "examples": [
+            {
+              "sentence": "今日は無理だ。",
+              "translation": "오늘은 무리다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_086",
+      "word": "無駄",
+      "pronunciation": "むだ",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "헛되다, 낭비다",
+          "examples": [
+            {
+              "sentence": "無駄な努力だ。",
+              "translation": "헛된 노력이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_087",
+      "word": "楽",
+      "pronunciation": "らく",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "편하다",
+          "examples": [
+            {
+              "sentence": "この椅子は楽だ。",
+              "translation": "이 의자는 편하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_088",
+      "word": "暖か",
+      "pronunciation": "あたたか",
+      "subcategory": "온도",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "따뜻하다",
+          "examples": [
+            {
+              "sentence": "今日は暖かだ。",
+              "translation": "오늘은 따뜻하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_089",
+      "word": "柔軟",
+      "pronunciation": "じゅうなん",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "유연하다",
+          "examples": [
+            {
+              "sentence": "体が柔軟だ。",
+              "translation": "몸이 유연하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_090",
+      "word": "不思議",
+      "pronunciation": "ふしぎ",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "신기하다, 이상하다",
+          "examples": [
+            {
+              "sentence": "不思議な現象だ。",
+              "translation": "신기한 현상이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_091",
+      "word": "失礼",
+      "pronunciation": "しつれい",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "실례다",
+          "examples": [
+            {
+              "sentence": "失礼な態度だ。",
+              "translation": "실례되는 태도다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_092",
+      "word": "乱暴",
+      "pronunciation": "らんぼう",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "난폭하다",
+          "examples": [
+            {
+              "sentence": "乱暴な運転だ。",
+              "translation": "난폭한 운전이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_093",
+      "word": "有利",
+      "pronunciation": "ゆうり",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "유리하다",
+          "examples": [
+            {
+              "sentence": "条件が有利だ。",
+              "translation": "조건이 유리하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_094",
+      "word": "不利",
+      "pronunciation": "ふり",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "불리하다",
+          "examples": [
+            {
+              "sentence": "状況が不利だ。",
+              "translation": "상황이 불리하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_095",
+      "word": "適切",
+      "pronunciation": "てきせつ",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "적절하다",
+          "examples": [
+            {
+              "sentence": "適切な対応だ。",
+              "translation": "적절한 대응이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_096",
+      "word": "不適切",
+      "pronunciation": "ふてきせつ",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "부적절하다",
+          "examples": [
+            {
+              "sentence": "不適切な発言だ。",
+              "translation": "부적절한 발언이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_097",
+      "word": "独特",
+      "pronunciation": "どくとく",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "독특하다",
+          "examples": [
+            {
+              "sentence": "独特な味だ。",
+              "translation": "독특한 맛이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_098",
+      "word": "円滑",
+      "pronunciation": "えんかつ",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "원활하다",
+          "examples": [
+            {
+              "sentence": "進行が円滑だ。",
+              "translation": "진행이 원활하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_099",
+      "word": "深刻",
+      "pronunciation": "しんこく",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "심각하다",
+          "examples": [
+            {
+              "sentence": "問題が深刻だ。",
+              "translation": "문제가 심각하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_100",
+      "word": "勇敢",
+      "pronunciation": "ゆうかん",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "용감하다",
+          "examples": [
+            {
+              "sentence": "勇敢な行動だ。",
+              "translation": "용감한 행동이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_101",
+      "word": "正常",
+      "pronunciation": "せいじょう",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "정상이다",
+          "examples": [
+            {
+              "sentence": "状態が正常だ。",
+              "translation": "상태가 정상이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_102",
+      "word": "異常",
+      "pronunciation": "いじょう",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "이상이다",
+          "examples": [
+            {
+              "sentence": "体温が異常だ。",
+              "translation": "체온이 이상하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_103",
+      "word": "厄介",
+      "pronunciation": "やっかい",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "골치 아프다, 성가시다",
+          "examples": [
+            {
+              "sentence": "厄介な問題だ。",
+              "translation": "골치 아픈 문제다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_104",
+      "word": "優秀",
+      "pronunciation": "ゆうしゅう",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "우수하다",
+          "examples": [
+            {
+              "sentence": "優秀な学生だ。",
+              "translation": "우수한 학생이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_105",
+      "word": "有能",
+      "pronunciation": "ゆうのう",
+      "subcategory": "능력",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "유능하다",
+          "examples": [
+            {
+              "sentence": "有能な人材だ。",
+              "translation": "유능한 인재다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_106",
+      "word": "無能",
+      "pronunciation": "むのう",
+      "subcategory": "능력",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "무능하다",
+          "examples": [
+            {
+              "sentence": "無能なリーダーだ。",
+              "translation": "무능한 리더다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_107",
+      "word": "率直",
+      "pronunciation": "そっちょく",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "솔직하다",
+          "examples": [
+            {
+              "sentence": "率直な意見だ。",
+              "translation": "솔직한 의견이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_108",
+      "word": "巧み",
+      "pronunciation": "たくみ",
+      "subcategory": "능력",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "교묘하다, 솜씨 좋다",
+          "examples": [
+            {
+              "sentence": "巧みな技術だ。",
+              "translation": "솜씨 좋은 기술이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_109",
+      "word": "気軽",
+      "pronunciation": "きがる",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "부담 없다, 가볍다",
+          "examples": [
+            {
+              "sentence": "気軽に相談してください。",
+              "translation": "부담 없이 상담하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jna_110",
+      "word": "手軽",
+      "pronunciation": "てがる",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "な형용사",
+          "meaning": "간편하다",
+          "examples": [
+            {
+              "sentence": "手軽な料理だ。",
+              "translation": "간편한 요리다."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1059 @@
+{
+  "id": "spanishBasic",
+  "name": "스페인어 기초",
+  "icon": "🇪🇸",
+  "color": "#c60b1e",
+  "lang": "es-ES",
+  "words": [
+    {
+      "id": "spanish_hola_0",
+      "word": "Hola",
+      "pronunciation": "올라",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "안녕하세요", "examples": [{ "sentence": "¡Hola! ¿Cómo estás?", "translation": "안녕! 어떻게 지내?" }] }]
+    },
+    {
+      "id": "spanish_adios_1",
+      "word": "Adiós",
+      "pronunciation": "아디오스",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "안녕히 가세요", "examples": [{ "sentence": "Adiós, hasta mañana.", "translation": "안녕, 내일 봐." }] }]
+    },
+    {
+      "id": "spanish_gracias_2",
+      "word": "Gracias",
+      "pronunciation": "그라시아스",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "감사합니다", "examples": [{ "sentence": "Muchas gracias por tu ayuda.", "translation": "도와주셔서 대단히 감사합니다." }] }]
+    },
+    {
+      "id": "spanish_de_nada_3",
+      "word": "De nada",
+      "pronunciation": "데 나다",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "천만에요", "examples": [{ "sentence": "De nada, fue un placer.", "translation": "천만에요, 기꺼이요." }] }]
+    },
+    {
+      "id": "spanish_por_favor_4",
+      "word": "Por favor",
+      "pronunciation": "뽀르 파보르",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "부탁합니다, 제발", "examples": [{ "sentence": "Un café, por favor.", "translation": "커피 한 잔 주세요." }] }]
+    },
+    {
+      "id": "spanish_lo_siento_5",
+      "word": "Lo siento",
+      "pronunciation": "로 시엔또",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "미안합니다", "examples": [{ "sentence": "Lo siento, llegué tarde.", "translation": "죄송합니다, 늦었어요." }] }]
+    },
+    {
+      "id": "spanish_buenos_dias_6",
+      "word": "Buenos días",
+      "pronunciation": "부에노스 디아스",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "좋은 아침이에요", "examples": [{ "sentence": "Buenos días, ¿cómo amaneciste?", "translation": "좋은 아침이에요, 잘 주무셨어요?" }] }]
+    },
+    {
+      "id": "spanish_buenas_noches_7",
+      "word": "Buenas noches",
+      "pronunciation": "부에나스 노체스",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "안녕하세요 (저녁), 안녕히 주무세요", "examples": [{ "sentence": "Buenas noches, que descanses.", "translation": "안녕히 주무세요, 푹 쉬세요." }] }]
+    },
+    {
+      "id": "spanish_yo_8",
+      "word": "Yo",
+      "pronunciation": "요",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "나", "examples": [{ "sentence": "Yo soy coreano.", "translation": "나는 한국인입니다." }] }]
+    },
+    {
+      "id": "spanish_tu_9",
+      "word": "Tú",
+      "pronunciation": "뚜",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "너", "examples": [{ "sentence": "¿Tú hablas español?", "translation": "너 스페인어 할 줄 알아?" }] }]
+    },
+    {
+      "id": "spanish_el_ella_10",
+      "word": "Él/Ella",
+      "pronunciation": "엘/에야",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "그/그녀", "examples": [{ "sentence": "Él es mi amigo.", "translation": "그는 내 친구야." }] }]
+    },
+    {
+      "id": "spanish_nosotros_11",
+      "word": "Nosotros",
+      "pronunciation": "노소뜨로스",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "우리", "examples": [{ "sentence": "Nosotros vamos al cine.", "translation": "우리는 영화관에 가요." }] }]
+    },
+    {
+      "id": "spanish_ser_12",
+      "word": "Ser",
+      "pronunciation": "세르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "~이다 (본질)", "examples": [{ "sentence": "Soy estudiante.", "translation": "나는 학생입니다." }] }]
+    },
+    {
+      "id": "spanish_estar_13",
+      "word": "Estar",
+      "pronunciation": "에스따르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "~이다 (상태), 있다", "examples": [{ "sentence": "Estoy bien.", "translation": "나는 잘 있어요." }] }]
+    },
+    {
+      "id": "spanish_tener_14",
+      "word": "Tener",
+      "pronunciation": "떼네르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "가지다", "examples": [{ "sentence": "Tengo una pregunta.", "translation": "질문이 있어요." }] }]
+    },
+    {
+      "id": "spanish_ir_15",
+      "word": "Ir",
+      "pronunciation": "이르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "가다", "examples": [{ "sentence": "Voy a la escuela.", "translation": "나는 학교에 가요." }] }]
+    },
+    {
+      "id": "spanish_venir_16",
+      "word": "Venir",
+      "pronunciation": "베니르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "오다", "examples": [{ "sentence": "¿Vienes conmigo?", "translation": "나랑 같이 갈래?" }] }]
+    },
+    {
+      "id": "spanish_comer_17",
+      "word": "Comer",
+      "pronunciation": "꼬메르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "먹다", "examples": [{ "sentence": "¿Qué quieres comer?", "translation": "뭐 먹고 싶어?" }] }]
+    },
+    {
+      "id": "spanish_beber_18",
+      "word": "Beber",
+      "pronunciation": "베베르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "마시다", "examples": [{ "sentence": "Quiero beber agua.", "translation": "물 마시고 싶어요." }] }]
+    },
+    {
+      "id": "spanish_hablar_19",
+      "word": "Hablar",
+      "pronunciation": "아블라르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "말하다", "examples": [{ "sentence": "¿Hablas inglés?", "translation": "영어 할 줄 아세요?" }] }]
+    },
+    {
+      "id": "spanish_querer_20",
+      "word": "Querer",
+      "pronunciation": "께레르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "원하다, 사랑하다", "examples": [{ "sentence": "Te quiero mucho.", "translation": "너를 많이 사랑해." }] }]
+    },
+    {
+      "id": "spanish_bueno_21",
+      "word": "Bueno/a",
+      "pronunciation": "부에노/아",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "좋은", "examples": [{ "sentence": "Es un buen libro.", "translation": "좋은 책이에요." }] }]
+    },
+    {
+      "id": "spanish_malo_22",
+      "word": "Malo/a",
+      "pronunciation": "말로/아",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "나쁜", "examples": [{ "sentence": "El tiempo está malo.", "translation": "날씨가 나빠요." }] }]
+    },
+    {
+      "id": "spanish_grande_23",
+      "word": "Grande",
+      "pronunciation": "그란데",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "큰", "examples": [{ "sentence": "Es una casa grande.", "translation": "큰 집이에요." }] }]
+    },
+    {
+      "id": "spanish_pequeno_24",
+      "word": "Pequeño/a",
+      "pronunciation": "뻬게뇨/아",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "작은", "examples": [{ "sentence": "Tengo un perro pequeño.", "translation": "작은 개가 있어요." }] }]
+    },
+    {
+      "id": "spanish_uno_25",
+      "word": "Uno",
+      "pronunciation": "우노",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "1, 하나", "examples": [{ "sentence": "Quiero uno, por favor.", "translation": "하나 주세요." }] }]
+    },
+    {
+      "id": "spanish_dos_26",
+      "word": "Dos",
+      "pronunciation": "도스",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "2, 둘", "examples": [{ "sentence": "Somos dos personas.", "translation": "우리는 두 명이에요." }] }]
+    },
+    {
+      "id": "spanish_tres_27",
+      "word": "Tres",
+      "pronunciation": "뜨레스",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "3, 셋", "examples": [{ "sentence": "A las tres de la tarde.", "translation": "오후 3시에요." }] }]
+    },
+    {
+      "id": "spanish_diez_28",
+      "word": "Diez",
+      "pronunciation": "디에스",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "10, 열", "examples": [{ "sentence": "Son diez euros.", "translation": "10유로예요." }] }]
+    },
+    {
+      "id": "spanish_cien_29",
+      "word": "Cien",
+      "pronunciation": "시엔",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "100, 백", "examples": [{ "sentence": "Cuesta cien dólares.", "translation": "100달러예요." }] }]
+    },
+    {
+      "id": "spanish_hoy_30",
+      "word": "Hoy",
+      "pronunciation": "오이",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "오늘", "examples": [{ "sentence": "Hoy es lunes.", "translation": "오늘은 월요일이에요." }] }]
+    },
+    {
+      "id": "spanish_manana_31",
+      "word": "Mañana",
+      "pronunciation": "마냐나",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사/명사", "meaning": "내일, 아침", "examples": [{ "sentence": "Nos vemos mañana.", "translation": "내일 봐요." }] }]
+    },
+    {
+      "id": "spanish_ayer_32",
+      "word": "Ayer",
+      "pronunciation": "아예르",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "어제", "examples": [{ "sentence": "Ayer fui al cine.", "translation": "어제 영화관에 갔어요." }] }]
+    },
+    {
+      "id": "spanish_ahora_33",
+      "word": "Ahora",
+      "pronunciation": "아오라",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "지금", "examples": [{ "sentence": "¿Qué hora es ahora?", "translation": "지금 몇 시예요?" }] }]
+    },
+    {
+      "id": "spanish_cuanto_cuesta_34",
+      "word": "¿Cuánto cuesta?",
+      "pronunciation": "꾸안또 꾸에스따",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "얼마예요?", "examples": [{ "sentence": "¿Cuánto cuesta esto?", "translation": "이거 얼마예요?" }] }]
+    },
+    {
+      "id": "spanish_donde_esta_35",
+      "word": "¿Dónde está?",
+      "pronunciation": "돈데 에스따",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "~은 어디에 있어요?", "examples": [{ "sentence": "¿Dónde está el baño?", "translation": "화장실이 어디에 있어요?" }] }]
+    },
+    {
+      "id": "spanish_no_entiendo_36",
+      "word": "No entiendo",
+      "pronunciation": "노 엔띠엔도",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "이해하지 못해요", "examples": [{ "sentence": "Lo siento, no entiendo.", "translation": "죄송해요, 이해하지 못해요." }] }]
+    },
+    {
+      "id": "spanish_me_gustaria_37",
+      "word": "Me gustaría...",
+      "pronunciation": "메 구스따리아",
+      "subcategory": "필수 패턴",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "~하고 싶습니다", "examples": [{ "sentence": "Me gustaría un café.", "translation": "커피 한 잔 하고 싶어요." }] }]
+    },
+    {
+      "id": "spanish_puede_repetir_38",
+      "word": "¿Puede repetir?",
+      "pronunciation": "뿌에데 레뻬띠르",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "다시 말씀해 주시겠어요?", "examples": [{ "sentence": "¿Puede repetir, por favor?", "translation": "다시 말씀해 주시겠어요?" }] }]
+    },
+    {
+      "id": "spanish_mucho_gusto_39",
+      "word": "Mucho gusto",
+      "pronunciation": "무초 구스또",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "만나서 반갑습니다", "examples": [{ "sentence": "Mucho gusto, soy Juan.", "translation": "만나서 반갑습니다, 저는 후안이에요." }] }]
+    },
+    {
+      "id": "spanish_restaurante_40",
+      "word": "Restaurante",
+      "pronunciation": "레스따우란떼",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "식당", "examples": [{ "sentence": "Este restaurante es muy bueno.", "translation": "이 식당은 아주 좋아요." }] }]
+    },
+    {
+      "id": "spanish_aeropuerto_41",
+      "word": "Aeropuerto",
+      "pronunciation": "아에로뿌에르또",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "공항", "examples": [{ "sentence": "¿Cómo llego al aeropuerto?", "translation": "공항에 어떻게 가요?" }] }]
+    },
+    {
+      "id": "spanish_hospital_42",
+      "word": "Hospital",
+      "pronunciation": "오스삐딸",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "병원", "examples": [{ "sentence": "¿Hay un hospital cerca?", "translation": "근처에 병원이 있어요?" }] }]
+    },
+    {
+      "id": "spanish_familia_43",
+      "word": "Familia",
+      "pronunciation": "파밀리아",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "가족", "examples": [{ "sentence": "Mi familia vive en Corea.", "translation": "제 가족은 한국에 살아요." }] }]
+    },
+    {
+      "id": "spanish_padre_44",
+      "word": "Padre",
+      "pronunciation": "빠드레",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "아버지", "examples": [{ "sentence": "Mi padre es médico.", "translation": "제 아버지는 의사예요." }] }]
+    },
+    {
+      "id": "spanish_madre_45",
+      "word": "Madre",
+      "pronunciation": "마드레",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "어머니", "examples": [{ "sentence": "Mi madre cocina muy bien.", "translation": "우리 어머니는 요리를 아주 잘해요." }] }]
+    },
+    {
+      "id": "spanish_amigo_46",
+      "word": "Amigo/a",
+      "pronunciation": "아미고/아",
+      "subcategory": "관계",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "친구", "examples": [{ "sentence": "Es mi mejor amigo.", "translation": "그는 내 가장 친한 친구야." }] }]
+    },
+    {
+      "id": "spanish_agua_47",
+      "word": "Agua",
+      "pronunciation": "아구아",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "물", "examples": [{ "sentence": "Un vaso de agua, por favor.", "translation": "물 한 잔 주세요." }] }]
+    },
+    {
+      "id": "spanish_comida_48",
+      "word": "Comida",
+      "pronunciation": "꼬미다",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "음식, 식사", "examples": [{ "sentence": "La comida está deliciosa.", "translation": "음식이 맛있어요." }] }]
+    },
+    {
+      "id": "spanish_dinero_49",
+      "word": "Dinero",
+      "pronunciation": "디네로",
+      "subcategory": "기타",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "돈", "examples": [{ "sentence": "No tengo dinero.", "translation": "돈이 없어요." }] }]
+    },
+    {
+      "id": "spanish_ellos_50",
+      "word": "Ellos/Ellas",
+      "pronunciation": "에요스/에야스",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "그들", "examples": [{ "sentence": "Ellos son mis compañeros.", "translation": "그들은 내 동료들이야." }] }]
+    },
+    {
+      "id": "spanish_esto_51",
+      "word": "Esto",
+      "pronunciation": "에스또",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "이것", "examples": [{ "sentence": "¿Qué es esto?", "translation": "이것은 무엇입니까?" }] }]
+    },
+    {
+      "id": "spanish_eso_52",
+      "word": "Eso",
+      "pronunciation": "에소",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "그것", "examples": [{ "sentence": "Eso es interesante.", "translation": "그것은 흥미롭네요." }] }]
+    },
+    {
+      "id": "spanish_que_53",
+      "word": "Qué",
+      "pronunciation": "께",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문대명사", "meaning": "무엇", "examples": [{ "sentence": "¿Qué quieres comer?", "translation": "뭐 먹고 싶어?" }] }]
+    },
+    {
+      "id": "spanish_quien_54",
+      "word": "Quién",
+      "pronunciation": "끼엔",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문대명사", "meaning": "누구", "examples": [{ "sentence": "¿Quién es él?", "translation": "그는 누구야?" }] }]
+    },
+    {
+      "id": "spanish_donde_55",
+      "word": "Dónde",
+      "pronunciation": "돈데",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문부사", "meaning": "어디", "examples": [{ "sentence": "¿Dónde vives?", "translation": "어디에 살아?" }] }]
+    },
+    {
+      "id": "spanish_cuando_56",
+      "word": "Cuándo",
+      "pronunciation": "꽌도",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문부사", "meaning": "언제", "examples": [{ "sentence": "¿Cuándo vienes?", "translation": "언제 와?" }] }]
+    },
+    {
+      "id": "spanish_por_que_57",
+      "word": "Por qué",
+      "pronunciation": "뽀르 께",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문부사", "meaning": "왜", "examples": [{ "sentence": "¿Por qué no viniste?", "translation": "왜 안 왔어?" }] }]
+    },
+    {
+      "id": "spanish_como_58",
+      "word": "Cómo",
+      "pronunciation": "꼬모",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문부사", "meaning": "어떻게", "examples": [{ "sentence": "¿Cómo se dice esto?", "translation": "이것을 어떻게 말해요?" }] }]
+    },
+    {
+      "id": "spanish_cuanto_59",
+      "word": "Cuánto",
+      "pronunciation": "꽌또",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문수사", "meaning": "얼마, 몇", "examples": [{ "sentence": "¿Cuánto cuesta?", "translation": "얼마예요?" }] }]
+    },
+    {
+      "id": "spanish_hacer_60",
+      "word": "Hacer",
+      "pronunciation": "아세르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "하다, 만들다", "examples": [{ "sentence": "¿Qué estás haciendo?", "translation": "뭐 하고 있어?" }] }]
+    },
+    {
+      "id": "spanish_poder_61",
+      "word": "Poder",
+      "pronunciation": "뽀데르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "~할 수 있다", "examples": [{ "sentence": "¿Puedes ayudarme?", "translation": "나를 도와줄 수 있어?" }] }]
+    },
+    {
+      "id": "spanish_decir_62",
+      "word": "Decir",
+      "pronunciation": "데시르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "말하다", "examples": [{ "sentence": "¿Qué dijiste?", "translation": "뭐라고 말했어?" }] }]
+    },
+    {
+      "id": "spanish_saber_63",
+      "word": "Saber",
+      "pronunciation": "사베르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "알다", "examples": [{ "sentence": "No sé.", "translation": "모르겠어요." }] }]
+    },
+    {
+      "id": "spanish_dar_64",
+      "word": "Dar",
+      "pronunciation": "다르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "주다", "examples": [{ "sentence": "Dame el libro.", "translation": "책 줘." }] }]
+    },
+    {
+      "id": "spanish_venir_65",
+      "word": "Venir",
+      "pronunciation": "베니르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "오다", "examples": [{ "sentence": "Ven aquí.", "translation": "여기로 와." }] }]
+    },
+    {
+      "id": "spanish_ver_66",
+      "word": "Ver",
+      "pronunciation": "베르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "보다", "examples": [{ "sentence": "Vamos a ver una película.", "translation": "영화 보러 가자." }] }]
+    },
+    {
+      "id": "spanish_vivir_67",
+      "word": "Vivir",
+      "pronunciation": "비비르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "살다", "examples": [{ "sentence": "Vivo en Seúl.", "translation": "서울에 살아요." }] }]
+    },
+    {
+      "id": "spanish_trabajar_68",
+      "word": "Trabajar",
+      "pronunciation": "뜨라바하르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "일하다", "examples": [{ "sentence": "Trabajo en una oficina.", "translation": "사무실에서 일해요." }] }]
+    },
+    {
+      "id": "spanish_comprar_69",
+      "word": "Comprar",
+      "pronunciation": "꼼쁘라르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "사다", "examples": [{ "sentence": "Quiero comprar esto.", "translation": "이것을 사고 싶어요." }] }]
+    },
+    {
+      "id": "spanish_pensar_70",
+      "word": "Pensar",
+      "pronunciation": "뻰사르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "생각하다", "examples": [{ "sentence": "Pienso que es bueno.", "translation": "좋다고 생각해요." }] }]
+    },
+    {
+      "id": "spanish_esperar_71",
+      "word": "Esperar",
+      "pronunciation": "에스뻬라르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "기다리다, 희망하다", "examples": [{ "sentence": "Espera un momento.", "translation": "잠깐 기다려." }] }]
+    },
+    {
+      "id": "spanish_gustar_72",
+      "word": "Gustar",
+      "pronunciation": "구스따르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "좋아하다", "examples": [{ "sentence": "Me gusta la música.", "translation": "음악을 좋아해요." }] }]
+    },
+    {
+      "id": "spanish_llamar_73",
+      "word": "Llamar",
+      "pronunciation": "야마르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "부르다, 전화하다", "examples": [{ "sentence": "Me llamo Juan.", "translation": "제 이름은 후안이에요." }] }]
+    },
+    {
+      "id": "spanish_nuevo_74",
+      "word": "Nuevo",
+      "pronunciation": "누에보",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "새로운", "examples": [{ "sentence": "Es un coche nuevo.", "translation": "새 차예요." }] }]
+    },
+    {
+      "id": "spanish_viejo_75",
+      "word": "Viejo",
+      "pronunciation": "비에호",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "오래된, 늙은", "examples": [{ "sentence": "Es un edificio viejo.", "translation": "오래된 건물이에요." }] }]
+    },
+    {
+      "id": "spanish_rapido_76",
+      "word": "Rápido",
+      "pronunciation": "라삐도",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "빠른", "examples": [{ "sentence": "El tren es muy rápido.", "translation": "기차가 아주 빨라요." }] }]
+    },
+    {
+      "id": "spanish_lento_77",
+      "word": "Lento",
+      "pronunciation": "렌또",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "느린", "examples": [{ "sentence": "Habla más lento, por favor.", "translation": "천천히 말해 주세요." }] }]
+    },
+    {
+      "id": "spanish_caliente_78",
+      "word": "Caliente",
+      "pronunciation": "깔리엔떼",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "뜨거운, 더운", "examples": [{ "sentence": "El café está caliente.", "translation": "커피가 뜨거워요." }] }]
+    },
+    {
+      "id": "spanish_frio_79",
+      "word": "Frío",
+      "pronunciation": "프리오",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "차가운, 추운", "examples": [{ "sentence": "Hace frío hoy.", "translation": "오늘 추워요." }] }]
+    },
+    {
+      "id": "spanish_caro_80",
+      "word": "Caro",
+      "pronunciation": "까로",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "비싼", "examples": [{ "sentence": "Es muy caro.", "translation": "너무 비싸요." }] }]
+    },
+    {
+      "id": "spanish_barato_81",
+      "word": "Barato",
+      "pronunciation": "바라또",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "싼", "examples": [{ "sentence": "Este es más barato.", "translation": "이게 더 싸요." }] }]
+    },
+    {
+      "id": "spanish_facil_82",
+      "word": "Fácil",
+      "pronunciation": "파실",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "쉬운", "examples": [{ "sentence": "Es muy fácil.", "translation": "아주 쉬워요." }] }]
+    },
+    {
+      "id": "spanish_dificil_83",
+      "word": "Difícil",
+      "pronunciation": "디피실",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "어려운", "examples": [{ "sentence": "Es muy difícil.", "translation": "아주 어려워요." }] }]
+    },
+    {
+      "id": "spanish_bonito_84",
+      "word": "Bonito",
+      "pronunciation": "보니또",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "예쁜", "examples": [{ "sentence": "Es muy bonito.", "translation": "아주 예뻐요." }] }]
+    },
+    {
+      "id": "spanish_cuatro_85",
+      "word": "Cuatro",
+      "pronunciation": "꽈뜨로",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "4, 넷", "examples": [{ "sentence": "Somos cuatro personas.", "translation": "우리는 네 명이에요." }] }]
+    },
+    {
+      "id": "spanish_cinco_86",
+      "word": "Cinco",
+      "pronunciation": "싱꼬",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "5, 다섯", "examples": [{ "sentence": "Cinco minutos.", "translation": "5분." }] }]
+    },
+    {
+      "id": "spanish_seis_87",
+      "word": "Seis",
+      "pronunciation": "세이스",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "6, 여섯", "examples": [{ "sentence": "Son las seis.", "translation": "6시예요." }] }]
+    },
+    {
+      "id": "spanish_siete_88",
+      "word": "Siete",
+      "pronunciation": "시에떼",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "7, 일곱", "examples": [{ "sentence": "Una semana tiene siete días.", "translation": "일주일은 7일이에요." }] }]
+    },
+    {
+      "id": "spanish_ocho_89",
+      "word": "Ocho",
+      "pronunciation": "오초",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "8, 여덟", "examples": [{ "sentence": "A las ocho.", "translation": "8시에." }] }]
+    },
+    {
+      "id": "spanish_nueve_90",
+      "word": "Nueve",
+      "pronunciation": "누에베",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "9, 아홉", "examples": [{ "sentence": "Son las nueve.", "translation": "9시예요." }] }]
+    },
+    {
+      "id": "spanish_mil_91",
+      "word": "Mil",
+      "pronunciation": "밀",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "1000, 천", "examples": [{ "sentence": "Mil euros.", "translation": "천 유로." }] }]
+    },
+    {
+      "id": "spanish_ano_92",
+      "word": "Año",
+      "pronunciation": "아뇨",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "년, 해", "examples": [{ "sentence": "Este año.", "translation": "올해." }] }]
+    },
+    {
+      "id": "spanish_mes_93",
+      "word": "Mes",
+      "pronunciation": "메스",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "월, 달", "examples": [{ "sentence": "El próximo mes.", "translation": "다음 달." }] }]
+    },
+    {
+      "id": "spanish_semana_94",
+      "word": "Semana",
+      "pronunciation": "세마나",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "주", "examples": [{ "sentence": "Esta semana.", "translation": "이번 주." }] }]
+    },
+    {
+      "id": "spanish_hora_95",
+      "word": "Hora",
+      "pronunciation": "오라",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "시간", "examples": [{ "sentence": "¿Qué hora es?", "translation": "몇 시예요?" }] }]
+    },
+    {
+      "id": "spanish_minuto_96",
+      "word": "Minuto",
+      "pronunciation": "미누또",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "분", "examples": [{ "sentence": "Un minuto.", "translation": "1분." }] }]
+    },
+    {
+      "id": "spanish_manana_97",
+      "word": "Mañana",
+      "pronunciation": "마냐나",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사/부사", "meaning": "아침, 내일", "examples": [{ "sentence": "Hasta mañana.", "translation": "내일 봐요." }] }]
+    },
+    {
+      "id": "spanish_tarde_98",
+      "word": "Tarde",
+      "pronunciation": "따르데",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "오후", "examples": [{ "sentence": "Buenas tardes.", "translation": "안녕하세요. (오후)" }] }]
+    },
+    {
+      "id": "spanish_noche_99",
+      "word": "Noche",
+      "pronunciation": "노체",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "밤", "examples": [{ "sentence": "Buenas noches.", "translation": "안녕히 주무세요." }] }]
+    },
+    {
+      "id": "spanish_escuela_100",
+      "word": "Escuela",
+      "pronunciation": "에스꾸엘라",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "학교", "examples": [{ "sentence": "Voy a la escuela.", "translation": "학교에 가요." }] }]
+    },
+    {
+      "id": "spanish_oficina_101",
+      "word": "Oficina",
+      "pronunciation": "오피시나",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "사무실", "examples": [{ "sentence": "Trabajo en una oficina.", "translation": "사무실에서 일해요." }] }]
+    },
+    {
+      "id": "spanish_tienda_102",
+      "word": "Tienda",
+      "pronunciation": "띠엔다",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "가게", "examples": [{ "sentence": "Voy a la tienda.", "translation": "가게에 가요." }] }]
+    },
+    {
+      "id": "spanish_supermercado_103",
+      "word": "Supermercado",
+      "pronunciation": "수뻬르메르까도",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "슈퍼마켓", "examples": [{ "sentence": "Vamos al supermercado.", "translation": "슈퍼마켓에 가요." }] }]
+    },
+    {
+      "id": "spanish_hotel_104",
+      "word": "Hotel",
+      "pronunciation": "오뗄",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "호텔", "examples": [{ "sentence": "El hotel está cerca.", "translation": "호텔이 가까워요." }] }]
+    },
+    {
+      "id": "spanish_bano_105",
+      "word": "Baño",
+      "pronunciation": "바뇨",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "화장실", "examples": [{ "sentence": "¿Dónde está el baño?", "translation": "화장실 어디에 있어요?" }] }]
+    },
+    {
+      "id": "spanish_casa_106",
+      "word": "Casa",
+      "pronunciation": "까사",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "집", "examples": [{ "sentence": "Voy a casa.", "translation": "집에 가요." }] }]
+    },
+    {
+      "id": "spanish_habitacion_107",
+      "word": "Habitación",
+      "pronunciation": "아비따시온",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "방", "examples": [{ "sentence": "La habitación es grande.", "translation": "방이 커요." }] }]
+    },
+    {
+      "id": "spanish_calle_108",
+      "word": "Calle",
+      "pronunciation": "까예",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "거리", "examples": [{ "sentence": "En la calle principal.", "translation": "중심 거리에서." }] }]
+    },
+    {
+      "id": "spanish_coche_109",
+      "word": "Coche",
+      "pronunciation": "꼬체",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "자동차", "examples": [{ "sentence": "Voy en coche.", "translation": "차로 가요." }] }]
+    },
+    {
+      "id": "spanish_tren_110",
+      "word": "Tren",
+      "pronunciation": "뜨렌",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "기차", "examples": [{ "sentence": "El tren llega a las tres.", "translation": "기차가 3시에 도착해요." }] }]
+    },
+    {
+      "id": "spanish_autobus_111",
+      "word": "Autobús",
+      "pronunciation": "아우또부스",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "버스", "examples": [{ "sentence": "Tomo el autobús.", "translation": "버스를 타요." }] }]
+    },
+    {
+      "id": "spanish_avion_112",
+      "word": "Avión",
+      "pronunciation": "아비온",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "비행기", "examples": [{ "sentence": "Voy en avión.", "translation": "비행기로 가요." }] }]
+    },
+    {
+      "id": "spanish_taxi_113",
+      "word": "Taxi",
+      "pronunciation": "딱시",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "택시", "examples": [{ "sentence": "Tomo un taxi.", "translation": "택시를 타요." }] }]
+    },
+    {
+      "id": "spanish_metro_114",
+      "word": "Metro",
+      "pronunciation": "메뜨로",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "지하철", "examples": [{ "sentence": "Voy en metro.", "translation": "지하철로 가요." }] }]
+    },
+    {
+      "id": "spanish_pan_115",
+      "word": "Pan",
+      "pronunciation": "빤",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "빵", "examples": [{ "sentence": "Quiero pan.", "translation": "빵을 원해요." }] }]
+    },
+    {
+      "id": "spanish_arroz_116",
+      "word": "Arroz",
+      "pronunciation": "아로스",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "쌀, 밥", "examples": [{ "sentence": "Arroz con pollo.", "translation": "닭고기 볶음밥." }] }]
+    },
+    {
+      "id": "spanish_carne_117",
+      "word": "Carne",
+      "pronunciation": "까르네",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "고기", "examples": [{ "sentence": "No como carne.", "translation": "고기 안 먹어요." }] }]
+    },
+    {
+      "id": "spanish_pescado_118",
+      "word": "Pescado",
+      "pronunciation": "뻬스까도",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "생선", "examples": [{ "sentence": "Me gusta el pescado.", "translation": "생선을 좋아해요." }] }]
+    },
+    {
+      "id": "spanish_verdura_119",
+      "word": "Verdura",
+      "pronunciation": "베르두라",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "채소", "examples": [{ "sentence": "Como muchas verduras.", "translation": "채소를 많이 먹어요." }] }]
+    },
+    {
+      "id": "spanish_fruta_120",
+      "word": "Fruta",
+      "pronunciation": "프루따",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "과일", "examples": [{ "sentence": "Me gusta la fruta.", "translation": "과일을 좋아해요." }] }]
+    },
+    {
+      "id": "spanish_cafe_121",
+      "word": "Café",
+      "pronunciation": "까페",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "커피", "examples": [{ "sentence": "Un café, por favor.", "translation": "커피 한 잔 주세요." }] }]
+    },
+    {
+      "id": "spanish_te_122",
+      "word": "Té",
+      "pronunciation": "떼",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "차", "examples": [{ "sentence": "¿Quieres té?", "translation": "차 마실래?" }] }]
+    },
+    {
+      "id": "spanish_cerveza_123",
+      "word": "Cerveza",
+      "pronunciation": "세르베사",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "맥주", "examples": [{ "sentence": "Una cerveza, por favor.", "translation": "맥주 한 잔 주세요." }] }]
+    },
+    {
+      "id": "spanish_vino_124",
+      "word": "Vino",
+      "pronunciation": "비노",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "포도주", "examples": [{ "sentence": "¿Vino tinto o blanco?", "translation": "레드와인 아니면 화이트와인?" }] }]
+    },
+    {
+      "id": "spanish_hermano_125",
+      "word": "Hermano/a",
+      "pronunciation": "에르마노/아",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "형제/자매", "examples": [{ "sentence": "Tengo un hermano.", "translation": "형이 한 명 있어요." }] }]
+    },
+    {
+      "id": "spanish_hijo_126",
+      "word": "Hijo/a",
+      "pronunciation": "이호/아",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "아들/딸", "examples": [{ "sentence": "Mi hijo tiene cinco años.", "translation": "제 아들은 5살이에요." }] }]
+    },
+    {
+      "id": "spanish_abuelo_127",
+      "word": "Abuelo/a",
+      "pronunciation": "아부엘로/아",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "할아버지/할머니", "examples": [{ "sentence": "Mis abuelos viven lejos.", "translation": "조부모님은 멀리 살아요." }] }]
+    },
+    {
+      "id": "spanish_esposo_128",
+      "word": "Esposo/a",
+      "pronunciation": "에스뽀소/아",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "남편/아내", "examples": [{ "sentence": "Mi esposa es profesora.", "translation": "제 아내는 선생님이에요." }] }]
+    },
+    {
+      "id": "spanish_profesor_129",
+      "word": "Profesor/a",
+      "pronunciation": "쁘로페소르/아",
+      "subcategory": "직업",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "선생님", "examples": [{ "sentence": "Soy profesor.", "translation": "저는 선생님이에요." }] }]
+    },
+    {
+      "id": "spanish_estudiante_130",
+      "word": "Estudiante",
+      "pronunciation": "에스뚜디안떼",
+      "subcategory": "직업",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "학생", "examples": [{ "sentence": "Soy estudiante.", "translation": "저는 학생이에요." }] }]
+    },
+    {
+      "id": "spanish_medico_131",
+      "word": "Médico/a",
+      "pronunciation": "메디꼬/아",
+      "subcategory": "직업",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "의사", "examples": [{ "sentence": "Ella es médica.", "translation": "그녀는 의사예요." }] }]
+    },
+    {
+      "id": "spanish_libro_132",
+      "word": "Libro",
+      "pronunciation": "리브로",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "책", "examples": [{ "sentence": "Leo un libro.", "translation": "책을 읽어요." }] }]
+    },
+    {
+      "id": "spanish_telefono_133",
+      "word": "Teléfono",
+      "pronunciation": "뗄레포노",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "전화기", "examples": [{ "sentence": "Mi teléfono está aquí.", "translation": "제 전화기가 여기 있어요." }] }]
+    },
+    {
+      "id": "spanish_ordenador_134",
+      "word": "Ordenador",
+      "pronunciation": "오르데나도르",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "컴퓨터", "examples": [{ "sentence": "Uso el ordenador.", "translation": "컴퓨터를 사용해요." }] }]
+    },
+    {
+      "id": "spanish_tiempo_135",
+      "word": "Tiempo",
+      "pronunciation": "띠엠뽀",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "날씨, 시간", "examples": [{ "sentence": "¿Qué tiempo hace?", "translation": "날씨가 어때요?" }] }]
+    },
+    {
+      "id": "spanish_lluvia_136",
+      "word": "Lluvia",
+      "pronunciation": "유비아",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "비", "examples": [{ "sentence": "Hay lluvia.", "translation": "비가 와요." }] }]
+    },
+    {
+      "id": "spanish_sol_137",
+      "word": "Sol",
+      "pronunciation": "솔",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "태양", "examples": [{ "sentence": "Hace sol.", "translation": "해가 나요." }] }]
+    },
+    {
+      "id": "spanish_nieve_138",
+      "word": "Nieve",
+      "pronunciation": "니에베",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "눈", "examples": [{ "sentence": "Hay nieve.", "translation": "눈이 와요." }] }]
+    },
+    {
+      "id": "spanish_bien_139",
+      "word": "Bien",
+      "pronunciation": "비엔",
+      "subcategory": "부사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "잘, 좋게", "examples": [{ "sentence": "Estoy bien.", "translation": "잘 지내요." }] }]
+    },
+    {
+      "id": "spanish_mal_140",
+      "word": "Mal",
+      "pronunciation": "말",
+      "subcategory": "부사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "나쁘게, 안 좋게", "examples": [{ "sentence": "Me siento mal.", "translation": "기분이 안 좋아요." }] }]
+    },
+    {
+      "id": "spanish_muy_141",
+      "word": "Muy",
+      "pronunciation": "무이",
+      "subcategory": "부사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "매우", "examples": [{ "sentence": "Muy bien.", "translation": "아주 좋아요." }] }]
+    },
+    {
+      "id": "spanish_tambien_142",
+      "word": "También",
+      "pronunciation": "땀비엔",
+      "subcategory": "부사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "또한", "examples": [{ "sentence": "Yo también.", "translation": "나도요." }] }]
+    },
+    {
+      "id": "spanish_siempre_143",
+      "word": "Siempre",
+      "pronunciation": "시엠쁘레",
+      "subcategory": "부사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "항상", "examples": [{ "sentence": "Siempre llego temprano.", "translation": "항상 일찍 와요." }] }]
+    },
+    {
+      "id": "spanish_nunca_144",
+      "word": "Nunca",
+      "pronunciation": "눈까",
+      "subcategory": "부사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "결코 ~않다", "examples": [{ "sentence": "Nunca como carne.", "translation": "고기는 절대 안 먹어요." }] }]
+    },
+    {
+      "id": "spanish_aqui_145",
+      "word": "Aquí",
+      "pronunciation": "아끼",
+      "subcategory": "부사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "여기", "examples": [{ "sentence": "Estoy aquí.", "translation": "여기 있어요." }] }]
+    },
+    {
+      "id": "spanish_alli_146",
+      "word": "Allí",
+      "pronunciation": "아이",
+      "subcategory": "부사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "저기", "examples": [{ "sentence": "Está allí.", "translation": "저기 있어요." }] }]
+    },
+    {
+      "id": "spanish_ahora_147",
+      "word": "Ahora",
+      "pronunciation": "아오라",
+      "subcategory": "부사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "지금", "examples": [{ "sentence": "Voy ahora.", "translation": "지금 가요." }] }]
+    },
+    {
+      "id": "spanish_perdone_148",
+      "word": "Perdone",
+      "pronunciation": "뻬르도네",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "실례합니다", "examples": [{ "sentence": "Perdone, ¿dónde está...?", "translation": "실례합니다, ~가 어디에 있나요?" }] }]
+    },
+    {
+      "id": "spanish_vale_149",
+      "word": "Vale",
+      "pronunciation": "발레",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "감탄사", "meaning": "알겠어요, 좋아요", "examples": [{ "sentence": "¡Vale, vamos!", "translation": "좋아, 가자!" }] }]
+    }
+  ]
+}

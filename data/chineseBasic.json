@@ -1,0 +1,1059 @@
+{
+  "id": "chineseBasic",
+  "name": "중국어 기초",
+  "icon": "🇨🇳",
+  "color": "#de2910",
+  "lang": "zh-CN",
+  "words": [
+    {
+      "id": "chinese_ni_hao_0",
+      "word": "你好",
+      "pronunciation": "nǐ hǎo",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "안녕하세요", "examples": [{ "sentence": "你好，很高兴认识你。", "translation": "안녕하세요, 만나서 반갑습니다." }] }]
+    },
+    {
+      "id": "chinese_zaijian_1",
+      "word": "再见",
+      "pronunciation": "zàijiàn",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "안녕히 가세요/계세요", "examples": [{ "sentence": "再见，明天见！", "translation": "안녕, 내일 봐!" }] }]
+    },
+    {
+      "id": "chinese_xiexie_2",
+      "word": "谢谢",
+      "pronunciation": "xièxie",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "감사합니다", "examples": [{ "sentence": "谢谢你的帮助。", "translation": "도와주셔서 감사합니다." }] }]
+    },
+    {
+      "id": "chinese_bukeqi_3",
+      "word": "不客气",
+      "pronunciation": "bú kèqi",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "천만에요", "examples": [{ "sentence": "不客气，这是我应该做的。", "translation": "천만에요, 당연히 해야 할 일이에요." }] }]
+    },
+    {
+      "id": "chinese_duibuqi_4",
+      "word": "对不起",
+      "pronunciation": "duìbuqǐ",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "미안합니다", "examples": [{ "sentence": "对不起，我迟到了。", "translation": "죄송합니다, 늦었습니다." }] }]
+    },
+    {
+      "id": "chinese_meiguanxi_5",
+      "word": "没关系",
+      "pronunciation": "méi guānxi",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "괜찮습니다", "examples": [{ "sentence": "没关系，不要紧。", "translation": "괜찮아요, 별일 아니에요." }] }]
+    },
+    {
+      "id": "chinese_wo_6",
+      "word": "我",
+      "pronunciation": "wǒ",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "나, 저", "examples": [{ "sentence": "我是韩国人。", "translation": "저는 한국 사람입니다." }] }]
+    },
+    {
+      "id": "chinese_ni_7",
+      "word": "你",
+      "pronunciation": "nǐ",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "너, 당신", "examples": [{ "sentence": "你叫什么名字？", "translation": "당신의 이름은 무엇입니까?" }] }]
+    },
+    {
+      "id": "chinese_ta_8",
+      "word": "他/她",
+      "pronunciation": "tā",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "그/그녀", "examples": [{ "sentence": "他是我的朋友。", "translation": "그는 내 친구입니다." }] }]
+    },
+    {
+      "id": "chinese_women_9",
+      "word": "我们",
+      "pronunciation": "wǒmen",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "우리", "examples": [{ "sentence": "我们一起去吧。", "translation": "우리 함께 가요." }] }]
+    },
+    {
+      "id": "chinese_shi_10",
+      "word": "是",
+      "pronunciation": "shì",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "~이다", "examples": [{ "sentence": "他是老师。", "translation": "그는 선생님입니다." }] }]
+    },
+    {
+      "id": "chinese_you_11",
+      "word": "有",
+      "pronunciation": "yǒu",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "있다, 가지다", "examples": [{ "sentence": "我有一个问题。", "translation": "저는 질문이 하나 있습니다." }] }]
+    },
+    {
+      "id": "chinese_qu_12",
+      "word": "去",
+      "pronunciation": "qù",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "가다", "examples": [{ "sentence": "我去学校。", "translation": "저는 학교에 갑니다." }] }]
+    },
+    {
+      "id": "chinese_lai_13",
+      "word": "来",
+      "pronunciation": "lái",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "오다", "examples": [{ "sentence": "请进来。", "translation": "들어오세요." }] }]
+    },
+    {
+      "id": "chinese_chi_14",
+      "word": "吃",
+      "pronunciation": "chī",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "먹다", "examples": [{ "sentence": "你吃饭了吗？", "translation": "밥 먹었어요?" }] }]
+    },
+    {
+      "id": "chinese_he_15",
+      "word": "喝",
+      "pronunciation": "hē",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "마시다", "examples": [{ "sentence": "我想喝水。", "translation": "물 마시고 싶어요." }] }]
+    },
+    {
+      "id": "chinese_kan_16",
+      "word": "看",
+      "pronunciation": "kàn",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "보다", "examples": [{ "sentence": "我们看电影吧。", "translation": "영화 봅시다." }] }]
+    },
+    {
+      "id": "chinese_ting_17",
+      "word": "听",
+      "pronunciation": "tīng",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "듣다", "examples": [{ "sentence": "我听音乐。", "translation": "저는 음악을 듣습니다." }] }]
+    },
+    {
+      "id": "chinese_shuo_18",
+      "word": "说",
+      "pronunciation": "shuō",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "말하다", "examples": [{ "sentence": "请慢点说。", "translation": "천천히 말씀해 주세요." }] }]
+    },
+    {
+      "id": "chinese_xue_19",
+      "word": "学",
+      "pronunciation": "xué",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "배우다", "examples": [{ "sentence": "我学中文。", "translation": "저는 중국어를 배웁니다." }] }]
+    },
+    {
+      "id": "chinese_gongzuo_20",
+      "word": "工作",
+      "pronunciation": "gōngzuò",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사/명사", "meaning": "일하다, 일", "examples": [{ "sentence": "你在哪里工作？", "translation": "어디서 일하세요?" }] }]
+    },
+    {
+      "id": "chinese_hao_21",
+      "word": "好",
+      "pronunciation": "hǎo",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "좋다", "examples": [{ "sentence": "今天天气很好。", "translation": "오늘 날씨가 아주 좋아요." }] }]
+    },
+    {
+      "id": "chinese_da_22",
+      "word": "大",
+      "pronunciation": "dà",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "크다", "examples": [{ "sentence": "这个房间很大。", "translation": "이 방은 아주 커요." }] }]
+    },
+    {
+      "id": "chinese_xiao_23",
+      "word": "小",
+      "pronunciation": "xiǎo",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "작다", "examples": [{ "sentence": "我有一只小狗。", "translation": "저는 작은 강아지가 있어요." }] }]
+    },
+    {
+      "id": "chinese_duo_24",
+      "word": "多",
+      "pronunciation": "duō",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "많다", "examples": [{ "sentence": "人很多。", "translation": "사람이 많아요." }] }]
+    },
+    {
+      "id": "chinese_shao_25",
+      "word": "少",
+      "pronunciation": "shǎo",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "적다", "examples": [{ "sentence": "时间很少。", "translation": "시간이 적어요." }] }]
+    },
+    {
+      "id": "chinese_yi_26",
+      "word": "一",
+      "pronunciation": "yī",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "1, 하나", "examples": [{ "sentence": "我要一杯咖啡。", "translation": "커피 한 잔 주세요." }] }]
+    },
+    {
+      "id": "chinese_er_27",
+      "word": "二",
+      "pronunciation": "èr",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "2, 둘", "examples": [{ "sentence": "我有两个孩子。", "translation": "저는 아이가 둘 있어요." }] }]
+    },
+    {
+      "id": "chinese_san_28",
+      "word": "三",
+      "pronunciation": "sān",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "3, 셋", "examples": [{ "sentence": "三点钟见面。", "translation": "3시에 만나요." }] }]
+    },
+    {
+      "id": "chinese_shi_29",
+      "word": "十",
+      "pronunciation": "shí",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "10, 열", "examples": [{ "sentence": "十块钱。", "translation": "10위안이에요." }] }]
+    },
+    {
+      "id": "chinese_bai_30",
+      "word": "百",
+      "pronunciation": "bǎi",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "100, 백", "examples": [{ "sentence": "一百块钱。", "translation": "100위안이에요." }] }]
+    },
+    {
+      "id": "chinese_jintian_31",
+      "word": "今天",
+      "pronunciation": "jīntiān",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "오늘", "examples": [{ "sentence": "今天是星期一。", "translation": "오늘은 월요일입니다." }] }]
+    },
+    {
+      "id": "chinese_mingtian_32",
+      "word": "明天",
+      "pronunciation": "míngtiān",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "내일", "examples": [{ "sentence": "明天见！", "translation": "내일 봐요!" }] }]
+    },
+    {
+      "id": "chinese_zuotian_33",
+      "word": "昨天",
+      "pronunciation": "zuótiān",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "어제", "examples": [{ "sentence": "昨天我很忙。", "translation": "어제 저는 바빴어요." }] }]
+    },
+    {
+      "id": "chinese_xianzai_34",
+      "word": "现在",
+      "pronunciation": "xiànzài",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "지금", "examples": [{ "sentence": "现在几点？", "translation": "지금 몇 시예요?" }] }]
+    },
+    {
+      "id": "chinese_duoshaoqian_35",
+      "word": "多少钱",
+      "pronunciation": "duōshao qián",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "얼마예요?", "examples": [{ "sentence": "这个多少钱？", "translation": "이거 얼마예요?" }] }]
+    },
+    {
+      "id": "chinese_zai_nali_36",
+      "word": "在哪里",
+      "pronunciation": "zài nǎlǐ",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "어디에 있어요?", "examples": [{ "sentence": "厕所在哪里？", "translation": "화장실이 어디에 있어요?" }] }]
+    },
+    {
+      "id": "chinese_wo_xiang_37",
+      "word": "我想...",
+      "pronunciation": "wǒ xiǎng",
+      "subcategory": "필수 패턴",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "저는 ~하고 싶어요", "examples": [{ "sentence": "我想吃中国菜。", "translation": "저는 중국 음식을 먹고 싶어요." }] }]
+    },
+    {
+      "id": "chinese_keyi_ma_38",
+      "word": "可以吗？",
+      "pronunciation": "kěyǐ ma",
+      "subcategory": "필수 패턴",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "~해도 될까요?", "examples": [{ "sentence": "我可以坐这里吗？", "translation": "여기 앉아도 될까요?" }] }]
+    },
+    {
+      "id": "chinese_wo_bu_dong_39",
+      "word": "我不懂",
+      "pronunciation": "wǒ bù dǒng",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "이해하지 못해요", "examples": [{ "sentence": "对不起，我不懂中文。", "translation": "죄송해요, 중국어를 못해요." }] }]
+    },
+    {
+      "id": "chinese_qing_zai_shuo_40",
+      "word": "请再说一遍",
+      "pronunciation": "qǐng zài shuō yí biàn",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "다시 한번 말씀해 주세요", "examples": [{ "sentence": "请再说一遍，慢一点。", "translation": "천천히 다시 한번 말씀해 주세요." }] }]
+    },
+    {
+      "id": "chinese_fandian_41",
+      "word": "饭店",
+      "pronunciation": "fàndiàn",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "식당, 호텔", "examples": [{ "sentence": "这家饭店很有名。", "translation": "이 식당은 유명해요." }] }]
+    },
+    {
+      "id": "chinese_yinhang_42",
+      "word": "银行",
+      "pronunciation": "yínháng",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "은행", "examples": [{ "sentence": "银行在哪里？", "translation": "은행이 어디에 있어요?" }] }]
+    },
+    {
+      "id": "chinese_jichang_43",
+      "word": "机场",
+      "pronunciation": "jīchǎng",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "공항", "examples": [{ "sentence": "去机场怎么走？", "translation": "공항에 어떻게 가요?" }] }]
+    },
+    {
+      "id": "chinese_yiyuan_44",
+      "word": "医院",
+      "pronunciation": "yīyuàn",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "병원", "examples": [{ "sentence": "附近有医院吗？", "translation": "근처에 병원이 있어요?" }] }]
+    },
+    {
+      "id": "chinese_jiaren_45",
+      "word": "家人",
+      "pronunciation": "jiārén",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "가족", "examples": [{ "sentence": "我的家人住在韩国。", "translation": "제 가족은 한국에 살아요." }] }]
+    },
+    {
+      "id": "chinese_baba_46",
+      "word": "爸爸",
+      "pronunciation": "bàba",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "아버지", "examples": [{ "sentence": "我爸爸是医生。", "translation": "제 아버지는 의사예요." }] }]
+    },
+    {
+      "id": "chinese_mama_47",
+      "word": "妈妈",
+      "pronunciation": "māma",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "어머니", "examples": [{ "sentence": "我妈妈做的菜很好吃。", "translation": "우리 엄마가 만든 음식은 맛있어요." }] }]
+    },
+    {
+      "id": "chinese_pengyou_48",
+      "word": "朋友",
+      "pronunciation": "péngyou",
+      "subcategory": "관계",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "친구", "examples": [{ "sentence": "他是我最好的朋友。", "translation": "그는 내 가장 친한 친구예요." }] }]
+    },
+    {
+      "id": "chinese_yiqi_49",
+      "word": "一起",
+      "pronunciation": "yìqǐ",
+      "subcategory": "부사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "함께", "examples": [{ "sentence": "我们一起吃饭吧。", "translation": "우리 함께 밥 먹어요." }] }]
+    },
+    {
+      "id": "chinese_nimen_50",
+      "word": "你们",
+      "pronunciation": "nǐmen",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "너희들, 당신들", "examples": [{ "sentence": "你们好！", "translation": "안녕하세요! (여러분)" }] }]
+    },
+    {
+      "id": "chinese_tamen_51",
+      "word": "他们",
+      "pronunciation": "tāmen",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "그들", "examples": [{ "sentence": "他们是我的同事。", "translation": "그들은 내 동료입니다." }] }]
+    },
+    {
+      "id": "chinese_zhe_52",
+      "word": "这",
+      "pronunciation": "zhè",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "이것", "examples": [{ "sentence": "这是什么？", "translation": "이것은 무엇입니까?" }] }]
+    },
+    {
+      "id": "chinese_na_53",
+      "word": "那",
+      "pronunciation": "nà",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "저것", "examples": [{ "sentence": "那是我的书。", "translation": "저것은 내 책입니다." }] }]
+    },
+    {
+      "id": "chinese_shenme_54",
+      "word": "什么",
+      "pronunciation": "shénme",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문대명사", "meaning": "무엇", "examples": [{ "sentence": "你想吃什么？", "translation": "뭐 먹고 싶어요?" }] }]
+    },
+    {
+      "id": "chinese_shei_55",
+      "word": "谁",
+      "pronunciation": "shéi",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문대명사", "meaning": "누구", "examples": [{ "sentence": "他是谁？", "translation": "그는 누구입니까?" }] }]
+    },
+    {
+      "id": "chinese_nali_56",
+      "word": "哪里",
+      "pronunciation": "nǎlǐ",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문대명사", "meaning": "어디", "examples": [{ "sentence": "你去哪里？", "translation": "어디 가세요?" }] }]
+    },
+    {
+      "id": "chinese_zenme_57",
+      "word": "怎么",
+      "pronunciation": "zěnme",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문부사", "meaning": "어떻게", "examples": [{ "sentence": "这个怎么说？", "translation": "이것 어떻게 말해요?" }] }]
+    },
+    {
+      "id": "chinese_weishenme_58",
+      "word": "为什么",
+      "pronunciation": "wèishénme",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문부사", "meaning": "왜", "examples": [{ "sentence": "你为什么不来？", "translation": "왜 안 왔어요?" }] }]
+    },
+    {
+      "id": "chinese_ji_59",
+      "word": "几",
+      "pronunciation": "jǐ",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "의문수사", "meaning": "몇", "examples": [{ "sentence": "现在几点？", "translation": "지금 몇 시예요?" }] }]
+    },
+    {
+      "id": "chinese_zuo_60",
+      "word": "做",
+      "pronunciation": "zuò",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "하다, 만들다", "examples": [{ "sentence": "你在做什么？", "translation": "뭐 하고 있어요?" }] }]
+    },
+    {
+      "id": "chinese_xie_61",
+      "word": "写",
+      "pronunciation": "xiě",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "쓰다", "examples": [{ "sentence": "我写汉字。", "translation": "저는 한자를 씁니다." }] }]
+    },
+    {
+      "id": "chinese_du_62",
+      "word": "读",
+      "pronunciation": "dú",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "읽다", "examples": [{ "sentence": "我读书。", "translation": "저는 책을 읽습니다." }] }]
+    },
+    {
+      "id": "chinese_mai_63",
+      "word": "买",
+      "pronunciation": "mǎi",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "사다", "examples": [{ "sentence": "我想买这个。", "translation": "이것을 사고 싶어요." }] }]
+    },
+    {
+      "id": "chinese_mai2_64",
+      "word": "卖",
+      "pronunciation": "mài",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "팔다", "examples": [{ "sentence": "这里卖什么？", "translation": "여기서 뭘 팔아요?" }] }]
+    },
+    {
+      "id": "chinese_zhu_65",
+      "word": "住",
+      "pronunciation": "zhù",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "살다, 머무르다", "examples": [{ "sentence": "你住在哪里？", "translation": "어디에 살아요?" }] }]
+    },
+    {
+      "id": "chinese_zou_66",
+      "word": "走",
+      "pronunciation": "zǒu",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "걷다, 가다", "examples": [{ "sentence": "我们走吧。", "translation": "우리 가요." }] }]
+    },
+    {
+      "id": "chinese_pao_67",
+      "word": "跑",
+      "pronunciation": "pǎo",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "달리다", "examples": [{ "sentence": "他跑得很快。", "translation": "그는 빨리 달려요." }] }]
+    },
+    {
+      "id": "chinese_kai_68",
+      "word": "开",
+      "pronunciation": "kāi",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "열다, 운전하다", "examples": [{ "sentence": "请开门。", "translation": "문 열어주세요." }] }]
+    },
+    {
+      "id": "chinese_guan_69",
+      "word": "关",
+      "pronunciation": "guān",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "닫다", "examples": [{ "sentence": "请关窗户。", "translation": "창문 닫아주세요." }] }]
+    },
+    {
+      "id": "chinese_gei_70",
+      "word": "给",
+      "pronunciation": "gěi",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "주다", "examples": [{ "sentence": "请给我水。", "translation": "물 주세요." }] }]
+    },
+    {
+      "id": "chinese_jiao_71",
+      "word": "叫",
+      "pronunciation": "jiào",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "부르다, ~라고 하다", "examples": [{ "sentence": "我叫小明。", "translation": "저는 샤오밍이라고 합니다." }] }]
+    },
+    {
+      "id": "chinese_xihuan_72",
+      "word": "喜欢",
+      "pronunciation": "xǐhuān",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "좋아하다", "examples": [{ "sentence": "我喜欢中国菜。", "translation": "저는 중국 음식을 좋아해요." }] }]
+    },
+    {
+      "id": "chinese_ai_73",
+      "word": "爱",
+      "pronunciation": "ài",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "사랑하다", "examples": [{ "sentence": "我爱你。", "translation": "사랑해요." }] }]
+    },
+    {
+      "id": "chinese_xiang_74",
+      "word": "想",
+      "pronunciation": "xiǎng",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "생각하다, ~하고 싶다", "examples": [{ "sentence": "我想家。", "translation": "집이 그리워요." }] }]
+    },
+    {
+      "id": "chinese_zhidao_75",
+      "word": "知道",
+      "pronunciation": "zhīdào",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "알다", "examples": [{ "sentence": "我不知道。", "translation": "저는 몰라요." }] }]
+    },
+    {
+      "id": "chinese_renshi_76",
+      "word": "认识",
+      "pronunciation": "rènshi",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "알다, 인식하다", "examples": [{ "sentence": "很高兴认识你。", "translation": "만나서 반갑습니다." }] }]
+    },
+    {
+      "id": "chinese_hui_77",
+      "word": "会",
+      "pronunciation": "huì",
+      "subcategory": "조동사",
+      "meanings": [{ "partOfSpeech": "조동사", "meaning": "~할 수 있다, ~할 것이다", "examples": [{ "sentence": "我会说中文。", "translation": "저는 중국어를 할 수 있어요." }] }]
+    },
+    {
+      "id": "chinese_neng_78",
+      "word": "能",
+      "pronunciation": "néng",
+      "subcategory": "조동사",
+      "meanings": [{ "partOfSpeech": "조동사", "meaning": "~할 수 있다", "examples": [{ "sentence": "你能帮我吗？", "translation": "저를 도와줄 수 있어요?" }] }]
+    },
+    {
+      "id": "chinese_keyi_79",
+      "word": "可以",
+      "pronunciation": "kěyǐ",
+      "subcategory": "조동사",
+      "meanings": [{ "partOfSpeech": "조동사", "meaning": "~해도 된다", "examples": [{ "sentence": "可以进来吗？", "translation": "들어가도 될까요?" }] }]
+    },
+    {
+      "id": "chinese_yao_80",
+      "word": "要",
+      "pronunciation": "yào",
+      "subcategory": "조동사",
+      "meanings": [{ "partOfSpeech": "조동사", "meaning": "~하려고 하다, 원하다", "examples": [{ "sentence": "我要去北京。", "translation": "저는 베이징에 가려고 해요." }] }]
+    },
+    {
+      "id": "chinese_xin_81",
+      "word": "新",
+      "pronunciation": "xīn",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "새로운", "examples": [{ "sentence": "这是新手机。", "translation": "이것은 새 핸드폰이에요." }] }]
+    },
+    {
+      "id": "chinese_jiu_82",
+      "word": "旧",
+      "pronunciation": "jiù",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "오래된", "examples": [{ "sentence": "这是旧书。", "translation": "이것은 오래된 책이에요." }] }]
+    },
+    {
+      "id": "chinese_kuai_83",
+      "word": "快",
+      "pronunciation": "kuài",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "빠르다", "examples": [{ "sentence": "时间过得很快。", "translation": "시간이 빨리 가요." }] }]
+    },
+    {
+      "id": "chinese_man_84",
+      "word": "慢",
+      "pronunciation": "màn",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "느리다", "examples": [{ "sentence": "请慢点说。", "translation": "천천히 말씀해 주세요." }] }]
+    },
+    {
+      "id": "chinese_re_85",
+      "word": "热",
+      "pronunciation": "rè",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "덥다, 뜨겁다", "examples": [{ "sentence": "今天很热。", "translation": "오늘 더워요." }] }]
+    },
+    {
+      "id": "chinese_leng_86",
+      "word": "冷",
+      "pronunciation": "lěng",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "춥다, 차갑다", "examples": [{ "sentence": "今天很冷。", "translation": "오늘 추워요." }] }]
+    },
+    {
+      "id": "chinese_gui_87",
+      "word": "贵",
+      "pronunciation": "guì",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "비싸다", "examples": [{ "sentence": "这个太贵了。", "translation": "이것은 너무 비싸요." }] }]
+    },
+    {
+      "id": "chinese_pianyi_88",
+      "word": "便宜",
+      "pronunciation": "piányi",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "싸다", "examples": [{ "sentence": "这个很便宜。", "translation": "이것은 싸요." }] }]
+    },
+    {
+      "id": "chinese_gao_89",
+      "word": "高",
+      "pronunciation": "gāo",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "높다, 키가 크다", "examples": [{ "sentence": "他很高。", "translation": "그는 키가 커요." }] }]
+    },
+    {
+      "id": "chinese_ai2_90",
+      "word": "矮",
+      "pronunciation": "ǎi",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "낮다, 키가 작다", "examples": [{ "sentence": "这棵树很矮。", "translation": "이 나무는 낮아요." }] }]
+    },
+    {
+      "id": "chinese_pang_91",
+      "word": "胖",
+      "pronunciation": "pàng",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "뚱뚱하다", "examples": [{ "sentence": "我胖了。", "translation": "살쪘어요." }] }]
+    },
+    {
+      "id": "chinese_shou_92",
+      "word": "瘦",
+      "pronunciation": "shòu",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "마르다", "examples": [{ "sentence": "她很瘦。", "translation": "그녀는 말랐어요." }] }]
+    },
+    {
+      "id": "chinese_piaoliang_93",
+      "word": "漂亮",
+      "pronunciation": "piàoliang",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "예쁘다", "examples": [{ "sentence": "你很漂亮。", "translation": "당신은 예뻐요." }] }]
+    },
+    {
+      "id": "chinese_shuai_94",
+      "word": "帅",
+      "pronunciation": "shuài",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "잘생기다", "examples": [{ "sentence": "他很帅。", "translation": "그는 잘생겼어요." }] }]
+    },
+    {
+      "id": "chinese_si_95",
+      "word": "四",
+      "pronunciation": "sì",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "4, 넷", "examples": [{ "sentence": "四个人。", "translation": "네 사람." }] }]
+    },
+    {
+      "id": "chinese_wu_96",
+      "word": "五",
+      "pronunciation": "wǔ",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "5, 다섯", "examples": [{ "sentence": "五分钟。", "translation": "5분." }] }]
+    },
+    {
+      "id": "chinese_liu_97",
+      "word": "六",
+      "pronunciation": "liù",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "6, 여섯", "examples": [{ "sentence": "六点钟。", "translation": "6시." }] }]
+    },
+    {
+      "id": "chinese_qi_98",
+      "word": "七",
+      "pronunciation": "qī",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "7, 일곱", "examples": [{ "sentence": "一周七天。", "translation": "일주일은 7일." }] }]
+    },
+    {
+      "id": "chinese_ba_99",
+      "word": "八",
+      "pronunciation": "bā",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "8, 여덟", "examples": [{ "sentence": "八月。", "translation": "8월." }] }]
+    },
+    {
+      "id": "chinese_jiu2_100",
+      "word": "九",
+      "pronunciation": "jiǔ",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "9, 아홉", "examples": [{ "sentence": "九个月。", "translation": "9개월." }] }]
+    },
+    {
+      "id": "chinese_ling_101",
+      "word": "零",
+      "pronunciation": "líng",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "0, 영", "examples": [{ "sentence": "零度。", "translation": "영도(0도)." }] }]
+    },
+    {
+      "id": "chinese_qian_102",
+      "word": "千",
+      "pronunciation": "qiān",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "1000, 천", "examples": [{ "sentence": "一千块。", "translation": "천 위안." }] }]
+    },
+    {
+      "id": "chinese_wan_103",
+      "word": "万",
+      "pronunciation": "wàn",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "10000, 만", "examples": [{ "sentence": "一万人。", "translation": "만 명." }] }]
+    },
+    {
+      "id": "chinese_nian_104",
+      "word": "年",
+      "pronunciation": "nián",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "년, 해", "examples": [{ "sentence": "今年是2024年。", "translation": "올해는 2024년입니다." }] }]
+    },
+    {
+      "id": "chinese_yue_105",
+      "word": "月",
+      "pronunciation": "yuè",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "월, 달", "examples": [{ "sentence": "这个月很忙。", "translation": "이번 달은 바빠요." }] }]
+    },
+    {
+      "id": "chinese_ri_106",
+      "word": "日",
+      "pronunciation": "rì",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "일, 날", "examples": [{ "sentence": "今天几月几日？", "translation": "오늘 몇 월 며칠이에요?" }] }]
+    },
+    {
+      "id": "chinese_xingqi_107",
+      "word": "星期",
+      "pronunciation": "xīngqī",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "요일, 주", "examples": [{ "sentence": "今天星期几？", "translation": "오늘 무슨 요일이에요?" }] }]
+    },
+    {
+      "id": "chinese_dian_108",
+      "word": "点",
+      "pronunciation": "diǎn",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "시 (시간)", "examples": [{ "sentence": "现在三点。", "translation": "지금 3시예요." }] }]
+    },
+    {
+      "id": "chinese_fen_109",
+      "word": "分",
+      "pronunciation": "fēn",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "분", "examples": [{ "sentence": "十分钟后。", "translation": "10분 후에." }] }]
+    },
+    {
+      "id": "chinese_shangwu_110",
+      "word": "上午",
+      "pronunciation": "shàngwǔ",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "오전", "examples": [{ "sentence": "上午有课。", "translation": "오전에 수업이 있어요." }] }]
+    },
+    {
+      "id": "chinese_xiawu_111",
+      "word": "下午",
+      "pronunciation": "xiàwǔ",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "오후", "examples": [{ "sentence": "下午见。", "translation": "오후에 봐요." }] }]
+    },
+    {
+      "id": "chinese_wanshang_112",
+      "word": "晚上",
+      "pronunciation": "wǎnshang",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "저녁, 밤", "examples": [{ "sentence": "晚上好。", "translation": "안녕하세요. (저녁인사)" }] }]
+    },
+    {
+      "id": "chinese_zaoshang_113",
+      "word": "早上",
+      "pronunciation": "zǎoshang",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "아침", "examples": [{ "sentence": "早上好。", "translation": "좋은 아침이에요." }] }]
+    },
+    {
+      "id": "chinese_xuexiao_114",
+      "word": "学校",
+      "pronunciation": "xuéxiào",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "학교", "examples": [{ "sentence": "我去学校。", "translation": "저는 학교에 가요." }] }]
+    },
+    {
+      "id": "chinese_gongsi_115",
+      "word": "公司",
+      "pronunciation": "gōngsī",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "회사", "examples": [{ "sentence": "我在公司工作。", "translation": "저는 회사에서 일해요." }] }]
+    },
+    {
+      "id": "chinese_shangdian_116",
+      "word": "商店",
+      "pronunciation": "shāngdiàn",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "상점", "examples": [{ "sentence": "商店几点开门？", "translation": "상점 몇 시에 열어요?" }] }]
+    },
+    {
+      "id": "chinese_chaoshi_117",
+      "word": "超市",
+      "pronunciation": "chāoshì",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "슈퍼마켓", "examples": [{ "sentence": "我去超市买东西。", "translation": "슈퍼에 물건 사러 가요." }] }]
+    },
+    {
+      "id": "chinese_jiudian_118",
+      "word": "酒店",
+      "pronunciation": "jiǔdiàn",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "호텔", "examples": [{ "sentence": "酒店在哪里？", "translation": "호텔이 어디에 있어요?" }] }]
+    },
+    {
+      "id": "chinese_cesuo_119",
+      "word": "厕所",
+      "pronunciation": "cèsuǒ",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "화장실", "examples": [{ "sentence": "厕所在那边。", "translation": "화장실은 저쪽에 있어요." }] }]
+    },
+    {
+      "id": "chinese_jia_120",
+      "word": "家",
+      "pronunciation": "jiā",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "집, 가정", "examples": [{ "sentence": "我回家了。", "translation": "집에 갔어요." }] }]
+    },
+    {
+      "id": "chinese_fangzi_121",
+      "word": "房子",
+      "pronunciation": "fángzi",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "집, 건물", "examples": [{ "sentence": "这个房子很大。", "translation": "이 집은 커요." }] }]
+    },
+    {
+      "id": "chinese_fangjian_122",
+      "word": "房间",
+      "pronunciation": "fángjiān",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "방", "examples": [{ "sentence": "我的房间在二楼。", "translation": "제 방은 2층에 있어요." }] }]
+    },
+    {
+      "id": "chinese_lu_123",
+      "word": "路",
+      "pronunciation": "lù",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "길", "examples": [{ "sentence": "这条路很长。", "translation": "이 길은 길어요." }] }]
+    },
+    {
+      "id": "chinese_che_124",
+      "word": "车",
+      "pronunciation": "chē",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "차", "examples": [{ "sentence": "我坐车去。", "translation": "저는 차를 타고 가요." }] }]
+    },
+    {
+      "id": "chinese_huoche_125",
+      "word": "火车",
+      "pronunciation": "huǒchē",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "기차", "examples": [{ "sentence": "火车几点到？", "translation": "기차가 몇 시에 도착해요?" }] }]
+    },
+    {
+      "id": "chinese_feiji_126",
+      "word": "飞机",
+      "pronunciation": "fēijī",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "비행기", "examples": [{ "sentence": "我坐飞机去。", "translation": "비행기 타고 가요." }] }]
+    },
+    {
+      "id": "chinese_gonggongqiche_127",
+      "word": "公共汽车",
+      "pronunciation": "gōnggòng qìchē",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "버스", "examples": [{ "sentence": "坐公共汽车去。", "translation": "버스를 타고 가요." }] }]
+    },
+    {
+      "id": "chinese_ditie_128",
+      "word": "地铁",
+      "pronunciation": "dìtiě",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "지하철", "examples": [{ "sentence": "坐地铁很方便。", "translation": "지하철 타면 편해요." }] }]
+    },
+    {
+      "id": "chinese_chuzuche_129",
+      "word": "出租车",
+      "pronunciation": "chūzūchē",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "택시", "examples": [{ "sentence": "打出租车吧。", "translation": "택시 타요." }] }]
+    },
+    {
+      "id": "chinese_mifan_130",
+      "word": "米饭",
+      "pronunciation": "mǐfàn",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "밥", "examples": [{ "sentence": "我要米饭。", "translation": "밥 주세요." }] }]
+    },
+    {
+      "id": "chinese_miantiao_131",
+      "word": "面条",
+      "pronunciation": "miàntiáo",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "국수", "examples": [{ "sentence": "我喜欢吃面条。", "translation": "저는 국수를 좋아해요." }] }]
+    },
+    {
+      "id": "chinese_rou_132",
+      "word": "肉",
+      "pronunciation": "ròu",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "고기", "examples": [{ "sentence": "这是牛肉。", "translation": "이것은 쇠고기예요." }] }]
+    },
+    {
+      "id": "chinese_yu_133",
+      "word": "鱼",
+      "pronunciation": "yú",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "생선, 물고기", "examples": [{ "sentence": "我喜欢吃鱼。", "translation": "저는 생선을 좋아해요." }] }]
+    },
+    {
+      "id": "chinese_cai_134",
+      "word": "菜",
+      "pronunciation": "cài",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "채소, 요리", "examples": [{ "sentence": "这个菜很好吃。", "translation": "이 요리 맛있어요." }] }]
+    },
+    {
+      "id": "chinese_shuiguo_135",
+      "word": "水果",
+      "pronunciation": "shuǐguǒ",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "과일", "examples": [{ "sentence": "我喜欢吃水果。", "translation": "저는 과일을 좋아해요." }] }]
+    },
+    {
+      "id": "chinese_pingguo_136",
+      "word": "苹果",
+      "pronunciation": "píngguǒ",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "사과", "examples": [{ "sentence": "我要一个苹果。", "translation": "사과 하나 주세요." }] }]
+    },
+    {
+      "id": "chinese_shui_137",
+      "word": "水",
+      "pronunciation": "shuǐ",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "물", "examples": [{ "sentence": "请给我水。", "translation": "물 주세요." }] }]
+    },
+    {
+      "id": "chinese_cha_138",
+      "word": "茶",
+      "pronunciation": "chá",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "차", "examples": [{ "sentence": "请喝茶。", "translation": "차 드세요." }] }]
+    },
+    {
+      "id": "chinese_kafei_139",
+      "word": "咖啡",
+      "pronunciation": "kāfēi",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "커피", "examples": [{ "sentence": "我要一杯咖啡。", "translation": "커피 한 잔 주세요." }] }]
+    },
+    {
+      "id": "chinese_pijiu_140",
+      "word": "啤酒",
+      "pronunciation": "píjiǔ",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "맥주", "examples": [{ "sentence": "来一瓶啤酒。", "translation": "맥주 한 병 주세요." }] }]
+    },
+    {
+      "id": "chinese_gege_141",
+      "word": "哥哥",
+      "pronunciation": "gēge",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "형, 오빠", "examples": [{ "sentence": "我哥哥是医生。", "translation": "제 형은 의사예요." }] }]
+    },
+    {
+      "id": "chinese_jiejie_142",
+      "word": "姐姐",
+      "pronunciation": "jiějie",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "누나, 언니", "examples": [{ "sentence": "我姐姐住在北京。", "translation": "제 언니는 베이징에 살아요." }] }]
+    },
+    {
+      "id": "chinese_didi_143",
+      "word": "弟弟",
+      "pronunciation": "dìdi",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "남동생", "examples": [{ "sentence": "我弟弟十岁。", "translation": "제 남동생은 10살이에요." }] }]
+    },
+    {
+      "id": "chinese_meimei_144",
+      "word": "妹妹",
+      "pronunciation": "mèimei",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "여동생", "examples": [{ "sentence": "我妹妹很可爱。", "translation": "제 여동생은 귀여워요." }] }]
+    },
+    {
+      "id": "chinese_erzi_145",
+      "word": "儿子",
+      "pronunciation": "érzi",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "아들", "examples": [{ "sentence": "我儿子六岁。", "translation": "제 아들은 6살이에요." }] }]
+    },
+    {
+      "id": "chinese_nver_146",
+      "word": "女儿",
+      "pronunciation": "nǚ'ér",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "딸", "examples": [{ "sentence": "我女儿很聪明。", "translation": "제 딸은 똑똒해요." }] }]
+    },
+    {
+      "id": "chinese_laoshi_147",
+      "word": "老师",
+      "pronunciation": "lǎoshī",
+      "subcategory": "직업",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "선생님", "examples": [{ "sentence": "老师好！", "translation": "선생님 안녕하세요!" }] }]
+    },
+    {
+      "id": "chinese_xuesheng_148",
+      "word": "学生",
+      "pronunciation": "xuésheng",
+      "subcategory": "직업",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "학생", "examples": [{ "sentence": "我是学生。", "translation": "저는 학생이에요." }] }]
+    },
+    {
+      "id": "chinese_yisheng_149",
+      "word": "医生",
+      "pronunciation": "yīshēng",
+      "subcategory": "직업",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "의사", "examples": [{ "sentence": "他是医生。", "translation": "그는 의사예요." }] }]
+    }
+  ]
+}

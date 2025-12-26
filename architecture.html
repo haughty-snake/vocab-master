@@ -259,6 +259,17 @@
             font-size: 0.9rem;
             overflow-x: auto;
             white-space: pre;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 16px 0;
+        }
+
+        .table-container table {
+            margin: 0;
         }
 
         .key-list {
@@ -280,6 +291,7 @@
             color: var(--primary);
             font-weight: 600;
             margin-bottom: 4px;
+            word-break: break-word;
         }
 
         .key-item span {
@@ -299,6 +311,10 @@
             white-space: pre-wrap;
             word-break: break-all;
             overflow-x: auto;
+        }
+
+        .info-box code {
+            word-break: break-word;
         }
 
         .back-link {
@@ -332,6 +348,14 @@
             .section.rendering {
                 padding: 16px;
                 margin-bottom: 12px;
+            }
+
+            .section h2 {
+                font-size: 1.25rem;
+            }
+
+            .section h3 {
+                font-size: 1rem;
             }
 
             nav {
@@ -368,6 +392,19 @@
                 overflow: hidden;
                 text-overflow: ellipsis;
             }
+
+            .key-list {
+                grid-template-columns: 1fr;
+            }
+
+            .code-block {
+                font-size: 0.8rem;
+                padding: 12px;
+            }
+
+            .diagram-container {
+                padding: 12px;
+            }
         }
 
         @media (max-width: 480px) {
@@ -395,6 +432,35 @@
             .section.rendering {
                 padding: 12px;
                 margin-bottom: 10px;
+            }
+
+            .section h2 {
+                font-size: 1.1rem;
+            }
+
+            .code-block {
+                font-size: 0.7rem;
+                padding: 10px;
+            }
+
+            .key-item {
+                padding: 10px;
+            }
+
+            .key-item code {
+                font-size: 0.8rem;
+            }
+
+            .key-item .json-example {
+                font-size: 0.65rem;
+            }
+
+            .info-box {
+                padding: 12px;
+            }
+
+            .info-box li {
+                font-size: 0.9rem;
             }
         }
     </style>
@@ -882,33 +948,35 @@ ABRA → (거리:7, 길이:4) // 7글자 전 위치에서 4글자 복사
             </div>
 
             <h3>압축 효율 특성</h3>
-            <table style="width:100%; border-collapse: collapse; margin: 16px 0;">
-                <tr style="background: var(--primary); color: white;">
-                    <th style="padding: 12px; text-align: left;">데이터 유형</th>
-                    <th style="padding: 12px; text-align: center;">예상 압축률</th>
-                    <th style="padding: 12px; text-align: left;">이유</th>
-                </tr>
-                <tr style="border-bottom: 1px solid var(--border);">
-                    <td style="padding: 12px;">단어 목록 (JSON)</td>
-                    <td style="padding: 12px; text-align: center;">70~90%</td>
-                    <td style="padding: 12px;">반복 키 이름, 유사 구조</td>
-                </tr>
-                <tr style="border-bottom: 1px solid var(--border);">
-                    <td style="padding: 12px;">학습 진행 상태</td>
-                    <td style="padding: 12px; text-align: center;">80~95%</td>
-                    <td style="padding: 12px;">ID 패턴 반복, 상태값 제한적</td>
-                </tr>
-                <tr style="border-bottom: 1px solid var(--border);">
-                    <td style="padding: 12px;">설정 데이터</td>
-                    <td style="padding: 12px; text-align: center;">30~50%</td>
-                    <td style="padding: 12px;">데이터 크기 작음, 효율 낮음</td>
-                </tr>
-                <tr>
-                    <td style="padding: 12px;">바이너리/이미지</td>
-                    <td style="padding: 12px; text-align: center;">0~20%</td>
-                    <td style="padding: 12px;">이미 압축됨, 엔트로피 높음</td>
-                </tr>
-            </table>
+            <div class="table-container">
+                <table style="width:100%; border-collapse: collapse; min-width: 400px;">
+                    <tr style="background: var(--primary); color: white;">
+                        <th style="padding: 12px; text-align: left;">데이터 유형</th>
+                        <th style="padding: 12px; text-align: center;">예상 압축률</th>
+                        <th style="padding: 12px; text-align: left;">이유</th>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--border);">
+                        <td style="padding: 12px;">단어 목록 (JSON)</td>
+                        <td style="padding: 12px; text-align: center;">70~90%</td>
+                        <td style="padding: 12px;">반복 키 이름, 유사 구조</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--border);">
+                        <td style="padding: 12px;">학습 진행 상태</td>
+                        <td style="padding: 12px; text-align: center;">80~95%</td>
+                        <td style="padding: 12px;">ID 패턴 반복, 상태값 제한적</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--border);">
+                        <td style="padding: 12px;">설정 데이터</td>
+                        <td style="padding: 12px; text-align: center;">30~50%</td>
+                        <td style="padding: 12px;">데이터 크기 작음, 효율 낮음</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px;">바이너리/이미지</td>
+                        <td style="padding: 12px; text-align: center;">0~20%</td>
+                        <td style="padding: 12px;">이미 압축됨, 엔트로피 높음</td>
+                    </tr>
+                </table>
+            </div>
 
             <h3>구현 코드</h3>
             <div class="code-block">// 압축 (저장 시)
@@ -949,36 +1017,38 @@ decompress(raw) {
             <p>localStorage의 제한된 용량(5MB)을 효율적으로 관리하고, 용량 초과를 방지합니다.</p>
 
             <h3>용량 구성 분석</h3>
-            <table style="width:100%; border-collapse: collapse; margin: 16px 0;">
-                <tr style="background: var(--primary); color: white;">
-                    <th style="padding: 12px; text-align: left;">데이터 유형</th>
-                    <th style="padding: 12px; text-align: center;">단어당 크기</th>
-                    <th style="padding: 12px; text-align: center;">10,000단어 시</th>
-                    <th style="padding: 12px; text-align: left;">설명</th>
-                </tr>
-                <tr style="border-bottom: 1px solid var(--border);">
-                    <td style="padding: 12px;">단어 데이터</td>
-                    <td style="padding: 12px; text-align: center;">~500 bytes</td>
-                    <td style="padding: 12px; text-align: center;">~5 MB</td>
-                    <td style="padding: 12px;">단어, 발음, 뜻, 예문</td>
-                </tr>
-                <tr style="border-bottom: 1px solid var(--border);">
-                    <td style="padding: 12px;">학습 상태</td>
-                    <td style="padding: 12px; text-align: center;">~50 bytes</td>
-                    <td style="padding: 12px; text-align: center;">~500 KB</td>
-                    <td style="padding: 12px;">ID + 상태(new/learning/memorized)</td>
-                </tr>
-                <tr style="border-bottom: 1px solid var(--border);">
-                    <td style="padding: 12px;">백업 데이터</td>
-                    <td style="padding: 12px; text-align: center;">동일</td>
-                    <td style="padding: 12px; text-align: center;">~5.5 MB</td>
-                    <td style="padding: 12px;">메인 + 백업 이중 저장</td>
-                </tr>
-                <tr>
-                    <td style="padding: 12px;"><strong>비율</strong></td>
-                    <td style="padding: 12px; text-align: center;" colspan="3">단어 데이터 : 학습 상태 ≈ <strong>10 : 1</strong></td>
-                </tr>
-            </table>
+            <div class="table-container">
+                <table style="width:100%; border-collapse: collapse; min-width: 500px;">
+                    <tr style="background: var(--primary); color: white;">
+                        <th style="padding: 12px; text-align: left;">데이터 유형</th>
+                        <th style="padding: 12px; text-align: center;">단어당 크기</th>
+                        <th style="padding: 12px; text-align: center;">10,000단어 시</th>
+                        <th style="padding: 12px; text-align: left;">설명</th>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--border);">
+                        <td style="padding: 12px;">단어 데이터</td>
+                        <td style="padding: 12px; text-align: center;">~500 bytes</td>
+                        <td style="padding: 12px; text-align: center;">~5 MB</td>
+                        <td style="padding: 12px;">단어, 발음, 뜻, 예문</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--border);">
+                        <td style="padding: 12px;">학습 상태</td>
+                        <td style="padding: 12px; text-align: center;">~50 bytes</td>
+                        <td style="padding: 12px; text-align: center;">~500 KB</td>
+                        <td style="padding: 12px;">ID + 상태(new/learning/memorized)</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--border);">
+                        <td style="padding: 12px;">백업 데이터</td>
+                        <td style="padding: 12px; text-align: center;">동일</td>
+                        <td style="padding: 12px; text-align: center;">~5.5 MB</td>
+                        <td style="padding: 12px;">메인 + 백업 이중 저장</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px;"><strong>비율</strong></td>
+                        <td style="padding: 12px; text-align: center;" colspan="3">단어 데이터 : 학습 상태 ≈ <strong>10 : 1</strong></td>
+                    </tr>
+                </table>
+            </div>
 
             <h3>용량 제한 정책</h3>
             <div class="diagram-container">
@@ -1086,23 +1156,25 @@ flowchart LR
             <p>압축 모드 설정에 따라 다른 파일 포맷으로 내보내기됩니다.</p>
 
             <h3>파일 포맷</h3>
-            <table style="width: 100%; border-collapse: collapse; margin-bottom: 1rem;">
-                <tr>
-                    <th style="padding: 12px; text-align: left;">압축 모드</th>
-                    <th style="padding: 12px; text-align: center;">확장자</th>
-                    <th style="padding: 12px;">설명</th>
-                </tr>
-                <tr>
-                    <td style="padding: 12px;">OFF</td>
-                    <td style="padding: 12px; text-align: center;">.json</td>
-                    <td style="padding: 12px;">일반 JSON 텍스트 파일</td>
-                </tr>
-                <tr>
-                    <td style="padding: 12px;">ON</td>
-                    <td style="padding: 12px; text-align: center;">.lzstr</td>
-                    <td style="padding: 12px;">LZ-String UTF16 압축 파일 (약 60% 절감)</td>
-                </tr>
-            </table>
+            <div class="table-container">
+                <table style="width: 100%; border-collapse: collapse; min-width: 320px;">
+                    <tr>
+                        <th style="padding: 12px; text-align: left;">압축 모드</th>
+                        <th style="padding: 12px; text-align: center;">확장자</th>
+                        <th style="padding: 12px;">설명</th>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px;">OFF</td>
+                        <td style="padding: 12px; text-align: center;">.json</td>
+                        <td style="padding: 12px;">일반 JSON 텍스트 파일</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px;">ON</td>
+                        <td style="padding: 12px; text-align: center;">.lzstr</td>
+                        <td style="padding: 12px;">LZ-String UTF16 압축 파일 (약 60% 절감)</td>
+                    </tr>
+                </table>
+            </div>
 
             <h3>전체 데이터 복구 흐름</h3>
             <div class="diagram-container">
@@ -1378,48 +1450,52 @@ flowchart LR
             <p>VocabMaster에서 사용하는 외부 라이브러리 및 리소스의 라이선스입니다.</p>
 
             <h3>사용 라이브러리</h3>
-            <table style="width:100%; border-collapse: collapse; margin: 16px 0;">
-                <tr style="background: var(--primary); color: white;">
-                    <th style="padding: 12px; text-align: left;">라이브러리</th>
-                    <th style="padding: 12px; text-align: center;">버전</th>
-                    <th style="padding: 12px; text-align: center;">라이선스</th>
-                    <th style="padding: 12px; text-align: left;">용도</th>
-                </tr>
-                <tr style="border-bottom: 1px solid var(--border);">
-                    <td style="padding: 12px;"><strong>LZ-String</strong></td>
-                    <td style="padding: 12px; text-align: center;">1.5.0</td>
-                    <td style="padding: 12px; text-align: center;">MIT</td>
-                    <td style="padding: 12px;">데이터 압축 (localStorage 최적화)</td>
-                </tr>
-                <tr style="border-bottom: 1px solid var(--border);">
-                    <td style="padding: 12px;"><strong>Mermaid.js</strong></td>
-                    <td style="padding: 12px; text-align: center;">10.6.1</td>
-                    <td style="padding: 12px; text-align: center;">MIT</td>
-                    <td style="padding: 12px;">아키텍처 문서 다이어그램</td>
-                </tr>
-            </table>
+            <div class="table-container">
+                <table style="width:100%; border-collapse: collapse; min-width: 450px;">
+                    <tr style="background: var(--primary); color: white;">
+                        <th style="padding: 12px; text-align: left;">라이브러리</th>
+                        <th style="padding: 12px; text-align: center;">버전</th>
+                        <th style="padding: 12px; text-align: center;">라이선스</th>
+                        <th style="padding: 12px; text-align: left;">용도</th>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--border);">
+                        <td style="padding: 12px;"><strong>LZ-String</strong></td>
+                        <td style="padding: 12px; text-align: center;">1.5.0</td>
+                        <td style="padding: 12px; text-align: center;">MIT</td>
+                        <td style="padding: 12px;">데이터 압축 (localStorage 최적화)</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--border);">
+                        <td style="padding: 12px;"><strong>Mermaid.js</strong></td>
+                        <td style="padding: 12px; text-align: center;">10.6.1</td>
+                        <td style="padding: 12px; text-align: center;">MIT</td>
+                        <td style="padding: 12px;">아키텍처 문서 다이어그램</td>
+                    </tr>
+                </table>
+            </div>
 
             <h3>외부 API</h3>
-            <table style="width:100%; border-collapse: collapse; margin: 16px 0;">
-                <tr style="background: var(--primary); color: white;">
-                    <th style="padding: 12px; text-align: left;">API</th>
-                    <th style="padding: 12px; text-align: center;">제공자</th>
-                    <th style="padding: 12px; text-align: left;">용도</th>
-                    <th style="padding: 12px; text-align: left;">이용 조건</th>
-                </tr>
-                <tr style="border-bottom: 1px solid var(--border);">
-                    <td style="padding: 12px;"><strong>Free Dictionary API</strong></td>
-                    <td style="padding: 12px; text-align: center;">dictionaryapi.dev</td>
-                    <td style="padding: 12px;">단어 정의, 발음, 예문 조회</td>
-                    <td style="padding: 12px;">무료, 상업적 사용 가능</td>
-                </tr>
-                <tr style="border-bottom: 1px solid var(--border);">
-                    <td style="padding: 12px;"><strong>Web Speech API</strong></td>
-                    <td style="padding: 12px; text-align: center;">브라우저 내장</td>
-                    <td style="padding: 12px;">TTS 발음 재생</td>
-                    <td style="padding: 12px;">브라우저 표준 API</td>
-                </tr>
-            </table>
+            <div class="table-container">
+                <table style="width:100%; border-collapse: collapse; min-width: 500px;">
+                    <tr style="background: var(--primary); color: white;">
+                        <th style="padding: 12px; text-align: left;">API</th>
+                        <th style="padding: 12px; text-align: center;">제공자</th>
+                        <th style="padding: 12px; text-align: left;">용도</th>
+                        <th style="padding: 12px; text-align: left;">이용 조건</th>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--border);">
+                        <td style="padding: 12px;"><strong>Free Dictionary API</strong></td>
+                        <td style="padding: 12px; text-align: center;">dictionaryapi.dev</td>
+                        <td style="padding: 12px;">단어 정의, 발음, 예문 조회</td>
+                        <td style="padding: 12px;">무료, 상업적 사용 가능</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--border);">
+                        <td style="padding: 12px;"><strong>Web Speech API</strong></td>
+                        <td style="padding: 12px; text-align: center;">브라우저 내장</td>
+                        <td style="padding: 12px;">TTS 발음 재생</td>
+                        <td style="padding: 12px;">브라우저 표준 API</td>
+                    </tr>
+                </table>
+            </div>
 
             <h3>MIT 라이선스 전문</h3>
             <div class="code-block" style="font-size: 0.85rem;">MIT License
@@ -1556,19 +1632,71 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</div>
             // 모바일 스와이프 제스처
             let touchStartX = 0;
             let touchEndX = 0;
-            const swipeThreshold = 50;
+            let isPinching = false;
+            let isScrollableArea = false;
+
+            // 스크롤 가능한 영역인지 확인
+            function checkScrollableArea(element) {
+                while (element && element !== container) {
+                    if (element.classList && (
+                        element.classList.contains('table-container') ||
+                        element.classList.contains('diagram-container') ||
+                        element.classList.contains('code-block')
+                    )) {
+                        // 실제로 스크롤이 필요한지 확인 (콘텐츠가 컨테이너보다 넓은 경우)
+                        if (element.scrollWidth > element.clientWidth) {
+                            return true;
+                        }
+                    }
+                    element = element.parentElement;
+                }
+                return false;
+            }
 
             container.addEventListener('touchstart', function(e) {
+                // 두 손가락 이상이면 핀치 줌으로 판단
+                if (e.touches.length >= 2) {
+                    isPinching = true;
+                    return;
+                }
+                isPinching = false;
+
+                // 스크롤 가능한 영역에서 터치 시작 시 스와이프 무시
+                isScrollableArea = checkScrollableArea(e.target);
+
                 touchStartX = e.changedTouches[0].screenX;
             }, { passive: true });
 
+            container.addEventListener('touchmove', function(e) {
+                // 터치 중에 두 손가락이 되면 핀치 줌으로 전환
+                if (e.touches.length >= 2) {
+                    isPinching = true;
+                }
+            }, { passive: true });
+
             container.addEventListener('touchend', function(e) {
+                // 핀치 줌 중이었으면 스와이프 무시
+                if (isPinching) {
+                    isPinching = false;
+                    return;
+                }
+
+                // 스크롤 가능한 영역에서 터치했으면 스와이프 무시
+                if (isScrollableArea) {
+                    isScrollableArea = false;
+                    return;
+                }
+
                 touchEndX = e.changedTouches[0].screenX;
                 handleSwipe();
             }, { passive: true });
 
             function handleSwipe() {
                 const swipeDistance = touchEndX - touchStartX;
+                // 화면 너비의 50% 이상 드래그해야 페이지 이동
+                const screenWidth = window.innerWidth;
+                const swipeThreshold = screenWidth * 0.5;
+
                 if (Math.abs(swipeDistance) < swipeThreshold) return;
 
                 if (swipeDistance > 0) {

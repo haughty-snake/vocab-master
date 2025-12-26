@@ -2,8 +2,34 @@
 let currentView = 'home-view';
 let currentCategory = 'all';
 let currentCategoryFilter = 'all'; // 'all', 'active', 'inactive'
+let currentLanguageFilter = 'all'; // 'all', 'en-US', 'ko-KR', 'zh-CN', 'ja-JP', etc.
 let importAbortController = null; // 파일 가져오기 취소용
 let pendingRecoveryData = null; // 복구 대기 중인 머지 데이터
+
+// TTS 언어 코드 -> 한글 매핑
+const LANG_TO_KOREAN = {
+    'en-US': '영어',
+    'en-GB': '영어',
+    'ko-KR': '한국어',
+    'zh-CN': '중국어',
+    'zh-TW': '중국어',
+    'ja-JP': '일본어',
+    'es-ES': '스페인어',
+    'fr-FR': '프랑스어',
+    'de-DE': '독일어',
+    'it-IT': '이탈리아어',
+    'pt-BR': '포르투갈어',
+    'ru-RU': '러시아어',
+    'vi-VN': '베트남어',
+    'th-TH': '태국어',
+    'id-ID': '인도네시아어'
+};
+
+// 언어 코드를 한글로 변환
+function getLangKorean(langCode) {
+    if (!langCode) return '영어';
+    return LANG_TO_KOREAN[langCode] || langCode;
+}
 
 // Global Loading Overlay Functions
 function showGlobalLoading(message = '처리 중...') {
@@ -22,12 +48,21 @@ function hideGlobalLoading() {
     }
 }
 
-// Load category from localStorage on script load
+// Load category and filter states from localStorage on script load
 (function loadStoredCategory() {
     try {
         const stored = localStorage.getItem('selectedCategory');
         if (stored) {
             currentCategory = stored;
+        }
+        // Load filter states
+        const storedCategoryFilter = localStorage.getItem('categoryStatusFilter');
+        if (storedCategoryFilter) {
+            currentCategoryFilter = storedCategoryFilter;
+        }
+        const storedLanguageFilter = localStorage.getItem('categoryLanguageFilter');
+        if (storedLanguageFilter) {
+            currentLanguageFilter = storedLanguageFilter;
         }
     } catch (e) {
         console.error('Error loading category:', e);
@@ -233,10 +268,26 @@ async function showHome() {
     await new Promise(resolve => setTimeout(resolve, 10));
 
     try {
+        // Restore filter UI state from stored values
+        restoreFilterUIState();
         renderCategories();
         renderProgress();
     } finally {
         hideViewLoading('home-loading');
+    }
+}
+
+// Restore filter UI state from stored values
+function restoreFilterUIState() {
+    // Restore status filter tabs
+    document.querySelectorAll('.filter-tab').forEach(tab => {
+        tab.classList.toggle('active', tab.dataset.filter === currentCategoryFilter);
+    });
+
+    // Restore language filter select
+    const langSelect = document.getElementById('language-filter');
+    if (langSelect) {
+        langSelect.value = currentLanguageFilter;
     }
 }
 
@@ -387,20 +438,69 @@ function renderCategories() {
         filteredCategories = VocabData.categories.filter(cat => Storage.isCategoryDisabled(cat.id));
     }
 
+    // Filter categories based on currentLanguageFilter
+    if (currentLanguageFilter !== 'all') {
+        const mainLangs = ['en-US', 'en-GB', 'ko-KR', 'zh-CN', 'zh-TW', 'ja-JP', 'es-ES', 'fr-FR', 'de-DE', 'vi-VN'];
+        if (currentLanguageFilter === 'other') {
+            // Show categories with languages not in the main list
+            filteredCategories = filteredCategories.filter(cat => {
+                const catLang = cat.lang || 'en-US';
+                return !mainLangs.includes(catLang);
+            });
+        } else if (currentLanguageFilter === 'en-US') {
+            // English includes en-US and en-GB, and categories without lang field
+            filteredCategories = filteredCategories.filter(cat => {
+                const catLang = cat.lang || 'en-US';
+                return catLang === 'en-US' || catLang === 'en-GB' || catLang.startsWith('en');
+            });
+        } else {
+            filteredCategories = filteredCategories.filter(cat => {
+                const catLang = cat.lang || 'en-US';
+                return catLang === currentLanguageFilter;
+            });
+        }
+    }
+
+    // Sort categories by TTS language (English first), then by name
+    filteredCategories = [...filteredCategories].sort((a, b) => {
+        const langA = a.lang || 'en-US';
+        const langB = b.lang || 'en-US';
+        const isEnglishA = langA.startsWith('en');
+        const isEnglishB = langB.startsWith('en');
+
+        // English comes first
+        if (isEnglishA && !isEnglishB) return -1;
+        if (!isEnglishA && isEnglishB) return 1;
+
+        // Then sort by Korean language name
+        const langKoreanA = getLangKorean(langA);
+        const langKoreanB = getLangKorean(langB);
+        if (langKoreanA !== langKoreanB) {
+            return langKoreanA.localeCompare(langKoreanB, 'ko');
+        }
+        return a.name.localeCompare(b.name, 'ko');
+    });
+
     // Reset loaded count
     categoryGridLoaded = Math.min(categoryGridPerLoad, filteredCategories.length);
 
     // "All" category card (only show if not filtering to inactive only)
     let html = '';
     if (currentCategoryFilter !== 'inactive') {
+        // Calculate word count for filtered categories
+        const filteredActiveCategories = filteredCategories.filter(cat => !Storage.isCategoryDisabled(cat.id));
+        const filteredActiveWords = filteredActiveCategories.reduce((acc, cat) => acc.concat(cat.words), []);
+        const filteredWordCount = filteredActiveWords.length;
+        const filteredProgress = Storage.getCategoryProgress(filteredActiveWords);
+
         const allSelected = currentCategory === 'all' ? 'selected' : '';
         html = `
             <div class="category-card all-category-card ${allSelected}" onclick="selectCategory('all')">
                 <div class="category-icon" style="background: linear-gradient(135deg, #4285f4, #34a853); color: white;">📚</div>
                 <div class="category-name">전체 보기</div>
-                <div class="category-count">${totalActiveWords}개 단어</div>
+                <div class="category-count">${filteredWordCount}개 단어</div>
                 <div class="category-progress">
-                    <div class="category-progress-bar" style="width: ${overallProgress.percentage}%"></div>
+                    <div class="category-progress-bar" style="width: ${filteredProgress.percentage}%"></div>
                 </div>
             </div>
         `;
@@ -433,8 +533,16 @@ function renderCategories() {
     }
 
     // Show empty state if no categories match filter
-    if (filteredCategories.length === 0 && currentCategoryFilter === 'inactive') {
-        html = '<div class="empty-state">비활성화된 카테고리가 없습니다.</div>';
+    if (filteredCategories.length === 0) {
+        if (currentCategoryFilter === 'inactive') {
+            html = '<div class="empty-state">비활성화된 카테고리가 없습니다.</div>';
+        } else if (currentLanguageFilter !== 'all') {
+            const langNames = {
+                'en-US': '영어', 'ko-KR': '한국어', 'zh-CN': '중국어', 'ja-JP': '일본어',
+                'es-ES': '스페인어', 'fr-FR': '프랑스어', 'de-DE': '독일어', 'vi-VN': '베트남어', 'other': '기타'
+            };
+            html = `<div class="empty-state">${langNames[currentLanguageFilter] || currentLanguageFilter} 카테고리가 없습니다.</div>`;
+        }
     }
 
     grid.innerHTML = html;
@@ -452,14 +560,18 @@ function renderCategoryCards(categories) {
         const isCustom = cat.isCustom ? 'custom-category' : '';
         const isDisabled = Storage.isCategoryDisabled(cat.id) ? 'disabled-category' : '';
         const isEnabled = !Storage.isCategoryDisabled(cat.id);
-        const customBadge = cat.isCustom ? '<span class="custom-badge">사용자</span>' : '';
+        // customBadge moved to badge-area
         const manageBtn = cat.isCustom ? `<button class="category-manage-btn" onclick="event.stopPropagation(); openWordManagementModal('${cat.id}')" title="단어 관리">⚙️</button>` : '';
         const toggleIcon = isEnabled ? '✅' : '❌';
         const toggleTitle = isEnabled ? '비활성화' : '활성화';
         const toggleBtn = `<button class="category-toggle-btn" onclick="event.stopPropagation(); toggleCategoryEnabled('${cat.id}')" title="${toggleTitle}">${toggleIcon}</button>`;
+        const langKorean = getLangKorean(cat.lang || 'en-US');
+        const badgeArea = `<span class="lang-badge">${langKorean}</span>`;
+        const customBadge = cat.isCustom ? '<span class="custom-badge">사용자</span>' : '';
 
         return `
             <div class="category-card ${isSelected} ${isCustom} ${isDisabled}" onclick="selectCategory('${cat.id}')" style="--cat-color: ${cat.color}">
+                <div class="badge-area">${badgeArea}</div>
                 ${toggleBtn}
                 ${manageBtn}
                 <div class="category-icon" style="background: ${cat.color}20; color: ${cat.color}">${cat.icon}</div>
@@ -538,10 +650,31 @@ function loadMoreCategories(filteredCategories) {
 function filterCategoriesByStatus(filter) {
     currentCategoryFilter = filter;
 
+    // Save to localStorage
+    try {
+        localStorage.setItem('categoryStatusFilter', filter);
+    } catch (e) {
+        console.error('Error saving status filter:', e);
+    }
+
     // Update active tab
     document.querySelectorAll('.filter-tab').forEach(tab => {
         tab.classList.toggle('active', tab.dataset.filter === filter);
     });
+
+    renderCategories();
+}
+
+// Filter categories by language
+function filterCategoriesByLanguage(lang) {
+    currentLanguageFilter = lang;
+
+    // Save to localStorage
+    try {
+        localStorage.setItem('categoryLanguageFilter', lang);
+    } catch (e) {
+        console.error('Error saving language filter:', e);
+    }
 
     renderCategories();
 }
@@ -714,7 +847,7 @@ function renderWordItems(words) {
                     <div class="word-meaning">${m.meaning} ${posTag}</div>
                     ${ex && ex.sentence ? `
                         <div class="word-example">
-                            <div class="example-sentence">${highlightWord(ex.sentence, word.word)}<button class="tts-btn-small" onclick="event.stopPropagation(); VocabData.speak('${ex.sentence.replace(/'/g, "\\'").replace(/\*\*/g, '')}')" title="예문 듣기"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg></button></div>
+                            <div class="example-sentence">${highlightWord(ex.sentence, word.word)}<button class="tts-btn-small" onclick="event.stopPropagation(); VocabData.speak('${ex.sentence.replace(/'/g, "\\'").replace(/\*\*/g, '')}', '${word.lang || 'en-US'}')" title="예문 듣기"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg></button></div>
                             ${ex.translation ? `<div class="word-translation">${ex.translation}</div>` : ''}
                         </div>` : ''}
                 `;
@@ -732,7 +865,7 @@ function renderWordItems(words) {
                             </div>
                             ${ex && ex.sentence ? `
                                 <div class="word-example">
-                                    <div class="example-sentence">${highlightWord(ex.sentence, word.word)}<button class="tts-btn-small" onclick="event.stopPropagation(); VocabData.speak('${ex.sentence.replace(/'/g, "\\'").replace(/\*\*/g, '')}')" title="예문 듣기"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg></button></div>
+                                    <div class="example-sentence">${highlightWord(ex.sentence, word.word)}<button class="tts-btn-small" onclick="event.stopPropagation(); VocabData.speak('${ex.sentence.replace(/'/g, "\\'").replace(/\*\*/g, '')}', '${word.lang || 'en-US'}')" title="예문 듣기"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg></button></div>
                                     ${ex.translation ? `<div class="word-translation">${ex.translation}</div>` : ''}
                                 </div>` : ''}
                         </div>
@@ -748,7 +881,7 @@ function renderWordItems(words) {
                 <div class="word-meaning">${word.meaning} ${posTag}</div>
                 ${example ? `
                     <div class="word-example">
-                        <div class="example-sentence">${highlightWord(example, word.word)}<button class="tts-btn-small" onclick="event.stopPropagation(); VocabData.speak('${example.replace(/'/g, "\\'").replace(/\*\*/g, '')}')" title="예문 듣기"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg></button></div>
+                        <div class="example-sentence">${highlightWord(example, word.word)}<button class="tts-btn-small" onclick="event.stopPropagation(); VocabData.speak('${example.replace(/'/g, "\\'").replace(/\*\*/g, '')}', '${word.lang || 'en-US'}')" title="예문 듣기"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg></button></div>
                         ${translation ? `<div class="word-translation">${translation}</div>` : ''}
                     </div>` : ''}
             `;
@@ -768,7 +901,7 @@ function renderWordItems(words) {
                 <div class="word-content">
                     <div class="word-main">
                         <span class="word-text">${word.word}</span>
-                        <button class="tts-btn-small" onclick="event.stopPropagation(); VocabData.speak('${word.word.replace(/'/g, "\\'")}')" title="발음 듣기"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg></button>
+                        <button class="tts-btn-small" onclick="event.stopPropagation(); VocabData.speak('${word.word.replace(/'/g, "\\'")}', '${word.lang || 'en-US'}')" title="발음 듣기"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg></button>
                         ${showPronunciation && word.pronunciation ? `<span class="word-pronunciation">/${word.pronunciation}/</span>` : ''}
                     </div>
                     <div class="word-info">
@@ -1244,7 +1377,7 @@ function updateFlashcardContent() {
 
     // Auto TTS for flashcard
     if (flashcardAutoTTS) {
-        VocabData.speak(word.word);
+        VocabData.speak(word.word, word.lang || 'en-US');
     }
 }
 
@@ -1415,12 +1548,13 @@ function showBlinkWord(displayMode) {
     wordEl.style.animation = 'fadeInUp 0.3s ease';
     meaningEl.style.animation = 'fadeInUp 0.3s ease 0.1s both';
 
+    const wordLang = word.lang || 'en-US';
     if (displayMode === 'word') {
         wordEl.textContent = word.word;
         meaningEl.innerHTML = '';
         // Auto TTS for word mode
         if (blinkAutoTTS) {
-            VocabData.speak(word.word);
+            VocabData.speak(word.word, wordLang);
         }
     } else if (displayMode === 'meaning') {
         wordEl.innerHTML = formattedMeaningHtml;
@@ -1433,7 +1567,7 @@ function showBlinkWord(displayMode) {
             meaningEl.textContent = `(${blinkRepeatCurrent + 1}/${blinkRepeatCount})`;
             // Auto TTS when showing word
             if (blinkAutoTTS) {
-                VocabData.speak(word.word);
+                VocabData.speak(word.word, wordLang);
             }
         } else {
             // Show meaning
@@ -1446,7 +1580,7 @@ function showBlinkWord(displayMode) {
         meaningEl.innerHTML = formattedMeaningHtml;
         // Auto TTS for both mode
         if (blinkAutoTTS) {
-            VocabData.speak(word.word);
+            VocabData.speak(word.word, wordLang);
         }
     }
 
@@ -1864,6 +1998,7 @@ function confirmExportCategories() {
                 name: cat.name,
                 icon: cat.icon,
                 color: cat.color,
+                lang: cat.lang || 'en-US',
                 words: (cat.words || []).map(word => ({
                     word: word.word,
                     pronunciation: word.pronunciation || '',
@@ -2221,30 +2356,31 @@ document.addEventListener('click', (e) => {
 function speakCurrentWord() {
     if (flashcardWords.length === 0) return;
     const word = flashcardWords[flashcardIndex];
-    VocabData.speak(word.word);
+    VocabData.speak(word.word, word.lang || 'en-US');
 }
 
 function speakCurrentExample() {
     if (flashcardWords.length === 0) return;
     const word = flashcardWords[flashcardIndex];
+    const lang = word.lang || 'en-US';
 
     // Check meanings for examples first (new structure)
     if (word.meanings && word.meanings.length > 0) {
         for (const m of word.meanings) {
             if (m.examples && m.examples.length > 0 && m.examples[0].sentence) {
-                VocabData.speak(m.examples[0].sentence);
+                VocabData.speak(m.examples[0].sentence, lang);
                 return;
             }
         }
     }
     // Fallback to old structure
     if (word.examples && word.examples[0]) {
-        VocabData.speak(word.examples[0].sentence);
+        VocabData.speak(word.examples[0].sentence, lang);
     }
 }
 
-function speakWord(text) {
-    VocabData.speak(text);
+function speakWord(text, lang = 'en-US') {
+    VocabData.speak(text, lang);
 }
 
 // Override initApp to include new settings
@@ -2639,6 +2775,7 @@ function openCustomCategoryModal(categoryId = null) {
     const title = document.getElementById('custom-category-modal-title');
     const nameInput = document.getElementById('custom-category-name');
     const colorInput = document.getElementById('custom-category-color');
+    const langSelect = document.getElementById('custom-category-lang');
 
     if (categoryId) {
         // Edit mode
@@ -2647,6 +2784,7 @@ function openCustomCategoryModal(categoryId = null) {
             title.textContent = '카테고리 수정';
             nameInput.value = category.name;
             colorInput.value = category.color;
+            langSelect.value = category.lang || 'en-US';
             // Select the icon
             document.querySelectorAll('#icon-picker .icon-option').forEach(btn => {
                 btn.classList.toggle('selected', btn.dataset.icon === category.icon);
@@ -2657,6 +2795,7 @@ function openCustomCategoryModal(categoryId = null) {
         title.textContent = '새 카테고리 만들기';
         nameInput.value = '';
         colorInput.value = '#6c757d';
+        langSelect.value = 'en-US';
         // Reset icon selection
         document.querySelectorAll('#icon-picker .icon-option').forEach((btn, i) => {
             btn.classList.toggle('selected', i === 0);
@@ -2674,6 +2813,7 @@ function closeCustomCategoryModal() {
 function saveCustomCategory() {
     const name = document.getElementById('custom-category-name').value.trim();
     const color = document.getElementById('custom-category-color').value;
+    const lang = document.getElementById('custom-category-lang').value;
     const selectedIcon = document.querySelector('#icon-picker .icon-option.selected');
     const icon = selectedIcon ? selectedIcon.dataset.icon : '📁';
 
@@ -2690,7 +2830,7 @@ function saveCustomCategory() {
         }
         showWordLoading('카테고리 수정 중...');
         setTimeout(() => {
-            Storage.updateCustomCategory(editingCategoryId, { name, icon, color });
+            Storage.updateCustomCategory(editingCategoryId, { name, icon, color, lang });
             closeCustomCategoryModal();
             VocabData.reloadCustomCategories();
             renderCategories();
@@ -2708,7 +2848,7 @@ function saveCustomCategory() {
         }
         showGlobalLoading('카테고리 생성 중...');
         setTimeout(() => {
-            const result = Storage.createCustomCategory(name, icon, color);
+            const result = Storage.createCustomCategory(name, icon, color, lang);
             if (!result) {
                 hideGlobalLoading();
                 showToast('카테고리 생성 실패');
@@ -2736,6 +2876,13 @@ document.addEventListener('click', (e) => {
     }
 });
 
+// Check if category language supports word addition (English only)
+function isCategoryEnglish(category) {
+    if (!category) return false;
+    const lang = category.lang || 'en-US';
+    return lang === 'en-US' || lang === 'en-GB' || lang.startsWith('en');
+}
+
 // Word Management Modal
 async function openWordManagementModal(categoryId) {
     managingCategoryId = categoryId;
@@ -2744,6 +2891,26 @@ async function openWordManagementModal(categoryId) {
 
     document.getElementById('word-management-title').textContent = `${category.name} - 단어 관리`;
     document.getElementById('word-management-modal').classList.remove('hidden');
+
+    // Show/hide add word button based on language
+    const actionsContainer = document.querySelector('.word-management-actions');
+    const isEnglish = isCategoryEnglish(category);
+
+    if (isEnglish) {
+        actionsContainer.innerHTML = `
+            <button class="btn btn-primary btn-sm" onclick="showAddWordForm()">+ 단어 추가</button>
+            <button class="btn btn-outline btn-sm" onclick="showImportWordsForm()">파일 가져오기</button>
+        `;
+    } else {
+        const langKorean = getLangKorean(category.lang);
+        actionsContainer.innerHTML = `
+            <div class="word-add-unsupported">
+                <span class="unsupported-icon">ℹ️</span>
+                <span class="unsupported-text">개별단어추가 미지원 언어</span>
+            </div>
+            <button class="btn btn-outline btn-sm" onclick="showImportWordsForm()">파일 가져오기</button>
+        `;
+    }
 
     hideAddWordForm();
     hideImportWordsForm();
@@ -2821,6 +2988,14 @@ let meaningFieldCount = 0;
 let editingWordId = null;
 
 function showAddWordForm(wordId = null) {
+    // Check if category supports word addition (English only)
+    const category = Storage.getCustomCategory(managingCategoryId);
+    if (!isCategoryEnglish(category)) {
+        const langKorean = getLangKorean(category?.lang);
+        showToast(`${langKorean} 단어장은 개별 단어 추가를 지원하지 않습니다`);
+        return;
+    }
+
     document.getElementById('add-word-form').classList.remove('hidden');
     document.getElementById('import-words-form').classList.add('hidden');
     document.getElementById('custom-word-list').classList.add('hidden');

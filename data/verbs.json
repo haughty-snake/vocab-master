@@ -3,6 +3,7 @@
   "name": "동사",
   "icon": "🏃",
   "color": "#34a853",
+  "lang": "en-US",
   "words": [
     {
       "id": "verbs_be_0",

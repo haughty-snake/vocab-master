@@ -1,0 +1,1989 @@
+{
+  "id": "japaneseIAdjectives",
+  "name": "일본어 い형용사",
+  "icon": "✨",
+  "color": "#E91E63",
+  "lang": "ja-JP",
+  "words": [
+    {
+      "id": "jia_001",
+      "word": "いい/良い",
+      "pronunciation": "いい/よい",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "좋다",
+          "examples": [
+            {
+              "sentence": "天気がいいですね。",
+              "translation": "날씨가 좋네요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_002",
+      "word": "悪い",
+      "pronunciation": "わるい",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "나쁘다",
+          "examples": [
+            {
+              "sentence": "気分が悪い。",
+              "translation": "기분이 나쁘다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_003",
+      "word": "大きい",
+      "pronunciation": "おおきい",
+      "subcategory": "크기",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "크다",
+          "examples": [
+            {
+              "sentence": "この家は大きいです。",
+              "translation": "이 집은 큽니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_004",
+      "word": "小さい",
+      "pronunciation": "ちいさい",
+      "subcategory": "크기",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "작다",
+          "examples": [
+            {
+              "sentence": "声が小さい。",
+              "translation": "목소리가 작다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_005",
+      "word": "新しい",
+      "pronunciation": "あたらしい",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "새롭다",
+          "examples": [
+            {
+              "sentence": "新しい車を買った。",
+              "translation": "새 차를 샀다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_006",
+      "word": "古い",
+      "pronunciation": "ふるい",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "오래되다, 낡다",
+          "examples": [
+            {
+              "sentence": "この建物は古い。",
+              "translation": "이 건물은 오래됐다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_007",
+      "word": "高い",
+      "pronunciation": "たかい",
+      "subcategory": "크기",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "높다, 비싸다",
+          "examples": [
+            {
+              "sentence": "この山は高い。",
+              "translation": "이 산은 높다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_008",
+      "word": "安い",
+      "pronunciation": "やすい",
+      "subcategory": "가격",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "싸다",
+          "examples": [
+            {
+              "sentence": "このお店は安い。",
+              "translation": "이 가게는 싸다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_009",
+      "word": "低い",
+      "pronunciation": "ひくい",
+      "subcategory": "크기",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "낮다",
+          "examples": [
+            {
+              "sentence": "天井が低い。",
+              "translation": "천장이 낮다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_010",
+      "word": "長い",
+      "pronunciation": "ながい",
+      "subcategory": "크기",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "길다",
+          "examples": [
+            {
+              "sentence": "髪が長い。",
+              "translation": "머리가 길다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_011",
+      "word": "短い",
+      "pronunciation": "みじかい",
+      "subcategory": "크기",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "짧다",
+          "examples": [
+            {
+              "sentence": "時間が短い。",
+              "translation": "시간이 짧다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_012",
+      "word": "広い",
+      "pronunciation": "ひろい",
+      "subcategory": "크기",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "넓다",
+          "examples": [
+            {
+              "sentence": "この部屋は広い。",
+              "translation": "이 방은 넓다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_013",
+      "word": "狭い",
+      "pronunciation": "せまい",
+      "subcategory": "크기",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "좁다",
+          "examples": [
+            {
+              "sentence": "道が狭い。",
+              "translation": "길이 좁다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_014",
+      "word": "多い",
+      "pronunciation": "おおい",
+      "subcategory": "수량",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "많다",
+          "examples": [
+            {
+              "sentence": "人が多い。",
+              "translation": "사람이 많다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_015",
+      "word": "少ない",
+      "pronunciation": "すくない",
+      "subcategory": "수량",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "적다",
+          "examples": [
+            {
+              "sentence": "お金が少ない。",
+              "translation": "돈이 적다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_016",
+      "word": "暑い",
+      "pronunciation": "あつい",
+      "subcategory": "온도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "덥다",
+          "examples": [
+            {
+              "sentence": "今日は暑い。",
+              "translation": "오늘은 덥다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_017",
+      "word": "寒い",
+      "pronunciation": "さむい",
+      "subcategory": "온도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "춥다",
+          "examples": [
+            {
+              "sentence": "冬は寒い。",
+              "translation": "겨울은 춥다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_018",
+      "word": "熱い",
+      "pronunciation": "あつい",
+      "subcategory": "온도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "뜨겁다",
+          "examples": [
+            {
+              "sentence": "コーヒーが熱い。",
+              "translation": "커피가 뜨겁다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_019",
+      "word": "冷たい",
+      "pronunciation": "つめたい",
+      "subcategory": "온도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "차갑다",
+          "examples": [
+            {
+              "sentence": "水が冷たい。",
+              "translation": "물이 차갑다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_020",
+      "word": "温かい",
+      "pronunciation": "あたたかい",
+      "subcategory": "온도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "따뜻하다",
+          "examples": [
+            {
+              "sentence": "春は温かい。",
+              "translation": "봄은 따뜻하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_021",
+      "word": "涼しい",
+      "pronunciation": "すずしい",
+      "subcategory": "온도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "시원하다",
+          "examples": [
+            {
+              "sentence": "秋は涼しい。",
+              "translation": "가을은 시원하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_022",
+      "word": "明るい",
+      "pronunciation": "あかるい",
+      "subcategory": "밝기",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "밝다",
+          "examples": [
+            {
+              "sentence": "部屋が明るい。",
+              "translation": "방이 밝다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_023",
+      "word": "暗い",
+      "pronunciation": "くらい",
+      "subcategory": "밝기",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "어둡다",
+          "examples": [
+            {
+              "sentence": "夜道は暗い。",
+              "translation": "밤길은 어둡다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_024",
+      "word": "美しい",
+      "pronunciation": "うつくしい",
+      "subcategory": "외모",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "아름답다",
+          "examples": [
+            {
+              "sentence": "景色が美しい。",
+              "translation": "경치가 아름답다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_025",
+      "word": "可愛い",
+      "pronunciation": "かわいい",
+      "subcategory": "외모",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "귀엽다",
+          "examples": [
+            {
+              "sentence": "この猫は可愛い。",
+              "translation": "이 고양이는 귀엽다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_026",
+      "word": "若い",
+      "pronunciation": "わかい",
+      "subcategory": "나이",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "젊다",
+          "examples": [
+            {
+              "sentence": "彼女は若い。",
+              "translation": "그녀는 젊다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_027",
+      "word": "早い",
+      "pronunciation": "はやい",
+      "subcategory": "속도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "이르다, 빠르다",
+          "examples": [
+            {
+              "sentence": "朝が早い。",
+              "translation": "아침이 이르다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_028",
+      "word": "速い",
+      "pronunciation": "はやい",
+      "subcategory": "속도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "빠르다",
+          "examples": [
+            {
+              "sentence": "電車が速い。",
+              "translation": "전철이 빠르다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_029",
+      "word": "遅い",
+      "pronunciation": "おそい",
+      "subcategory": "속도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "늦다, 느리다",
+          "examples": [
+            {
+              "sentence": "帰りが遅い。",
+              "translation": "귀가가 늦다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_030",
+      "word": "近い",
+      "pronunciation": "ちかい",
+      "subcategory": "거리",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "가깝다",
+          "examples": [
+            {
+              "sentence": "駅が近い。",
+              "translation": "역이 가깝다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_031",
+      "word": "遠い",
+      "pronunciation": "とおい",
+      "subcategory": "거리",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "멀다",
+          "examples": [
+            {
+              "sentence": "学校が遠い。",
+              "translation": "학교가 멀다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_032",
+      "word": "強い",
+      "pronunciation": "つよい",
+      "subcategory": "강도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "강하다",
+          "examples": [
+            {
+              "sentence": "風が強い。",
+              "translation": "바람이 강하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_033",
+      "word": "弱い",
+      "pronunciation": "よわい",
+      "subcategory": "강도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "약하다",
+          "examples": [
+            {
+              "sentence": "体が弱い。",
+              "translation": "몸이 약하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_034",
+      "word": "硬い",
+      "pronunciation": "かたい",
+      "subcategory": "질감",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "딱딱하다",
+          "examples": [
+            {
+              "sentence": "このパンは硬い。",
+              "translation": "이 빵은 딱딱하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_035",
+      "word": "柔らかい",
+      "pronunciation": "やわらかい",
+      "subcategory": "질감",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "부드럽다",
+          "examples": [
+            {
+              "sentence": "この肉は柔らかい。",
+              "translation": "이 고기는 부드럽다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_036",
+      "word": "重い",
+      "pronunciation": "おもい",
+      "subcategory": "무게",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "무겁다",
+          "examples": [
+            {
+              "sentence": "荷物が重い。",
+              "translation": "짐이 무겁다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_037",
+      "word": "軽い",
+      "pronunciation": "かるい",
+      "subcategory": "무게",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "가볍다",
+          "examples": [
+            {
+              "sentence": "このカバンは軽い。",
+              "translation": "이 가방은 가볍다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_038",
+      "word": "太い",
+      "pronunciation": "ふとい",
+      "subcategory": "크기",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "굵다",
+          "examples": [
+            {
+              "sentence": "木が太い。",
+              "translation": "나무가 굵다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_039",
+      "word": "細い",
+      "pronunciation": "ほそい",
+      "subcategory": "크기",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "가늘다",
+          "examples": [
+            {
+              "sentence": "指が細い。",
+              "translation": "손가락이 가늘다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_040",
+      "word": "厚い",
+      "pronunciation": "あつい",
+      "subcategory": "크기",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "두껍다",
+          "examples": [
+            {
+              "sentence": "本が厚い。",
+              "translation": "책이 두껍다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_041",
+      "word": "薄い",
+      "pronunciation": "うすい",
+      "subcategory": "크기",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "얇다",
+          "examples": [
+            {
+              "sentence": "紙が薄い。",
+              "translation": "종이가 얇다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_042",
+      "word": "深い",
+      "pronunciation": "ふかい",
+      "subcategory": "크기",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "깊다",
+          "examples": [
+            {
+              "sentence": "海が深い。",
+              "translation": "바다가 깊다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_043",
+      "word": "浅い",
+      "pronunciation": "あさい",
+      "subcategory": "크기",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "얕다",
+          "examples": [
+            {
+              "sentence": "川が浅い。",
+              "translation": "강이 얕다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_044",
+      "word": "甘い",
+      "pronunciation": "あまい",
+      "subcategory": "맛",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "달다",
+          "examples": [
+            {
+              "sentence": "このケーキは甘い。",
+              "translation": "이 케이크는 달다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_045",
+      "word": "辛い",
+      "pronunciation": "からい",
+      "subcategory": "맛",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "맵다",
+          "examples": [
+            {
+              "sentence": "カレーが辛い。",
+              "translation": "카레가 맵다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_046",
+      "word": "苦い",
+      "pronunciation": "にがい",
+      "subcategory": "맛",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "쓰다",
+          "examples": [
+            {
+              "sentence": "薬が苦い。",
+              "translation": "약이 쓰다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_047",
+      "word": "酸っぱい",
+      "pronunciation": "すっぱい",
+      "subcategory": "맛",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "시다",
+          "examples": [
+            {
+              "sentence": "レモンは酸っぱい。",
+              "translation": "레몬은 시다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_048",
+      "word": "しょっぱい",
+      "pronunciation": "しょっぱい",
+      "subcategory": "맛",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "짜다",
+          "examples": [
+            {
+              "sentence": "味噌汁がしょっぱい。",
+              "translation": "된장국이 짜다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_049",
+      "word": "美味しい",
+      "pronunciation": "おいしい",
+      "subcategory": "맛",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "맛있다",
+          "examples": [
+            {
+              "sentence": "この料理は美味しい。",
+              "translation": "이 요리는 맛있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_050",
+      "word": "不味い",
+      "pronunciation": "まずい",
+      "subcategory": "맛",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "맛없다",
+          "examples": [
+            {
+              "sentence": "この魚は不味い。",
+              "translation": "이 생선은 맛없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_051",
+      "word": "嬉しい",
+      "pronunciation": "うれしい",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "기쁘다",
+          "examples": [
+            {
+              "sentence": "プレゼントをもらって嬉しい。",
+              "translation": "선물을 받아서 기쁘다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_052",
+      "word": "悲しい",
+      "pronunciation": "かなしい",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "슬프다",
+          "examples": [
+            {
+              "sentence": "別れが悲しい。",
+              "translation": "이별이 슬프다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_053",
+      "word": "楽しい",
+      "pronunciation": "たのしい",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "즐겁다",
+          "examples": [
+            {
+              "sentence": "旅行は楽しい。",
+              "translation": "여행은 즐겁다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_054",
+      "word": "寂しい",
+      "pronunciation": "さびしい",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "쓸쓸하다, 외롭다",
+          "examples": [
+            {
+              "sentence": "一人で寂しい。",
+              "translation": "혼자서 외롭다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_055",
+      "word": "恐い",
+      "pronunciation": "こわい",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "무섭다",
+          "examples": [
+            {
+              "sentence": "お化けが恐い。",
+              "translation": "귀신이 무섭다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_056",
+      "word": "恥ずかしい",
+      "pronunciation": "はずかしい",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "부끄럽다",
+          "examples": [
+            {
+              "sentence": "失敗して恥ずかしい。",
+              "translation": "실패해서 부끄럽다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_057",
+      "word": "羨ましい",
+      "pronunciation": "うらやましい",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "부럽다",
+          "examples": [
+            {
+              "sentence": "彼が羨ましい。",
+              "translation": "그가 부럽다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_058",
+      "word": "懐かしい",
+      "pronunciation": "なつかしい",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "그립다",
+          "examples": [
+            {
+              "sentence": "故郷が懐かしい。",
+              "translation": "고향이 그립다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_059",
+      "word": "痛い",
+      "pronunciation": "いたい",
+      "subcategory": "감각",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "아프다",
+          "examples": [
+            {
+              "sentence": "頭が痛い。",
+              "translation": "머리가 아프다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_060",
+      "word": "痒い",
+      "pronunciation": "かゆい",
+      "subcategory": "감각",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "가렵다",
+          "examples": [
+            {
+              "sentence": "背中が痒い。",
+              "translation": "등이 가렵다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_061",
+      "word": "眠い",
+      "pronunciation": "ねむい",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "졸리다",
+          "examples": [
+            {
+              "sentence": "とても眠い。",
+              "translation": "매우 졸리다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_062",
+      "word": "忙しい",
+      "pronunciation": "いそがしい",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "바쁘다",
+          "examples": [
+            {
+              "sentence": "仕事で忙しい。",
+              "translation": "일로 바쁘다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_063",
+      "word": "難しい",
+      "pronunciation": "むずかしい",
+      "subcategory": "난이도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "어렵다",
+          "examples": [
+            {
+              "sentence": "日本語は難しい。",
+              "translation": "일본어는 어렵다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_064",
+      "word": "易しい",
+      "pronunciation": "やさしい",
+      "subcategory": "난이도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "쉽다",
+          "examples": [
+            {
+              "sentence": "この問題は易しい。",
+              "translation": "이 문제는 쉽다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_065",
+      "word": "優しい",
+      "pronunciation": "やさしい",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "상냥하다, 친절하다",
+          "examples": [
+            {
+              "sentence": "彼女は優しい。",
+              "translation": "그녀는 상냥하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_066",
+      "word": "厳しい",
+      "pronunciation": "きびしい",
+      "subcategory": "성격",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "엄격하다",
+          "examples": [
+            {
+              "sentence": "先生は厳しい。",
+              "translation": "선생님은 엄격하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_067",
+      "word": "正しい",
+      "pronunciation": "ただしい",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "올바르다",
+          "examples": [
+            {
+              "sentence": "答えが正しい。",
+              "translation": "답이 올바르다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_068",
+      "word": "珍しい",
+      "pronunciation": "めずらしい",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "드물다, 신기하다",
+          "examples": [
+            {
+              "sentence": "この花は珍しい。",
+              "translation": "이 꽃은 드물다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_069",
+      "word": "素晴らしい",
+      "pronunciation": "すばらしい",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "훌륭하다",
+          "examples": [
+            {
+              "sentence": "景色が素晴らしい。",
+              "translation": "경치가 훌륭하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_070",
+      "word": "面白い",
+      "pronunciation": "おもしろい",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "재미있다",
+          "examples": [
+            {
+              "sentence": "この映画は面白い。",
+              "translation": "이 영화는 재미있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_071",
+      "word": "つまらない",
+      "pronunciation": "つまらない",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "재미없다, 시시하다",
+          "examples": [
+            {
+              "sentence": "この本はつまらない。",
+              "translation": "이 책은 재미없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_072",
+      "word": "危ない",
+      "pronunciation": "あぶない",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "위험하다",
+          "examples": [
+            {
+              "sentence": "この道は危ない。",
+              "translation": "이 길은 위험하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_073",
+      "word": "汚い",
+      "pronunciation": "きたない",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "더럽다",
+          "examples": [
+            {
+              "sentence": "部屋が汚い。",
+              "translation": "방이 더럽다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_074",
+      "word": "白い",
+      "pronunciation": "しろい",
+      "subcategory": "색깔",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "하얗다",
+          "examples": [
+            {
+              "sentence": "雪は白い。",
+              "translation": "눈은 하얗다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_075",
+      "word": "黒い",
+      "pronunciation": "くろい",
+      "subcategory": "색깔",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "검다",
+          "examples": [
+            {
+              "sentence": "髪が黒い。",
+              "translation": "머리가 검다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_076",
+      "word": "赤い",
+      "pronunciation": "あかい",
+      "subcategory": "색깔",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "빨갛다",
+          "examples": [
+            {
+              "sentence": "りんごは赤い。",
+              "translation": "사과는 빨갛다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_077",
+      "word": "青い",
+      "pronunciation": "あおい",
+      "subcategory": "색깔",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "파랗다",
+          "examples": [
+            {
+              "sentence": "空が青い。",
+              "translation": "하늘이 파랗다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_078",
+      "word": "黄色い",
+      "pronunciation": "きいろい",
+      "subcategory": "색깔",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "노랗다",
+          "examples": [
+            {
+              "sentence": "バナナは黄色い。",
+              "translation": "바나나는 노랗다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_079",
+      "word": "丸い",
+      "pronunciation": "まるい",
+      "subcategory": "모양",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "둥글다",
+          "examples": [
+            {
+              "sentence": "地球は丸い。",
+              "translation": "지구는 둥글다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_080",
+      "word": "四角い",
+      "pronunciation": "しかくい",
+      "subcategory": "모양",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "네모나다",
+          "examples": [
+            {
+              "sentence": "この箱は四角い。",
+              "translation": "이 상자는 네모나다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_081",
+      "word": "うるさい",
+      "pronunciation": "うるさい",
+      "subcategory": "소리",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "시끄럽다",
+          "examples": [
+            {
+              "sentence": "外がうるさい。",
+              "translation": "밖이 시끄럽다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_082",
+      "word": "静かい",
+      "pronunciation": "しずかい",
+      "subcategory": "소리",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "조용하다 (※静か는 な형용사)",
+          "examples": [
+            {
+              "sentence": "図書館は静かい。",
+              "translation": "도서관은 조용하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_083",
+      "word": "臭い",
+      "pronunciation": "くさい",
+      "subcategory": "냄새",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "냄새가 나다, 구리다",
+          "examples": [
+            {
+              "sentence": "ゴミが臭い。",
+              "translation": "쓰레기가 냄새난다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_084",
+      "word": "欲しい",
+      "pronunciation": "ほしい",
+      "subcategory": "욕구",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "갖고 싶다, 원하다",
+          "examples": [
+            {
+              "sentence": "新しいパソコンが欲しい。",
+              "translation": "새 컴퓨터가 갖고 싶다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_085",
+      "word": "眩しい",
+      "pronunciation": "まぶしい",
+      "subcategory": "감각",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "눈부시다",
+          "examples": [
+            {
+              "sentence": "太陽が眩しい。",
+              "translation": "태양이 눈부시다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_086",
+      "word": "嫌い",
+      "pronunciation": "きらい",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "싫다 (※嫌い는 な형용사)",
+          "examples": [
+            {
+              "sentence": "野菜が嫌い。",
+              "translation": "채소가 싫다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_087",
+      "word": "醜い",
+      "pronunciation": "みにくい",
+      "subcategory": "외모",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "추하다, 못생기다",
+          "examples": [
+            {
+              "sentence": "醜いアヒルの子。",
+              "translation": "미운 오리 새끼."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_088",
+      "word": "鋭い",
+      "pronunciation": "するどい",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "날카롭다",
+          "examples": [
+            {
+              "sentence": "ナイフが鋭い。",
+              "translation": "칼이 날카롭다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_089",
+      "word": "鈍い",
+      "pronunciation": "にぶい",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "둔하다",
+          "examples": [
+            {
+              "sentence": "反応が鈍い。",
+              "translation": "반응이 둔하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_090",
+      "word": "激しい",
+      "pronunciation": "はげしい",
+      "subcategory": "강도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "격렬하다",
+          "examples": [
+            {
+              "sentence": "雨が激しい。",
+              "translation": "비가 격렬하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_091",
+      "word": "緩い",
+      "pronunciation": "ゆるい",
+      "subcategory": "강도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "느슨하다",
+          "examples": [
+            {
+              "sentence": "ベルトが緩い。",
+              "translation": "벨트가 느슨하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_092",
+      "word": "詳しい",
+      "pronunciation": "くわしい",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "자세하다, 정통하다",
+          "examples": [
+            {
+              "sentence": "彼は日本に詳しい。",
+              "translation": "그는 일본에 정통하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_093",
+      "word": "等しい",
+      "pronunciation": "ひとしい",
+      "subcategory": "비교",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "같다, 동등하다",
+          "examples": [
+            {
+              "sentence": "二つは等しい。",
+              "translation": "둘은 동등하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_094",
+      "word": "親しい",
+      "pronunciation": "したしい",
+      "subcategory": "관계",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "친하다",
+          "examples": [
+            {
+              "sentence": "彼とは親しい。",
+              "translation": "그와는 친하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_095",
+      "word": "貧しい",
+      "pronunciation": "まずしい",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "가난하다",
+          "examples": [
+            {
+              "sentence": "貧しい生活。",
+              "translation": "가난한 생활."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_096",
+      "word": "乏しい",
+      "pronunciation": "とぼしい",
+      "subcategory": "수량",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "부족하다",
+          "examples": [
+            {
+              "sentence": "経験が乏しい。",
+              "translation": "경험이 부족하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_097",
+      "word": "蒸し暑い",
+      "pronunciation": "むしあつい",
+      "subcategory": "온도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "무덥다",
+          "examples": [
+            {
+              "sentence": "今日は蒸し暑い。",
+              "translation": "오늘은 무덥다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_098",
+      "word": "素早い",
+      "pronunciation": "すばやい",
+      "subcategory": "속도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "재빠르다",
+          "examples": [
+            {
+              "sentence": "動きが素早い。",
+              "translation": "움직임이 재빠르다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_099",
+      "word": "煩わしい",
+      "pronunciation": "わずらわしい",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "번거롭다, 귀찮다",
+          "examples": [
+            {
+              "sentence": "手続きが煩わしい。",
+              "translation": "절차가 번거롭다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_100",
+      "word": "目覚ましい",
+      "pronunciation": "めざましい",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "눈부시다, 놀랍다",
+          "examples": [
+            {
+              "sentence": "目覚ましい発展。",
+              "translation": "눈부신 발전."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_101",
+      "word": "著しい",
+      "pronunciation": "いちじるしい",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "현저하다",
+          "examples": [
+            {
+              "sentence": "著しい変化。",
+              "translation": "현저한 변화."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_102",
+      "word": "望ましい",
+      "pronunciation": "のぞましい",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "바람직하다",
+          "examples": [
+            {
+              "sentence": "望ましい結果。",
+              "translation": "바람직한 결과."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_103",
+      "word": "好ましい",
+      "pronunciation": "このましい",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "호감이 가다",
+          "examples": [
+            {
+              "sentence": "好ましい印象。",
+              "translation": "호감이 가는 인상."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_104",
+      "word": "喜ばしい",
+      "pronunciation": "よろこばしい",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "기쁘다",
+          "examples": [
+            {
+              "sentence": "喜ばしいニュース。",
+              "translation": "기쁜 뉴스."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_105",
+      "word": "頼もしい",
+      "pronunciation": "たのもしい",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "믿음직하다",
+          "examples": [
+            {
+              "sentence": "頼もしい味方。",
+              "translation": "믿음직한 아군."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_106",
+      "word": "空しい",
+      "pronunciation": "むなしい",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "허무하다, 공허하다",
+          "examples": [
+            {
+              "sentence": "空しい気持ち。",
+              "translation": "허무한 기분."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_107",
+      "word": "悔しい",
+      "pronunciation": "くやしい",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "분하다, 억울하다",
+          "examples": [
+            {
+              "sentence": "負けて悔しい。",
+              "translation": "져서 분하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_108",
+      "word": "怪しい",
+      "pronunciation": "あやしい",
+      "subcategory": "평가",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "수상하다, 의심스럽다",
+          "examples": [
+            {
+              "sentence": "怪しい人。",
+              "translation": "수상한 사람."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_109",
+      "word": "愛しい",
+      "pronunciation": "いとしい",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "사랑스럽다",
+          "examples": [
+            {
+              "sentence": "愛しい人。",
+              "translation": "사랑스러운 사람."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jia_110",
+      "word": "清い",
+      "pronunciation": "きよい",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "い형용사",
+          "meaning": "맑다, 깨끗하다",
+          "examples": [
+            {
+              "sentence": "清い心。",
+              "translation": "맑은 마음."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

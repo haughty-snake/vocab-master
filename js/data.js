@@ -77,6 +77,7 @@ const VocabData = {
             name: categoryData.name,
             icon: categoryData.icon,
             color: categoryData.color,
+            lang: categoryData.lang || 'en-US',
             subcategories: [],
             words: []
         };
@@ -90,6 +91,7 @@ const VocabData = {
                 id: wordData.id,
                 category: categoryData.id,
                 categoryName: categoryData.name,
+                lang: categoryData.lang || 'en-US',
                 subcategory: wordData.subcategory || '',
                 word: wordData.word,
                 pronunciation: wordData.pronunciation || '',
@@ -186,11 +188,13 @@ const VocabData = {
         Storage.customCategories.forEach(customCat => {
             if (this.categories.find(c => c.id === customCat.id)) return;
 
+            const categoryLang = customCat.lang || 'en-US';
             const category = {
                 id: customCat.id,
                 name: customCat.name,
                 icon: customCat.icon || '📁',
                 color: customCat.color || '#6c757d',
+                lang: categoryLang,
                 isCustom: true,
                 subcategories: [],
                 words: []
@@ -201,6 +205,7 @@ const VocabData = {
                     id: wordData.id,
                     category: customCat.id,
                     categoryName: customCat.name,
+                    lang: categoryLang,
                     word: wordData.word,
                     pronunciation: wordData.pronunciation || '',
                     meanings: wordData.meanings || [],

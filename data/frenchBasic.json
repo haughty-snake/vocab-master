@@ -1,0 +1,1059 @@
+{
+  "id": "frenchBasic",
+  "name": "프랑스어 기초",
+  "icon": "🇫🇷",
+  "color": "#002395",
+  "lang": "fr-FR",
+  "words": [
+    {
+      "id": "french_bonjour_0",
+      "word": "Bonjour",
+      "pronunciation": "봉주르",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "안녕하세요 (낮)", "examples": [{ "sentence": "Bonjour, comment allez-vous?", "translation": "안녕하세요, 어떻게 지내세요?" }] }]
+    },
+    {
+      "id": "french_bonsoir_1",
+      "word": "Bonsoir",
+      "pronunciation": "봉수아르",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "안녕하세요 (저녁)", "examples": [{ "sentence": "Bonsoir, vous allez bien?", "translation": "안녕하세요, 잘 지내세요?" }] }]
+    },
+    {
+      "id": "french_au_revoir_2",
+      "word": "Au revoir",
+      "pronunciation": "오 흐부아르",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "안녕히 가세요", "examples": [{ "sentence": "Au revoir, à demain!", "translation": "안녕, 내일 봐!" }] }]
+    },
+    {
+      "id": "french_merci_3",
+      "word": "Merci",
+      "pronunciation": "메르시",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "감사합니다", "examples": [{ "sentence": "Merci beaucoup pour votre aide.", "translation": "도와주셔서 대단히 감사합니다." }] }]
+    },
+    {
+      "id": "french_de_rien_4",
+      "word": "De rien",
+      "pronunciation": "드 리엥",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "천만에요", "examples": [{ "sentence": "De rien, c'est normal.", "translation": "천만에요, 당연한 거예요." }] }]
+    },
+    {
+      "id": "french_sil_vous_plait_5",
+      "word": "S'il vous plaît",
+      "pronunciation": "실 부 플레",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "부탁합니다, 제발", "examples": [{ "sentence": "Un café, s'il vous plaît.", "translation": "커피 한 잔 주세요." }] }]
+    },
+    {
+      "id": "french_excusez_moi_6",
+      "word": "Excusez-moi",
+      "pronunciation": "엑스퀴제 무아",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "실례합니다", "examples": [{ "sentence": "Excusez-moi, où est la gare?", "translation": "실례합니다, 역이 어디인가요?" }] }]
+    },
+    {
+      "id": "french_pardon_7",
+      "word": "Pardon",
+      "pronunciation": "빠르동",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "", "meaning": "죄송합니다", "examples": [{ "sentence": "Pardon, je suis en retard.", "translation": "죄송합니다, 늦었습니다." }] }]
+    },
+    {
+      "id": "french_je_8",
+      "word": "Je",
+      "pronunciation": "쥬",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "나", "examples": [{ "sentence": "Je suis coréen.", "translation": "나는 한국인입니다." }] }]
+    },
+    {
+      "id": "french_tu_9",
+      "word": "Tu",
+      "pronunciation": "뛰",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "너 (반말)", "examples": [{ "sentence": "Tu parles français?", "translation": "너 프랑스어 할 줄 알아?" }] }]
+    },
+    {
+      "id": "french_vous_10",
+      "word": "Vous",
+      "pronunciation": "부",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "당신 (존칭), 여러분", "examples": [{ "sentence": "Vous parlez anglais?", "translation": "영어 하실 줄 아세요?" }] }]
+    },
+    {
+      "id": "french_il_elle_11",
+      "word": "Il/Elle",
+      "pronunciation": "일/엘",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "그/그녀", "examples": [{ "sentence": "Il est mon ami.", "translation": "그는 내 친구야." }] }]
+    },
+    {
+      "id": "french_nous_12",
+      "word": "Nous",
+      "pronunciation": "누",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "우리", "examples": [{ "sentence": "Nous allons au cinéma.", "translation": "우리는 영화관에 가요." }] }]
+    },
+    {
+      "id": "french_etre_13",
+      "word": "Être",
+      "pronunciation": "에트르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "~이다, 있다", "examples": [{ "sentence": "Je suis étudiant.", "translation": "나는 학생입니다." }] }]
+    },
+    {
+      "id": "french_avoir_14",
+      "word": "Avoir",
+      "pronunciation": "아부아르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "가지다", "examples": [{ "sentence": "J'ai une question.", "translation": "질문이 있어요." }] }]
+    },
+    {
+      "id": "french_aller_15",
+      "word": "Aller",
+      "pronunciation": "알레",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "가다", "examples": [{ "sentence": "Je vais à l'école.", "translation": "나는 학교에 가요." }] }]
+    },
+    {
+      "id": "french_venir_16",
+      "word": "Venir",
+      "pronunciation": "브니르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "오다", "examples": [{ "sentence": "Tu viens avec moi?", "translation": "나랑 같이 갈래?" }] }]
+    },
+    {
+      "id": "french_manger_17",
+      "word": "Manger",
+      "pronunciation": "망제",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "먹다", "examples": [{ "sentence": "Je veux manger.", "translation": "먹고 싶어요." }] }]
+    },
+    {
+      "id": "french_boire_18",
+      "word": "Boire",
+      "pronunciation": "부아르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "마시다", "examples": [{ "sentence": "Je voudrais boire de l'eau.", "translation": "물 마시고 싶어요." }] }]
+    },
+    {
+      "id": "french_parler_19",
+      "word": "Parler",
+      "pronunciation": "빠를레",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "말하다", "examples": [{ "sentence": "Je parle un peu français.", "translation": "프랑스어를 조금 해요." }] }]
+    },
+    {
+      "id": "french_comprendre_20",
+      "word": "Comprendre",
+      "pronunciation": "콩프랑드르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "이해하다", "examples": [{ "sentence": "Je ne comprends pas.", "translation": "이해하지 못해요." }] }]
+    },
+    {
+      "id": "french_vouloir_21",
+      "word": "Vouloir",
+      "pronunciation": "불루아르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "원하다", "examples": [{ "sentence": "Je voudrais un café.", "translation": "커피 한 잔 주세요." }] }]
+    },
+    {
+      "id": "french_bon_22",
+      "word": "Bon/Bonne",
+      "pronunciation": "봉/본",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "좋은", "examples": [{ "sentence": "C'est un bon livre.", "translation": "좋은 책이에요." }] }]
+    },
+    {
+      "id": "french_mauvais_23",
+      "word": "Mauvais/e",
+      "pronunciation": "모베/모베즈",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "나쁜", "examples": [{ "sentence": "Le temps est mauvais.", "translation": "날씨가 나빠요." }] }]
+    },
+    {
+      "id": "french_grand_24",
+      "word": "Grand/e",
+      "pronunciation": "그랑/그랑드",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "큰", "examples": [{ "sentence": "C'est une grande maison.", "translation": "큰 집이에요." }] }]
+    },
+    {
+      "id": "french_petit_25",
+      "word": "Petit/e",
+      "pronunciation": "쁘띠/쁘띳",
+      "subcategory": "기본 형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "작은", "examples": [{ "sentence": "J'ai un petit chien.", "translation": "작은 개가 있어요." }] }]
+    },
+    {
+      "id": "french_un_26",
+      "word": "Un/Une",
+      "pronunciation": "앙/윈",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "1, 하나", "examples": [{ "sentence": "Un café, s'il vous plaît.", "translation": "커피 한 잔 주세요." }] }]
+    },
+    {
+      "id": "french_deux_27",
+      "word": "Deux",
+      "pronunciation": "되",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "2, 둘", "examples": [{ "sentence": "Nous sommes deux.", "translation": "우리는 두 명이에요." }] }]
+    },
+    {
+      "id": "french_trois_28",
+      "word": "Trois",
+      "pronunciation": "트와",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "3, 셋", "examples": [{ "sentence": "À trois heures.", "translation": "3시에요." }] }]
+    },
+    {
+      "id": "french_dix_29",
+      "word": "Dix",
+      "pronunciation": "디스",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "10, 열", "examples": [{ "sentence": "C'est dix euros.", "translation": "10유로예요." }] }]
+    },
+    {
+      "id": "french_cent_30",
+      "word": "Cent",
+      "pronunciation": "상",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "100, 백", "examples": [{ "sentence": "Ça coûte cent euros.", "translation": "100유로예요." }] }]
+    },
+    {
+      "id": "french_aujourdhui_31",
+      "word": "Aujourd'hui",
+      "pronunciation": "오주르뒤",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "오늘", "examples": [{ "sentence": "Aujourd'hui, c'est lundi.", "translation": "오늘은 월요일이에요." }] }]
+    },
+    {
+      "id": "french_demain_32",
+      "word": "Demain",
+      "pronunciation": "드망",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "내일", "examples": [{ "sentence": "À demain!", "translation": "내일 봐요!" }] }]
+    },
+    {
+      "id": "french_hier_33",
+      "word": "Hier",
+      "pronunciation": "이에르",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "어제", "examples": [{ "sentence": "Hier, je suis allé au cinéma.", "translation": "어제 영화관에 갔어요." }] }]
+    },
+    {
+      "id": "french_maintenant_34",
+      "word": "Maintenant",
+      "pronunciation": "망트낭",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "지금", "examples": [{ "sentence": "Quelle heure est-il maintenant?", "translation": "지금 몇 시예요?" }] }]
+    },
+    {
+      "id": "french_combien_35",
+      "word": "Combien ça coûte?",
+      "pronunciation": "콩비앙 사 꾸뜨",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "얼마예요?", "examples": [{ "sentence": "Combien ça coûte?", "translation": "이거 얼마예요?" }] }]
+    },
+    {
+      "id": "french_ou_est_36",
+      "word": "Où est...?",
+      "pronunciation": "우 에",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "~은 어디에 있어요?", "examples": [{ "sentence": "Où sont les toilettes?", "translation": "화장실이 어디인가요?" }] }]
+    },
+    {
+      "id": "french_je_ne_comprends_pas_37",
+      "word": "Je ne comprends pas",
+      "pronunciation": "쥬 느 콩프랑 빠",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "이해하지 못해요", "examples": [{ "sentence": "Désolé, je ne comprends pas.", "translation": "죄송해요, 이해하지 못해요." }] }]
+    },
+    {
+      "id": "french_je_voudrais_38",
+      "word": "Je voudrais...",
+      "pronunciation": "쥬 부드레",
+      "subcategory": "필수 패턴",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "~하고 싶습니다", "examples": [{ "sentence": "Je voudrais réserver une table.", "translation": "테이블을 예약하고 싶습니다." }] }]
+    },
+    {
+      "id": "french_pouvez_vous_repeter_39",
+      "word": "Pouvez-vous répéter?",
+      "pronunciation": "뿌베 부 레뻬떼",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "다시 말씀해 주시겠어요?", "examples": [{ "sentence": "Pouvez-vous répéter, s'il vous plaît?", "translation": "다시 말씀해 주시겠어요?" }] }]
+    },
+    {
+      "id": "french_enchante_40",
+      "word": "Enchanté/e",
+      "pronunciation": "앙샹떼",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "만나서 반갑습니다", "examples": [{ "sentence": "Enchanté, je m'appelle Pierre.", "translation": "만나서 반갑습니다, 저는 피에르예요." }] }]
+    },
+    {
+      "id": "french_restaurant_41",
+      "word": "Restaurant",
+      "pronunciation": "레스또랑",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "식당", "examples": [{ "sentence": "Ce restaurant est très bon.", "translation": "이 식당은 아주 좋아요." }] }]
+    },
+    {
+      "id": "french_aeroport_42",
+      "word": "Aéroport",
+      "pronunciation": "아에로뽀르",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "공항", "examples": [{ "sentence": "Comment aller à l'aéroport?", "translation": "공항에 어떻게 가요?" }] }]
+    },
+    {
+      "id": "french_hopital_43",
+      "word": "Hôpital",
+      "pronunciation": "오삐딸",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "병원", "examples": [{ "sentence": "Y a-t-il un hôpital près d'ici?", "translation": "근처에 병원이 있어요?" }] }]
+    },
+    {
+      "id": "french_famille_44",
+      "word": "Famille",
+      "pronunciation": "파미유",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "가족", "examples": [{ "sentence": "Ma famille habite en Corée.", "translation": "제 가족은 한국에 살아요." }] }]
+    },
+    {
+      "id": "french_pere_45",
+      "word": "Père",
+      "pronunciation": "뻬르",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "아버지", "examples": [{ "sentence": "Mon père est médecin.", "translation": "제 아버지는 의사예요." }] }]
+    },
+    {
+      "id": "french_mere_46",
+      "word": "Mère",
+      "pronunciation": "메르",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "어머니", "examples": [{ "sentence": "Ma mère cuisine très bien.", "translation": "우리 어머니는 요리를 아주 잘해요." }] }]
+    },
+    {
+      "id": "french_ami_47",
+      "word": "Ami/e",
+      "pronunciation": "아미",
+      "subcategory": "관계",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "친구", "examples": [{ "sentence": "C'est mon meilleur ami.", "translation": "그는 내 가장 친한 친구야." }] }]
+    },
+    {
+      "id": "french_eau_48",
+      "word": "Eau",
+      "pronunciation": "오",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "물", "examples": [{ "sentence": "Un verre d'eau, s'il vous plaît.", "translation": "물 한 잔 주세요." }] }]
+    },
+    {
+      "id": "french_argent_49",
+      "word": "Argent",
+      "pronunciation": "아르장",
+      "subcategory": "기타",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "돈", "examples": [{ "sentence": "Je n'ai pas d'argent.", "translation": "돈이 없어요." }] }]
+    },
+    {
+      "id": "french_je_50",
+      "word": "Je",
+      "pronunciation": "쥬",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "나", "examples": [{ "sentence": "Je suis étudiant.", "translation": "나는 학생이에요." }] }]
+    },
+    {
+      "id": "french_tu_51",
+      "word": "Tu",
+      "pronunciation": "뛰",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "너", "examples": [{ "sentence": "Tu vas bien?", "translation": "너 잘 지내?" }] }]
+    },
+    {
+      "id": "french_il_52",
+      "word": "Il",
+      "pronunciation": "일",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "그", "examples": [{ "sentence": "Il est français.", "translation": "그는 프랑스인이에요." }] }]
+    },
+    {
+      "id": "french_elle_53",
+      "word": "Elle",
+      "pronunciation": "엘",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "그녀", "examples": [{ "sentence": "Elle est très gentille.", "translation": "그녀는 매우 친절해요." }] }]
+    },
+    {
+      "id": "french_nous_54",
+      "word": "Nous",
+      "pronunciation": "누",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "우리", "examples": [{ "sentence": "Nous allons au cinéma.", "translation": "우리는 영화관에 가요." }] }]
+    },
+    {
+      "id": "french_vous_55",
+      "word": "Vous",
+      "pronunciation": "부",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "당신/당신들", "examples": [{ "sentence": "Vous êtes d'où?", "translation": "당신은 어디 출신이에요?" }] }]
+    },
+    {
+      "id": "french_ils_56",
+      "word": "Ils",
+      "pronunciation": "일",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "그들 (남성)", "examples": [{ "sentence": "Ils travaillent ensemble.", "translation": "그들은 함께 일해요." }] }]
+    },
+    {
+      "id": "french_elles_57",
+      "word": "Elles",
+      "pronunciation": "엘",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "그녀들", "examples": [{ "sentence": "Elles sont sœurs.", "translation": "그녀들은 자매예요." }] }]
+    },
+    {
+      "id": "french_qui_58",
+      "word": "Qui",
+      "pronunciation": "끼",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "누구", "examples": [{ "sentence": "Qui est-ce?", "translation": "이 사람은 누구예요?" }] }]
+    },
+    {
+      "id": "french_que_59",
+      "word": "Que",
+      "pronunciation": "끄",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "무엇", "examples": [{ "sentence": "Que voulez-vous?", "translation": "무엇을 원하세요?" }] }]
+    },
+    {
+      "id": "french_ou_60",
+      "word": "Où",
+      "pronunciation": "우",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "어디", "examples": [{ "sentence": "Où habitez-vous?", "translation": "어디에 사세요?" }] }]
+    },
+    {
+      "id": "french_quand_61",
+      "word": "Quand",
+      "pronunciation": "깡",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "언제", "examples": [{ "sentence": "Quand partez-vous?", "translation": "언제 떠나세요?" }] }]
+    },
+    {
+      "id": "french_comment_62",
+      "word": "Comment",
+      "pronunciation": "꼬망",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "어떻게", "examples": [{ "sentence": "Comment ça va?", "translation": "어떻게 지내세요?" }] }]
+    },
+    {
+      "id": "french_pourquoi_63",
+      "word": "Pourquoi",
+      "pronunciation": "뿌르꾸아",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "왜", "examples": [{ "sentence": "Pourquoi tu pleures?", "translation": "왜 울어?" }] }]
+    },
+    {
+      "id": "french_etre_64",
+      "word": "Être",
+      "pronunciation": "에트르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "~이다, 있다", "examples": [{ "sentence": "Je suis content.", "translation": "나는 기뻐요." }] }]
+    },
+    {
+      "id": "french_avoir_65",
+      "word": "Avoir",
+      "pronunciation": "아부아르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "가지다", "examples": [{ "sentence": "J'ai une voiture.", "translation": "나는 차가 있어요." }] }]
+    },
+    {
+      "id": "french_aller_66",
+      "word": "Aller",
+      "pronunciation": "알레",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "가다", "examples": [{ "sentence": "Je vais à Paris.", "translation": "나는 파리에 가요." }] }]
+    },
+    {
+      "id": "french_faire_67",
+      "word": "Faire",
+      "pronunciation": "페르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "하다, 만들다", "examples": [{ "sentence": "Qu'est-ce que tu fais?", "translation": "뭐 하고 있어?" }] }]
+    },
+    {
+      "id": "french_venir_68",
+      "word": "Venir",
+      "pronunciation": "브니르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "오다", "examples": [{ "sentence": "Tu viens avec moi?", "translation": "나랑 같이 갈래?" }] }]
+    },
+    {
+      "id": "french_voir_69",
+      "word": "Voir",
+      "pronunciation": "부아르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "보다", "examples": [{ "sentence": "Je vois la mer.", "translation": "바다가 보여요." }] }]
+    },
+    {
+      "id": "french_savoir_70",
+      "word": "Savoir",
+      "pronunciation": "사부아르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "알다", "examples": [{ "sentence": "Je ne sais pas.", "translation": "몰라요." }] }]
+    },
+    {
+      "id": "french_pouvoir_71",
+      "word": "Pouvoir",
+      "pronunciation": "뿌부아르",
+      "subcategory": "조동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "~할 수 있다", "examples": [{ "sentence": "Je peux vous aider?", "translation": "도와드릴까요?" }] }]
+    },
+    {
+      "id": "french_vouloir_72",
+      "word": "Vouloir",
+      "pronunciation": "불루아르",
+      "subcategory": "조동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "원하다", "examples": [{ "sentence": "Je veux manger.", "translation": "먹고 싶어요." }] }]
+    },
+    {
+      "id": "french_devoir_73",
+      "word": "Devoir",
+      "pronunciation": "드부아르",
+      "subcategory": "조동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "~해야 하다", "examples": [{ "sentence": "Je dois partir.", "translation": "가야 해요." }] }]
+    },
+    {
+      "id": "french_parler_74",
+      "word": "Parler",
+      "pronunciation": "빠를레",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "말하다", "examples": [{ "sentence": "Je parle français.", "translation": "프랑스어를 해요." }] }]
+    },
+    {
+      "id": "french_manger_75",
+      "word": "Manger",
+      "pronunciation": "망제",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "먹다", "examples": [{ "sentence": "On mange ensemble?", "translation": "같이 먹을까요?" }] }]
+    },
+    {
+      "id": "french_boire_76",
+      "word": "Boire",
+      "pronunciation": "부아르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "마시다", "examples": [{ "sentence": "Je bois du café.", "translation": "커피를 마셔요." }] }]
+    },
+    {
+      "id": "french_dormir_77",
+      "word": "Dormir",
+      "pronunciation": "도르미르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "자다", "examples": [{ "sentence": "Je dors bien.", "translation": "잘 자요." }] }]
+    },
+    {
+      "id": "french_travailler_78",
+      "word": "Travailler",
+      "pronunciation": "트라바예",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "일하다", "examples": [{ "sentence": "Je travaille à Paris.", "translation": "파리에서 일해요." }] }]
+    },
+    {
+      "id": "french_bon_79",
+      "word": "Bon",
+      "pronunciation": "봉",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "좋은", "examples": [{ "sentence": "C'est très bon!", "translation": "아주 좋아요!" }] }]
+    },
+    {
+      "id": "french_mauvais_80",
+      "word": "Mauvais",
+      "pronunciation": "모베",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "나쁜", "examples": [{ "sentence": "Le temps est mauvais.", "translation": "날씨가 안 좋아요." }] }]
+    },
+    {
+      "id": "french_grand_81",
+      "word": "Grand",
+      "pronunciation": "그랑",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "큰, 키가 큰", "examples": [{ "sentence": "Il est très grand.", "translation": "그는 키가 아주 커요." }] }]
+    },
+    {
+      "id": "french_petit_82",
+      "word": "Petit",
+      "pronunciation": "프띠",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "작은", "examples": [{ "sentence": "Un petit café.", "translation": "작은 커피 한 잔." }] }]
+    },
+    {
+      "id": "french_beau_83",
+      "word": "Beau",
+      "pronunciation": "보",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "아름다운, 멋진", "examples": [{ "sentence": "C'est un beau jour.", "translation": "아름다운 날이에요." }] }]
+    },
+    {
+      "id": "french_nouveau_84",
+      "word": "Nouveau",
+      "pronunciation": "누보",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "새로운", "examples": [{ "sentence": "J'ai un nouveau travail.", "translation": "새 직장이 생겼어요." }] }]
+    },
+    {
+      "id": "french_vieux_85",
+      "word": "Vieux",
+      "pronunciation": "비외",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "오래된, 늙은", "examples": [{ "sentence": "C'est un vieux bâtiment.", "translation": "오래된 건물이에요." }] }]
+    },
+    {
+      "id": "french_jeune_86",
+      "word": "Jeune",
+      "pronunciation": "죈",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "젊은", "examples": [{ "sentence": "Elle est très jeune.", "translation": "그녀는 아주 젊어요." }] }]
+    },
+    {
+      "id": "french_chaud_87",
+      "word": "Chaud",
+      "pronunciation": "쇼",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "더운, 뜨거운", "examples": [{ "sentence": "Il fait chaud.", "translation": "날씨가 더워요." }] }]
+    },
+    {
+      "id": "french_froid_88",
+      "word": "Froid",
+      "pronunciation": "프루아",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "추운, 차가운", "examples": [{ "sentence": "Il fait froid dehors.", "translation": "밖은 추워요." }] }]
+    },
+    {
+      "id": "french_un_89",
+      "word": "Un",
+      "pronunciation": "엉",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "1, 하나", "examples": [{ "sentence": "J'ai un frère.", "translation": "남동생이 한 명 있어요." }] }]
+    },
+    {
+      "id": "french_deux_90",
+      "word": "Deux",
+      "pronunciation": "되",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "2, 둘", "examples": [{ "sentence": "Deux cafés, s'il vous plaît.", "translation": "커피 두 잔 주세요." }] }]
+    },
+    {
+      "id": "french_trois_91",
+      "word": "Trois",
+      "pronunciation": "트루아",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "3, 셋", "examples": [{ "sentence": "J'ai trois enfants.", "translation": "아이가 셋 있어요." }] }]
+    },
+    {
+      "id": "french_quatre_92",
+      "word": "Quatre",
+      "pronunciation": "까트르",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "4, 넷", "examples": [{ "sentence": "Il y a quatre saisons.", "translation": "사계절이 있어요." }] }]
+    },
+    {
+      "id": "french_cinq_93",
+      "word": "Cinq",
+      "pronunciation": "쌩끄",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "5, 다섯", "examples": [{ "sentence": "C'est cinq euros.", "translation": "5유로예요." }] }]
+    },
+    {
+      "id": "french_six_94",
+      "word": "Six",
+      "pronunciation": "시스",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "6, 여섯", "examples": [{ "sentence": "Il est six heures.", "translation": "6시예요." }] }]
+    },
+    {
+      "id": "french_sept_95",
+      "word": "Sept",
+      "pronunciation": "쎄뜨",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "7, 일곱", "examples": [{ "sentence": "Il y a sept jours.", "translation": "7일이 있어요." }] }]
+    },
+    {
+      "id": "french_huit_96",
+      "word": "Huit",
+      "pronunciation": "위뜨",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "8, 여덟", "examples": [{ "sentence": "J'ai travaillé huit heures.", "translation": "8시간 일했어요." }] }]
+    },
+    {
+      "id": "french_neuf_97",
+      "word": "Neuf",
+      "pronunciation": "뇌프",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "9, 아홉", "examples": [{ "sentence": "Il est neuf heures.", "translation": "9시예요." }] }]
+    },
+    {
+      "id": "french_dix_98",
+      "word": "Dix",
+      "pronunciation": "디스",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "10, 열", "examples": [{ "sentence": "J'ai dix minutes.", "translation": "10분 있어요." }] }]
+    },
+    {
+      "id": "french_cent_99",
+      "word": "Cent",
+      "pronunciation": "쌍",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "100, 백", "examples": [{ "sentence": "C'est cent euros.", "translation": "100유로예요." }] }]
+    },
+    {
+      "id": "french_mille_100",
+      "word": "Mille",
+      "pronunciation": "밀",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "1000, 천", "examples": [{ "sentence": "C'est mille euros.", "translation": "1000유로예요." }] }]
+    },
+    {
+      "id": "french_pain_101",
+      "word": "Pain",
+      "pronunciation": "뺑",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "빵", "examples": [{ "sentence": "Je voudrais du pain.", "translation": "빵 좀 주세요." }] }]
+    },
+    {
+      "id": "french_vin_102",
+      "word": "Vin",
+      "pronunciation": "뱅",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "와인", "examples": [{ "sentence": "Un verre de vin rouge.", "translation": "레드 와인 한 잔." }] }]
+    },
+    {
+      "id": "french_fromage_103",
+      "word": "Fromage",
+      "pronunciation": "프로마쥬",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "치즈", "examples": [{ "sentence": "J'aime le fromage français.", "translation": "프랑스 치즈를 좋아해요." }] }]
+    },
+    {
+      "id": "french_viande_104",
+      "word": "Viande",
+      "pronunciation": "비앙드",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "고기", "examples": [{ "sentence": "Je ne mange pas de viande.", "translation": "고기를 먹지 않아요." }] }]
+    },
+    {
+      "id": "french_poisson_105",
+      "word": "Poisson",
+      "pronunciation": "뿌아쏭",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "생선", "examples": [{ "sentence": "Le poisson est frais.", "translation": "생선이 신선해요." }] }]
+    },
+    {
+      "id": "french_legume_106",
+      "word": "Légume",
+      "pronunciation": "레귐",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "채소", "examples": [{ "sentence": "Je mange beaucoup de légumes.", "translation": "채소를 많이 먹어요." }] }]
+    },
+    {
+      "id": "french_fruit_107",
+      "word": "Fruit",
+      "pronunciation": "프뤼",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "과일", "examples": [{ "sentence": "J'aime les fruits.", "translation": "과일을 좋아해요." }] }]
+    },
+    {
+      "id": "french_the_108",
+      "word": "Thé",
+      "pronunciation": "떼",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "차", "examples": [{ "sentence": "Un thé, s'il vous plaît.", "translation": "차 한 잔 주세요." }] }]
+    },
+    {
+      "id": "french_voiture_109",
+      "word": "Voiture",
+      "pronunciation": "부아뛰르",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "자동차", "examples": [{ "sentence": "J'ai une voiture.", "translation": "차가 있어요." }] }]
+    },
+    {
+      "id": "french_bus_110",
+      "word": "Bus",
+      "pronunciation": "뷔스",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "버스", "examples": [{ "sentence": "Je prends le bus.", "translation": "버스를 타요." }] }]
+    },
+    {
+      "id": "french_metro_111",
+      "word": "Métro",
+      "pronunciation": "메트로",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "지하철", "examples": [{ "sentence": "Où est la station de métro?", "translation": "지하철역이 어디예요?" }] }]
+    },
+    {
+      "id": "french_train_112",
+      "word": "Train",
+      "pronunciation": "트랭",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "기차", "examples": [{ "sentence": "Le train arrive à quelle heure?", "translation": "기차가 몇 시에 와요?" }] }]
+    },
+    {
+      "id": "french_avion_113",
+      "word": "Avion",
+      "pronunciation": "아비옹",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "비행기", "examples": [{ "sentence": "Je prends l'avion demain.", "translation": "내일 비행기 타요." }] }]
+    },
+    {
+      "id": "french_taxi_114",
+      "word": "Taxi",
+      "pronunciation": "딱시",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "택시", "examples": [{ "sentence": "Appelez un taxi.", "translation": "택시 불러주세요." }] }]
+    },
+    {
+      "id": "french_livre_115",
+      "word": "Livre",
+      "pronunciation": "리브르",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "책", "examples": [{ "sentence": "C'est un bon livre.", "translation": "좋은 책이에요." }] }]
+    },
+    {
+      "id": "french_telephone_116",
+      "word": "Téléphone",
+      "pronunciation": "텔레폰",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "전화기", "examples": [{ "sentence": "Où est mon téléphone?", "translation": "내 전화기 어디 있어?" }] }]
+    },
+    {
+      "id": "french_ordinateur_117",
+      "word": "Ordinateur",
+      "pronunciation": "오르디나퇴르",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "컴퓨터", "examples": [{ "sentence": "J'utilise l'ordinateur.", "translation": "컴퓨터를 사용해요." }] }]
+    },
+    {
+      "id": "french_cle_118",
+      "word": "Clé",
+      "pronunciation": "클레",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "열쇠", "examples": [{ "sentence": "Où sont mes clés?", "translation": "열쇠 어디 있어?" }] }]
+    },
+    {
+      "id": "french_sac_119",
+      "word": "Sac",
+      "pronunciation": "삭",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "가방", "examples": [{ "sentence": "Mon sac est lourd.", "translation": "가방이 무거워요." }] }]
+    },
+    {
+      "id": "french_porte_120",
+      "word": "Porte",
+      "pronunciation": "뽀르뜨",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "문", "examples": [{ "sentence": "Fermez la porte.", "translation": "문을 닫으세요." }] }]
+    },
+    {
+      "id": "french_fenetre_121",
+      "word": "Fenêtre",
+      "pronunciation": "프네트르",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "창문", "examples": [{ "sentence": "Ouvrez la fenêtre.", "translation": "창문을 여세요." }] }]
+    },
+    {
+      "id": "french_maison_122",
+      "word": "Maison",
+      "pronunciation": "메종",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "집", "examples": [{ "sentence": "Je suis à la maison.", "translation": "집에 있어요." }] }]
+    },
+    {
+      "id": "french_bureau_123",
+      "word": "Bureau",
+      "pronunciation": "뷔로",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "사무실", "examples": [{ "sentence": "Je suis au bureau.", "translation": "사무실에 있어요." }] }]
+    },
+    {
+      "id": "french_ecole_124",
+      "word": "École",
+      "pronunciation": "에꼴",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "학교", "examples": [{ "sentence": "Les enfants vont à l'école.", "translation": "아이들이 학교에 가요." }] }]
+    },
+    {
+      "id": "french_magasin_125",
+      "word": "Magasin",
+      "pronunciation": "마가쟁",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "가게", "examples": [{ "sentence": "Le magasin est fermé.", "translation": "가게가 닫혔어요." }] }]
+    },
+    {
+      "id": "french_banque_126",
+      "word": "Banque",
+      "pronunciation": "방크",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "은행", "examples": [{ "sentence": "La banque ouvre à 9h.", "translation": "은행은 9시에 열어요." }] }]
+    },
+    {
+      "id": "french_pharmacie_127",
+      "word": "Pharmacie",
+      "pronunciation": "파르마시",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "약국", "examples": [{ "sentence": "Où est la pharmacie?", "translation": "약국이 어디예요?" }] }]
+    },
+    {
+      "id": "french_soleil_128",
+      "word": "Soleil",
+      "pronunciation": "솔레유",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "태양, 햇빛", "examples": [{ "sentence": "Il y a du soleil.", "translation": "햇빛이 있어요." }] }]
+    },
+    {
+      "id": "french_pluie_129",
+      "word": "Pluie",
+      "pronunciation": "쁠뤼",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "비", "examples": [{ "sentence": "Il y a de la pluie.", "translation": "비가 와요." }] }]
+    },
+    {
+      "id": "french_neige_130",
+      "word": "Neige",
+      "pronunciation": "네쥬",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "눈", "examples": [{ "sentence": "Il neige.", "translation": "눈이 와요." }] }]
+    },
+    {
+      "id": "french_vent_131",
+      "word": "Vent",
+      "pronunciation": "방",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "바람", "examples": [{ "sentence": "Il y a du vent.", "translation": "바람이 불어요." }] }]
+    },
+    {
+      "id": "french_tete_132",
+      "word": "Tête",
+      "pronunciation": "테뜨",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "머리", "examples": [{ "sentence": "J'ai mal à la tête.", "translation": "머리가 아파요." }] }]
+    },
+    {
+      "id": "french_main_133",
+      "word": "Main",
+      "pronunciation": "맹",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "손", "examples": [{ "sentence": "Lavez-vous les mains.", "translation": "손을 씻으세요." }] }]
+    },
+    {
+      "id": "french_pied_134",
+      "word": "Pied",
+      "pronunciation": "피에",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "발", "examples": [{ "sentence": "J'ai mal au pied.", "translation": "발이 아파요." }] }]
+    },
+    {
+      "id": "french_yeux_135",
+      "word": "Yeux",
+      "pronunciation": "이외",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "눈 (복수)", "examples": [{ "sentence": "Elle a les yeux bleus.", "translation": "그녀는 파란 눈이에요." }] }]
+    },
+    {
+      "id": "french_bouche_136",
+      "word": "Bouche",
+      "pronunciation": "부쉬",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "입", "examples": [{ "sentence": "Ouvrez la bouche.", "translation": "입을 벌리세요." }] }]
+    },
+    {
+      "id": "french_nez_137",
+      "word": "Nez",
+      "pronunciation": "네",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "코", "examples": [{ "sentence": "J'ai le nez bouché.", "translation": "코가 막혔어요." }] }]
+    },
+    {
+      "id": "french_demain_138",
+      "word": "Demain",
+      "pronunciation": "드맹",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "내일", "examples": [{ "sentence": "À demain!", "translation": "내일 봐요!" }] }]
+    },
+    {
+      "id": "french_hier_139",
+      "word": "Hier",
+      "pronunciation": "이에르",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "어제", "examples": [{ "sentence": "Hier, j'ai travaillé.", "translation": "어제 일했어요." }] }]
+    },
+    {
+      "id": "french_semaine_140",
+      "word": "Semaine",
+      "pronunciation": "스멘",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "주", "examples": [{ "sentence": "La semaine prochaine.", "translation": "다음 주." }] }]
+    },
+    {
+      "id": "french_mois_141",
+      "word": "Mois",
+      "pronunciation": "무아",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "달, 월", "examples": [{ "sentence": "Le mois prochain.", "translation": "다음 달." }] }]
+    },
+    {
+      "id": "french_annee_142",
+      "word": "Année",
+      "pronunciation": "아네",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "년", "examples": [{ "sentence": "Bonne année!", "translation": "새해 복 많이 받으세요!" }] }]
+    },
+    {
+      "id": "french_frere_143",
+      "word": "Frère",
+      "pronunciation": "프레르",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "형제, 남동생", "examples": [{ "sentence": "J'ai un frère.", "translation": "남동생이 있어요." }] }]
+    },
+    {
+      "id": "french_soeur_144",
+      "word": "Sœur",
+      "pronunciation": "쇠르",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "자매, 여동생", "examples": [{ "sentence": "Ma sœur est médecin.", "translation": "제 여동생은 의사예요." }] }]
+    },
+    {
+      "id": "french_enfant_145",
+      "word": "Enfant",
+      "pronunciation": "앙팡",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "아이", "examples": [{ "sentence": "J'ai deux enfants.", "translation": "아이가 둘 있어요." }] }]
+    },
+    {
+      "id": "french_aimer_146",
+      "word": "Aimer",
+      "pronunciation": "에메",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "사랑하다, 좋아하다", "examples": [{ "sentence": "Je t'aime.", "translation": "사랑해." }] }]
+    },
+    {
+      "id": "french_acheter_147",
+      "word": "Acheter",
+      "pronunciation": "아슈떼",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "사다", "examples": [{ "sentence": "Je veux acheter ça.", "translation": "이것을 사고 싶어요." }] }]
+    },
+    {
+      "id": "french_prendre_148",
+      "word": "Prendre",
+      "pronunciation": "프랑드르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "잡다, 타다", "examples": [{ "sentence": "Je prends le métro.", "translation": "지하철을 타요." }] }]
+    },
+    {
+      "id": "french_attendre_149",
+      "word": "Attendre",
+      "pronunciation": "아땅드르",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "기다리다", "examples": [{ "sentence": "Attendez ici.", "translation": "여기서 기다리세요." }] }]
+    }
+  ]
+}

@@ -1,0 +1,1809 @@
+{
+  "id": "japaneseSentencePatterns",
+  "name": "일본어 문장 패턴",
+  "icon": "📝",
+  "color": "#3F51B5",
+  "lang": "ja-JP",
+  "words": [
+    {
+      "id": "jsp_001",
+      "word": "〜です",
+      "pronunciation": "〜です",
+      "subcategory": "기본",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~입니다 (정중체)",
+          "examples": [
+            {
+              "sentence": "私は学生です。",
+              "translation": "저는 학생입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_002",
+      "word": "〜ます",
+      "pronunciation": "〜ます",
+      "subcategory": "기본",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~합니다 (정중체)",
+          "examples": [
+            {
+              "sentence": "毎日勉強します。",
+              "translation": "매일 공부합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_003",
+      "word": "〜ません",
+      "pronunciation": "〜ません",
+      "subcategory": "기본",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하지 않습니다 (부정)",
+          "examples": [
+            {
+              "sentence": "肉は食べません。",
+              "translation": "고기는 먹지 않습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_004",
+      "word": "〜ました",
+      "pronunciation": "〜ました",
+      "subcategory": "기본",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~했습니다 (과거)",
+          "examples": [
+            {
+              "sentence": "昨日映画を見ました。",
+              "translation": "어제 영화를 봤습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_005",
+      "word": "〜たい",
+      "pronunciation": "〜たい",
+      "subcategory": "희망",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하고 싶다",
+          "examples": [
+            {
+              "sentence": "日本に行きたいです。",
+              "translation": "일본에 가고 싶습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_006",
+      "word": "〜てください",
+      "pronunciation": "〜てください",
+      "subcategory": "요청",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해 주세요",
+          "examples": [
+            {
+              "sentence": "ここに名前を書いてください。",
+              "translation": "여기에 이름을 써 주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_007",
+      "word": "〜てもいいですか",
+      "pronunciation": "〜てもいいですか",
+      "subcategory": "허락",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해도 될까요?",
+          "examples": [
+            {
+              "sentence": "写真を撮ってもいいですか。",
+              "translation": "사진을 찍어도 될까요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_008",
+      "word": "〜なければなりません",
+      "pronunciation": "〜なければなりません",
+      "subcategory": "의무",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해야 합니다",
+          "examples": [
+            {
+              "sentence": "明日までにレポートを出さなければなりません。",
+              "translation": "내일까지 레포트를 제출해야 합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_009",
+      "word": "〜ないでください",
+      "pronunciation": "〜ないでください",
+      "subcategory": "금지",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하지 마세요",
+          "examples": [
+            {
+              "sentence": "ここでタバコを吸わないでください。",
+              "translation": "여기서 담배를 피우지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_010",
+      "word": "〜ことができます",
+      "pronunciation": "〜ことができます",
+      "subcategory": "가능",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 수 있습니다",
+          "examples": [
+            {
+              "sentence": "日本語を話すことができます。",
+              "translation": "일본어를 말할 수 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_011",
+      "word": "〜たことがあります",
+      "pronunciation": "〜たことがあります",
+      "subcategory": "경험",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~한 적이 있습니다",
+          "examples": [
+            {
+              "sentence": "富士山に登ったことがあります。",
+              "translation": "후지산에 오른 적이 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_012",
+      "word": "〜ている",
+      "pronunciation": "〜ている",
+      "subcategory": "진행",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하고 있다 (진행/상태)",
+          "examples": [
+            {
+              "sentence": "今、本を読んでいます。",
+              "translation": "지금 책을 읽고 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_013",
+      "word": "〜てから",
+      "pronunciation": "〜てから",
+      "subcategory": "순서",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~한 후에",
+          "examples": [
+            {
+              "sentence": "手を洗ってから食べます。",
+              "translation": "손을 씻은 후에 먹습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_014",
+      "word": "〜前に",
+      "pronunciation": "〜まえに",
+      "subcategory": "순서",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하기 전에",
+          "examples": [
+            {
+              "sentence": "寝る前に歯を磨きます。",
+              "translation": "자기 전에 이를 닦습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_015",
+      "word": "〜た後で",
+      "pronunciation": "〜たあとで",
+      "subcategory": "순서",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~한 후에",
+          "examples": [
+            {
+              "sentence": "食事をした後で散歩します。",
+              "translation": "식사를 한 후에 산책합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_016",
+      "word": "〜ながら",
+      "pronunciation": "〜ながら",
+      "subcategory": "동시",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하면서",
+          "examples": [
+            {
+              "sentence": "音楽を聴きながら勉強します。",
+              "translation": "음악을 들으면서 공부합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_017",
+      "word": "〜たり〜たりする",
+      "pronunciation": "〜たり〜たりする",
+      "subcategory": "열거",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하거나 ~하거나 하다",
+          "examples": [
+            {
+              "sentence": "週末は映画を見たり買い物したりします。",
+              "translation": "주말에는 영화를 보거나 쇼핑하거나 합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_018",
+      "word": "〜と思います",
+      "pronunciation": "〜とおもいます",
+      "subcategory": "의견",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~라고 생각합니다",
+          "examples": [
+            {
+              "sentence": "明日は晴れると思います。",
+              "translation": "내일은 맑을 거라고 생각합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_019",
+      "word": "〜と言っていました",
+      "pronunciation": "〜といっていました",
+      "subcategory": "인용",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~라고 말했습니다",
+          "examples": [
+            {
+              "sentence": "彼は来週来ると言っていました。",
+              "translation": "그는 다음 주에 온다고 말했습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_020",
+      "word": "〜でしょう",
+      "pronunciation": "〜でしょう",
+      "subcategory": "추측",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~일 것입니다 (추측)",
+          "examples": [
+            {
+              "sentence": "明日は雨でしょう。",
+              "translation": "내일은 비일 것입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_021",
+      "word": "〜かもしれません",
+      "pronunciation": "〜かもしれません",
+      "subcategory": "추측",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~일지도 모릅니다",
+          "examples": [
+            {
+              "sentence": "彼は忙しいかもしれません。",
+              "translation": "그는 바쁠지도 모릅니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_022",
+      "word": "〜そうです",
+      "pronunciation": "〜そうです",
+      "subcategory": "전문",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~라고 합니다 (전문)",
+          "examples": [
+            {
+              "sentence": "彼は来月結婚するそうです。",
+              "translation": "그는 다음 달에 결혼한다고 합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_023",
+      "word": "〜ようです",
+      "pronunciation": "〜ようです",
+      "subcategory": "추측",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~인 것 같습니다",
+          "examples": [
+            {
+              "sentence": "彼女は怒っているようです。",
+              "translation": "그녀는 화나 있는 것 같습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_024",
+      "word": "〜らしいです",
+      "pronunciation": "〜らしいです",
+      "subcategory": "추측",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~인 것 같습니다 (전문)",
+          "examples": [
+            {
+              "sentence": "彼は病気らしいです。",
+              "translation": "그는 아픈 것 같습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_025",
+      "word": "〜みたいです",
+      "pronunciation": "〜みたいです",
+      "subcategory": "추측",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~인 것 같습니다 (구어)",
+          "examples": [
+            {
+              "sentence": "雨が降るみたいです。",
+              "translation": "비가 올 것 같습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_026",
+      "word": "〜ば〜ほど",
+      "pronunciation": "〜ば〜ほど",
+      "subcategory": "비례",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하면 ~할수록",
+          "examples": [
+            {
+              "sentence": "練習すればするほど上手になります。",
+              "translation": "연습하면 할수록 잘하게 됩니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_027",
+      "word": "〜たら",
+      "pronunciation": "〜たら",
+      "subcategory": "조건",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하면, ~했더니",
+          "examples": [
+            {
+              "sentence": "家に帰ったら電話します。",
+              "translation": "집에 돌아가면 전화할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_028",
+      "word": "〜ば",
+      "pronunciation": "〜ば",
+      "subcategory": "조건",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하면",
+          "examples": [
+            {
+              "sentence": "薬を飲めば治ります。",
+              "translation": "약을 먹으면 낫습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_029",
+      "word": "〜なら",
+      "pronunciation": "〜なら",
+      "subcategory": "조건",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~라면",
+          "examples": [
+            {
+              "sentence": "日本料理なら寿司がおすすめです。",
+              "translation": "일본 요리라면 초밥을 추천합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_030",
+      "word": "〜と",
+      "pronunciation": "〜と",
+      "subcategory": "조건",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하면 (필연)",
+          "examples": [
+            {
+              "sentence": "春になると桜が咲きます。",
+              "translation": "봄이 되면 벚꽃이 핍니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_031",
+      "word": "〜ても",
+      "pronunciation": "〜ても",
+      "subcategory": "양보",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해도",
+          "examples": [
+            {
+              "sentence": "雨が降っても行きます。",
+              "translation": "비가 와도 갑니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_032",
+      "word": "〜のに",
+      "pronunciation": "〜のに",
+      "subcategory": "양보",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~인데도",
+          "examples": [
+            {
+              "sentence": "約束したのに来ませんでした。",
+              "translation": "약속했는데도 오지 않았습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_033",
+      "word": "〜ために",
+      "pronunciation": "〜ために",
+      "subcategory": "목적",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하기 위해",
+          "examples": [
+            {
+              "sentence": "留学するために日本語を勉強しています。",
+              "translation": "유학하기 위해 일본어를 공부하고 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_034",
+      "word": "〜ように",
+      "pronunciation": "〜ように",
+      "subcategory": "목적",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하도록",
+          "examples": [
+            {
+              "sentence": "忘れないようにメモします。",
+              "translation": "잊지 않도록 메모합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_035",
+      "word": "〜ようにする",
+      "pronunciation": "〜ようにする",
+      "subcategory": "노력",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하도록 하다",
+          "examples": [
+            {
+              "sentence": "毎日運動するようにしています。",
+              "translation": "매일 운동하도록 하고 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_036",
+      "word": "〜ようになる",
+      "pronunciation": "〜ようになる",
+      "subcategory": "변화",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하게 되다",
+          "examples": [
+            {
+              "sentence": "日本語が話せるようになりました。",
+              "translation": "일본어를 말할 수 있게 되었습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_037",
+      "word": "〜てしまう",
+      "pronunciation": "〜てしまう",
+      "subcategory": "완료",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해 버리다",
+          "examples": [
+            {
+              "sentence": "財布をなくしてしまいました。",
+              "translation": "지갑을 잃어버렸습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_038",
+      "word": "〜ておく",
+      "pronunciation": "〜ておく",
+      "subcategory": "준비",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해 두다",
+          "examples": [
+            {
+              "sentence": "予約しておきます。",
+              "translation": "예약해 둘게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_039",
+      "word": "〜てみる",
+      "pronunciation": "〜てみる",
+      "subcategory": "시도",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해 보다",
+          "examples": [
+            {
+              "sentence": "この料理を食べてみてください。",
+              "translation": "이 요리를 먹어 보세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_040",
+      "word": "〜てあげる",
+      "pronunciation": "〜てあげる",
+      "subcategory": "수수",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해 주다 (내가)",
+          "examples": [
+            {
+              "sentence": "友達に日本語を教えてあげました。",
+              "translation": "친구에게 일본어를 가르쳐 줬습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_041",
+      "word": "〜てもらう",
+      "pronunciation": "〜てもらう",
+      "subcategory": "수수",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해 받다",
+          "examples": [
+            {
+              "sentence": "先生に説明してもらいました。",
+              "translation": "선생님께 설명을 받았습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_042",
+      "word": "〜てくれる",
+      "pronunciation": "〜てくれる",
+      "subcategory": "수수",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해 주다 (남이)",
+          "examples": [
+            {
+              "sentence": "友達が手伝ってくれました。",
+              "translation": "친구가 도와줬습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_043",
+      "word": "〜させる",
+      "pronunciation": "〜させる",
+      "subcategory": "사역",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~시키다",
+          "examples": [
+            {
+              "sentence": "子供に野菜を食べさせます。",
+              "translation": "아이에게 채소를 먹입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_044",
+      "word": "〜られる",
+      "pronunciation": "〜られる",
+      "subcategory": "수동",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~되다 (수동)",
+          "examples": [
+            {
+              "sentence": "電車で足を踏まれました。",
+              "translation": "전철에서 발을 밟혔습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_045",
+      "word": "〜させてください",
+      "pronunciation": "〜させてください",
+      "subcategory": "허락",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하게 해 주세요",
+          "examples": [
+            {
+              "sentence": "私にも参加させてください。",
+              "translation": "저도 참가하게 해 주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_046",
+      "word": "〜ていただけませんか",
+      "pronunciation": "〜ていただけませんか",
+      "subcategory": "부탁",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해 주시겠습니까? (정중)",
+          "examples": [
+            {
+              "sentence": "もう一度説明していただけませんか。",
+              "translation": "한 번 더 설명해 주시겠습니까?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_047",
+      "word": "〜てくださいませんか",
+      "pronunciation": "〜てくださいませんか",
+      "subcategory": "부탁",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해 주시겠어요?",
+          "examples": [
+            {
+              "sentence": "ちょっと待ってくださいませんか。",
+              "translation": "잠깐 기다려 주시겠어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_048",
+      "word": "〜ほうがいい",
+      "pronunciation": "〜ほうがいい",
+      "subcategory": "충고",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하는 게 좋다",
+          "examples": [
+            {
+              "sentence": "早く寝たほうがいいですよ。",
+              "translation": "일찍 자는 게 좋아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_049",
+      "word": "〜ないほうがいい",
+      "pronunciation": "〜ないほうがいい",
+      "subcategory": "충고",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하지 않는 게 좋다",
+          "examples": [
+            {
+              "sentence": "お酒を飲まないほうがいいですよ。",
+              "translation": "술을 마시지 않는 게 좋아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_050",
+      "word": "〜つもりです",
+      "pronunciation": "〜つもりです",
+      "subcategory": "의지",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 생각입니다",
+          "examples": [
+            {
+              "sentence": "来年日本に行くつもりです。",
+              "translation": "내년에 일본에 갈 생각입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_051",
+      "word": "〜予定です",
+      "pronunciation": "〜よていです",
+      "subcategory": "예정",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 예정입니다",
+          "examples": [
+            {
+              "sentence": "来月結婚する予定です。",
+              "translation": "다음 달에 결혼할 예정입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_052",
+      "word": "〜ことにする",
+      "pronunciation": "〜ことにする",
+      "subcategory": "결정",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하기로 하다",
+          "examples": [
+            {
+              "sentence": "毎朝ジョギングすることにしました。",
+              "translation": "매일 아침 조깅하기로 했습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_053",
+      "word": "〜ことになる",
+      "pronunciation": "〜ことになる",
+      "subcategory": "결정",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하게 되다",
+          "examples": [
+            {
+              "sentence": "来月から東京で働くことになりました。",
+              "translation": "다음 달부터 도쿄에서 일하게 되었습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_054",
+      "word": "〜はずです",
+      "pronunciation": "〜はずです",
+      "subcategory": "추측",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~일 것입니다 (당연)",
+          "examples": [
+            {
+              "sentence": "彼はもう着いているはずです。",
+              "translation": "그는 이미 도착해 있을 것입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_055",
+      "word": "〜わけです",
+      "pronunciation": "〜わけです",
+      "subcategory": "이유",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~인 셈입니다",
+          "examples": [
+            {
+              "sentence": "だから遅刻したわけです。",
+              "translation": "그래서 지각한 셈입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_056",
+      "word": "〜わけではない",
+      "pronunciation": "〜わけではない",
+      "subcategory": "부정",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~인 것은 아니다",
+          "examples": [
+            {
+              "sentence": "嫌いなわけではありません。",
+              "translation": "싫은 것은 아닙니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_057",
+      "word": "〜わけにはいかない",
+      "pronunciation": "〜わけにはいかない",
+      "subcategory": "불가",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 수는 없다",
+          "examples": [
+            {
+              "sentence": "約束を破るわけにはいきません。",
+              "translation": "약속을 어길 수는 없습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_058",
+      "word": "〜しかない",
+      "pronunciation": "〜しかない",
+      "subcategory": "한정",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~밖에 없다",
+          "examples": [
+            {
+              "sentence": "やるしかありません。",
+              "translation": "할 수밖에 없습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_059",
+      "word": "〜ばかり",
+      "pronunciation": "〜ばかり",
+      "subcategory": "한정",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~뿐, ~만",
+          "examples": [
+            {
+              "sentence": "彼は文句ばかり言います。",
+              "translation": "그는 불평만 합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_060",
+      "word": "〜たばかり",
+      "pronunciation": "〜たばかり",
+      "subcategory": "직후",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "막 ~했다",
+          "examples": [
+            {
+              "sentence": "日本に来たばかりです。",
+              "translation": "막 일본에 왔습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_061",
+      "word": "〜ところです",
+      "pronunciation": "〜ところです",
+      "subcategory": "국면",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하는 중입니다",
+          "examples": [
+            {
+              "sentence": "今、食事をしているところです。",
+              "translation": "지금 식사 중입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_062",
+      "word": "〜たところ",
+      "pronunciation": "〜たところ",
+      "subcategory": "결과",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~했더니",
+          "examples": [
+            {
+              "sentence": "聞いてみたところ、そうでした。",
+              "translation": "물어봤더니 그랬습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_063",
+      "word": "〜ようとする",
+      "pronunciation": "〜ようとする",
+      "subcategory": "시도",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하려고 하다",
+          "examples": [
+            {
+              "sentence": "出かけようとしたとき電話が鳴りました。",
+              "translation": "나가려고 했을 때 전화가 울렸습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_064",
+      "word": "〜ことがある",
+      "pronunciation": "〜ことがある",
+      "subcategory": "빈도",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 때가 있다",
+          "examples": [
+            {
+              "sentence": "時々遅刻することがあります。",
+              "translation": "가끔 지각할 때가 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_065",
+      "word": "〜ことはない",
+      "pronunciation": "〜ことはない",
+      "subcategory": "불필요",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 필요 없다",
+          "examples": [
+            {
+              "sentence": "そんなに心配することはありません。",
+              "translation": "그렇게 걱정할 필요 없습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_066",
+      "word": "〜だけでなく",
+      "pronunciation": "〜だけでなく",
+      "subcategory": "추가",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~뿐만 아니라",
+          "examples": [
+            {
+              "sentence": "彼は英語だけでなく中国語も話せます。",
+              "translation": "그는 영어뿐만 아니라 중국어도 할 수 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_067",
+      "word": "〜上に",
+      "pronunciation": "〜うえに",
+      "subcategory": "추가",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 더해서",
+          "examples": [
+            {
+              "sentence": "頭がいい上に、性格もいいです。",
+              "translation": "머리가 좋은 데다가 성격도 좋습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_068",
+      "word": "〜において",
+      "pronunciation": "〜において",
+      "subcategory": "장소",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에서 (격식)",
+          "examples": [
+            {
+              "sentence": "会議は3階において行われます。",
+              "translation": "회의는 3층에서 진행됩니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_069",
+      "word": "〜に関して",
+      "pronunciation": "〜にかんして",
+      "subcategory": "관련",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 관해서",
+          "examples": [
+            {
+              "sentence": "この件に関して質問があります。",
+              "translation": "이 건에 관해서 질문이 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_070",
+      "word": "〜について",
+      "pronunciation": "〜について",
+      "subcategory": "관련",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 대해서",
+          "examples": [
+            {
+              "sentence": "日本の文化について調べています。",
+              "translation": "일본 문화에 대해서 조사하고 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_071",
+      "word": "〜によると",
+      "pronunciation": "〜によると",
+      "subcategory": "정보원",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 따르면",
+          "examples": [
+            {
+              "sentence": "天気予報によると明日は雨だそうです。",
+              "translation": "일기예보에 따르면 내일은 비라고 합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_072",
+      "word": "〜によって",
+      "pronunciation": "〜によって",
+      "subcategory": "수단",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 의해, ~에 따라",
+          "examples": [
+            {
+              "sentence": "国によって習慣が違います。",
+              "translation": "나라에 따라 습관이 다릅니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_073",
+      "word": "〜として",
+      "pronunciation": "〜として",
+      "subcategory": "자격",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~로서",
+          "examples": [
+            {
+              "sentence": "彼は医者として働いています。",
+              "translation": "그는 의사로서 일하고 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_074",
+      "word": "〜に対して",
+      "pronunciation": "〜にたいして",
+      "subcategory": "대상",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 대해서",
+          "examples": [
+            {
+              "sentence": "彼の意見に対して反対です。",
+              "translation": "그의 의견에 대해서 반대입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_075",
+      "word": "〜にとって",
+      "pronunciation": "〜にとって",
+      "subcategory": "관점",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에게 있어서",
+          "examples": [
+            {
+              "sentence": "私にとって大切なことです。",
+              "translation": "저에게 있어서 중요한 일입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_076",
+      "word": "〜に比べて",
+      "pronunciation": "〜にくらべて",
+      "subcategory": "비교",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 비해서",
+          "examples": [
+            {
+              "sentence": "去年に比べて暖かいです。",
+              "translation": "작년에 비해서 따뜻합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_077",
+      "word": "〜ほど〜ない",
+      "pronunciation": "〜ほど〜ない",
+      "subcategory": "비교",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~만큼 ~않다",
+          "examples": [
+            {
+              "sentence": "東京ほど人が多くないです。",
+              "translation": "도쿄만큼 사람이 많지 않습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_078",
+      "word": "〜より〜のほうが",
+      "pronunciation": "〜より〜のほうが",
+      "subcategory": "비교",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~보다 ~가 더",
+          "examples": [
+            {
+              "sentence": "バスより電車のほうが速いです。",
+              "translation": "버스보다 전철이 더 빠릅니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_079",
+      "word": "〜一番",
+      "pronunciation": "〜いちばん",
+      "subcategory": "최상",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "가장 ~",
+          "examples": [
+            {
+              "sentence": "日本で一番高い山は富士山です。",
+              "translation": "일본에서 가장 높은 산은 후지산입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_080",
+      "word": "〜中で",
+      "pronunciation": "〜なかで",
+      "subcategory": "범위",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~ 중에서",
+          "examples": [
+            {
+              "sentence": "果物の中でりんごが一番好きです。",
+              "translation": "과일 중에서 사과를 가장 좋아합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_081",
+      "word": "〜せいで",
+      "pronunciation": "〜せいで",
+      "subcategory": "원인",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~ 탓에 (부정적)",
+          "examples": [
+            {
+              "sentence": "雨のせいで試合が中止になりました。",
+              "translation": "비 탓에 시합이 취소되었습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_082",
+      "word": "〜おかげで",
+      "pronunciation": "〜おかげで",
+      "subcategory": "원인",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~ 덕분에 (긍정적)",
+          "examples": [
+            {
+              "sentence": "先生のおかげで合格しました。",
+              "translation": "선생님 덕분에 합격했습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_083",
+      "word": "〜ので",
+      "pronunciation": "〜ので",
+      "subcategory": "이유",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~이므로, ~해서",
+          "examples": [
+            {
+              "sentence": "熱があるので休みます。",
+              "translation": "열이 있어서 쉽니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_084",
+      "word": "〜から",
+      "pronunciation": "〜から",
+      "subcategory": "이유",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~이니까, ~해서",
+          "examples": [
+            {
+              "sentence": "忙しいから行けません。",
+              "translation": "바빠서 못 갑니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_085",
+      "word": "〜けど/けれども",
+      "pronunciation": "〜けど/けれども",
+      "subcategory": "역접",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~지만",
+          "examples": [
+            {
+              "sentence": "高いけど買います。",
+              "translation": "비싸지만 삽니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_086",
+      "word": "〜が",
+      "pronunciation": "〜が",
+      "subcategory": "역접",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~지만 (격식)",
+          "examples": [
+            {
+              "sentence": "申し訳ありませんが、できません。",
+              "translation": "죄송합니다만, 못 합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_087",
+      "word": "〜し",
+      "pronunciation": "〜し",
+      "subcategory": "나열",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하고, ~도 하고",
+          "examples": [
+            {
+              "sentence": "安いし、おいしいし、最高です。",
+              "translation": "싸고, 맛있고, 최고입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_088",
+      "word": "〜とか〜とか",
+      "pronunciation": "〜とか〜とか",
+      "subcategory": "예시",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~라든가 ~라든가",
+          "examples": [
+            {
+              "sentence": "サッカーとかテニスとかが好きです。",
+              "translation": "축구라든가 테니스라든가를 좋아합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_089",
+      "word": "〜など",
+      "pronunciation": "〜など",
+      "subcategory": "예시",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~ 등",
+          "examples": [
+            {
+              "sentence": "りんごやバナナなどを買いました。",
+              "translation": "사과나 바나나 등을 샀습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_090",
+      "word": "〜かどうか",
+      "pronunciation": "〜かどうか",
+      "subcategory": "의문",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~인지 아닌지",
+          "examples": [
+            {
+              "sentence": "彼が来るかどうかわかりません。",
+              "translation": "그가 올지 안 올지 모르겠습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_091",
+      "word": "〜疑問詞〜か",
+      "pronunciation": "〜ぎもんし〜か",
+      "subcategory": "의문",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~인지",
+          "examples": [
+            {
+              "sentence": "どこで買えるか教えてください。",
+              "translation": "어디서 살 수 있는지 알려 주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_092",
+      "word": "〜べきです",
+      "pronunciation": "〜べきです",
+      "subcategory": "당위",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해야 합니다",
+          "examples": [
+            {
+              "sentence": "約束は守るべきです。",
+              "translation": "약속은 지켜야 합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_093",
+      "word": "〜べきではない",
+      "pronunciation": "〜べきではない",
+      "subcategory": "당위",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해서는 안 됩니다",
+          "examples": [
+            {
+              "sentence": "嘘をつくべきではありません。",
+              "translation": "거짓말을 해서는 안 됩니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_094",
+      "word": "〜ざるを得ない",
+      "pronunciation": "〜ざるをえない",
+      "subcategory": "불가피",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하지 않을 수 없다",
+          "examples": [
+            {
+              "sentence": "認めざるを得ません。",
+              "translation": "인정하지 않을 수 없습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_095",
+      "word": "〜くせに",
+      "pronunciation": "〜くせに",
+      "subcategory": "비난",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~주제에",
+          "examples": [
+            {
+              "sentence": "知らないくせに口を出すな。",
+              "translation": "모르는 주제에 참견하지 마."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_096",
+      "word": "〜てたまらない",
+      "pronunciation": "〜てたまらない",
+      "subcategory": "강조",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해서 못 견디겠다",
+          "examples": [
+            {
+              "sentence": "眠くてたまりません。",
+              "translation": "졸려서 못 견디겠습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_097",
+      "word": "〜てしょうがない",
+      "pronunciation": "〜てしょうがない",
+      "subcategory": "강조",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해서 어쩔 수 없다",
+          "examples": [
+            {
+              "sentence": "気になってしょうがない。",
+              "translation": "신경 쓰여서 어쩔 수 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_098",
+      "word": "〜といい",
+      "pronunciation": "〜といい",
+      "subcategory": "희망",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하면 좋겠다",
+          "examples": [
+            {
+              "sentence": "明日晴れるといいですね。",
+              "translation": "내일 맑으면 좋겠네요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_099",
+      "word": "〜ばよかった",
+      "pronunciation": "〜ばよかった",
+      "subcategory": "후회",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~했으면 좋았을 텐데",
+          "examples": [
+            {
+              "sentence": "もっと勉強すればよかった。",
+              "translation": "더 공부했으면 좋았을 텐데."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_100",
+      "word": "〜なくてもいい",
+      "pronunciation": "〜なくてもいい",
+      "subcategory": "불필요",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하지 않아도 된다",
+          "examples": [
+            {
+              "sentence": "無理しなくてもいいですよ。",
+              "translation": "무리하지 않아도 돼요."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

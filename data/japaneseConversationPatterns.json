@@ -1,0 +1,1809 @@
+{
+  "id": "japaneseConversationPatterns",
+  "name": "일본어 회화 패턴",
+  "icon": "💬",
+  "color": "#00BCD4",
+  "lang": "ja-JP",
+  "words": [
+    {
+      "id": "jcp_001",
+      "word": "はじめまして",
+      "pronunciation": "はじめまして",
+      "subcategory": "인사",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "처음 뵙겠습니다",
+          "examples": [
+            {
+              "sentence": "はじめまして。田中です。よろしくお願いします。",
+              "translation": "처음 뵙겠습니다. 다나카입니다. 잘 부탁드립니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_002",
+      "word": "お元気ですか",
+      "pronunciation": "おげんきですか",
+      "subcategory": "인사",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "잘 지내세요?",
+          "examples": [
+            {
+              "sentence": "お元気ですか。ー はい、元気です。",
+              "translation": "잘 지내세요? - 네, 잘 지내요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_003",
+      "word": "お久しぶりです",
+      "pronunciation": "おひさしぶりです",
+      "subcategory": "인사",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "오랜만입니다",
+          "examples": [
+            {
+              "sentence": "お久しぶりです。お変わりありませんか。",
+              "translation": "오랜만입니다. 별일 없으셨어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_004",
+      "word": "いただきます",
+      "pronunciation": "いただきます",
+      "subcategory": "식사",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "잘 먹겠습니다",
+          "examples": [
+            {
+              "sentence": "いただきます。わあ、おいしそう！",
+              "translation": "잘 먹겠습니다. 와, 맛있겠다!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_005",
+      "word": "ごちそうさまでした",
+      "pronunciation": "ごちそうさまでした",
+      "subcategory": "식사",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "잘 먹었습니다",
+          "examples": [
+            {
+              "sentence": "ごちそうさまでした。とてもおいしかったです。",
+              "translation": "잘 먹었습니다. 매우 맛있었습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_006",
+      "word": "いってきます",
+      "pronunciation": "いってきます",
+      "subcategory": "일상",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "다녀오겠습니다",
+          "examples": [
+            {
+              "sentence": "いってきます。ー いってらっしゃい。",
+              "translation": "다녀오겠습니다. - 다녀오세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_007",
+      "word": "ただいま",
+      "pronunciation": "ただいま",
+      "subcategory": "일상",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "다녀왔습니다",
+          "examples": [
+            {
+              "sentence": "ただいま。ー おかえりなさい。",
+              "translation": "다녀왔습니다. - 어서 오세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_008",
+      "word": "おやすみなさい",
+      "pronunciation": "おやすみなさい",
+      "subcategory": "인사",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "안녕히 주무세요",
+          "examples": [
+            {
+              "sentence": "もう遅いですね。おやすみなさい。",
+              "translation": "벌써 늦었네요. 안녕히 주무세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_009",
+      "word": "すみません",
+      "pronunciation": "すみません",
+      "subcategory": "사과",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "죄송합니다/실례합니다",
+          "examples": [
+            {
+              "sentence": "すみません、遅れてしまいました。",
+              "translation": "죄송합니다, 늦어버렸습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_010",
+      "word": "申し訳ありません",
+      "pronunciation": "もうしわけありません",
+      "subcategory": "사과",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "정말 죄송합니다 (격식)",
+          "examples": [
+            {
+              "sentence": "申し訳ありません。私のミスです。",
+              "translation": "정말 죄송합니다. 제 실수입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_011",
+      "word": "大丈夫ですか",
+      "pronunciation": "だいじょうぶですか",
+      "subcategory": "걱정",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "괜찮으세요?",
+          "examples": [
+            {
+              "sentence": "顔色が悪いですね。大丈夫ですか。",
+              "translation": "안색이 안 좋네요. 괜찮으세요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_012",
+      "word": "お疲れ様でした",
+      "pronunciation": "おつかれさまでした",
+      "subcategory": "직장",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "수고하셨습니다",
+          "examples": [
+            {
+              "sentence": "今日もお疲れ様でした。また明日。",
+              "translation": "오늘도 수고하셨습니다. 내일 봐요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_013",
+      "word": "お先に失礼します",
+      "pronunciation": "おさきにしつれいします",
+      "subcategory": "직장",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "먼저 실례합니다",
+          "examples": [
+            {
+              "sentence": "お先に失礼します。ー お疲れ様でした。",
+              "translation": "먼저 실례합니다. - 수고하셨습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_014",
+      "word": "失礼します",
+      "pronunciation": "しつれいします",
+      "subcategory": "예절",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "실례합니다",
+          "examples": [
+            {
+              "sentence": "失礼します。山田部長はいらっしゃいますか。",
+              "translation": "실례합니다. 야마다 부장님 계십니까?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_015",
+      "word": "お願いします",
+      "pronunciation": "おねがいします",
+      "subcategory": "요청",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "부탁합니다",
+          "examples": [
+            {
+              "sentence": "コーヒーをお願いします。",
+              "translation": "커피 부탁합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_016",
+      "word": "ちょっとお聞きしたいんですが",
+      "pronunciation": "ちょっとおききしたいんですが",
+      "subcategory": "질문",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "좀 여쭤볼게 있는데요",
+          "examples": [
+            {
+              "sentence": "ちょっとお聞きしたいんですが、駅はどこですか。",
+              "translation": "좀 여쭤볼게 있는데요, 역이 어디예요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_017",
+      "word": "どういう意味ですか",
+      "pronunciation": "どういういみですか",
+      "subcategory": "질문",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "무슨 뜻이에요?",
+          "examples": [
+            {
+              "sentence": "「侘び寂び」ってどういう意味ですか。",
+              "translation": "'와비사비'가 무슨 뜻이에요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_018",
+      "word": "もう一度言ってください",
+      "pronunciation": "もういちどいってください",
+      "subcategory": "요청",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "한 번 더 말해 주세요",
+          "examples": [
+            {
+              "sentence": "すみません、もう一度言ってください。",
+              "translation": "죄송한데, 한 번 더 말해 주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_019",
+      "word": "ゆっくり話してください",
+      "pronunciation": "ゆっくりはなしてください",
+      "subcategory": "요청",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "천천히 말해 주세요",
+          "examples": [
+            {
+              "sentence": "日本語がまだ下手なので、ゆっくり話してください。",
+              "translation": "일본어가 아직 서툴러서 천천히 말해 주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_020",
+      "word": "何とおっしゃいましたか",
+      "pronunciation": "なんとおっしゃいましたか",
+      "subcategory": "질문",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "뭐라고 말씀하셨나요?",
+          "examples": [
+            {
+              "sentence": "すみません、何とおっしゃいましたか。",
+              "translation": "죄송합니다, 뭐라고 말씀하셨나요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_021",
+      "word": "そうですね",
+      "pronunciation": "そうですね",
+      "subcategory": "동의",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "그렇네요",
+          "examples": [
+            {
+              "sentence": "今日は暑いですね。ー そうですね。",
+              "translation": "오늘 덥네요. - 그렇네요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_022",
+      "word": "そうですか",
+      "pronunciation": "そうですか",
+      "subcategory": "반응",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "그렇군요",
+          "examples": [
+            {
+              "sentence": "来月引っ越すんです。ー そうですか。",
+              "translation": "다음 달에 이사해요. - 그렇군요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_023",
+      "word": "なるほど",
+      "pronunciation": "なるほど",
+      "subcategory": "반응",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "그렇구나, 과연",
+          "examples": [
+            {
+              "sentence": "なるほど、そういうことですか。",
+              "translation": "그렇구나, 그런 거였군요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_024",
+      "word": "そうなんですか",
+      "pronunciation": "そうなんですか",
+      "subcategory": "반응",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "그런가요?",
+          "examples": [
+            {
+              "sentence": "彼、会社を辞めたそうです。ー そうなんですか。",
+              "translation": "그, 회사를 그만뒀대요. - 그런가요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_025",
+      "word": "本当ですか",
+      "pronunciation": "ほんとうですか",
+      "subcategory": "반응",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "정말이에요?",
+          "examples": [
+            {
+              "sentence": "来月結婚するんです。ー 本当ですか！おめでとうございます！",
+              "translation": "다음 달에 결혼해요. - 정말이에요! 축하해요!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_026",
+      "word": "うそでしょう",
+      "pronunciation": "うそでしょう",
+      "subcategory": "반응",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "거짓말이죠? 설마!",
+          "examples": [
+            {
+              "sentence": "宝くじに当たったんだ。ー うそでしょう！",
+              "translation": "복권에 당첨됐어. - 설마!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_027",
+      "word": "それはよかったですね",
+      "pronunciation": "それはよかったですね",
+      "subcategory": "반응",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "그거 잘됐네요",
+          "examples": [
+            {
+              "sentence": "試験に受かりました。ー それはよかったですね！",
+              "translation": "시험에 붙었어요. - 그거 잘됐네요!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_028",
+      "word": "それは大変でしたね",
+      "pronunciation": "それはたいへんでしたね",
+      "subcategory": "반응",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "그거 힘드셨겠네요",
+          "examples": [
+            {
+              "sentence": "電車が止まって2時間待ちました。ー それは大変でしたね。",
+              "translation": "전철이 멈춰서 2시간 기다렸어요. - 그거 힘드셨겠네요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_029",
+      "word": "残念ですね",
+      "pronunciation": "ざんねんですね",
+      "subcategory": "반응",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "아쉽네요",
+          "examples": [
+            {
+              "sentence": "旅行が中止になりました。ー 残念ですね。",
+              "translation": "여행이 취소됐어요. - 아쉽네요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_030",
+      "word": "お気の毒に",
+      "pronunciation": "おきのどくに",
+      "subcategory": "반응",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "안됐네요, 유감이에요",
+          "examples": [
+            {
+              "sentence": "祖母が亡くなりました。ー お気の毒に。",
+              "translation": "할머니가 돌아가셨어요. - 안됐네요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_031",
+      "word": "どうしたんですか",
+      "pronunciation": "どうしたんですか",
+      "subcategory": "질문",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "무슨 일이에요?",
+          "examples": [
+            {
+              "sentence": "どうしたんですか。顔色が悪いですよ。",
+              "translation": "무슨 일이에요? 안색이 안 좋아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_032",
+      "word": "何かあったんですか",
+      "pronunciation": "なにかあったんですか",
+      "subcategory": "질문",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "무슨 일 있었어요?",
+          "examples": [
+            {
+              "sentence": "元気がないですね。何かあったんですか。",
+              "translation": "기운이 없네요. 무슨 일 있었어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_033",
+      "word": "ちょっと考えさせてください",
+      "pronunciation": "ちょっとかんがえさせてください",
+      "subcategory": "보류",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "좀 생각해 볼게요",
+          "examples": [
+            {
+              "sentence": "いい提案ですね。ちょっと考えさせてください。",
+              "translation": "좋은 제안이네요. 좀 생각해 볼게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_034",
+      "word": "後で連絡します",
+      "pronunciation": "あとでれんらくします",
+      "subcategory": "약속",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "나중에 연락할게요",
+          "examples": [
+            {
+              "sentence": "確認して後で連絡します。",
+              "translation": "확인하고 나중에 연락할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_035",
+      "word": "お手伝いしましょうか",
+      "pronunciation": "おてつだいしましょうか",
+      "subcategory": "제안",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "도와드릴까요?",
+          "examples": [
+            {
+              "sentence": "荷物が多いですね。お手伝いしましょうか。",
+              "translation": "짐이 많네요. 도와드릴까요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_036",
+      "word": "よかったらどうぞ",
+      "pronunciation": "よかったらどうぞ",
+      "subcategory": "권유",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "괜찮으시면 드세요/하세요",
+          "examples": [
+            {
+              "sentence": "チョコレートです。よかったらどうぞ。",
+              "translation": "초콜릿이에요. 괜찮으시면 드세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_037",
+      "word": "ご遠慮なく",
+      "pronunciation": "ごえんりょなく",
+      "subcategory": "권유",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "사양하지 마세요",
+          "examples": [
+            {
+              "sentence": "たくさんありますから、ご遠慮なく召し上がってください。",
+              "translation": "많으니까 사양하지 마시고 드세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_038",
+      "word": "お気になさらないでください",
+      "pronunciation": "おきになさらないでください",
+      "subcategory": "위로",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "신경 쓰지 마세요",
+          "examples": [
+            {
+              "sentence": "どうぞお気になさらないでください。大丈夫ですから。",
+              "translation": "신경 쓰지 마세요. 괜찮으니까요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_039",
+      "word": "いつもお世話になっております",
+      "pronunciation": "いつもおせわになっております",
+      "subcategory": "비즈니스",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "항상 신세지고 있습니다",
+          "examples": [
+            {
+              "sentence": "お電話ありがとうございます。いつもお世話になっております。",
+              "translation": "전화 감사합니다. 항상 신세지고 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_040",
+      "word": "こちらこそ",
+      "pronunciation": "こちらこそ",
+      "subcategory": "인사",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "저야말로",
+          "examples": [
+            {
+              "sentence": "今日はありがとうございました。ー こちらこそ、ありがとうございました。",
+              "translation": "오늘 감사했습니다. - 저야말로 감사했습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_041",
+      "word": "おかげさまで",
+      "pronunciation": "おかげさまで",
+      "subcategory": "감사",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "덕분에",
+          "examples": [
+            {
+              "sentence": "お体はいかがですか。ー おかげさまで、元気です。",
+              "translation": "건강은 어떠세요? - 덕분에 건강해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_042",
+      "word": "お待たせしました",
+      "pronunciation": "おまたせしました",
+      "subcategory": "사과",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "오래 기다리셨습니다",
+          "examples": [
+            {
+              "sentence": "お待たせしました。ご注文の品です。",
+              "translation": "오래 기다리셨습니다. 주문하신 물건입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_043",
+      "word": "お邪魔します",
+      "pronunciation": "おじゃまします",
+      "subcategory": "방문",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "실례합니다 (남의 집 방문시)",
+          "examples": [
+            {
+              "sentence": "どうぞお入りください。ー お邪魔します。",
+              "translation": "들어오세요. - 실례합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_044",
+      "word": "お邪魔しました",
+      "pronunciation": "おじゃましました",
+      "subcategory": "방문",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "실례했습니다 (남의 집 떠날 때)",
+          "examples": [
+            {
+              "sentence": "そろそろ失礼します。今日はお邪魔しました。",
+              "translation": "슬슬 실례하겠습니다. 오늘 실례했습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_045",
+      "word": "つまらないものですが",
+      "pronunciation": "つまらないものですが",
+      "subcategory": "선물",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "변변찮은 것입니다만",
+          "examples": [
+            {
+              "sentence": "つまらないものですが、どうぞ。",
+              "translation": "변변찮은 것입니다만, 받으세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_046",
+      "word": "ご親切にどうも",
+      "pronunciation": "ごしんせつにどうも",
+      "subcategory": "감사",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "친절히 해주셔서 감사합니다",
+          "examples": [
+            {
+              "sentence": "道を教えてくださってご親切にどうも。",
+              "translation": "길을 알려주셔서 감사합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_047",
+      "word": "恐れ入りますが",
+      "pronunciation": "おそれいりますが",
+      "subcategory": "부탁",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "죄송합니다만 (정중한 부탁)",
+          "examples": [
+            {
+              "sentence": "恐れ入りますが、お名前をもう一度お願いできますか。",
+              "translation": "죄송합니다만, 성함을 한 번 더 말씀해 주시겠습니까?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_048",
+      "word": "少々お待ちください",
+      "pronunciation": "しょうしょうおまちください",
+      "subcategory": "요청",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "잠시만 기다려 주세요",
+          "examples": [
+            {
+              "sentence": "少々お待ちください。確認いたします。",
+              "translation": "잠시만 기다려 주세요. 확인하겠습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_049",
+      "word": "かしこまりました",
+      "pronunciation": "かしこまりました",
+      "subcategory": "승낙",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "알겠습니다 (정중)",
+          "examples": [
+            {
+              "sentence": "ビールを2つお願いします。ー かしこまりました。",
+              "translation": "맥주 두 잔 주세요. - 알겠습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_050",
+      "word": "承知しました",
+      "pronunciation": "しょうちしました",
+      "subcategory": "승낙",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "알겠습니다 (비즈니스)",
+          "examples": [
+            {
+              "sentence": "明日までにお送りください。ー 承知しました。",
+              "translation": "내일까지 보내주세요. - 알겠습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_051",
+      "word": "それはちょっと...",
+      "pronunciation": "それはちょっと...",
+      "subcategory": "거절",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "그건 좀... (완곡한 거절)",
+          "examples": [
+            {
+              "sentence": "明日会えますか。ー 明日はちょっと...",
+              "translation": "내일 만날 수 있어요? - 내일은 좀..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_052",
+      "word": "せっかくですが",
+      "pronunciation": "せっかくですが",
+      "subcategory": "거절",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "모처럼이지만",
+          "examples": [
+            {
+              "sentence": "せっかくですが、今日は予定があって...",
+              "translation": "모처럼이지만, 오늘은 약속이 있어서..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_053",
+      "word": "申し訳ないのですが",
+      "pronunciation": "もうしわけないのですが",
+      "subcategory": "거절",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "죄송합니다만",
+          "examples": [
+            {
+              "sentence": "申し訳ないのですが、その日は都合が悪くて...",
+              "translation": "죄송합니다만, 그날은 사정이 있어서..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_054",
+      "word": "ぜひお願いします",
+      "pronunciation": "ぜひおねがいします",
+      "subcategory": "수락",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "꼭 부탁드립니다",
+          "examples": [
+            {
+              "sentence": "今度一緒に食事しませんか。ー ぜひお願いします。",
+              "translation": "다음에 같이 식사하지 않을래요? - 꼭 부탁드려요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_055",
+      "word": "喜んで",
+      "pronunciation": "よろこんで",
+      "subcategory": "수락",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "기꺼이",
+          "examples": [
+            {
+              "sentence": "パーティーに来てくれませんか。ー 喜んで。",
+              "translation": "파티에 와주시겠어요? - 기꺼이요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_056",
+      "word": "よろしければ",
+      "pronunciation": "よろしければ",
+      "subcategory": "제안",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "괜찮으시다면",
+          "examples": [
+            {
+              "sentence": "よろしければ、ご一緒にいかがですか。",
+              "translation": "괜찮으시다면, 함께 하시겠어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_057",
+      "word": "いかがですか",
+      "pronunciation": "いかがですか",
+      "subcategory": "권유",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "어떠세요?",
+          "examples": [
+            {
+              "sentence": "コーヒーはいかがですか。",
+              "translation": "커피 어떠세요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_058",
+      "word": "〜はどうですか",
+      "pronunciation": "〜はどうですか",
+      "subcategory": "제안",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~는 어때요?",
+          "examples": [
+            {
+              "sentence": "週末、映画を見に行くのはどうですか。",
+              "translation": "주말에 영화 보러 가는 건 어때요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_059",
+      "word": "〜ませんか",
+      "pronunciation": "〜ませんか",
+      "subcategory": "권유",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~하지 않을래요?",
+          "examples": [
+            {
+              "sentence": "一緒にお茶でも飲みませんか。",
+              "translation": "같이 차라도 마시지 않을래요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_060",
+      "word": "〜ましょう",
+      "pronunciation": "〜ましょう",
+      "subcategory": "권유",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~합시다",
+          "examples": [
+            {
+              "sentence": "そろそろ帰りましょう。",
+              "translation": "슬슬 돌아갑시다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_061",
+      "word": "お忙しいところすみません",
+      "pronunciation": "おいそがしいところすみません",
+      "subcategory": "예절",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "바쁘신 와중에 죄송합니다",
+          "examples": [
+            {
+              "sentence": "お忙しいところすみません。少しお時間よろしいですか。",
+              "translation": "바쁘신 와중에 죄송합니다. 잠깐 시간 괜찮으세요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_062",
+      "word": "お言葉に甘えて",
+      "pronunciation": "おことばにあまえて",
+      "subcategory": "수락",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "말씀에 따라서/감사히",
+          "examples": [
+            {
+              "sentence": "車で送りましょうか。ー お言葉に甘えて、お願いします。",
+              "translation": "차로 데려다드릴까요? - 말씀에 따라서 부탁드립니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_063",
+      "word": "ご都合はいかがですか",
+      "pronunciation": "ごつごうはいかがですか",
+      "subcategory": "확인",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "일정이 어떠세요?",
+          "examples": [
+            {
+              "sentence": "来週の水曜日、ご都合はいかがですか。",
+              "translation": "다음 주 수요일, 일정이 어떠세요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_064",
+      "word": "気にしないでください",
+      "pronunciation": "きにしないでください",
+      "subcategory": "위로",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "신경 쓰지 마세요",
+          "examples": [
+            {
+              "sentence": "遅れてすみません。ー 気にしないでください。",
+              "translation": "늦어서 죄송해요. - 신경 쓰지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_065",
+      "word": "ご心配なく",
+      "pronunciation": "ごしんぱいなく",
+      "subcategory": "안심",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "걱정 마세요",
+          "examples": [
+            {
+              "sentence": "大丈夫ですか。ー ご心配なく。",
+              "translation": "괜찮으세요? - 걱정 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_066",
+      "word": "お任せします",
+      "pronunciation": "おまかせします",
+      "subcategory": "위임",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "맡기겠습니다",
+          "examples": [
+            {
+              "sentence": "何がおすすめですか。ー お任せします。",
+              "translation": "뭐가 추천이에요? - 맡길게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_067",
+      "word": "〜ことにしています",
+      "pronunciation": "〜ことにしています",
+      "subcategory": "습관",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~하기로 하고 있어요",
+          "examples": [
+            {
+              "sentence": "毎朝6時に起きることにしています。",
+              "translation": "매일 아침 6시에 일어나기로 하고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_068",
+      "word": "〜といいんですけど",
+      "pronunciation": "〜といいんですけど",
+      "subcategory": "희망",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~하면 좋겠는데요",
+          "examples": [
+            {
+              "sentence": "明日晴れるといいんですけど。",
+              "translation": "내일 맑으면 좋겠는데요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_069",
+      "word": "〜てほしいんですが",
+      "pronunciation": "〜てほしいんですが",
+      "subcategory": "요청",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~해 줬으면 하는데요",
+          "examples": [
+            {
+              "sentence": "この書類を確認してほしいんですが。",
+              "translation": "이 서류를 확인해 줬으면 하는데요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_070",
+      "word": "実は...",
+      "pronunciation": "じつは...",
+      "subcategory": "고백",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "사실은...",
+          "examples": [
+            {
+              "sentence": "実は、来月引っ越すことになりました。",
+              "translation": "사실은, 다음 달에 이사하게 됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_071",
+      "word": "ところで",
+      "pronunciation": "ところで",
+      "subcategory": "전환",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "그런데",
+          "examples": [
+            {
+              "sentence": "ところで、週末の予定はありますか。",
+              "translation": "그런데, 주말에 계획 있어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_072",
+      "word": "そういえば",
+      "pronunciation": "そういえば",
+      "subcategory": "전환",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "그러고 보니",
+          "examples": [
+            {
+              "sentence": "そういえば、彼から連絡ありましたか。",
+              "translation": "그러고 보니, 그에게서 연락 왔어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_073",
+      "word": "それより",
+      "pronunciation": "それより",
+      "subcategory": "전환",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "그것보다",
+          "examples": [
+            {
+              "sentence": "それより、お昼ご飯食べましたか。",
+              "translation": "그것보다, 점심 먹었어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_074",
+      "word": "〜んじゃない",
+      "pronunciation": "〜んじゃない",
+      "subcategory": "추측",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~인 거 아니야?",
+          "examples": [
+            {
+              "sentence": "彼、怒ってるんじゃない？",
+              "translation": "그, 화나 있는 거 아니야?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_075",
+      "word": "〜かな",
+      "pronunciation": "〜かな",
+      "subcategory": "의문",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~일까, ~할까",
+          "examples": [
+            {
+              "sentence": "これでいいかな。",
+              "translation": "이걸로 괜찮을까."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_076",
+      "word": "〜じゃん",
+      "pronunciation": "〜じゃん",
+      "subcategory": "확인",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~잖아 (구어)",
+          "examples": [
+            {
+              "sentence": "それ、君のじゃん。",
+              "translation": "그거, 너 거잖아."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_077",
+      "word": "〜っけ",
+      "pronunciation": "〜っけ",
+      "subcategory": "확인",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~였던가?",
+          "examples": [
+            {
+              "sentence": "会議は何時からだっけ？",
+              "translation": "회의는 몇 시부터였던가?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_078",
+      "word": "〜よね",
+      "pronunciation": "〜よね",
+      "subcategory": "확인",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~지요?",
+          "examples": [
+            {
+              "sentence": "明日、休みだよね？",
+              "translation": "내일, 쉬는 날이지?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_079",
+      "word": "〜だっけ",
+      "pronunciation": "〜だっけ",
+      "subcategory": "확인",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~였던가?",
+          "examples": [
+            {
+              "sentence": "彼の名前、何だっけ？",
+              "translation": "그의 이름, 뭐였던가?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_080",
+      "word": "〜らしい",
+      "pronunciation": "〜らしい",
+      "subcategory": "전문",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~래, ~인 것 같아",
+          "examples": [
+            {
+              "sentence": "彼、転職するらしいよ。",
+              "translation": "그, 이직한대."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_081",
+      "word": "〜って",
+      "pronunciation": "〜って",
+      "subcategory": "인용",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~래, ~라고 (구어)",
+          "examples": [
+            {
+              "sentence": "彼女、来られないって。",
+              "translation": "그녀, 못 온대."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_082",
+      "word": "〜わけ",
+      "pronunciation": "〜わけ",
+      "subcategory": "설명",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~인 거야?",
+          "examples": [
+            {
+              "sentence": "つまり、行きたくないわけ？",
+              "translation": "그러니까, 가기 싫은 거야?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_083",
+      "word": "えーと",
+      "pronunciation": "えーと",
+      "subcategory": "머뭇거림",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "어..., 음...",
+          "examples": [
+            {
+              "sentence": "えーと、何を言おうとしたんだっけ。",
+              "translation": "어..., 뭘 말하려고 했던 거지."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_084",
+      "word": "あのう",
+      "pronunciation": "あのう",
+      "subcategory": "머뭇거림",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "저기요...",
+          "examples": [
+            {
+              "sentence": "あのう、すみません。道を教えていただけますか。",
+              "translation": "저기요, 실례합니다. 길을 알려주시겠어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_085",
+      "word": "まあ",
+      "pronunciation": "まあ",
+      "subcategory": "완화",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "뭐, 글쎄",
+          "examples": [
+            {
+              "sentence": "まあ、いいんじゃない。",
+              "translation": "뭐, 괜찮지 않아?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_086",
+      "word": "〜なんて",
+      "pronunciation": "〜なんて",
+      "subcategory": "감탄",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~이라니, ~같은 건",
+          "examples": [
+            {
+              "sentence": "合格するなんて信じられない！",
+              "translation": "합격하다니 믿을 수 없어!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_087",
+      "word": "〜って言うか",
+      "pronunciation": "〜っていうか",
+      "subcategory": "수정",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~라기보다는",
+          "examples": [
+            {
+              "sentence": "嫌いっていうか、苦手なんだ。",
+              "translation": "싫다기보다는, 서툴러."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_088",
+      "word": "〜みたいな",
+      "pronunciation": "〜みたいな",
+      "subcategory": "비유",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~같은",
+          "examples": [
+            {
+              "sentence": "それって、冗談みたいな話だね。",
+              "translation": "그거, 농담 같은 얘기네."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_089",
+      "word": "〜的には",
+      "pronunciation": "〜てきには",
+      "subcategory": "의견",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~적으로는",
+          "examples": [
+            {
+              "sentence": "個人的には賛成です。",
+              "translation": "개인적으로는 찬성이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_090",
+      "word": "〜ってこと",
+      "pronunciation": "〜ってこと",
+      "subcategory": "확인",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~라는 거야?",
+          "examples": [
+            {
+              "sentence": "つまり、無理ってこと？",
+              "translation": "그러니까, 안 된다는 거야?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_091",
+      "word": "ごめんね",
+      "pronunciation": "ごめんね",
+      "subcategory": "사과",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "미안해",
+          "examples": [
+            {
+              "sentence": "遅れてごめんね。",
+              "translation": "늦어서 미안해."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_092",
+      "word": "いいよ",
+      "pronunciation": "いいよ",
+      "subcategory": "허락",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "괜찮아, 좋아",
+          "examples": [
+            {
+              "sentence": "借りてもいい？ー いいよ。",
+              "translation": "빌려도 돼? - 좋아."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_093",
+      "word": "〜でいい",
+      "pronunciation": "〜でいい",
+      "subcategory": "선택",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~로 괜찮아",
+          "examples": [
+            {
+              "sentence": "コーヒーでいい？",
+              "translation": "커피로 괜찮아?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_094",
+      "word": "〜にする",
+      "pronunciation": "〜にする",
+      "subcategory": "선택",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~으로 할게",
+          "examples": [
+            {
+              "sentence": "じゃ、私はカレーにする。",
+              "translation": "그럼, 나는 카레로 할게."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_095",
+      "word": "どうしよう",
+      "pronunciation": "どうしよう",
+      "subcategory": "고민",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "어떡하지",
+          "examples": [
+            {
+              "sentence": "財布忘れた。どうしよう。",
+              "translation": "지갑 잊어버렸어. 어떡하지."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_096",
+      "word": "しょうがない",
+      "pronunciation": "しょうがない",
+      "subcategory": "체념",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "어쩔 수 없어",
+          "examples": [
+            {
+              "sentence": "雨だから、しょうがないね。",
+              "translation": "비니까, 어쩔 수 없네."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_097",
+      "word": "やっぱり",
+      "pronunciation": "やっぱり",
+      "subcategory": "확인",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "역시, 아무래도",
+          "examples": [
+            {
+              "sentence": "やっぱり行くのやめる。",
+              "translation": "역시 가는 거 그만둘래."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_098",
+      "word": "〜てみて",
+      "pronunciation": "〜てみて",
+      "subcategory": "권유",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~해 봐",
+          "examples": [
+            {
+              "sentence": "このケーキ食べてみて。おいしいよ。",
+              "translation": "이 케이크 먹어 봐. 맛있어."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_099",
+      "word": "〜てる",
+      "pronunciation": "〜てる",
+      "subcategory": "축약",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "~하고 있어 (〜ている의 축약)",
+          "examples": [
+            {
+              "sentence": "今何してる？",
+              "translation": "지금 뭐 하고 있어?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcp_100",
+      "word": "じゃあね",
+      "pronunciation": "じゃあね",
+      "subcategory": "작별",
+      "meanings": [
+        {
+          "partOfSpeech": "회화",
+          "meaning": "그럼 안녕",
+          "examples": [
+            {
+              "sentence": "じゃあね、また明日。",
+              "translation": "그럼 안녕, 내일 또 봐."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

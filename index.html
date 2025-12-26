@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>VocabMaster - 영어 단어 암기</title>
+    <title>VocabMaster - 단어 암기</title>
 
     <!-- PWA Meta Tags -->
-    <meta name="description" content="효과적인 영어 단어 암기를 위한 종합 학습 웹앱">
+    <meta name="description" content="효과적인 단어 암기를 위한 종합 학습 웹앱">
     <meta name="theme-color" content="#4285f4">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -81,7 +81,7 @@
                 <span class="loading-text">로딩 중...</span>
             </div>
             <div class="home-hero">
-                <h1 class="hero-title">영어 단어 암기 마스터</h1>
+                <h1 class="hero-title">단어 암기 마스터</h1>
 
                 <!-- Search Bar -->
                 <div class="search-container">
@@ -100,10 +100,24 @@
             <div class="category-section">
                 <div class="section-header">
                     <h2 class="section-title">카테고리별 학습</h2>
-                    <div class="category-filter-tabs">
-                        <button class="filter-tab active" data-filter="all" onclick="filterCategoriesByStatus('all')">전체</button>
-                        <button class="filter-tab" data-filter="active" onclick="filterCategoriesByStatus('active')">활성화</button>
-                        <button class="filter-tab" data-filter="inactive" onclick="filterCategoriesByStatus('inactive')">비활성화</button>
+                    <div class="category-filters">
+                        <select id="language-filter" class="language-filter-select" onchange="filterCategoriesByLanguage(this.value)">
+                            <option value="all">전체 언어</option>
+                            <option value="en-US">영어</option>
+                            <option value="ko-KR">한국어</option>
+                            <option value="zh-CN">중국어</option>
+                            <option value="ja-JP">일본어</option>
+                            <option value="es-ES">스페인어</option>
+                            <option value="fr-FR">프랑스어</option>
+                            <option value="de-DE">독일어</option>
+                            <option value="vi-VN">베트남어</option>
+                            <option value="other">기타</option>
+                        </select>
+                        <div class="category-filter-tabs">
+                            <button class="filter-tab active" data-filter="all" onclick="filterCategoriesByStatus('all')">전체</button>
+                            <button class="filter-tab" data-filter="active" onclick="filterCategoriesByStatus('active')">활성화</button>
+                            <button class="filter-tab" data-filter="inactive" onclick="filterCategoriesByStatus('inactive')">비활성화</button>
+                        </div>
                     </div>
                 </div>
                 <div class="category-grid" id="category-grid">
@@ -711,6 +725,26 @@
                 <div class="form-group">
                     <label>카테고리 이름</label>
                     <input type="text" id="custom-category-name" class="input-field" placeholder="예: 비즈니스 영어">
+                </div>
+                <div class="form-group">
+                    <label>언어</label>
+                    <select id="custom-category-lang" class="select-field">
+                        <option value="en-US">영어 (미국)</option>
+                        <option value="en-GB">영어 (영국)</option>
+                        <option value="ko-KR">한국어</option>
+                        <option value="zh-CN">중국어 (간체)</option>
+                        <option value="zh-TW">중국어 (번체)</option>
+                        <option value="ja-JP">일본어</option>
+                        <option value="es-ES">스페인어</option>
+                        <option value="fr-FR">프랑스어</option>
+                        <option value="de-DE">독일어</option>
+                        <option value="it-IT">이탈리아어</option>
+                        <option value="pt-BR">포르투갈어 (브라질)</option>
+                        <option value="ru-RU">러시아어</option>
+                        <option value="vi-VN">베트남어</option>
+                        <option value="th-TH">태국어</option>
+                        <option value="id-ID">인도네시아어</option>
+                    </select>
                 </div>
                 <div class="form-group">
                     <label>아이콘</label>

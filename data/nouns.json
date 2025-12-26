@@ -3,6 +3,7 @@
   "name": "명사",
   "icon": "📦",
   "color": "#4285f4",
+  "lang": "en-US",
   "words": [
     {
       "id": "nouns_person_0",

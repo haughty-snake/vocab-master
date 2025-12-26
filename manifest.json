@@ -1,7 +1,7 @@
 {
-  "name": "VocabMaster - 영어 단어 암기",
+  "name": "VocabMaster - 단어 암기",
   "short_name": "VocabMaster",
-  "description": "효과적인 영어 단어 암기를 위한 종합 학습 웹앱",
+  "description": "효과적인 단어 암기를 위한 종합 학습 웹앱",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",

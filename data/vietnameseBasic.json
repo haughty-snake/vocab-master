@@ -1,0 +1,1059 @@
+{
+  "id": "vietnameseBasic",
+  "name": "베트남어 기초",
+  "icon": "🇻🇳",
+  "color": "#da251d",
+  "lang": "vi-VN",
+  "words": [
+    {
+      "id": "vietnamese_xin_chao_0",
+      "word": "Xin chào",
+      "pronunciation": "/sin tʃaːw/",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "안녕하세요", "examples": [{ "sentence": "Xin chào, bạn khỏe không?", "translation": "안녕하세요, 잘 지내세요?" }] }]
+    },
+    {
+      "id": "vietnamese_tam_biet_1",
+      "word": "Tạm biệt",
+      "pronunciation": "/taːm biət/",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "안녕히 가세요", "examples": [{ "sentence": "Tạm biệt, hẹn gặp lại!", "translation": "안녕히 가세요, 다음에 만나요!" }] }]
+    },
+    {
+      "id": "vietnamese_cam_on_2",
+      "word": "Cảm ơn",
+      "pronunciation": "/kaːm əːn/",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "감사합니다", "examples": [{ "sentence": "Cảm ơn bạn nhiều!", "translation": "정말 감사합니다!" }] }]
+    },
+    {
+      "id": "vietnamese_xin_loi_3",
+      "word": "Xin lỗi",
+      "pronunciation": "/sin lɔːj/",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "죄송합니다 / 실례합니다", "examples": [{ "sentence": "Xin lỗi, tôi đến muộn.", "translation": "죄송합니다, 늦었어요." }] }]
+    },
+    {
+      "id": "vietnamese_vang_4",
+      "word": "Vâng",
+      "pronunciation": "/vəːŋ/",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "감탄사", "meaning": "네 (격식)", "examples": [{ "sentence": "Vâng, tôi hiểu rồi.", "translation": "네, 알겠습니다." }] }]
+    },
+    {
+      "id": "vietnamese_khong_5",
+      "word": "Không",
+      "pronunciation": "/xoŋm/",
+      "subcategory": "기본 표현",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "아니오 / ~않다", "examples": [{ "sentence": "Không, cảm ơn.", "translation": "아니요, 괜찮아요." }] }]
+    },
+    {
+      "id": "vietnamese_toi_6",
+      "word": "Tôi",
+      "pronunciation": "/toj/",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "나, 저", "examples": [{ "sentence": "Tôi là người Hàn Quốc.", "translation": "저는 한국인입니다." }] }]
+    },
+    {
+      "id": "vietnamese_ban_7",
+      "word": "Bạn",
+      "pronunciation": "/baːn/",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "너, 당신", "examples": [{ "sentence": "Bạn tên là gì?", "translation": "이름이 뭐예요?" }] }]
+    },
+    {
+      "id": "vietnamese_anh_8",
+      "word": "Anh",
+      "pronunciation": "/aːjŋ/",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "오빠, 형 / 당신 (남성)", "examples": [{ "sentence": "Anh ấy là bác sĩ.", "translation": "그는 의사입니다." }] }]
+    },
+    {
+      "id": "vietnamese_chi_9",
+      "word": "Chị",
+      "pronunciation": "/tʃi/",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "언니, 누나 / 당신 (여성)", "examples": [{ "sentence": "Chị ấy rất đẹp.", "translation": "그녀는 매우 예쁘다." }] }]
+    },
+    {
+      "id": "vietnamese_la_10",
+      "word": "là",
+      "pronunciation": "/laː/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "~이다", "examples": [{ "sentence": "Đây là nhà tôi.", "translation": "여기가 제 집이에요." }] }]
+    },
+    {
+      "id": "vietnamese_co_11",
+      "word": "có",
+      "pronunciation": "/kɔː/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "있다, 가지다", "examples": [{ "sentence": "Tôi có một con mèo.", "translation": "나는 고양이 한 마리가 있어요." }] }]
+    },
+    {
+      "id": "vietnamese_di_12",
+      "word": "đi",
+      "pronunciation": "/ɗi/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "가다", "examples": [{ "sentence": "Tôi đi làm.", "translation": "나는 일하러 가요." }] }]
+    },
+    {
+      "id": "vietnamese_den_13",
+      "word": "đến",
+      "pronunciation": "/ɗeːn/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "오다, 도착하다", "examples": [{ "sentence": "Anh ấy đến rồi.", "translation": "그가 왔어요." }] }]
+    },
+    {
+      "id": "vietnamese_an_14",
+      "word": "ăn",
+      "pronunciation": "/aːn/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "먹다", "examples": [{ "sentence": "Bạn muốn ăn gì?", "translation": "뭘 먹고 싶어요?" }] }]
+    },
+    {
+      "id": "vietnamese_uong_15",
+      "word": "uống",
+      "pronunciation": "/uəŋ/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "마시다", "examples": [{ "sentence": "Tôi muốn uống cà phê.", "translation": "커피 마시고 싶어요." }] }]
+    },
+    {
+      "id": "vietnamese_noi_16",
+      "word": "nói",
+      "pronunciation": "/nɔːj/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "말하다", "examples": [{ "sentence": "Bạn nói tiếng Việt không?", "translation": "베트남어 할 줄 아세요?" }] }]
+    },
+    {
+      "id": "vietnamese_hieu_17",
+      "word": "hiểu",
+      "pronunciation": "/hiəw/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "이해하다", "examples": [{ "sentence": "Tôi không hiểu.", "translation": "이해하지 못하겠어요." }] }]
+    },
+    {
+      "id": "vietnamese_muon_18",
+      "word": "muốn",
+      "pronunciation": "/muən/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "원하다", "examples": [{ "sentence": "Tôi muốn học tiếng Việt.", "translation": "베트남어를 배우고 싶어요." }] }]
+    },
+    {
+      "id": "vietnamese_biet_19",
+      "word": "biết",
+      "pronunciation": "/biət/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "알다", "examples": [{ "sentence": "Tôi không biết.", "translation": "몰라요." }] }]
+    },
+    {
+      "id": "vietnamese_tot_20",
+      "word": "tốt",
+      "pronunciation": "/toːt/",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "좋은", "examples": [{ "sentence": "Rất tốt!", "translation": "아주 좋아요!" }] }]
+    },
+    {
+      "id": "vietnamese_xau_21",
+      "word": "xấu",
+      "pronunciation": "/səːw/",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "나쁜, 못생긴", "examples": [{ "sentence": "Thời tiết hôm nay xấu.", "translation": "오늘 날씨가 안 좋아요." }] }]
+    },
+    {
+      "id": "vietnamese_dep_22",
+      "word": "đẹp",
+      "pronunciation": "/ɗɛːp/",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "예쁜, 아름다운", "examples": [{ "sentence": "Cảnh đẹp quá!", "translation": "경치가 너무 예뻐요!" }] }]
+    },
+    {
+      "id": "vietnamese_lon_23",
+      "word": "lớn",
+      "pronunciation": "/ləːn/",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "큰", "examples": [{ "sentence": "Đây là thành phố lớn.", "translation": "여기는 큰 도시예요." }] }]
+    },
+    {
+      "id": "vietnamese_nho_24",
+      "word": "nhỏ",
+      "pronunciation": "/ɲɔː/",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "작은", "examples": [{ "sentence": "Con mèo nhỏ.", "translation": "작은 고양이." }] }]
+    },
+    {
+      "id": "vietnamese_mot_25",
+      "word": "một",
+      "pronunciation": "/moːt/",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "1", "examples": [{ "sentence": "Một, hai, ba!", "translation": "하나, 둘, 셋!" }] }]
+    },
+    {
+      "id": "vietnamese_hai_26",
+      "word": "hai",
+      "pronunciation": "/haːj/",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "2", "examples": [{ "sentence": "Tôi có hai anh em.", "translation": "나는 형제가 둘 있어요." }] }]
+    },
+    {
+      "id": "vietnamese_ba_27",
+      "word": "ba",
+      "pronunciation": "/baː/",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "3", "examples": [{ "sentence": "Ba người.", "translation": "세 명." }] }]
+    },
+    {
+      "id": "vietnamese_muoi_28",
+      "word": "mười",
+      "pronunciation": "/mɨəj/",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "10", "examples": [{ "sentence": "Mười nghìn đồng.", "translation": "만 동." }] }]
+    },
+    {
+      "id": "vietnamese_tram_29",
+      "word": "trăm",
+      "pronunciation": "/tɹaːm/",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "100", "examples": [{ "sentence": "Một trăm đồng.", "translation": "백 동." }] }]
+    },
+    {
+      "id": "vietnamese_hom_nay_30",
+      "word": "hôm nay",
+      "pronunciation": "/hoːm naːj/",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "오늘", "examples": [{ "sentence": "Hôm nay bạn làm gì?", "translation": "오늘 뭐 해요?" }] }]
+    },
+    {
+      "id": "vietnamese_ngay_mai_31",
+      "word": "ngày mai",
+      "pronunciation": "/ŋaːj maːj/",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "내일", "examples": [{ "sentence": "Hẹn gặp lại ngày mai!", "translation": "내일 만나요!" }] }]
+    },
+    {
+      "id": "vietnamese_hom_qua_32",
+      "word": "hôm qua",
+      "pronunciation": "/hoːm kwaː/",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "어제", "examples": [{ "sentence": "Hôm qua tôi rất mệt.", "translation": "어제 나는 매우 피곤했어요." }] }]
+    },
+    {
+      "id": "vietnamese_bay_gio_33",
+      "word": "bây giờ",
+      "pronunciation": "/bəːj ʒəː/",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "지금", "examples": [{ "sentence": "Bây giờ mấy giờ rồi?", "translation": "지금 몇 시예요?" }] }]
+    },
+    {
+      "id": "vietnamese_ban_khoe_khong_34",
+      "word": "Bạn khỏe không?",
+      "pronunciation": "/baːn xwɛː xoŋm/",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "잘 지내세요?", "examples": [{ "sentence": "Xin chào! Bạn khỏe không?", "translation": "안녕하세요! 잘 지내세요?" }] }]
+    },
+    {
+      "id": "vietnamese_toi_khoe_35",
+      "word": "Tôi khỏe",
+      "pronunciation": "/toj xwɛː/",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "저는 잘 지내요", "examples": [{ "sentence": "Tôi khỏe, cảm ơn bạn.", "translation": "잘 지내요, 감사합니다." }] }]
+    },
+    {
+      "id": "vietnamese_toi_ten_la_36",
+      "word": "Tôi tên là...",
+      "pronunciation": "/toj teːn laː/",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "제 이름은 ~입니다", "examples": [{ "sentence": "Tôi tên là Minh.", "translation": "제 이름은 민입니다." }] }]
+    },
+    {
+      "id": "vietnamese_o_dau_37",
+      "word": "...ở đâu?",
+      "pronunciation": "/əː ɗəːw/",
+      "subcategory": "패턴",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "~이/가 어디에 있나요?", "examples": [{ "sentence": "Nhà vệ sinh ở đâu?", "translation": "화장실이 어디에 있나요?" }] }]
+    },
+    {
+      "id": "vietnamese_bao_nhieu_38",
+      "word": "...bao nhiêu?",
+      "pronunciation": "/baːw ɲiəw/",
+      "subcategory": "패턴",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "~은/는 얼마예요?", "examples": [{ "sentence": "Cái này bao nhiêu tiền?", "translation": "이거 얼마예요?" }] }]
+    },
+    {
+      "id": "vietnamese_toi_muon_39",
+      "word": "Tôi muốn...",
+      "pronunciation": "/toj muən/",
+      "subcategory": "패턴",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "~하고 싶어요", "examples": [{ "sentence": "Tôi muốn mua cái này.", "translation": "이것을 사고 싶어요." }] }]
+    },
+    {
+      "id": "vietnamese_cho_toi_40",
+      "word": "Cho tôi...",
+      "pronunciation": "/tʃɔː toj/",
+      "subcategory": "패턴",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "~을/를 주세요", "examples": [{ "sentence": "Cho tôi một ly cà phê.", "translation": "커피 한 잔 주세요." }] }]
+    },
+    {
+      "id": "vietnamese_day_la_gi_41",
+      "word": "Đây là gì?",
+      "pronunciation": "/ɗəːj laː ʒi/",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "이것은 뭐예요?", "examples": [{ "sentence": "Xin lỗi, đây là gì?", "translation": "실례합니다, 이것은 뭐예요?" }] }]
+    },
+    {
+      "id": "vietnamese_khong_sao_42",
+      "word": "Không sao",
+      "pronunciation": "/xoŋm saːw/",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "괜찮아요", "examples": [{ "sentence": "Không sao đâu!", "translation": "괜찮아요!" }] }]
+    },
+    {
+      "id": "vietnamese_rat_vui_43",
+      "word": "Rất vui được gặp bạn",
+      "pronunciation": "/zəːt vuj ɗɨək ɡaːp baːn/",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "만나서 반가워요", "examples": [{ "sentence": "Rất vui được gặp bạn!", "translation": "만나서 반가워요!" }] }]
+    },
+    {
+      "id": "vietnamese_nuoc_44",
+      "word": "nước",
+      "pronunciation": "/nɨək/",
+      "subcategory": "명사",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "물 / 나라", "examples": [{ "sentence": "Cho tôi một ly nước.", "translation": "물 한 잔 주세요." }] }]
+    },
+    {
+      "id": "vietnamese_com_45",
+      "word": "cơm",
+      "pronunciation": "/kəːm/",
+      "subcategory": "명사",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "밥", "examples": [{ "sentence": "Ăn cơm chưa?", "translation": "밥 먹었어요?" }] }]
+    },
+    {
+      "id": "vietnamese_pho_46",
+      "word": "phở",
+      "pronunciation": "/fəː/",
+      "subcategory": "명사",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "쌀국수", "examples": [{ "sentence": "Tôi thích ăn phở.", "translation": "나는 쌀국수를 좋아해요." }] }]
+    },
+    {
+      "id": "vietnamese_ca_phe_47",
+      "word": "cà phê",
+      "pronunciation": "/kaː feː/",
+      "subcategory": "명사",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "커피", "examples": [{ "sentence": "Cà phê sữa đá.", "translation": "아이스 연유 커피." }] }]
+    },
+    {
+      "id": "vietnamese_nha_48",
+      "word": "nhà",
+      "pronunciation": "/ɲaː/",
+      "subcategory": "명사",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "집", "examples": [{ "sentence": "Tôi về nhà.", "translation": "집에 가요." }] }]
+    },
+    {
+      "id": "vietnamese_tien_49",
+      "word": "tiền",
+      "pronunciation": "/tiən/",
+      "subcategory": "명사",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "돈", "examples": [{ "sentence": "Bao nhiêu tiền?", "translation": "얼마예요?" }] }]
+    },
+    {
+      "id": "vietnamese_toi_50",
+      "word": "tôi",
+      "pronunciation": "또이",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "나, 저", "examples": [{ "sentence": "Tôi là sinh viên.", "translation": "저는 학생이에요." }] }]
+    },
+    {
+      "id": "vietnamese_ban_51",
+      "word": "bạn",
+      "pronunciation": "반",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "너, 당신, 친구", "examples": [{ "sentence": "Bạn tên gì?", "translation": "이름이 뭐예요?" }] }]
+    },
+    {
+      "id": "vietnamese_anh_52",
+      "word": "anh",
+      "pronunciation": "아잉",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "오빠, 형 (남성 호칭)", "examples": [{ "sentence": "Anh ơi!", "translation": "저기요! (남성에게)" }] }]
+    },
+    {
+      "id": "vietnamese_chi_53",
+      "word": "chị",
+      "pronunciation": "찌",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "언니, 누나 (여성 호칭)", "examples": [{ "sentence": "Chị ơi!", "translation": "저기요! (여성에게)" }] }]
+    },
+    {
+      "id": "vietnamese_no_54",
+      "word": "nó",
+      "pronunciation": "노",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "그/그녀/그것", "examples": [{ "sentence": "Nó là bạn tôi.", "translation": "그는 내 친구야." }] }]
+    },
+    {
+      "id": "vietnamese_chung_toi_55",
+      "word": "chúng tôi",
+      "pronunciation": "쭝 또이",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "우리 (청자 제외)", "examples": [{ "sentence": "Chúng tôi đến từ Hàn Quốc.", "translation": "우리는 한국에서 왔어요." }] }]
+    },
+    {
+      "id": "vietnamese_ai_56",
+      "word": "ai",
+      "pronunciation": "아이",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "누구", "examples": [{ "sentence": "Ai đó?", "translation": "누구세요?" }] }]
+    },
+    {
+      "id": "vietnamese_gi_57",
+      "word": "gì",
+      "pronunciation": "지",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "무엇", "examples": [{ "sentence": "Đây là gì?", "translation": "이게 뭐예요?" }] }]
+    },
+    {
+      "id": "vietnamese_dau_58",
+      "word": "đâu",
+      "pronunciation": "더우",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "어디", "examples": [{ "sentence": "Bạn ở đâu?", "translation": "어디 살아요?" }] }]
+    },
+    {
+      "id": "vietnamese_khi_nao_59",
+      "word": "khi nào",
+      "pronunciation": "키 나오",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "언제", "examples": [{ "sentence": "Khi nào bạn đến?", "translation": "언제 와요?" }] }]
+    },
+    {
+      "id": "vietnamese_the_nao_60",
+      "word": "thế nào",
+      "pronunciation": "테 나오",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "어떻게", "examples": [{ "sentence": "Bạn khỏe thế nào?", "translation": "어떻게 지내요?" }] }]
+    },
+    {
+      "id": "vietnamese_tai_sao_61",
+      "word": "tại sao",
+      "pronunciation": "따이 싸오",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "왜", "examples": [{ "sentence": "Tại sao bạn khóc?", "translation": "왜 울어요?" }] }]
+    },
+    {
+      "id": "vietnamese_la_62",
+      "word": "là",
+      "pronunciation": "라",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "~이다", "examples": [{ "sentence": "Đây là sách.", "translation": "이것은 책이에요." }] }]
+    },
+    {
+      "id": "vietnamese_co_63",
+      "word": "có",
+      "pronunciation": "꼬",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "있다, 가지다", "examples": [{ "sentence": "Tôi có xe.", "translation": "차가 있어요." }] }]
+    },
+    {
+      "id": "vietnamese_di_64",
+      "word": "đi",
+      "pronunciation": "디",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "가다", "examples": [{ "sentence": "Tôi đi làm.", "translation": "일하러 가요." }] }]
+    },
+    {
+      "id": "vietnamese_den_65",
+      "word": "đến",
+      "pronunciation": "덴",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "오다, 도착하다", "examples": [{ "sentence": "Bạn đến rồi!", "translation": "왔네요!" }] }]
+    },
+    {
+      "id": "vietnamese_lam_66",
+      "word": "làm",
+      "pronunciation": "람",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "하다, 만들다", "examples": [{ "sentence": "Bạn làm gì?", "translation": "뭐 해요?" }] }]
+    },
+    {
+      "id": "vietnamese_an_67",
+      "word": "ăn",
+      "pronunciation": "안",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "먹다", "examples": [{ "sentence": "Tôi ăn cơm.", "translation": "밥 먹어요." }] }]
+    },
+    {
+      "id": "vietnamese_uong_68",
+      "word": "uống",
+      "pronunciation": "우옹",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "마시다", "examples": [{ "sentence": "Uống nước đi!", "translation": "물 마셔요!" }] }]
+    },
+    {
+      "id": "vietnamese_ngu_69",
+      "word": "ngủ",
+      "pronunciation": "응우",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "자다", "examples": [{ "sentence": "Tôi ngủ ngon.", "translation": "잘 잤어요." }] }]
+    },
+    {
+      "id": "vietnamese_noi_70",
+      "word": "nói",
+      "pronunciation": "노이",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "말하다", "examples": [{ "sentence": "Tôi nói tiếng Việt.", "translation": "베트남어 해요." }] }]
+    },
+    {
+      "id": "vietnamese_hieu_71",
+      "word": "hiểu",
+      "pronunciation": "히에우",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "이해하다", "examples": [{ "sentence": "Tôi không hiểu.", "translation": "이해 못 해요." }] }]
+    },
+    {
+      "id": "vietnamese_biet_72",
+      "word": "biết",
+      "pronunciation": "비엣",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "알다", "examples": [{ "sentence": "Tôi không biết.", "translation": "몰라요." }] }]
+    },
+    {
+      "id": "vietnamese_muon_73",
+      "word": "muốn",
+      "pronunciation": "무온",
+      "subcategory": "조동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "원하다", "examples": [{ "sentence": "Tôi muốn ăn.", "translation": "먹고 싶어요." }] }]
+    },
+    {
+      "id": "vietnamese_can_74",
+      "word": "cần",
+      "pronunciation": "껀",
+      "subcategory": "조동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "필요하다", "examples": [{ "sentence": "Tôi cần giúp đỡ.", "translation": "도움이 필요해요." }] }]
+    },
+    {
+      "id": "vietnamese_duoc_75",
+      "word": "được",
+      "pronunciation": "드억",
+      "subcategory": "조동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "~할 수 있다", "examples": [{ "sentence": "Tôi được không?", "translation": "해도 돼요?" }] }]
+    },
+    {
+      "id": "vietnamese_tot_76",
+      "word": "tốt",
+      "pronunciation": "똣",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "좋은", "examples": [{ "sentence": "Rất tốt!", "translation": "아주 좋아요!" }] }]
+    },
+    {
+      "id": "vietnamese_xau_77",
+      "word": "xấu",
+      "pronunciation": "서우",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "나쁜", "examples": [{ "sentence": "Thời tiết xấu.", "translation": "날씨가 안 좋아요." }] }]
+    },
+    {
+      "id": "vietnamese_lon_78",
+      "word": "lớn",
+      "pronunciation": "런",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "큰", "examples": [{ "sentence": "Nhà lớn quá!", "translation": "집이 너무 커요!" }] }]
+    },
+    {
+      "id": "vietnamese_nho_79",
+      "word": "nhỏ",
+      "pronunciation": "뇨",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "작은", "examples": [{ "sentence": "Con nhỏ.", "translation": "작은 아이." }] }]
+    },
+    {
+      "id": "vietnamese_dep_80",
+      "word": "đẹp",
+      "pronunciation": "뎁",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "예쁜, 아름다운", "examples": [{ "sentence": "Đẹp quá!", "translation": "너무 예뻐요!" }] }]
+    },
+    {
+      "id": "vietnamese_moi_81",
+      "word": "mới",
+      "pronunciation": "머이",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "새로운", "examples": [{ "sentence": "Xe mới.", "translation": "새 차." }] }]
+    },
+    {
+      "id": "vietnamese_cu_82",
+      "word": "cũ",
+      "pronunciation": "꾸",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "오래된", "examples": [{ "sentence": "Nhà cũ.", "translation": "오래된 집." }] }]
+    },
+    {
+      "id": "vietnamese_tre_83",
+      "word": "trẻ",
+      "pronunciation": "쩨",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "젊은", "examples": [{ "sentence": "Cô ấy trẻ.", "translation": "그녀는 젊어요." }] }]
+    },
+    {
+      "id": "vietnamese_nong_84",
+      "word": "nóng",
+      "pronunciation": "농",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "더운, 뜨거운", "examples": [{ "sentence": "Trời nóng quá!", "translation": "날씨가 너무 더워요!" }] }]
+    },
+    {
+      "id": "vietnamese_lanh_85",
+      "word": "lạnh",
+      "pronunciation": "라잉",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "추운, 차가운", "examples": [{ "sentence": "Nước lạnh.", "translation": "차가운 물." }] }]
+    },
+    {
+      "id": "vietnamese_mot_86",
+      "word": "một",
+      "pronunciation": "몯",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "1, 하나", "examples": [{ "sentence": "Một ly cà phê.", "translation": "커피 한 잔." }] }]
+    },
+    {
+      "id": "vietnamese_hai_87",
+      "word": "hai",
+      "pronunciation": "하이",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "2, 둘", "examples": [{ "sentence": "Hai người.", "translation": "두 사람." }] }]
+    },
+    {
+      "id": "vietnamese_ba_88",
+      "word": "ba",
+      "pronunciation": "바",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "3, 셋", "examples": [{ "sentence": "Ba ngày.", "translation": "3일." }] }]
+    },
+    {
+      "id": "vietnamese_bon_89",
+      "word": "bốn",
+      "pronunciation": "본",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "4, 넷", "examples": [{ "sentence": "Bốn giờ.", "translation": "4시." }] }]
+    },
+    {
+      "id": "vietnamese_nam_90",
+      "word": "năm",
+      "pronunciation": "남",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "5, 다섯", "examples": [{ "sentence": "Năm phút.", "translation": "5분." }] }]
+    },
+    {
+      "id": "vietnamese_sau_91",
+      "word": "sáu",
+      "pronunciation": "싸우",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "6, 여섯", "examples": [{ "sentence": "Sáu giờ.", "translation": "6시." }] }]
+    },
+    {
+      "id": "vietnamese_bay_92",
+      "word": "bảy",
+      "pronunciation": "바이",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "7, 일곱", "examples": [{ "sentence": "Bảy ngày.", "translation": "7일." }] }]
+    },
+    {
+      "id": "vietnamese_tam_93",
+      "word": "tám",
+      "pronunciation": "땀",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "8, 여덟", "examples": [{ "sentence": "Tám tiếng.", "translation": "8시간." }] }]
+    },
+    {
+      "id": "vietnamese_chin_94",
+      "word": "chín",
+      "pronunciation": "찐",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "9, 아홉", "examples": [{ "sentence": "Chín giờ.", "translation": "9시." }] }]
+    },
+    {
+      "id": "vietnamese_muoi_95",
+      "word": "mười",
+      "pronunciation": "므어이",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "10, 열", "examples": [{ "sentence": "Mười phút.", "translation": "10분." }] }]
+    },
+    {
+      "id": "vietnamese_tram_96",
+      "word": "trăm",
+      "pronunciation": "짬",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "100, 백", "examples": [{ "sentence": "Một trăm đồng.", "translation": "100동." }] }]
+    },
+    {
+      "id": "vietnamese_nghin_97",
+      "word": "nghìn",
+      "pronunciation": "응인",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "1000, 천", "examples": [{ "sentence": "Một nghìn đồng.", "translation": "1000동." }] }]
+    },
+    {
+      "id": "vietnamese_banh_mi_98",
+      "word": "bánh mì",
+      "pronunciation": "바잉 미",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "빵, 바게트", "examples": [{ "sentence": "Cho tôi bánh mì.", "translation": "빵 주세요." }] }]
+    },
+    {
+      "id": "vietnamese_bia_99",
+      "word": "bia",
+      "pronunciation": "비아",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "맥주", "examples": [{ "sentence": "Một bia, xin!", "translation": "맥주 한 잔요!" }] }]
+    },
+    {
+      "id": "vietnamese_thit_100",
+      "word": "thịt",
+      "pronunciation": "팃",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "고기", "examples": [{ "sentence": "Tôi không ăn thịt.", "translation": "고기 안 먹어요." }] }]
+    },
+    {
+      "id": "vietnamese_ca_101",
+      "word": "cá",
+      "pronunciation": "까",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "생선", "examples": [{ "sentence": "Cá ngon.", "translation": "생선이 맛있어요." }] }]
+    },
+    {
+      "id": "vietnamese_rau_102",
+      "word": "rau",
+      "pronunciation": "자우",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "채소", "examples": [{ "sentence": "Ăn rau nhiều!", "translation": "채소 많이 먹어요!" }] }]
+    },
+    {
+      "id": "vietnamese_trai_cay_103",
+      "word": "trái cây",
+      "pronunciation": "짜이 꺼이",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "과일", "examples": [{ "sentence": "Tôi thích trái cây.", "translation": "과일 좋아해요." }] }]
+    },
+    {
+      "id": "vietnamese_tra_104",
+      "word": "trà",
+      "pronunciation": "짜",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "차", "examples": [{ "sentence": "Một ly trà.", "translation": "차 한 잔." }] }]
+    },
+    {
+      "id": "vietnamese_xe_105",
+      "word": "xe",
+      "pronunciation": "세",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "차, 자동차", "examples": [{ "sentence": "Tôi có xe.", "translation": "차가 있어요." }] }]
+    },
+    {
+      "id": "vietnamese_xe_buyt_106",
+      "word": "xe buýt",
+      "pronunciation": "세 뷔잇",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "버스", "examples": [{ "sentence": "Đi xe buýt.", "translation": "버스 타요." }] }]
+    },
+    {
+      "id": "vietnamese_xe_lua_107",
+      "word": "xe lửa",
+      "pronunciation": "세 르어",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "기차", "examples": [{ "sentence": "Xe lửa đến rồi.", "translation": "기차가 왔어요." }] }]
+    },
+    {
+      "id": "vietnamese_may_bay_108",
+      "word": "máy bay",
+      "pronunciation": "마이 바이",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "비행기", "examples": [{ "sentence": "Đi máy bay.", "translation": "비행기 타요." }] }]
+    },
+    {
+      "id": "vietnamese_taxi_109",
+      "word": "taxi",
+      "pronunciation": "택시",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "택시", "examples": [{ "sentence": "Gọi taxi.", "translation": "택시 불러요." }] }]
+    },
+    {
+      "id": "vietnamese_xe_may_110",
+      "word": "xe máy",
+      "pronunciation": "세 마이",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "오토바이", "examples": [{ "sentence": "Tôi có xe máy.", "translation": "오토바이 있어요." }] }]
+    },
+    {
+      "id": "vietnamese_sach_111",
+      "word": "sách",
+      "pronunciation": "싹",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "책", "examples": [{ "sentence": "Tôi đọc sách.", "translation": "책 읽어요." }] }]
+    },
+    {
+      "id": "vietnamese_dien_thoai_112",
+      "word": "điện thoại",
+      "pronunciation": "디엔 토아이",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "전화기", "examples": [{ "sentence": "Điện thoại của tôi.", "translation": "내 전화기." }] }]
+    },
+    {
+      "id": "vietnamese_may_tinh_113",
+      "word": "máy tính",
+      "pronunciation": "마이 띵",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "컴퓨터", "examples": [{ "sentence": "Tôi dùng máy tính.", "translation": "컴퓨터 써요." }] }]
+    },
+    {
+      "id": "vietnamese_chia_khoa_114",
+      "word": "chìa khóa",
+      "pronunciation": "찌아 코아",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "열쇠", "examples": [{ "sentence": "Chìa khóa đâu?", "translation": "열쇠 어디 있어요?" }] }]
+    },
+    {
+      "id": "vietnamese_tui_115",
+      "word": "túi",
+      "pronunciation": "뚜이",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "가방", "examples": [{ "sentence": "Túi nặng quá!", "translation": "가방이 너무 무거워요!" }] }]
+    },
+    {
+      "id": "vietnamese_cua_116",
+      "word": "cửa",
+      "pronunciation": "끄어",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "문", "examples": [{ "sentence": "Đóng cửa.", "translation": "문 닫아요." }] }]
+    },
+    {
+      "id": "vietnamese_cua_so_117",
+      "word": "cửa sổ",
+      "pronunciation": "끄어 쏘",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "창문", "examples": [{ "sentence": "Mở cửa sổ.", "translation": "창문 열어요." }] }]
+    },
+    {
+      "id": "vietnamese_van_phong_118",
+      "word": "văn phòng",
+      "pronunciation": "반 퐁",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "사무실", "examples": [{ "sentence": "Tôi ở văn phòng.", "translation": "사무실에 있어요." }] }]
+    },
+    {
+      "id": "vietnamese_truong_119",
+      "word": "trường",
+      "pronunciation": "쯔엉",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "학교", "examples": [{ "sentence": "Đi học ở trường.", "translation": "학교에서 공부해요." }] }]
+    },
+    {
+      "id": "vietnamese_cua_hang_120",
+      "word": "cửa hàng",
+      "pronunciation": "끄어 항",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "가게", "examples": [{ "sentence": "Cửa hàng đóng cửa rồi.", "translation": "가게가 닫혔어요." }] }]
+    },
+    {
+      "id": "vietnamese_ngan_hang_121",
+      "word": "ngân hàng",
+      "pronunciation": "응언 항",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "은행", "examples": [{ "sentence": "Ngân hàng mở lúc 8 giờ.", "translation": "은행은 8시에 열어요." }] }]
+    },
+    {
+      "id": "vietnamese_nha_thuoc_122",
+      "word": "nhà thuốc",
+      "pronunciation": "냐 투옥",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "약국", "examples": [{ "sentence": "Nhà thuốc ở đâu?", "translation": "약국이 어디예요?" }] }]
+    },
+    {
+      "id": "vietnamese_benh_vien_123",
+      "word": "bệnh viện",
+      "pronunciation": "벵 비엔",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "병원", "examples": [{ "sentence": "Đi bệnh viện.", "translation": "병원 가요." }] }]
+    },
+    {
+      "id": "vietnamese_mat_troi_124",
+      "word": "mặt trời",
+      "pronunciation": "맛 쩌이",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "태양", "examples": [{ "sentence": "Mặt trời lên.", "translation": "해가 떠요." }] }]
+    },
+    {
+      "id": "vietnamese_mua_125",
+      "word": "mưa",
+      "pronunciation": "므어",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "비", "examples": [{ "sentence": "Trời mưa.", "translation": "비가 와요." }] }]
+    },
+    {
+      "id": "vietnamese_tuyet_126",
+      "word": "tuyết",
+      "pronunciation": "뚜옛",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "눈", "examples": [{ "sentence": "Tuyết rơi.", "translation": "눈이 와요." }] }]
+    },
+    {
+      "id": "vietnamese_gio_127",
+      "word": "gió",
+      "pronunciation": "지오",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "바람", "examples": [{ "sentence": "Gió mạnh.", "translation": "바람이 세요." }] }]
+    },
+    {
+      "id": "vietnamese_dau_128",
+      "word": "đầu",
+      "pronunciation": "더우",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "머리", "examples": [{ "sentence": "Tôi đau đầu.", "translation": "머리가 아파요." }] }]
+    },
+    {
+      "id": "vietnamese_tay_129",
+      "word": "tay",
+      "pronunciation": "따이",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "손", "examples": [{ "sentence": "Rửa tay.", "translation": "손 씻어요." }] }]
+    },
+    {
+      "id": "vietnamese_chan_130",
+      "word": "chân",
+      "pronunciation": "쩐",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "발", "examples": [{ "sentence": "Chân đau.", "translation": "발이 아파요." }] }]
+    },
+    {
+      "id": "vietnamese_mat_131",
+      "word": "mắt",
+      "pronunciation": "맏",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "눈", "examples": [{ "sentence": "Mắt đẹp.", "translation": "눈이 예뻐요." }] }]
+    },
+    {
+      "id": "vietnamese_mieng_132",
+      "word": "miệng",
+      "pronunciation": "미엥",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "입", "examples": [{ "sentence": "Mở miệng.", "translation": "입 벌려요." }] }]
+    },
+    {
+      "id": "vietnamese_mui_133",
+      "word": "mũi",
+      "pronunciation": "무이",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "코", "examples": [{ "sentence": "Mũi nghẹt.", "translation": "코가 막혔어요." }] }]
+    },
+    {
+      "id": "vietnamese_ngay_mai_134",
+      "word": "ngày mai",
+      "pronunciation": "응아이 마이",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "내일", "examples": [{ "sentence": "Ngày mai gặp!", "translation": "내일 만나요!" }] }]
+    },
+    {
+      "id": "vietnamese_hom_qua_135",
+      "word": "hôm qua",
+      "pronunciation": "홈 꾸아",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "어제", "examples": [{ "sentence": "Hôm qua tôi mệt.", "translation": "어제 피곤했어요." }] }]
+    },
+    {
+      "id": "vietnamese_tuan_136",
+      "word": "tuần",
+      "pronunciation": "뚜언",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "주", "examples": [{ "sentence": "Tuần sau.", "translation": "다음 주." }] }]
+    },
+    {
+      "id": "vietnamese_thang_137",
+      "word": "tháng",
+      "pronunciation": "탕",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "달, 월", "examples": [{ "sentence": "Tháng này.", "translation": "이번 달." }] }]
+    },
+    {
+      "id": "vietnamese_nam_time_138",
+      "word": "năm",
+      "pronunciation": "남",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "년", "examples": [{ "sentence": "Năm mới vui vẻ!", "translation": "새해 복 많이 받으세요!" }] }]
+    },
+    {
+      "id": "vietnamese_anh_trai_139",
+      "word": "anh trai",
+      "pronunciation": "아잉 짜이",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "형, 오빠", "examples": [{ "sentence": "Anh trai tôi.", "translation": "내 형/오빠." }] }]
+    },
+    {
+      "id": "vietnamese_chi_gai_140",
+      "word": "chị gái",
+      "pronunciation": "찌 가이",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "언니, 누나", "examples": [{ "sentence": "Chị gái tôi.", "translation": "내 언니/누나." }] }]
+    },
+    {
+      "id": "vietnamese_em_141",
+      "word": "em",
+      "pronunciation": "엠",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "동생", "examples": [{ "sentence": "Em tôi còn nhỏ.", "translation": "내 동생은 아직 어려요." }] }]
+    },
+    {
+      "id": "vietnamese_bo_142",
+      "word": "bố",
+      "pronunciation": "보",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "아버지", "examples": [{ "sentence": "Bố tôi là bác sĩ.", "translation": "아버지는 의사예요." }] }]
+    },
+    {
+      "id": "vietnamese_me_143",
+      "word": "mẹ",
+      "pronunciation": "메",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "어머니", "examples": [{ "sentence": "Mẹ nấu ăn ngon.", "translation": "어머니가 요리를 잘 해요." }] }]
+    },
+    {
+      "id": "vietnamese_con_144",
+      "word": "con",
+      "pronunciation": "꼰",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "아이, 자녀", "examples": [{ "sentence": "Tôi có hai con.", "translation": "아이가 둘 있어요." }] }]
+    },
+    {
+      "id": "vietnamese_yeu_145",
+      "word": "yêu",
+      "pronunciation": "이에우",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "사랑하다", "examples": [{ "sentence": "Anh yêu em.", "translation": "사랑해요." }] }]
+    },
+    {
+      "id": "vietnamese_mua_verb_146",
+      "word": "mua",
+      "pronunciation": "무아",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "사다", "examples": [{ "sentence": "Tôi muốn mua cái này.", "translation": "이거 사고 싶어요." }] }]
+    },
+    {
+      "id": "vietnamese_ban_verb_147",
+      "word": "bán",
+      "pronunciation": "반",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "팔다", "examples": [{ "sentence": "Bạn bán cái này không?", "translation": "이거 파세요?" }] }]
+    },
+    {
+      "id": "vietnamese_doi_148",
+      "word": "đợi",
+      "pronunciation": "더이",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "기다리다", "examples": [{ "sentence": "Đợi tôi!", "translation": "기다려요!" }] }]
+    },
+    {
+      "id": "vietnamese_thich_149",
+      "word": "thích",
+      "pronunciation": "틱",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "좋아하다", "examples": [{ "sentence": "Tôi thích Việt Nam.", "translation": "베트남 좋아해요." }] }]
+    }
+  ]
+}

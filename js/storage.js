@@ -1547,9 +1547,10 @@ const Storage = {
      * @param {string} name - 카테고리 이름
      * @param {string} icon - 아이콘 이모지 (기본값: 📁)
      * @param {string} color - 색상 코드 (기본값: #6c757d)
+     * @param {string} lang - TTS 언어 코드 (기본값: en-US)
      * @returns {Object|null} 생성된 카테고리 또는 null (중복 시)
      */
-    createCustomCategory(name, icon = '📁', color = '#6c757d') {
+    createCustomCategory(name, icon = '📁', color = '#6c757d', lang = 'en-US') {
         // 이름 중복 확인
         if (this.customCategoryNameExists(name)) {
             return null;
@@ -1561,6 +1562,7 @@ const Storage = {
             name,
             icon,
             color,
+            lang,
             isCustom: true,
             createdAt: new Date().toISOString(),
             words: []
@@ -2764,6 +2766,7 @@ const Storage = {
                     name: cat.name,
                     icon: cat.icon || '📁',
                     color: cat.color || '#6c757d',
+                    lang: cat.lang || 'en-US',
                     createdAt: new Date().toISOString(),
                     words: (cat.words || []).map(word => ({
                         id: 'custom_word_' + (baseTime + wordCounter++) + '_' + Math.random().toString(36).substr(2, 9),

@@ -3,6 +3,7 @@
   "name": "구동사",
   "icon": "🚀",
   "color": "#ff5722",
+  "lang": "en-US",
   "words": [
     {
       "id": "phrasalVerbs_wake_up_0",
@@ -1719,6 +1720,1968 @@
             {
               "sentence": "How can I make it up to you?",
               "translation": "어떻게 보상해드릴까요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_lie_down_2",
+      "word": "lie down",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 일상 활동",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "눕다",
+          "examples": [
+            {
+              "sentence": "I need to lie down for a bit.",
+              "translation": "잠깐 누워야겠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_sit_down_3",
+      "word": "sit down",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 일상 활동",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "앉다",
+          "examples": [
+            {
+              "sentence": "Please sit down and make yourself comfortable.",
+              "translation": "앉아서 편히 쉬세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_stand_up_4",
+      "word": "stand up",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 일상 활동",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "일어서다",
+          "examples": [
+            {
+              "sentence": "Stand up when the teacher enters.",
+              "translation": "선생님이 들어오면 일어서세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_tidy_up_7",
+      "word": "tidy up",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 일상 활동",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "정리하다",
+          "examples": [
+            {
+              "sentence": "Let me tidy up before guests arrive.",
+              "translation": "손님 오기 전에 정리할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_take_out_10",
+      "word": "take out",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 일상 활동",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "꺼내다, 데려가다",
+          "examples": [
+            {
+              "sentence": "Let me take out the trash.",
+              "translation": "쓰레기 버릴게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_put_away_11",
+      "word": "put away",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 일상 활동",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "치우다",
+          "examples": [
+            {
+              "sentence": "Put away your toys.",
+              "translation": "장난감을 치워."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_throw_away_12",
+      "word": "throw away",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 일상 활동",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "버리다",
+          "examples": [
+            {
+              "sentence": "Don't throw away that box.",
+              "translation": "그 상자 버리지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_use_up_14",
+      "word": "use up",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 일상 활동",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "다 쓰다",
+          "examples": [
+            {
+              "sentence": "I used up all the shampoo.",
+              "translation": "샴푸를 다 썼어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_turn_on_15",
+      "word": "turn on",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 일상 활동",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "켜다",
+          "examples": [
+            {
+              "sentence": "Turn on the lights.",
+              "translation": "불 켜세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_turn_off_16",
+      "word": "turn off",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 일상 활동",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "끄다",
+          "examples": [
+            {
+              "sentence": "Turn off the TV before you leave.",
+              "translation": "나가기 전에 TV 꺼세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_put_on_17",
+      "word": "put on",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 일상 활동",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "입다, 바르다",
+          "examples": [
+            {
+              "sentence": "Put on your coat, it's cold.",
+              "translation": "추우니까 코트 입어."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_try_on_19",
+      "word": "try on",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 일상 활동",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "입어보다",
+          "examples": [
+            {
+              "sentence": "Can I try on this jacket?",
+              "translation": "이 재킷 입어봐도 돼요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_head_out_21",
+      "word": "head out",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 이동/교통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "나가다",
+          "examples": [
+            {
+              "sentence": "I'm heading out now.",
+              "translation": "지금 나가요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_get_in_22",
+      "word": "get in",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 이동/교통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "(차에) 타다",
+          "examples": [
+            {
+              "sentence": "Get in the car.",
+              "translation": "차에 타세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_get_out_23",
+      "word": "get out",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 이동/교통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "(차에서) 내리다",
+          "examples": [
+            {
+              "sentence": "I got out of the taxi.",
+              "translation": "택시에서 내렸어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_get_on_24",
+      "word": "get on",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 이동/교통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "(버스/기차에) 타다",
+          "examples": [
+            {
+              "sentence": "Get on the bus at this stop.",
+              "translation": "이 정류장에서 버스를 타세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_get_off_25",
+      "word": "get off",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 이동/교통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "(버스/기차에서) 내리다",
+          "examples": [
+            {
+              "sentence": "We get off at the next station.",
+              "translation": "다음 역에서 내려요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_speed_up_26",
+      "word": "speed up",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 이동/교통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "속도를 높이다",
+          "examples": [
+            {
+              "sentence": "Speed up, we're late.",
+              "translation": "서둘러, 늦었어."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_slow_down_27",
+      "word": "slow down",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 이동/교통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "속도를 줄이다",
+          "examples": [
+            {
+              "sentence": "Slow down, there's a school ahead.",
+              "translation": "속도 줄여, 앞에 학교야."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_pull_over_28",
+      "word": "pull over",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 이동/교통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "길가에 차를 세우다",
+          "examples": [
+            {
+              "sentence": "The police told me to pull over.",
+              "translation": "경찰이 차를 세우라고 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_land_30",
+      "word": "land",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 이동/교통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "착륙하다",
+          "examples": [
+            {
+              "sentence": "We landed safely.",
+              "translation": "안전하게 착륙했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_check_in_31",
+      "word": "check in",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 이동/교통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "체크인하다",
+          "examples": [
+            {
+              "sentence": "We checked in at the hotel.",
+              "translation": "호텔에서 체크인했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_check_out_32",
+      "word": "check out",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 이동/교통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "체크아웃하다",
+          "examples": [
+            {
+              "sentence": "We need to check out by noon.",
+              "translation": "정오까지 체크아웃해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_pass_by_34",
+      "word": "pass by",
+      "pronunciation": "",
+      "subcategory": "일상생활 구동사 - 이동/교통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "지나가다",
+          "examples": [
+            {
+              "sentence": "I pass by your office every day.",
+              "translation": "매일 당신 사무실 앞을 지나가요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_work_on_35",
+      "word": "work on",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 업무 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 대해 일하다",
+          "examples": [
+            {
+              "sentence": "I'm working on a new project.",
+              "translation": "새 프로젝트를 진행하고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_hand_out_42",
+      "word": "hand out",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 업무 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "나눠주다",
+          "examples": [
+            {
+              "sentence": "Hand out these documents.",
+              "translation": "이 문서들을 나눠주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_fill_in_43",
+      "word": "fill in",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 업무 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "작성하다",
+          "examples": [
+            {
+              "sentence": "Fill in this form.",
+              "translation": "이 양식을 작성하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_fill_out_44",
+      "word": "fill out",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 업무 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "작성하다 (미국식)",
+          "examples": [
+            {
+              "sentence": "Please fill out this application.",
+              "translation": "이 지원서를 작성해주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_follow_up_46",
+      "word": "follow up",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 업무 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "후속 조치를 취하다",
+          "examples": [
+            {
+              "sentence": "I'll follow up on that email.",
+              "translation": "그 이메일에 후속 조치를 취할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_run_through_48",
+      "word": "run through",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 업무 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "빠르게 검토하다",
+          "examples": [
+            {
+              "sentence": "Let me run through the agenda.",
+              "translation": "안건을 빠르게 검토할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_sum_up_49",
+      "word": "sum up",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 업무 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "요약하다",
+          "examples": [
+            {
+              "sentence": "To sum up, we need more time.",
+              "translation": "요약하면, 더 많은 시간이 필요해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_call_off_52",
+      "word": "call off",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 업무 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "취소하다",
+          "examples": [
+            {
+              "sentence": "We had to call off the meeting.",
+              "translation": "회의를 취소해야 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_turn_down_53",
+      "word": "turn down",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 업무 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "거절하다",
+          "examples": [
+            {
+              "sentence": "I turned down the job offer.",
+              "translation": "취업 제안을 거절했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_look_up_55",
+      "word": "look up",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 학습 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "찾아보다",
+          "examples": [
+            {
+              "sentence": "Look up the word in the dictionary.",
+              "translation": "사전에서 단어를 찾아봐."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_find_out_56",
+      "word": "find out",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 학습 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "알아내다",
+          "examples": [
+            {
+              "sentence": "I found out the answer.",
+              "translation": "답을 알아냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_write_down_57",
+      "word": "write down",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 학습 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "적다",
+          "examples": [
+            {
+              "sentence": "Write down the address.",
+              "translation": "주소를 적어두세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_note_down_58",
+      "word": "note down",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 학습 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "메모하다",
+          "examples": [
+            {
+              "sentence": "Note down the main points.",
+              "translation": "주요 사항을 메모하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_read_up_on_59",
+      "word": "read up on",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 학습 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 대해 읽다",
+          "examples": [
+            {
+              "sentence": "I need to read up on the topic.",
+              "translation": "그 주제에 대해 읽어봐야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_catch_up_60",
+      "word": "catch up",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 학습 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "따라잡다",
+          "examples": [
+            {
+              "sentence": "I need to catch up on my studies.",
+              "translation": "공부를 따라잡아야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_fall_behind_62",
+      "word": "fall behind",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 학습 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "뒤처지다",
+          "examples": [
+            {
+              "sentence": "Don't fall behind in your work.",
+              "translation": "일에서 뒤처지지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_go_through_63",
+      "word": "go through",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 학습 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "살펴보다",
+          "examples": [
+            {
+              "sentence": "Let's go through the material again.",
+              "translation": "자료를 다시 살펴봅시다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_brush_up_on_64",
+      "word": "brush up on",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 학습 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "복습하다",
+          "examples": [
+            {
+              "sentence": "I need to brush up on my English.",
+              "translation": "영어를 복습해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_take_up_67",
+      "word": "take up",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 학습 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "시작하다",
+          "examples": [
+            {
+              "sentence": "I took up a new hobby.",
+              "translation": "새 취미를 시작했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_keep_on_68",
+      "word": "keep on",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 학습 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "계속하다",
+          "examples": [
+            {
+              "sentence": "Keep on trying.",
+              "translation": "계속 노력해."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_carry_on_69",
+      "word": "carry on",
+      "pronunciation": "",
+      "subcategory": "업무/학습 구동사 - 학습 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "계속하다",
+          "examples": [
+            {
+              "sentence": "Carry on with your work.",
+              "translation": "일을 계속하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_get_along_with_70",
+      "word": "get along with",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 관계 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~와 잘 지내다",
+          "examples": [
+            {
+              "sentence": "I get along with my neighbors.",
+              "translation": "이웃들과 잘 지내요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_fall_out_with_71",
+      "word": "fall out with",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 관계 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~와 사이가 틀어지다",
+          "examples": [
+            {
+              "sentence": "I fell out with my best friend.",
+              "translation": "가장 친한 친구와 사이가 틀어졌어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_break_up_73",
+      "word": "break up",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 관계 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "헤어지다",
+          "examples": [
+            {
+              "sentence": "They broke up last month.",
+              "translation": "그들은 지난달에 헤어졌어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_look_after_74",
+      "word": "look after",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 관계 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "돌보다",
+          "examples": [
+            {
+              "sentence": "I look after my grandmother.",
+              "translation": "할머니를 돌봐요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_take_care_of_75",
+      "word": "take care of",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 관계 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "돌보다",
+          "examples": [
+            {
+              "sentence": "Who takes care of your dog?",
+              "translation": "누가 개를 돌봐요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_count_on_76",
+      "word": "count on",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 관계 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 의지하다",
+          "examples": [
+            {
+              "sentence": "You can count on me.",
+              "translation": "나를 믿어도 돼요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_rely_on_77",
+      "word": "rely on",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 관계 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 의존하다",
+          "examples": [
+            {
+              "sentence": "I rely on my family for support.",
+              "translation": "지원을 위해 가족에게 의존해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_look_up_to_78",
+      "word": "look up to",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 관계 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "존경하다",
+          "examples": [
+            {
+              "sentence": "I look up to my parents.",
+              "translation": "부모님을 존경해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_look_down_on_79",
+      "word": "look down on",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 관계 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "무시하다",
+          "examples": [
+            {
+              "sentence": "Don't look down on others.",
+              "translation": "다른 사람을 무시하지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_stand_up_for_80",
+      "word": "stand up for",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 관계 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~을 옹호하다",
+          "examples": [
+            {
+              "sentence": "Stand up for what you believe in.",
+              "translation": "믿는 것을 옹호하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_put_up_with_81",
+      "word": "put up with",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 관계 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "참다",
+          "examples": [
+            {
+              "sentence": "I can't put up with his behavior.",
+              "translation": "그의 행동을 참을 수 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_catch_up_with_83",
+      "word": "catch up with",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 관계 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "만나다, 따라잡다",
+          "examples": [
+            {
+              "sentence": "Let's catch up over coffee.",
+              "translation": "커피 마시면서 이야기해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_get_together_84",
+      "word": "get together",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 관계 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "모이다",
+          "examples": [
+            {
+              "sentence": "We should get together sometime.",
+              "translation": "언제 모여야겠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_hold_on_88",
+      "word": "hold on",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 의사소통 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "잠깐 기다리다",
+          "examples": [
+            {
+              "sentence": "Hold on, I'll be right back.",
+              "translation": "잠깐, 금방 돌아올게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_hang_up_89",
+      "word": "hang up",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 의사소통 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "전화를 끊다",
+          "examples": [
+            {
+              "sentence": "Don't hang up on me.",
+              "translation": "전화 끊지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_call_back_90",
+      "word": "call back",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 의사소통 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "다시 전화하다",
+          "examples": [
+            {
+              "sentence": "I'll call you back later.",
+              "translation": "나중에 다시 전화할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_get_back_to_91",
+      "word": "get back to",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 의사소통 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에게 다시 연락하다",
+          "examples": [
+            {
+              "sentence": "I'll get back to you tomorrow.",
+              "translation": "내일 다시 연락할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_think_over_95",
+      "word": "think over",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 의사소통 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "숙고하다",
+          "examples": [
+            {
+              "sentence": "Let me think it over.",
+              "translation": "숙고해 볼게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_talk_into_96",
+      "word": "talk into",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 의사소통 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하도록 설득하다",
+          "examples": [
+            {
+              "sentence": "She talked me into going.",
+              "translation": "그녀가 나를 설득해서 갔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_talk_out_of_97",
+      "word": "talk out of",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 의사소통 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하지 않도록 설득하다",
+          "examples": [
+            {
+              "sentence": "He talked me out of quitting.",
+              "translation": "그가 나를 설득해서 안 그만뒀어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_come_across_98",
+      "word": "come across",
+      "pronunciation": "",
+      "subcategory": "사회적 상호작용 구동사 - 의사소통 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "(인상을) 주다",
+          "examples": [
+            {
+              "sentence": "She comes across as confident.",
+              "translation": "그녀는 자신감 있어 보여요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_warm_up_103",
+      "word": "warm up",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 변화 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "워밍업하다",
+          "examples": [
+            {
+              "sentence": "Let's warm up before exercising.",
+              "translation": "운동 전에 워밍업합시다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_cool_down_104",
+      "word": "cool down",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 변화 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "식히다, 진정하다",
+          "examples": [
+            {
+              "sentence": "Let me cool down first.",
+              "translation": "먼저 진정할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_turn_up_107",
+      "word": "turn up",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 변화 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "나타나다, 볼륨을 높이다",
+          "examples": [
+            {
+              "sentence": "Turn up the volume.",
+              "translation": "볼륨을 높여주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_come_about_109",
+      "word": "come about",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 변화 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "발생하다",
+          "examples": [
+            {
+              "sentence": "How did this come about?",
+              "translation": "이게 어떻게 발생했어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_bring_about_110",
+      "word": "bring about",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 변화 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "야기하다",
+          "examples": [
+            {
+              "sentence": "The new policy brought about changes.",
+              "translation": "새 정책이 변화를 야기했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_settle_down_112",
+      "word": "settle down",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 변화 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "정착하다",
+          "examples": [
+            {
+              "sentence": "I want to settle down in the countryside.",
+              "translation": "시골에 정착하고 싶어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_move_on_113",
+      "word": "move on",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 변화 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "앞으로 나아가다",
+          "examples": [
+            {
+              "sentence": "It's time to move on.",
+              "translation": "앞으로 나아갈 때예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_come_up_114",
+      "word": "come up",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 변화 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "발생하다",
+          "examples": [
+            {
+              "sentence": "Something came up.",
+              "translation": "일이 생겼어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_cut_down_on_115",
+      "word": "cut down on",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~을 줄이다",
+          "examples": [
+            {
+              "sentence": "I'm cutting down on sugar.",
+              "translation": "설탕을 줄이고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_cut_back_on_116",
+      "word": "cut back on",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~을 줄이다",
+          "examples": [
+            {
+              "sentence": "We need to cut back on expenses.",
+              "translation": "비용을 줄여야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_build_up_117",
+      "word": "build up",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "쌓다, 강화하다",
+          "examples": [
+            {
+              "sentence": "I'm trying to build up my confidence.",
+              "translation": "자신감을 쌓으려고 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_back_up_118",
+      "word": "back up",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "백업하다, 뒷받침하다",
+          "examples": [
+            {
+              "sentence": "Back up your files regularly.",
+              "translation": "정기적으로 파일을 백업하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_hold_up_119",
+      "word": "hold up",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "버티다, 지연되다",
+          "examples": [
+            {
+              "sentence": "Traffic held us up.",
+              "translation": "교통 때문에 지연됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_keep_up_120",
+      "word": "keep up",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "유지하다",
+          "examples": [
+            {
+              "sentence": "Keep up the good work.",
+              "translation": "좋은 일 계속하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_give_in_121",
+      "word": "give in",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "굴복하다",
+          "examples": [
+            {
+              "sentence": "I finally gave in to her request.",
+              "translation": "결국 그녀의 요청에 굴복했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_give_out_122",
+      "word": "give out",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "나눠주다, 고장나다",
+          "examples": [
+            {
+              "sentence": "My battery gave out.",
+              "translation": "배터리가 나갔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_wear_out_123",
+      "word": "wear out",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "닳다, 지치게 하다",
+          "examples": [
+            {
+              "sentence": "My shoes are worn out.",
+              "translation": "신발이 닳았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_run_down_124",
+      "word": "run down",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "지치게 하다",
+          "examples": [
+            {
+              "sentence": "I'm feeling run down.",
+              "translation": "지친 기분이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_wind_down_126",
+      "word": "wind down",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "서서히 끝나다",
+          "examples": [
+            {
+              "sentence": "The party is winding down.",
+              "translation": "파티가 서서히 끝나고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_stress_out_128",
+      "word": "stress out",
+      "pronunciation": "",
+      "subcategory": "변화/상태 구동사 - 상태 관련",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "스트레스 받게 하다",
+          "examples": [
+            {
+              "sentence": "This job stresses me out.",
+              "translation": "이 일이 스트레스를 줘요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_set_out_131",
+      "word": "set out",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 시작/종료",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "시작하다, 출발하다",
+          "examples": [
+            {
+              "sentence": "We set out to achieve our goals.",
+              "translation": "목표를 달성하기 위해 시작했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_sign_up_133",
+      "word": "sign up",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 시작/종료",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "등록하다",
+          "examples": [
+            {
+              "sentence": "I signed up for the class.",
+              "translation": "수업에 등록했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_log_in_134",
+      "word": "log in",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 시작/종료",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "로그인하다",
+          "examples": [
+            {
+              "sentence": "Log in to your account.",
+              "translation": "계정에 로그인하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_log_out_135",
+      "word": "log out",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 시작/종료",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "로그아웃하다",
+          "examples": [
+            {
+              "sentence": "Remember to log out.",
+              "translation": "로그아웃하는 거 잊지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_shut_down_136",
+      "word": "shut down",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 시작/종료",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "종료하다",
+          "examples": [
+            {
+              "sentence": "Shut down the computer.",
+              "translation": "컴퓨터를 종료하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_close_down_137",
+      "word": "close down",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 시작/종료",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "폐업하다",
+          "examples": [
+            {
+              "sentence": "The store closed down last year.",
+              "translation": "가게가 작년에 폐업했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_phase_out_138",
+      "word": "phase out",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 시작/종료",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "단계적으로 폐지하다",
+          "examples": [
+            {
+              "sentence": "They're phasing out the old system.",
+              "translation": "오래된 시스템을 단계적으로 폐지하고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_wind_up_139",
+      "word": "wind up",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 시작/종료",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "끝내다",
+          "examples": [
+            {
+              "sentence": "Let's wind up the discussion.",
+              "translation": "논의를 마무리합시다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_stumble_upon_141",
+      "word": "stumble upon",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 발견/조사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "우연히 발견하다",
+          "examples": [
+            {
+              "sentence": "I stumbled upon this café by accident.",
+              "translation": "우연히 이 카페를 발견했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_dig_up_142",
+      "word": "dig up",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 발견/조사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "발굴하다, 찾아내다",
+          "examples": [
+            {
+              "sentence": "I dug up some old photos.",
+              "translation": "오래된 사진을 찾아냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_track_down_143",
+      "word": "track down",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 발견/조사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "추적하다",
+          "examples": [
+            {
+              "sentence": "I tracked down the source of the problem.",
+              "translation": "문제의 원인을 추적했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_narrow_down_144",
+      "word": "narrow down",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 발견/조사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "좁히다",
+          "examples": [
+            {
+              "sentence": "Let's narrow down the options.",
+              "translation": "옵션을 좁힙시다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_rule_out_145",
+      "word": "rule out",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 발견/조사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "배제하다",
+          "examples": [
+            {
+              "sentence": "We can rule out that possibility.",
+              "translation": "그 가능성을 배제할 수 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_zero_in_on_146",
+      "word": "zero in on",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 발견/조사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "집중하다",
+          "examples": [
+            {
+              "sentence": "Let's zero in on the main issue.",
+              "translation": "주요 문제에 집중합시다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_zoom_in_147",
+      "word": "zoom in",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 발견/조사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "확대하다",
+          "examples": [
+            {
+              "sentence": "Zoom in on the image.",
+              "translation": "이미지를 확대하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_zoom_out_148",
+      "word": "zoom out",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 발견/조사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "축소하다",
+          "examples": [
+            {
+              "sentence": "Zoom out to see the full picture.",
+              "translation": "전체 그림을 보려면 축소하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_tune_in_149",
+      "word": "tune in",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 발견/조사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "시청/청취하다",
+          "examples": [
+            {
+              "sentence": "Tune in to the show tonight.",
+              "translation": "오늘 밤 쇼를 시청하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_feel_like_151",
+      "word": "feel like",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 감정/태도",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~하고 싶다",
+          "examples": [
+            {
+              "sentence": "I feel like having pizza.",
+              "translation": "피자 먹고 싶어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_care_about_152",
+      "word": "care about",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 감정/태도",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 신경 쓰다",
+          "examples": [
+            {
+              "sentence": "I care about my health.",
+              "translation": "건강에 신경 써요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_think_about_153",
+      "word": "think about",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 감정/태도",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 대해 생각하다",
+          "examples": [
+            {
+              "sentence": "I've been thinking about changing jobs.",
+              "translation": "이직에 대해 생각하고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_worry_about_154",
+      "word": "worry about",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 감정/태도",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~에 대해 걱정하다",
+          "examples": [
+            {
+              "sentence": "Don't worry about it.",
+              "translation": "그것에 대해 걱정하지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_cope_with_157",
+      "word": "cope with",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 감정/태도",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "대처하다",
+          "examples": [
+            {
+              "sentence": "How do you cope with stress?",
+              "translation": "스트레스에 어떻게 대처해요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additionalPhrasalVerbs_face_up_to_158",
+      "word": "face up to",
+      "pronunciation": "",
+      "subcategory": "기타 유용한 구동사 - 감정/태도",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "직면하다",
+          "examples": [
+            {
+              "sentence": "You need to face up to reality.",
+              "translation": "현실에 직면해야 해요."
             }
           ]
         }

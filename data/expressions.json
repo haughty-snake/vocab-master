@@ -3,6 +3,7 @@
   "name": "추가 표현",
   "icon": "🗣️",
   "color": "#e91e63",
+  "lang": "en-US",
   "words": [
     {
       "id": "expressions_also_0",

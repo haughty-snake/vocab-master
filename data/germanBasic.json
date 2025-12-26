@@ -1,0 +1,1059 @@
+{
+  "id": "germanBasic",
+  "name": "독일어 기초",
+  "icon": "🇩🇪",
+  "color": "#000000",
+  "lang": "de-DE",
+  "words": [
+    {
+      "id": "german_hallo_0",
+      "word": "Hallo",
+      "pronunciation": "/ˈhalo/",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "감탄사", "meaning": "안녕", "examples": [{ "sentence": "Hallo, wie geht's?", "translation": "안녕, 어떻게 지내?" }] }]
+    },
+    {
+      "id": "german_guten_tag_1",
+      "word": "Guten Tag",
+      "pronunciation": "/ˈɡuːtən taːk/",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "안녕하세요 (낮 인사)", "examples": [{ "sentence": "Guten Tag, Herr Schmidt.", "translation": "안녕하세요, 슈미트 씨." }] }]
+    },
+    {
+      "id": "german_guten_morgen_2",
+      "word": "Guten Morgen",
+      "pronunciation": "/ˈɡuːtən ˈmɔʁɡən/",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "좋은 아침이에요", "examples": [{ "sentence": "Guten Morgen! Gut geschlafen?", "translation": "좋은 아침! 잘 잤어?" }] }]
+    },
+    {
+      "id": "german_auf_wiedersehen_3",
+      "word": "Auf Wiedersehen",
+      "pronunciation": "/aʊ̯f ˈviːdɐˌzeːən/",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "안녕히 가세요", "examples": [{ "sentence": "Auf Wiedersehen, bis morgen!", "translation": "안녕히 가세요, 내일 봐요!" }] }]
+    },
+    {
+      "id": "german_tschuss_4",
+      "word": "Tschüss",
+      "pronunciation": "/tʃʏs/",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "감탄사", "meaning": "잘 가 (비격식)", "examples": [{ "sentence": "Tschüss, bis später!", "translation": "잘 가, 나중에 봐!" }] }]
+    },
+    {
+      "id": "german_danke_5",
+      "word": "Danke",
+      "pronunciation": "/ˈdaŋkə/",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "감탄사", "meaning": "감사합니다", "examples": [{ "sentence": "Danke schön!", "translation": "정말 감사합니다!" }] }]
+    },
+    {
+      "id": "german_bitte_6",
+      "word": "Bitte",
+      "pronunciation": "/ˈbɪtə/",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "감탄사", "meaning": "천만에요 / 부탁합니다", "examples": [{ "sentence": "Bitte schön!", "translation": "천만에요! / 여기 있습니다!" }] }]
+    },
+    {
+      "id": "german_ich_7",
+      "word": "ich",
+      "pronunciation": "/ɪç/",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "나", "examples": [{ "sentence": "Ich bin Student.", "translation": "나는 학생이다." }] }]
+    },
+    {
+      "id": "german_du_8",
+      "word": "du",
+      "pronunciation": "/duː/",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "너 (비격식)", "examples": [{ "sentence": "Wie heißt du?", "translation": "너 이름이 뭐야?" }] }]
+    },
+    {
+      "id": "german_sie_9",
+      "word": "Sie",
+      "pronunciation": "/ziː/",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "당신 (격식) / 그녀 / 그들", "examples": [{ "sentence": "Wie heißen Sie?", "translation": "성함이 어떻게 되세요?" }] }]
+    },
+    {
+      "id": "german_er_10",
+      "word": "er",
+      "pronunciation": "/eːɐ̯/",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "그", "examples": [{ "sentence": "Er ist mein Freund.", "translation": "그는 내 친구야." }] }]
+    },
+    {
+      "id": "german_wir_11",
+      "word": "wir",
+      "pronunciation": "/viːɐ̯/",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "우리", "examples": [{ "sentence": "Wir gehen ins Kino.", "translation": "우리는 영화관에 간다." }] }]
+    },
+    {
+      "id": "german_sein_12",
+      "word": "sein",
+      "pronunciation": "/zaɪ̯n/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "~이다, 있다", "examples": [{ "sentence": "Ich bin müde.", "translation": "나는 피곤해." }] }]
+    },
+    {
+      "id": "german_haben_13",
+      "word": "haben",
+      "pronunciation": "/ˈhaːbən/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "가지다", "examples": [{ "sentence": "Ich habe Zeit.", "translation": "나는 시간이 있어." }] }]
+    },
+    {
+      "id": "german_gehen_14",
+      "word": "gehen",
+      "pronunciation": "/ˈɡeːən/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "가다", "examples": [{ "sentence": "Ich gehe nach Hause.", "translation": "나는 집에 간다." }] }]
+    },
+    {
+      "id": "german_kommen_15",
+      "word": "kommen",
+      "pronunciation": "/ˈkɔmən/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "오다", "examples": [{ "sentence": "Woher kommen Sie?", "translation": "어디에서 오셨어요?" }] }]
+    },
+    {
+      "id": "german_machen_16",
+      "word": "machen",
+      "pronunciation": "/ˈmaxən/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "하다, 만들다", "examples": [{ "sentence": "Was machst du?", "translation": "뭐 하고 있어?" }] }]
+    },
+    {
+      "id": "german_sprechen_17",
+      "word": "sprechen",
+      "pronunciation": "/ˈʃpʁɛçən/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "말하다", "examples": [{ "sentence": "Sprechen Sie Deutsch?", "translation": "독일어 하세요?" }] }]
+    },
+    {
+      "id": "german_essen_18",
+      "word": "essen",
+      "pronunciation": "/ˈɛsən/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "먹다", "examples": [{ "sentence": "Was möchten Sie essen?", "translation": "무엇을 드시겠어요?" }] }]
+    },
+    {
+      "id": "german_trinken_19",
+      "word": "trinken",
+      "pronunciation": "/ˈtʁɪŋkən/",
+      "subcategory": "동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "마시다", "examples": [{ "sentence": "Ich trinke Kaffee.", "translation": "나는 커피를 마신다." }] }]
+    },
+    {
+      "id": "german_gut_20",
+      "word": "gut",
+      "pronunciation": "/ɡuːt/",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "좋은", "examples": [{ "sentence": "Das ist sehr gut.", "translation": "그건 아주 좋아." }] }]
+    },
+    {
+      "id": "german_schlecht_21",
+      "word": "schlecht",
+      "pronunciation": "/ʃlɛçt/",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "나쁜", "examples": [{ "sentence": "Das Wetter ist schlecht.", "translation": "날씨가 안 좋아." }] }]
+    },
+    {
+      "id": "german_gross_22",
+      "word": "groß",
+      "pronunciation": "/ɡʁoːs/",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "큰, 키가 큰", "examples": [{ "sentence": "Das Haus ist groß.", "translation": "그 집은 크다." }] }]
+    },
+    {
+      "id": "german_klein_23",
+      "word": "klein",
+      "pronunciation": "/klaɪ̯n/",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "작은", "examples": [{ "sentence": "Das Kind ist klein.", "translation": "그 아이는 작다." }] }]
+    },
+    {
+      "id": "german_schon_24",
+      "word": "schön",
+      "pronunciation": "/ʃøːn/",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "아름다운, 좋은", "examples": [{ "sentence": "Das ist schön.", "translation": "그건 아름다워." }] }]
+    },
+    {
+      "id": "german_eins_25",
+      "word": "eins",
+      "pronunciation": "/aɪ̯ns/",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "1", "examples": [{ "sentence": "Eins, zwei, drei!", "translation": "하나, 둘, 셋!" }] }]
+    },
+    {
+      "id": "german_zwei_26",
+      "word": "zwei",
+      "pronunciation": "/t͡svaɪ̯/",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "2", "examples": [{ "sentence": "Ich habe zwei Kinder.", "translation": "나는 아이가 둘 있다." }] }]
+    },
+    {
+      "id": "german_drei_27",
+      "word": "drei",
+      "pronunciation": "/dʁaɪ̯/",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "3", "examples": [{ "sentence": "Drei Minuten, bitte.", "translation": "3분만요." }] }]
+    },
+    {
+      "id": "german_zehn_28",
+      "word": "zehn",
+      "pronunciation": "/t͡seːn/",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "10", "examples": [{ "sentence": "Es kostet zehn Euro.", "translation": "10유로입니다." }] }]
+    },
+    {
+      "id": "german_hundert_29",
+      "word": "hundert",
+      "pronunciation": "/ˈhʊndɐt/",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "100", "examples": [{ "sentence": "Das kostet hundert Euro.", "translation": "100유로입니다." }] }]
+    },
+    {
+      "id": "german_heute_30",
+      "word": "heute",
+      "pronunciation": "/ˈhɔʏ̯tə/",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "오늘", "examples": [{ "sentence": "Was machen wir heute?", "translation": "오늘 뭐 할까?" }] }]
+    },
+    {
+      "id": "german_morgen_31",
+      "word": "morgen",
+      "pronunciation": "/ˈmɔʁɡən/",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "내일", "examples": [{ "sentence": "Bis morgen!", "translation": "내일 봐!" }] }]
+    },
+    {
+      "id": "german_gestern_32",
+      "word": "gestern",
+      "pronunciation": "/ˈɡɛstɐn/",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "어제", "examples": [{ "sentence": "Gestern war ich müde.", "translation": "어제 나는 피곤했다." }] }]
+    },
+    {
+      "id": "german_jetzt_33",
+      "word": "jetzt",
+      "pronunciation": "/jɛt͡st/",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "지금", "examples": [{ "sentence": "Ich bin jetzt hier.", "translation": "나는 지금 여기 있어." }] }]
+    },
+    {
+      "id": "german_wie_geht_es_34",
+      "word": "Wie geht es Ihnen?",
+      "pronunciation": "/viː ɡeːt ɛs ˈiːnən/",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "어떻게 지내세요? (격식)", "examples": [{ "sentence": "Guten Tag! Wie geht es Ihnen?", "translation": "안녕하세요! 어떻게 지내세요?" }] }]
+    },
+    {
+      "id": "german_ich_heisse_35",
+      "word": "Ich heiße...",
+      "pronunciation": "/ɪç ˈhaɪ̯sə/",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "제 이름은 ~입니다", "examples": [{ "sentence": "Ich heiße Anna.", "translation": "제 이름은 안나입니다." }] }]
+    },
+    {
+      "id": "german_ich_verstehe_nicht_36",
+      "word": "Ich verstehe nicht",
+      "pronunciation": "/ɪç fɛɐ̯ˈʃteːə nɪçt/",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "이해하지 못하겠어요", "examples": [{ "sentence": "Entschuldigung, ich verstehe nicht.", "translation": "죄송해요, 이해하지 못하겠어요." }] }]
+    },
+    {
+      "id": "german_entschuldigung_37",
+      "word": "Entschuldigung",
+      "pronunciation": "/ɛntˈʃʊldɪɡʊŋ/",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "실례합니다 / 죄송합니다", "examples": [{ "sentence": "Entschuldigung, wo ist die Toilette?", "translation": "실례합니다, 화장실이 어디예요?" }] }]
+    },
+    {
+      "id": "german_ich_mochte_38",
+      "word": "Ich möchte...",
+      "pronunciation": "/ɪç ˈmœçtə/",
+      "subcategory": "패턴",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "~하고 싶습니다", "examples": [{ "sentence": "Ich möchte einen Kaffee.", "translation": "커피 한 잔 주세요." }] }]
+    },
+    {
+      "id": "german_wo_ist_39",
+      "word": "Wo ist...?",
+      "pronunciation": "/voː ɪst/",
+      "subcategory": "패턴",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "~이/가 어디에 있나요?", "examples": [{ "sentence": "Wo ist der Bahnhof?", "translation": "기차역이 어디예요?" }] }]
+    },
+    {
+      "id": "german_wie_viel_kostet_40",
+      "word": "Wie viel kostet...?",
+      "pronunciation": "/viː fiːl ˈkɔstət/",
+      "subcategory": "패턴",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "~은/는 얼마예요?", "examples": [{ "sentence": "Wie viel kostet das?", "translation": "이거 얼마예요?" }] }]
+    },
+    {
+      "id": "german_kann_ich_41",
+      "word": "Kann ich...?",
+      "pronunciation": "/kan ɪç/",
+      "subcategory": "패턴",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "~해도 될까요?", "examples": [{ "sentence": "Kann ich bezahlen?", "translation": "계산해도 될까요?" }] }]
+    },
+    {
+      "id": "german_ja_42",
+      "word": "Ja",
+      "pronunciation": "/jaː/",
+      "subcategory": "기본 표현",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "네", "examples": [{ "sentence": "Ja, natürlich!", "translation": "네, 물론이죠!" }] }]
+    },
+    {
+      "id": "german_nein_43",
+      "word": "Nein",
+      "pronunciation": "/naɪ̯n/",
+      "subcategory": "기본 표현",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "아니오", "examples": [{ "sentence": "Nein, danke.", "translation": "아니요, 괜찮아요." }] }]
+    },
+    {
+      "id": "german_es_tut_mir_leid_44",
+      "word": "Es tut mir leid",
+      "pronunciation": "/ɛs tuːt miːɐ̯ laɪ̯t/",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "죄송합니다", "examples": [{ "sentence": "Es tut mir leid, ich bin spät.", "translation": "죄송합니다, 늦었어요." }] }]
+    },
+    {
+      "id": "german_kein_problem_45",
+      "word": "Kein Problem",
+      "pronunciation": "/kaɪ̯n pʁoˈbleːm/",
+      "subcategory": "필수 표현",
+      "meanings": [{ "partOfSpeech": "구", "meaning": "괜찮아요, 문제없어요", "examples": [{ "sentence": "Kein Problem, das macht nichts.", "translation": "괜찮아요, 별거 아니에요." }] }]
+    },
+    {
+      "id": "german_ich_bin_46",
+      "word": "Ich bin...",
+      "pronunciation": "/ɪç bɪn/",
+      "subcategory": "패턴",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "나는 ~이다", "examples": [{ "sentence": "Ich bin aus Korea.", "translation": "저는 한국에서 왔어요." }] }]
+    },
+    {
+      "id": "german_das_ist_47",
+      "word": "Das ist...",
+      "pronunciation": "/das ɪst/",
+      "subcategory": "패턴",
+      "meanings": [{ "partOfSpeech": "패턴", "meaning": "이것은 ~이다", "examples": [{ "sentence": "Das ist mein Freund.", "translation": "이쪽은 제 친구예요." }] }]
+    },
+    {
+      "id": "german_wasser_48",
+      "word": "Wasser",
+      "pronunciation": "/ˈvasɐ/",
+      "subcategory": "명사",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "물", "examples": [{ "sentence": "Ein Glas Wasser, bitte.", "translation": "물 한 잔 주세요." }] }]
+    },
+    {
+      "id": "german_brot_49",
+      "word": "Brot",
+      "pronunciation": "/bʁoːt/",
+      "subcategory": "명사",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "빵", "examples": [{ "sentence": "Ich kaufe Brot.", "translation": "나는 빵을 산다." }] }]
+    },
+    {
+      "id": "german_ich_50",
+      "word": "Ich",
+      "pronunciation": "이히",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "나", "examples": [{ "sentence": "Ich bin Student.", "translation": "나는 학생이에요." }] }]
+    },
+    {
+      "id": "german_du_51",
+      "word": "Du",
+      "pronunciation": "두",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "너", "examples": [{ "sentence": "Du bist nett.", "translation": "너는 친절해." }] }]
+    },
+    {
+      "id": "german_er_52",
+      "word": "Er",
+      "pronunciation": "에어",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "그", "examples": [{ "sentence": "Er ist mein Bruder.", "translation": "그는 내 형이야." }] }]
+    },
+    {
+      "id": "german_sie_53",
+      "word": "Sie",
+      "pronunciation": "지",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "그녀/당신/그들", "examples": [{ "sentence": "Sie ist sehr nett.", "translation": "그녀는 아주 친절해요." }] }]
+    },
+    {
+      "id": "german_wir_54",
+      "word": "Wir",
+      "pronunciation": "비어",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "우리", "examples": [{ "sentence": "Wir gehen ins Kino.", "translation": "우리는 영화관에 가요." }] }]
+    },
+    {
+      "id": "german_ihr_55",
+      "word": "Ihr",
+      "pronunciation": "이어",
+      "subcategory": "대명사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "너희들", "examples": [{ "sentence": "Ihr seid willkommen.", "translation": "너희들 환영해." }] }]
+    },
+    {
+      "id": "german_wer_56",
+      "word": "Wer",
+      "pronunciation": "베어",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "누구", "examples": [{ "sentence": "Wer ist das?", "translation": "저 사람 누구야?" }] }]
+    },
+    {
+      "id": "german_was_57",
+      "word": "Was",
+      "pronunciation": "바스",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "대명사", "meaning": "무엇", "examples": [{ "sentence": "Was machst du?", "translation": "뭐 해?" }] }]
+    },
+    {
+      "id": "german_wo_58",
+      "word": "Wo",
+      "pronunciation": "보",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "어디", "examples": [{ "sentence": "Wo wohnst du?", "translation": "어디 살아?" }] }]
+    },
+    {
+      "id": "german_wann_59",
+      "word": "Wann",
+      "pronunciation": "반",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "언제", "examples": [{ "sentence": "Wann kommst du?", "translation": "언제 와?" }] }]
+    },
+    {
+      "id": "german_wie_60",
+      "word": "Wie",
+      "pronunciation": "비",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "어떻게", "examples": [{ "sentence": "Wie geht es dir?", "translation": "어떻게 지내?" }] }]
+    },
+    {
+      "id": "german_warum_61",
+      "word": "Warum",
+      "pronunciation": "바룸",
+      "subcategory": "의문사",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "왜", "examples": [{ "sentence": "Warum weinst du?", "translation": "왜 울어?" }] }]
+    },
+    {
+      "id": "german_sein_62",
+      "word": "Sein",
+      "pronunciation": "자인",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "~이다, 있다", "examples": [{ "sentence": "Ich bin glücklich.", "translation": "나는 행복해." }] }]
+    },
+    {
+      "id": "german_haben_63",
+      "word": "Haben",
+      "pronunciation": "하벤",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "가지다", "examples": [{ "sentence": "Ich habe ein Auto.", "translation": "차가 있어." }] }]
+    },
+    {
+      "id": "german_werden_64",
+      "word": "Werden",
+      "pronunciation": "베어덴",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "되다", "examples": [{ "sentence": "Es wird kalt.", "translation": "추워지고 있어." }] }]
+    },
+    {
+      "id": "german_gehen_65",
+      "word": "Gehen",
+      "pronunciation": "게엔",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "가다", "examples": [{ "sentence": "Ich gehe nach Hause.", "translation": "집에 가." }] }]
+    },
+    {
+      "id": "german_kommen_66",
+      "word": "Kommen",
+      "pronunciation": "코멘",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "오다", "examples": [{ "sentence": "Kommst du mit?", "translation": "같이 갈래?" }] }]
+    },
+    {
+      "id": "german_machen_67",
+      "word": "Machen",
+      "pronunciation": "마헨",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "하다, 만들다", "examples": [{ "sentence": "Was machst du?", "translation": "뭐 해?" }] }]
+    },
+    {
+      "id": "german_sehen_68",
+      "word": "Sehen",
+      "pronunciation": "제엔",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "보다", "examples": [{ "sentence": "Ich sehe dich.", "translation": "너 보여." }] }]
+    },
+    {
+      "id": "german_wissen_69",
+      "word": "Wissen",
+      "pronunciation": "비센",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "알다", "examples": [{ "sentence": "Ich weiß nicht.", "translation": "몰라." }] }]
+    },
+    {
+      "id": "german_konnen_70",
+      "word": "Können",
+      "pronunciation": "쾨넨",
+      "subcategory": "조동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "~할 수 있다", "examples": [{ "sentence": "Ich kann schwimmen.", "translation": "수영할 수 있어." }] }]
+    },
+    {
+      "id": "german_wollen_71",
+      "word": "Wollen",
+      "pronunciation": "볼렌",
+      "subcategory": "조동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "원하다", "examples": [{ "sentence": "Ich will essen.", "translation": "먹고 싶어." }] }]
+    },
+    {
+      "id": "german_mussen_72",
+      "word": "Müssen",
+      "pronunciation": "뮈센",
+      "subcategory": "조동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "~해야 하다", "examples": [{ "sentence": "Ich muss arbeiten.", "translation": "일해야 해." }] }]
+    },
+    {
+      "id": "german_sprechen_73",
+      "word": "Sprechen",
+      "pronunciation": "슈프레헨",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "말하다", "examples": [{ "sentence": "Ich spreche Deutsch.", "translation": "독일어 해요." }] }]
+    },
+    {
+      "id": "german_essen_74",
+      "word": "Essen",
+      "pronunciation": "에센",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "먹다", "examples": [{ "sentence": "Ich esse gern Pizza.", "translation": "피자 먹는 거 좋아해." }] }]
+    },
+    {
+      "id": "german_trinken_75",
+      "word": "Trinken",
+      "pronunciation": "트링켄",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "마시다", "examples": [{ "sentence": "Ich trinke Kaffee.", "translation": "커피 마셔." }] }]
+    },
+    {
+      "id": "german_schlafen_76",
+      "word": "Schlafen",
+      "pronunciation": "슐라펜",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "자다", "examples": [{ "sentence": "Ich schlafe gut.", "translation": "잘 자." }] }]
+    },
+    {
+      "id": "german_arbeiten_77",
+      "word": "Arbeiten",
+      "pronunciation": "아르바이텐",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "일하다", "examples": [{ "sentence": "Ich arbeite viel.", "translation": "많이 일해." }] }]
+    },
+    {
+      "id": "german_gut_78",
+      "word": "Gut",
+      "pronunciation": "굿",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "좋은", "examples": [{ "sentence": "Das ist gut!", "translation": "좋아!" }] }]
+    },
+    {
+      "id": "german_schlecht_79",
+      "word": "Schlecht",
+      "pronunciation": "슐레히트",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "나쁜", "examples": [{ "sentence": "Das Wetter ist schlecht.", "translation": "날씨가 안 좋아." }] }]
+    },
+    {
+      "id": "german_gross_80",
+      "word": "Groß",
+      "pronunciation": "그로스",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "큰", "examples": [{ "sentence": "Das Haus ist groß.", "translation": "집이 커." }] }]
+    },
+    {
+      "id": "german_klein_81",
+      "word": "Klein",
+      "pronunciation": "클라인",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "작은", "examples": [{ "sentence": "Ein kleines Kind.", "translation": "작은 아이." }] }]
+    },
+    {
+      "id": "german_schon_82",
+      "word": "Schön",
+      "pronunciation": "쇤",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "아름다운", "examples": [{ "sentence": "Das ist schön!", "translation": "예쁘다!" }] }]
+    },
+    {
+      "id": "german_neu_83",
+      "word": "Neu",
+      "pronunciation": "노이",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "새로운", "examples": [{ "sentence": "Ich habe ein neues Auto.", "translation": "새 차가 있어." }] }]
+    },
+    {
+      "id": "german_alt_84",
+      "word": "Alt",
+      "pronunciation": "알트",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "오래된, 나이든", "examples": [{ "sentence": "Wie alt bist du?", "translation": "몇 살이야?" }] }]
+    },
+    {
+      "id": "german_jung_85",
+      "word": "Jung",
+      "pronunciation": "융",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "젊은", "examples": [{ "sentence": "Sie ist sehr jung.", "translation": "그녀는 아주 젊어." }] }]
+    },
+    {
+      "id": "german_warm_86",
+      "word": "Warm",
+      "pronunciation": "바름",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "따뜻한", "examples": [{ "sentence": "Es ist warm.", "translation": "따뜻해." }] }]
+    },
+    {
+      "id": "german_kalt_87",
+      "word": "Kalt",
+      "pronunciation": "칼트",
+      "subcategory": "형용사",
+      "meanings": [{ "partOfSpeech": "형용사", "meaning": "차가운", "examples": [{ "sentence": "Es ist kalt draußen.", "translation": "밖이 추워." }] }]
+    },
+    {
+      "id": "german_eins_88",
+      "word": "Eins",
+      "pronunciation": "아인스",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "1, 하나", "examples": [{ "sentence": "Ich habe eins.", "translation": "하나 있어." }] }]
+    },
+    {
+      "id": "german_zwei_89",
+      "word": "Zwei",
+      "pronunciation": "츠바이",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "2, 둘", "examples": [{ "sentence": "Zwei Kaffee, bitte.", "translation": "커피 두 잔 주세요." }] }]
+    },
+    {
+      "id": "german_drei_90",
+      "word": "Drei",
+      "pronunciation": "드라이",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "3, 셋", "examples": [{ "sentence": "Ich habe drei Kinder.", "translation": "아이가 셋 있어." }] }]
+    },
+    {
+      "id": "german_vier_91",
+      "word": "Vier",
+      "pronunciation": "피어",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "4, 넷", "examples": [{ "sentence": "Es ist vier Uhr.", "translation": "4시야." }] }]
+    },
+    {
+      "id": "german_funf_92",
+      "word": "Fünf",
+      "pronunciation": "퓐프",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "5, 다섯", "examples": [{ "sentence": "Es kostet fünf Euro.", "translation": "5유로야." }] }]
+    },
+    {
+      "id": "german_sechs_93",
+      "word": "Sechs",
+      "pronunciation": "젝스",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "6, 여섯", "examples": [{ "sentence": "Es ist sechs Uhr.", "translation": "6시야." }] }]
+    },
+    {
+      "id": "german_sieben_94",
+      "word": "Sieben",
+      "pronunciation": "지벤",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "7, 일곱", "examples": [{ "sentence": "Sieben Tage in der Woche.", "translation": "일주일에 7일." }] }]
+    },
+    {
+      "id": "german_acht_95",
+      "word": "Acht",
+      "pronunciation": "아흐트",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "8, 여덟", "examples": [{ "sentence": "Ich arbeite acht Stunden.", "translation": "8시간 일해." }] }]
+    },
+    {
+      "id": "german_neun_96",
+      "word": "Neun",
+      "pronunciation": "노인",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "9, 아홉", "examples": [{ "sentence": "Es ist neun Uhr.", "translation": "9시야." }] }]
+    },
+    {
+      "id": "german_zehn_97",
+      "word": "Zehn",
+      "pronunciation": "첸",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "10, 열", "examples": [{ "sentence": "In zehn Minuten.", "translation": "10분 후에." }] }]
+    },
+    {
+      "id": "german_hundert_98",
+      "word": "Hundert",
+      "pronunciation": "훈더트",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "100, 백", "examples": [{ "sentence": "Das kostet hundert Euro.", "translation": "100유로야." }] }]
+    },
+    {
+      "id": "german_tausend_99",
+      "word": "Tausend",
+      "pronunciation": "타우젠트",
+      "subcategory": "숫자",
+      "meanings": [{ "partOfSpeech": "수사", "meaning": "1000, 천", "examples": [{ "sentence": "Es kostet tausend Euro.", "translation": "1000유로야." }] }]
+    },
+    {
+      "id": "german_kaffee_100",
+      "word": "Kaffee",
+      "pronunciation": "카페",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "커피", "examples": [{ "sentence": "Ein Kaffee, bitte.", "translation": "커피 한 잔 주세요." }] }]
+    },
+    {
+      "id": "german_bier_101",
+      "word": "Bier",
+      "pronunciation": "비어",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "맥주", "examples": [{ "sentence": "Ein Bier, bitte.", "translation": "맥주 한 잔 주세요." }] }]
+    },
+    {
+      "id": "german_wein_102",
+      "word": "Wein",
+      "pronunciation": "바인",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "와인", "examples": [{ "sentence": "Ein Glas Wein.", "translation": "와인 한 잔." }] }]
+    },
+    {
+      "id": "german_fleisch_103",
+      "word": "Fleisch",
+      "pronunciation": "플라이쉬",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "고기", "examples": [{ "sentence": "Ich esse kein Fleisch.", "translation": "고기 안 먹어." }] }]
+    },
+    {
+      "id": "german_fisch_104",
+      "word": "Fisch",
+      "pronunciation": "피쉬",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "생선", "examples": [{ "sentence": "Der Fisch ist frisch.", "translation": "생선이 신선해." }] }]
+    },
+    {
+      "id": "german_gemuse_105",
+      "word": "Gemüse",
+      "pronunciation": "게뮈제",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "채소", "examples": [{ "sentence": "Ich esse viel Gemüse.", "translation": "채소 많이 먹어." }] }]
+    },
+    {
+      "id": "german_obst_106",
+      "word": "Obst",
+      "pronunciation": "옵스트",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "과일", "examples": [{ "sentence": "Obst ist gesund.", "translation": "과일은 건강에 좋아." }] }]
+    },
+    {
+      "id": "german_tee_107",
+      "word": "Tee",
+      "pronunciation": "테",
+      "subcategory": "음식",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "차", "examples": [{ "sentence": "Ein Tee, bitte.", "translation": "차 한 잔 주세요." }] }]
+    },
+    {
+      "id": "german_auto_108",
+      "word": "Auto",
+      "pronunciation": "아우토",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "자동차", "examples": [{ "sentence": "Ich habe ein Auto.", "translation": "차가 있어." }] }]
+    },
+    {
+      "id": "german_bus_109",
+      "word": "Bus",
+      "pronunciation": "부스",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "버스", "examples": [{ "sentence": "Ich nehme den Bus.", "translation": "버스 타." }] }]
+    },
+    {
+      "id": "german_zug_110",
+      "word": "Zug",
+      "pronunciation": "추크",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "기차", "examples": [{ "sentence": "Der Zug kommt.", "translation": "기차가 와." }] }]
+    },
+    {
+      "id": "german_flugzeug_111",
+      "word": "Flugzeug",
+      "pronunciation": "플루크초이크",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "비행기", "examples": [{ "sentence": "Ich fliege mit dem Flugzeug.", "translation": "비행기 타고 가." }] }]
+    },
+    {
+      "id": "german_taxi_112",
+      "word": "Taxi",
+      "pronunciation": "탁시",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "택시", "examples": [{ "sentence": "Rufen Sie ein Taxi.", "translation": "택시 불러주세요." }] }]
+    },
+    {
+      "id": "german_ubahn_113",
+      "word": "U-Bahn",
+      "pronunciation": "우반",
+      "subcategory": "교통",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "지하철", "examples": [{ "sentence": "Wo ist die U-Bahn?", "translation": "지하철역이 어디야?" }] }]
+    },
+    {
+      "id": "german_buch_114",
+      "word": "Buch",
+      "pronunciation": "부흐",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "책", "examples": [{ "sentence": "Ich lese ein Buch.", "translation": "책 읽어." }] }]
+    },
+    {
+      "id": "german_handy_115",
+      "word": "Handy",
+      "pronunciation": "핸디",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "휴대폰", "examples": [{ "sentence": "Wo ist mein Handy?", "translation": "내 휴대폰 어디 있어?" }] }]
+    },
+    {
+      "id": "german_computer_116",
+      "word": "Computer",
+      "pronunciation": "콤퓨터",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "컴퓨터", "examples": [{ "sentence": "Ich brauche einen Computer.", "translation": "컴퓨터가 필요해." }] }]
+    },
+    {
+      "id": "german_schlussel_117",
+      "word": "Schlüssel",
+      "pronunciation": "슐뤼셀",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "열쇠", "examples": [{ "sentence": "Wo sind meine Schlüssel?", "translation": "내 열쇠 어디 있어?" }] }]
+    },
+    {
+      "id": "german_tasche_118",
+      "word": "Tasche",
+      "pronunciation": "타셰",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "가방", "examples": [{ "sentence": "Die Tasche ist schwer.", "translation": "가방이 무거워." }] }]
+    },
+    {
+      "id": "german_tur_119",
+      "word": "Tür",
+      "pronunciation": "튀어",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "문", "examples": [{ "sentence": "Mach die Tür zu.", "translation": "문 닫아." }] }]
+    },
+    {
+      "id": "german_fenster_120",
+      "word": "Fenster",
+      "pronunciation": "펜스터",
+      "subcategory": "물건",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "창문", "examples": [{ "sentence": "Öffne das Fenster.", "translation": "창문 열어." }] }]
+    },
+    {
+      "id": "german_haus_121",
+      "word": "Haus",
+      "pronunciation": "하우스",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "집", "examples": [{ "sentence": "Ich bin zu Hause.", "translation": "집에 있어." }] }]
+    },
+    {
+      "id": "german_buro_122",
+      "word": "Büro",
+      "pronunciation": "뷔로",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "사무실", "examples": [{ "sentence": "Ich bin im Büro.", "translation": "사무실에 있어." }] }]
+    },
+    {
+      "id": "german_schule_123",
+      "word": "Schule",
+      "pronunciation": "슐레",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "학교", "examples": [{ "sentence": "Die Kinder gehen zur Schule.", "translation": "아이들이 학교에 가." }] }]
+    },
+    {
+      "id": "german_geschaft_124",
+      "word": "Geschäft",
+      "pronunciation": "게셰프트",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "가게", "examples": [{ "sentence": "Das Geschäft ist geschlossen.", "translation": "가게가 닫혔어." }] }]
+    },
+    {
+      "id": "german_bank_125",
+      "word": "Bank",
+      "pronunciation": "방크",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "은행", "examples": [{ "sentence": "Die Bank öffnet um 9 Uhr.", "translation": "은행은 9시에 열어." }] }]
+    },
+    {
+      "id": "german_apotheke_126",
+      "word": "Apotheke",
+      "pronunciation": "아포테케",
+      "subcategory": "장소",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "약국", "examples": [{ "sentence": "Wo ist die Apotheke?", "translation": "약국이 어디야?" }] }]
+    },
+    {
+      "id": "german_sonne_127",
+      "word": "Sonne",
+      "pronunciation": "존네",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "태양", "examples": [{ "sentence": "Die Sonne scheint.", "translation": "해가 나." }] }]
+    },
+    {
+      "id": "german_regen_128",
+      "word": "Regen",
+      "pronunciation": "레겐",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "비", "examples": [{ "sentence": "Es regnet.", "translation": "비가 와." }] }]
+    },
+    {
+      "id": "german_schnee_129",
+      "word": "Schnee",
+      "pronunciation": "슈네",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "눈", "examples": [{ "sentence": "Es schneit.", "translation": "눈이 와." }] }]
+    },
+    {
+      "id": "german_wind_130",
+      "word": "Wind",
+      "pronunciation": "빈트",
+      "subcategory": "날씨",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "바람", "examples": [{ "sentence": "Es ist windig.", "translation": "바람이 불어." }] }]
+    },
+    {
+      "id": "german_kopf_131",
+      "word": "Kopf",
+      "pronunciation": "콥프",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "머리", "examples": [{ "sentence": "Ich habe Kopfschmerzen.", "translation": "머리가 아파." }] }]
+    },
+    {
+      "id": "german_hand_132",
+      "word": "Hand",
+      "pronunciation": "한트",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "손", "examples": [{ "sentence": "Wasch dir die Hände.", "translation": "손 씻어." }] }]
+    },
+    {
+      "id": "german_fuss_133",
+      "word": "Fuß",
+      "pronunciation": "푸스",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "발", "examples": [{ "sentence": "Mein Fuß tut weh.", "translation": "발이 아파." }] }]
+    },
+    {
+      "id": "german_auge_134",
+      "word": "Auge",
+      "pronunciation": "아우게",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "눈", "examples": [{ "sentence": "Sie hat blaue Augen.", "translation": "그녀는 파란 눈이야." }] }]
+    },
+    {
+      "id": "german_mund_135",
+      "word": "Mund",
+      "pronunciation": "문트",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "입", "examples": [{ "sentence": "Mach den Mund auf.", "translation": "입 벌려." }] }]
+    },
+    {
+      "id": "german_nase_136",
+      "word": "Nase",
+      "pronunciation": "나제",
+      "subcategory": "신체",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "코", "examples": [{ "sentence": "Meine Nase ist verstopft.", "translation": "코가 막혔어." }] }]
+    },
+    {
+      "id": "german_morgen_137",
+      "word": "Morgen",
+      "pronunciation": "모르겐",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "내일, 아침", "examples": [{ "sentence": "Bis morgen!", "translation": "내일 봐!" }] }]
+    },
+    {
+      "id": "german_gestern_138",
+      "word": "Gestern",
+      "pronunciation": "게스턴",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "부사", "meaning": "어제", "examples": [{ "sentence": "Gestern war ich müde.", "translation": "어제 피곤했어." }] }]
+    },
+    {
+      "id": "german_woche_139",
+      "word": "Woche",
+      "pronunciation": "보헤",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "주", "examples": [{ "sentence": "Nächste Woche.", "translation": "다음 주." }] }]
+    },
+    {
+      "id": "german_monat_140",
+      "word": "Monat",
+      "pronunciation": "모나트",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "달, 월", "examples": [{ "sentence": "Nächsten Monat.", "translation": "다음 달." }] }]
+    },
+    {
+      "id": "german_jahr_141",
+      "word": "Jahr",
+      "pronunciation": "야어",
+      "subcategory": "시간",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "년", "examples": [{ "sentence": "Frohes neues Jahr!", "translation": "새해 복 많이 받으세요!" }] }]
+    },
+    {
+      "id": "german_bruder_142",
+      "word": "Bruder",
+      "pronunciation": "브루더",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "형제", "examples": [{ "sentence": "Ich habe einen Bruder.", "translation": "형제가 있어." }] }]
+    },
+    {
+      "id": "german_schwester_143",
+      "word": "Schwester",
+      "pronunciation": "슈베스터",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "자매", "examples": [{ "sentence": "Meine Schwester ist Ärztin.", "translation": "내 누나는 의사야." }] }]
+    },
+    {
+      "id": "german_kind_144",
+      "word": "Kind",
+      "pronunciation": "킨트",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "아이", "examples": [{ "sentence": "Ich habe zwei Kinder.", "translation": "아이가 둘 있어." }] }]
+    },
+    {
+      "id": "german_vater_145",
+      "word": "Vater",
+      "pronunciation": "파터",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "아버지", "examples": [{ "sentence": "Mein Vater ist Lehrer.", "translation": "아버지는 선생님이야." }] }]
+    },
+    {
+      "id": "german_mutter_146",
+      "word": "Mutter",
+      "pronunciation": "무터",
+      "subcategory": "가족",
+      "meanings": [{ "partOfSpeech": "명사", "meaning": "어머니", "examples": [{ "sentence": "Meine Mutter kocht gut.", "translation": "어머니는 요리를 잘 해." }] }]
+    },
+    {
+      "id": "german_lieben_147",
+      "word": "Lieben",
+      "pronunciation": "리벤",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "사랑하다", "examples": [{ "sentence": "Ich liebe dich.", "translation": "사랑해." }] }]
+    },
+    {
+      "id": "german_kaufen_148",
+      "word": "Kaufen",
+      "pronunciation": "카우펜",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "사다", "examples": [{ "sentence": "Ich möchte das kaufen.", "translation": "이거 사고 싶어." }] }]
+    },
+    {
+      "id": "german_warten_149",
+      "word": "Warten",
+      "pronunciation": "바르텐",
+      "subcategory": "기본 동사",
+      "meanings": [{ "partOfSpeech": "동사", "meaning": "기다리다", "examples": [{ "sentence": "Warten Sie hier.", "translation": "여기서 기다리세요." }] }]
+    }
+  ]
+}
