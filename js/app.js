@@ -677,6 +677,7 @@ function filterCategoriesByLanguage(lang) {
     }
 
     renderCategories();
+    renderProgress();
 }
 
 // Toggle category enabled/disabled
@@ -713,8 +714,30 @@ function renderProgress() {
     const container = document.getElementById('progress-cards');
 
     // Calculate progress for active categories only
-    const activeCategories = VocabData.categories.filter(cat => !Storage.isCategoryDisabled(cat.id));
-    const activeWords = activeCategories.reduce((acc, cat) => acc.concat(cat.words), []);
+    let filteredCategories = VocabData.categories.filter(cat => !Storage.isCategoryDisabled(cat.id));
+
+    // Apply language filter
+    if (currentLanguageFilter !== 'all') {
+        const mainLangs = ['en-US', 'en-GB', 'ko-KR', 'zh-CN', 'zh-TW', 'ja-JP', 'es-ES', 'fr-FR', 'de-DE', 'vi-VN'];
+        if (currentLanguageFilter === 'other') {
+            filteredCategories = filteredCategories.filter(cat => {
+                const catLang = cat.lang || 'en-US';
+                return !mainLangs.includes(catLang);
+            });
+        } else if (currentLanguageFilter === 'en-US') {
+            filteredCategories = filteredCategories.filter(cat => {
+                const catLang = cat.lang || 'en-US';
+                return catLang === 'en-US' || catLang === 'en-GB' || catLang.startsWith('en');
+            });
+        } else {
+            filteredCategories = filteredCategories.filter(cat => {
+                const catLang = cat.lang || 'en-US';
+                return catLang === currentLanguageFilter;
+            });
+        }
+    }
+
+    const activeWords = filteredCategories.reduce((acc, cat) => acc.concat(cat.words), []);
     const overall = Storage.getCategoryProgress(activeWords);
 
     container.innerHTML = `
@@ -1768,6 +1791,7 @@ async function toggleSettings() {
         try {
             updateLastBackupDateDisplay();
             loadDebugModeSettings();
+            loadTTSSpeedSetting();     // TTS 속도 설정 로드
             updateCompressionStats();  // 압축률 통계 실시간 업데이트
             updateStorageUsage();      // 저장소 사용량 실시간 업데이트
         } finally {
@@ -3914,6 +3938,43 @@ function toggleFlashcardAutoTTS() {
     if (!Storage.settings.ui.flashcard) Storage.settings.ui.flashcard = {};
     Storage.settings.ui.flashcard.autoTTS = flashcardAutoTTS;
     Storage.saveSettings();
+}
+
+// TTS Speed Setting
+function changeTTSSpeed(value) {
+    const speed = parseFloat(value);
+    VocabData.tts.rate = speed;
+    
+    // Update display
+    const speedValue = document.getElementById('tts-speed-value');
+    if (speedValue) {
+        speedValue.textContent = speed.toFixed(1) + 'x';
+    }
+    
+    // Save to localStorage
+    try {
+        localStorage.setItem('ttsSpeed', speed.toString());
+    } catch (e) {
+        console.error('Error saving TTS speed:', e);
+    }
+}
+
+function loadTTSSpeedSetting() {
+    try {
+        const savedSpeed = localStorage.getItem('ttsSpeed');
+        if (savedSpeed) {
+            const speed = parseFloat(savedSpeed);
+            VocabData.tts.rate = speed;
+            
+            const rangeInput = document.getElementById('tts-speed-range');
+            const speedValue = document.getElementById('tts-speed-value');
+            
+            if (rangeInput) rangeInput.value = speed;
+            if (speedValue) speedValue.textContent = speed.toFixed(1) + 'x';
+        }
+    } catch (e) {
+        console.error('Error loading TTS speed:', e);
+    }
 }
 
 // Blink Settings

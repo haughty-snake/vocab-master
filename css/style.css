@@ -3098,3 +3098,46 @@ hr {
         flex-shrink: 0;
     }
 }
+
+
+/* TTS Speed Control */
+.tts-speed-control {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.tts-speed-control input[type="range"] {
+    width: 120px;
+    height: 6px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: var(--bg-tertiary);
+    border-radius: 3px;
+    outline: none;
+}
+
+.tts-speed-control input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.tts-speed-control input[type="range"]::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+#tts-speed-value {
+    min-width: 40px;
+    font-size: 14px;
+    color: var(--text-secondary);
+}

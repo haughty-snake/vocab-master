@@ -12,6 +12,16 @@ const VocabData = {
         pitch: 1,
 
         init() {
+            // Load saved TTS speed from localStorage
+            try {
+                const savedSpeed = localStorage.getItem('ttsSpeed');
+                if (savedSpeed) {
+                    this.rate = parseFloat(savedSpeed);
+                }
+            } catch (e) {
+                console.error('Error loading TTS speed:', e);
+            }
+
             const loadVoices = () => {
                 const voices = this.synth.getVoices();
                 this.voice = voices.find(v => v.lang.startsWith('en-US')) ||

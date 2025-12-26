@@ -486,6 +486,13 @@
                         <span class="slider"></span>
                     </label>
                 </div>
+                <div class="setting-item">
+                    <label>TTS 속도</label>
+                    <div class="tts-speed-control">
+                        <input type="range" id="tts-speed-range" min="0.5" max="2" step="0.1" value="0.9" onchange="changeTTSSpeed(this.value)">
+                        <span id="tts-speed-value">0.9x</span>
+                    </div>
+                </div>
                 <hr>
                 <div class="setting-item">
                     <h4>백업 알림</h4>
