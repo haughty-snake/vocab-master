@@ -165,28 +165,97 @@ const VocabData = {
             return foundVoice;
         },
 
-        speak(text, lang = 'en-US') {
-            if (!this.synth) return;
+        // 언어 이름 (한국어)
+        langNames: {
+            'en': '영어', 'ja': '일본어', 'zh': '중국어', 'ko': '한국어',
+            'es': '스페인어', 'fr': '프랑스어', 'de': '독일어', 'it': '이탈리아어',
+            'pt': '포르투갈어', 'ru': '러시아어', 'vi': '베트남어', 'th': '태국어', 'id': '인도네시아어'
+        },
+
+        // 언어 이름 가져오기
+        getLanguageName(lang) {
+            const baseLang = this.getBaseLang(lang);
+            return this.langNames[baseLang] || lang;
+        },
+
+        // 음성 지원 여부 확인
+        hasVoiceForLanguage(lang) {
+            return this.findVoiceForLanguage(lang) !== null;
+        },
+
+        // TTS 미지원 안내 다이얼로그 표시
+        showLanguageInstallGuide(lang) {
+            const langName = this.getLanguageName(lang);
+            const modal = document.getElementById('tts-language-modal');
+            const langNameEl = document.getElementById('tts-lang-name');
+            const stepsEl = document.getElementById('tts-install-steps');
+
+            if (!modal) return;
+
+            langNameEl.textContent = langName;
+
+            // 디바이스별 설치 안내
+            if (this.isAndroid) {
+                stepsEl.innerHTML = '<ol>' +
+                    '<li>설정 > 일반 관리 > 언어 > 텍스트 읽어주기</li>' +
+                    '<li>기본 엔진 선택 (Google TTS 권장)</li>' +
+                    '<li>언어 > <strong>' + langName + '</strong> 다운로드</li>' +
+                    '</ol>' +
+                    '<p class="tts-note">※ 삼성 기기: 설정 > 접근성 > TTS</p>';
+            } else if (this.isIOS) {
+                stepsEl.innerHTML = '<ol>' +
+                    '<li>설정 > 손쉬운 사용 > 음성 콘텐츠</li>' +
+                    '<li>음성 > <strong>' + langName + '</strong> 선택</li>' +
+                    '<li>원하는 음성 다운로드</li>' +
+                    '</ol>';
+            } else {
+                stepsEl.innerHTML = '<ol>' +
+                    '<li>Windows: 설정 > 시간 및 언어 > 음성</li>' +
+                    '<li>음성 추가 > <strong>' + langName + '</strong> 선택</li>' +
+                    '</ol>' +
+                    '<p class="tts-note">※ macOS: 시스템 설정 > 손쉬운 사용 > 음성 콘텐츠</p>';
+            }
+
+            modal.classList.remove('hidden');
+        },
+
+        // TTS 미지원 토스트 표시 (자동재생용)
+        showLanguageToast(lang) {
+            const langName = this.getLanguageName(lang);
+            if (typeof showToast === 'function') {
+                showToast('🔇 ' + langName + ' TTS 미지원 (언어 설치 필요)');
+            }
+        },
+
+        speak(text, lang = 'en-US', options = {}) {
+            if (!this.synth) return false;
             this.synth.cancel();
 
+            // 음성 지원 확인
+            const voice = this.findVoiceForLanguage(lang);
+            if (!voice) {
+                const baseLang = this.getBaseLang(lang);
+
+                // silent 모드 (자동재생): 토스트만 표시
+                if (options.silent) {
+                    // 중복 토스트 방지
+                    if (this.lastWarningLang !== baseLang) {
+                        this.lastWarningLang = baseLang;
+                        this.showLanguageToast(lang);
+                    }
+                    return false;
+                }
+
+                // 수동 재생: 다이얼로그 표시
+                this.showLanguageInstallGuide(lang);
+                return false;
+            }
+
             const utterance = new SpeechSynthesisUtterance(text);
-            utterance.lang = this.normalizeLanguageCode(lang);
+            utterance.voice = voice;
+            utterance.lang = voice.lang;
             utterance.rate = this.rate;
             utterance.pitch = this.pitch;
-
-            // 언어에 맞는 음성 찾기
-            const voice = this.findVoiceForLanguage(lang);
-            if (voice) {
-                utterance.voice = voice;
-                utterance.lang = voice.lang;
-            } else {
-                // 음성을 찾지 못한 경우 경고 (중복 방지)
-                const baseLang = this.getBaseLang(lang);
-                if (this.lastWarningLang !== baseLang) {
-                    this.lastWarningLang = baseLang;
-                    console.warn('⚠️ ' + lang + ' 음성을 찾을 수 없습니다. 기본 음성 사용.');
-                }
-            }
 
             // iOS Safari 버그 대응: 긴 텍스트에서 멈춤 방지
             if (this.isIOS && text.length > 100) {
@@ -204,6 +273,7 @@ const VocabData = {
             }
 
             this.synth.speak(utterance);
+            return true;
         },
 
         stop() {

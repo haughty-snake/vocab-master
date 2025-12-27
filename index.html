@@ -971,6 +971,30 @@ example,ɪɡˈzæmpl,명사,예시,This is an example.,이것은 예시입니다
         </div>
     </div>
 
+    <!-- TTS Language Install Guide Modal -->
+    <div class="modal hidden" id="tts-language-modal">
+        <div class="modal-backdrop" onclick="closeTtsLanguageModal()"></div>
+        <div class="modal-content modal-sm">
+            <div class="modal-header">
+                <h3>🔊 TTS 음성 설치 필요</h3>
+                <button class="modal-close" onclick="closeTtsLanguageModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="tts-language-content">
+                    <p><strong id="tts-lang-name">해당 언어</strong>의 TTS 음성이 설치되어 있지 않습니다.</p>
+                    <p class="tts-install-guide">기기 설정에서 TTS 음성을 설치해 주세요:</p>
+                    <div class="tts-install-steps" id="tts-install-steps">
+                        <!-- Steps will be populated by JS based on device -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline" onclick="closeTtsLanguageModal()">닫기</button>
+                <button class="btn btn-primary" onclick="openTtsSettings()">설정 열기</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Export Categories Selection Modal -->
     <div class="modal hidden" id="export-categories-modal">
         <div class="modal-backdrop" onclick="closeExportCategoriesModal()"></div>

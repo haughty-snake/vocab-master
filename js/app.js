@@ -1432,9 +1432,9 @@ function updateFlashcardContent() {
         }
     }
 
-    // Auto TTS for flashcard
+    // Auto TTS for flashcard (silent mode - shows toast instead of dialog)
     if (flashcardAutoTTS) {
-        VocabData.speak(word.word, word.lang || 'en-US');
+        VocabData.speak(word.word, word.lang || 'en-US', { silent: true });
     }
 }
 
@@ -2535,6 +2535,32 @@ function showBackupReminderModal() {
 
 function dismissBackupReminder() {
     document.getElementById('backup-reminder-modal').classList.add('hidden');
+}
+
+// TTS Language Install Guide Modal
+function closeTtsLanguageModal() {
+    document.getElementById('tts-language-modal').classList.add('hidden');
+}
+
+function openTtsSettings() {
+    closeTtsLanguageModal();
+    // 플랫폼별 설정 앱 열기 시도
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+    const isAndroid = /Android/.test(navigator.userAgent);
+    
+    if (isAndroid) {
+        // Android: TTS 설정 인텐트
+        try {
+            window.location.href = 'intent://com.android.settings.TTS_SETTINGS#Intent;scheme=android-app;end';
+        } catch (e) {
+            showToast('기기 설정에서 TTS 언어를 설치해주세요');
+        }
+    } else if (isIOS) {
+        // iOS: 설정앱 URL scheme
+        window.location.href = 'app-settings:';
+    } else {
+        showToast('기기 설정에서 TTS 언어를 설치해주세요');
+    }
 }
 
 function performBackupFromReminder() {
