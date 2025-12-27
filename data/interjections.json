@@ -1,0 +1,436 @@
+{
+  "id": "interjections",
+  "name": "감탄사",
+  "icon": "💬",
+  "color": "#ff5722",
+  "lang": "en-US",
+  "words": [
+    {
+      "id": "interjections_oh_0",
+      "word": "oh",
+      "pronunciation": "/əʊ/",
+      "subcategory": "놀람/감탄",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "오, 아", "examples": [{ "sentence": "Oh, I see!", "translation": "아, 알겠어!" }] }]
+    },
+    {
+      "id": "interjections_wow_1",
+      "word": "wow",
+      "pronunciation": "/waʊ/",
+      "subcategory": "놀람/감탄",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "와, 대박", "examples": [{ "sentence": "Wow, that's amazing!", "translation": "와, 정말 대단하다!" }] }]
+    },
+    {
+      "id": "interjections_oops_2",
+      "word": "oops",
+      "pronunciation": "/ʊps/",
+      "subcategory": "실수/사과",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "이런, 앗", "examples": [{ "sentence": "Oops, I dropped it.", "translation": "이런, 떨어뜨렸네." }] }]
+    },
+    {
+      "id": "interjections_ouch_3",
+      "word": "ouch",
+      "pronunciation": "/aʊtʃ/",
+      "subcategory": "고통",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "아야", "examples": [{ "sentence": "Ouch, that hurts!", "translation": "아야, 아파!" }] }]
+    },
+    {
+      "id": "interjections_ugh_4",
+      "word": "ugh",
+      "pronunciation": "/ʌɡ/",
+      "subcategory": "불쾌/짜증",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "으, 에휴", "examples": [{ "sentence": "Ugh, not again!", "translation": "에휴, 또야!" }] }]
+    },
+    {
+      "id": "interjections_yay_5",
+      "word": "yay",
+      "pronunciation": "/jeɪ/",
+      "subcategory": "기쁨/축하",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "야호, 만세", "examples": [{ "sentence": "Yay, we won!", "translation": "야호, 우리가 이겼어!" }] }]
+    },
+    {
+      "id": "interjections_hooray_6",
+      "word": "hooray",
+      "pronunciation": "/hʊˈreɪ/",
+      "subcategory": "기쁨/축하",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "만세", "examples": [{ "sentence": "Hooray for the team!", "translation": "팀 만세!" }] }]
+    },
+    {
+      "id": "interjections_phew_7",
+      "word": "phew",
+      "pronunciation": "/fjuː/",
+      "subcategory": "안도",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "휴", "examples": [{ "sentence": "Phew, that was close!", "translation": "휴, 아슬아슬했어!" }] }]
+    },
+    {
+      "id": "interjections_aha_8",
+      "word": "aha",
+      "pronunciation": "/ɑːˈhɑː/",
+      "subcategory": "깨달음",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "아하", "examples": [{ "sentence": "Aha, I found it!", "translation": "아하, 찾았다!" }] }]
+    },
+    {
+      "id": "interjections_ahem_9",
+      "word": "ahem",
+      "pronunciation": "/əˈhem/",
+      "subcategory": "주목 요청",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "음, 저기요", "examples": [{ "sentence": "Ahem, may I have your attention?", "translation": "저기요, 주목해 주시겠어요?" }] }]
+    },
+    {
+      "id": "interjections_hmm_10",
+      "word": "hmm",
+      "pronunciation": "/hm/",
+      "subcategory": "생각/망설임",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "음", "examples": [{ "sentence": "Hmm, let me think.", "translation": "음, 생각해 볼게." }] }]
+    },
+    {
+      "id": "interjections_huh_11",
+      "word": "huh",
+      "pronunciation": "/hʌ/",
+      "subcategory": "의문/확인",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "응?, 뭐?", "examples": [{ "sentence": "Huh? What did you say?", "translation": "응? 뭐라고?" }] }]
+    },
+    {
+      "id": "interjections_hey_12",
+      "word": "hey",
+      "pronunciation": "/heɪ/",
+      "subcategory": "인사/주목",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "야, 이봐", "examples": [{ "sentence": "Hey, how are you?", "translation": "야, 잘 지내?" }] }]
+    },
+    {
+      "id": "interjections_hi_13",
+      "word": "hi",
+      "pronunciation": "/haɪ/",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "안녕", "examples": [{ "sentence": "Hi there!", "translation": "안녕!" }] }]
+    },
+    {
+      "id": "interjections_hello_14",
+      "word": "hello",
+      "pronunciation": "/həˈləʊ/",
+      "subcategory": "인사",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "안녕하세요", "examples": [{ "sentence": "Hello, nice to meet you.", "translation": "안녕하세요, 반갑습니다." }] }]
+    },
+    {
+      "id": "interjections_bye_15",
+      "word": "bye",
+      "pronunciation": "/baɪ/",
+      "subcategory": "작별",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "잘 가", "examples": [{ "sentence": "Bye, see you later!", "translation": "잘 가, 나중에 봐!" }] }]
+    },
+    {
+      "id": "interjections_goodbye_16",
+      "word": "goodbye",
+      "pronunciation": "/ɡʊdˈbaɪ/",
+      "subcategory": "작별",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "안녕히 가세요", "examples": [{ "sentence": "Goodbye, take care!", "translation": "안녕히 가세요, 몸조심해요!" }] }]
+    },
+    {
+      "id": "interjections_thanks_17",
+      "word": "thanks",
+      "pronunciation": "/θæŋks/",
+      "subcategory": "감사",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "고마워", "examples": [{ "sentence": "Thanks for your help!", "translation": "도와줘서 고마워!" }] }]
+    },
+    {
+      "id": "interjections_please_18",
+      "word": "please",
+      "pronunciation": "/pliːz/",
+      "subcategory": "부탁/요청",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "제발, 부탁해요", "examples": [{ "sentence": "Please, help me.", "translation": "제발, 도와줘요." }] }]
+    },
+    {
+      "id": "interjections_sorry_19",
+      "word": "sorry",
+      "pronunciation": "/ˈsɒri/",
+      "subcategory": "사과",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "미안해", "examples": [{ "sentence": "Sorry, I'm late.", "translation": "미안, 늦었어." }] }]
+    },
+    {
+      "id": "interjections_well_20",
+      "word": "well",
+      "pronunciation": "/wel/",
+      "subcategory": "시작/전환",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "음, 그래", "examples": [{ "sentence": "Well, let's see.", "translation": "음, 어디 보자." }] }]
+    },
+    {
+      "id": "interjections_gosh_21",
+      "word": "gosh",
+      "pronunciation": "/ɡɒʃ/",
+      "subcategory": "놀람",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "어머나, 세상에", "examples": [{ "sentence": "Oh gosh, I forgot!", "translation": "어머나, 깜빡했어!" }] }]
+    },
+    {
+      "id": "interjections_geez_22",
+      "word": "geez",
+      "pronunciation": "/dʒiːz/",
+      "subcategory": "놀람/짜증",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "이런, 젠장", "examples": [{ "sentence": "Geez, that's expensive!", "translation": "이런, 비싸다!" }] }]
+    },
+    {
+      "id": "interjections_jeez_23",
+      "word": "jeez",
+      "pronunciation": "/dʒiːz/",
+      "subcategory": "놀람/짜증",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "이런, 세상에", "examples": [{ "sentence": "Jeez, calm down!", "translation": "이런, 진정해!" }] }]
+    },
+    {
+      "id": "interjections_damn_24",
+      "word": "damn",
+      "pronunciation": "/dæm/",
+      "subcategory": "짜증/분노",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "젠장", "examples": [{ "sentence": "Damn, I missed the bus!", "translation": "젠장, 버스 놓쳤어!" }] }]
+    },
+    {
+      "id": "interjections_darn_25",
+      "word": "darn",
+      "pronunciation": "/dɑːn/",
+      "subcategory": "짜증 (완곡)",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "이런, 젠장 (완곡)", "examples": [{ "sentence": "Darn, I lost my keys.", "translation": "이런, 열쇠를 잃어버렸어." }] }]
+    },
+    {
+      "id": "interjections_shoot_26",
+      "word": "shoot",
+      "pronunciation": "/ʃuːt/",
+      "subcategory": "짜증 (완곡)",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "이런, 젠장 (완곡)", "examples": [{ "sentence": "Oh shoot, I forgot my wallet.", "translation": "이런, 지갑 깜빡했어." }] }]
+    },
+    {
+      "id": "interjections_yikes_27",
+      "word": "yikes",
+      "pronunciation": "/jaɪks/",
+      "subcategory": "놀람/두려움",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "으악, 어머나", "examples": [{ "sentence": "Yikes, that's scary!", "translation": "으악, 무서워!" }] }]
+    },
+    {
+      "id": "interjections_yuck_28",
+      "word": "yuck",
+      "pronunciation": "/jʌk/",
+      "subcategory": "혐오",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "우웩", "examples": [{ "sentence": "Yuck, this tastes awful!", "translation": "우웩, 맛없어!" }] }]
+    },
+    {
+      "id": "interjections_yum_29",
+      "word": "yum",
+      "pronunciation": "/jʌm/",
+      "subcategory": "맛있음",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "음, 맛있다", "examples": [{ "sentence": "Yum, this is delicious!", "translation": "음, 맛있다!" }] }]
+    },
+    {
+      "id": "interjections_shh_30",
+      "word": "shh",
+      "pronunciation": "/ʃ/",
+      "subcategory": "조용히",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "쉿", "examples": [{ "sentence": "Shh, the baby is sleeping.", "translation": "쉿, 아기가 자고 있어." }] }]
+    },
+    {
+      "id": "interjections_psst_31",
+      "word": "psst",
+      "pronunciation": "/pst/",
+      "subcategory": "주목 요청",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "이봐, 저기", "examples": [{ "sentence": "Psst, come here.", "translation": "이봐, 이리 와." }] }]
+    },
+    {
+      "id": "interjections_bravo_32",
+      "word": "bravo",
+      "pronunciation": "/brɑːˈvəʊ/",
+      "subcategory": "칭찬/환호",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "브라보, 잘했어", "examples": [{ "sentence": "Bravo! What a performance!", "translation": "브라보! 정말 멋진 공연이야!" }] }]
+    },
+    {
+      "id": "interjections_cheers_33",
+      "word": "cheers",
+      "pronunciation": "/tʃɪərz/",
+      "subcategory": "건배/감사",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "건배, 고마워", "examples": [{ "sentence": "Cheers! To your health!", "translation": "건배! 건강을 위하여!" }] }]
+    },
+    {
+      "id": "interjections_bless_you_34",
+      "word": "bless you",
+      "pronunciation": "/bles juː/",
+      "subcategory": "축복/재채기",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "축복을 (재채기 후)", "examples": [{ "sentence": "Bless you! Are you okay?", "translation": "축복을 빌어요! 괜찮아요?" }] }]
+    },
+    {
+      "id": "interjections_congrats_35",
+      "word": "congrats",
+      "pronunciation": "/kənˈɡræts/",
+      "subcategory": "축하",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "축하해", "examples": [{ "sentence": "Congrats on your promotion!", "translation": "승진 축하해!" }] }]
+    },
+    {
+      "id": "interjections_congratulations_36",
+      "word": "congratulations",
+      "pronunciation": "/kənˌɡrætʃʊˈleɪʃənz/",
+      "subcategory": "축하",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "축하합니다", "examples": [{ "sentence": "Congratulations on your wedding!", "translation": "결혼 축하드려요!" }] }]
+    },
+    {
+      "id": "interjections_welcome_37",
+      "word": "welcome",
+      "pronunciation": "/ˈwelkəm/",
+      "subcategory": "환영",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "환영해요", "examples": [{ "sentence": "Welcome to our home!", "translation": "우리 집에 온 걸 환영해요!" }] }]
+    },
+    {
+      "id": "interjections_indeed_38",
+      "word": "indeed",
+      "pronunciation": "/ɪnˈdiːd/",
+      "subcategory": "동의/강조",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "정말, 참으로", "examples": [{ "sentence": "Indeed, you are right.", "translation": "정말, 네 말이 맞아." }] }]
+    },
+    {
+      "id": "interjections_absolutely_39",
+      "word": "absolutely",
+      "pronunciation": "/ˈæbsəluːtli/",
+      "subcategory": "강한 동의",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "물론이죠, 당연하죠", "examples": [{ "sentence": "Absolutely! I agree.", "translation": "물론이죠! 동의해요." }] }]
+    },
+    {
+      "id": "interjections_exactly_40",
+      "word": "exactly",
+      "pronunciation": "/ɪɡˈzæktli/",
+      "subcategory": "동의",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "바로 그거야, 정확해", "examples": [{ "sentence": "Exactly! That's what I meant.", "translation": "바로 그거야! 내가 말하려던 거야." }] }]
+    },
+    {
+      "id": "interjections_really_41",
+      "word": "really",
+      "pronunciation": "/ˈrɪəli/",
+      "subcategory": "놀람/의문",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "정말?", "examples": [{ "sentence": "Really? I didn't know that.", "translation": "정말? 몰랐어." }] }]
+    },
+    {
+      "id": "interjections_seriously_42",
+      "word": "seriously",
+      "pronunciation": "/ˈsɪəriəsli/",
+      "subcategory": "놀람/의문",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "진짜로?, 설마", "examples": [{ "sentence": "Seriously? You did that?", "translation": "진짜로? 네가 그랬어?" }] }]
+    },
+    {
+      "id": "interjections_awesome_43",
+      "word": "awesome",
+      "pronunciation": "/ˈɔːsəm/",
+      "subcategory": "감탄",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "굉장해, 멋져", "examples": [{ "sentence": "Awesome! Let's do it!", "translation": "굉장해! 하자!" }] }]
+    },
+    {
+      "id": "interjections_cool_44",
+      "word": "cool",
+      "pronunciation": "/kuːl/",
+      "subcategory": "동의/감탄",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "좋아, 멋져", "examples": [{ "sentence": "Cool, see you there.", "translation": "좋아, 거기서 봐." }] }]
+    },
+    {
+      "id": "interjections_great_45",
+      "word": "great",
+      "pronunciation": "/ɡreɪt/",
+      "subcategory": "동의/감탄",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "좋아, 훌륭해", "examples": [{ "sentence": "Great! Let's start.", "translation": "좋아! 시작하자." }] }]
+    },
+    {
+      "id": "interjections_perfect_46",
+      "word": "perfect",
+      "pronunciation": "/ˈpɜːfɪkt/",
+      "subcategory": "동의/만족",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "완벽해", "examples": [{ "sentence": "Perfect! That's exactly what I wanted.", "translation": "완벽해! 딱 내가 원하던 거야." }] }]
+    },
+    {
+      "id": "interjections_nice_47",
+      "word": "nice",
+      "pronunciation": "/naɪs/",
+      "subcategory": "동의/감탄",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "좋아, 멋져", "examples": [{ "sentence": "Nice! Good job.", "translation": "좋아! 잘했어." }] }]
+    },
+    {
+      "id": "interjections_fine_48",
+      "word": "fine",
+      "pronunciation": "/faɪn/",
+      "subcategory": "동의/수락",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "좋아, 알았어", "examples": [{ "sentence": "Fine, I'll do it.", "translation": "좋아, 내가 할게." }] }]
+    },
+    {
+      "id": "interjections_okay_49",
+      "word": "okay",
+      "pronunciation": "/əʊˈkeɪ/",
+      "subcategory": "동의/수락",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "알았어, 좋아", "examples": [{ "sentence": "Okay, let's go.", "translation": "알았어, 가자." }] }]
+    },
+    {
+      "id": "interjections_sure_50",
+      "word": "sure",
+      "pronunciation": "/ʃʊər/",
+      "subcategory": "동의/수락",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "물론, 그래", "examples": [{ "sentence": "Sure, no problem.", "translation": "물론, 문제없어." }] }]
+    },
+    {
+      "id": "interjections_yeah_51",
+      "word": "yeah",
+      "pronunciation": "/jeə/",
+      "subcategory": "동의",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "응, 그래", "examples": [{ "sentence": "Yeah, I know.", "translation": "응, 알아." }] }]
+    },
+    {
+      "id": "interjections_yes_52",
+      "word": "yes",
+      "pronunciation": "/jes/",
+      "subcategory": "동의",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "네, 예", "examples": [{ "sentence": "Yes, I understand.", "translation": "네, 이해해요." }] }]
+    },
+    {
+      "id": "interjections_no_53",
+      "word": "no",
+      "pronunciation": "/nəʊ/",
+      "subcategory": "부정",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "아니요", "examples": [{ "sentence": "No, I disagree.", "translation": "아니요, 동의하지 않아요." }] }]
+    },
+    {
+      "id": "interjections_nope_54",
+      "word": "nope",
+      "pronunciation": "/nəʊp/",
+      "subcategory": "부정 (비격식)",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "아니", "examples": [{ "sentence": "Nope, not me.", "translation": "아니, 나 아니야." }] }]
+    },
+    {
+      "id": "interjections_nah_55",
+      "word": "nah",
+      "pronunciation": "/nɑː/",
+      "subcategory": "부정 (비격식)",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "아니, 됐어", "examples": [{ "sentence": "Nah, I'm good.", "translation": "아니, 난 괜찮아." }] }]
+    },
+    {
+      "id": "interjections_whoa_56",
+      "word": "whoa",
+      "pronunciation": "/wəʊ/",
+      "subcategory": "놀람/멈춤",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "워, 잠깐", "examples": [{ "sentence": "Whoa, slow down!", "translation": "워, 천천히!" }] }]
+    },
+    {
+      "id": "interjections_ow_57",
+      "word": "ow",
+      "pronunciation": "/aʊ/",
+      "subcategory": "고통",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "아야", "examples": [{ "sentence": "Ow, that's my foot!", "translation": "아야, 내 발이야!" }] }]
+    },
+    {
+      "id": "interjections_ha_58",
+      "word": "ha",
+      "pronunciation": "/hɑː/",
+      "subcategory": "웃음/비웃음",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "하, 흥", "examples": [{ "sentence": "Ha, very funny.", "translation": "하, 정말 웃기네." }] }]
+    },
+    {
+      "id": "interjections_haha_59",
+      "word": "haha",
+      "pronunciation": "/hɑːˈhɑː/",
+      "subcategory": "웃음",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "하하", "examples": [{ "sentence": "Haha, that's hilarious!", "translation": "하하, 너무 웃겨!" }] }]
+    },
+    {
+      "id": "interjections_meh_60",
+      "word": "meh",
+      "pronunciation": "/me/",
+      "subcategory": "무관심",
+      "meanings": [{ "partOfSpeech": "interj", "meaning": "글쎄, 별로", "examples": [{ "sentence": "Meh, I don't really care.", "translation": "글쎄, 별로 관심 없어." }] }]
+    }
+  ]
+}

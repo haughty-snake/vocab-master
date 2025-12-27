@@ -3,6 +3,29 @@ let currentView = 'home-view';
 let currentCategory = 'all';
 let currentCategoryFilter = 'all'; // 'all', 'active', 'inactive'
 let currentLanguageFilter = 'all'; // 'all', 'en-US', 'ko-KR', 'zh-CN', 'ja-JP', etc.
+
+// Helper function to filter words by current language filter
+function applyLanguageFilter(words) {
+    if (currentLanguageFilter === 'all') return words;
+
+    const mainLangs = ['en-US', 'en-GB', 'ko-KR', 'zh-CN', 'zh-TW', 'ja-JP', 'es-ES', 'fr-FR', 'de-DE', 'vi-VN'];
+    if (currentLanguageFilter === 'other') {
+        return words.filter(word => {
+            const wordLang = word.lang || 'en-US';
+            return !mainLangs.includes(wordLang);
+        });
+    } else if (currentLanguageFilter === 'en-US') {
+        return words.filter(word => {
+            const wordLang = word.lang || 'en-US';
+            return wordLang === 'en-US' || wordLang === 'en-GB' || wordLang.startsWith('en');
+        });
+    } else {
+        return words.filter(word => {
+            const wordLang = word.lang || 'en-US';
+            return wordLang === currentLanguageFilter;
+        });
+    }
+}
 let importAbortController = null; // 파일 가져오기 취소용
 let pendingRecoveryData = null; // 복구 대기 중인 머지 데이터
 
@@ -794,6 +817,11 @@ function filterByStatus(status) {
 function filterWords(statusFilter = 'all') {
     let words = VocabData.getWordsByCategory(currentCategory);
 
+    // Apply language filter when viewing 'all' categories
+    if (currentCategory === 'all') {
+        words = applyLanguageFilter(words);
+    }
+
     // Filter by status
     if (statusFilter !== 'all') {
         words = words.filter(word => Storage.getWordStatus(word.id) === statusFilter);
@@ -1182,8 +1210,14 @@ function markLearning(wordId) {
 // Flashcard functions
 function initFlashcards() {
     let words = VocabData.getWordsByCategory(currentCategory);
+
+    // Apply language filter when viewing 'all' categories
+    if (currentCategory === 'all') {
+        words = applyLanguageFilter(words);
+    }
+
     if (words.length === 0) {
-        words = VocabData.allWords;
+        words = applyLanguageFilter(VocabData.allWords);
     }
 
     // Apply status filter
@@ -1484,8 +1518,14 @@ function startBlink() {
     blinkRepeatCount = parseInt(document.getElementById('blink-repeat-count')?.value || '2');
 
     let words = VocabData.getWordsByCategory(currentCategory);
+
+    // Apply language filter when viewing 'all' categories
+    if (currentCategory === 'all') {
+        words = applyLanguageFilter(words);
+    }
+
     if (words.length === 0) {
-        words = VocabData.allWords;
+        words = applyLanguageFilter(VocabData.allWords);
     }
 
     // Apply status filter
@@ -1633,8 +1673,14 @@ function startQuiz() {
     const statusFilter = document.getElementById('quiz-status-filter')?.value || 'all';
 
     let words = VocabData.getWordsByCategory(currentCategory);
+
+    // Apply language filter when viewing 'all' categories
+    if (currentCategory === 'all') {
+        words = applyLanguageFilter(words);
+    }
+
     if (words.length === 0) {
-        words = VocabData.allWords;
+        words = applyLanguageFilter(VocabData.allWords);
     }
 
     // Apply status filter
@@ -4132,6 +4178,17 @@ function handleFlashcardClick(e) {
 document.addEventListener('DOMContentLoaded', () => {
     // Delay to ensure flashcard element exists
     setTimeout(initFlashcardTouchGestures, 100);
+
+    // Restore language filter select value from localStorage
+    const langSelect = document.getElementById('language-filter');
+    if (langSelect && currentLanguageFilter) {
+        langSelect.value = currentLanguageFilter;
+    }
+
+    // Restore status filter tabs
+    document.querySelectorAll('.filter-tab').forEach(tab => {
+        tab.classList.toggle('active', tab.dataset.filter === currentCategoryFilter);
+    });
 });
 
 // PWA Back Button Exit Handler

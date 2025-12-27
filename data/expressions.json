@@ -3514,6 +3514,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "expressions_well_195",
+      "word": "well",
+      "pronunciation": "/wel/",
+      "subcategory": "# 필러/연결 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "음, 글쎄",
+          "examples": [
+            {
+              "sentence": "Well, let me think about that.",
+              "translation": "음, 그것에 대해 생각해 볼게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_though_196",
+      "word": "though",
+      "pronunciation": "/ðoʊ/",
+      "subcategory": "# 필러/연결 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "그래도, 하지만",
+          "examples": [
+            {
+              "sentence": "It was fun, though.",
+              "translation": "그래도 재미있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_kind_of_197",
+      "word": "kind of",
+      "pronunciation": "/kaɪnd ʌv/",
+      "subcategory": "# 필러/연결 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "약간, 좀",
+          "examples": [
+            {
+              "sentence": "I'm kind of tired today.",
+              "translation": "오늘 좀 피곤해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_sort_of_198",
+      "word": "sort of",
+      "pronunciation": "/sɔːrt ʌv/",
+      "subcategory": "# 필러/연결 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "약간, 어느 정도",
+          "examples": [
+            {
+              "sentence": "It's sort of complicated.",
+              "translation": "좀 복잡해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions_you_know_199",
+      "word": "you know",
+      "pronunciation": "/juː noʊ/",
+      "subcategory": "# 필러/연결 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "있잖아",
+          "examples": [
+            {
+              "sentence": "It was, you know, really exciting.",
+              "translation": "있잖아, 정말 흥미로웠어."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

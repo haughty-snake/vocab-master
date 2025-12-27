@@ -1,0 +1,506 @@
+{
+  "id": "pronouns",
+  "name": "대명사",
+  "icon": "👤",
+  "color": "#9c27b0",
+  "lang": "en-US",
+  "words": [
+    {
+      "id": "pronouns_I_0",
+      "word": "I",
+      "pronunciation": "/aɪ/",
+      "subcategory": "인칭대명사 (주격)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "나", "examples": [{ "sentence": "I am a student.", "translation": "나는 학생이야." }] }]
+    },
+    {
+      "id": "pronouns_you_1",
+      "word": "you",
+      "pronunciation": "/juː/",
+      "subcategory": "인칭대명사 (주격/목적격)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "너, 당신", "examples": [{ "sentence": "You are my friend.", "translation": "너는 내 친구야." }] }]
+    },
+    {
+      "id": "pronouns_he_2",
+      "word": "he",
+      "pronunciation": "/hiː/",
+      "subcategory": "인칭대명사 (주격)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그", "examples": [{ "sentence": "He is tall.", "translation": "그는 키가 커." }] }]
+    },
+    {
+      "id": "pronouns_she_3",
+      "word": "she",
+      "pronunciation": "/ʃiː/",
+      "subcategory": "인칭대명사 (주격)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그녀", "examples": [{ "sentence": "She is smart.", "translation": "그녀는 똑똒해." }] }]
+    },
+    {
+      "id": "pronouns_it_4",
+      "word": "it",
+      "pronunciation": "/ɪt/",
+      "subcategory": "인칭대명사 (주격/목적격)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그것", "examples": [{ "sentence": "It is raining.", "translation": "비가 오고 있어." }] }]
+    },
+    {
+      "id": "pronouns_we_5",
+      "word": "we",
+      "pronunciation": "/wiː/",
+      "subcategory": "인칭대명사 (주격)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "우리", "examples": [{ "sentence": "We are a team.", "translation": "우리는 팀이야." }] }]
+    },
+    {
+      "id": "pronouns_they_6",
+      "word": "they",
+      "pronunciation": "/ðeɪ/",
+      "subcategory": "인칭대명사 (주격)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그들", "examples": [{ "sentence": "They are coming.", "translation": "그들이 오고 있어." }] }]
+    },
+    {
+      "id": "pronouns_me_7",
+      "word": "me",
+      "pronunciation": "/miː/",
+      "subcategory": "인칭대명사 (목적격)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "나를", "examples": [{ "sentence": "Call me later.", "translation": "나중에 전화해줘." }] }]
+    },
+    {
+      "id": "pronouns_him_8",
+      "word": "him",
+      "pronunciation": "/hɪm/",
+      "subcategory": "인칭대명사 (목적격)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그를", "examples": [{ "sentence": "I saw him yesterday.", "translation": "어제 그를 봤어." }] }]
+    },
+    {
+      "id": "pronouns_her_9",
+      "word": "her",
+      "pronunciation": "/hɜːr/",
+      "subcategory": "인칭대명사 (목적격/소유격)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그녀를, 그녀의", "examples": [{ "sentence": "I gave her a gift.", "translation": "그녀에게 선물을 줬어." }] }]
+    },
+    {
+      "id": "pronouns_us_10",
+      "word": "us",
+      "pronunciation": "/ʌs/",
+      "subcategory": "인칭대명사 (목적격)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "우리를", "examples": [{ "sentence": "Join us for dinner.", "translation": "저녁에 우리와 함께해." }] }]
+    },
+    {
+      "id": "pronouns_them_11",
+      "word": "them",
+      "pronunciation": "/ðem/",
+      "subcategory": "인칭대명사 (목적격)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그들을", "examples": [{ "sentence": "I told them the news.", "translation": "그들에게 소식을 전했어." }] }]
+    },
+    {
+      "id": "pronouns_my_12",
+      "word": "my",
+      "pronunciation": "/maɪ/",
+      "subcategory": "소유대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "나의", "examples": [{ "sentence": "This is my book.", "translation": "이건 내 책이야." }] }]
+    },
+    {
+      "id": "pronouns_your_13",
+      "word": "your",
+      "pronunciation": "/jɔːr/",
+      "subcategory": "소유대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "너의, 당신의", "examples": [{ "sentence": "Is this your car?", "translation": "이게 네 차야?" }] }]
+    },
+    {
+      "id": "pronouns_his_14",
+      "word": "his",
+      "pronunciation": "/hɪz/",
+      "subcategory": "소유대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그의", "examples": [{ "sentence": "This is his house.", "translation": "이건 그의 집이야." }] }]
+    },
+    {
+      "id": "pronouns_its_15",
+      "word": "its",
+      "pronunciation": "/ɪts/",
+      "subcategory": "소유대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그것의", "examples": [{ "sentence": "The dog wagged its tail.", "translation": "개가 꼬리를 흔들었어." }] }]
+    },
+    {
+      "id": "pronouns_our_16",
+      "word": "our",
+      "pronunciation": "/aʊər/",
+      "subcategory": "소유대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "우리의", "examples": [{ "sentence": "This is our home.", "translation": "이건 우리 집이야." }] }]
+    },
+    {
+      "id": "pronouns_their_17",
+      "word": "their",
+      "pronunciation": "/ðeər/",
+      "subcategory": "소유대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그들의", "examples": [{ "sentence": "Their idea was great.", "translation": "그들의 아이디어는 훌륭했어." }] }]
+    },
+    {
+      "id": "pronouns_mine_18",
+      "word": "mine",
+      "pronunciation": "/maɪn/",
+      "subcategory": "소유대명사 (독립형)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "내 것", "examples": [{ "sentence": "This book is mine.", "translation": "이 책은 내 거야." }] }]
+    },
+    {
+      "id": "pronouns_yours_19",
+      "word": "yours",
+      "pronunciation": "/jɔːrz/",
+      "subcategory": "소유대명사 (독립형)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "네 것", "examples": [{ "sentence": "Is this yours?", "translation": "이게 네 거야?" }] }]
+    },
+    {
+      "id": "pronouns_hers_20",
+      "word": "hers",
+      "pronunciation": "/hɜːrz/",
+      "subcategory": "소유대명사 (독립형)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그녀의 것", "examples": [{ "sentence": "The bag is hers.", "translation": "그 가방은 그녀의 것이야." }] }]
+    },
+    {
+      "id": "pronouns_ours_21",
+      "word": "ours",
+      "pronunciation": "/aʊərz/",
+      "subcategory": "소유대명사 (독립형)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "우리의 것", "examples": [{ "sentence": "The victory is ours.", "translation": "승리는 우리의 것이야." }] }]
+    },
+    {
+      "id": "pronouns_theirs_22",
+      "word": "theirs",
+      "pronunciation": "/ðeərz/",
+      "subcategory": "소유대명사 (독립형)",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그들의 것", "examples": [{ "sentence": "The house is theirs.", "translation": "그 집은 그들의 것이야." }] }]
+    },
+    {
+      "id": "pronouns_myself_23",
+      "word": "myself",
+      "pronunciation": "/maɪˈself/",
+      "subcategory": "재귀대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "나 자신", "examples": [{ "sentence": "I did it myself.", "translation": "내가 직접 했어." }] }]
+    },
+    {
+      "id": "pronouns_yourself_24",
+      "word": "yourself",
+      "pronunciation": "/jɔːrˈself/",
+      "subcategory": "재귀대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "너 자신", "examples": [{ "sentence": "Take care of yourself.", "translation": "몸조심해." }] }]
+    },
+    {
+      "id": "pronouns_himself_25",
+      "word": "himself",
+      "pronunciation": "/hɪmˈself/",
+      "subcategory": "재귀대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그 자신", "examples": [{ "sentence": "He hurt himself.", "translation": "그가 다쳤어." }] }]
+    },
+    {
+      "id": "pronouns_herself_26",
+      "word": "herself",
+      "pronunciation": "/hɜːrˈself/",
+      "subcategory": "재귀대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그녀 자신", "examples": [{ "sentence": "She introduced herself.", "translation": "그녀가 자기소개를 했어." }] }]
+    },
+    {
+      "id": "pronouns_itself_27",
+      "word": "itself",
+      "pronunciation": "/ɪtˈself/",
+      "subcategory": "재귀대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그것 자체", "examples": [{ "sentence": "The problem solved itself.", "translation": "문제가 저절로 해결됐어." }] }]
+    },
+    {
+      "id": "pronouns_ourselves_28",
+      "word": "ourselves",
+      "pronunciation": "/aʊərˈselvz/",
+      "subcategory": "재귀대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "우리 자신", "examples": [{ "sentence": "We enjoyed ourselves.", "translation": "우리는 즐거웠어." }] }]
+    },
+    {
+      "id": "pronouns_themselves_29",
+      "word": "themselves",
+      "pronunciation": "/ðemˈselvz/",
+      "subcategory": "재귀대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그들 자신", "examples": [{ "sentence": "They helped themselves.", "translation": "그들은 알아서 했어." }] }]
+    },
+    {
+      "id": "pronouns_this_30",
+      "word": "this",
+      "pronunciation": "/ðɪs/",
+      "subcategory": "지시대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "이것", "examples": [{ "sentence": "This is amazing.", "translation": "이건 놀라워." }] }]
+    },
+    {
+      "id": "pronouns_that_31",
+      "word": "that",
+      "pronunciation": "/ðæt/",
+      "subcategory": "지시대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "저것", "examples": [{ "sentence": "That is my favorite.", "translation": "저게 내가 제일 좋아하는 거야." }] }]
+    },
+    {
+      "id": "pronouns_these_32",
+      "word": "these",
+      "pronunciation": "/ðiːz/",
+      "subcategory": "지시대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "이것들", "examples": [{ "sentence": "These are delicious.", "translation": "이것들은 맛있어." }] }]
+    },
+    {
+      "id": "pronouns_those_33",
+      "word": "those",
+      "pronunciation": "/ðəʊz/",
+      "subcategory": "지시대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "저것들", "examples": [{ "sentence": "Those are expensive.", "translation": "저것들은 비싸." }] }]
+    },
+    {
+      "id": "pronouns_who_34",
+      "word": "who",
+      "pronunciation": "/huː/",
+      "subcategory": "의문/관계대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "누구", "examples": [{ "sentence": "Who is calling?", "translation": "누가 전화하는 거야?" }] }]
+    },
+    {
+      "id": "pronouns_whom_35",
+      "word": "whom",
+      "pronunciation": "/huːm/",
+      "subcategory": "의문/관계대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "누구를", "examples": [{ "sentence": "To whom did you speak?", "translation": "누구에게 말했어?" }] }]
+    },
+    {
+      "id": "pronouns_whose_36",
+      "word": "whose",
+      "pronunciation": "/huːz/",
+      "subcategory": "의문/관계대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "누구의", "examples": [{ "sentence": "Whose bag is this?", "translation": "이건 누구 가방이야?" }] }]
+    },
+    {
+      "id": "pronouns_what_37",
+      "word": "what",
+      "pronunciation": "/wɒt/",
+      "subcategory": "의문대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "무엇", "examples": [{ "sentence": "What happened?", "translation": "무슨 일이야?" }] }]
+    },
+    {
+      "id": "pronouns_which_38",
+      "word": "which",
+      "pronunciation": "/wɪtʃ/",
+      "subcategory": "의문/관계대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "어느 것", "examples": [{ "sentence": "Which do you prefer?", "translation": "어느 것을 선호해?" }] }]
+    },
+    {
+      "id": "pronouns_whoever_39",
+      "word": "whoever",
+      "pronunciation": "/huːˈevər/",
+      "subcategory": "관계대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "누구든지", "examples": [{ "sentence": "Whoever wins gets a prize.", "translation": "이기는 사람은 누구든 상을 받아." }] }]
+    },
+    {
+      "id": "pronouns_whatever_40",
+      "word": "whatever",
+      "pronunciation": "/wɒtˈevər/",
+      "subcategory": "관계대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "무엇이든지", "examples": [{ "sentence": "Do whatever you want.", "translation": "네가 원하는 대로 해." }] }]
+    },
+    {
+      "id": "pronouns_whichever_41",
+      "word": "whichever",
+      "pronunciation": "/wɪtʃˈevər/",
+      "subcategory": "관계대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "어느 것이든", "examples": [{ "sentence": "Choose whichever you like.", "translation": "네가 좋아하는 거 아무거나 골라." }] }]
+    },
+    {
+      "id": "pronouns_someone_42",
+      "word": "someone",
+      "pronunciation": "/ˈsʌmwʌn/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "누군가", "examples": [{ "sentence": "Someone is at the door.", "translation": "누군가 문 앞에 있어." }] }]
+    },
+    {
+      "id": "pronouns_somebody_43",
+      "word": "somebody",
+      "pronunciation": "/ˈsʌmbədi/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "누군가", "examples": [{ "sentence": "Somebody called you.", "translation": "누군가 너한테 전화했어." }] }]
+    },
+    {
+      "id": "pronouns_something_44",
+      "word": "something",
+      "pronunciation": "/ˈsʌmθɪŋ/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "무언가", "examples": [{ "sentence": "I need something to eat.", "translation": "먹을 것이 필요해." }] }]
+    },
+    {
+      "id": "pronouns_anyone_45",
+      "word": "anyone",
+      "pronunciation": "/ˈeniwʌn/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "누구든지, 아무도", "examples": [{ "sentence": "Is anyone there?", "translation": "거기 누구 있어?" }] }]
+    },
+    {
+      "id": "pronouns_anybody_46",
+      "word": "anybody",
+      "pronunciation": "/ˈenibɒdi/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "누구든지, 아무도", "examples": [{ "sentence": "I don't know anybody here.", "translation": "여기 아는 사람이 없어." }] }]
+    },
+    {
+      "id": "pronouns_anything_47",
+      "word": "anything",
+      "pronunciation": "/ˈeniθɪŋ/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "무엇이든, 아무것도", "examples": [{ "sentence": "I'll do anything for you.", "translation": "너를 위해 뭐든 할게." }] }]
+    },
+    {
+      "id": "pronouns_everyone_48",
+      "word": "everyone",
+      "pronunciation": "/ˈevriwʌn/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "모든 사람", "examples": [{ "sentence": "Everyone is welcome.", "translation": "모두 환영해." }] }]
+    },
+    {
+      "id": "pronouns_everybody_49",
+      "word": "everybody",
+      "pronunciation": "/ˈevribɒdi/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "모든 사람", "examples": [{ "sentence": "Everybody knows that.", "translation": "그건 다 알아." }] }]
+    },
+    {
+      "id": "pronouns_everything_50",
+      "word": "everything",
+      "pronunciation": "/ˈevriθɪŋ/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "모든 것", "examples": [{ "sentence": "Everything is fine.", "translation": "다 괜찮아." }] }]
+    },
+    {
+      "id": "pronouns_no_one_51",
+      "word": "no one",
+      "pronunciation": "/ˈnəʊ wʌn/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "아무도 ~않다", "examples": [{ "sentence": "No one knows the answer.", "translation": "아무도 답을 몰라." }] }]
+    },
+    {
+      "id": "pronouns_nobody_52",
+      "word": "nobody",
+      "pronunciation": "/ˈnəʊbədi/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "아무도 ~않다", "examples": [{ "sentence": "Nobody came to the party.", "translation": "아무도 파티에 안 왔어." }] }]
+    },
+    {
+      "id": "pronouns_nothing_53",
+      "word": "nothing",
+      "pronunciation": "/ˈnʌθɪŋ/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "아무것도 ~않다", "examples": [{ "sentence": "Nothing happened.", "translation": "아무 일도 없었어." }] }]
+    },
+    {
+      "id": "pronouns_one_54",
+      "word": "one",
+      "pronunciation": "/wʌn/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "하나, 사람", "examples": [{ "sentence": "One should always try.", "translation": "사람은 항상 노력해야 해." }] }]
+    },
+    {
+      "id": "pronouns_ones_55",
+      "word": "ones",
+      "pronunciation": "/wʌnz/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "것들", "examples": [{ "sentence": "I like the red ones.", "translation": "빨간 것들이 좋아." }] }]
+    },
+    {
+      "id": "pronouns_another_56",
+      "word": "another",
+      "pronunciation": "/əˈnʌðər/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "또 하나, 다른 것", "examples": [{ "sentence": "I need another one.", "translation": "하나 더 필요해." }] }]
+    },
+    {
+      "id": "pronouns_other_57",
+      "word": "other",
+      "pronunciation": "/ˈʌðər/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "다른 것", "examples": [{ "sentence": "Some like coffee, others prefer tea.", "translation": "어떤 사람은 커피를, 다른 사람은 차를 좋아해." }] }]
+    },
+    {
+      "id": "pronouns_others_58",
+      "word": "others",
+      "pronunciation": "/ˈʌðərz/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "다른 것들", "examples": [{ "sentence": "Help others in need.", "translation": "도움이 필요한 다른 사람들을 도와줘." }] }]
+    },
+    {
+      "id": "pronouns_each_59",
+      "word": "each",
+      "pronunciation": "/iːtʃ/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "각각", "examples": [{ "sentence": "Each has a different color.", "translation": "각각 색이 달라." }] }]
+    },
+    {
+      "id": "pronouns_either_60",
+      "word": "either",
+      "pronunciation": "/ˈaɪðər/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "둘 중 하나", "examples": [{ "sentence": "Either will do.", "translation": "둘 중 아무거나 돼." }] }]
+    },
+    {
+      "id": "pronouns_neither_61",
+      "word": "neither",
+      "pronunciation": "/ˈnaɪðər/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "둘 다 아닌", "examples": [{ "sentence": "Neither is correct.", "translation": "둘 다 맞지 않아." }] }]
+    },
+    {
+      "id": "pronouns_both_62",
+      "word": "both",
+      "pronunciation": "/bəʊθ/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "둘 다", "examples": [{ "sentence": "Both are good.", "translation": "둘 다 좋아." }] }]
+    },
+    {
+      "id": "pronouns_all_63",
+      "word": "all",
+      "pronunciation": "/ɔːl/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "모두, 전부", "examples": [{ "sentence": "All are welcome.", "translation": "모두 환영해." }] }]
+    },
+    {
+      "id": "pronouns_none_64",
+      "word": "none",
+      "pronunciation": "/nʌn/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "아무것도 ~않다", "examples": [{ "sentence": "None of them came.", "translation": "그들 중 아무도 안 왔어." }] }]
+    },
+    {
+      "id": "pronouns_few_65",
+      "word": "few",
+      "pronunciation": "/fjuː/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "거의 없는, 소수", "examples": [{ "sentence": "Few understood the problem.", "translation": "거의 아무도 문제를 이해하지 못했어." }] }]
+    },
+    {
+      "id": "pronouns_many_66",
+      "word": "many",
+      "pronunciation": "/ˈmeni/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "많은 것들", "examples": [{ "sentence": "Many have tried.", "translation": "많은 사람들이 시도했어." }] }]
+    },
+    {
+      "id": "pronouns_several_67",
+      "word": "several",
+      "pronunciation": "/ˈsevrəl/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "여러 개", "examples": [{ "sentence": "Several were damaged.", "translation": "여러 개가 손상됐어." }] }]
+    },
+    {
+      "id": "pronouns_some_68",
+      "word": "some",
+      "pronunciation": "/sʌm/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "일부, 약간", "examples": [{ "sentence": "Some agree, some don't.", "translation": "일부는 동의하고, 일부는 안 해." }] }]
+    },
+    {
+      "id": "pronouns_most_69",
+      "word": "most",
+      "pronunciation": "/məʊst/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "대부분", "examples": [{ "sentence": "Most of us agreed.", "translation": "우리 대부분이 동의했어." }] }]
+    },
+    {
+      "id": "pronouns_such_70",
+      "word": "such",
+      "pronunciation": "/sʌtʃ/",
+      "subcategory": "부정대명사",
+      "meanings": [{ "partOfSpeech": "pron", "meaning": "그러한 것", "examples": [{ "sentence": "Such is life.", "translation": "인생이 그래." }] }]
+    }
+  ]
+}

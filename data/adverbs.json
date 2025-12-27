@@ -6439,6 +6439,3021 @@
       "pastTense": "",
       "pastParticiple": "",
       "antonym": ""
+    },
+    {
+      "id": "adverbs_abruptly_295",
+      "word": "abruptly",
+      "pronunciation": "/əˈbrʌptli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "갑자기",
+          "examples": [
+            {
+              "sentence": "He stopped abruptly.",
+              "translation": "그는 갑자기 멈췄다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_absurdly_296",
+      "word": "absurdly",
+      "pronunciation": "/əbˈsɜːdli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "터무니없이",
+          "examples": [
+            {
+              "sentence": "Absurdly expensive.",
+              "translation": "터무니없이 비싸다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_abundantly_297",
+      "word": "abundantly",
+      "pronunciation": "/əˈbʌndəntli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "풍부하게",
+          "examples": [
+            {
+              "sentence": "Abundantly clear.",
+              "translation": "매우 분명하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_acutely_298",
+      "word": "acutely",
+      "pronunciation": "/əˈkjuːtli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "심하게, 날카롭게",
+          "examples": [
+            {
+              "sentence": "Acutely aware.",
+              "translation": "예리하게 인식하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_adamantly_299",
+      "word": "adamantly",
+      "pronunciation": "/ˈædəməntli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "단호하게",
+          "examples": [
+            {
+              "sentence": "Adamantly refused.",
+              "translation": "단호하게 거절했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_adequately_300",
+      "word": "adequately",
+      "pronunciation": "/ˈædɪkwətli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "적절히",
+          "examples": [
+            {
+              "sentence": "Adequately prepared.",
+              "translation": "적절히 준비되었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_adversely_301",
+      "word": "adversely",
+      "pronunciation": "/ˈædvɜːsli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "불리하게",
+          "examples": [
+            {
+              "sentence": "Adversely affected.",
+              "translation": "불리한 영향을 받다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_aggressively_302",
+      "word": "aggressively",
+      "pronunciation": "/əˈɡresɪvli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "공격적으로",
+          "examples": [
+            {
+              "sentence": "Aggressively marketed.",
+              "translation": "공격적으로 마케팅하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_amazingly_303",
+      "word": "amazingly",
+      "pronunciation": "/əˈmeɪzɪŋli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "놀랍게도",
+          "examples": [
+            {
+              "sentence": "Amazingly beautiful.",
+              "translation": "놀랍도록 아름답다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_amply_304",
+      "word": "amply",
+      "pronunciation": "/ˈæmpli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "충분히",
+          "examples": [
+            {
+              "sentence": "Amply demonstrated.",
+              "translation": "충분히 증명되었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_anonymously_305",
+      "word": "anonymously",
+      "pronunciation": "/əˈnɒnɪməsli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "익명으로",
+          "examples": [
+            {
+              "sentence": "Donated anonymously.",
+              "translation": "익명으로 기부했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_anxiously_306",
+      "word": "anxiously",
+      "pronunciation": "/ˈæŋkʃəsli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "불안하게",
+          "examples": [
+            {
+              "sentence": "Waited anxiously.",
+              "translation": "불안하게 기다렸다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_appreciably_307",
+      "word": "appreciably",
+      "pronunciation": "/əˈpriːʃəbli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "상당히",
+          "examples": [
+            {
+              "sentence": "Appreciably different.",
+              "translation": "상당히 다르다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_appropriately_308",
+      "word": "appropriately",
+      "pronunciation": "/əˈprəʊpriətli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "적절하게",
+          "examples": [
+            {
+              "sentence": "Dressed appropriately.",
+              "translation": "적절하게 옷을 입다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_arbitrarily_309",
+      "word": "arbitrarily",
+      "pronunciation": "/ˌɑːbɪˈtrærəli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "임의로",
+          "examples": [
+            {
+              "sentence": "Arbitrarily chosen.",
+              "translation": "임의로 선택되었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_arguably_310",
+      "word": "arguably",
+      "pronunciation": "/ˈɑːɡjuəbli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "논쟁의 여지가 있게",
+          "examples": [
+            {
+              "sentence": "Arguably the best.",
+              "translation": "최고라고 할 수 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_artistically_311",
+      "word": "artistically",
+      "pronunciation": "/ɑːˈtɪstɪkəli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "예술적으로",
+          "examples": [
+            {
+              "sentence": "Artistically designed.",
+              "translation": "예술적으로 디자인되었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_assertively_312",
+      "word": "assertively",
+      "pronunciation": "/əˈsɜːtɪvli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "단호하게",
+          "examples": [
+            {
+              "sentence": "Spoke assertively.",
+              "translation": "단호하게 말했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_astonishingly_313",
+      "word": "astonishingly",
+      "pronunciation": "/əˈstɒnɪʃɪŋli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "놀랍게도",
+          "examples": [
+            {
+              "sentence": "Astonishingly fast.",
+              "translation": "놀랍도록 빠르다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_attentively_314",
+      "word": "attentively",
+      "pronunciation": "/əˈtentɪvli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "주의 깊게",
+          "examples": [
+            {
+              "sentence": "Listened attentively.",
+              "translation": "주의 깊게 들었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_authentically_315",
+      "word": "authentically",
+      "pronunciation": "/ɔːˈθentɪkəli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "진정으로",
+          "examples": [
+            {
+              "sentence": "Authentically made.",
+              "translation": "진정하게 만들어졌다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_bitterly_316",
+      "word": "bitterly",
+      "pronunciation": "/ˈbɪtəli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "몹시, 쓰라리게",
+          "examples": [
+            {
+              "sentence": "Bitterly cold.",
+              "translation": "몹시 춥다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_blissfully_317",
+      "word": "blissfully",
+      "pronunciation": "/ˈblɪsfəli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "행복하게",
+          "examples": [
+            {
+              "sentence": "Blissfully unaware.",
+              "translation": "행복하게 모른다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_boldly_318",
+      "word": "boldly",
+      "pronunciation": "/ˈbəʊldli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "대담하게",
+          "examples": [
+            {
+              "sentence": "Boldly stated.",
+              "translation": "대담하게 말했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_bravely_319",
+      "word": "bravely",
+      "pronunciation": "/ˈbreɪvli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "용감하게",
+          "examples": [
+            {
+              "sentence": "Fought bravely.",
+              "translation": "용감하게 싸웠다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_briefly_320",
+      "word": "briefly",
+      "pronunciation": "/ˈbriːfli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "간단히",
+          "examples": [
+            {
+              "sentence": "Briefly mentioned.",
+              "translation": "간단히 언급했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_briskly_321",
+      "word": "briskly",
+      "pronunciation": "/ˈbrɪskli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "활발하게",
+          "examples": [
+            {
+              "sentence": "Walked briskly.",
+              "translation": "활발하게 걸었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_broadly_322",
+      "word": "broadly",
+      "pronunciation": "/ˈbrɔːdli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "대체로",
+          "examples": [
+            {
+              "sentence": "Broadly speaking.",
+              "translation": "대체로 말하면."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_brutally_323",
+      "word": "brutally",
+      "pronunciation": "/ˈbruːtəli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "잔인하게",
+          "examples": [
+            {
+              "sentence": "Brutally honest.",
+              "translation": "솔직하게 말하면."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_candidly_324",
+      "word": "candidly",
+      "pronunciation": "/ˈkændɪdli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "솔직하게",
+          "examples": [
+            {
+              "sentence": "Speaking candidly.",
+              "translation": "솔직하게 말하면."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_categorically_325",
+      "word": "categorically",
+      "pronunciation": "/ˌkætəˈɡɒrɪkli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "단호하게",
+          "examples": [
+            {
+              "sentence": "Categorically denied.",
+              "translation": "단호하게 부인했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_cautiously_326",
+      "word": "cautiously",
+      "pronunciation": "/ˈkɔːʃəsli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "조심스럽게",
+          "examples": [
+            {
+              "sentence": "Proceeded cautiously.",
+              "translation": "조심스럽게 진행했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_ceaselessly_327",
+      "word": "ceaselessly",
+      "pronunciation": "/ˈsiːsləsli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "끊임없이",
+          "examples": [
+            {
+              "sentence": "Worked ceaselessly.",
+              "translation": "끊임없이 일했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_centrally_328",
+      "word": "centrally",
+      "pronunciation": "/ˈsentrəli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "중심에",
+          "examples": [
+            {
+              "sentence": "Centrally located.",
+              "translation": "중심에 위치하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_characteristically_329",
+      "word": "characteristically",
+      "pronunciation": "/ˌkærəktəˈrɪstɪkli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "특징적으로",
+          "examples": [
+            {
+              "sentence": "Characteristically blunt.",
+              "translation": "특징적으로 무뚝뚝하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_chronologically_330",
+      "word": "chronologically",
+      "pronunciation": "/ˌkrɒnəˈlɒdʒɪkli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "연대순으로",
+          "examples": [
+            {
+              "sentence": "Arranged chronologically.",
+              "translation": "연대순으로 배열하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_closely_331",
+      "word": "closely",
+      "pronunciation": "/ˈkləʊsli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "가깝게, 밀접하게",
+          "examples": [
+            {
+              "sentence": "Closely related.",
+              "translation": "밀접하게 관련되어 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_coherently_332",
+      "word": "coherently",
+      "pronunciation": "/kəʊˈhɪərəntli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "일관성 있게",
+          "examples": [
+            {
+              "sentence": "Argued coherently.",
+              "translation": "일관성 있게 주장했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_collectively_333",
+      "word": "collectively",
+      "pronunciation": "/kəˈlektɪvli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "집단적으로",
+          "examples": [
+            {
+              "sentence": "Collectively responsible.",
+              "translation": "집단적으로 책임이 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_comfortably_334",
+      "word": "comfortably",
+      "pronunciation": "/ˈkʌmftəbli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "편안하게",
+          "examples": [
+            {
+              "sentence": "Sitting comfortably.",
+              "translation": "편안하게 앉다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_comparatively_335",
+      "word": "comparatively",
+      "pronunciation": "/kəmˈpærətɪvli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "비교적",
+          "examples": [
+            {
+              "sentence": "Comparatively easy.",
+              "translation": "비교적 쉽다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_competently_336",
+      "word": "competently",
+      "pronunciation": "/ˈkɒmpɪtəntli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "능숙하게",
+          "examples": [
+            {
+              "sentence": "Handled competently.",
+              "translation": "능숙하게 처리했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_comprehensively_337",
+      "word": "comprehensively",
+      "pronunciation": "/ˌkɒmprɪˈhensɪvli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "포괄적으로",
+          "examples": [
+            {
+              "sentence": "Comprehensively covered.",
+              "translation": "포괄적으로 다루었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_compulsively_338",
+      "word": "compulsively",
+      "pronunciation": "/kəmˈpʌlsɪvli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "강박적으로",
+          "examples": [
+            {
+              "sentence": "Compulsively organized.",
+              "translation": "강박적으로 정리하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_conclusively_339",
+      "word": "conclusively",
+      "pronunciation": "/kənˈkluːsɪvli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "결정적으로",
+          "examples": [
+            {
+              "sentence": "Proven conclusively.",
+              "translation": "결정적으로 증명되었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_concurrently_340",
+      "word": "concurrently",
+      "pronunciation": "/kənˈkʌrəntli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "동시에",
+          "examples": [
+            {
+              "sentence": "Running concurrently.",
+              "translation": "동시에 실행되다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_conditionally_341",
+      "word": "conditionally",
+      "pronunciation": "/kənˈdɪʃənəli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "조건부로",
+          "examples": [
+            {
+              "sentence": "Conditionally approved.",
+              "translation": "조건부로 승인되었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_confidently_342",
+      "word": "confidently",
+      "pronunciation": "/ˈkɒnfɪdəntli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "자신 있게",
+          "examples": [
+            {
+              "sentence": "Spoke confidently.",
+              "translation": "자신 있게 말했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_consciously_343",
+      "word": "consciously",
+      "pronunciation": "/ˈkɒnʃəsli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "의식적으로",
+          "examples": [
+            {
+              "sentence": "Consciously chosen.",
+              "translation": "의식적으로 선택했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_consecutively_344",
+      "word": "consecutively",
+      "pronunciation": "/kənˈsekjʊtɪvli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "연속적으로",
+          "examples": [
+            {
+              "sentence": "Won consecutively.",
+              "translation": "연속으로 이겼다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_considerably_345",
+      "word": "considerably",
+      "pronunciation": "/kənˈsɪdərəbli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "상당히",
+          "examples": [
+            {
+              "sentence": "Considerably higher.",
+              "translation": "상당히 높다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_consistently_346",
+      "word": "consistently",
+      "pronunciation": "/kənˈsɪstəntli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "일관되게",
+          "examples": [
+            {
+              "sentence": "Consistently performed.",
+              "translation": "일관되게 수행했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_conspicuously_347",
+      "word": "conspicuously",
+      "pronunciation": "/kənˈspɪkjuəsli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "눈에 띄게",
+          "examples": [
+            {
+              "sentence": "Conspicuously absent.",
+              "translation": "눈에 띄게 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_constructively_348",
+      "word": "constructively",
+      "pronunciation": "/kənˈstrʌktɪvli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "건설적으로",
+          "examples": [
+            {
+              "sentence": "Respond constructively.",
+              "translation": "건설적으로 대응하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_continuously_349",
+      "word": "continuously",
+      "pronunciation": "/kənˈtɪnjuəsli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "계속해서",
+          "examples": [
+            {
+              "sentence": "Improved continuously.",
+              "translation": "계속해서 개선되다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_convincingly_350",
+      "word": "convincingly",
+      "pronunciation": "/kənˈvɪnsɪŋli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "설득력 있게",
+          "examples": [
+            {
+              "sentence": "Argued convincingly.",
+              "translation": "설득력 있게 주장했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_cooperatively_351",
+      "word": "cooperatively",
+      "pronunciation": "/kəʊˈɒpərətɪvli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "협력적으로",
+          "examples": [
+            {
+              "sentence": "Worked cooperatively.",
+              "translation": "협력적으로 일했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_correspondingly_352",
+      "word": "correspondingly",
+      "pronunciation": "/ˌkɒrɪˈspɒndɪŋli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "상응하게",
+          "examples": [
+            {
+              "sentence": "And correspondingly.",
+              "translation": "그에 상응하게."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_critically_353",
+      "word": "critically",
+      "pronunciation": "/ˈkrɪtɪkli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "비판적으로, 심각하게",
+          "examples": [
+            {
+              "sentence": "Critically important.",
+              "translation": "매우 중요하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_crucially_354",
+      "word": "crucially",
+      "pronunciation": "/ˈkruːʃəli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "결정적으로",
+          "examples": [
+            {
+              "sentence": "Crucially, he agreed.",
+              "translation": "결정적으로 그가 동의했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_cunningly_355",
+      "word": "cunningly",
+      "pronunciation": "/ˈkʌnɪŋli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "교활하게",
+          "examples": [
+            {
+              "sentence": "Cunningly designed.",
+              "translation": "교활하게 설계되었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_curiously_356",
+      "word": "curiously",
+      "pronunciation": "/ˈkjʊəriəsli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "호기심으로",
+          "examples": [
+            {
+              "sentence": "Curiously enough.",
+              "translation": "신기하게도."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_customarily_357",
+      "word": "customarily",
+      "pronunciation": "/ˈkʌstəmərəli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "관례적으로",
+          "examples": [
+            {
+              "sentence": "Customarily done.",
+              "translation": "관례적으로 행해진다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_daringly_358",
+      "word": "daringly",
+      "pronunciation": "/ˈdeərɪŋli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "대담하게",
+          "examples": [
+            {
+              "sentence": "Daringly original.",
+              "translation": "대담하게 독창적이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_decisively_359",
+      "word": "decisively",
+      "pronunciation": "/dɪˈsaɪsɪvli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "결정적으로",
+          "examples": [
+            {
+              "sentence": "Acted decisively.",
+              "translation": "결정적으로 행동했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_defensively_360",
+      "word": "defensively",
+      "pronunciation": "/dɪˈfensɪvli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "방어적으로",
+          "examples": [
+            {
+              "sentence": "Responded defensively.",
+              "translation": "방어적으로 대응했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_delicately_361",
+      "word": "delicately",
+      "pronunciation": "/ˈdelɪkətli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "섬세하게",
+          "examples": [
+            {
+              "sentence": "Delicately handled.",
+              "translation": "섬세하게 다루었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_demonstrably_362",
+      "word": "demonstrably",
+      "pronunciation": "/dɪˈmɒnstrəbli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "명백히",
+          "examples": [
+            {
+              "sentence": "Demonstrably false.",
+              "translation": "명백히 거짓이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_densely_363",
+      "word": "densely",
+      "pronunciation": "/ˈdensli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "밀집하여",
+          "examples": [
+            {
+              "sentence": "Densely populated.",
+              "translation": "인구가 밀집되어 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_desperately_364",
+      "word": "desperately",
+      "pronunciation": "/ˈdespərətli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "필사적으로",
+          "examples": [
+            {
+              "sentence": "Desperately needed.",
+              "translation": "절실히 필요하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_diligently_365",
+      "word": "diligently",
+      "pronunciation": "/ˈdɪlɪdʒəntli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "부지런히",
+          "examples": [
+            {
+              "sentence": "Worked diligently.",
+              "translation": "부지런히 일했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_distinctly_366",
+      "word": "distinctly",
+      "pronunciation": "/dɪˈstɪŋktli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "뚜렷이",
+          "examples": [
+            {
+              "sentence": "Distinctly different.",
+              "translation": "뚜렷이 다르다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_drastically_367",
+      "word": "drastically",
+      "pronunciation": "/ˈdræstɪkli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "극적으로",
+          "examples": [
+            {
+              "sentence": "Drastically changed.",
+              "translation": "극적으로 변했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_duly_368",
+      "word": "duly",
+      "pronunciation": "/ˈdjuːli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "정당하게",
+          "examples": [
+            {
+              "sentence": "Duly noted.",
+              "translation": "적절히 기록되었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_dynamically_369",
+      "word": "dynamically",
+      "pronunciation": "/daɪˈnæmɪkli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "역동적으로",
+          "examples": [
+            {
+              "sentence": "Dynamically changing.",
+              "translation": "역동적으로 변하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_unfortunately_370",
+      "word": "unfortunately",
+      "pronunciation": "/ʌnˈfɔːrtʃənətli/",
+      "subcategory": "# 문장 연결 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "불행히도",
+          "examples": [
+            {
+              "sentence": "Unfortunately, I couldn't make it.",
+              "translation": "불행히도, 가지 못했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_fortunately_371",
+      "word": "fortunately",
+      "pronunciation": "/ˈfɔːrtʃənətli/",
+      "subcategory": "# 문장 연결 부사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "다행히도",
+          "examples": [
+            {
+              "sentence": "Fortunately, everything worked out.",
+              "translation": "다행히도, 모든 게 잘 됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_comply_372",
+      "word": "comply",
+      "pronunciation": "/kəmˈplaɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "준수하다, 따르다",
+          "examples": [
+            {
+              "sentence": "You must comply with the regulations.",
+              "translation": "규정을 준수해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_unlikely_373",
+      "word": "unlikely",
+      "pronunciation": "/ʌnˈlaɪkli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "있을 것 같지 않은",
+          "examples": [
+            {
+              "sentence": "An unlikely outcome.",
+              "translation": "있을 것 같지 않은 결과예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_costly_374",
+      "word": "costly",
+      "pronunciation": "/ˈkɒstli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "값비싼",
+          "examples": [
+            {
+              "sentence": "A costly mistake.",
+              "translation": "값비싼 실수예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs_admittedly_375",
+      "word": "admittedly",
+      "pronunciation": "/ədˈmɪtɪdli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "인정하건대", "examples": [{"sentence": "Admittedly, I was wrong.", "translation": "인정하건대, 내가 틀렸다."}]}]
+    },
+    {
+      "id": "adverbs_allegedly_376",
+      "word": "allegedly",
+      "pronunciation": "/əˈledʒɪdli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "주장에 따르면", "examples": [{"sentence": "He allegedly stole the money.", "translation": "그가 돈을 훔쳤다고 한다."}]}]
+    },
+    {
+      "id": "adverbs_arguably_377",
+      "word": "arguably",
+      "pronunciation": "/ˈɑːrɡjuəbli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "아마도, 틀림없이", "examples": [{"sentence": "This is arguably the best.", "translation": "이것이 아마도 최고일 것이다."}]}]
+    },
+    {
+      "id": "adverbs_presumably_378",
+      "word": "presumably",
+      "pronunciation": "/prɪˈzjuːməbli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "아마, 추정컨대", "examples": [{"sentence": "Presumably, he's at home.", "translation": "아마 그는 집에 있을 것이다."}]}]
+    },
+    {
+      "id": "adverbs_supposedly_379",
+      "word": "supposedly",
+      "pronunciation": "/səˈpoʊzɪdli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "추정상, 아마도", "examples": [{"sentence": "She's supposedly an expert.", "translation": "그녀는 전문가라고 한다."}]}]
+    },
+    {
+      "id": "adverbs_reportedly_380",
+      "word": "reportedly",
+      "pronunciation": "/rɪˈpɔːrtɪdli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "보도에 의하면", "examples": [{"sentence": "Reportedly, they are engaged.", "translation": "보도에 의하면 그들은 약혼했다."}]}]
+    },
+    {
+      "id": "adverbs_undoubtedly_381",
+      "word": "undoubtedly",
+      "pronunciation": "/ʌnˈdaʊtɪdli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "의심할 여지 없이", "examples": [{"sentence": "She's undoubtedly talented.", "translation": "그녀는 의심할 여지 없이 재능있다."}]}]
+    },
+    {
+      "id": "adverbs_unquestionably_382",
+      "word": "unquestionably",
+      "pronunciation": "/ʌnˈkwestʃənəbli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "의문의 여지 없이", "examples": [{"sentence": "Unquestionably the best choice.", "translation": "의문의 여지 없이 최선의 선택이다."}]}]
+    },
+    {
+      "id": "adverbs_indisputably_383",
+      "word": "indisputably",
+      "pronunciation": "/ˌɪndɪˈspjuːtəbli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "논쟁의 여지 없이", "examples": [{"sentence": "Indisputably true.", "translation": "논쟁의 여지 없이 사실이다."}]}]
+    },
+    {
+      "id": "adverbs_conceivably_384",
+      "word": "conceivably",
+      "pronunciation": "/kənˈsiːvəbli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "생각컨대, 아마도", "examples": [{"sentence": "It could conceivably happen.", "translation": "그것은 아마 일어날 수 있다."}]}]
+    },
+    {
+      "id": "adverbs_predictably_385",
+      "word": "predictably",
+      "pronunciation": "/prɪˈdɪktəbli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "예상대로", "examples": [{"sentence": "Predictably, he was late.", "translation": "예상대로 그는 늦었다."}]}]
+    },
+    {
+      "id": "adverbs_remarkably_386",
+      "word": "remarkably",
+      "pronunciation": "/rɪˈmɑːrkəbli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "놀랍게도", "examples": [{"sentence": "Remarkably, she survived.", "translation": "놀랍게도 그녀는 생존했다."}]}]
+    },
+    {
+      "id": "adverbs_regrettably_387",
+      "word": "regrettably",
+      "pronunciation": "/rɪˈɡretəbli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "유감스럽게도", "examples": [{"sentence": "Regrettably, we must decline.", "translation": "유감스럽게도 거절해야 합니다."}]}]
+    },
+    {
+      "id": "adverbs_thankfully_388",
+      "word": "thankfully",
+      "pronunciation": "/ˈθæŋkfəli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "다행히도", "examples": [{"sentence": "Thankfully, no one was hurt.", "translation": "다행히도 아무도 다치지 않았다."}]}]
+    },
+    {
+      "id": "adverbs_mercifully_389",
+      "word": "mercifully",
+      "pronunciation": "/ˈmɜːrsɪfəli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "다행히도, 자비롭게", "examples": [{"sentence": "Mercifully, it ended quickly.", "translation": "다행히도 빨리 끝났다."}]}]
+    },
+    {
+      "id": "adverbs_tragically_390",
+      "word": "tragically",
+      "pronunciation": "/ˈtrædʒɪkli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "비극적으로", "examples": [{"sentence": "Tragically, he died young.", "translation": "비극적으로 그는 젊어서 죽었다."}]}]
+    },
+    {
+      "id": "adverbs_ironically_391",
+      "word": "ironically",
+      "pronunciation": "/aɪˈrɒnɪkli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "아이러니하게도", "examples": [{"sentence": "Ironically, he became famous.", "translation": "아이러니하게도 그는 유명해졌다."}]}]
+    },
+    {
+      "id": "adverbs_paradoxically_392",
+      "word": "paradoxically",
+      "pronunciation": "/ˌpærəˈdɒksɪkli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "역설적으로", "examples": [{"sentence": "Paradoxically, less is more.", "translation": "역설적으로, 적은 것이 더 많은 것이다."}]}]
+    },
+    {
+      "id": "adverbs_understandably_393",
+      "word": "understandably",
+      "pronunciation": "/ˌʌndərˈstændəbli/",
+      "subcategory": "문장 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "당연히, 이해할 수 있게", "examples": [{"sentence": "She was understandably upset.", "translation": "그녀가 화난 것은 당연했다."}]}]
+    },
+    {
+      "id": "adverbs_noticeably_394",
+      "word": "noticeably",
+      "pronunciation": "/ˈnoʊtɪsəbli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "눈에 띄게", "examples": [{"sentence": "He was noticeably nervous.", "translation": "그는 눈에 띄게 긴장했다."}]}]
+    },
+    {
+      "id": "adverbs_markedly_395",
+      "word": "markedly",
+      "pronunciation": "/ˈmɑːrkɪdli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "현저하게", "examples": [{"sentence": "Sales increased markedly.", "translation": "매출이 현저하게 증가했다."}]}]
+    },
+    {
+      "id": "adverbs_strikingly_396",
+      "word": "strikingly",
+      "pronunciation": "/ˈstraɪkɪŋli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "두드러지게", "examples": [{"sentence": "She's strikingly beautiful.", "translation": "그녀는 두드러지게 아름답다."}]}]
+    },
+    {
+      "id": "adverbs_dramatically_397",
+      "word": "dramatically",
+      "pronunciation": "/drəˈmætɪkli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "극적으로", "examples": [{"sentence": "Prices dropped dramatically.", "translation": "가격이 극적으로 떨어졌다."}]}]
+    },
+    {
+      "id": "adverbs_substantially_398",
+      "word": "substantially",
+      "pronunciation": "/səbˈstænʃəli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "상당히", "examples": [{"sentence": "Costs rose substantially.", "translation": "비용이 상당히 올랐다."}]}]
+    },
+    {
+      "id": "adverbs_marginally_399",
+      "word": "marginally",
+      "pronunciation": "/ˈmɑːrdʒɪnəli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "약간, 미미하게", "examples": [{"sentence": "Marginally better than before.", "translation": "이전보다 약간 낫다."}]}]
+    },
+    {
+      "id": "adverbs_fractionally_400",
+      "word": "fractionally",
+      "pronunciation": "/ˈfrækʃənəli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "아주 조금", "examples": [{"sentence": "Fractionally slower.", "translation": "아주 조금 더 느리다."}]}]
+    },
+    {
+      "id": "adverbs_exponentially_401",
+      "word": "exponentially",
+      "pronunciation": "/ˌekspəˈnenʃəli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "기하급수적으로", "examples": [{"sentence": "Growing exponentially.", "translation": "기하급수적으로 성장하는."}]}]
+    },
+    {
+      "id": "adverbs_proportionally_402",
+      "word": "proportionally",
+      "pronunciation": "/prəˈpɔːrʃənəli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "비례하여", "examples": [{"sentence": "Wages increased proportionally.", "translation": "임금이 비례하여 증가했다."}]}]
+    },
+    {
+      "id": "adverbs_disproportionately_403",
+      "word": "disproportionately",
+      "pronunciation": "/ˌdɪsprəˈpɔːrʃənətli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "불균형하게", "examples": [{"sentence": "Disproportionately affected.", "translation": "불균형하게 영향을 받은."}]}]
+    },
+    {
+      "id": "adverbs_immeasurably_404",
+      "word": "immeasurably",
+      "pronunciation": "/ɪˈmeʒərəbli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "헤아릴 수 없이", "examples": [{"sentence": "Life improved immeasurably.", "translation": "삶이 헤아릴 수 없이 나아졌다."}]}]
+    },
+    {
+      "id": "adverbs_infinitely_405",
+      "word": "infinitely",
+      "pronunciation": "/ˈɪnfɪnətli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "무한히", "examples": [{"sentence": "Infinitely better.", "translation": "무한히 더 낫다."}]}]
+    },
+    {
+      "id": "adverbs_incomparably_406",
+      "word": "incomparably",
+      "pronunciation": "/ɪnˈkɒmpərəbli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "비교할 수 없이", "examples": [{"sentence": "Incomparably superior.", "translation": "비교할 수 없이 우월한."}]}]
+    },
+    {
+      "id": "adverbs_overwhelmingly_407",
+      "word": "overwhelmingly",
+      "pronunciation": "/ˌoʊvərˈwelmɪŋli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "압도적으로", "examples": [{"sentence": "Overwhelmingly positive.", "translation": "압도적으로 긍정적인."}]}]
+    },
+    {
+      "id": "adverbs_predominantly_408",
+      "word": "predominantly",
+      "pronunciation": "/prɪˈdɒmɪnəntli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "주로, 대부분", "examples": [{"sentence": "Predominantly female.", "translation": "주로 여성인."}]}]
+    },
+    {
+      "id": "adverbs_predominantly_409",
+      "word": "vastly",
+      "pronunciation": "/ˈvæstli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "크게, 대단히", "examples": [{"sentence": "Vastly different.", "translation": "크게 다른."}]}]
+    },
+    {
+      "id": "adverbs_wholly_410",
+      "word": "wholly",
+      "pronunciation": "/ˈhoʊlli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "완전히", "examples": [{"sentence": "Wholly unacceptable.", "translation": "완전히 받아들일 수 없는."}]}]
+    },
+    {
+      "id": "adverbs_utterly_411",
+      "word": "utterly",
+      "pronunciation": "/ˈʌtərli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "완전히, 철저히", "examples": [{"sentence": "Utterly ridiculous.", "translation": "완전히 터무니없는."}]}]
+    },
+    {
+      "id": "adverbs_profoundly_412",
+      "word": "profoundly",
+      "pronunciation": "/prəˈfaʊndli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "깊이, 심오하게", "examples": [{"sentence": "Profoundly affected.", "translation": "깊이 영향을 받은."}]}]
+    },
+    {
+      "id": "adverbs_acutely_413",
+      "word": "acutely",
+      "pronunciation": "/əˈkjuːtli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "날카롭게, 심하게", "examples": [{"sentence": "Acutely aware.", "translation": "예리하게 인식하는."}]}]
+    },
+    {
+      "id": "adverbs_intensely_414",
+      "word": "intensely",
+      "pronunciation": "/ɪnˈtensli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "강렬하게", "examples": [{"sentence": "Intensely focused.", "translation": "강렬하게 집중한."}]}]
+    },
+    {
+      "id": "adverbs_fiercely_415",
+      "word": "fiercely",
+      "pronunciation": "/ˈfɪrsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "맹렬히", "examples": [{"sentence": "Fiercely competitive.", "translation": "맹렬히 경쟁적인."}]}]
+    },
+    {
+      "id": "adverbs_vigorously_416",
+      "word": "vigorously",
+      "pronunciation": "/ˈvɪɡərəsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "활기차게", "examples": [{"sentence": "Vigorously denied.", "translation": "강력히 부인했다."}]}]
+    },
+    {
+      "id": "adverbs_relentlessly_417",
+      "word": "relentlessly",
+      "pronunciation": "/rɪˈlentləsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "끈질기게", "examples": [{"sentence": "Relentlessly pursuing.", "translation": "끈질기게 추구하는."}]}]
+    },
+    {
+      "id": "adverbs_persistently_418",
+      "word": "persistently",
+      "pronunciation": "/pərˈsɪstəntli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "끈질기게", "examples": [{"sentence": "Persistently asked.", "translation": "끈질기게 물었다."}]}]
+    },
+    {
+      "id": "adverbs_doggedly_419",
+      "word": "doggedly",
+      "pronunciation": "/ˈdɔːɡɪdli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "완강하게", "examples": [{"sentence": "Doggedly refused.", "translation": "완강하게 거부했다."}]}]
+    },
+    {
+      "id": "adverbs_stubbornly_420",
+      "word": "stubbornly",
+      "pronunciation": "/ˈstʌbərnli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "완고하게", "examples": [{"sentence": "Stubbornly refused.", "translation": "완고하게 거부했다."}]}]
+    },
+    {
+      "id": "adverbs_adamantly_421",
+      "word": "adamantly",
+      "pronunciation": "/ˈædəməntli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "단호하게", "examples": [{"sentence": "Adamantly opposed.", "translation": "단호하게 반대했다."}]}]
+    },
+    {
+      "id": "adverbs_vehemently_422",
+      "word": "vehemently",
+      "pronunciation": "/ˈviːəməntli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "격렬하게", "examples": [{"sentence": "Vehemently denied.", "translation": "격렬하게 부인했다."}]}]
+    },
+    {
+      "id": "adverbs_emphatically_423",
+      "word": "emphatically",
+      "pronunciation": "/ɪmˈfætɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "단호히", "examples": [{"sentence": "Emphatically stated.", "translation": "단호히 말했다."}]}]
+    },
+    {
+      "id": "adverbs_categorically_424",
+      "word": "categorically",
+      "pronunciation": "/ˌkætəˈɡɒrɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "단호히, 명확히", "examples": [{"sentence": "Categorically denied.", "translation": "단호히 부인했다."}]}]
+    },
+    {
+      "id": "adverbs_flatly_425",
+      "word": "flatly",
+      "pronunciation": "/ˈflætli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "단호히, 딱 잘라", "examples": [{"sentence": "Flatly refused.", "translation": "딱 잘라 거절했다."}]}]
+    },
+    {
+      "id": "adverbs_bluntly_426",
+      "word": "bluntly",
+      "pronunciation": "/ˈblʌntli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "무뚝뚝하게", "examples": [{"sentence": "Put it bluntly.", "translation": "솔직히 말해서."}]}]
+    },
+    {
+      "id": "adverbs_frankly_427",
+      "word": "frankly",
+      "pronunciation": "/ˈfræŋkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "솔직히", "examples": [{"sentence": "Frankly, I don't care.", "translation": "솔직히, 난 상관없어."}]}]
+    },
+    {
+      "id": "adverbs_candidly_428",
+      "word": "candidly",
+      "pronunciation": "/ˈkændɪdli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "솔직하게", "examples": [{"sentence": "Speaking candidly.", "translation": "솔직하게 말하면."}]}]
+    },
+    {
+      "id": "adverbs_tactfully_429",
+      "word": "tactfully",
+      "pronunciation": "/ˈtæktfəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "요령있게", "examples": [{"sentence": "Tactfully handled.", "translation": "요령있게 처리했다."}]}]
+    },
+    {
+      "id": "adverbs_diplomatically_430",
+      "word": "diplomatically",
+      "pronunciation": "/ˌdɪpləˈmætɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "외교적으로", "examples": [{"sentence": "Diplomatically phrased.", "translation": "외교적으로 표현된."}]}]
+    },
+    {
+      "id": "adverbs_graciously_431",
+      "word": "graciously",
+      "pronunciation": "/ˈɡreɪʃəsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "품위있게", "examples": [{"sentence": "Graciously accepted.", "translation": "품위있게 수락했다."}]}]
+    },
+    {
+      "id": "adverbs_courteously_432",
+      "word": "courteously",
+      "pronunciation": "/ˈkɜːrtiəsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "공손하게", "examples": [{"sentence": "Courteously declined.", "translation": "공손하게 거절했다."}]}]
+    },
+    {
+      "id": "adverbs_politely_433",
+      "word": "politely",
+      "pronunciation": "/pəˈlaɪtli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "공손히", "examples": [{"sentence": "Politely asked.", "translation": "공손히 물었다."}]}]
+    },
+    {
+      "id": "adverbs_humbly_434",
+      "word": "humbly",
+      "pronunciation": "/ˈhʌmbli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "겸손하게", "examples": [{"sentence": "Humbly accepted.", "translation": "겸손하게 수락했다."}]}]
+    },
+    {
+      "id": "adverbs_arrogantly_435",
+      "word": "arrogantly",
+      "pronunciation": "/ˈærəɡəntli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "거만하게", "examples": [{"sentence": "Arrogantly dismissed.", "translation": "거만하게 무시했다."}]}]
+    },
+    {
+      "id": "adverbs_condescendingly_436",
+      "word": "condescendingly",
+      "pronunciation": "/ˌkɒndɪˈsendɪŋli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "거들먹거리며", "examples": [{"sentence": "Spoke condescendingly.", "translation": "거들먹거리며 말했다."}]}]
+    },
+    {
+      "id": "adverbs_sarcastically_437",
+      "word": "sarcastically",
+      "pronunciation": "/sɑːrˈkæstɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "빈정대며", "examples": [{"sentence": "Said sarcastically.", "translation": "빈정대며 말했다."}]}]
+    },
+    {
+      "id": "adverbs_mockingly_438",
+      "word": "mockingly",
+      "pronunciation": "/ˈmɒkɪŋli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "조롱하며", "examples": [{"sentence": "Laughed mockingly.", "translation": "조롱하며 웃었다."}]}]
+    },
+    {
+      "id": "adverbs_contemptuously_439",
+      "word": "contemptuously",
+      "pronunciation": "/kənˈtemptʃuəsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "경멸적으로", "examples": [{"sentence": "Looked contemptuously.", "translation": "경멸적으로 바라보았다."}]}]
+    },
+    {
+      "id": "adverbs_disdainfully_440",
+      "word": "disdainfully",
+      "pronunciation": "/dɪsˈdeɪnfəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "경멸하듯", "examples": [{"sentence": "Disdainfully ignored.", "translation": "경멸하듯 무시했다."}]}]
+    },
+    {
+      "id": "adverbs_enviously_441",
+      "word": "enviously",
+      "pronunciation": "/ˈenviəsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "부러워하며", "examples": [{"sentence": "Looked enviously.", "translation": "부러워하며 바라보았다."}]}]
+    },
+    {
+      "id": "adverbs_jealously_442",
+      "word": "jealously",
+      "pronunciation": "/ˈdʒeləsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "질투하며", "examples": [{"sentence": "Jealously guarded.", "translation": "질투심으로 지켰다."}]}]
+    },
+    {
+      "id": "adverbs_suspiciously_443",
+      "word": "suspiciously",
+      "pronunciation": "/səˈspɪʃəsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "의심스럽게", "examples": [{"sentence": "Looked suspiciously.", "translation": "의심스럽게 바라보았다."}]}]
+    },
+    {
+      "id": "adverbs_warily_444",
+      "word": "warily",
+      "pronunciation": "/ˈwerəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "조심스럽게", "examples": [{"sentence": "Approached warily.", "translation": "조심스럽게 접근했다."}]}]
+    },
+    {
+      "id": "adverbs_cautiously_445",
+      "word": "cautiously",
+      "pronunciation": "/ˈkɔːʃəsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "조심스럽게", "examples": [{"sentence": "Proceeded cautiously.", "translation": "조심스럽게 진행했다."}]}]
+    },
+    {
+      "id": "adverbs_tentatively_446",
+      "word": "tentatively",
+      "pronunciation": "/ˈtentətɪvli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "잠정적으로, 조심스럽게", "examples": [{"sentence": "Tentatively agreed.", "translation": "잠정적으로 동의했다."}]}]
+    },
+    {
+      "id": "adverbs_hesitantly_447",
+      "word": "hesitantly",
+      "pronunciation": "/ˈhezɪtəntli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "망설이며", "examples": [{"sentence": "Spoke hesitantly.", "translation": "망설이며 말했다."}]}]
+    },
+    {
+      "id": "adverbs_reluctantly_448",
+      "word": "reluctantly",
+      "pronunciation": "/rɪˈlʌktəntli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "마지못해", "examples": [{"sentence": "Reluctantly agreed.", "translation": "마지못해 동의했다."}]}]
+    },
+    {
+      "id": "adverbs_grudgingly_449",
+      "word": "grudgingly",
+      "pronunciation": "/ˈɡrʌdʒɪŋli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "마지못해", "examples": [{"sentence": "Grudgingly admitted.", "translation": "마지못해 인정했다."}]}]
+    },
+    {
+      "id": "adverbs_willingly_450",
+      "word": "willingly",
+      "pronunciation": "/ˈwɪlɪŋli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "기꺼이", "examples": [{"sentence": "Willingly helped.", "translation": "기꺼이 도왔다."}]}]
+    },
+    {
+      "id": "adverbs_eagerly_451",
+      "word": "eagerly",
+      "pronunciation": "/ˈiːɡərli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "열심히, 간절히", "examples": [{"sentence": "Eagerly awaited.", "translation": "간절히 기다렸다."}]}]
+    },
+    {
+      "id": "adverbs_enthusiastically_452",
+      "word": "enthusiastically",
+      "pronunciation": "/ɪnˌθuːziˈæstɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "열정적으로", "examples": [{"sentence": "Enthusiastically supported.", "translation": "열정적으로 지지했다."}]}]
+    },
+    {
+      "id": "adverbs_passionately_453",
+      "word": "passionately",
+      "pronunciation": "/ˈpæʃənətli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "열정적으로", "examples": [{"sentence": "Passionately believed.", "translation": "열정적으로 믿었다."}]}]
+    },
+    {
+      "id": "adverbs_fervently_454",
+      "word": "fervently",
+      "pronunciation": "/ˈfɜːrvəntli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "열렬히", "examples": [{"sentence": "Fervently hoped.", "translation": "열렬히 희망했다."}]}]
+    },
+    {
+      "id": "adverbs_ardently_455",
+      "word": "ardently",
+      "pronunciation": "/ˈɑːrdəntli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "열렬히", "examples": [{"sentence": "Ardently desired.", "translation": "열렬히 원했다."}]}]
+    },
+    {
+      "id": "adverbs_devoutly_456",
+      "word": "devoutly",
+      "pronunciation": "/dɪˈvaʊtli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "경건하게", "examples": [{"sentence": "Devoutly prayed.", "translation": "경건하게 기도했다."}]}]
+    },
+    {
+      "id": "adverbs_sincerely_457",
+      "word": "sincerely",
+      "pronunciation": "/sɪnˈsɪrli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "진심으로", "examples": [{"sentence": "Sincerely apologized.", "translation": "진심으로 사과했다."}]}]
+    },
+    {
+      "id": "adverbs_genuinely_458",
+      "word": "genuinely",
+      "pronunciation": "/ˈdʒenjuɪnli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "진정으로", "examples": [{"sentence": "Genuinely surprised.", "translation": "진정으로 놀란."}]}]
+    },
+    {
+      "id": "adverbs_wholeheartedly_459",
+      "word": "wholeheartedly",
+      "pronunciation": "/ˌhoʊlˈhɑːrtɪdli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "진심으로", "examples": [{"sentence": "Wholeheartedly agreed.", "translation": "진심으로 동의했다."}]}]
+    },
+    {
+      "id": "adverbs_halfheartedly_460",
+      "word": "halfheartedly",
+      "pronunciation": "/ˌhæfˈhɑːrtɪdli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "건성으로", "examples": [{"sentence": "Halfheartedly participated.", "translation": "건성으로 참여했다."}]}]
+    },
+    {
+      "id": "adverbs_consciously_461",
+      "word": "consciously",
+      "pronunciation": "/ˈkɒnʃəsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "의식적으로", "examples": [{"sentence": "Consciously avoided.", "translation": "의식적으로 피했다."}]}]
+    },
+    {
+      "id": "adverbs_unconsciously_462",
+      "word": "unconsciously",
+      "pronunciation": "/ʌnˈkɒnʃəsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "무의식적으로", "examples": [{"sentence": "Unconsciously smiled.", "translation": "무의식적으로 미소 지었다."}]}]
+    },
+    {
+      "id": "adverbs_subconsciously_463",
+      "word": "subconsciously",
+      "pronunciation": "/ˌsʌbˈkɒnʃəsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "잠재의식적으로", "examples": [{"sentence": "Subconsciously knew.", "translation": "잠재의식적으로 알았다."}]}]
+    },
+    {
+      "id": "adverbs_instinctively_464",
+      "word": "instinctively",
+      "pronunciation": "/ɪnˈstɪŋktɪvli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "본능적으로", "examples": [{"sentence": "Instinctively reacted.", "translation": "본능적으로 반응했다."}]}]
+    },
+    {
+      "id": "adverbs_intuitively_465",
+      "word": "intuitively",
+      "pronunciation": "/ɪnˈtuːɪtɪvli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "직관적으로", "examples": [{"sentence": "Intuitively understood.", "translation": "직관적으로 이해했다."}]}]
+    },
+    {
+      "id": "adverbs_spontaneously_466",
+      "word": "spontaneously",
+      "pronunciation": "/spɒnˈteɪniəsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "자발적으로", "examples": [{"sentence": "Spontaneously applauded.", "translation": "자발적으로 박수쳤다."}]}]
+    },
+    {
+      "id": "adverbs_impulsively_467",
+      "word": "impulsively",
+      "pronunciation": "/ɪmˈpʌlsɪvli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "충동적으로", "examples": [{"sentence": "Impulsively bought.", "translation": "충동적으로 샀다."}]}]
+    },
+    {
+      "id": "adverbs_rashly_468",
+      "word": "rashly",
+      "pronunciation": "/ˈræʃli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "경솔하게", "examples": [{"sentence": "Rashly decided.", "translation": "경솔하게 결정했다."}]}]
+    },
+    {
+      "id": "adverbs_recklessly_469",
+      "word": "recklessly",
+      "pronunciation": "/ˈrekləsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "무모하게", "examples": [{"sentence": "Recklessly driving.", "translation": "무모하게 운전하는."}]}]
+    },
+    {
+      "id": "adverbs_carelessly_470",
+      "word": "carelessly",
+      "pronunciation": "/ˈkerləsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "부주의하게", "examples": [{"sentence": "Carelessly discarded.", "translation": "부주의하게 버렸다."}]}]
+    },
+    {
+      "id": "adverbs_thoughtlessly_471",
+      "word": "thoughtlessly",
+      "pronunciation": "/ˈθɔːtləsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "생각없이", "examples": [{"sentence": "Thoughtlessly said.", "translation": "생각없이 말했다."}]}]
+    },
+    {
+      "id": "adverbs_mindlessly_472",
+      "word": "mindlessly",
+      "pronunciation": "/ˈmaɪndləsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "무심코", "examples": [{"sentence": "Mindlessly scrolling.", "translation": "무심코 스크롤하는."}]}]
+    },
+    {
+      "id": "adverbs_aimlessly_473",
+      "word": "aimlessly",
+      "pronunciation": "/ˈeɪmləsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "목적없이", "examples": [{"sentence": "Wandered aimlessly.", "translation": "목적없이 배회했다."}]}]
+    },
+    {
+      "id": "adverbs_deliberately_474",
+      "word": "deliberately",
+      "pronunciation": "/dɪˈlɪbərətli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "의도적으로", "examples": [{"sentence": "Deliberately ignored.", "translation": "의도적으로 무시했다."}]}]
+    },
+    {
+      "id": "adverbs_intentionally_475",
+      "word": "intentionally",
+      "pronunciation": "/ɪnˈtenʃənəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "의도적으로", "examples": [{"sentence": "Intentionally omitted.", "translation": "의도적으로 생략했다."}]}]
+    },
+    {
+      "id": "adverbs_purposely_476",
+      "word": "purposely",
+      "pronunciation": "/ˈpɜːrpəsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "일부러", "examples": [{"sentence": "Purposely avoided.", "translation": "일부러 피했다."}]}]
+    },
+    {
+      "id": "adverbs_knowingly_477",
+      "word": "knowingly",
+      "pronunciation": "/ˈnoʊɪŋli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "알면서, 고의로", "examples": [{"sentence": "Knowingly lied.", "translation": "알면서 거짓말했다."}]}]
+    },
+    {
+      "id": "adverbs_willfully_478",
+      "word": "willfully",
+      "pronunciation": "/ˈwɪlfəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "고의로", "examples": [{"sentence": "Willfully disregarded.", "translation": "고의로 무시했다."}]}]
+    },
+    {
+      "id": "adverbs_inadvertently_479",
+      "word": "inadvertently",
+      "pronunciation": "/ˌɪnədˈvɜːrtəntli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "실수로", "examples": [{"sentence": "Inadvertently revealed.", "translation": "실수로 드러냈다."}]}]
+    },
+    {
+      "id": "adverbs_unintentionally_480",
+      "word": "unintentionally",
+      "pronunciation": "/ˌʌnɪnˈtenʃənəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "의도치 않게", "examples": [{"sentence": "Unintentionally hurt.", "translation": "의도치 않게 다치게 했다."}]}]
+    },
+    {
+      "id": "adverbs_unwittingly_481",
+      "word": "unwittingly",
+      "pronunciation": "/ʌnˈwɪtɪŋli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "무의식중에", "examples": [{"sentence": "Unwittingly involved.", "translation": "무의식중에 연루되었다."}]}]
+    },
+    {
+      "id": "adverbs_mistakenly_482",
+      "word": "mistakenly",
+      "pronunciation": "/mɪˈsteɪkənli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "실수로", "examples": [{"sentence": "Mistakenly assumed.", "translation": "실수로 가정했다."}]}]
+    },
+    {
+      "id": "adverbs_erroneously_483",
+      "word": "erroneously",
+      "pronunciation": "/ɪˈroʊniəsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "잘못되게", "examples": [{"sentence": "Erroneously reported.", "translation": "잘못되게 보도되었다."}]}]
+    },
+    {
+      "id": "adverbs_falsely_484",
+      "word": "falsely",
+      "pronunciation": "/ˈfɔːlsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "거짓으로", "examples": [{"sentence": "Falsely accused.", "translation": "거짓으로 고발되었다."}]}]
+    },
+    {
+      "id": "adverbs_wrongly_485",
+      "word": "wrongly",
+      "pronunciation": "/ˈrɔːŋli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "잘못", "examples": [{"sentence": "Wrongly convicted.", "translation": "잘못 유죄 판결을 받은."}]}]
+    },
+    {
+      "id": "adverbs_rightfully_486",
+      "word": "rightfully",
+      "pronunciation": "/ˈraɪtfəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "정당하게", "examples": [{"sentence": "Rightfully belongs.", "translation": "정당하게 속하는."}]}]
+    },
+    {
+      "id": "adverbs_justly_487",
+      "word": "justly",
+      "pronunciation": "/ˈdʒʌstli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "공정하게", "examples": [{"sentence": "Justly punished.", "translation": "공정하게 처벌받은."}]}]
+    },
+    {
+      "id": "adverbs_fairly_488",
+      "word": "fairly",
+      "pronunciation": "/ˈferli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "공정하게, 꽤", "examples": [{"sentence": "Fairly treated.", "translation": "공정하게 대우받은."}]}]
+    },
+    {
+      "id": "adverbs_unfairly_489",
+      "word": "unfairly",
+      "pronunciation": "/ʌnˈferli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "불공정하게", "examples": [{"sentence": "Unfairly criticized.", "translation": "불공정하게 비판받은."}]}]
+    },
+    {
+      "id": "adverbs_unjustly_490",
+      "word": "unjustly",
+      "pronunciation": "/ʌnˈdʒʌstli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "부당하게", "examples": [{"sentence": "Unjustly imprisoned.", "translation": "부당하게 투옥된."}]}]
+    },
+    {
+      "id": "adverbs_legitimately_491",
+      "word": "legitimately",
+      "pronunciation": "/lɪˈdʒɪtɪmətli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "합법적으로", "examples": [{"sentence": "Legitimately earned.", "translation": "합법적으로 번."}]}]
+    },
+    {
+      "id": "adverbs_lawfully_492",
+      "word": "lawfully",
+      "pronunciation": "/ˈlɔːfəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "합법적으로", "examples": [{"sentence": "Lawfully obtained.", "translation": "합법적으로 획득한."}]}]
+    },
+    {
+      "id": "adverbs_legally_493",
+      "word": "legally",
+      "pronunciation": "/ˈliːɡəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "법적으로", "examples": [{"sentence": "Legally binding.", "translation": "법적으로 구속력 있는."}]}]
+    },
+    {
+      "id": "adverbs_illegally_494",
+      "word": "illegally",
+      "pronunciation": "/ɪˈliːɡəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "불법적으로", "examples": [{"sentence": "Illegally obtained.", "translation": "불법적으로 획득한."}]}]
+    },
+    {
+      "id": "adverbs_morally_495",
+      "word": "morally",
+      "pronunciation": "/ˈmɔːrəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "도덕적으로", "examples": [{"sentence": "Morally wrong.", "translation": "도덕적으로 잘못된."}]}]
+    },
+    {
+      "id": "adverbs_ethically_496",
+      "word": "ethically",
+      "pronunciation": "/ˈeθɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "윤리적으로", "examples": [{"sentence": "Ethically sourced.", "translation": "윤리적으로 조달된."}]}]
+    },
+    {
+      "id": "adverbs_politically_497",
+      "word": "politically",
+      "pronunciation": "/pəˈlɪtɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "정치적으로", "examples": [{"sentence": "Politically motivated.", "translation": "정치적으로 동기부여된."}]}]
+    },
+    {
+      "id": "adverbs_economically_498",
+      "word": "economically",
+      "pronunciation": "/ˌiːkəˈnɒmɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "경제적으로", "examples": [{"sentence": "Economically viable.", "translation": "경제적으로 실행가능한."}]}]
+    },
+    {
+      "id": "adverbs_financially_499",
+      "word": "financially",
+      "pronunciation": "/faɪˈnænʃəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "재정적으로", "examples": [{"sentence": "Financially independent.", "translation": "재정적으로 독립적인."}]}]
+    },
+    {
+      "id": "adverbs_socially_500",
+      "word": "socially",
+      "pronunciation": "/ˈsoʊʃəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "사회적으로", "examples": [{"sentence": "Socially acceptable.", "translation": "사회적으로 용인되는."}]}]
+    },
+    {
+      "id": "adverbs_culturally_501",
+      "word": "culturally",
+      "pronunciation": "/ˈkʌltʃərəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "문화적으로", "examples": [{"sentence": "Culturally diverse.", "translation": "문화적으로 다양한."}]}]
+    },
+    {
+      "id": "adverbs_historically_502",
+      "word": "historically",
+      "pronunciation": "/hɪˈstɔːrɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "역사적으로", "examples": [{"sentence": "Historically significant.", "translation": "역사적으로 중요한."}]}]
+    },
+    {
+      "id": "adverbs_geographically_503",
+      "word": "geographically",
+      "pronunciation": "/ˌdʒiːəˈɡræfɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "지리적으로", "examples": [{"sentence": "Geographically isolated.", "translation": "지리적으로 고립된."}]}]
+    },
+    {
+      "id": "adverbs_strategically_504",
+      "word": "strategically",
+      "pronunciation": "/strəˈtiːdʒɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "전략적으로", "examples": [{"sentence": "Strategically located.", "translation": "전략적으로 위치한."}]}]
+    },
+    {
+      "id": "adverbs_tactically_505",
+      "word": "tactically",
+      "pronunciation": "/ˈtæktɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "전술적으로", "examples": [{"sentence": "Tactically sound.", "translation": "전술적으로 건전한."}]}]
+    },
+    {
+      "id": "adverbs_systematically_506",
+      "word": "systematically",
+      "pronunciation": "/ˌsɪstəˈmætɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "체계적으로", "examples": [{"sentence": "Systematically organized.", "translation": "체계적으로 정리된."}]}]
+    },
+    {
+      "id": "adverbs_methodically_507",
+      "word": "methodically",
+      "pronunciation": "/məˈθɒdɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "체계적으로", "examples": [{"sentence": "Methodically approached.", "translation": "체계적으로 접근했다."}]}]
+    },
+    {
+      "id": "adverbs_logically_508",
+      "word": "logically",
+      "pronunciation": "/ˈlɒdʒɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "논리적으로", "examples": [{"sentence": "Logically concluded.", "translation": "논리적으로 결론지었다."}]}]
+    },
+    {
+      "id": "adverbs_rationally_509",
+      "word": "rationally",
+      "pronunciation": "/ˈræʃənəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "합리적으로", "examples": [{"sentence": "Rationally thought.", "translation": "합리적으로 생각했다."}]}]
+    },
+    {
+      "id": "adverbs_objectively_510",
+      "word": "objectively",
+      "pronunciation": "/əbˈdʒektɪvli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "객관적으로", "examples": [{"sentence": "Objectively assessed.", "translation": "객관적으로 평가했다."}]}]
+    },
+    {
+      "id": "adverbs_subjectively_511",
+      "word": "subjectively",
+      "pronunciation": "/səbˈdʒektɪvli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "주관적으로", "examples": [{"sentence": "Subjectively judged.", "translation": "주관적으로 판단했다."}]}]
+    },
+    {
+      "id": "adverbs_realistically_512",
+      "word": "realistically",
+      "pronunciation": "/ˌriːəˈlɪstɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "현실적으로", "examples": [{"sentence": "Realistically speaking.", "translation": "현실적으로 말하면."}]}]
+    },
+    {
+      "id": "adverbs_ideally_513",
+      "word": "ideally",
+      "pronunciation": "/aɪˈdiːəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "이상적으로", "examples": [{"sentence": "Ideally suited.", "translation": "이상적으로 적합한."}]}]
+    },
+    {
+      "id": "adverbs_theoretically_514",
+      "word": "theoretically",
+      "pronunciation": "/ˌθɪəˈretɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "이론적으로", "examples": [{"sentence": "Theoretically possible.", "translation": "이론적으로 가능한."}]}]
+    },
+    {
+      "id": "adverbs_practically_515",
+      "word": "practically",
+      "pronunciation": "/ˈpræktɪkli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "실질적으로, 거의", "examples": [{"sentence": "Practically impossible.", "translation": "실질적으로 불가능한."}]}]
+    },
+    {
+      "id": "adverbs_virtually_516",
+      "word": "virtually",
+      "pronunciation": "/ˈvɜːrtʃuəli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "사실상", "examples": [{"sentence": "Virtually identical.", "translation": "사실상 동일한."}]}]
+    },
+    {
+      "id": "adverbs_essentially_517",
+      "word": "essentially",
+      "pronunciation": "/ɪˈsenʃəli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "본질적으로", "examples": [{"sentence": "Essentially correct.", "translation": "본질적으로 옳은."}]}]
+    },
+    {
+      "id": "adverbs_fundamentally_518",
+      "word": "fundamentally",
+      "pronunciation": "/ˌfʌndəˈmentəli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "근본적으로", "examples": [{"sentence": "Fundamentally different.", "translation": "근본적으로 다른."}]}]
+    },
+    {
+      "id": "adverbs_inherently_519",
+      "word": "inherently",
+      "pronunciation": "/ɪnˈhɪrəntli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "본질적으로", "examples": [{"sentence": "Inherently risky.", "translation": "본질적으로 위험한."}]}]
+    },
+    {
+      "id": "adverbs_intrinsically_520",
+      "word": "intrinsically",
+      "pronunciation": "/ɪnˈtrɪnzɪkli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "본질적으로", "examples": [{"sentence": "Intrinsically motivated.", "translation": "본질적으로 동기부여된."}]}]
+    },
+    {
+      "id": "adverbs_externally_521",
+      "word": "externally",
+      "pronunciation": "/ɪkˈstɜːrnəli/",
+      "subcategory": "장소 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "외부적으로", "examples": [{"sentence": "Externally visible.", "translation": "외부적으로 보이는."}]}]
+    },
+    {
+      "id": "adverbs_internally_522",
+      "word": "internally",
+      "pronunciation": "/ɪnˈtɜːrnəli/",
+      "subcategory": "장소 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "내부적으로", "examples": [{"sentence": "Internally consistent.", "translation": "내부적으로 일관된."}]}]
+    },
+    {
+      "id": "adverbs_outwardly_523",
+      "word": "outwardly",
+      "pronunciation": "/ˈaʊtwərdli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "외관상", "examples": [{"sentence": "Outwardly calm.", "translation": "외관상 침착한."}]}]
+    },
+    {
+      "id": "adverbs_inwardly_524",
+      "word": "inwardly",
+      "pronunciation": "/ˈɪnwərdli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "내심으로", "examples": [{"sentence": "Inwardly relieved.", "translation": "내심 안도한."}]}]
+    },
+    {
+      "id": "adverbs_superficially_525",
+      "word": "superficially",
+      "pronunciation": "/ˌsuːpərˈfɪʃəli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "피상적으로", "examples": [{"sentence": "Superficially similar.", "translation": "피상적으로 비슷한."}]}]
+    },
+    {
+      "id": "adverbs_deeply_526",
+      "word": "deeply",
+      "pronunciation": "/ˈdiːpli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "깊이", "examples": [{"sentence": "Deeply concerned.", "translation": "깊이 우려하는."}]}]
+    },
+    {
+      "id": "adverbs_widely_527",
+      "word": "widely",
+      "pronunciation": "/ˈwaɪdli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "널리", "examples": [{"sentence": "Widely known.", "translation": "널리 알려진."}]}]
+    },
+    {
+      "id": "adverbs_broadly_528",
+      "word": "broadly",
+      "pronunciation": "/ˈbrɔːdli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "대체로", "examples": [{"sentence": "Broadly speaking.", "translation": "대체로 말하면."}]}]
+    },
+    {
+      "id": "adverbs_narrowly_529",
+      "word": "narrowly",
+      "pronunciation": "/ˈnæroʊli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "간신히, 좁게", "examples": [{"sentence": "Narrowly escaped.", "translation": "간신히 탈출했다."}]}]
+    },
+    {
+      "id": "adverbs_loosely_530",
+      "word": "loosely",
+      "pronunciation": "/ˈluːsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "느슨하게", "examples": [{"sentence": "Loosely defined.", "translation": "느슨하게 정의된."}]}]
+    },
+    {
+      "id": "adverbs_tightly_531",
+      "word": "tightly",
+      "pronunciation": "/ˈtaɪtli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "단단히", "examples": [{"sentence": "Tightly controlled.", "translation": "단단히 통제된."}]}]
+    },
+    {
+      "id": "adverbs_firmly_532",
+      "word": "firmly",
+      "pronunciation": "/ˈfɜːrmli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "단단히, 확고히", "examples": [{"sentence": "Firmly believed.", "translation": "확고히 믿었다."}]}]
+    },
+    {
+      "id": "adverbs_securely_533",
+      "word": "securely",
+      "pronunciation": "/sɪˈkjʊrli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "안전하게", "examples": [{"sentence": "Securely fastened.", "translation": "안전하게 고정된."}]}]
+    },
+    {
+      "id": "adverbs_safely_534",
+      "word": "safely",
+      "pronunciation": "/ˈseɪfli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "안전하게", "examples": [{"sentence": "Safely arrived.", "translation": "안전하게 도착했다."}]}]
+    },
+    {
+      "id": "adverbs_dangerously_535",
+      "word": "dangerously",
+      "pronunciation": "/ˈdeɪndʒərəsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "위험하게", "examples": [{"sentence": "Dangerously close.", "translation": "위험하게 가까운."}]}]
+    },
+    {
+      "id": "adverbs_riskily_536",
+      "word": "precariously",
+      "pronunciation": "/prɪˈkerəriəsli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "불안정하게", "examples": [{"sentence": "Precariously balanced.", "translation": "불안정하게 균형 잡힌."}]}]
+    },
+    {
+      "id": "adverbs_steadily_537",
+      "word": "steadily",
+      "pronunciation": "/ˈstedɪli/",
+      "subcategory": "방법 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "꾸준히", "examples": [{"sentence": "Steadily improving.", "translation": "꾸준히 개선되는."}]}]
+    },
+    {
+      "id": "adverbs_gradually_538",
+      "word": "gradually",
+      "pronunciation": "/ˈɡrædʒuəli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "서서히", "examples": [{"sentence": "Gradually increasing.", "translation": "서서히 증가하는."}]}]
+    },
+    {
+      "id": "adverbs_progressively_539",
+      "word": "progressively",
+      "pronunciation": "/prəˈɡresɪvli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "점진적으로", "examples": [{"sentence": "Progressively worse.", "translation": "점점 더 악화되는."}]}]
+    },
+    {
+      "id": "adverbs_incrementally_540",
+      "word": "incrementally",
+      "pronunciation": "/ˌɪnkrəˈmentəli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "점진적으로", "examples": [{"sentence": "Incrementally improved.", "translation": "점진적으로 개선된."}]}]
+    },
+    {
+      "id": "adverbs_abruptly_541",
+      "word": "abruptly",
+      "pronunciation": "/əˈbrʌptli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "갑자기", "examples": [{"sentence": "Abruptly stopped.", "translation": "갑자기 멈췄다."}]}]
+    },
+    {
+      "id": "adverbs_instantaneously_542",
+      "word": "instantaneously",
+      "pronunciation": "/ˌɪnstənˈteɪniəsli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "순간적으로", "examples": [{"sentence": "Instantaneously reacted.", "translation": "순간적으로 반응했다."}]}]
+    },
+    {
+      "id": "adverbs_swiftly_543",
+      "word": "swiftly",
+      "pronunciation": "/ˈswɪftli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "신속하게", "examples": [{"sentence": "Swiftly responded.", "translation": "신속하게 대응했다."}]}]
+    },
+    {
+      "id": "adverbs_hastily_544",
+      "word": "hastily",
+      "pronunciation": "/ˈheɪstɪli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "서둘러", "examples": [{"sentence": "Hastily prepared.", "translation": "서둘러 준비했다."}]}]
+    },
+    {
+      "id": "adverbs_hurriedly_545",
+      "word": "hurriedly",
+      "pronunciation": "/ˈhɜːrɪdli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "서둘러", "examples": [{"sentence": "Hurriedly left.", "translation": "서둘러 떠났다."}]}]
+    },
+    {
+      "id": "adverbs_sluggishly_546",
+      "word": "sluggishly",
+      "pronunciation": "/ˈslʌɡɪʃli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "느릿느릿", "examples": [{"sentence": "Sluggishly moving.", "translation": "느릿느릿 움직이는."}]}]
+    },
+    {
+      "id": "adverbs_leisurely_547",
+      "word": "leisurely",
+      "pronunciation": "/ˈliːʒərli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "여유롭게", "examples": [{"sentence": "Leisurely strolled.", "translation": "여유롭게 산책했다."}]}]
+    },
+    {
+      "id": "adverbs_briskly_548",
+      "word": "briskly",
+      "pronunciation": "/ˈbrɪskli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "활발하게", "examples": [{"sentence": "Briskly walked.", "translation": "활발하게 걸었다."}]}]
+    },
+    {
+      "id": "adverbs_sporadically_549",
+      "word": "sporadically",
+      "pronunciation": "/spəˈrædɪkli/",
+      "subcategory": "빈도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "산발적으로", "examples": [{"sentence": "Sporadically attended.", "translation": "산발적으로 참석했다."}]}]
+    },
+    {
+      "id": "adverbs_intermittently_550",
+      "word": "intermittently",
+      "pronunciation": "/ˌɪntərˈmɪtəntli/",
+      "subcategory": "빈도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "간헐적으로", "examples": [{"sentence": "Intermittently working.", "translation": "간헐적으로 작동하는."}]}]
+    },
+    {
+      "id": "adverbs_periodically_551",
+      "word": "periodically",
+      "pronunciation": "/ˌpɪriˈɒdɪkli/",
+      "subcategory": "빈도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "주기적으로", "examples": [{"sentence": "Periodically reviewed.", "translation": "주기적으로 검토되는."}]}]
+    },
+    {
+      "id": "adverbs_routinely_552",
+      "word": "routinely",
+      "pronunciation": "/ruːˈtiːnli/",
+      "subcategory": "빈도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "일상적으로", "examples": [{"sentence": "Routinely checked.", "translation": "일상적으로 확인되는."}]}]
+    },
+    {
+      "id": "adverbs_habitually_553",
+      "word": "habitually",
+      "pronunciation": "/həˈbɪtʃuəli/",
+      "subcategory": "빈도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "습관적으로", "examples": [{"sentence": "Habitually late.", "translation": "습관적으로 늦는."}]}]
+    },
+    {
+      "id": "adverbs_invariably_554",
+      "word": "invariably",
+      "pronunciation": "/ɪnˈveriəbli/",
+      "subcategory": "빈도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "변함없이", "examples": [{"sentence": "Invariably successful.", "translation": "변함없이 성공적인."}]}]
+    },
+    {
+      "id": "adverbs_perpetually_555",
+      "word": "perpetually",
+      "pronunciation": "/pərˈpetʃuəli/",
+      "subcategory": "빈도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "영구적으로", "examples": [{"sentence": "Perpetually busy.", "translation": "영구적으로 바쁜."}]}]
+    },
+    {
+      "id": "adverbs_eternally_556",
+      "word": "eternally",
+      "pronunciation": "/ɪˈtɜːrnəli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "영원히", "examples": [{"sentence": "Eternally grateful.", "translation": "영원히 감사하는."}]}]
+    },
+    {
+      "id": "adverbs_temporarily_557",
+      "word": "temporarily",
+      "pronunciation": "/ˌtempəˈrerəli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "일시적으로", "examples": [{"sentence": "Temporarily closed.", "translation": "일시적으로 닫힌."}]}]
+    },
+    {
+      "id": "adverbs_permanently_558",
+      "word": "permanently",
+      "pronunciation": "/ˈpɜːrmənəntli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "영구적으로", "examples": [{"sentence": "Permanently damaged.", "translation": "영구적으로 손상된."}]}]
+    },
+    {
+      "id": "adverbs_indefinitely_559",
+      "word": "indefinitely",
+      "pronunciation": "/ɪnˈdefɪnətli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "무기한으로", "examples": [{"sentence": "Postponed indefinitely.", "translation": "무기한 연기되었다."}]}]
+    },
+    {
+      "id": "adverbs_prematurely_560",
+      "word": "prematurely",
+      "pronunciation": "/ˌpriːməˈtʃʊrli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "조기에", "examples": [{"sentence": "Prematurely announced.", "translation": "조기에 발표되었다."}]}]
+    },
+    {
+      "id": "adverbs_belatedly_561",
+      "word": "belatedly",
+      "pronunciation": "/bɪˈleɪtɪdli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "뒤늦게", "examples": [{"sentence": "Belatedly realized.", "translation": "뒤늦게 깨달았다."}]}]
+    },
+    {
+      "id": "adverbs_promptly_562",
+      "word": "promptly",
+      "pronunciation": "/ˈprɒmptli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "즉시", "examples": [{"sentence": "Promptly responded.", "translation": "즉시 응답했다."}]}]
+    },
+    {
+      "id": "adverbs_punctually_563",
+      "word": "punctually",
+      "pronunciation": "/ˈpʌŋktʃuəli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "시간 맞춰", "examples": [{"sentence": "Arrived punctually.", "translation": "시간 맞춰 도착했다."}]}]
+    },
+    {
+      "id": "adverbs_simultaneously_564",
+      "word": "simultaneously",
+      "pronunciation": "/ˌsaɪməlˈteɪniəsli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "동시에", "examples": [{"sentence": "Simultaneously released.", "translation": "동시에 출시되었다."}]}]
+    },
+    {
+      "id": "adverbs_concurrently_565",
+      "word": "concurrently",
+      "pronunciation": "/kənˈkɜːrəntli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "동시에", "examples": [{"sentence": "Concurrently running.", "translation": "동시에 실행되는."}]}]
+    },
+    {
+      "id": "adverbs_consecutively_566",
+      "word": "consecutively",
+      "pronunciation": "/kənˈsekjətɪvli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "연속적으로", "examples": [{"sentence": "Won consecutively.", "translation": "연속적으로 우승했다."}]}]
+    },
+    {
+      "id": "adverbs_sequentially_567",
+      "word": "sequentially",
+      "pronunciation": "/sɪˈkwenʃəli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "순차적으로", "examples": [{"sentence": "Processed sequentially.", "translation": "순차적으로 처리되었다."}]}]
+    },
+    {
+      "id": "adverbs_alternately_568",
+      "word": "alternately",
+      "pronunciation": "/ˈɔːltərnətli/",
+      "subcategory": "시간 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "번갈아", "examples": [{"sentence": "Alternately hot and cold.", "translation": "번갈아 덥고 춥다."}]}]
+    },
+    {
+      "id": "adverbs_correspondingly_569",
+      "word": "correspondingly",
+      "pronunciation": "/ˌkɔːrəˈspɒndɪŋli/",
+      "subcategory": "연결 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "그에 상응하여", "examples": [{"sentence": "Prices rose correspondingly.", "translation": "가격이 그에 상응하여 올랐다."}]}]
+    },
+    {
+      "id": "adverbs_accordingly_570",
+      "word": "accordingly",
+      "pronunciation": "/əˈkɔːrdɪŋli/",
+      "subcategory": "연결 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "따라서", "examples": [{"sentence": "Act accordingly.", "translation": "그에 따라 행동해라."}]}]
+    },
+    {
+      "id": "adverbs_consequently_571",
+      "word": "consequently",
+      "pronunciation": "/ˈkɒnsɪkwəntli/",
+      "subcategory": "연결 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "결과적으로", "examples": [{"sentence": "Consequently failed.", "translation": "결과적으로 실패했다."}]}]
+    },
+    {
+      "id": "adverbs_subsequently_572",
+      "word": "subsequently",
+      "pronunciation": "/ˈsʌbsɪkwəntli/",
+      "subcategory": "연결 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "그 후에", "examples": [{"sentence": "Subsequently discovered.", "translation": "그 후에 발견되었다."}]}]
+    },
+    {
+      "id": "adverbs_nonetheless_573",
+      "word": "nonetheless",
+      "pronunciation": "/ˌnʌnðəˈles/",
+      "subcategory": "연결 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "그럼에도 불구하고", "examples": [{"sentence": "Nonetheless continued.", "translation": "그럼에도 불구하고 계속했다."}]}]
+    },
+    {
+      "id": "adverbs_nevertheless_574",
+      "word": "nevertheless",
+      "pronunciation": "/ˌnevərðəˈles/",
+      "subcategory": "연결 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "그럼에도 불구하고", "examples": [{"sentence": "Nevertheless proceeded.", "translation": "그럼에도 불구하고 진행했다."}]}]
+    },
+    {
+      "id": "adverbs_conversely_575",
+      "word": "conversely",
+      "pronunciation": "/ˈkɒnvɜːrsli/",
+      "subcategory": "연결 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "반대로", "examples": [{"sentence": "Conversely, it could help.", "translation": "반대로, 도움이 될 수 있다."}]}]
+    },
+    {
+      "id": "adverbs_contrarily_576",
+      "word": "contrarily",
+      "pronunciation": "/ˈkɒntrərɪli/",
+      "subcategory": "연결 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "반대로", "examples": [{"sentence": "Contrarily behaved.", "translation": "반대로 행동했다."}]}]
+    },
+    {
+      "id": "adverbs_alternatively_577",
+      "word": "alternatively",
+      "pronunciation": "/ɔːlˈtɜːrnətɪvli/",
+      "subcategory": "연결 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "대안으로", "examples": [{"sentence": "Alternatively, try this.", "translation": "대안으로, 이것을 시도해 보세요."}]}]
+    },
+    {
+      "id": "adverbs_additionally_578",
+      "word": "additionally",
+      "pronunciation": "/əˈdɪʃənəli/",
+      "subcategory": "연결 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "추가로", "examples": [{"sentence": "Additionally, we need.", "translation": "추가로, 우리는 필요하다."}]}]
+    },
+    {
+      "id": "adverbs_furthermore_579",
+      "word": "furthermore",
+      "pronunciation": "/ˌfɜːrðərˈmɔːr/",
+      "subcategory": "연결 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "게다가", "examples": [{"sentence": "Furthermore, it's expensive.", "translation": "게다가, 그것은 비싸다."}]}]
+    },
+    {
+      "id": "adverbs_moreover_580",
+      "word": "moreover",
+      "pronunciation": "/mɔːrˈoʊvər/",
+      "subcategory": "연결 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "게다가", "examples": [{"sentence": "Moreover, it's unsafe.", "translation": "게다가, 그것은 안전하지 않다."}]}]
+    },
+    {
+      "id": "adverbs_likewise_581",
+      "word": "likewise",
+      "pronunciation": "/ˈlaɪkwaɪz/",
+      "subcategory": "연결 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "마찬가지로", "examples": [{"sentence": "Likewise, she agreed.", "translation": "마찬가지로, 그녀도 동의했다."}]}]
+    },
+    {
+      "id": "adverbs_similarly_582",
+      "word": "similarly",
+      "pronunciation": "/ˈsɪmɪlərli/",
+      "subcategory": "연결 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "마찬가지로", "examples": [{"sentence": "Similarly structured.", "translation": "마찬가지로 구조화된."}]}]
+    },
+    {
+      "id": "adverbs_comparatively_583",
+      "word": "comparatively",
+      "pronunciation": "/kəmˈpærətɪvli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "비교적", "examples": [{"sentence": "Comparatively easy.", "translation": "비교적 쉬운."}]}]
+    },
+    {
+      "id": "adverbs_relatively_584",
+      "word": "relatively",
+      "pronunciation": "/ˈrelətɪvli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "상대적으로", "examples": [{"sentence": "Relatively cheap.", "translation": "상대적으로 싼."}]}]
+    },
+    {
+      "id": "adverbs_increasingly_585",
+      "word": "increasingly",
+      "pronunciation": "/ɪnˈkriːsɪŋli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "점점 더", "examples": [{"sentence": "Increasingly popular.", "translation": "점점 더 인기있는."}]}]
+    },
+    {
+      "id": "adverbs_decreasingly_586",
+      "word": "decreasingly",
+      "pronunciation": "/dɪˈkriːsɪŋli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "점점 덜", "examples": [{"sentence": "Decreasingly common.", "translation": "점점 덜 흔한."}]}]
+    },
+    {
+      "id": "adverbs_exceedingly_587",
+      "word": "exceedingly",
+      "pronunciation": "/ɪkˈsiːdɪŋli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "극히, 대단히", "examples": [{"sentence": "Exceedingly difficult.", "translation": "극히 어려운."}]}]
+    },
+    {
+      "id": "adverbs_uncommonly_588",
+      "word": "uncommonly",
+      "pronunciation": "/ʌnˈkɒmənli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "드물게, 유난히", "examples": [{"sentence": "Uncommonly beautiful.", "translation": "유난히 아름다운."}]}]
+    },
+    {
+      "id": "adverbs_unusually_589",
+      "word": "unusually",
+      "pronunciation": "/ʌnˈjuːʒuəli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "유난히", "examples": [{"sentence": "Unusually cold.", "translation": "유난히 추운."}]}]
+    },
+    {
+      "id": "adverbs_exceptionally_590",
+      "word": "exceptionally",
+      "pronunciation": "/ɪkˈsepʃənəli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "예외적으로", "examples": [{"sentence": "Exceptionally talented.", "translation": "예외적으로 재능있는."}]}]
+    },
+    {
+      "id": "adverbs_extraordinarily_591",
+      "word": "extraordinarily",
+      "pronunciation": "/ɪkˈstrɔːrdənərəli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "비범하게", "examples": [{"sentence": "Extraordinarily gifted.", "translation": "비범하게 재능있는."}]}]
+    },
+    {
+      "id": "adverbs_phenomenally_592",
+      "word": "phenomenally",
+      "pronunciation": "/fɪˈnɒmɪnəli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "경이적으로", "examples": [{"sentence": "Phenomenally successful.", "translation": "경이적으로 성공한."}]}]
+    },
+    {
+      "id": "adverbs_spectacularly_593",
+      "word": "spectacularly",
+      "pronunciation": "/spekˈtækjələrli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "장관으로", "examples": [{"sentence": "Spectacularly failed.", "translation": "대실패했다."}]}]
+    },
+    {
+      "id": "adverbs_magnificently_594",
+      "word": "magnificently",
+      "pronunciation": "/mæɡˈnɪfɪsəntli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "훌륭하게", "examples": [{"sentence": "Magnificently performed.", "translation": "훌륭하게 수행했다."}]}]
+    },
+    {
+      "id": "adverbs_superbly_595",
+      "word": "superbly",
+      "pronunciation": "/suːˈpɜːrbli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "훌륭하게", "examples": [{"sentence": "Superbly crafted.", "translation": "훌륭하게 만들어진."}]}]
+    },
+    {
+      "id": "adverbs_brilliantly_596",
+      "word": "brilliantly",
+      "pronunciation": "/ˈbrɪliəntli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "훌륭하게", "examples": [{"sentence": "Brilliantly executed.", "translation": "훌륭하게 실행된."}]}]
+    },
+    {
+      "id": "adverbs_marvelously_597",
+      "word": "marvelously",
+      "pronunciation": "/ˈmɑːrvələsli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "놀랍게", "examples": [{"sentence": "Marvelously designed.", "translation": "놀랍게 설계된."}]}]
+    },
+    {
+      "id": "adverbs_wonderfully_598",
+      "word": "wonderfully",
+      "pronunciation": "/ˈwʌndərfəli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "훌륭하게", "examples": [{"sentence": "Wonderfully done.", "translation": "훌륭하게 완료된."}]}]
+    },
+    {
+      "id": "adverbs_beautifully_599",
+      "word": "beautifully",
+      "pronunciation": "/ˈbjuːtɪfəli/",
+      "subcategory": "정도 부사",
+      "meanings": [{"partOfSpeech": "", "meaning": "아름답게", "examples": [{"sentence": "Beautifully written.", "translation": "아름답게 쓰여진."}]}]
     }
   ]
 }

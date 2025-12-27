@@ -1984,6 +1984,5226 @@
           ]
         }
       ]
+    },
+    {
+      "id": "jadv_111",
+      "word": "せっかく",
+      "pronunciation": "せっかく",
+      "subcategory": "상황",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "모처럼",
+          "examples": [
+            {
+              "sentence": "せっかくの休みなのに雨だ。",
+              "translation": "모처럼의 휴일인데 비가 온다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_112",
+      "word": "なかなか",
+      "pronunciation": "なかなか",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "좀처럼, 꽤",
+          "examples": [
+            {
+              "sentence": "なかなか上手だね。",
+              "translation": "꽤 잘하네."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_113",
+      "word": "とにかく",
+      "pronunciation": "とにかく",
+      "subcategory": "강조",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "어쨌든, 아무튼",
+          "examples": [
+            {
+              "sentence": "とにかくやってみよう。",
+              "translation": "어쨌든 해보자."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_114",
+      "word": "結局",
+      "pronunciation": "けっきょく",
+      "subcategory": "결과",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "결국",
+          "examples": [
+            {
+              "sentence": "結局何もしなかった。",
+              "translation": "결국 아무것도 하지 않았다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_115",
+      "word": "当然",
+      "pronunciation": "とうぜん",
+      "subcategory": "확인",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "당연히",
+          "examples": [
+            {
+              "sentence": "当然知っている。",
+              "translation": "당연히 알고 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_116",
+      "word": "普通",
+      "pronunciation": "ふつう",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "보통, 일반적으로",
+          "examples": [
+            {
+              "sentence": "普通はそうしない。",
+              "translation": "보통은 그렇게 하지 않는다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_117",
+      "word": "大体",
+      "pronunciation": "だいたい",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "대체로, 대략",
+          "examples": [
+            {
+              "sentence": "大体わかった。",
+              "translation": "대체로 알겠다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_118",
+      "word": "直接",
+      "pronunciation": "ちょくせつ",
+      "subcategory": "방식",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "직접",
+          "examples": [
+            {
+              "sentence": "直接会って話す。",
+              "translation": "직접 만나서 이야기한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_119",
+      "word": "間接的に",
+      "pronunciation": "かんせつてきに",
+      "subcategory": "방식",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "간접적으로",
+          "examples": [
+            {
+              "sentence": "間接的に聞いた。",
+              "translation": "간접적으로 들었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_120",
+      "word": "自然に",
+      "pronunciation": "しぜんに",
+      "subcategory": "방식",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "자연스럽게",
+          "examples": [
+            {
+              "sentence": "自然に話せるようになった。",
+              "translation": "자연스럽게 말할 수 있게 되었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_121",
+      "word": "正確に",
+      "pronunciation": "せいかくに",
+      "subcategory": "방식",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "정확히",
+          "examples": [
+            {
+              "sentence": "正確に言うと。",
+              "translation": "정확히 말하자면."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_122",
+      "word": "簡単に",
+      "pronunciation": "かんたんに",
+      "subcategory": "방식",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "간단히",
+          "examples": [
+            {
+              "sentence": "簡単に説明する。",
+              "translation": "간단히 설명한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_123",
+      "word": "丁寧に",
+      "pronunciation": "ていねいに",
+      "subcategory": "방식",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "정중히, 꼼꼼히",
+          "examples": [
+            {
+              "sentence": "丁寧に教えてくれた。",
+              "translation": "정중하게 가르쳐 주었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_124",
+      "word": "一生懸命",
+      "pronunciation": "いっしょうけんめい",
+      "subcategory": "방식",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "열심히",
+          "examples": [
+            {
+              "sentence": "一生懸命勉強した。",
+              "translation": "열심히 공부했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_125",
+      "word": "少なくとも",
+      "pronunciation": "すくなくとも",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "적어도",
+          "examples": [
+            {
+              "sentence": "少なくとも三日かかる。",
+              "translation": "적어도 3일 걸린다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_126",
+      "word": "せめて",
+      "pronunciation": "せめて",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "적어도, 기왕이면",
+          "examples": [
+            {
+              "sentence": "せめて電話してほしい。",
+              "translation": "적어도 전화해 줬으면 좋겠다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_127",
+      "word": "たとえ",
+      "pronunciation": "たとえ",
+      "subcategory": "조건",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "설령, 가령",
+          "examples": [
+            {
+              "sentence": "たとえ雨でも行く。",
+              "translation": "설령 비가 와도 간다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_128",
+      "word": "もし",
+      "pronunciation": "もし",
+      "subcategory": "조건",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "만약",
+          "examples": [
+            {
+              "sentence": "もし時間があれば。",
+              "translation": "만약 시간이 있다면."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_129",
+      "word": "万が一",
+      "pronunciation": "まんがいち",
+      "subcategory": "조건",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "만약의 경우",
+          "examples": [
+            {
+              "sentence": "万が一に備える。",
+              "translation": "만약의 경우에 대비한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_130",
+      "word": "仮に",
+      "pronunciation": "かりに",
+      "subcategory": "조건",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "가령, 만일",
+          "examples": [
+            {
+              "sentence": "仮に失敗しても。",
+              "translation": "가령 실패해도."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_131",
+      "word": "そろそろ",
+      "pronunciation": "そろそろ",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "슬슬, 이제 곧",
+          "examples": [
+            {
+              "sentence": "そろそろ行かなきゃ。",
+              "translation": "슬슬 가야겠다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_132",
+      "word": "いよいよ",
+      "pronunciation": "いよいよ",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "드디어, 마침내",
+          "examples": [
+            {
+              "sentence": "いよいよ明日だ。",
+              "translation": "드디어 내일이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_133",
+      "word": "しばらく",
+      "pronunciation": "しばらく",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "잠시, 한동안",
+          "examples": [
+            {
+              "sentence": "しばらくお待ちください。",
+              "translation": "잠시 기다려 주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_134",
+      "word": "久しぶりに",
+      "pronunciation": "ひさしぶりに",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "오랜만에",
+          "examples": [
+            {
+              "sentence": "久しぶりに会った。",
+              "translation": "오랜만에 만났다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_135",
+      "word": "ずっと",
+      "pronunciation": "ずっと",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "계속, 훨씬",
+          "examples": [
+            {
+              "sentence": "ずっと待っていた。",
+              "translation": "계속 기다리고 있었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_136",
+      "word": "常に",
+      "pronunciation": "つねに",
+      "subcategory": "빈도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "항상, 늘",
+          "examples": [
+            {
+              "sentence": "常に笑顔でいる。",
+              "translation": "항상 웃는 얼굴이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_137",
+      "word": "永遠に",
+      "pronunciation": "えいえんに",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "영원히",
+          "examples": [
+            {
+              "sentence": "永遠に忘れない。",
+              "translation": "영원히 잊지 않을게."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_138",
+      "word": "同時に",
+      "pronunciation": "どうじに",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "동시에",
+          "examples": [
+            {
+              "sentence": "同時に到着した。",
+              "translation": "동시에 도착했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_139",
+      "word": "途中で",
+      "pronunciation": "とちゅうで",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "도중에",
+          "examples": [
+            {
+              "sentence": "途中で帰った。",
+              "translation": "도중에 돌아갔다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_140",
+      "word": "ぎりぎり",
+      "pronunciation": "ぎりぎり",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "빠듯하게, 겨우",
+          "examples": [
+            {
+              "sentence": "ぎりぎり間に合った。",
+              "translation": "겨우 제시간에 맞았다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_141",
+      "word": "完全に",
+      "pronunciation": "かんぜんに",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "완전히",
+          "examples": [
+            {
+              "sentence": "完全に忘れた。",
+              "translation": "완전히 잊었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_142",
+      "word": "十分に",
+      "pronunciation": "じゅうぶんに",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "충분히",
+          "examples": [
+            {
+              "sentence": "十分に休んだ。",
+              "translation": "충분히 쉬었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_143",
+      "word": "多少",
+      "pronunciation": "たしょう",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "다소, 어느 정도",
+          "examples": [
+            {
+              "sentence": "多少難しい。",
+              "translation": "다소 어렵다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_144",
+      "word": "圧倒的に",
+      "pronunciation": "あっとうてきに",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "압도적으로",
+          "examples": [
+            {
+              "sentence": "圧倒的に強い。",
+              "translation": "압도적으로 강하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_145",
+      "word": "極めて",
+      "pronunciation": "きわめて",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "극히, 매우",
+          "examples": [
+            {
+              "sentence": "極めて重要だ。",
+              "translation": "극히 중요하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_146",
+      "word": "比較的",
+      "pronunciation": "ひかくてき",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "비교적",
+          "examples": [
+            {
+              "sentence": "比較的安い。",
+              "translation": "비교적 싸다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_147",
+      "word": "かえって",
+      "pronunciation": "かえって",
+      "subcategory": "비교",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "오히려, 도리어",
+          "examples": [
+            {
+              "sentence": "かえって悪くなった。",
+              "translation": "오히려 나빠졌다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_148",
+      "word": "一層",
+      "pronunciation": "いっそう",
+      "subcategory": "비교",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "한층 더",
+          "examples": [
+            {
+              "sentence": "一層頑張る。",
+              "translation": "한층 더 힘내다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_149",
+      "word": "逆に",
+      "pronunciation": "ぎゃくに",
+      "subcategory": "비교",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "반대로, 거꾸로",
+          "examples": [
+            {
+              "sentence": "逆に考えると。",
+              "translation": "반대로 생각하면."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_150",
+      "word": "同様に",
+      "pronunciation": "どうように",
+      "subcategory": "비교",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "마찬가지로",
+          "examples": [
+            {
+              "sentence": "同様に扱う。",
+              "translation": "마찬가지로 다룬다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_151",
+      "word": "のんびり",
+      "pronunciation": "のんびり",
+      "subcategory": "방식",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "느긋하게",
+          "examples": [
+            {
+              "sentence": "のんびり過ごす。",
+              "translation": "느긋하게 지내다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_152",
+      "word": "ぐっすり",
+      "pronunciation": "ぐっすり",
+      "subcategory": "방식",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "푹",
+          "examples": [
+            {
+              "sentence": "ぐっすり眠った。",
+              "translation": "푹 잤다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_153",
+      "word": "ぴったり",
+      "pronunciation": "ぴったり",
+      "subcategory": "방식",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "딱, 꼭 맞게",
+          "examples": [
+            {
+              "sentence": "サイズがぴったりだ。",
+              "translation": "사이즈가 딱 맞다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_154",
+      "word": "がっかり",
+      "pronunciation": "がっかり",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "실망하여",
+          "examples": [
+            {
+              "sentence": "がっかりした。",
+              "translation": "실망했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_155",
+      "word": "うんざり",
+      "pronunciation": "うんざり",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "진저리나게",
+          "examples": [
+            {
+              "sentence": "うんざりした。",
+              "translation": "진저리가 났다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_156",
+      "word": "すっかり",
+      "pronunciation": "すっかり",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "완전히, 깔끔히",
+          "examples": [
+            {
+              "sentence": "すっかり忘れた。",
+              "translation": "완전히 잊었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_157",
+      "word": "ばっちり",
+      "pronunciation": "ばっちり",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "완벽하게",
+          "examples": [
+            {
+              "sentence": "準備はばっちりだ。",
+              "translation": "준비는 완벽하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_158",
+      "word": "ばらばら",
+      "pronunciation": "ばらばら",
+      "subcategory": "상태",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "따로따로, 뿔뿔이",
+          "examples": [
+            {
+              "sentence": "意見がばらばらだ。",
+              "translation": "의견이 제각각이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_159",
+      "word": "明らかに",
+      "pronunciation": "あきらかに",
+      "subcategory": "확인",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "명백히, 분명히",
+          "examples": [
+            {
+              "sentence": "明らかに間違っている。",
+              "translation": "명백히 틀렸다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_160",
+      "word": "単に",
+      "pronunciation": "たんに",
+      "subcategory": "강조",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "단순히, 그저",
+          "examples": [
+            {
+              "sentence": "単に忘れただけ。",
+              "translation": "단순히 잊었을 뿐이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_161",
+      "word": "先ほど",
+      "pronunciation": "さきほど",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "조금 전에",
+          "examples": [
+            {
+              "sentence": "先ほど電話がありました。",
+              "translation": "조금 전에 전화가 있었습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_162",
+      "word": "今頃",
+      "pronunciation": "いまごろ",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "지금쯤",
+          "examples": [
+            {
+              "sentence": "今頃何をしているかな。",
+              "translation": "지금쯤 뭘 하고 있을까."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_163",
+      "word": "当分",
+      "pronunciation": "とうぶん",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "당분간",
+          "examples": [
+            {
+              "sentence": "当分会えない。",
+              "translation": "당분간 못 만난다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_164",
+      "word": "当面",
+      "pronunciation": "とうめん",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "당면, 당장은",
+          "examples": [
+            {
+              "sentence": "当面の問題だ。",
+              "translation": "당면한 문제다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_165",
+      "word": "暫く",
+      "pronunciation": "しばらく",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "잠시, 한동안",
+          "examples": [
+            {
+              "sentence": "暫くお待ちください。",
+              "translation": "잠시 기다려 주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_166",
+      "word": "直ちに",
+      "pronunciation": "ただちに",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "즉시",
+          "examples": [
+            {
+              "sentence": "直ちに対応します。",
+              "translation": "즉시 대응하겠습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_167",
+      "word": "早速",
+      "pronunciation": "さっそく",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "즉시, 당장",
+          "examples": [
+            {
+              "sentence": "早速始めましょう。",
+              "translation": "당장 시작합시다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_168",
+      "word": "一旦",
+      "pronunciation": "いったん",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "일단, 한번",
+          "examples": [
+            {
+              "sentence": "一旦休憩しよう。",
+              "translation": "일단 휴식하자."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_169",
+      "word": "度々",
+      "pronunciation": "たびたび",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "자주, 여러 번",
+          "examples": [
+            {
+              "sentence": "度々すみません。",
+              "translation": "자주 죄송합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_170",
+      "word": "絶えず",
+      "pronunciation": "たえず",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "끊임없이",
+          "examples": [
+            {
+              "sentence": "絶えず変化する。",
+              "translation": "끊임없이 변화한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_171",
+      "word": "日頃",
+      "pronunciation": "ひごろ",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "평소에",
+          "examples": [
+            {
+              "sentence": "日頃の感謝です。",
+              "translation": "평소의 감사입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_172",
+      "word": "普段",
+      "pronunciation": "ふだん",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "평소에",
+          "examples": [
+            {
+              "sentence": "普段は何をしますか。",
+              "translation": "평소에 뭘 하세요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_173",
+      "word": "近々",
+      "pronunciation": "ちかぢか",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "조만간",
+          "examples": [
+            {
+              "sentence": "近々会いましょう。",
+              "translation": "조만간 만나요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_174",
+      "word": "追って",
+      "pronunciation": "おって",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "추후에",
+          "examples": [
+            {
+              "sentence": "追って連絡します。",
+              "translation": "추후에 연락드립니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_175",
+      "word": "前もって",
+      "pronunciation": "まえもって",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "미리",
+          "examples": [
+            {
+              "sentence": "前もって準備する。",
+              "translation": "미리 준비한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_176",
+      "word": "予め",
+      "pronunciation": "あらかじめ",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "미리",
+          "examples": [
+            {
+              "sentence": "予めご了承ください。",
+              "translation": "미리 양해 부탁드립니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_177",
+      "word": "元々",
+      "pronunciation": "もともと",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "원래",
+          "examples": [
+            {
+              "sentence": "元々そうだった。",
+              "translation": "원래 그랬다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_178",
+      "word": "随分",
+      "pronunciation": "ずいぶん",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "상당히",
+          "examples": [
+            {
+              "sentence": "随分変わったね。",
+              "translation": "상당히 변했네."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_179",
+      "word": "相当",
+      "pronunciation": "そうとう",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "상당히",
+          "examples": [
+            {
+              "sentence": "相当疲れた。",
+              "translation": "상당히 피곤하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_180",
+      "word": "割と",
+      "pronunciation": "わりと",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "비교적",
+          "examples": [
+            {
+              "sentence": "割と簡単だ。",
+              "translation": "비교적 간단하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_181",
+      "word": "やや",
+      "pronunciation": "やや",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "약간",
+          "examples": [
+            {
+              "sentence": "やや遅い。",
+              "translation": "약간 늦다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_182",
+      "word": "僅かに",
+      "pronunciation": "わずかに",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "약간, 조금",
+          "examples": [
+            {
+              "sentence": "僅かに違う。",
+              "translation": "약간 다르다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_183",
+      "word": "若干",
+      "pronunciation": "じゃっかん",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "약간",
+          "examples": [
+            {
+              "sentence": "若干の修正。",
+              "translation": "약간의 수정."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_184",
+      "word": "ほんの",
+      "pronunciation": "ほんの",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "단지, 불과",
+          "examples": [
+            {
+              "sentence": "ほんの少しだ。",
+              "translation": "단지 조금이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_185",
+      "word": "概ね",
+      "pronunciation": "おおむね",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "대체로",
+          "examples": [
+            {
+              "sentence": "概ね良好だ。",
+              "translation": "대체로 양호하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_186",
+      "word": "益々",
+      "pronunciation": "ますます",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "점점 더",
+          "examples": [
+            {
+              "sentence": "益々発展する。",
+              "translation": "점점 더 발전한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_187",
+      "word": "余程",
+      "pronunciation": "よほど",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "상당히",
+          "examples": [
+            {
+              "sentence": "余程疲れたらしい。",
+              "translation": "상당히 피곤한 모양이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_188",
+      "word": "慎重に",
+      "pronunciation": "しんちょうに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "신중히",
+          "examples": [
+            {
+              "sentence": "慎重に判断する。",
+              "translation": "신중히 판단한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_189",
+      "word": "確実に",
+      "pronunciation": "かくじつに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "확실히",
+          "examples": [
+            {
+              "sentence": "確実に届ける。",
+              "translation": "확실히 전달한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_190",
+      "word": "適切に",
+      "pronunciation": "てきせつに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "적절히",
+          "examples": [
+            {
+              "sentence": "適切に対応する。",
+              "translation": "적절히 대응한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_191",
+      "word": "円滑に",
+      "pronunciation": "えんかつに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "원활히",
+          "examples": [
+            {
+              "sentence": "円滑に進める。",
+              "translation": "원활히 진행한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_192",
+      "word": "順調に",
+      "pronunciation": "じゅんちょうに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "순조롭게",
+          "examples": [
+            {
+              "sentence": "順調に進んでいる。",
+              "translation": "순조롭게 진행되고 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_193",
+      "word": "着実に",
+      "pronunciation": "ちゃくじつに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "착실히",
+          "examples": [
+            {
+              "sentence": "着実に成長する。",
+              "translation": "착실히 성장한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_194",
+      "word": "急速に",
+      "pronunciation": "きゅうそくに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "급속히",
+          "examples": [
+            {
+              "sentence": "急速に発展する。",
+              "translation": "급속히 발전한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_195",
+      "word": "次第に",
+      "pronunciation": "しだいに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "점차",
+          "examples": [
+            {
+              "sentence": "次第に分かってきた。",
+              "translation": "점차 알게 되었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_196",
+      "word": "段々",
+      "pronunciation": "だんだん",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "점점",
+          "examples": [
+            {
+              "sentence": "段々寒くなる。",
+              "translation": "점점 추워진다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_197",
+      "word": "密かに",
+      "pronunciation": "ひそかに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "몰래",
+          "examples": [
+            {
+              "sentence": "密かに計画する。",
+              "translation": "몰래 계획한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_198",
+      "word": "堂々と",
+      "pronunciation": "どうどうと",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "당당히",
+          "examples": [
+            {
+              "sentence": "堂々と発表する。",
+              "translation": "당당히 발표한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_199",
+      "word": "素直に",
+      "pronunciation": "すなおに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "솔직히",
+          "examples": [
+            {
+              "sentence": "素直に謝る。",
+              "translation": "솔직히 사과한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_200",
+      "word": "率直に",
+      "pronunciation": "そっちょくに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "솔직히",
+          "examples": [
+            {
+              "sentence": "率直に言う。",
+              "translation": "솔직히 말한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_201",
+      "word": "正直に",
+      "pronunciation": "しょうじきに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "정직하게",
+          "examples": [
+            {
+              "sentence": "正直に答える。",
+              "translation": "정직하게 대답한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_202",
+      "word": "真剣に",
+      "pronunciation": "しんけんに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "진지하게",
+          "examples": [
+            {
+              "sentence": "真剣に考える。",
+              "translation": "진지하게 생각한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_203",
+      "word": "必死に",
+      "pronunciation": "ひっしに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "필사적으로",
+          "examples": [
+            {
+              "sentence": "必死に働く。",
+              "translation": "필사적으로 일한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_204",
+      "word": "懸命に",
+      "pronunciation": "けんめいに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "열심히",
+          "examples": [
+            {
+              "sentence": "懸命に努力する。",
+              "translation": "열심히 노력한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_205",
+      "word": "精一杯",
+      "pronunciation": "せいいっぱい",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "최선을 다해",
+          "examples": [
+            {
+              "sentence": "精一杯頑張る。",
+              "translation": "최선을 다해 노력한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_206",
+      "word": "黙々と",
+      "pronunciation": "もくもくと",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "묵묵히",
+          "examples": [
+            {
+              "sentence": "黙々と作業する。",
+              "translation": "묵묵히 작업한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_207",
+      "word": "淡々と",
+      "pronunciation": "たんたんと",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "담담히",
+          "examples": [
+            {
+              "sentence": "淡々と話す。",
+              "translation": "담담히 말한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_208",
+      "word": "坦々と",
+      "pronunciation": "たんたんと",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "평탄하게",
+          "examples": [
+            {
+              "sentence": "坦々と進む。",
+              "translation": "평탄하게 진행된다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_209",
+      "word": "粛々と",
+      "pronunciation": "しゅくしゅくと",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "엄숙히",
+          "examples": [
+            {
+              "sentence": "粛々と進める。",
+              "translation": "엄숙히 진행한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_210",
+      "word": "厳密に",
+      "pronunciation": "げんみつに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "엄밀히",
+          "examples": [
+            {
+              "sentence": "厳密に言えば。",
+              "translation": "엄밀히 말하면."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_211",
+      "word": "厳格に",
+      "pronunciation": "げんかくに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "엄격히",
+          "examples": [
+            {
+              "sentence": "厳格に管理する。",
+              "translation": "엄격히 관리한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_212",
+      "word": "柔軟に",
+      "pronunciation": "じゅうなんに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "유연하게",
+          "examples": [
+            {
+              "sentence": "柔軟に対応する。",
+              "translation": "유연하게 대응한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_213",
+      "word": "自由に",
+      "pronunciation": "じゆうに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "자유롭게",
+          "examples": [
+            {
+              "sentence": "自由に使ってください。",
+              "translation": "자유롭게 사용하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_214",
+      "word": "嬉しそうに",
+      "pronunciation": "うれしそうに",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "기쁜 듯이",
+          "examples": [
+            {
+              "sentence": "嬉しそうに笑う。",
+              "translation": "기쁜 듯이 웃는다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_215",
+      "word": "悲しそうに",
+      "pronunciation": "かなしそうに",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "슬픈 듯이",
+          "examples": [
+            {
+              "sentence": "悲しそうに泣く。",
+              "translation": "슬픈 듯이 운다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_216",
+      "word": "楽しそうに",
+      "pronunciation": "たのしそうに",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "즐거운 듯이",
+          "examples": [
+            {
+              "sentence": "楽しそうに遊ぶ。",
+              "translation": "즐거운 듯이 논다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_217",
+      "word": "寂しそうに",
+      "pronunciation": "さびしそうに",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "외로운 듯이",
+          "examples": [
+            {
+              "sentence": "寂しそうに見える。",
+              "translation": "외로워 보인다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_218",
+      "word": "恥ずかしそうに",
+      "pronunciation": "はずかしそうに",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "부끄러운 듯이",
+          "examples": [
+            {
+              "sentence": "恥ずかしそうに俯く。",
+              "translation": "부끄러운 듯이 고개를 숙인다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_219",
+      "word": "不安そうに",
+      "pronunciation": "ふあんそうに",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "불안한 듯이",
+          "examples": [
+            {
+              "sentence": "不安そうに待つ。",
+              "translation": "불안한 듯이 기다린다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_220",
+      "word": "心配そうに",
+      "pronunciation": "しんぱいそうに",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "걱정스러운 듯이",
+          "examples": [
+            {
+              "sentence": "心配そうに見る。",
+              "translation": "걱정스러운 듯이 본다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_221",
+      "word": "満足そうに",
+      "pronunciation": "まんぞくそうに",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "만족스러운 듯이",
+          "examples": [
+            {
+              "sentence": "満足そうに頷く。",
+              "translation": "만족스러운 듯이 끄덕인다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_222",
+      "word": "得意げに",
+      "pronunciation": "とくいげに",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "득의양양하게",
+          "examples": [
+            {
+              "sentence": "得意げに話す。",
+              "translation": "득의양양하게 말한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_223",
+      "word": "誇らしげに",
+      "pronunciation": "ほこらしげに",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "자랑스럽게",
+          "examples": [
+            {
+              "sentence": "誇らしげに見せる。",
+              "translation": "자랑스럽게 보여준다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_224",
+      "word": "穏やかに",
+      "pronunciation": "おだやかに",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "온화하게",
+          "examples": [
+            {
+              "sentence": "穏やかに話す。",
+              "translation": "온화하게 말한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_225",
+      "word": "冷静に",
+      "pronunciation": "れいせいに",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "냉정하게",
+          "examples": [
+            {
+              "sentence": "冷静に判断する。",
+              "translation": "냉정하게 판단한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_226",
+      "word": "熱心に",
+      "pronunciation": "ねっしんに",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "열심히",
+          "examples": [
+            {
+              "sentence": "熱心に聞く。",
+              "translation": "열심히 듣는다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_227",
+      "word": "積極的に",
+      "pronunciation": "せっきょくてきに",
+      "subcategory": "태도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "적극적으로",
+          "examples": [
+            {
+              "sentence": "積極的に参加する。",
+              "translation": "적극적으로 참가한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_228",
+      "word": "消極的に",
+      "pronunciation": "しょうきょくてきに",
+      "subcategory": "태도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "소극적으로",
+          "examples": [
+            {
+              "sentence": "消極的に対応する。",
+              "translation": "소극적으로 대응한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_229",
+      "word": "意欲的に",
+      "pronunciation": "いよくてきに",
+      "subcategory": "태도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "의욕적으로",
+          "examples": [
+            {
+              "sentence": "意欲的に取り組む。",
+              "translation": "의욕적으로 임한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_230",
+      "word": "主体的に",
+      "pronunciation": "しゅたいてきに",
+      "subcategory": "태도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "주체적으로",
+          "examples": [
+            {
+              "sentence": "主体的に行動する。",
+              "translation": "주체적으로 행동한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_231",
+      "word": "能動的に",
+      "pronunciation": "のうどうてきに",
+      "subcategory": "태도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "능동적으로",
+          "examples": [
+            {
+              "sentence": "能動的に学ぶ。",
+              "translation": "능동적으로 배운다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_232",
+      "word": "受動的に",
+      "pronunciation": "じゅどうてきに",
+      "subcategory": "태도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "수동적으로",
+          "examples": [
+            {
+              "sentence": "受動的に待つ。",
+              "translation": "수동적으로 기다린다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_233",
+      "word": "誠実に",
+      "pronunciation": "せいじつに",
+      "subcategory": "태도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "성실하게",
+          "examples": [
+            {
+              "sentence": "誠実に対応する。",
+              "translation": "성실하게 대응한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_234",
+      "word": "恐らく",
+      "pronunciation": "おそらく",
+      "subcategory": "추측",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "아마",
+          "examples": [
+            {
+              "sentence": "恐らく来るだろう。",
+              "translation": "아마 올 것이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_235",
+      "word": "間違いなく",
+      "pronunciation": "まちがいなく",
+      "subcategory": "확신",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "틀림없이",
+          "examples": [
+            {
+              "sentence": "間違いなく本物だ。",
+              "translation": "틀림없이 진품이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_236",
+      "word": "疑いなく",
+      "pronunciation": "うたがいなく",
+      "subcategory": "확신",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "의심없이",
+          "examples": [
+            {
+              "sentence": "疑いなく正しい。",
+              "translation": "의심없이 옳다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_237",
+      "word": "無論",
+      "pronunciation": "むろん",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "물론",
+          "examples": [
+            {
+              "sentence": "無論同意する。",
+              "translation": "물론 동의한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_238",
+      "word": "言うまでもなく",
+      "pronunciation": "いうまでもなく",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "말할 필요도 없이",
+          "examples": [
+            {
+              "sentence": "言うまでもなく大切だ。",
+              "translation": "말할 필요도 없이 중요하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_239",
+      "word": "一般的に",
+      "pronunciation": "いっぱんてきに",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "일반적으로",
+          "examples": [
+            {
+              "sentence": "一般的にそう言われる。",
+              "translation": "일반적으로 그렇게 말한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_240",
+      "word": "通常",
+      "pronunciation": "つうじょう",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "통상",
+          "examples": [
+            {
+              "sentence": "通常は9時から。",
+              "translation": "통상 9시부터."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_241",
+      "word": "原則として",
+      "pronunciation": "げんそくとして",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "원칙적으로",
+          "examples": [
+            {
+              "sentence": "原則として禁止だ。",
+              "translation": "원칙적으로 금지다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_242",
+      "word": "基本的に",
+      "pronunciation": "きほんてきに",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "기본적으로",
+          "examples": [
+            {
+              "sentence": "基本的に賛成だ。",
+              "translation": "기본적으로 찬성이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_243",
+      "word": "本来",
+      "pronunciation": "ほんらい",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "본래",
+          "examples": [
+            {
+              "sentence": "本来の目的は。",
+              "translation": "본래 목적은."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_244",
+      "word": "本質的に",
+      "pronunciation": "ほんしつてきに",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "본질적으로",
+          "examples": [
+            {
+              "sentence": "本質的に同じだ。",
+              "translation": "본질적으로 같다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_245",
+      "word": "要するに",
+      "pronunciation": "ようするに",
+      "subcategory": "결론",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "요컨대",
+          "examples": [
+            {
+              "sentence": "要するに無理だ。",
+              "translation": "요컨대 무리다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_246",
+      "word": "果たして",
+      "pronunciation": "はたして",
+      "subcategory": "의문",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "과연",
+          "examples": [
+            {
+              "sentence": "果たして本当か。",
+              "translation": "과연 사실인가."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_247",
+      "word": "一体",
+      "pronunciation": "いったい",
+      "subcategory": "의문",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "도대체",
+          "examples": [
+            {
+              "sentence": "一体何があった。",
+              "translation": "도대체 무슨 일이야."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_248",
+      "word": "何故",
+      "pronunciation": "なぜ",
+      "subcategory": "의문",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "왜",
+          "examples": [
+            {
+              "sentence": "何故そう思う。",
+              "translation": "왜 그렇게 생각해."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_249",
+      "word": "如何に",
+      "pronunciation": "いかに",
+      "subcategory": "의문",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "어떻게",
+          "examples": [
+            {
+              "sentence": "如何にすべきか。",
+              "translation": "어떻게 해야 하는가."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_250",
+      "word": "一切",
+      "pronunciation": "いっさい",
+      "subcategory": "부정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "일절",
+          "examples": [
+            {
+              "sentence": "一切関係ない。",
+              "translation": "일절 관계없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_251",
+      "word": "少しも",
+      "pronunciation": "すこしも",
+      "subcategory": "부정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "조금도",
+          "examples": [
+            {
+              "sentence": "少しも変わらない。",
+              "translation": "조금도 변하지 않는다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_252",
+      "word": "従って",
+      "pronunciation": "したがって",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "따라서",
+          "examples": [
+            {
+              "sentence": "従って変更する。",
+              "translation": "따라서 변경한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_253",
+      "word": "故に",
+      "pronunciation": "ゆえに",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "그러므로",
+          "examples": [
+            {
+              "sentence": "故に重要だ。",
+              "translation": "그러므로 중요하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_254",
+      "word": "そのため",
+      "pronunciation": "そのため",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "그래서",
+          "examples": [
+            {
+              "sentence": "そのため遅れた。",
+              "translation": "그래서 늦었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_255",
+      "word": "けれども",
+      "pronunciation": "けれども",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "그렇지만",
+          "examples": [
+            {
+              "sentence": "けれども諦めない。",
+              "translation": "그렇지만 포기하지 않는다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_256",
+      "word": "ただし",
+      "pronunciation": "ただし",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "단",
+          "examples": [
+            {
+              "sentence": "ただし条件がある。",
+              "translation": "단 조건이 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_257",
+      "word": "もっとも",
+      "pronunciation": "もっとも",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "물론",
+          "examples": [
+            {
+              "sentence": "もっとも例外もある。",
+              "translation": "물론 예외도 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_258",
+      "word": "一方",
+      "pronunciation": "いっぽう",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "한편",
+          "examples": [
+            {
+              "sentence": "一方で問題もある。",
+              "translation": "한편 문제도 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_259",
+      "word": "加えて",
+      "pronunciation": "くわえて",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "게다가",
+          "examples": [
+            {
+              "sentence": "加えて費用もかかる。",
+              "translation": "게다가 비용도 든다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_260",
+      "word": "その上",
+      "pronunciation": "そのうえ",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "게다가",
+          "examples": [
+            {
+              "sentence": "その上時間もない。",
+              "translation": "게다가 시간도 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_261",
+      "word": "ところで",
+      "pronunciation": "ところで",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "그런데",
+          "examples": [
+            {
+              "sentence": "ところで話は変わるが。",
+              "translation": "그런데 화제를 바꾸면."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_262",
+      "word": "因みに",
+      "pronunciation": "ちなみに",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "참고로",
+          "examples": [
+            {
+              "sentence": "因みに私は反対だ。",
+              "translation": "참고로 나는 반대다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_263",
+      "word": "すなわち",
+      "pronunciation": "すなわち",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "즉",
+          "examples": [
+            {
+              "sentence": "すなわち不可能だ。",
+              "translation": "즉 불가능하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_264",
+      "word": "言い換えれば",
+      "pronunciation": "いいかえれば",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "바꿔 말하면",
+          "examples": [
+            {
+              "sentence": "言い換えれば失敗だ。",
+              "translation": "바꿔 말하면 실패다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_265",
+      "word": "具体的に",
+      "pronunciation": "ぐたいてきに",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "구체적으로",
+          "examples": [
+            {
+              "sentence": "具体的に言うと。",
+              "translation": "구체적으로 말하면."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_265",
+      "word": "今にも",
+      "pronunciation": "いまにも",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "금방이라도, 당장이라도",
+          "examples": [
+            {
+              "sentence": "今にも雨が降りそうだ。",
+              "translation": "금방이라도 비가 올 것 같다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_266",
+      "word": "今のところ",
+      "pronunciation": "いまのところ",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "지금으로서는, 현재로서는",
+          "examples": [
+            {
+              "sentence": "今のところ問題はない。",
+              "translation": "지금으로서는 문제없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_267",
+      "word": "久々に",
+      "pronunciation": "ひさびさに",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "오랜만에",
+          "examples": [
+            {
+              "sentence": "久々に故郷に帰った。",
+              "translation": "오랜만에 고향에 돌아갔다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_268",
+      "word": "年中",
+      "pronunciation": "ねんじゅう",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "일 년 내내, 항상",
+          "examples": [
+            {
+              "sentence": "彼は年中働いている。",
+              "translation": "그는 일 년 내내 일하고 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_269",
+      "word": "終日",
+      "pronunciation": "しゅうじつ",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "종일, 하루 종일",
+          "examples": [
+            {
+              "sentence": "終日雨が降っていた。",
+              "translation": "종일 비가 내리고 있었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_270",
+      "word": "終始",
+      "pronunciation": "しゅうし",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "처음부터 끝까지, 시종일관",
+          "examples": [
+            {
+              "sentence": "彼は終始冷静だった。",
+              "translation": "그는 시종일관 냉정했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_271",
+      "word": "昔から",
+      "pronunciation": "むかしから",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "옛날부터, 예전부터",
+          "examples": [
+            {
+              "sentence": "昔から言われている。",
+              "translation": "예전부터 말해지고 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_272",
+      "word": "以前から",
+      "pronunciation": "いぜんから",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "예전부터, 이전부터",
+          "examples": [
+            {
+              "sentence": "以前から気になっていた。",
+              "translation": "이전부터 신경 쓰이고 있었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_273",
+      "word": "元来",
+      "pronunciation": "がんらい",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "원래, 본래",
+          "examples": [
+            {
+              "sentence": "元来、彼は優しい人だ。",
+              "translation": "원래 그는 친절한 사람이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_274",
+      "word": "後ほど",
+      "pronunciation": "のちほど",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "나중에, 이따가",
+          "examples": [
+            {
+              "sentence": "後ほどご連絡します。",
+              "translation": "나중에 연락드리겠습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_275",
+      "word": "先立って",
+      "pronunciation": "さきだって",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "앞서, 먼저",
+          "examples": [
+            {
+              "sentence": "会議に先立って資料を配布した。",
+              "translation": "회의에 앞서 자료를 배포했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_276",
+      "word": "前以て",
+      "pronunciation": "まえもって",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "미리, 사전에",
+          "examples": [
+            {
+              "sentence": "前以てお知らせします。",
+              "translation": "미리 알려드립니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_277",
+      "word": "折に触れて",
+      "pronunciation": "おりにふれて",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "틈틈이, 기회 있을 때마다",
+          "examples": [
+            {
+              "sentence": "折に触れて思い出す。",
+              "translation": "틈틈이 생각난다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_278",
+      "word": "時折",
+      "pronunciation": "ときおり",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "때때로, 이따금",
+          "examples": [
+            {
+              "sentence": "時折彼女のことを思い出す。",
+              "translation": "때때로 그녀를 생각한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_279",
+      "word": "再三",
+      "pronunciation": "さいさん",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "재삼, 여러 번",
+          "examples": [
+            {
+              "sentence": "再三注意したのに。",
+              "translation": "여러 번 주의했는데."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_280",
+      "word": "極端に",
+      "pronunciation": "きょくたんに",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "극단적으로",
+          "examples": [
+            {
+              "sentence": "極端に言えばそうなる。",
+              "translation": "극단적으로 말하면 그렇게 된다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_281",
+      "word": "著しく",
+      "pronunciation": "いちじるしく",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "현저하게, 두드러지게",
+          "examples": [
+            {
+              "sentence": "成績が著しく向上した。",
+              "translation": "성적이 현저하게 향상되었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_282",
+      "word": "格段に",
+      "pronunciation": "かくだんに",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "격별히, 비교도 안 되게",
+          "examples": [
+            {
+              "sentence": "去年より格段に良くなった。",
+              "translation": "작년보다 비교도 안 되게 좋아졌다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_283",
+      "word": "段違いに",
+      "pronunciation": "だんちがいに",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "비교가 안 되게, 월등히",
+          "examples": [
+            {
+              "sentence": "彼は段違いに速い。",
+              "translation": "그는 비교가 안 되게 빠르다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_284",
+      "word": "桁違いに",
+      "pronunciation": "けたちがいに",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "자릿수가 다르게, 엄청나게",
+          "examples": [
+            {
+              "sentence": "桁違いに金持ちだ。",
+              "translation": "엄청나게 부자다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_285",
+      "word": "遥かに",
+      "pronunciation": "はるかに",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "훨씬, 비교가 안 되게",
+          "examples": [
+            {
+              "sentence": "予想を遥かに超えた。",
+              "translation": "예상을 훨씬 넘었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_286",
+      "word": "断然",
+      "pronunciation": "だんぜん",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "단연, 확실히",
+          "examples": [
+            {
+              "sentence": "断然こちらの方がいい。",
+              "translation": "단연 이쪽이 더 좋다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_287",
+      "word": "俄然",
+      "pronunciation": "がぜん",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "갑자기, 급격히",
+          "examples": [
+            {
+              "sentence": "俄然やる気が出てきた。",
+              "translation": "갑자기 의욕이 생겼다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_288",
+      "word": "より一層",
+      "pronunciation": "よりいっそう",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "더욱 더, 한층 더",
+          "examples": [
+            {
+              "sentence": "より一層頑張ります。",
+              "translation": "더욱 더 열심히 하겠습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_289",
+      "word": "殊更",
+      "pronunciation": "ことさら",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "일부러, 특별히",
+          "examples": [
+            {
+              "sentence": "殊更に強調する必要はない。",
+              "translation": "일부러 강조할 필요는 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_290",
+      "word": "格別",
+      "pronunciation": "かくべつ",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "격별히, 특별히",
+          "examples": [
+            {
+              "sentence": "今日の料理は格別においしい。",
+              "translation": "오늘 요리는 특별히 맛있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_291",
+      "word": "一段と",
+      "pronunciation": "いちだんと",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "한층 더, 더욱",
+          "examples": [
+            {
+              "sentence": "秋になり一段と涼しくなった。",
+              "translation": "가을이 되어 한층 더 시원해졌다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_292",
+      "word": "輪をかけて",
+      "pronunciation": "わをかけて",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "한술 더 떠서",
+          "examples": [
+            {
+              "sentence": "彼女は母親に輪をかけてうるさい。",
+              "translation": "그녀는 어머니보다 한술 더 떠서 시끄럽다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_293",
+      "word": "幾分",
+      "pronunciation": "いくぶん",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "다소, 어느 정도",
+          "examples": [
+            {
+              "sentence": "幾分落ち着いてきた。",
+              "translation": "다소 안정되어 왔다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_294",
+      "word": "辛うじて",
+      "pronunciation": "からうじて",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "가까스로, 겨우",
+          "examples": [
+            {
+              "sentence": "辛うじて合格した。",
+              "translation": "가까스로 합격했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_295",
+      "word": "漸く",
+      "pronunciation": "ようやく",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "겨우, 드디어",
+          "examples": [
+            {
+              "sentence": "漸く目的地に着いた。",
+              "translation": "겨우 목적지에 도착했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_296",
+      "word": "何とか",
+      "pronunciation": "なんとか",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "어떻게든, 겨우",
+          "examples": [
+            {
+              "sentence": "何とか間に合った。",
+              "translation": "어떻게든 시간에 맞췄다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_297",
+      "word": "どうにか",
+      "pronunciation": "どうにか",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "어떻게든, 가까스로",
+          "examples": [
+            {
+              "sentence": "どうにか解決した。",
+              "translation": "어떻게든 해결했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_298",
+      "word": "力一杯",
+      "pronunciation": "ちからいっぱい",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "힘껏, 전력으로",
+          "examples": [
+            {
+              "sentence": "力一杯押した。",
+              "translation": "힘껏 밀었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_299",
+      "word": "全力で",
+      "pronunciation": "ぜんりょくで",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "전력으로, 온 힘을 다해",
+          "examples": [
+            {
+              "sentence": "全力で走った。",
+              "translation": "전력으로 달렸다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_300",
+      "word": "死に物狂いで",
+      "pronunciation": "しにものぐるいで",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "필사적으로, 죽을 각오로",
+          "examples": [
+            {
+              "sentence": "死に物狂いで働いた。",
+              "translation": "필사적으로 일했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_301",
+      "word": "がむしゃらに",
+      "pronunciation": "がむしゃらに",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "무작정, 무턱대고",
+          "examples": [
+            {
+              "sentence": "がむしゃらに走った。",
+              "translation": "무작정 달렸다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_302",
+      "word": "ひたすら",
+      "pronunciation": "ひたすら",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "오로지, 한결같이",
+          "examples": [
+            {
+              "sentence": "ひたすら練習した。",
+              "translation": "오로지 연습했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_303",
+      "word": "もっぱら",
+      "pronunciation": "もっぱら",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "오로지, 주로",
+          "examples": [
+            {
+              "sentence": "もっぱら読書に励んでいる。",
+              "translation": "오로지 독서에 힘쓰고 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_304",
+      "word": "専ら",
+      "pronunciation": "もっぱら",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "오로지, 전적으로",
+          "examples": [
+            {
+              "sentence": "専ら研究に打ち込んでいる。",
+              "translation": "오로지 연구에 몰두하고 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_305",
+      "word": "ただひたすら",
+      "pronunciation": "ただひたすら",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "오직 한결같이",
+          "examples": [
+            {
+              "sentence": "ただひたすら待った。",
+              "translation": "오직 한결같이 기다렸다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_306",
+      "word": "着々と",
+      "pronunciation": "ちゃくちゃくと",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "착착, 차근차근",
+          "examples": [
+            {
+              "sentence": "計画は着々と進んでいる。",
+              "translation": "계획은 착착 진행되고 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_307",
+      "word": "刻々と",
+      "pronunciation": "こくこくと",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "시시각각",
+          "examples": [
+            {
+              "sentence": "状況は刻々と変化している。",
+              "translation": "상황은 시시각각 변화하고 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_308",
+      "word": "じわじわ",
+      "pronunciation": "じわじわ",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "서서히, 슬금슬금",
+          "examples": [
+            {
+              "sentence": "じわじわと痛みが広がった。",
+              "translation": "서서히 통증이 퍼졌다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_309",
+      "word": "ずるずる",
+      "pronunciation": "ずるずる",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "질질, 미적미적",
+          "examples": [
+            {
+              "sentence": "ずるずると延期になった。",
+              "translation": "질질 연기되었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_310",
+      "word": "ずばり",
+      "pronunciation": "ずばり",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "단도직입적으로, 정확히",
+          "examples": [
+            {
+              "sentence": "ずばり言えば失敗だ。",
+              "translation": "단도직입적으로 말하면 실패다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_311",
+      "word": "きっぱり",
+      "pronunciation": "きっぱり",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "단호하게, 딱 잘라",
+          "examples": [
+            {
+              "sentence": "きっぱり断った。",
+              "translation": "단호하게 거절했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_312",
+      "word": "びっしり",
+      "pronunciation": "びっしり",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "빼곡히, 빽빽하게",
+          "examples": [
+            {
+              "sentence": "予定がびっしり詰まっている。",
+              "translation": "예정이 빼곡히 차 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_313",
+      "word": "すっきり",
+      "pronunciation": "すっきり",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "상쾌하게, 깔끔하게",
+          "examples": [
+            {
+              "sentence": "部屋がすっきり片付いた。",
+              "translation": "방이 깔끔하게 정리되었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_314",
+      "word": "嬉々として",
+      "pronunciation": "ききとして",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "기쁜 듯이, 즐거운 듯이",
+          "examples": [
+            {
+              "sentence": "嬉々として出かけた。",
+              "translation": "기쁜 듯이 외출했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_315",
+      "word": "生き生きと",
+      "pronunciation": "いきいきと",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "생기 있게, 활기차게",
+          "examples": [
+            {
+              "sentence": "生き生きと話している。",
+              "translation": "생기 있게 말하고 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_316",
+      "word": "伸び伸びと",
+      "pronunciation": "のびのびと",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "여유롭게, 자유롭게",
+          "examples": [
+            {
+              "sentence": "子供たちが伸び伸びと遊んでいる。",
+              "translation": "아이들이 자유롭게 놀고 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_317",
+      "word": "悠々と",
+      "pronunciation": "ゆうゆうと",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "유유히, 여유롭게",
+          "examples": [
+            {
+              "sentence": "悠々と歩いている。",
+              "translation": "유유히 걷고 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_318",
+      "word": "泰然と",
+      "pronunciation": "たいぜんと",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "태연히, 침착하게",
+          "examples": [
+            {
+              "sentence": "泰然と構えている。",
+              "translation": "태연히 자세를 취하고 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_319",
+      "word": "平然と",
+      "pronunciation": "へいぜんと",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "태연히, 당연하다는 듯이",
+          "examples": [
+            {
+              "sentence": "平然と嘘をつく。",
+              "translation": "태연히 거짓말을 한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_320",
+      "word": "毅然と",
+      "pronunciation": "きぜんと",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "의연하게, 단호하게",
+          "examples": [
+            {
+              "sentence": "毅然とした態度を取った。",
+              "translation": "의연한 태도를 취했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_321",
+      "word": "断固として",
+      "pronunciation": "だんことして",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "단호하게",
+          "examples": [
+            {
+              "sentence": "断固として拒否した。",
+              "translation": "단호하게 거부했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_322",
+      "word": "頑として",
+      "pronunciation": "がんとして",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "완강하게, 끝내",
+          "examples": [
+            {
+              "sentence": "頑として認めなかった。",
+              "translation": "끝내 인정하지 않았다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_323",
+      "word": "渋々",
+      "pronunciation": "しぶしぶ",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "마지못해, 억지로",
+          "examples": [
+            {
+              "sentence": "渋々承諾した。",
+              "translation": "마지못해 승낙했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_324",
+      "word": "嫌々",
+      "pronunciation": "いやいや",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "억지로, 마지못해",
+          "examples": [
+            {
+              "sentence": "嫌々ながら参加した。",
+              "translation": "마지못해 참가했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_325",
+      "word": "仕方なく",
+      "pronunciation": "しかたなく",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "어쩔 수 없이, 할 수 없이",
+          "examples": [
+            {
+              "sentence": "仕方なく引き受けた。",
+              "translation": "어쩔 수 없이 맡았다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_326",
+      "word": "やむを得ず",
+      "pronunciation": "やむをえず",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "부득이, 어쩔 수 없이",
+          "examples": [
+            {
+              "sentence": "やむを得ず中止した。",
+              "translation": "부득이 중지했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_327",
+      "word": "止むなく",
+      "pronunciation": "やむなく",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "어쩔 수 없이, 할 수 없이",
+          "examples": [
+            {
+              "sentence": "止むなく諦めた。",
+              "translation": "어쩔 수 없이 포기했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_328",
+      "word": "気軽に",
+      "pronunciation": "きがるに",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "가볍게, 부담 없이",
+          "examples": [
+            {
+              "sentence": "気軽に声をかけてください。",
+              "translation": "부담 없이 말 걸어주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_329",
+      "word": "遠慮なく",
+      "pronunciation": "えんりょなく",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "사양 없이, 거리낌 없이",
+          "examples": [
+            {
+              "sentence": "遠慮なく食べてください。",
+              "translation": "사양 없이 드세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_330",
+      "word": "あいにく",
+      "pronunciation": "あいにく",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "공교롭게도, 안타깝게도",
+          "examples": [
+            {
+              "sentence": "あいにく雨が降ってきた。",
+              "translation": "공교롭게도 비가 내리기 시작했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_331",
+      "word": "折悪しく",
+      "pronunciation": "おりあしく",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "공교롭게도, 마침 나쁘게",
+          "examples": [
+            {
+              "sentence": "折悪しく留守だった。",
+              "translation": "공교롭게도 부재중이었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_332",
+      "word": "運悪く",
+      "pronunciation": "うんわるく",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "운 나쁘게, 공교롭게도",
+          "examples": [
+            {
+              "sentence": "運悪く電車を逃した。",
+              "translation": "운 나쁘게 전철을 놓쳤다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_333",
+      "word": "運良く",
+      "pronunciation": "うんよく",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "운 좋게, 다행히",
+          "examples": [
+            {
+              "sentence": "運良く席が空いていた。",
+              "translation": "운 좋게 자리가 비어 있었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_334",
+      "word": "幸いにも",
+      "pronunciation": "さいわいにも",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "다행히도",
+          "examples": [
+            {
+              "sentence": "幸いにも怪我はなかった。",
+              "translation": "다행히도 부상은 없었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_335",
+      "word": "幸い",
+      "pronunciation": "さいわい",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "다행히",
+          "examples": [
+            {
+              "sentence": "幸い、雨は止んだ。",
+              "translation": "다행히 비가 그쳤다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_336",
+      "word": "案の定",
+      "pronunciation": "あんのじょう",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "아니나 다를까, 역시",
+          "examples": [
+            {
+              "sentence": "案の定失敗した。",
+              "translation": "아니나 다를까 실패했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_337",
+      "word": "矢張り",
+      "pronunciation": "やはり",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "역시, 아무래도",
+          "examples": [
+            {
+              "sentence": "矢張り諦められない。",
+              "translation": "역시 포기할 수 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_338",
+      "word": "結果的に",
+      "pronunciation": "けっかてきに",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "결과적으로",
+          "examples": [
+            {
+              "sentence": "結果的にうまくいった。",
+              "translation": "결과적으로 잘 되었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_339",
+      "word": "所詮",
+      "pronunciation": "しょせん",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "어차피, 결국",
+          "examples": [
+            {
+              "sentence": "所詮無理だった。",
+              "translation": "어차피 무리였다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_340",
+      "word": "どうせ",
+      "pronunciation": "どうせ",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "어차피, 어쨌든",
+          "examples": [
+            {
+              "sentence": "どうせ無理だろう。",
+              "translation": "어차피 무리일 것이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_341",
+      "word": "畢竟",
+      "pronunciation": "ひっきょう",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "결국, 요컨대",
+          "examples": [
+            {
+              "sentence": "畢竟、愛の問題だ。",
+              "translation": "결국 사랑의 문제다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_342",
+      "word": "いわば",
+      "pronunciation": "いわば",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "말하자면, 이른바",
+          "examples": [
+            {
+              "sentence": "いわば奇跡だった。",
+              "translation": "말하자면 기적이었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_343",
+      "word": "言わば",
+      "pronunciation": "いわば",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "말하자면",
+          "examples": [
+            {
+              "sentence": "言わば、彼は天才だ。",
+              "translation": "말하자면, 그는 천재다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_344",
+      "word": "いってみれば",
+      "pronunciation": "いってみれば",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "말하자면, 어찌 보면",
+          "examples": [
+            {
+              "sentence": "いってみれば運命だった。",
+              "translation": "어찌 보면 운명이었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_345",
+      "word": "しかしながら",
+      "pronunciation": "しかしながら",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "그러나, 하지만",
+          "examples": [
+            {
+              "sentence": "しかしながら問題もある。",
+              "translation": "그러나 문제도 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_346",
+      "word": "それにしても",
+      "pronunciation": "それにしても",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "그렇다 해도, 그런데도",
+          "examples": [
+            {
+              "sentence": "それにしても高すぎる。",
+              "translation": "그렇다 해도 너무 비싸다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_347",
+      "word": "それはさておき",
+      "pronunciation": "それはさておき",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "그건 그렇고, 그건 제쳐두고",
+          "examples": [
+            {
+              "sentence": "それはさておき、本題に入ろう。",
+              "translation": "그건 그렇고, 본론으로 들어가자."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_348",
+      "word": "そもそも",
+      "pronunciation": "そもそも",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "애초에, 원래",
+          "examples": [
+            {
+              "sentence": "そもそも君が悪い。",
+              "translation": "애초에 네가 나쁘다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_349",
+      "word": "なにしろ",
+      "pronunciation": "なにしろ",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "어쨌든, 아무튼",
+          "examples": [
+            {
+              "sentence": "なにしろ急いでいたので。",
+              "translation": "어쨌든 급했기 때문에."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_350",
+      "word": "何せ",
+      "pronunciation": "なにせ",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "어쨌든, 하여튼",
+          "examples": [
+            {
+              "sentence": "何せ初めてなので。",
+              "translation": "어쨌든 처음이라서."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_351",
+      "word": "ともかく",
+      "pronunciation": "ともかく",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "어쨌든, 아무튼",
+          "examples": [
+            {
+              "sentence": "ともかく行ってみよう。",
+              "translation": "어쨌든 가보자."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_352",
+      "word": "いずれにせよ",
+      "pronunciation": "いずれにせよ",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "어쨌든, 어느 쪽이든",
+          "examples": [
+            {
+              "sentence": "いずれにせよ決断が必要だ。",
+              "translation": "어쨌든 결단이 필요하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_353",
+      "word": "いずれにしても",
+      "pronunciation": "いずれにしても",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "어찌됐든, 어느 쪽이든",
+          "examples": [
+            {
+              "sentence": "いずれにしても時間がない。",
+              "translation": "어찌됐든 시간이 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_354",
+      "word": "それはそうと",
+      "pronunciation": "それはそうと",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "그건 그렇고, 그나저나",
+          "examples": [
+            {
+              "sentence": "それはそうと、元気にしてる？",
+              "translation": "그건 그렇고, 잘 지내?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_355",
+      "word": "さて",
+      "pronunciation": "さて",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "자, 그럼",
+          "examples": [
+            {
+              "sentence": "さて、始めましょう。",
+              "translation": "자, 시작합시다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_356",
+      "word": "では",
+      "pronunciation": "では",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "그럼, 그러면",
+          "examples": [
+            {
+              "sentence": "では、失礼します。",
+              "translation": "그럼, 실례하겠습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_357",
+      "word": "それでは",
+      "pronunciation": "それでは",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "그러면, 그럼",
+          "examples": [
+            {
+              "sentence": "それでは、また明日。",
+              "translation": "그러면, 또 내일."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_358",
+      "word": "じゃ",
+      "pronunciation": "じゃ",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "그럼, 그래서",
+          "examples": [
+            {
+              "sentence": "じゃ、行こうか。",
+              "translation": "그럼, 갈까."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_359",
+      "word": "おまけに",
+      "pronunciation": "おまけに",
+      "subcategory": "연결",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "게다가, 덤으로",
+          "examples": [
+            {
+              "sentence": "おまけに雨まで降ってきた。",
+              "translation": "게다가 비까지 내리기 시작했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_360",
+      "word": "さっさと",
+      "pronunciation": "さっさと",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "빨리, 재빨리",
+          "examples": [
+            {
+              "sentence": "さっさと片付けなさい。",
+              "translation": "빨리 정리해라."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_361",
+      "word": "てきぱき",
+      "pronunciation": "てきぱき",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "척척, 신속하게",
+          "examples": [
+            {
+              "sentence": "てきぱき仕事をこなす。",
+              "translation": "척척 일을 처리하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_362",
+      "word": "きびきび",
+      "pronunciation": "きびきび",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "씩씩하게, 활발하게",
+          "examples": [
+            {
+              "sentence": "きびきび動く。",
+              "translation": "씩씩하게 움직이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_363",
+      "word": "のろのろ",
+      "pronunciation": "のろのろ",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "느릿느릿, 굼뜨게",
+          "examples": [
+            {
+              "sentence": "のろのろ歩く。",
+              "translation": "느릿느릿 걷다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_364",
+      "word": "ぐずぐず",
+      "pronunciation": "ぐずぐず",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "꾸물꾸물, 미적미적",
+          "examples": [
+            {
+              "sentence": "ぐずぐずするな。",
+              "translation": "꾸물대지 마."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_365",
+      "word": "ゆったり",
+      "pronunciation": "ゆったり",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "여유 있게, 느긋하게",
+          "examples": [
+            {
+              "sentence": "ゆったりした服。",
+              "translation": "여유 있는 옷."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_366",
+      "word": "ぼちぼち",
+      "pronunciation": "ぼちぼち",
+      "subcategory": "시간",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "슬슬, 그럭저럭",
+          "examples": [
+            {
+              "sentence": "ぼちぼち始めようか。",
+              "translation": "슬슬 시작할까."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_367",
+      "word": "ぽつぽつ",
+      "pronunciation": "ぽつぽつ",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "띄엄띄엄, 뚝뚝",
+          "examples": [
+            {
+              "sentence": "雨がぽつぽつ降ってきた。",
+              "translation": "비가 뚝뚝 떨어지기 시작했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_368",
+      "word": "ぱらぱら",
+      "pronunciation": "ぱらぱら",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "후드득, 뿌슬뿌슬",
+          "examples": [
+            {
+              "sentence": "雨がぱらぱら降っている。",
+              "translation": "비가 후드득 내리고 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_369",
+      "word": "ざあざあ",
+      "pronunciation": "ざあざあ",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "쏴아쏴아, 억수같이",
+          "examples": [
+            {
+              "sentence": "雨がざあざあ降る。",
+              "translation": "비가 억수같이 내린다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_370",
+      "word": "ぐんぐん",
+      "pronunciation": "ぐんぐん",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "쑥쑥, 급속히",
+          "examples": [
+            {
+              "sentence": "成績がぐんぐん伸びる。",
+              "translation": "성적이 쑥쑥 오르다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_371",
+      "word": "めきめき",
+      "pronunciation": "めきめき",
+      "subcategory": "정도",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "눈에 띄게, 급속히",
+          "examples": [
+            {
+              "sentence": "めきめき上達する。",
+              "translation": "눈에 띄게 실력이 늘다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_372",
+      "word": "ひしひし",
+      "pronunciation": "ひしひし",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "절절히, 뼈저리게",
+          "examples": [
+            {
+              "sentence": "責任をひしひし感じる。",
+              "translation": "책임을 절절히 느끼다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_373",
+      "word": "しみじみ",
+      "pronunciation": "しみじみ",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "절실히, 깊이",
+          "examples": [
+            {
+              "sentence": "しみじみ感じた。",
+              "translation": "절실히 느꼈다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_374",
+      "word": "つくづく",
+      "pronunciation": "つくづく",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "절실히, 새삼",
+          "examples": [
+            {
+              "sentence": "つくづく思う。",
+              "translation": "절실히 생각하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_375",
+      "word": "ほとほと",
+      "pronunciation": "ほとほと",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "진저리나게, 정말",
+          "examples": [
+            {
+              "sentence": "ほとほと困った。",
+              "translation": "진저리나게 곤란하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_376",
+      "word": "げんなり",
+      "pronunciation": "げんなり",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "기가 꺾이게, 질리게",
+          "examples": [
+            {
+              "sentence": "げんなりした。",
+              "translation": "기가 꺾였다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_377",
+      "word": "がっくり",
+      "pronunciation": "がっくり",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "풀이 죽어, 맥빠지게",
+          "examples": [
+            {
+              "sentence": "がっくり肩を落とした。",
+              "translation": "풀이 죽어 어깨를 떨어뜨렸다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_378",
+      "word": "しょんぼり",
+      "pronunciation": "しょんぼり",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "풀이 죽어, 시무룩하게",
+          "examples": [
+            {
+              "sentence": "しょんぼりしている。",
+              "translation": "시무룩해 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_379",
+      "word": "うきうき",
+      "pronunciation": "うきうき",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "들뜨게, 설레며",
+          "examples": [
+            {
+              "sentence": "うきうきした気分。",
+              "translation": "들뜬 기분."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_380",
+      "word": "わくわく",
+      "pronunciation": "わくわく",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "두근두근, 설레며",
+          "examples": [
+            {
+              "sentence": "わくわくしている。",
+              "translation": "두근거리고 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_381",
+      "word": "どきどき",
+      "pronunciation": "どきどき",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "두근두근, 조마조마",
+          "examples": [
+            {
+              "sentence": "胸がどきどきする。",
+              "translation": "가슴이 두근거린다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_382",
+      "word": "はらはら",
+      "pronunciation": "はらはら",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "조마조마, 아슬아슬",
+          "examples": [
+            {
+              "sentence": "はらはらしながら見ていた。",
+              "translation": "조마조마하며 보고 있었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_383",
+      "word": "いらいら",
+      "pronunciation": "いらいら",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "초조하게, 짜증나게",
+          "examples": [
+            {
+              "sentence": "いらいらする。",
+              "translation": "짜증난다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_384",
+      "word": "むかむか",
+      "pronunciation": "むかむか",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "메스껍게, 화가 나게",
+          "examples": [
+            {
+              "sentence": "むかむかする。",
+              "translation": "속이 메스껍다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_385",
+      "word": "ぞくぞく",
+      "pronunciation": "ぞくぞく",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "오싹오싹, 소름끼치게",
+          "examples": [
+            {
+              "sentence": "ぞくぞくする。",
+              "translation": "소름이 끼친다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_386",
+      "word": "ぞっと",
+      "pronunciation": "ぞっと",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "오싹하게, 소름끼치게",
+          "examples": [
+            {
+              "sentence": "ぞっとした。",
+              "translation": "오싹했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_387",
+      "word": "ほっと",
+      "pronunciation": "ほっと",
+      "subcategory": "감정",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "안도하며, 후",
+          "examples": [
+            {
+              "sentence": "ほっとした。",
+              "translation": "안심했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_388",
+      "word": "ついうっかり",
+      "pronunciation": "ついうっかり",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "그만 무심코, 자칫",
+          "examples": [
+            {
+              "sentence": "ついうっかり口が滑った。",
+              "translation": "그만 입이 미끄러졌다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_389",
+      "word": "うかうか",
+      "pronunciation": "うかうか",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "멍하니, 어물어물",
+          "examples": [
+            {
+              "sentence": "うかうかしていられない。",
+              "translation": "멍하니 있을 수 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_390",
+      "word": "ぼんやり",
+      "pronunciation": "ぼんやり",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "멍하니, 흐릿하게",
+          "examples": [
+            {
+              "sentence": "ぼんやり考えていた。",
+              "translation": "멍하니 생각하고 있었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_391",
+      "word": "ふと",
+      "pronunciation": "ふと",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "문득, 불현듯",
+          "examples": [
+            {
+              "sentence": "ふと思い出した。",
+              "translation": "문득 생각났다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_392",
+      "word": "ひょっと",
+      "pronunciation": "ひょっと",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "혹시, 어쩌면",
+          "examples": [
+            {
+              "sentence": "ひょっとしたら間に合うかも。",
+              "translation": "혹시 시간에 맞을지도."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_393",
+      "word": "もしかして",
+      "pronunciation": "もしかして",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "혹시, 설마",
+          "examples": [
+            {
+              "sentence": "もしかして知ってる？",
+              "translation": "혹시 알아?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_394",
+      "word": "もしかしたら",
+      "pronunciation": "もしかしたら",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "혹시, 어쩌면",
+          "examples": [
+            {
+              "sentence": "もしかしたら来るかも。",
+              "translation": "어쩌면 올지도."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_395",
+      "word": "ひょっとして",
+      "pronunciation": "ひょっとして",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "혹시, 만약",
+          "examples": [
+            {
+              "sentence": "ひょっとして怒ってる？",
+              "translation": "혹시 화났어?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_396",
+      "word": "万一",
+      "pronunciation": "まんいち",
+      "subcategory": "판단",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "만일, 혹시",
+          "examples": [
+            {
+              "sentence": "万一の場合に備える。",
+              "translation": "만일의 경우에 대비하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_397",
+      "word": "さも",
+      "pronunciation": "さも",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "마치, 정말로",
+          "examples": [
+            {
+              "sentence": "さも当然のように言う。",
+              "translation": "마치 당연한 것처럼 말한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_398",
+      "word": "あたかも",
+      "pronunciation": "あたかも",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "마치, 흡사",
+          "examples": [
+            {
+              "sentence": "あたかも夢のようだ。",
+              "translation": "마치 꿈 같다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jadv_399",
+      "word": "まるで",
+      "pronunciation": "まるで",
+      "subcategory": "방법",
+      "meanings": [
+        {
+          "partOfSpeech": "부사",
+          "meaning": "마치, 완전히",
+          "examples": [
+            {
+              "sentence": "まるで別人のようだ。",
+              "translation": "마치 딴 사람 같다."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

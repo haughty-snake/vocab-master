@@ -1804,6 +1804,1806 @@
           ]
         }
       ]
+    },
+    {
+      "id": "jsp_101",
+      "word": "〜にしたがって",
+      "pronunciation": "〜にしたがって",
+      "subcategory": "비례",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 따라",
+          "examples": [
+            {
+              "sentence": "年をとるにしたがって、体力が落ちる。",
+              "translation": "나이가 들어감에 따라 체력이 떨어진다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_102",
+      "word": "〜につれて",
+      "pronunciation": "〜につれて",
+      "subcategory": "비례",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~함에 따라",
+          "examples": [
+            {
+              "sentence": "時間が経つにつれて、慣れてきた。",
+              "translation": "시간이 지남에 따라 익숙해졌다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_103",
+      "word": "〜とともに",
+      "pronunciation": "〜とともに",
+      "subcategory": "동반",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~와 함께, ~하면서",
+          "examples": [
+            {
+              "sentence": "経済の発展とともに環境問題も増えた。",
+              "translation": "경제 발전과 함께 환경 문제도 늘었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_104",
+      "word": "〜に伴って",
+      "pronunciation": "〜にともなって",
+      "subcategory": "동반",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 따라, ~에 수반하여",
+          "examples": [
+            {
+              "sentence": "人口増加に伴って交通問題が深刻になった。",
+              "translation": "인구 증가에 따라 교통 문제가 심각해졌다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_105",
+      "word": "〜一方だ",
+      "pronunciation": "〜いっぽうだ",
+      "subcategory": "경향",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하기만 하다",
+          "examples": [
+            {
+              "sentence": "物価は上がる一方だ。",
+              "translation": "물가는 오르기만 한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_106",
+      "word": "〜ばかりだ",
+      "pronunciation": "〜ばかりだ",
+      "subcategory": "경향",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해지기만 하다",
+          "examples": [
+            {
+              "sentence": "景気は悪くなるばかりだ。",
+              "translation": "경기는 나빠지기만 한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_107",
+      "word": "〜かけだ",
+      "pronunciation": "〜かけだ",
+      "subcategory": "미완료",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하다 만",
+          "examples": [
+            {
+              "sentence": "読みかけの本がたくさんある。",
+              "translation": "읽다 만 책이 많이 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_108",
+      "word": "〜きる",
+      "pronunciation": "〜きる",
+      "subcategory": "완료",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "완전히 ~하다",
+          "examples": [
+            {
+              "sentence": "マラソンを走りきった。",
+              "translation": "마라톤을 완주했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_109",
+      "word": "〜きれない",
+      "pronunciation": "〜きれない",
+      "subcategory": "불가능",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "다 ~할 수 없다",
+          "examples": [
+            {
+              "sentence": "食べきれないほど料理がある。",
+              "translation": "다 먹을 수 없을 정도로 요리가 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_110",
+      "word": "〜っぱなし",
+      "pronunciation": "〜っぱなし",
+      "subcategory": "방치",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~한 채로",
+          "examples": [
+            {
+              "sentence": "ドアを開けっぱなしにしないで。",
+              "translation": "문을 열어둔 채로 두지 마."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_111",
+      "word": "〜がちだ",
+      "pronunciation": "〜がちだ",
+      "subcategory": "경향",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하기 쉽다, 자주 ~하다",
+          "examples": [
+            {
+              "sentence": "最近運動不足になりがちだ。",
+              "translation": "요즘 운동 부족해지기 쉽다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_112",
+      "word": "〜気味だ",
+      "pronunciation": "〜ぎみだ",
+      "subcategory": "경향",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~한 느낌이다, 약간 ~하다",
+          "examples": [
+            {
+              "sentence": "風邪気味なので早く寝ます。",
+              "translation": "감기 기운이 있어서 일찍 잡니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_113",
+      "word": "〜向きだ",
+      "pronunciation": "〜むきだ",
+      "subcategory": "적합",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 적합하다",
+          "examples": [
+            {
+              "sentence": "この本は初心者向きだ。",
+              "translation": "이 책은 초보자에게 적합하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_114",
+      "word": "〜向けだ",
+      "pronunciation": "〜むけだ",
+      "subcategory": "대상",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~용이다, ~대상이다",
+          "examples": [
+            {
+              "sentence": "この雑誌は若者向けだ。",
+              "translation": "이 잡지는 젊은이 대상이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_115",
+      "word": "〜っぽい",
+      "pronunciation": "〜っぽい",
+      "subcategory": "경향",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~스럽다, ~인 것 같다",
+          "examples": [
+            {
+              "sentence": "彼は子供っぽい。",
+              "translation": "그는 어린애 같다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_116",
+      "word": "〜だらけ",
+      "pronunciation": "〜だらけ",
+      "subcategory": "가득",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~투성이",
+          "examples": [
+            {
+              "sentence": "部屋はごみだらけだ。",
+              "translation": "방은 쓰레기투성이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_117",
+      "word": "〜まみれ",
+      "pronunciation": "〜まみれ",
+      "subcategory": "가득",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~투성이, ~범벅",
+          "examples": [
+            {
+              "sentence": "汗まみれで練習した。",
+              "translation": "땀 범벅이 되어 연습했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_118",
+      "word": "〜ずくめ",
+      "pronunciation": "〜ずくめ",
+      "subcategory": "일색",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "온통 ~뿐",
+          "examples": [
+            {
+              "sentence": "今日はいいことずくめだった。",
+              "translation": "오늘은 좋은 일뿐이었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_119",
+      "word": "〜抜きで",
+      "pronunciation": "〜ぬきで",
+      "subcategory": "제외",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~없이, ~빼고",
+          "examples": [
+            {
+              "sentence": "冗談抜きで話しましょう。",
+              "translation": "농담 빼고 이야기합시다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_120",
+      "word": "〜をはじめ",
+      "pronunciation": "〜をはじめ",
+      "subcategory": "대표",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~을 비롯하여",
+          "examples": [
+            {
+              "sentence": "社長をはじめ全社員が参加した。",
+              "translation": "사장을 비롯해 전 사원이 참가했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_121",
+      "word": "〜をもとに",
+      "pronunciation": "〜をもとに",
+      "subcategory": "기반",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~을 바탕으로",
+          "examples": [
+            {
+              "sentence": "この映画は実話をもとに作られた。",
+              "translation": "이 영화는 실화를 바탕으로 만들어졌다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_122",
+      "word": "〜を中心に",
+      "pronunciation": "〜をちゅうしんに",
+      "subcategory": "중심",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~을 중심으로",
+          "examples": [
+            {
+              "sentence": "駅を中心に商店街が広がっている。",
+              "translation": "역을 중심으로 상점가가 펼쳐져 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_123",
+      "word": "〜を通じて",
+      "pronunciation": "〜をつうじて",
+      "subcategory": "매개",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~을 통해",
+          "examples": [
+            {
+              "sentence": "インターネットを通じて世界とつながる。",
+              "translation": "인터넷을 통해 세계와 연결된다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_124",
+      "word": "〜を問わず",
+      "pronunciation": "〜をとわず",
+      "subcategory": "무관",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 관계없이",
+          "examples": [
+            {
+              "sentence": "年齢を問わず参加できます。",
+              "translation": "나이에 관계없이 참가할 수 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_125",
+      "word": "〜にかかわらず",
+      "pronunciation": "〜にかかわらず",
+      "subcategory": "무관",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 상관없이",
+          "examples": [
+            {
+              "sentence": "天気にかかわらず実施します。",
+              "translation": "날씨에 상관없이 실시합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_126",
+      "word": "〜に関して",
+      "pronunciation": "〜にかんして",
+      "subcategory": "관련",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 관해서",
+          "examples": [
+            {
+              "sentence": "この件に関しては何も言えません。",
+              "translation": "이 건에 관해서는 아무 말도 할 수 없습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_127",
+      "word": "〜に対して",
+      "pronunciation": "〜にたいして",
+      "subcategory": "대상",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 대해서",
+          "examples": [
+            {
+              "sentence": "その提案に対して反対意見が出た。",
+              "translation": "그 제안에 대해 반대 의견이 나왔다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_128",
+      "word": "〜について",
+      "pronunciation": "〜について",
+      "subcategory": "관련",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 대해",
+          "examples": [
+            {
+              "sentence": "日本の文化について学びたい。",
+              "translation": "일본 문화에 대해 배우고 싶다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_129",
+      "word": "〜において",
+      "pronunciation": "〜において",
+      "subcategory": "장소/상황",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에서, ~에 있어서",
+          "examples": [
+            {
+              "sentence": "会議は本社において行われる。",
+              "translation": "회의는 본사에서 열린다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_130",
+      "word": "〜にわたって",
+      "pronunciation": "〜にわたって",
+      "subcategory": "범위",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 걸쳐",
+          "examples": [
+            {
+              "sentence": "3日間にわたって話し合った。",
+              "translation": "3일간에 걸쳐 논의했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_131",
+      "word": "〜にあたって",
+      "pronunciation": "〜にあたって",
+      "subcategory": "시점",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 있어서, ~할 때",
+          "examples": [
+            {
+              "sentence": "出発にあたって注意事項を確認してください。",
+              "translation": "출발에 있어 주의사항을 확인해 주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_132",
+      "word": "〜に際して",
+      "pronunciation": "〜にさいして",
+      "subcategory": "시점",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 즈음하여",
+          "examples": [
+            {
+              "sentence": "卒業に際して先生に感謝を伝えた。",
+              "translation": "졸업에 즈음하여 선생님께 감사를 전했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_133",
+      "word": "〜に先立って",
+      "pronunciation": "〜にさきだって",
+      "subcategory": "선행",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 앞서",
+          "examples": [
+            {
+              "sentence": "会議に先立って資料を配った。",
+              "translation": "회의에 앞서 자료를 나눠줬다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_134",
+      "word": "〜にかけては",
+      "pronunciation": "〜にかけては",
+      "subcategory": "특기",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 있어서는",
+          "examples": [
+            {
+              "sentence": "料理にかけては誰にも負けない。",
+              "translation": "요리에 있어서는 누구에게도 지지 않는다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_135",
+      "word": "〜に限って",
+      "pronunciation": "〜にかぎって",
+      "subcategory": "한정",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 한해서, 하필 ~만",
+          "examples": [
+            {
+              "sentence": "急いでいる時に限って電車が遅れる。",
+              "translation": "급할 때만 전철이 늦는다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_136",
+      "word": "〜に限らず",
+      "pronunciation": "〜にかぎらず",
+      "subcategory": "확장",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 한하지 않고",
+          "examples": [
+            {
+              "sentence": "学生に限らず大人も参加できます。",
+              "translation": "학생에 한하지 않고 어른도 참가할 수 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_137",
+      "word": "〜にもかかわらず",
+      "pronunciation": "〜にもかかわらず",
+      "subcategory": "역접",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에도 불구하고",
+          "examples": [
+            {
+              "sentence": "雨にもかかわらず多くの人が集まった。",
+              "translation": "비에도 불구하고 많은 사람이 모였다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_138",
+      "word": "〜にほかならない",
+      "pronunciation": "〜にほかならない",
+      "subcategory": "강조",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 다름 아니다",
+          "examples": [
+            {
+              "sentence": "成功は努力の結果にほかならない。",
+              "translation": "성공은 노력의 결과에 다름 아니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_139",
+      "word": "〜に違いない",
+      "pronunciation": "〜にちがいない",
+      "subcategory": "확신",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~임에 틀림없다",
+          "examples": [
+            {
+              "sentence": "彼は成功するに違いない。",
+              "translation": "그는 성공할 것임에 틀림없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_140",
+      "word": "〜に決まっている",
+      "pronunciation": "〜にきまっている",
+      "subcategory": "확신",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~로 정해져 있다, 당연히 ~이다",
+          "examples": [
+            {
+              "sentence": "そんなことは無理に決まっている。",
+              "translation": "그런 건 당연히 무리다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_141",
+      "word": "〜に相違ない",
+      "pronunciation": "〜にそういない",
+      "subcategory": "확신",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~임에 틀림없다 (격식체)",
+          "examples": [
+            {
+              "sentence": "これは本物に相違ない。",
+              "translation": "이것은 진품임에 틀림없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_142",
+      "word": "〜に過ぎない",
+      "pronunciation": "〜にすぎない",
+      "subcategory": "한정",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 지나지 않다",
+          "examples": [
+            {
+              "sentence": "これは一つの例に過ぎない。",
+              "translation": "이것은 하나의 예에 지나지 않는다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_143",
+      "word": "〜に基づいて",
+      "pronunciation": "〜にもとづいて",
+      "subcategory": "기준",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 근거하여",
+          "examples": [
+            {
+              "sentence": "法律に基づいて判断する。",
+              "translation": "법률에 근거하여 판단한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_144",
+      "word": "〜に応じて",
+      "pronunciation": "〜におうじて",
+      "subcategory": "대응",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 따라, ~에 응해서",
+          "examples": [
+            {
+              "sentence": "能力に応じて仕事を分担する。",
+              "translation": "능력에 따라 일을 분담한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_145",
+      "word": "〜に沿って",
+      "pronunciation": "〜にそって",
+      "subcategory": "기준",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~을 따라서",
+          "examples": [
+            {
+              "sentence": "計画に沿って進める。",
+              "translation": "계획에 따라 진행한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_146",
+      "word": "〜に反して",
+      "pronunciation": "〜にはんして",
+      "subcategory": "반대",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 반하여",
+          "examples": [
+            {
+              "sentence": "予想に反して失敗した。",
+              "translation": "예상에 반해 실패했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_147",
+      "word": "〜に加えて",
+      "pronunciation": "〜にくわえて",
+      "subcategory": "추가",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에 더하여",
+          "examples": [
+            {
+              "sentence": "経験に加えて資格も必要だ。",
+              "translation": "경험에 더해 자격도 필요하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_148",
+      "word": "〜上で",
+      "pronunciation": "〜うえで",
+      "subcategory": "전제",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하는 데 있어서",
+          "examples": [
+            {
+              "sentence": "契約する上で注意が必要だ。",
+              "translation": "계약하는 데 있어서 주의가 필요하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_149",
+      "word": "〜上は",
+      "pronunciation": "〜うえは",
+      "subcategory": "결심",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~한 이상은",
+          "examples": [
+            {
+              "sentence": "約束した上は守らなければならない。",
+              "translation": "약속한 이상은 지켜야 한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_150",
+      "word": "〜以上",
+      "pronunciation": "〜いじょう",
+      "subcategory": "조건",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~한 이상",
+          "examples": [
+            {
+              "sentence": "引き受けた以上、最後までやる。",
+              "translation": "맡은 이상 끝까지 한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_151",
+      "word": "〜からには",
+      "pronunciation": "〜からには",
+      "subcategory": "결심",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하는 이상은",
+          "examples": [
+            {
+              "sentence": "やるからには全力を尽くす。",
+              "translation": "하는 이상은 전력을 다한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_152",
+      "word": "〜からして",
+      "pronunciation": "〜からして",
+      "subcategory": "예시",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~부터가",
+          "examples": [
+            {
+              "sentence": "名前からして変わっている。",
+              "translation": "이름부터가 특이하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_153",
+      "word": "〜からこそ",
+      "pronunciation": "〜からこそ",
+      "subcategory": "이유강조",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~이기 때문에야말로",
+          "examples": [
+            {
+              "sentence": "あなただからこそ頼むのだ。",
+              "translation": "당신이기 때문에야말로 부탁하는 거다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_154",
+      "word": "〜からすると",
+      "pronunciation": "〜からすると",
+      "subcategory": "관점",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~의 관점에서 보면",
+          "examples": [
+            {
+              "sentence": "親からすると心配なのは当然だ。",
+              "translation": "부모 입장에서 보면 걱정하는 건 당연하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_155",
+      "word": "〜から見ると",
+      "pronunciation": "〜からみると",
+      "subcategory": "관점",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에서 보면",
+          "examples": [
+            {
+              "sentence": "外国人から見ると珍しいことだ。",
+              "translation": "외국인이 보면 신기한 일이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_156",
+      "word": "〜からいうと",
+      "pronunciation": "〜からいうと",
+      "subcategory": "관점",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~라는 점에서 말하면",
+          "examples": [
+            {
+              "sentence": "結果からいうと失敗だった。",
+              "translation": "결과로 말하면 실패였다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_157",
+      "word": "〜としては",
+      "pronunciation": "〜としては",
+      "subcategory": "입장",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~로서는",
+          "examples": [
+            {
+              "sentence": "会社としては賛成できない。",
+              "translation": "회사로서는 찬성할 수 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_158",
+      "word": "〜として",
+      "pronunciation": "〜として",
+      "subcategory": "자격",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~로서",
+          "examples": [
+            {
+              "sentence": "医者として働いている。",
+              "translation": "의사로서 일하고 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_159",
+      "word": "〜にとって",
+      "pronunciation": "〜にとって",
+      "subcategory": "입장",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~에게 있어서",
+          "examples": [
+            {
+              "sentence": "私にとって家族が一番大切だ。",
+              "translation": "나에게 있어서 가족이 가장 소중하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_160",
+      "word": "〜わけがない",
+      "pronunciation": "〜わけがない",
+      "subcategory": "부정",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 리가 없다",
+          "examples": [
+            {
+              "sentence": "そんなことがあるわけがない。",
+              "translation": "그런 일이 있을 리가 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_161",
+      "word": "〜わけではない",
+      "pronunciation": "〜わけではない",
+      "subcategory": "부분부정",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~인 것은 아니다",
+          "examples": [
+            {
+              "sentence": "嫌いなわけではないが、苦手だ。",
+              "translation": "싫은 것은 아니지만 어렵다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_162",
+      "word": "〜わけにはいかない",
+      "pronunciation": "〜わけにはいかない",
+      "subcategory": "불가",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 수는 없다",
+          "examples": [
+            {
+              "sentence": "約束を破るわけにはいかない。",
+              "translation": "약속을 어길 수는 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_163",
+      "word": "〜ないわけにはいかない",
+      "pronunciation": "〜ないわけにはいかない",
+      "subcategory": "의무",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하지 않을 수 없다",
+          "examples": [
+            {
+              "sentence": "明日は行かないわけにはいかない。",
+              "translation": "내일은 가지 않을 수 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_164",
+      "word": "〜ざるを得ない",
+      "pronunciation": "〜ざるをえない",
+      "subcategory": "의무",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하지 않을 수 없다",
+          "examples": [
+            {
+              "sentence": "事情があり、辞めざるを得ない。",
+              "translation": "사정이 있어서 그만두지 않을 수 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_165",
+      "word": "〜を余儀なくされる",
+      "pronunciation": "〜をよぎなくされる",
+      "subcategory": "강제",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~을 어쩔 수 없이 하게 되다",
+          "examples": [
+            {
+              "sentence": "中止を余儀なくされた。",
+              "translation": "중지할 수밖에 없었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_166",
+      "word": "〜てならない",
+      "pronunciation": "〜てならない",
+      "subcategory": "강조",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해서 견딜 수 없다",
+          "examples": [
+            {
+              "sentence": "心配でならない。",
+              "translation": "걱정되어 견딜 수 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_167",
+      "word": "〜てかなわない",
+      "pronunciation": "〜てかなわない",
+      "subcategory": "강조",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해서 못 견디겠다",
+          "examples": [
+            {
+              "sentence": "暑くてかなわない。",
+              "translation": "더워서 못 견디겠다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_168",
+      "word": "〜かねる",
+      "pronunciation": "〜かねる",
+      "subcategory": "불가",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하기 어렵다",
+          "examples": [
+            {
+              "sentence": "お答えしかねます。",
+              "translation": "대답하기 어렵습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_169",
+      "word": "〜かねない",
+      "pronunciation": "〜かねない",
+      "subcategory": "가능성",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 수도 있다 (부정적)",
+          "examples": [
+            {
+              "sentence": "このままでは失敗しかねない。",
+              "translation": "이대로라면 실패할 수도 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_170",
+      "word": "〜得る",
+      "pronunciation": "〜うる/える",
+      "subcategory": "가능성",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 수 있다",
+          "examples": [
+            {
+              "sentence": "そういうことも起こり得る。",
+              "translation": "그런 일도 일어날 수 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_171",
+      "word": "〜得ない",
+      "pronunciation": "〜えない",
+      "subcategory": "불가능",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 수 없다",
+          "examples": [
+            {
+              "sentence": "信じ得ない話だ。",
+              "translation": "믿을 수 없는 이야기다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_172",
+      "word": "〜ようがない",
+      "pronunciation": "〜ようがない",
+      "subcategory": "불가능",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 방법이 없다",
+          "examples": [
+            {
+              "sentence": "連絡先がわからないので連絡しようがない。",
+              "translation": "연락처를 모르니까 연락할 방법이 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_173",
+      "word": "〜ほかない",
+      "pronunciation": "〜ほかない",
+      "subcategory": "유일",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 수밖에 없다",
+          "examples": [
+            {
+              "sentence": "自分でやるほかない。",
+              "translation": "스스로 할 수밖에 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_174",
+      "word": "〜よりほかない",
+      "pronunciation": "〜よりほかない",
+      "subcategory": "유일",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하는 것 외에 없다",
+          "examples": [
+            {
+              "sentence": "待つよりほかない。",
+              "translation": "기다리는 것 외에 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_175",
+      "word": "〜べきだ",
+      "pronunciation": "〜べきだ",
+      "subcategory": "당위",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해야 한다",
+          "examples": [
+            {
+              "sentence": "学生は勉強すべきだ。",
+              "translation": "학생은 공부해야 한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_176",
+      "word": "〜べきではない",
+      "pronunciation": "〜べきではない",
+      "subcategory": "금지",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해서는 안 된다",
+          "examples": [
+            {
+              "sentence": "人の悪口を言うべきではない。",
+              "translation": "남의 험담을 해서는 안 된다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_177",
+      "word": "〜べく",
+      "pronunciation": "〜べく",
+      "subcategory": "목적",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하기 위해",
+          "examples": [
+            {
+              "sentence": "成功すべく努力している。",
+              "translation": "성공하기 위해 노력하고 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_178",
+      "word": "〜ものだ",
+      "pronunciation": "〜ものだ",
+      "subcategory": "일반론",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하는 것이다 (당연함)",
+          "examples": [
+            {
+              "sentence": "親は子供を心配するものだ。",
+              "translation": "부모는 자식을 걱정하는 법이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_179",
+      "word": "〜ものではない",
+      "pronunciation": "〜ものではない",
+      "subcategory": "충고",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하는 것이 아니다",
+          "examples": [
+            {
+              "sentence": "人を見かけで判断するものではない。",
+              "translation": "사람을 겉모습으로 판단하는 게 아니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_180",
+      "word": "〜ものがある",
+      "pronunciation": "〜ものがある",
+      "subcategory": "인상",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~한 느낌이 있다",
+          "examples": [
+            {
+              "sentence": "彼の話には説得力があるものがある。",
+              "translation": "그의 이야기에는 설득력이 있는 느낌이 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_181",
+      "word": "〜ものの",
+      "pronunciation": "〜ものの",
+      "subcategory": "역접",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~이긴 하지만",
+          "examples": [
+            {
+              "sentence": "買ったものの、一度も使っていない。",
+              "translation": "샀지만 한 번도 쓰지 않았다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_182",
+      "word": "〜ものなら",
+      "pronunciation": "〜ものなら",
+      "subcategory": "가정",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 수 있다면",
+          "examples": [
+            {
+              "sentence": "戻れるものなら戻りたい。",
+              "translation": "돌아갈 수 있다면 돌아가고 싶다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_183",
+      "word": "〜ものか",
+      "pronunciation": "〜ものか",
+      "subcategory": "반어",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 것인가 (절대 안 함)",
+          "examples": [
+            {
+              "sentence": "誰がそんなことするものか。",
+              "translation": "누가 그런 짓을 하겠는가."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_184",
+      "word": "〜ことだ",
+      "pronunciation": "〜ことだ",
+      "subcategory": "충고",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하는 게 좋다",
+          "examples": [
+            {
+              "sentence": "健康のためには運動することだ。",
+              "translation": "건강을 위해서는 운동하는 게 좋다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_185",
+      "word": "〜ことはない",
+      "pronunciation": "〜ことはない",
+      "subcategory": "불필요",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 필요 없다",
+          "examples": [
+            {
+              "sentence": "そんなに心配することはない。",
+              "translation": "그렇게 걱정할 필요 없다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_186",
+      "word": "〜ことから",
+      "pronunciation": "〜ことから",
+      "subcategory": "이유",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하는 것에서",
+          "examples": [
+            {
+              "sentence": "形が似ていることからこの名前がついた。",
+              "translation": "모양이 비슷한 것에서 이 이름이 붙었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_187",
+      "word": "〜ことなく",
+      "pronunciation": "〜ことなく",
+      "subcategory": "부정",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하지 않고",
+          "examples": [
+            {
+              "sentence": "諦めることなく努力し続けた。",
+              "translation": "포기하지 않고 노력을 계속했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_188",
+      "word": "〜ことにする",
+      "pronunciation": "〜ことにする",
+      "subcategory": "결정",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하기로 하다",
+          "examples": [
+            {
+              "sentence": "来月から運動を始めることにした。",
+              "translation": "다음 달부터 운동을 시작하기로 했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_189",
+      "word": "〜ことになる",
+      "pronunciation": "〜ことになる",
+      "subcategory": "결과",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하게 되다",
+          "examples": [
+            {
+              "sentence": "来年日本に行くことになった。",
+              "translation": "내년에 일본에 가게 되었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_190",
+      "word": "〜ところだ",
+      "pronunciation": "〜ところだ",
+      "subcategory": "진행",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "막 ~하려는 참이다",
+          "examples": [
+            {
+              "sentence": "今出かけるところだ。",
+              "translation": "지금 나가려는 참이다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_191",
+      "word": "〜ところに",
+      "pronunciation": "〜ところに",
+      "subcategory": "시점",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~하는 데에",
+          "examples": [
+            {
+              "sentence": "食事をしているところに電話が来た。",
+              "translation": "식사하는 데 전화가 왔다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_192",
+      "word": "〜たところ",
+      "pronunciation": "〜たところ",
+      "subcategory": "결과",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~해 보니",
+          "examples": [
+            {
+              "sentence": "調べたところ、問題はなかった。",
+              "translation": "조사해 보니 문제가 없었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_193",
+      "word": "〜どころか",
+      "pronunciation": "〜どころか",
+      "subcategory": "반대",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~은커녕",
+          "examples": [
+            {
+              "sentence": "手伝うどころか、邪魔をした。",
+              "translation": "도와주기는커녕 방해했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_194",
+      "word": "〜どころではない",
+      "pronunciation": "〜どころではない",
+      "subcategory": "상황",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~할 상황이 아니다",
+          "examples": [
+            {
+              "sentence": "忙しくて旅行どころではない。",
+              "translation": "바빠서 여행할 상황이 아니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_195",
+      "word": "〜ばかりか",
+      "pronunciation": "〜ばかりか",
+      "subcategory": "추가",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~뿐만 아니라",
+          "examples": [
+            {
+              "sentence": "英語ばかりか中国語も話せる。",
+              "translation": "영어뿐만 아니라 중국어도 할 수 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_196",
+      "word": "〜のみならず",
+      "pronunciation": "〜のみならず",
+      "subcategory": "추가",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~뿐만 아니라 (격식체)",
+          "examples": [
+            {
+              "sentence": "国内のみならず海外でも人気だ。",
+              "translation": "국내뿐만 아니라 해외에서도 인기다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_197",
+      "word": "〜はもちろん",
+      "pronunciation": "〜はもちろん",
+      "subcategory": "추가",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~은 물론",
+          "examples": [
+            {
+              "sentence": "日本語はもちろん英語も話せる。",
+              "translation": "일본어는 물론 영어도 할 수 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_198",
+      "word": "〜はおろか",
+      "pronunciation": "〜はおろか",
+      "subcategory": "부정",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~은커녕",
+          "examples": [
+            {
+              "sentence": "漢字はおろかひらがなも読めない。",
+              "translation": "한자는커녕 히라가나도 못 읽는다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_199",
+      "word": "〜にせよ〜にせよ",
+      "pronunciation": "〜にせよ〜にせよ",
+      "subcategory": "선택",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~이든 ~이든",
+          "examples": [
+            {
+              "sentence": "賛成にせよ反対にせよ、意見を言ってください。",
+              "translation": "찬성이든 반대든 의견을 말해 주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsp_200",
+      "word": "〜であれ〜であれ",
+      "pronunciation": "〜であれ〜であれ",
+      "subcategory": "선택",
+      "meanings": [
+        {
+          "partOfSpeech": "문형",
+          "meaning": "~이든 ~이든 (격식체)",
+          "examples": [
+            {
+              "sentence": "男であれ女であれ、平等に扱うべきだ。",
+              "translation": "남자든 여자든 평등하게 대해야 한다."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

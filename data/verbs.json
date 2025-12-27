@@ -12274,6 +12274,7422 @@
       "pastTense": "forbade",
       "pastParticiple": "forbidden",
       "antonym": ""
+    },
+    {
+      "id": "verbs_abolish_570",
+      "word": "abolish",
+      "pronunciation": "/əˈbɒlɪʃ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "폐지하다",
+          "examples": [
+            {
+              "sentence": "Abolish the law.",
+              "translation": "법을 폐지하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_absorb_571",
+      "word": "absorb",
+      "pronunciation": "/əbˈzɔːb/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "흡수하다",
+          "examples": [
+            {
+              "sentence": "Absorb information.",
+              "translation": "정보를 흡수하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_abstain_572",
+      "word": "abstain",
+      "pronunciation": "/əbˈsteɪn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "삼가다, 기권하다",
+          "examples": [
+            {
+              "sentence": "Abstain from voting.",
+              "translation": "투표를 기권하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_accelerate_573",
+      "word": "accelerate",
+      "pronunciation": "/əkˈseləreɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "가속하다",
+          "examples": [
+            {
+              "sentence": "Accelerate growth.",
+              "translation": "성장을 가속하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_acclaim_574",
+      "word": "acclaim",
+      "pronunciation": "/əˈkleɪm/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "찬사를 보내다",
+          "examples": [
+            {
+              "sentence": "Critics acclaimed the film.",
+              "translation": "비평가들이 영화를 찬사했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_accumulate_575",
+      "word": "accumulate",
+      "pronunciation": "/əˈkjuːmjʊleɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "축적하다",
+          "examples": [
+            {
+              "sentence": "Accumulate wealth.",
+              "translation": "부를 축적하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_accuse_576",
+      "word": "accuse",
+      "pronunciation": "/əˈkjuːz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "고발하다, 비난하다",
+          "examples": [
+            {
+              "sentence": "Accuse someone of theft.",
+              "translation": "누군가를 절도로 고발하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_adhere_577",
+      "word": "adhere",
+      "pronunciation": "/ədˈhɪər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "고수하다, 들러붙다",
+          "examples": [
+            {
+              "sentence": "Adhere to rules.",
+              "translation": "규칙을 고수하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_adjoin_578",
+      "word": "adjoin",
+      "pronunciation": "/əˈdʒɔɪn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "인접하다",
+          "examples": [
+            {
+              "sentence": "The rooms adjoin.",
+              "translation": "방들이 인접해 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_administer_579",
+      "word": "administer",
+      "pronunciation": "/ədˈmɪnɪstər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "관리하다, 집행하다",
+          "examples": [
+            {
+              "sentence": "Administer the program.",
+              "translation": "프로그램을 관리하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_admire_580",
+      "word": "admire",
+      "pronunciation": "/ədˈmaɪər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "감탄하다",
+          "examples": [
+            {
+              "sentence": "I admire your work.",
+              "translation": "당신의 작업에 감탄합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_adopt_581",
+      "word": "adopt",
+      "pronunciation": "/əˈdɒpt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "채택하다, 입양하다",
+          "examples": [
+            {
+              "sentence": "Adopt a new policy.",
+              "translation": "새 정책을 채택하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_adorn_582",
+      "word": "adorn",
+      "pronunciation": "/əˈdɔːn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "장식하다",
+          "examples": [
+            {
+              "sentence": "Adorn the room.",
+              "translation": "방을 장식하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_affirm_583",
+      "word": "affirm",
+      "pronunciation": "/əˈfɜːm/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "확언하다",
+          "examples": [
+            {
+              "sentence": "Affirm your commitment.",
+              "translation": "헌신을 확언하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_aggravate_584",
+      "word": "aggravate",
+      "pronunciation": "/ˈæɡrəveɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "악화시키다",
+          "examples": [
+            {
+              "sentence": "Aggravate the problem.",
+              "translation": "문제를 악화시키다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_agonize_585",
+      "word": "agonize",
+      "pronunciation": "/ˈæɡənaɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "고민하다",
+          "examples": [
+            {
+              "sentence": "Agonize over decisions.",
+              "translation": "결정에 대해 고민하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_align_586",
+      "word": "align",
+      "pronunciation": "/əˈlaɪn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "정렬하다",
+          "examples": [
+            {
+              "sentence": "Align the text.",
+              "translation": "텍스트를 정렬하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_allay_587",
+      "word": "allay",
+      "pronunciation": "/əˈleɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "완화하다",
+          "examples": [
+            {
+              "sentence": "Allay fears.",
+              "translation": "두려움을 완화하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_allege_588",
+      "word": "allege",
+      "pronunciation": "/əˈledʒ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "주장하다",
+          "examples": [
+            {
+              "sentence": "Allege misconduct.",
+              "translation": "비위를 주장하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_alleviate_589",
+      "word": "alleviate",
+      "pronunciation": "/əˈliːvieɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "완화하다",
+          "examples": [
+            {
+              "sentence": "Alleviate pain.",
+              "translation": "통증을 완화하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_allocate_590",
+      "word": "allocate",
+      "pronunciation": "/ˈæləkeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "배분하다",
+          "examples": [
+            {
+              "sentence": "Allocate resources.",
+              "translation": "자원을 배분하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_allot_591",
+      "word": "allot",
+      "pronunciation": "/əˈlɒt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "할당하다",
+          "examples": [
+            {
+              "sentence": "Allot time for rest.",
+              "translation": "휴식 시간을 할당하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_alter_592",
+      "word": "alter",
+      "pronunciation": "/ˈɔːltər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "변경하다",
+          "examples": [
+            {
+              "sentence": "Alter the plan.",
+              "translation": "계획을 변경하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_amass_593",
+      "word": "amass",
+      "pronunciation": "/əˈmæs/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "모으다",
+          "examples": [
+            {
+              "sentence": "Amass a fortune.",
+              "translation": "재산을 모으다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_amend_594",
+      "word": "amend",
+      "pronunciation": "/əˈmend/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "수정하다",
+          "examples": [
+            {
+              "sentence": "Amend the document.",
+              "translation": "문서를 수정하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_amplify_595",
+      "word": "amplify",
+      "pronunciation": "/ˈæmplɪfaɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "증폭하다",
+          "examples": [
+            {
+              "sentence": "Amplify the sound.",
+              "translation": "소리를 증폭하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_annex_596",
+      "word": "annex",
+      "pronunciation": "/əˈneks/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "합병하다",
+          "examples": [
+            {
+              "sentence": "Annex the territory.",
+              "translation": "영토를 합병하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_annotate_597",
+      "word": "annotate",
+      "pronunciation": "/ˈænəteɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "주석을 달다",
+          "examples": [
+            {
+              "sentence": "Annotate the text.",
+              "translation": "텍스트에 주석을 달다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_annul_598",
+      "word": "annul",
+      "pronunciation": "/əˈnʌl/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "무효로 하다",
+          "examples": [
+            {
+              "sentence": "Annul the contract.",
+              "translation": "계약을 무효로 하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_appease_599",
+      "word": "appease",
+      "pronunciation": "/əˈpiːz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "달래다",
+          "examples": [
+            {
+              "sentence": "Appease the crowd.",
+              "translation": "군중을 달래다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_append_600",
+      "word": "append",
+      "pronunciation": "/əˈpend/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "첨부하다",
+          "examples": [
+            {
+              "sentence": "Append a file.",
+              "translation": "파일을 첨부하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_applaud_601",
+      "word": "applaud",
+      "pronunciation": "/əˈplɔːd/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "박수 치다",
+          "examples": [
+            {
+              "sentence": "Applaud the performance.",
+              "translation": "공연에 박수를 치다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_appoint_602",
+      "word": "appoint",
+      "pronunciation": "/əˈpɔɪnt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "임명하다",
+          "examples": [
+            {
+              "sentence": "Appoint a leader.",
+              "translation": "리더를 임명하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_appraise_603",
+      "word": "appraise",
+      "pronunciation": "/əˈpreɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "평가하다",
+          "examples": [
+            {
+              "sentence": "Appraise the property.",
+              "translation": "부동산을 평가하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_apprehend_604",
+      "word": "apprehend",
+      "pronunciation": "/ˌæprɪˈhend/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "체포하다, 이해하다",
+          "examples": [
+            {
+              "sentence": "Apprehend the criminal.",
+              "translation": "범인을 체포하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_appropriate_605",
+      "word": "appropriate",
+      "pronunciation": "/əˈprəʊprieɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "전용하다, 충당하다",
+          "examples": [
+            {
+              "sentence": "Appropriate funds.",
+              "translation": "자금을 충당하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_arbitrate_606",
+      "word": "arbitrate",
+      "pronunciation": "/ˈɑːbɪtreɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "중재하다",
+          "examples": [
+            {
+              "sentence": "Arbitrate the dispute.",
+              "translation": "분쟁을 중재하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_arouse_607",
+      "word": "arouse",
+      "pronunciation": "/əˈraʊz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "유발하다, 깨우다",
+          "examples": [
+            {
+              "sentence": "Arouse interest.",
+              "translation": "관심을 유발하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_ascend_608",
+      "word": "ascend",
+      "pronunciation": "/əˈsend/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "오르다",
+          "examples": [
+            {
+              "sentence": "Ascend the stairs.",
+              "translation": "계단을 오르다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_ascertain_609",
+      "word": "ascertain",
+      "pronunciation": "/ˌæsəˈteɪn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "확인하다",
+          "examples": [
+            {
+              "sentence": "Ascertain the facts.",
+              "translation": "사실을 확인하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_aspire_610",
+      "word": "aspire",
+      "pronunciation": "/əˈspaɪər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "열망하다",
+          "examples": [
+            {
+              "sentence": "Aspire to greatness.",
+              "translation": "위대함을 열망하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_assault_611",
+      "word": "assault",
+      "pronunciation": "/əˈsɔːlt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "공격하다",
+          "examples": [
+            {
+              "sentence": "Assault the fortress.",
+              "translation": "요새를 공격하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_assert_612",
+      "word": "assert",
+      "pronunciation": "/əˈsɜːt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "주장하다",
+          "examples": [
+            {
+              "sentence": "Assert your rights.",
+              "translation": "권리를 주장하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_assess_613",
+      "word": "assess",
+      "pronunciation": "/əˈses/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "평가하다",
+          "examples": [
+            {
+              "sentence": "Assess the damage.",
+              "translation": "피해를 평가하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_assign_614",
+      "word": "assign",
+      "pronunciation": "/əˈsaɪn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "할당하다",
+          "examples": [
+            {
+              "sentence": "Assign tasks.",
+              "translation": "작업을 할당하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_associate_615",
+      "word": "associate",
+      "pronunciation": "/əˈsəʊʃieɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "연관짓다",
+          "examples": [
+            {
+              "sentence": "Associate with success.",
+              "translation": "성공과 연관짓다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_assure_616",
+      "word": "assure",
+      "pronunciation": "/əˈʃʊər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "확신시키다",
+          "examples": [
+            {
+              "sentence": "Assure safety.",
+              "translation": "안전을 확신시키다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_attain_617",
+      "word": "attain",
+      "pronunciation": "/əˈteɪn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "달성하다",
+          "examples": [
+            {
+              "sentence": "Attain goals.",
+              "translation": "목표를 달성하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_authorize_618",
+      "word": "authorize",
+      "pronunciation": "/ˈɔːθəraɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "승인하다",
+          "examples": [
+            {
+              "sentence": "Authorize payment.",
+              "translation": "결제를 승인하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_automate_619",
+      "word": "automate",
+      "pronunciation": "/ˈɔːtəmeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "자동화하다",
+          "examples": [
+            {
+              "sentence": "Automate the process.",
+              "translation": "프로세스를 자동화하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_avail_620",
+      "word": "avail",
+      "pronunciation": "/əˈveɪl/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "이용하다",
+          "examples": [
+            {
+              "sentence": "Avail the opportunity.",
+              "translation": "기회를 이용하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_avert_621",
+      "word": "avert",
+      "pronunciation": "/əˈvɜːt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "피하다, 막다",
+          "examples": [
+            {
+              "sentence": "Avert disaster.",
+              "translation": "재앙을 피하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_await_622",
+      "word": "await",
+      "pronunciation": "/əˈweɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "기다리다",
+          "examples": [
+            {
+              "sentence": "Await the results.",
+              "translation": "결과를 기다리다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_baffle_623",
+      "word": "baffle",
+      "pronunciation": "/ˈbæfl/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "당혹하게 하다",
+          "examples": [
+            {
+              "sentence": "Baffle the experts.",
+              "translation": "전문가들을 당혹하게 하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_banish_624",
+      "word": "banish",
+      "pronunciation": "/ˈbænɪʃ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "추방하다",
+          "examples": [
+            {
+              "sentence": "Banish from the kingdom.",
+              "translation": "왕국에서 추방하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bargain_625",
+      "word": "bargain",
+      "pronunciation": "/ˈbɑːɡɪn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "흥정하다",
+          "examples": [
+            {
+              "sentence": "Bargain for a lower price.",
+              "translation": "더 낮은 가격으로 흥정하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_barter_626",
+      "word": "barter",
+      "pronunciation": "/ˈbɑːtər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "물물교환하다",
+          "examples": [
+            {
+              "sentence": "Barter goods.",
+              "translation": "물건을 물물교환하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bask_627",
+      "word": "bask",
+      "pronunciation": "/bɑːsk/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "쬐다, 즐기다",
+          "examples": [
+            {
+              "sentence": "Bask in the sun.",
+              "translation": "햇볕을 쬐다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_beckon_628",
+      "word": "beckon",
+      "pronunciation": "/ˈbekən/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "손짓하다",
+          "examples": [
+            {
+              "sentence": "Beckon to come.",
+              "translation": "오라고 손짓하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_befall_629",
+      "word": "befall",
+      "pronunciation": "/bɪˈfɔːl/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "닥치다",
+          "examples": [
+            {
+              "sentence": "Misfortune befell him.",
+              "translation": "불행이 그에게 닥쳤다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_beguile_630",
+      "word": "beguile",
+      "pronunciation": "/bɪˈɡaɪl/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "속이다, 유혹하다",
+          "examples": [
+            {
+              "sentence": "Beguile with charm.",
+              "translation": "매력으로 유혹하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_belittle_631",
+      "word": "belittle",
+      "pronunciation": "/bɪˈlɪtl/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "얕보다",
+          "examples": [
+            {
+              "sentence": "Belittle achievements.",
+              "translation": "성과를 얕보다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bemoan_632",
+      "word": "bemoan",
+      "pronunciation": "/bɪˈməʊn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "한탄하다",
+          "examples": [
+            {
+              "sentence": "Bemoan the loss.",
+              "translation": "손실을 한탄하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bequeath_633",
+      "word": "bequeath",
+      "pronunciation": "/bɪˈkwiːð/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "유산으로 남기다",
+          "examples": [
+            {
+              "sentence": "Bequeath property.",
+              "translation": "재산을 유산으로 남기다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bereave_634",
+      "word": "bereave",
+      "pronunciation": "/bɪˈriːv/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "빼앗다",
+          "examples": [
+            {
+              "sentence": "Bereaved of hope.",
+              "translation": "희망을 빼앗기다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_besiege_635",
+      "word": "besiege",
+      "pronunciation": "/bɪˈsiːdʒ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "포위하다",
+          "examples": [
+            {
+              "sentence": "Besiege the city.",
+              "translation": "도시를 포위하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bestow_636",
+      "word": "bestow",
+      "pronunciation": "/bɪˈstəʊ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "수여하다",
+          "examples": [
+            {
+              "sentence": "Bestow an honor.",
+              "translation": "영예를 수여하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_betray_637",
+      "word": "betray",
+      "pronunciation": "/bɪˈtreɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "배반하다",
+          "examples": [
+            {
+              "sentence": "Betray trust.",
+              "translation": "신뢰를 배반하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bewail_638",
+      "word": "bewail",
+      "pronunciation": "/bɪˈweɪl/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "슬퍼하다",
+          "examples": [
+            {
+              "sentence": "Bewail the tragedy.",
+              "translation": "비극을 슬퍼하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bewilder_639",
+      "word": "bewilder",
+      "pronunciation": "/bɪˈwɪldər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "어리둥절하게 하다",
+          "examples": [
+            {
+              "sentence": "Bewilder the audience.",
+              "translation": "청중을 어리둥절하게 하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bias_640",
+      "word": "bias",
+      "pronunciation": "/ˈbaɪəs/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "편향시키다",
+          "examples": [
+            {
+              "sentence": "Bias the results.",
+              "translation": "결과를 편향시키다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bid_641",
+      "word": "bid",
+      "pronunciation": "/bɪd/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "입찰하다",
+          "examples": [
+            {
+              "sentence": "Bid on the item.",
+              "translation": "물품에 입찰하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bind_642",
+      "word": "bind",
+      "pronunciation": "/baɪnd/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "묶다",
+          "examples": [
+            {
+              "sentence": "Bind the books.",
+              "translation": "책을 묶다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bisect_643",
+      "word": "bisect",
+      "pronunciation": "/baɪˈsekt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "이등분하다",
+          "examples": [
+            {
+              "sentence": "Bisect the angle.",
+              "translation": "각도를 이등분하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_blast_644",
+      "word": "blast",
+      "pronunciation": "/blɑːst/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "폭파하다",
+          "examples": [
+            {
+              "sentence": "Blast the rock.",
+              "translation": "바위를 폭파하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_blaze_645",
+      "word": "blaze",
+      "pronunciation": "/bleɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "타오르다",
+          "examples": [
+            {
+              "sentence": "Fire blazed.",
+              "translation": "불이 타올랐다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_blend_646",
+      "word": "blend",
+      "pronunciation": "/blend/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "섞다",
+          "examples": [
+            {
+              "sentence": "Blend ingredients.",
+              "translation": "재료를 섞다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bless_647",
+      "word": "bless",
+      "pronunciation": "/bles/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "축복하다",
+          "examples": [
+            {
+              "sentence": "Bless the child.",
+              "translation": "아이를 축복하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bloom_648",
+      "word": "bloom",
+      "pronunciation": "/bluːm/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "꽃피다",
+          "examples": [
+            {
+              "sentence": "Flowers bloom.",
+              "translation": "꽃이 피다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_blot_649",
+      "word": "blot",
+      "pronunciation": "/blɒt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "얼룩지다",
+          "examples": [
+            {
+              "sentence": "Blot the paper.",
+              "translation": "종이에 얼룩을 지우다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_blur_650",
+      "word": "blur",
+      "pronunciation": "/blɜːr/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "흐리게 하다",
+          "examples": [
+            {
+              "sentence": "Blur the lines.",
+              "translation": "경계를 흐리게 하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_blurt_651",
+      "word": "blurt",
+      "pronunciation": "/blɜːt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "불쑥 말하다",
+          "examples": [
+            {
+              "sentence": "Blurt out the truth.",
+              "translation": "진실을 불쑥 말하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_boast_652",
+      "word": "boast",
+      "pronunciation": "/bəʊst/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "자랑하다",
+          "examples": [
+            {
+              "sentence": "Boast about success.",
+              "translation": "성공을 자랑하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bolster_653",
+      "word": "bolster",
+      "pronunciation": "/ˈbəʊlstər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "강화하다",
+          "examples": [
+            {
+              "sentence": "Bolster confidence.",
+              "translation": "자신감을 강화하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bombard_654",
+      "word": "bombard",
+      "pronunciation": "/bɒmˈbɑːd/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "폭격하다",
+          "examples": [
+            {
+              "sentence": "Bombard with questions.",
+              "translation": "질문으로 폭격하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_boost_655",
+      "word": "boost",
+      "pronunciation": "/buːst/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "촉진하다",
+          "examples": [
+            {
+              "sentence": "Boost sales.",
+              "translation": "판매를 촉진하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bother_656",
+      "word": "bother",
+      "pronunciation": "/ˈbɒðər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "귀찮게 하다",
+          "examples": [
+            {
+              "sentence": "Do not bother me.",
+              "translation": "나를 귀찮게 하지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bounce_657",
+      "word": "bounce",
+      "pronunciation": "/baʊns/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "튀다",
+          "examples": [
+            {
+              "sentence": "The ball bounced.",
+              "translation": "공이 튀었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_breach_658",
+      "word": "breach",
+      "pronunciation": "/briːtʃ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "위반하다",
+          "examples": [
+            {
+              "sentence": "Breach the contract.",
+              "translation": "계약을 위반하다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_brew_659",
+      "word": "brew",
+      "pronunciation": "/bruː/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "양조하다",
+          "examples": [
+            {
+              "sentence": "Brew coffee.",
+              "translation": "커피를 내리다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_bribe_660",
+      "word": "bribe",
+      "pronunciation": "/braɪb/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "뇌물을 주다",
+          "examples": [
+            {
+              "sentence": "Bribe an official.",
+              "translation": "공무원에게 뇌물을 주다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_broaden_661",
+      "word": "broaden",
+      "pronunciation": "/ˈbrɔːdn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "넓히다",
+          "examples": [
+            {
+              "sentence": "Broaden horizons.",
+              "translation": "시야를 넓히다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_commute_662",
+      "word": "commute",
+      "pronunciation": "/kəˈmjuːt/",
+      "subcategory": "# 일상생활 관련 동사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "통근하다",
+          "examples": [
+            {
+              "sentence": "I commute to work by subway every day.",
+              "translation": "저는 매일 지하철로 출근해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_unwind_663",
+      "word": "unwind",
+      "pronunciation": "/ʌnˈwaɪnd/",
+      "subcategory": "# 일상생활 관련 동사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "긴장을 풀다",
+          "examples": [
+            {
+              "sentence": "I like to unwind by watching movies after work.",
+              "translation": "퇴근 후 영화를 보면서 긴장을 풀어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_work_out_664",
+      "word": "work out",
+      "pronunciation": "/wɜːrk aʊt/",
+      "subcategory": "# 일상생활 관련 동사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "운동하다",
+          "examples": [
+            {
+              "sentence": "I work out at the gym three times a week.",
+              "translation": "일주일에 세 번 헬스장에서 운동해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_hang_out_665",
+      "word": "hang out",
+      "pronunciation": "/hæŋ aʊt/",
+      "subcategory": "# 일상생활 관련 동사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "시간을 보내다",
+          "examples": [
+            {
+              "sentence": "I often hang out with my friends on weekends.",
+              "translation": "주말에 친구들과 자주 어울려요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_binge-watch_666",
+      "word": "binge-watch",
+      "pronunciation": "/bɪndʒ wɑːtʃ/",
+      "subcategory": "# 일상생활 관련 동사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "몰아보다",
+          "examples": [
+            {
+              "sentence": "I binge-watched the entire series in one weekend.",
+              "translation": "주말에 시리즈 전체를 몰아봤어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_multitask_667",
+      "word": "multitask",
+      "pronunciation": "/ˌmʌltiˈtæsk/",
+      "subcategory": "# 일상생활 관련 동사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "여러 일을 동시에 하다",
+          "examples": [
+            {
+              "sentence": "I can multitask while listening to music.",
+              "translation": "음악을 들으면서 여러 일을 동시에 할 수 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_experience_668",
+      "word": "experience",
+      "pronunciation": "/ɪkˈspɪriəns/",
+      "subcategory": "# 경험/변화 관련 동사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "경험하다",
+          "examples": [
+            {
+              "sentence": "I experienced culture shock when I first moved abroad.",
+              "translation": "처음 해외로 이사했을 때 문화 충격을 경험했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_overcome_669",
+      "word": "overcome",
+      "pronunciation": "/ˌoʊvərˈkʌm/",
+      "subcategory": "# 경험/변화 관련 동사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "극복하다",
+          "examples": [
+            {
+              "sentence": "I managed to overcome my fear of public speaking.",
+              "translation": "대중 연설에 대한 두려움을 극복했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_struggle_670",
+      "word": "struggle",
+      "pronunciation": "/ˈstrʌɡl/",
+      "subcategory": "# 경험/변화 관련 동사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "애쓰다",
+          "examples": [
+            {
+              "sentence": "I struggled with math in high school.",
+              "translation": "고등학교 때 수학으로 고생했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_illustrate_671",
+      "word": "illustrate",
+      "pronunciation": "/ˈɪləstreɪt/",
+      "subcategory": "# 설명/묘사 동사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "예를 들어 설명하다",
+          "examples": [
+            {
+              "sentence": "Let me illustrate with an example.",
+              "translation": "예를 들어 설명해 드릴게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_elaborate_672",
+      "word": "elaborate",
+      "pronunciation": "/ɪˈlæbəreɪt/",
+      "subcategory": "# 설명/묘사 동사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "자세히 설명하다",
+          "examples": [
+            {
+              "sentence": "Could you elaborate on that point?",
+              "translation": "그 점에 대해 자세히 설명해 주시겠어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_specify_673",
+      "word": "specify",
+      "pronunciation": "/ˈspesɪfaɪ/",
+      "subcategory": "# 설명/묘사 동사",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "구체적으로 말하다",
+          "examples": [
+            {
+              "sentence": "I need to specify what I mean.",
+              "translation": "제 말의 의미를 구체적으로 말해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_acquire_674",
+      "word": "acquire",
+      "pronunciation": "",
+      "subcategory": "동사 - 일반 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "습득하다",
+          "examples": [
+            {
+              "sentence": "I acquired new skills.",
+              "translation": "새로운 기술을 습득했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_advance_675",
+      "word": "advance",
+      "pronunciation": "",
+      "subcategory": "동사 - 일반 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "발전하다",
+          "examples": [
+            {
+              "sentence": "Technology advances quickly.",
+              "translation": "기술이 빠르게 발전해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_afford_676",
+      "word": "afford",
+      "pronunciation": "",
+      "subcategory": "동사 - 일반 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~할 여유가 있다",
+          "examples": [
+            {
+              "sentence": "I can't afford a new car.",
+              "translation": "새 차를 살 여유가 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_attempt_677",
+      "word": "attempt",
+      "pronunciation": "",
+      "subcategory": "동사 - 일반 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "시도하다",
+          "examples": [
+            {
+              "sentence": "I attempted to fix it myself.",
+              "translation": "혼자 고쳐보려고 시도했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_acknowledge_678",
+      "word": "acknowledge",
+      "pronunciation": "",
+      "subcategory": "동사 - 의사소통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "인정하다",
+          "examples": [
+            {
+              "sentence": "I acknowledged my mistake.",
+              "translation": "내 실수를 인정했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_clarify_679",
+      "word": "clarify",
+      "pronunciation": "",
+      "subcategory": "동사 - 의사소통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "명확히 하다",
+          "examples": [
+            {
+              "sentence": "Let me clarify the situation.",
+              "translation": "상황을 명확히 할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_inform_680",
+      "word": "inform",
+      "pronunciation": "",
+      "subcategory": "동사 - 의사소통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "알리다",
+          "examples": [
+            {
+              "sentence": "Please inform me of any changes.",
+              "translation": "변경 사항이 있으면 알려주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_determine_681",
+      "word": "determine",
+      "pronunciation": "",
+      "subcategory": "동사 - 사고/판단",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "결정하다",
+          "examples": [
+            {
+              "sentence": "I need to determine the cause.",
+              "translation": "원인을 밝혀야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_distinguish_682",
+      "word": "distinguish",
+      "pronunciation": "",
+      "subcategory": "동사 - 사고/판단",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "구별하다",
+          "examples": [
+            {
+              "sentence": "It's hard to distinguish between them.",
+              "translation": "그것들을 구별하기 어려워요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_estimate_683",
+      "word": "estimate",
+      "pronunciation": "",
+      "subcategory": "동사 - 사고/판단",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "추정하다",
+          "examples": [
+            {
+              "sentence": "I estimate it will take two hours.",
+              "translation": "두 시간 정도 걸릴 것으로 추정해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_identify_684",
+      "word": "identify",
+      "pronunciation": "",
+      "subcategory": "동사 - 사고/판단",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "파악하다",
+          "examples": [
+            {
+              "sentence": "I identified the problem.",
+              "translation": "문제를 파악했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_interpret_685",
+      "word": "interpret",
+      "pronunciation": "",
+      "subcategory": "동사 - 사고/판단",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "해석하다",
+          "examples": [
+            {
+              "sentence": "I interpreted the message differently.",
+              "translation": "메시지를 다르게 해석했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_predict_686",
+      "word": "predict",
+      "pronunciation": "",
+      "subcategory": "동사 - 사고/판단",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "예측하다",
+          "examples": [
+            {
+              "sentence": "It's hard to predict the future.",
+              "translation": "미래를 예측하기 어려워요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_emphasize_687",
+      "word": "emphasize",
+      "pronunciation": "",
+      "subcategory": "추가 동사 - 의사소통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "강조하다",
+          "examples": [
+            {
+              "sentence": "I want to emphasize this point.",
+              "translation": "이 점을 강조하고 싶어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_summarize_688",
+      "word": "summarize",
+      "pronunciation": "",
+      "subcategory": "추가 동사 - 의사소통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "요약하다",
+          "examples": [
+            {
+              "sentence": "Can you summarize this?",
+              "translation": "이것을 요약해 줄 수 있어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_translate_689",
+      "word": "translate",
+      "pronunciation": "",
+      "subcategory": "추가 동사 - 의사소통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "번역하다",
+          "examples": [
+            {
+              "sentence": "Can you translate this?",
+              "translation": "이것을 번역해 줄 수 있어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_inquire_690",
+      "word": "inquire",
+      "pronunciation": "",
+      "subcategory": "추가 동사 - 의사소통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "문의하다",
+          "examples": [
+            {
+              "sentence": "I'd like to inquire about the price.",
+              "translation": "가격에 대해 문의하고 싶어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_interrupt_691",
+      "word": "interrupt",
+      "pronunciation": "",
+      "subcategory": "추가 동사 - 의사소통",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "방해하다",
+          "examples": [
+            {
+              "sentence": "Sorry to interrupt.",
+              "translation": "방해해서 죄송해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_define_692",
+      "word": "define",
+      "pronunciation": "",
+      "subcategory": "추가 동사 - 사고/판단",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "정의하다",
+          "examples": [
+            {
+              "sentence": "How do you define success?",
+              "translation": "성공을 어떻게 정의해요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_generate_693",
+      "word": "generate",
+      "pronunciation": "",
+      "subcategory": "추가 동사 - 행동/실행",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "생성하다",
+          "examples": [
+            {
+              "sentence": "We need to generate more ideas.",
+              "translation": "더 많은 아이디어를 생성해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_implement_694",
+      "word": "implement",
+      "pronunciation": "",
+      "subcategory": "추가 동사 - 행동/실행",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "실행하다",
+          "examples": [
+            {
+              "sentence": "We'll implement the plan.",
+              "translation": "계획을 실행할 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_obtain_695",
+      "word": "obtain",
+      "pronunciation": "",
+      "subcategory": "추가 동사 - 행동/실행",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "얻다",
+          "examples": [
+            {
+              "sentence": "I obtained permission.",
+              "translation": "허가를 얻었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_proceed_696",
+      "word": "proceed",
+      "pronunciation": "",
+      "subcategory": "추가 동사 - 행동/실행",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "진행하다",
+          "examples": [
+            {
+              "sentence": "Let's proceed with the plan.",
+              "translation": "계획을 진행해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_decline_697",
+      "word": "decline",
+      "pronunciation": "",
+      "subcategory": "추가 동사 - 변화/영향",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "감소하다",
+          "examples": [
+            {
+              "sentence": "Sales declined last month.",
+              "translation": "지난달 매출이 감소했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_eliminate_698",
+      "word": "eliminate",
+      "pronunciation": "",
+      "subcategory": "추가 동사 - 변화/영향",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "제거하다",
+          "examples": [
+            {
+              "sentence": "We eliminated the problem.",
+              "translation": "문제를 제거했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_enhance_699",
+      "word": "enhance",
+      "pronunciation": "",
+      "subcategory": "추가 동사 - 변화/영향",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "향상시키다",
+          "examples": [
+            {
+              "sentence": "I want to enhance my skills.",
+              "translation": "기술을 향상시키고 싶어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_accommodate_700",
+      "word": "accommodate",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "수용하다",
+          "examples": [
+            {
+              "sentence": "We can accommodate your request.",
+              "translation": "요청을 수용할 수 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_advocate_701",
+      "word": "advocate",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "옹호하다",
+          "examples": [
+            {
+              "sentence": "I advocate for equal rights.",
+              "translation": "평등한 권리를 옹호해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_anticipate_702",
+      "word": "anticipate",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "예상하다",
+          "examples": [
+            {
+              "sentence": "I anticipate some challenges.",
+              "translation": "몇 가지 어려움을 예상해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_compensate_703",
+      "word": "compensate",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "보상하다",
+          "examples": [
+            {
+              "sentence": "We will compensate for your loss.",
+              "translation": "손실을 보상해 드릴게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_compile_704",
+      "word": "compile",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "편집하다",
+          "examples": [
+            {
+              "sentence": "I compiled a list of resources.",
+              "translation": "자료 목록을 편집했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_compromise_705",
+      "word": "compromise",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "타협하다",
+          "examples": [
+            {
+              "sentence": "We need to compromise.",
+              "translation": "타협해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_conceive_706",
+      "word": "conceive",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "구상하다",
+          "examples": [
+            {
+              "sentence": "I conceived a new plan.",
+              "translation": "새 계획을 구상했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_consolidate_707",
+      "word": "consolidate",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "통합하다",
+          "examples": [
+            {
+              "sentence": "We consolidated our efforts.",
+              "translation": "노력을 통합했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_constitute_708",
+      "word": "constitute",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "구성하다",
+          "examples": [
+            {
+              "sentence": "This constitutes a violation.",
+              "translation": "이것은 위반을 구성해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_contemplate_709",
+      "word": "contemplate",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "숙고하다",
+          "examples": [
+            {
+              "sentence": "I'm contemplating a career change.",
+              "translation": "직업 전환을 숙고하고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_convey_710",
+      "word": "convey",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "전달하다",
+          "examples": [
+            {
+              "sentence": "I want to convey my appreciation.",
+              "translation": "감사를 전달하고 싶어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_delegate_711",
+      "word": "delegate",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "위임하다",
+          "examples": [
+            {
+              "sentence": "I delegated the task to my team.",
+              "translation": "팀에게 업무를 위임했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_derive_712",
+      "word": "derive",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "끌어내다",
+          "examples": [
+            {
+              "sentence": "I derive pleasure from helping others.",
+              "translation": "다른 사람을 돕는 것에서 기쁨을 얻어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_deteriorate_713",
+      "word": "deteriorate",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "악화되다",
+          "examples": [
+            {
+              "sentence": "The situation deteriorated.",
+              "translation": "상황이 악화됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_devote_714",
+      "word": "devote",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "바치다",
+          "examples": [
+            {
+              "sentence": "I devoted my time to studying.",
+              "translation": "공부에 시간을 바쳤어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_differentiate_715",
+      "word": "differentiate",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "구별하다",
+          "examples": [
+            {
+              "sentence": "It's important to differentiate between them.",
+              "translation": "그것들을 구별하는 것이 중요해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_diminish_716",
+      "word": "diminish",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "줄어들다",
+          "examples": [
+            {
+              "sentence": "My enthusiasm diminished.",
+              "translation": "열정이 줄어들었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_disregard_717",
+      "word": "disregard",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "무시하다",
+          "examples": [
+            {
+              "sentence": "You can't disregard the facts.",
+              "translation": "사실을 무시할 수 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_dominate_718",
+      "word": "dominate",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "지배하다",
+          "examples": [
+            {
+              "sentence": "She dominates the conversation.",
+              "translation": "그녀가 대화를 지배해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_embrace_719",
+      "word": "embrace",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "받아들이다",
+          "examples": [
+            {
+              "sentence": "I embrace change.",
+              "translation": "변화를 받아들여요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_emerge_720",
+      "word": "emerge",
+      "pronunciation": "",
+      "subcategory": "동사 - 고급 동작",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "나타나다",
+          "examples": [
+            {
+              "sentence": "A new trend emerged.",
+              "translation": "새로운 추세가 나타났어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_encompass_721",
+      "word": "encompass",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "포함하다",
+          "examples": [
+            {
+              "sentence": "This encompasses many topics.",
+              "translation": "이것은 많은 주제를 포함해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_ensure_722",
+      "word": "ensure",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "보장하다",
+          "examples": [
+            {
+              "sentence": "I'll ensure everything is ready.",
+              "translation": "모든 것이 준비되도록 보장할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_entail_723",
+      "word": "entail",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "수반하다",
+          "examples": [
+            {
+              "sentence": "This job entails travel.",
+              "translation": "이 일은 여행을 수반해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_exceed_724",
+      "word": "exceed",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "초과하다",
+          "examples": [
+            {
+              "sentence": "Sales exceeded expectations.",
+              "translation": "매출이 기대를 초과했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_exemplify_725",
+      "word": "exemplify",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "예시하다",
+          "examples": [
+            {
+              "sentence": "This exemplifies our values.",
+              "translation": "이것은 우리의 가치를 예시해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_exert_726",
+      "word": "exert",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "발휘하다",
+          "examples": [
+            {
+              "sentence": "I exerted all my effort.",
+              "translation": "모든 노력을 발휘했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_facilitate_727",
+      "word": "facilitate",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "촉진하다",
+          "examples": [
+            {
+              "sentence": "This will facilitate the process.",
+              "translation": "이것이 과정을 촉진할 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_fluctuate_728",
+      "word": "fluctuate",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "변동하다",
+          "examples": [
+            {
+              "sentence": "Prices fluctuate constantly.",
+              "translation": "가격이 끊임없이 변동해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_formulate_729",
+      "word": "formulate",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "공식화하다",
+          "examples": [
+            {
+              "sentence": "We formulated a plan.",
+              "translation": "계획을 공식화했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_incorporate_730",
+      "word": "incorporate",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "통합하다",
+          "examples": [
+            {
+              "sentence": "I incorporated your suggestions.",
+              "translation": "당신의 제안을 통합했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_inhibit_731",
+      "word": "inhibit",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "억제하다",
+          "examples": [
+            {
+              "sentence": "Fear inhibits creativity.",
+              "translation": "두려움이 창의성을 억제해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_initiate_732",
+      "word": "initiate",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "시작하다",
+          "examples": [
+            {
+              "sentence": "I initiated the conversation.",
+              "translation": "대화를 시작했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_integrate_733",
+      "word": "integrate",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "통합하다",
+          "examples": [
+            {
+              "sentence": "We integrated the systems.",
+              "translation": "시스템을 통합했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_manipulate_734",
+      "word": "manipulate",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "조작하다",
+          "examples": [
+            {
+              "sentence": "Don't manipulate the data.",
+              "translation": "데이터를 조작하지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_maximize_735",
+      "word": "maximize",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "극대화하다",
+          "examples": [
+            {
+              "sentence": "We need to maximize efficiency.",
+              "translation": "효율성을 극대화해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_minimize_736",
+      "word": "minimize",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "최소화하다",
+          "examples": [
+            {
+              "sentence": "Let's minimize risks.",
+              "translation": "위험을 최소화합시다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_optimize_737",
+      "word": "optimize",
+      "pronunciation": "",
+      "subcategory": "동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "최적화하다",
+          "examples": [
+            {
+              "sentence": "We optimized the process.",
+              "translation": "과정을 최적화했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_attribute_738",
+      "word": "attribute",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "귀속시키다",
+          "examples": [
+            {
+              "sentence": "I attribute success to hard work.",
+              "translation": "성공을 노력에 귀속시켜요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_comprise_739",
+      "word": "comprise",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "구성하다",
+          "examples": [
+            {
+              "sentence": "The team comprises 10 members.",
+              "translation": "팀은 10명으로 구성돼요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_contradict_740",
+      "word": "contradict",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "모순되다",
+          "examples": [
+            {
+              "sentence": "The evidence contradicts the claim.",
+              "translation": "증거가 주장과 모순돼요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_correlate_741",
+      "word": "correlate",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "상관관계가 있다",
+          "examples": [
+            {
+              "sentence": "The factors correlate.",
+              "translation": "요인들이 상관관계가 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_deduce_742",
+      "word": "deduce",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "추론하다",
+          "examples": [
+            {
+              "sentence": "I deduced the answer.",
+              "translation": "답을 추론했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_depict_743",
+      "word": "depict",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "묘사하다",
+          "examples": [
+            {
+              "sentence": "The painting depicts a scene.",
+              "translation": "그림이 장면을 묘사해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_discern_744",
+      "word": "discern",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "식별하다",
+          "examples": [
+            {
+              "sentence": "I couldn't discern the difference.",
+              "translation": "차이를 식별할 수 없었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_extract_745",
+      "word": "extract",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "추출하다",
+          "examples": [
+            {
+              "sentence": "I extracted the data.",
+              "translation": "데이터를 추출했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_infer_746",
+      "word": "infer",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "추론하다",
+          "examples": [
+            {
+              "sentence": "I inferred from the data.",
+              "translation": "데이터에서 추론했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_justify_747",
+      "word": "justify",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "정당화하다",
+          "examples": [
+            {
+              "sentence": "I can justify my decision.",
+              "translation": "내 결정을 정당화할 수 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_perceive_748",
+      "word": "perceive",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "인식하다",
+          "examples": [
+            {
+              "sentence": "I perceived a change.",
+              "translation": "변화를 인식했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_scrutinize_749",
+      "word": "scrutinize",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "면밀히 조사하다",
+          "examples": [
+            {
+              "sentence": "We scrutinized the document.",
+              "translation": "문서를 면밀히 조사했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_synthesize_750",
+      "word": "synthesize",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 분석/평가",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "종합하다",
+          "examples": [
+            {
+              "sentence": "I synthesized the findings.",
+              "translation": "발견을 종합했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_deploy_751",
+      "word": "deploy",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 실행/관리",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "배치하다",
+          "examples": [
+            {
+              "sentence": "We deployed new resources.",
+              "translation": "새 자원을 배치했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_enforce_752",
+      "word": "enforce",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 실행/관리",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "시행하다",
+          "examples": [
+            {
+              "sentence": "We enforce the rules strictly.",
+              "translation": "규칙을 엄격히 시행해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_mediate_753",
+      "word": "mediate",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 실행/관리",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "중재하다",
+          "examples": [
+            {
+              "sentence": "I'll mediate the dispute.",
+              "translation": "분쟁을 중재할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_monitor_754",
+      "word": "monitor",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 실행/관리",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "모니터링하다",
+          "examples": [
+            {
+              "sentence": "We monitor progress regularly.",
+              "translation": "진행 상황을 정기적으로 모니터링해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_prioritize_755",
+      "word": "prioritize",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 실행/관리",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "우선시하다",
+          "examples": [
+            {
+              "sentence": "I prioritize quality.",
+              "translation": "품질을 우선시해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_streamline_756",
+      "word": "streamline",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 실행/관리",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "간소화하다",
+          "examples": [
+            {
+              "sentence": "We streamlined operations.",
+              "translation": "운영을 간소화했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_terminate_757",
+      "word": "terminate",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 실행/관리",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "종료하다",
+          "examples": [
+            {
+              "sentence": "The contract was terminated.",
+              "translation": "계약이 종료됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_validate_758",
+      "word": "validate",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 실행/관리",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "검증하다",
+          "examples": [
+            {
+              "sentence": "We need to validate the data.",
+              "translation": "데이터를 검증해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_augment_759",
+      "word": "augment",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 영향/변화",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "증가시키다",
+          "examples": [
+            {
+              "sentence": "We augmented our resources.",
+              "translation": "자원을 증가시켰어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_catalyze_760",
+      "word": "catalyze",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 영향/변화",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "촉진하다",
+          "examples": [
+            {
+              "sentence": "This will catalyze change.",
+              "translation": "이것이 변화를 촉진할 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_constrain_761",
+      "word": "constrain",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 영향/변화",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "제약하다",
+          "examples": [
+            {
+              "sentence": "Budget constraints us.",
+              "translation": "예산이 우리를 제약해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_disrupt_762",
+      "word": "disrupt",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 영향/변화",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "방해하다",
+          "examples": [
+            {
+              "sentence": "Technology disrupted the industry.",
+              "translation": "기술이 산업을 방해했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_elevate_763",
+      "word": "elevate",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 영향/변화",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "올리다",
+          "examples": [
+            {
+              "sentence": "We elevated standards.",
+              "translation": "기준을 올렸어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_escalate_764",
+      "word": "escalate",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 영향/변화",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "확대하다",
+          "examples": [
+            {
+              "sentence": "The conflict escalated.",
+              "translation": "갈등이 확대됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_exacerbate_765",
+      "word": "exacerbate",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 영향/변화",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "악화시키다",
+          "examples": [
+            {
+              "sentence": "This will exacerbate the problem.",
+              "translation": "이것이 문제를 악화시킬 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_mitigate_766",
+      "word": "mitigate",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 영향/변화",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "완화하다",
+          "examples": [
+            {
+              "sentence": "We need to mitigate risks.",
+              "translation": "위험을 완화해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_proliferate_767",
+      "word": "proliferate",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 영향/변화",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "증식하다",
+          "examples": [
+            {
+              "sentence": "Such practices proliferated.",
+              "translation": "그런 관행이 증식했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_reinforce_768",
+      "word": "reinforce",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 영향/변화",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "강화하다",
+          "examples": [
+            {
+              "sentence": "This reinforces my point.",
+              "translation": "이것이 내 주장을 강화해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_suppress_769",
+      "word": "suppress",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 영향/변화",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "억제하다",
+          "examples": [
+            {
+              "sentence": "We suppressed the information.",
+              "translation": "정보를 억제했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_sustain_770",
+      "word": "sustain",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 영향/변화",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "유지하다",
+          "examples": [
+            {
+              "sentence": "We can't sustain this pace.",
+              "translation": "이 속도를 유지할 수 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_transcend_771",
+      "word": "transcend",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 영향/변화",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "초월하다",
+          "examples": [
+            {
+              "sentence": "This transcends boundaries.",
+              "translation": "이것이 경계를 초월해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_undermine_772",
+      "word": "undermine",
+      "pronunciation": "",
+      "subcategory": "추가 고급 동사 - 영향/변화",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "약화시키다",
+          "examples": [
+            {
+              "sentence": "This undermines our efforts.",
+              "translation": "이것이 우리 노력을 약화시켜요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_accommodate_773",
+      "word": "accommodate",
+      "pronunciation": "/əˈkɒmədeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "수용하다, 편의를 제공하다",
+          "examples": [
+            {
+              "sentence": "The hotel can accommodate up to 500 guests.",
+              "translation": "그 호텔은 최대 500명의 손님을 수용할 수 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_acquire_774",
+      "word": "acquire",
+      "pronunciation": "/əˈkwaɪər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "습득하다, 취득하다",
+          "examples": [
+            {
+              "sentence": "He acquired new skills through training.",
+              "translation": "그는 훈련을 통해 새로운 기술을 습득했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_advocate_775",
+      "word": "advocate",
+      "pronunciation": "/ˈædvəkeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "옹호하다, 지지하다",
+          "examples": [
+            {
+              "sentence": "She advocates for environmental protection.",
+              "translation": "그녀는 환경 보호를 옹호해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_anticipate_776",
+      "word": "anticipate",
+      "pronunciation": "/ænˈtɪsɪpeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "예상하다, 기대하다",
+          "examples": [
+            {
+              "sentence": "I anticipate some difficulties.",
+              "translation": "몇 가지 어려움이 예상돼요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_articulate_777",
+      "word": "articulate",
+      "pronunciation": "/ɑːˈtɪkjʊleɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "명확히 표현하다",
+          "examples": [
+            {
+              "sentence": "He articulated his thoughts clearly.",
+              "translation": "그는 자신의 생각을 명확하게 표현했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_assimilate_778",
+      "word": "assimilate",
+      "pronunciation": "/əˈsɪmɪleɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "동화되다, 흡수하다",
+          "examples": [
+            {
+              "sentence": "It takes time to assimilate new information.",
+              "translation": "새로운 정보를 흡수하는 데 시간이 걸려요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_authenticate_779",
+      "word": "authenticate",
+      "pronunciation": "/ɔːˈθentɪkeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "인증하다, 확인하다",
+          "examples": [
+            {
+              "sentence": "Please authenticate your identity.",
+              "translation": "신원을 인증해 주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_brainstorm_780",
+      "word": "brainstorm",
+      "pronunciation": "/ˈbreɪnstɔːm/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "브레인스토밍하다",
+          "examples": [
+            {
+              "sentence": "Let us brainstorm some ideas.",
+              "translation": "아이디어를 브레인스토밍해 봐요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_calibrate_781",
+      "word": "calibrate",
+      "pronunciation": "/ˈkælɪbreɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "보정하다, 조정하다",
+          "examples": [
+            {
+              "sentence": "You need to calibrate the instrument.",
+              "translation": "기기를 보정해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_capitalize_782",
+      "word": "capitalize",
+      "pronunciation": "/ˈkæpɪtəlaɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "활용하다, 대문자로 쓰다",
+          "examples": [
+            {
+              "sentence": "We should capitalize on this opportunity.",
+              "translation": "이 기회를 활용해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_clarify_783",
+      "word": "clarify",
+      "pronunciation": "/ˈklærɪfaɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "명확히 하다",
+          "examples": [
+            {
+              "sentence": "Could you clarify your point?",
+              "translation": "요점을 명확히 해 주시겠어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_commemorate_784",
+      "word": "commemorate",
+      "pronunciation": "/kəˈmeməreɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "기념하다",
+          "examples": [
+            {
+              "sentence": "We commemorate the anniversary every year.",
+              "translation": "매년 기념일을 기념해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_compensate_785",
+      "word": "compensate",
+      "pronunciation": "/ˈkɒmpenseɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "보상하다",
+          "examples": [
+            {
+              "sentence": "The company will compensate for the damage.",
+              "translation": "회사가 피해를 보상할 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_complement_786",
+      "word": "complement",
+      "pronunciation": "/ˈkɒmplɪment/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "보완하다",
+          "examples": [
+            {
+              "sentence": "The wine complements the meal perfectly.",
+              "translation": "와인이 식사를 완벽하게 보완해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_conceive_787",
+      "word": "conceive",
+      "pronunciation": "/kənˈsiːv/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "생각해내다, 임신하다",
+          "examples": [
+            {
+              "sentence": "I cannot conceive of such a thing.",
+              "translation": "그런 것은 상상할 수 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_condense_788",
+      "word": "condense",
+      "pronunciation": "/kənˈdens/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "압축하다, 요약하다",
+          "examples": [
+            {
+              "sentence": "Please condense the report to two pages.",
+              "translation": "보고서를 두 페이지로 요약해 주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_consolidate_789",
+      "word": "consolidate",
+      "pronunciation": "/kənˈsɒlɪdeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "통합하다, 강화하다",
+          "examples": [
+            {
+              "sentence": "We need to consolidate our position.",
+              "translation": "우리 위치를 강화해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_constitute_790",
+      "word": "constitute",
+      "pronunciation": "/ˈkɒnstɪtjuːt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "구성하다",
+          "examples": [
+            {
+              "sentence": "Women constitute 60% of our staff.",
+              "translation": "여성이 직원의 60%를 구성해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_contemplate_791",
+      "word": "contemplate",
+      "pronunciation": "/ˈkɒntəmpleɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "숙고하다, 고려하다",
+          "examples": [
+            {
+              "sentence": "I am contemplating a career change.",
+              "translation": "직업 변경을 고려하고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_contradict_792",
+      "word": "contradict",
+      "pronunciation": "/ˌkɒntrəˈdɪkt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "모순되다, 반박하다",
+          "examples": [
+            {
+              "sentence": "The evidence contradicts his statement.",
+              "translation": "증거가 그의 진술과 모순돼요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_convey_793",
+      "word": "convey",
+      "pronunciation": "/kənˈveɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "전달하다",
+          "examples": [
+            {
+              "sentence": "Please convey my regards to her.",
+              "translation": "그녀에게 안부를 전해 주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_correlate_794",
+      "word": "correlate",
+      "pronunciation": "/ˈkɒrəleɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "상관관계가 있다",
+          "examples": [
+            {
+              "sentence": "Stress correlates with health problems.",
+              "translation": "스트레스는 건강 문제와 상관관계가 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_culminate_795",
+      "word": "culminate",
+      "pronunciation": "/ˈkʌlmɪneɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "절정에 달하다",
+          "examples": [
+            {
+              "sentence": "The festival culminated in a fireworks display.",
+              "translation": "축제는 불꽃놀이로 절정에 달했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_curtail_796",
+      "word": "curtail",
+      "pronunciation": "/kɜːˈteɪl/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "축소하다, 삭감하다",
+          "examples": [
+            {
+              "sentence": "We had to curtail our spending.",
+              "translation": "지출을 줄여야 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_dedicate_797",
+      "word": "dedicate",
+      "pronunciation": "/ˈdedɪkeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "헌신하다, 바치다",
+          "examples": [
+            {
+              "sentence": "She dedicated her life to teaching.",
+              "translation": "그녀는 평생을 교육에 바쳤어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_delegate_798",
+      "word": "delegate",
+      "pronunciation": "/ˈdelɪɡeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "위임하다",
+          "examples": [
+            {
+              "sentence": "Learn to delegate tasks effectively.",
+              "translation": "효과적으로 업무를 위임하는 법을 배우세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_deteriorate_799",
+      "word": "deteriorate",
+      "pronunciation": "/dɪˈtɪərɪəreɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "악화되다",
+          "examples": [
+            {
+              "sentence": "His health deteriorated rapidly.",
+              "translation": "그의 건강이 급격히 악화됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_devise_800",
+      "word": "devise",
+      "pronunciation": "/dɪˈvaɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "고안하다",
+          "examples": [
+            {
+              "sentence": "We need to devise a new strategy.",
+              "translation": "새로운 전략을 고안해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_differentiate_801",
+      "word": "differentiate",
+      "pronunciation": "/ˌdɪfəˈrenʃieɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "구별하다",
+          "examples": [
+            {
+              "sentence": "Can you differentiate between them?",
+              "translation": "둘을 구별할 수 있어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_diminish_802",
+      "word": "diminish",
+      "pronunciation": "/dɪˈmɪnɪʃ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "줄어들다, 감소하다",
+          "examples": [
+            {
+              "sentence": "The pain will diminish over time.",
+              "translation": "통증은 시간이 지나면 줄어들 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_dispatch_803",
+      "word": "dispatch",
+      "pronunciation": "/dɪˈspætʃ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "발송하다, 파견하다",
+          "examples": [
+            {
+              "sentence": "The package was dispatched yesterday.",
+              "translation": "소포가 어제 발송됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_disseminate_804",
+      "word": "disseminate",
+      "pronunciation": "/dɪˈsemɪneɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "퍼뜨리다, 보급하다",
+          "examples": [
+            {
+              "sentence": "They disseminate information quickly.",
+              "translation": "그들은 정보를 빠르게 퍼뜨려요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_distinguish_805",
+      "word": "distinguish",
+      "pronunciation": "/dɪˈstɪŋɡwɪʃ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "구별하다",
+          "examples": [
+            {
+              "sentence": "Can you distinguish fact from fiction?",
+              "translation": "사실과 허구를 구별할 수 있어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_diversify_806",
+      "word": "diversify",
+      "pronunciation": "/daɪˈvɜːsɪfaɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "다양화하다",
+          "examples": [
+            {
+              "sentence": "We should diversify our investments.",
+              "translation": "투자를 다양화해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_dominate_807",
+      "word": "dominate",
+      "pronunciation": "/ˈdɒmɪneɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "지배하다",
+          "examples": [
+            {
+              "sentence": "One company dominates the market.",
+              "translation": "한 회사가 시장을 지배해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_elaborate_808",
+      "word": "elaborate",
+      "pronunciation": "/ɪˈlæbəreɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "상세히 설명하다",
+          "examples": [
+            {
+              "sentence": "Could you elaborate on that point?",
+              "translation": "그 점을 자세히 설명해 주시겠어요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_elicit_809",
+      "word": "elicit",
+      "pronunciation": "/ɪˈlɪsɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "이끌어내다",
+          "examples": [
+            {
+              "sentence": "The question elicited a strong response.",
+              "translation": "그 질문은 강한 반응을 이끌어냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_embark_810",
+      "word": "embark",
+      "pronunciation": "/ɪmˈbɑːk/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "착수하다, 승선하다",
+          "examples": [
+            {
+              "sentence": "We embarked on a new project.",
+              "translation": "새로운 프로젝트에 착수했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_emulate_811",
+      "word": "emulate",
+      "pronunciation": "/ˈemjʊleɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "모방하다, 따라하다",
+          "examples": [
+            {
+              "sentence": "She emulates her role model.",
+              "translation": "그녀는 롤모델을 따라해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_endorse_812",
+      "word": "endorse",
+      "pronunciation": "/ɪnˈdɔːs/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "지지하다, 보증하다",
+          "examples": [
+            {
+              "sentence": "The celebrity endorsed the product.",
+              "translation": "그 유명인이 제품을 홍보했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_envision_813",
+      "word": "envision",
+      "pronunciation": "/ɪnˈvɪʒn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "상상하다, 구상하다",
+          "examples": [
+            {
+              "sentence": "I envision a bright future.",
+              "translation": "밝은 미래를 상상해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_evade_814",
+      "word": "evade",
+      "pronunciation": "/ɪˈveɪd/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "회피하다, 피하다",
+          "examples": [
+            {
+              "sentence": "He tried to evade the question.",
+              "translation": "그는 질문을 회피하려 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_exempt_815",
+      "word": "exempt",
+      "pronunciation": "/ɪɡˈzempt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "면제하다",
+          "examples": [
+            {
+              "sentence": "Students are exempt from the fee.",
+              "translation": "학생들은 요금이 면제돼요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_expedite_816",
+      "word": "expedite",
+      "pronunciation": "/ˈekspədaɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "촉진하다, 신속히 처리하다",
+          "examples": [
+            {
+              "sentence": "We need to expedite the process.",
+              "translation": "절차를 신속히 처리해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_exploit_817",
+      "word": "exploit",
+      "pronunciation": "/ɪkˈsplɔɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "이용하다, 착취하다",
+          "examples": [
+            {
+              "sentence": "They exploit natural resources.",
+              "translation": "그들은 천연자원을 이용해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_fabricate_818",
+      "word": "fabricate",
+      "pronunciation": "/ˈfæbrɪkeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "조작하다, 제조하다",
+          "examples": [
+            {
+              "sentence": "He fabricated the story.",
+              "translation": "그는 이야기를 조작했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_foster_819",
+      "word": "foster",
+      "pronunciation": "/ˈfɒstər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "육성하다, 촉진하다",
+          "examples": [
+            {
+              "sentence": "We foster creativity here.",
+              "translation": "여기서 창의성을 육성해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_halt_820",
+      "word": "halt",
+      "pronunciation": "/hɔːlt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "멈추다, 중단하다",
+          "examples": [
+            {
+              "sentence": "Production halted temporarily.",
+              "translation": "생산이 일시적으로 중단됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_hamper_821",
+      "word": "hamper",
+      "pronunciation": "/ˈhæmpər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "방해하다",
+          "examples": [
+            {
+              "sentence": "Bad weather hampered our progress.",
+              "translation": "악천후가 진행을 방해했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_harness_822",
+      "word": "harness",
+      "pronunciation": "/ˈhɑːnɪs/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "이용하다, 활용하다",
+          "examples": [
+            {
+              "sentence": "Harness the power of technology.",
+              "translation": "기술의 힘을 활용하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_heighten_823",
+      "word": "heighten",
+      "pronunciation": "/ˈhaɪtn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "높이다, 강화하다",
+          "examples": [
+            {
+              "sentence": "This heightened my awareness.",
+              "translation": "이것이 인식을 높였어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_hinder_824",
+      "word": "hinder",
+      "pronunciation": "/ˈhɪndər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "방해하다, 저해하다",
+          "examples": [
+            {
+              "sentence": "Lack of funds hindered the project.",
+              "translation": "자금 부족이 프로젝트를 방해했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_hypothesize_825",
+      "word": "hypothesize",
+      "pronunciation": "/haɪˈpɒθəsaɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "가설을 세우다",
+          "examples": [
+            {
+              "sentence": "Scientists hypothesize about the cause.",
+              "translation": "과학자들이 원인에 대해 가설을 세워요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_illuminate_826",
+      "word": "illuminate",
+      "pronunciation": "/ɪˈluːmɪneɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "비추다, 밝히다",
+          "examples": [
+            {
+              "sentence": "The study illuminates the issue.",
+              "translation": "그 연구가 문제를 밝혀줘요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_impair_827",
+      "word": "impair",
+      "pronunciation": "/ɪmˈpeər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "손상시키다, 약화시키다",
+          "examples": [
+            {
+              "sentence": "Alcohol impairs judgment.",
+              "translation": "알코올이 판단력을 손상시켜요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_implicate_828",
+      "word": "implicate",
+      "pronunciation": "/ˈɪmplɪkeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "연루시키다, 암시하다",
+          "examples": [
+            {
+              "sentence": "The evidence implicates him.",
+              "translation": "증거가 그를 연루시켜요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_impose_829",
+      "word": "impose",
+      "pronunciation": "/ɪmˈpəʊz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "부과하다, 강요하다",
+          "examples": [
+            {
+              "sentence": "They imposed new restrictions.",
+              "translation": "새로운 제한을 부과했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_inaugurate_830",
+      "word": "inaugurate",
+      "pronunciation": "/ɪˈnɔːɡjʊreɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "취임시키다, 개시하다",
+          "examples": [
+            {
+              "sentence": "The president was inaugurated.",
+              "translation": "대통령이 취임했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_induce_831",
+      "word": "induce",
+      "pronunciation": "/ɪnˈdjuːs/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "유발하다, 유도하다",
+          "examples": [
+            {
+              "sentence": "Stress can induce headaches.",
+              "translation": "스트레스가 두통을 유발할 수 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_innovate_832",
+      "word": "innovate",
+      "pronunciation": "/ˈɪnəveɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "혁신하다",
+          "examples": [
+            {
+              "sentence": "Companies must innovate to survive.",
+              "translation": "기업은 생존하려면 혁신해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_inspect_833",
+      "word": "inspect",
+      "pronunciation": "/ɪnˈspekt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "검사하다, 점검하다",
+          "examples": [
+            {
+              "sentence": "Officials inspect the facility.",
+              "translation": "관리들이 시설을 점검해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_instigate_834",
+      "word": "instigate",
+      "pronunciation": "/ˈɪnstɪɡeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "선동하다, 촉발하다",
+          "examples": [
+            {
+              "sentence": "He instigated the argument.",
+              "translation": "그가 논쟁을 촉발했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_intensify_835",
+      "word": "intensify",
+      "pronunciation": "/ɪnˈtensɪfaɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "강화하다, 심화되다",
+          "examples": [
+            {
+              "sentence": "The competition intensified.",
+              "translation": "경쟁이 심화됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_intervene_836",
+      "word": "intervene",
+      "pronunciation": "/ˌɪntərˈviːn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "개입하다, 중재하다",
+          "examples": [
+            {
+              "sentence": "The government intervened.",
+              "translation": "정부가 개입했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_invoke_837",
+      "word": "invoke",
+      "pronunciation": "/ɪnˈvəʊk/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "호출하다, 발동하다",
+          "examples": [
+            {
+              "sentence": "He invoked his right to remain silent.",
+              "translation": "그는 묵비권을 행사했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_jeopardize_838",
+      "word": "jeopardize",
+      "pronunciation": "/ˈdʒepərdaɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "위태롭게 하다",
+          "examples": [
+            {
+              "sentence": "This could jeopardize our plans.",
+              "translation": "이것이 우리 계획을 위태롭게 할 수 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_magnify_839",
+      "word": "magnify",
+      "pronunciation": "/ˈmæɡnɪfaɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "확대하다, 과장하다",
+          "examples": [
+            {
+              "sentence": "The lens magnifies the image.",
+              "translation": "렌즈가 이미지를 확대해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_mobilize_840",
+      "word": "mobilize",
+      "pronunciation": "/ˈməʊbɪlaɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "동원하다",
+          "examples": [
+            {
+              "sentence": "They mobilized resources quickly.",
+              "translation": "자원을 빠르게 동원했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_navigate_841",
+      "word": "navigate",
+      "pronunciation": "/ˈnævɪɡeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "항해하다, 탐색하다",
+          "examples": [
+            {
+              "sentence": "Navigate through the menu.",
+              "translation": "메뉴를 탐색하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_neglect_842",
+      "word": "neglect",
+      "pronunciation": "/nɪˈɡlekt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "방치하다, 소홀히 하다",
+          "examples": [
+            {
+              "sentence": "Do not neglect your health.",
+              "translation": "건강을 소홀히 하지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_nominate_843",
+      "word": "nominate",
+      "pronunciation": "/ˈnɒmɪneɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "지명하다, 추천하다",
+          "examples": [
+            {
+              "sentence": "She was nominated for the award.",
+              "translation": "그녀가 상 후보로 지명됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_notify_844",
+      "word": "notify",
+      "pronunciation": "/ˈnəʊtɪfaɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "통지하다, 알리다",
+          "examples": [
+            {
+              "sentence": "Please notify us in advance.",
+              "translation": "미리 알려주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_nurture_845",
+      "word": "nurture",
+      "pronunciation": "/ˈnɜːtʃər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "양육하다, 육성하다",
+          "examples": [
+            {
+              "sentence": "Nurture your talents.",
+              "translation": "재능을 키우세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_obligate_846",
+      "word": "obligate",
+      "pronunciation": "/ˈɒblɪɡeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "의무를 지우다",
+          "examples": [
+            {
+              "sentence": "You are obligated to report.",
+              "translation": "보고할 의무가 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_occupy_847",
+      "word": "occupy",
+      "pronunciation": "/ˈɒkjʊpaɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "차지하다, 점령하다",
+          "examples": [
+            {
+              "sentence": "The meeting occupied my morning.",
+              "translation": "회의가 오전을 차지했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_offset_848",
+      "word": "offset",
+      "pronunciation": "/ˈɒfset/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "상쇄하다, 벌충하다",
+          "examples": [
+            {
+              "sentence": "Savings offset the costs.",
+              "translation": "절약분이 비용을 상쇄해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_originate_849",
+      "word": "originate",
+      "pronunciation": "/əˈrɪdʒɪneɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "유래하다, 발생하다",
+          "examples": [
+            {
+              "sentence": "The idea originated from her.",
+              "translation": "그 아이디어는 그녀에게서 나왔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_outweigh_850",
+      "word": "outweigh",
+      "pronunciation": "/ˌaʊtˈweɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "~보다 중요하다",
+          "examples": [
+            {
+              "sentence": "Benefits outweigh the costs.",
+              "translation": "이점이 비용보다 커요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_overlook_851",
+      "word": "overlook",
+      "pronunciation": "/ˌəʊvərˈlʊk/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "간과하다, 내려다보다",
+          "examples": [
+            {
+              "sentence": "Do not overlook small details.",
+              "translation": "작은 세부사항을 간과하지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_oversee_852",
+      "word": "oversee",
+      "pronunciation": "/ˌəʊvərˈsiː/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "감독하다",
+          "examples": [
+            {
+              "sentence": "She oversees the project.",
+              "translation": "그녀가 프로젝트를 감독해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_perpetuate_853",
+      "word": "perpetuate",
+      "pronunciation": "/pərˈpetʃueɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "영속시키다",
+          "examples": [
+            {
+              "sentence": "This perpetuates stereotypes.",
+              "translation": "이것이 고정관념을 영속시켜요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_persist_854",
+      "word": "persist",
+      "pronunciation": "/pərˈsɪst/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "지속하다, 고집하다",
+          "examples": [
+            {
+              "sentence": "The problem persists.",
+              "translation": "문제가 지속되고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_pertain_855",
+      "word": "pertain",
+      "pronunciation": "/pərˈteɪn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "관련되다",
+          "examples": [
+            {
+              "sentence": "Rules pertaining to safety.",
+              "translation": "안전과 관련된 규칙들이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_precipitate_856",
+      "word": "precipitate",
+      "pronunciation": "/prɪˈsɪpɪteɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "촉발하다, 앞당기다",
+          "examples": [
+            {
+              "sentence": "This precipitated the crisis.",
+              "translation": "이것이 위기를 촉발했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_predetermine_857",
+      "word": "predetermine",
+      "pronunciation": "/ˌpriːdɪˈtɜːmɪn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "미리 결정하다",
+          "examples": [
+            {
+              "sentence": "The outcome was predetermined.",
+              "translation": "결과가 미리 정해져 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_predominate_858",
+      "word": "predominate",
+      "pronunciation": "/prɪˈdɒmɪneɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "우세하다, 지배하다",
+          "examples": [
+            {
+              "sentence": "Blue colors predominate here.",
+              "translation": "여기서는 파란색이 우세해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_presume_859",
+      "word": "presume",
+      "pronunciation": "/prɪˈzjuːm/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "추정하다, 가정하다",
+          "examples": [
+            {
+              "sentence": "I presume you agree.",
+              "translation": "동의하시는 것으로 추정해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_proclaim_860",
+      "word": "proclaim",
+      "pronunciation": "/prəˈkleɪm/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "선언하다, 공표하다",
+          "examples": [
+            {
+              "sentence": "He proclaimed his innocence.",
+              "translation": "그는 자신의 무죄를 선언했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_procure_861",
+      "word": "procure",
+      "pronunciation": "/prəˈkjʊər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "획득하다, 조달하다",
+          "examples": [
+            {
+              "sentence": "We need to procure supplies.",
+              "translation": "물자를 조달해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_prolong_862",
+      "word": "prolong",
+      "pronunciation": "/prəˈlɒŋ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "연장하다",
+          "examples": [
+            {
+              "sentence": "Do not prolong the meeting.",
+              "translation": "회의를 연장하지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_promulgate_863",
+      "word": "promulgate",
+      "pronunciation": "/ˈprɒməlɡeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "공포하다, 보급하다",
+          "examples": [
+            {
+              "sentence": "The law was promulgated.",
+              "translation": "법이 공포됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_propagate_864",
+      "word": "propagate",
+      "pronunciation": "/ˈprɒpəɡeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "전파하다, 번식시키다",
+          "examples": [
+            {
+              "sentence": "Ideas propagate quickly online.",
+              "translation": "아이디어가 온라인에서 빠르게 퍼져요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_prosecute_865",
+      "word": "prosecute",
+      "pronunciation": "/ˈprɒsɪkjuːt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "기소하다, 수행하다",
+          "examples": [
+            {
+              "sentence": "They will prosecute the case.",
+              "translation": "그들이 사건을 기소할 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_provoke_866",
+      "word": "provoke",
+      "pronunciation": "/prəˈvəʊk/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "도발하다, 유발하다",
+          "examples": [
+            {
+              "sentence": "His comment provoked anger.",
+              "translation": "그의 발언이 분노를 유발했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_quantify_867",
+      "word": "quantify",
+      "pronunciation": "/ˈkwɒntɪfaɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "수량화하다",
+          "examples": [
+            {
+              "sentence": "It is hard to quantify emotions.",
+              "translation": "감정을 수량화하기 어려워요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_radiate_868",
+      "word": "radiate",
+      "pronunciation": "/ˈreɪdieɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "발산하다, 방사하다",
+          "examples": [
+            {
+              "sentence": "She radiates confidence.",
+              "translation": "그녀는 자신감을 발산해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_ratify_869",
+      "word": "ratify",
+      "pronunciation": "/ˈrætɪfaɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "비준하다, 승인하다",
+          "examples": [
+            {
+              "sentence": "The treaty was ratified.",
+              "translation": "조약이 비준됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_rationalize_870",
+      "word": "rationalize",
+      "pronunciation": "/ˈræʃənəlaɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "합리화하다",
+          "examples": [
+            {
+              "sentence": "He rationalized his behavior.",
+              "translation": "그는 자신의 행동을 합리화했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_reassure_871",
+      "word": "reassure",
+      "pronunciation": "/ˌriːəˈʃʊər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "안심시키다",
+          "examples": [
+            {
+              "sentence": "Let me reassure you.",
+              "translation": "안심시켜 드릴게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_rebuke_872",
+      "word": "rebuke",
+      "pronunciation": "/rɪˈbjuːk/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "꾸짖다, 비난하다",
+          "examples": [
+            {
+              "sentence": "She rebuked him for lying.",
+              "translation": "그녀가 거짓말한 그를 꾸짖었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_recede_873",
+      "word": "recede",
+      "pronunciation": "/rɪˈsiːd/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "물러나다, 후퇴하다",
+          "examples": [
+            {
+              "sentence": "The floodwaters receded.",
+              "translation": "홍수가 물러났어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_reconcile_874",
+      "word": "reconcile",
+      "pronunciation": "/ˈrekənsaɪl/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "화해시키다, 조화시키다",
+          "examples": [
+            {
+              "sentence": "They reconciled their differences.",
+              "translation": "그들은 차이를 조화시켰어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_rectify_875",
+      "word": "rectify",
+      "pronunciation": "/ˈrektɪfaɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "바로잡다, 수정하다",
+          "examples": [
+            {
+              "sentence": "We will rectify the error.",
+              "translation": "오류를 바로잡을 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_recuperate_876",
+      "word": "recuperate",
+      "pronunciation": "/rɪˈkuːpəreɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "회복하다",
+          "examples": [
+            {
+              "sentence": "She is recuperating at home.",
+              "translation": "그녀는 집에서 회복 중이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_redeem_877",
+      "word": "redeem",
+      "pronunciation": "/rɪˈdiːm/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "되찾다, 구속하다",
+          "examples": [
+            {
+              "sentence": "Redeem your coupon here.",
+              "translation": "여기서 쿠폰을 사용하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_refrain_878",
+      "word": "refrain",
+      "pronunciation": "/rɪˈfreɪn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "삼가다, 자제하다",
+          "examples": [
+            {
+              "sentence": "Please refrain from smoking.",
+              "translation": "흡연을 삼가주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_refute_879",
+      "word": "refute",
+      "pronunciation": "/rɪˈfjuːt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "반박하다",
+          "examples": [
+            {
+              "sentence": "He refuted the accusations.",
+              "translation": "그가 비난을 반박했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_reiterate_880",
+      "word": "reiterate",
+      "pronunciation": "/riːˈɪtəreɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "반복하다, 되풀이하다",
+          "examples": [
+            {
+              "sentence": "Let me reiterate my position.",
+              "translation": "제 입장을 다시 말씀드릴게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_relegate_881",
+      "word": "relegate",
+      "pronunciation": "/ˈrelɪɡeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "강등시키다, 위임하다",
+          "examples": [
+            {
+              "sentence": "The task was relegated to me.",
+              "translation": "그 업무가 저에게 위임됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_relinquish_882",
+      "word": "relinquish",
+      "pronunciation": "/rɪˈlɪŋkwɪʃ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "포기하다, 양도하다",
+          "examples": [
+            {
+              "sentence": "He relinquished control.",
+              "translation": "그가 통제권을 포기했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_relocate_883",
+      "word": "relocate",
+      "pronunciation": "/ˌriːləʊˈkeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "이전하다, 재배치하다",
+          "examples": [
+            {
+              "sentence": "We will relocate next month.",
+              "translation": "다음 달에 이전할 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_reminisce_884",
+      "word": "reminisce",
+      "pronunciation": "/ˌremɪˈnɪs/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "회상하다",
+          "examples": [
+            {
+              "sentence": "They reminisced about old times.",
+              "translation": "그들은 옛날을 회상했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_render_885",
+      "word": "render",
+      "pronunciation": "/ˈrendər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "제공하다, 표현하다",
+          "examples": [
+            {
+              "sentence": "The service was rendered promptly.",
+              "translation": "서비스가 신속하게 제공됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_renounce_886",
+      "word": "renounce",
+      "pronunciation": "/rɪˈnaʊns/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "포기하다, 부인하다",
+          "examples": [
+            {
+              "sentence": "He renounced his citizenship.",
+              "translation": "그가 시민권을 포기했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_renovate_887",
+      "word": "renovate",
+      "pronunciation": "/ˈrenəveɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "개조하다, 수리하다",
+          "examples": [
+            {
+              "sentence": "We plan to renovate the house.",
+              "translation": "집을 개조할 계획이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_replicate_888",
+      "word": "replicate",
+      "pronunciation": "/ˈreplɪkeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "복제하다, 재현하다",
+          "examples": [
+            {
+              "sentence": "We cannot replicate the results.",
+              "translation": "결과를 재현할 수 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_repudiate_889",
+      "word": "repudiate",
+      "pronunciation": "/rɪˈpjuːdieɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "거부하다, 부인하다",
+          "examples": [
+            {
+              "sentence": "She repudiated the allegations.",
+              "translation": "그녀가 혐의를 부인했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_resemble_890",
+      "word": "resemble",
+      "pronunciation": "/rɪˈzembl/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "닮다, 유사하다",
+          "examples": [
+            {
+              "sentence": "She resembles her mother.",
+              "translation": "그녀는 어머니를 닮았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_resent_891",
+      "word": "resent",
+      "pronunciation": "/rɪˈzent/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "분개하다, 원망하다",
+          "examples": [
+            {
+              "sentence": "He resents the criticism.",
+              "translation": "그는 비판에 분개해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_reside_892",
+      "word": "reside",
+      "pronunciation": "/rɪˈzaɪd/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "거주하다",
+          "examples": [
+            {
+              "sentence": "They reside in Seoul.",
+              "translation": "그들은 서울에 거주해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_retaliate_893",
+      "word": "retaliate",
+      "pronunciation": "/rɪˈtælieɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "보복하다",
+          "examples": [
+            {
+              "sentence": "They threatened to retaliate.",
+              "translation": "그들이 보복하겠다고 협박했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_retrieve_894",
+      "word": "retrieve",
+      "pronunciation": "/rɪˈtriːv/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "되찾다, 검색하다",
+          "examples": [
+            {
+              "sentence": "Retrieve the lost data.",
+              "translation": "손실된 데이터를 되찾으세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_revert_895",
+      "word": "revert",
+      "pronunciation": "/rɪˈvɜːt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "되돌아가다, 복귀하다",
+          "examples": [
+            {
+              "sentence": "The system reverted to default.",
+              "translation": "시스템이 기본값으로 돌아갔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_revitalize_896",
+      "word": "revitalize",
+      "pronunciation": "/riːˈvaɪtəlaɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "활성화하다, 되살리다",
+          "examples": [
+            {
+              "sentence": "We aim to revitalize the area.",
+              "translation": "지역을 활성화하려고 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_revoke_897",
+      "word": "revoke",
+      "pronunciation": "/rɪˈvəʊk/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "철회하다, 취소하다",
+          "examples": [
+            {
+              "sentence": "His license was revoked.",
+              "translation": "그의 면허가 취소됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_saturate_898",
+      "word": "saturate",
+      "pronunciation": "/ˈsætʃəreɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "포화시키다, 흠뻑 적시다",
+          "examples": [
+            {
+              "sentence": "The market is saturated.",
+              "translation": "시장이 포화됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_seclude_899",
+      "word": "seclude",
+      "pronunciation": "/sɪˈkluːd/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "격리하다, 은둔시키다",
+          "examples": [
+            {
+              "sentence": "She secluded herself from society.",
+              "translation": "그녀는 사회로부터 은둔했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_segregate_900",
+      "word": "segregate",
+      "pronunciation": "/ˈseɡrɪɡeɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "분리하다, 격리하다",
+          "examples": [
+            {
+              "sentence": "The areas were segregated.",
+              "translation": "구역들이 분리됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_simulate_901",
+      "word": "simulate",
+      "pronunciation": "/ˈsɪmjʊleɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "시뮬레이션하다, 모의 실험하다",
+          "examples": [
+            {
+              "sentence": "We simulated the scenario.",
+              "translation": "시나리오를 시뮬레이션했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_solicit_902",
+      "word": "solicit",
+      "pronunciation": "/səˈlɪsɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "간청하다, 권유하다",
+          "examples": [
+            {
+              "sentence": "They solicited donations.",
+              "translation": "그들이 기부를 권유했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_solidify_903",
+      "word": "solidify",
+      "pronunciation": "/səˈlɪdɪfaɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "굳히다, 공고히 하다",
+          "examples": [
+            {
+              "sentence": "This solidified her position.",
+              "translation": "이것이 그녀의 위치를 공고히 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_speculate_904",
+      "word": "speculate",
+      "pronunciation": "/ˈspekjʊleɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "추측하다, 투기하다",
+          "examples": [
+            {
+              "sentence": "Do not speculate without evidence.",
+              "translation": "증거 없이 추측하지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_stabilize_905",
+      "word": "stabilize",
+      "pronunciation": "/ˈsteɪbɪlaɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "안정시키다",
+          "examples": [
+            {
+              "sentence": "We need to stabilize the economy.",
+              "translation": "경제를 안정시켜야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_stagnate_906",
+      "word": "stagnate",
+      "pronunciation": "/ˈstæɡneɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "침체하다, 정체하다",
+          "examples": [
+            {
+              "sentence": "Growth has stagnated.",
+              "translation": "성장이 침체됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_standardize_907",
+      "word": "standardize",
+      "pronunciation": "/ˈstændərdaɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "표준화하다",
+          "examples": [
+            {
+              "sentence": "We standardized the process.",
+              "translation": "프로세스를 표준화했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_stimulate_908",
+      "word": "stimulate",
+      "pronunciation": "/ˈstɪmjʊleɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "자극하다, 촉진하다",
+          "examples": [
+            {
+              "sentence": "The policy stimulates growth.",
+              "translation": "정책이 성장을 촉진해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_stipulate_909",
+      "word": "stipulate",
+      "pronunciation": "/ˈstɪpjʊleɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "규정하다, 명시하다",
+          "examples": [
+            {
+              "sentence": "The contract stipulates the terms.",
+              "translation": "계약서가 조건을 명시해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_strive_910",
+      "word": "strive",
+      "pronunciation": "/straɪv/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "노력하다, 분투하다",
+          "examples": [
+            {
+              "sentence": "We strive for excellence.",
+              "translation": "우수함을 위해 노력해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_subdivide_911",
+      "word": "subdivide",
+      "pronunciation": "/ˌsʌbdɪˈvaɪd/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "세분하다",
+          "examples": [
+            {
+              "sentence": "The land was subdivided.",
+              "translation": "토지가 세분됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_subdue_912",
+      "word": "subdue",
+      "pronunciation": "/səbˈdjuː/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "진압하다, 억제하다",
+          "examples": [
+            {
+              "sentence": "Police subdued the suspect.",
+              "translation": "경찰이 용의자를 제압했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_submerge_913",
+      "word": "submerge",
+      "pronunciation": "/səbˈmɜːdʒ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "가라앉히다, 잠수시키다",
+          "examples": [
+            {
+              "sentence": "The boat was submerged.",
+              "translation": "배가 가라앉았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_subordinate_914",
+      "word": "subordinate",
+      "pronunciation": "/səˈbɔːdɪneɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "종속시키다, 부하",
+          "examples": [
+            {
+              "sentence": "Personal needs are subordinated.",
+              "translation": "개인적 필요가 후순위로 밀려요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_subsidize_915",
+      "word": "subsidize",
+      "pronunciation": "/ˈsʌbsɪdaɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "보조금을 주다",
+          "examples": [
+            {
+              "sentence": "The government subsidizes farmers.",
+              "translation": "정부가 농민들에게 보조금을 줘요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_substantiate_916",
+      "word": "substantiate",
+      "pronunciation": "/səbˈstænʃieɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "입증하다, 실체화하다",
+          "examples": [
+            {
+              "sentence": "We need to substantiate the claim.",
+              "translation": "주장을 입증해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_subtract_917",
+      "word": "subtract",
+      "pronunciation": "/səbˈtrækt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "빼다, 공제하다",
+          "examples": [
+            {
+              "sentence": "Subtract the expenses.",
+              "translation": "비용을 빼세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_suffice_918",
+      "word": "suffice",
+      "pronunciation": "/səˈfaɪs/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "충분하다",
+          "examples": [
+            {
+              "sentence": "This will suffice for now.",
+              "translation": "지금은 이것으로 충분해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_supersede_919",
+      "word": "supersede",
+      "pronunciation": "/ˌsuːpərˈsiːd/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "대체하다, 대신하다",
+          "examples": [
+            {
+              "sentence": "New rules supersede old ones.",
+              "translation": "새 규칙이 옛 규칙을 대체해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_surpass_920",
+      "word": "surpass",
+      "pronunciation": "/sərˈpɑːs/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "능가하다, 초월하다",
+          "examples": [
+            {
+              "sentence": "Results surpassed expectations.",
+              "translation": "결과가 기대를 능가했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_surrender_921",
+      "word": "surrender",
+      "pronunciation": "/səˈrendər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "항복하다, 포기하다",
+          "examples": [
+            {
+              "sentence": "They surrendered peacefully.",
+              "translation": "그들은 평화롭게 항복했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_symbolize_922",
+      "word": "symbolize",
+      "pronunciation": "/ˈsɪmbəlaɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "상징하다",
+          "examples": [
+            {
+              "sentence": "The flag symbolizes freedom.",
+              "translation": "깃발이 자유를 상징해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_synchronize_923",
+      "word": "synchronize",
+      "pronunciation": "/ˈsɪŋkrənaɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "동기화하다",
+          "examples": [
+            {
+              "sentence": "Synchronize your watches.",
+              "translation": "시계를 동기화하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_tabulate_924",
+      "word": "tabulate",
+      "pronunciation": "/ˈtæbjʊleɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "표로 만들다, 집계하다",
+          "examples": [
+            {
+              "sentence": "Tabulate the results.",
+              "translation": "결과를 표로 만드세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_tally_925",
+      "word": "tally",
+      "pronunciation": "/ˈtæli/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "집계하다, 일치하다",
+          "examples": [
+            {
+              "sentence": "The numbers do not tally.",
+              "translation": "숫자가 일치하지 않아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_tarnish_926",
+      "word": "tarnish",
+      "pronunciation": "/ˈtɑːnɪʃ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "변색시키다, 손상시키다",
+          "examples": [
+            {
+              "sentence": "This tarnished his reputation.",
+              "translation": "이것이 그의 명성을 손상시켰어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_testify_927",
+      "word": "testify",
+      "pronunciation": "/ˈtestɪfaɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "증언하다",
+          "examples": [
+            {
+              "sentence": "She testified in court.",
+              "translation": "그녀가 법정에서 증언했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_theorize_928",
+      "word": "theorize",
+      "pronunciation": "/ˈθɪəraɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "이론화하다",
+          "examples": [
+            {
+              "sentence": "Scientists theorize about it.",
+              "translation": "과학자들이 그것에 대해 이론화해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_tolerate_929",
+      "word": "tolerate",
+      "pronunciation": "/ˈtɒləreɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "참다, 용인하다",
+          "examples": [
+            {
+              "sentence": "I cannot tolerate rudeness.",
+              "translation": "무례함을 참을 수 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_transcribe_930",
+      "word": "transcribe",
+      "pronunciation": "/trænˈskraɪb/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "베껴 쓰다, 전사하다",
+          "examples": [
+            {
+              "sentence": "Transcribe the audio recording.",
+              "translation": "오디오 녹음을 전사하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_transgress_931",
+      "word": "transgress",
+      "pronunciation": "/trænzˈɡres/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "위반하다, 범하다",
+          "examples": [
+            {
+              "sentence": "Do not transgress the rules.",
+              "translation": "규칙을 위반하지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_transmit_932",
+      "word": "transmit",
+      "pronunciation": "/trænzˈmɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "전송하다, 전달하다",
+          "examples": [
+            {
+              "sentence": "The signal was transmitted.",
+              "translation": "신호가 전송됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_traverse_933",
+      "word": "traverse",
+      "pronunciation": "/trəˈvɜːs/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "가로지르다, 횡단하다",
+          "examples": [
+            {
+              "sentence": "We traversed the mountain.",
+              "translation": "산을 가로질렀어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_trigger_934",
+      "word": "trigger",
+      "pronunciation": "/ˈtrɪɡər/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "유발하다, 촉발하다",
+          "examples": [
+            {
+              "sentence": "This triggered a debate.",
+              "translation": "이것이 논쟁을 유발했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_undertake_935",
+      "word": "undertake",
+      "pronunciation": "/ˌʌndərˈteɪk/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "맡다, 착수하다",
+          "examples": [
+            {
+              "sentence": "We undertook the project.",
+              "translation": "프로젝트를 맡았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_unearth_936",
+      "word": "unearth",
+      "pronunciation": "/ʌnˈɜːθ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "발굴하다, 밝혀내다",
+          "examples": [
+            {
+              "sentence": "They unearthed ancient ruins.",
+              "translation": "고대 유적을 발굴했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_unfold_937",
+      "word": "unfold",
+      "pronunciation": "/ʌnˈfəʊld/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "펼치다, 전개되다",
+          "examples": [
+            {
+              "sentence": "Events unfolded quickly.",
+              "translation": "사건이 빠르게 전개됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_unify_938",
+      "word": "unify",
+      "pronunciation": "/ˈjuːnɪfaɪ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "통일하다, 통합하다",
+          "examples": [
+            {
+              "sentence": "We need to unify our approach.",
+              "translation": "접근법을 통일해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_unleash_939",
+      "word": "unleash",
+      "pronunciation": "/ʌnˈliːʃ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "풀어놓다, 해방하다",
+          "examples": [
+            {
+              "sentence": "They unleashed their creativity.",
+              "translation": "그들은 창의력을 발휘했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_unravel_940",
+      "word": "unravel",
+      "pronunciation": "/ʌnˈrævl/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "풀다, 해명하다",
+          "examples": [
+            {
+              "sentence": "We unraveled the mystery.",
+              "translation": "미스터리를 풀었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_uphold_941",
+      "word": "uphold",
+      "pronunciation": "/ʌpˈhəʊld/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "지지하다, 유지하다",
+          "examples": [
+            {
+              "sentence": "We uphold these values.",
+              "translation": "이 가치들을 지지해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_uplift_942",
+      "word": "uplift",
+      "pronunciation": "/ʌpˈlɪft/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "들어 올리다, 고양하다",
+          "examples": [
+            {
+              "sentence": "Music uplifts the spirit.",
+              "translation": "음악이 정신을 고양해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_utilize_943",
+      "word": "utilize",
+      "pronunciation": "/ˈjuːtɪlaɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "활용하다, 이용하다",
+          "examples": [
+            {
+              "sentence": "Utilize all available resources.",
+              "translation": "가용 자원을 모두 활용하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_venerate_944",
+      "word": "venerate",
+      "pronunciation": "/ˈvenəreɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "숭배하다, 존경하다",
+          "examples": [
+            {
+              "sentence": "They venerate their ancestors.",
+              "translation": "그들은 조상을 숭배해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_violate_945",
+      "word": "violate",
+      "pronunciation": "/ˈvaɪəleɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "위반하다, 침해하다",
+          "examples": [
+            {
+              "sentence": "This violates the agreement.",
+              "translation": "이것은 합의를 위반해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_visualize_946",
+      "word": "visualize",
+      "pronunciation": "/ˈvɪʒuəlaɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "시각화하다, 상상하다",
+          "examples": [
+            {
+              "sentence": "Visualize your goals.",
+              "translation": "목표를 시각화하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_vocalize_947",
+      "word": "vocalize",
+      "pronunciation": "/ˈvəʊkəlaɪz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "말로 표현하다, 발성하다",
+          "examples": [
+            {
+              "sentence": "She vocalized her concerns.",
+              "translation": "그녀가 우려를 말로 표현했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_warrant_948",
+      "word": "warrant",
+      "pronunciation": "/ˈwɒrənt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "정당화하다, 보증하다",
+          "examples": [
+            {
+              "sentence": "This warrants further investigation.",
+              "translation": "이것은 추가 조사가 필요해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_withhold_949",
+      "word": "withhold",
+      "pronunciation": "/wɪðˈhəʊld/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "보류하다, 억제하다",
+          "examples": [
+            {
+              "sentence": "They withheld information.",
+              "translation": "그들은 정보를 보류했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_withstand_950",
+      "word": "withstand",
+      "pronunciation": "/wɪðˈstænd/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "견디다, 저항하다",
+          "examples": [
+            {
+              "sentence": "The building can withstand earthquakes.",
+              "translation": "건물이 지진을 견딜 수 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_yield_951",
+      "word": "yield",
+      "pronunciation": "/jiːld/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "생산하다, 양보하다",
+          "examples": [
+            {
+              "sentence": "The investment yields returns.",
+              "translation": "투자가 수익을 내요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_barren_952",
+      "word": "barren",
+      "pronunciation": "/ˈbærən/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "불모의, 메마른",
+          "examples": [
+            {
+              "sentence": "Barren land.",
+              "translation": "불모지예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_compassionate_953",
+      "word": "compassionate",
+      "pronunciation": "/kəmˈpæʃənət/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "동정심 많은",
+          "examples": [
+            {
+              "sentence": "A compassionate response.",
+              "translation": "동정심 어린 반응이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_consummate_954",
+      "word": "consummate",
+      "pronunciation": "/ˈkɒnsəmət/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "완벽한, 최고의",
+          "examples": [
+            {
+              "sentence": "A consummate professional.",
+              "translation": "완벽한 전문가예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_corporate_955",
+      "word": "corporate",
+      "pronunciation": "/ˈkɔːpərət/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "기업의",
+          "examples": [
+            {
+              "sentence": "Corporate culture.",
+              "translation": "기업 문화예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_confine_956",
+      "word": "confine",
+      "pronunciation": "/kənˈfaɪn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "제한하다, 가두다",
+          "examples": [
+            {
+              "sentence": "Please confine your remarks to the topic.",
+              "translation": "발언을 주제에 한정해 주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_disclose_957",
+      "word": "disclose",
+      "pronunciation": "/dɪsˈkləʊz/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "공개하다, 밝히다",
+          "examples": [
+            {
+              "sentence": "He refused to disclose the information.",
+              "translation": "그는 정보 공개를 거부했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_embed_958",
+      "word": "embed",
+      "pronunciation": "/ɪmˈbed/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "삽입하다, 심다",
+          "examples": [
+            {
+              "sentence": "The video is embedded in the page.",
+              "translation": "비디오가 페이지에 삽입되어 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_grasp_959",
+      "word": "grasp",
+      "pronunciation": "/ɡrɑːsp/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "이해하다, 붙잡다",
+          "examples": [
+            {
+              "sentence": "I finally grasped the concept.",
+              "translation": "드디어 개념을 이해했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_immerse_960",
+      "word": "immerse",
+      "pronunciation": "/ɪˈmɜːs/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "몰입시키다, 담그다",
+          "examples": [
+            {
+              "sentence": "Immerse yourself in the culture.",
+              "translation": "문화에 몰입하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_incite_961",
+      "word": "incite",
+      "pronunciation": "/ɪnˈsaɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "선동하다, 부추기다",
+          "examples": [
+            {
+              "sentence": "His speech incited the crowd.",
+              "translation": "그의 연설이 군중을 선동했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_intercept_962",
+      "word": "intercept",
+      "pronunciation": "/ˌɪntərˈsept/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "가로채다",
+          "examples": [
+            {
+              "sentence": "The message was intercepted.",
+              "translation": "메시지가 가로채졌어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_merge_963",
+      "word": "merge",
+      "pronunciation": "/mɜːdʒ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "합병하다, 합치다",
+          "examples": [
+            {
+              "sentence": "The two companies merged.",
+              "translation": "두 회사가 합병했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_obstruct_964",
+      "word": "obstruct",
+      "pronunciation": "/əbˈstrʌkt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "방해하다, 막다",
+          "examples": [
+            {
+              "sentence": "Do not obstruct the entrance.",
+              "translation": "입구를 막지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_omit_965",
+      "word": "omit",
+      "pronunciation": "/əˈmɪt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "생략하다, 빠뜨리다",
+          "examples": [
+            {
+              "sentence": "Do not omit any details.",
+              "translation": "어떤 세부사항도 빠뜨리지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_orient_966",
+      "word": "orient",
+      "pronunciation": "/ˈɔːrient/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "적응시키다, 방향을 잡다",
+          "examples": [
+            {
+              "sentence": "Help new employees orient.",
+              "translation": "신입 직원들이 적응하도록 도와주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_precede_967",
+      "word": "precede",
+      "pronunciation": "/prɪˈsiːd/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "선행하다, 앞서다",
+          "examples": [
+            {
+              "sentence": "Planning precedes execution.",
+              "translation": "계획이 실행에 앞서요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_prevail_968",
+      "word": "prevail",
+      "pronunciation": "/prɪˈveɪl/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "우세하다, 이기다",
+          "examples": [
+            {
+              "sentence": "Justice will prevail.",
+              "translation": "정의가 승리할 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_propel_969",
+      "word": "propel",
+      "pronunciation": "/prəˈpel/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "추진하다, 밀다",
+          "examples": [
+            {
+              "sentence": "Success propelled her career.",
+              "translation": "성공이 그녀의 경력을 추진했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_pursue_970",
+      "word": "pursue",
+      "pronunciation": "/pərˈsjuː/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "추구하다, 쫓다",
+          "examples": [
+            {
+              "sentence": "Pursue your dreams.",
+              "translation": "꿈을 추구하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_refine_971",
+      "word": "refine",
+      "pronunciation": "/rɪˈfaɪn/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "정제하다, 다듬다",
+          "examples": [
+            {
+              "sentence": "We need to refine our approach.",
+              "translation": "접근 방식을 다듬어야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_replenish_972",
+      "word": "replenish",
+      "pronunciation": "/rɪˈplenɪʃ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "보충하다, 다시 채우다",
+          "examples": [
+            {
+              "sentence": "Replenish the supplies.",
+              "translation": "물자를 보충하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_reprimand_973",
+      "word": "reprimand",
+      "pronunciation": "/ˈreprɪmɑːnd/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "질책하다, 꾸짖다",
+          "examples": [
+            {
+              "sentence": "He was reprimanded by his boss.",
+              "translation": "그가 상사에게 질책당했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_sprawl_974",
+      "word": "sprawl",
+      "pronunciation": "/sprɔːl/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "뻗어나가다, 아무렇게나 눕다",
+          "examples": [
+            {
+              "sentence": "The city sprawls across the valley.",
+              "translation": "도시가 계곡을 가로질러 뻗어 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_surmount_975",
+      "word": "surmount",
+      "pronunciation": "/sərˈmaʊnt/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "극복하다, 넘다",
+          "examples": [
+            {
+              "sentence": "We surmounted all obstacles.",
+              "translation": "모든 장애물을 극복했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_suspend_976",
+      "word": "suspend",
+      "pronunciation": "/səˈspend/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "중단하다, 매달다",
+          "examples": [
+            {
+              "sentence": "Operations were suspended.",
+              "translation": "운영이 중단됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_trace_977",
+      "word": "trace",
+      "pronunciation": "/treɪs/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "추적하다, 흔적",
+          "examples": [
+            {
+              "sentence": "We traced the origin.",
+              "translation": "기원을 추적했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_underscore_978",
+      "word": "underscore",
+      "pronunciation": "/ˌʌndərˈskɔːr/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "강조하다, 밑줄 긋다",
+          "examples": [
+            {
+              "sentence": "I want to underscore this point.",
+              "translation": "이 점을 강조하고 싶어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_undo_979",
+      "word": "undo",
+      "pronunciation": "/ʌnˈduː/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "취소하다, 풀다",
+          "examples": [
+            {
+              "sentence": "You cannot undo the damage.",
+              "translation": "피해를 되돌릴 수 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_unveil_980",
+      "word": "unveil",
+      "pronunciation": "/ʌnˈveɪl/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "공개하다, 베일을 벗기다",
+          "examples": [
+            {
+              "sentence": "They unveiled the new product.",
+              "translation": "새 제품을 공개했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs_vanquish_981",
+      "word": "vanquish",
+      "pronunciation": "/ˈvæŋkwɪʃ/",
+      "subcategory": "고급 어휘",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "meaning": "정복하다, 물리치다",
+          "examples": [
+            {
+              "sentence": "They vanquished their enemies.",
+              "translation": "그들은 적들을 물리쳤어요."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

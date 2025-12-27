@@ -8,7 +8,7 @@ const VocabData = {
     tts: {
         synth: window.speechSynthesis,
         voice: null,
-        rate: 0.9,
+        rate: 1.0,
         pitch: 1,
 
         init() {
@@ -44,8 +44,12 @@ const VocabData = {
             utterance.rate = this.rate;
             utterance.pitch = this.pitch;
 
-            if (lang === 'en-US' && this.voice) {
-                utterance.voice = this.voice;
+            // Find appropriate voice for the language
+            const voices = this.synth.getVoices();
+            const langVoice = voices.find(v => v.lang === lang) ||
+                              voices.find(v => v.lang.startsWith(lang.split('-')[0]));
+            if (langVoice) {
+                utterance.voice = langVoice;
             }
 
             this.synth.speak(utterance);
