@@ -4,35 +4,165 @@ const VocabData = {
     allWords: [],
     loaded: false,
 
-    // TTS (Text-to-Speech) functionality
+    // TTS (Text-to-Speech) functionality - Android/iOS 모바일 최적화
     tts: {
         synth: window.speechSynthesis,
-        voice: null,
+        voices: [],
+        voiceCache: {},
+        voicesLoaded: false,
+        voicesLoadRetries: 0,
         rate: 1.0,
         pitch: 1,
+        lastWarningLang: null,
+        isIOS: /iPad|iPhone|iPod/.test(navigator.userAgent),
+        isAndroid: /Android/.test(navigator.userAgent),
 
-        init() {
-            // Load saved TTS speed from localStorage
-            try {
-                const savedSpeed = localStorage.getItem('ttsSpeed');
-                if (savedSpeed) {
-                    this.rate = parseFloat(savedSpeed);
-                }
-            } catch (e) {
-                console.error('Error loading TTS speed:', e);
-            }
+        // 언어 코드 정규화 (Android: ja_JP, iOS: ja-JP)
+        normalizeLanguageCode(lang) {
+            if (!lang) return 'en-US';
+            return lang.replace('_', '-');
+        },
 
-            const loadVoices = () => {
-                const voices = this.synth.getVoices();
-                this.voice = voices.find(v => v.lang.startsWith('en-US')) ||
-                             voices.find(v => v.lang.startsWith('en')) ||
-                             voices[0];
+        // 기본 언어 코드 추출 (ja-JP -> ja)
+        getBaseLang(lang) {
+            return lang.split('-')[0].split('_')[0].toLowerCase();
+        },
+
+        // 언어별 대체 코드 (Android/iOS TTS 엔진별 차이 대응)
+        getLanguageVariants(lang) {
+            const baseLang = this.getBaseLang(lang);
+            const variants = [lang, lang.replace('-', '_'), baseLang];
+
+            const langVariantMap = {
+                'ja': ['ja-JP', 'ja_JP', 'jpn', 'jpn-JPN', 'ja-jp'],
+                'zh': ['zh-CN', 'zh_CN', 'zh-TW', 'zh_TW', 'cmn-Hans-CN', 'cmn-Hant-TW'],
+                'ko': ['ko-KR', 'ko_KR', 'kor', 'ko-kr'],
+                'en': ['en-US', 'en_US', 'en-GB', 'en_GB', 'eng'],
+                'es': ['es-ES', 'es_ES', 'es-MX', 'spa'],
+                'fr': ['fr-FR', 'fr_FR', 'fr-CA', 'fra'],
+                'de': ['de-DE', 'de_DE', 'deu'],
+                'vi': ['vi-VN', 'vi_VN', 'vie'],
+                'th': ['th-TH', 'th_TH', 'tha'],
+                'id': ['id-ID', 'id_ID', 'ind'],
+                'it': ['it-IT', 'it_IT', 'ita'],
+                'pt': ['pt-BR', 'pt_BR', 'pt-PT', 'por'],
+                'ru': ['ru-RU', 'ru_RU', 'rus'],
             };
 
-            if (this.synth.getVoices().length) {
-                loadVoices();
+            if (langVariantMap[baseLang]) {
+                variants.push(...langVariantMap[baseLang]);
             }
-            this.synth.onvoiceschanged = loadVoices;
+            return [...new Set(variants)];
+        },
+
+        init() {
+            try {
+                const savedSpeed = localStorage.getItem('ttsSpeed');
+                if (savedSpeed) this.rate = parseFloat(savedSpeed);
+            } catch (e) {
+                console.error('TTS 속도 로드 오류:', e);
+            }
+
+            this.loadVoices();
+
+            if (this.synth) {
+                this.synth.onvoiceschanged = () => this.loadVoices();
+            }
+
+            // iOS Safari: 첫 사용자 상호작용 후 음성 로드
+            if (this.isIOS) {
+                const initIOSVoices = () => {
+                    this.loadVoices();
+                    document.removeEventListener('touchstart', initIOSVoices);
+                    document.removeEventListener('click', initIOSVoices);
+                };
+                document.addEventListener('touchstart', initIOSVoices, { once: true });
+                document.addEventListener('click', initIOSVoices, { once: true });
+            }
+        },
+
+        loadVoices() {
+            if (!this.synth) return;
+
+            const voices = this.synth.getVoices();
+            if (voices.length > 0) {
+                this.voices = voices;
+                this.voicesLoaded = true;
+                this.voiceCache = {};
+
+                console.log('📢 TTS 음성 로드됨 (' + (this.isIOS ? 'iOS' : this.isAndroid ? 'Android' : 'Desktop') + '): ' + voices.length + '개');
+                const langGroups = {};
+                voices.forEach(v => {
+                    const baseLang = this.getBaseLang(v.lang);
+                    if (!langGroups[baseLang]) langGroups[baseLang] = [];
+                    langGroups[baseLang].push(v.name.substring(0, 15) + '(' + v.lang + ')');
+                });
+                Object.keys(langGroups).sort().forEach(lang => {
+                    console.log('  ' + lang + ': ' + langGroups[lang].slice(0, 2).join(', '));
+                });
+            } else if (this.voicesLoadRetries < 5) {
+                this.voicesLoadRetries++;
+                setTimeout(() => this.loadVoices(), 200 * this.voicesLoadRetries);
+            }
+        },
+
+        // 언어에 맞는 최적 음성 찾기
+        findVoiceForLanguage(lang) {
+            const normalizedLang = this.normalizeLanguageCode(lang);
+
+            if (this.voiceCache[normalizedLang] !== undefined) {
+                return this.voiceCache[normalizedLang];
+            }
+
+            const voices = this.synth.getVoices();
+            if (!voices || voices.length === 0) return null;
+
+            const variants = this.getLanguageVariants(normalizedLang);
+            let foundVoice = null;
+
+            // 1. 정확한 언어 코드 매칭
+            for (const variant of variants) {
+                const nv = this.normalizeLanguageCode(variant).toLowerCase();
+                foundVoice = voices.find(v => this.normalizeLanguageCode(v.lang).toLowerCase() === nv);
+                if (foundVoice) break;
+            }
+
+            // 2. 기본 언어 코드로 시작하는 음성
+            if (!foundVoice) {
+                const baseLang = this.getBaseLang(normalizedLang);
+                foundVoice = voices.find(v => this.getBaseLang(v.lang) === baseLang);
+            }
+
+            // 3. 음성 이름에 언어명이 포함된 경우 (모든 지원 언어)
+            if (!foundVoice) {
+                const langNamePatterns = {
+                    'en': ['english', 'samantha', 'alex', 'daniel', 'karen', 'moira', 'tessa', 'fiona'],
+                    'ja': ['日本語', 'japanese', 'kyoko', 'otoya', 'hattori', 'o-ren'],
+                    'zh': ['中文', '普通话', 'chinese', 'mandarin', 'ting-ting', 'mei-jia', 'sin-ji'],
+                    'ko': ['한국어', 'korean', 'yuna', 'sora'],
+                    'es': ['español', 'spanish', 'monica', 'jorge', 'paulina', 'diego'],
+                    'fr': ['français', 'french', 'thomas', 'amelie', 'audrey'],
+                    'de': ['deutsch', 'german', 'anna', 'markus', 'petra', 'yannick'],
+                    'it': ['italiano', 'italian', 'alice', 'federica', 'luca', 'paola'],
+                    'pt': ['português', 'portuguese', 'luciana', 'joana', 'felipe'],
+                    'ru': ['русский', 'russian', 'milena', 'yuri', 'katya'],
+                    'vi': ['tiếng việt', 'vietnamese', 'linh'],
+                    'th': ['ไทย', 'thai', 'kanya', 'narisa'],
+                    'id': ['indonesia', 'indonesian', 'damayanti'],
+                };
+                const baseLang = this.getBaseLang(normalizedLang);
+                const patterns = langNamePatterns[baseLang] || [];
+
+                for (const pattern of patterns) {
+                    foundVoice = voices.find(v =>
+                        v.name.toLowerCase().includes(pattern.toLowerCase())
+                    );
+                    if (foundVoice) break;
+                }
+            }
+
+            this.voiceCache[normalizedLang] = foundVoice;
+            return foundVoice;
         },
 
         speak(text, lang = 'en-US') {
@@ -40,16 +170,37 @@ const VocabData = {
             this.synth.cancel();
 
             const utterance = new SpeechSynthesisUtterance(text);
-            utterance.lang = lang;
+            utterance.lang = this.normalizeLanguageCode(lang);
             utterance.rate = this.rate;
             utterance.pitch = this.pitch;
 
-            // Find appropriate voice for the language
-            const voices = this.synth.getVoices();
-            const langVoice = voices.find(v => v.lang === lang) ||
-                              voices.find(v => v.lang.startsWith(lang.split('-')[0]));
-            if (langVoice) {
-                utterance.voice = langVoice;
+            // 언어에 맞는 음성 찾기
+            const voice = this.findVoiceForLanguage(lang);
+            if (voice) {
+                utterance.voice = voice;
+                utterance.lang = voice.lang;
+            } else {
+                // 음성을 찾지 못한 경우 경고 (중복 방지)
+                const baseLang = this.getBaseLang(lang);
+                if (this.lastWarningLang !== baseLang) {
+                    this.lastWarningLang = baseLang;
+                    console.warn('⚠️ ' + lang + ' 음성을 찾을 수 없습니다. 기본 음성 사용.');
+                }
+            }
+
+            // iOS Safari 버그 대응: 긴 텍스트에서 멈춤 방지
+            if (this.isIOS && text.length > 100) {
+                let resumeTimer = setInterval(() => {
+                    if (!this.synth.speaking) {
+                        clearInterval(resumeTimer);
+                    } else {
+                        this.synth.pause();
+                        this.synth.resume();
+                    }
+                }, 14000);
+
+                utterance.onend = () => clearInterval(resumeTimer);
+                utterance.onerror = () => clearInterval(resumeTimer);
             }
 
             this.synth.speak(utterance);
