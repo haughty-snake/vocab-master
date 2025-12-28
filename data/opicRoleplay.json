@@ -1,0 +1,3948 @@
+{
+  "id": "opicRoleplay",
+  "name": "OPIc 롤플레이",
+  "icon": "🎭",
+  "color": "#9c27b0",
+  "lang": "en-US",
+  "words": [
+    {
+      "id": "opic_rp_001",
+      "word": "Hi, I'm calling to make a reservation.",
+      "subcategory": "전화 - 예약하기",
+      "meanings": [
+        {
+          "meaning": "안녕하세요, 예약하려고 전화드렸습니다.",
+          "examples": [
+            "Hi, I'm calling to make a reservation for this Saturday."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_002",
+      "word": "I'd like to book a table for two, please.",
+      "subcategory": "전화 - 예약하기",
+      "meanings": [
+        {
+          "meaning": "2인 테이블 예약하고 싶습니다.",
+          "examples": [
+            "I'd like to book a table for two for 7 PM tonight."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_003",
+      "word": "Do you have any availability on Friday?",
+      "subcategory": "전화 - 예약하기",
+      "meanings": [
+        {
+          "meaning": "금요일에 자리 있나요?",
+          "examples": [
+            "Do you have any availability on Friday evening?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_004",
+      "word": "I need to change my reservation.",
+      "subcategory": "전화 - 예약 변경",
+      "meanings": [
+        {
+          "meaning": "예약을 변경해야 합니다.",
+          "examples": [
+            "I need to change my reservation from Saturday to Sunday."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_005",
+      "word": "Is it possible to reschedule?",
+      "subcategory": "전화 - 예약 변경",
+      "meanings": [
+        {
+          "meaning": "일정 변경이 가능한가요?",
+          "examples": [
+            "Is it possible to reschedule my appointment to next week?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_006",
+      "word": "I'm sorry, but I need to cancel my reservation.",
+      "subcategory": "전화 - 예약 취소",
+      "meanings": [
+        {
+          "meaning": "죄송하지만 예약을 취소해야 합니다.",
+          "examples": [
+            "I'm sorry, but I need to cancel my reservation for tomorrow."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_007",
+      "word": "Could you tell me your cancellation policy?",
+      "subcategory": "전화 - 예약 취소",
+      "meanings": [
+        {
+          "meaning": "취소 정책을 알려주시겠어요?",
+          "examples": [
+            "Could you tell me your cancellation policy? I might need to cancel."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_008",
+      "word": "I'm calling to inquire about your services.",
+      "subcategory": "전화 - 정보 요청",
+      "meanings": [
+        {
+          "meaning": "서비스에 대해 문의드리려고 전화드렸습니다.",
+          "examples": [
+            "I'm calling to inquire about your weekend packages."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_009",
+      "word": "Could you give me more information about...?",
+      "subcategory": "전화 - 정보 요청",
+      "meanings": [
+        {
+          "meaning": "~에 대해 더 자세히 알려주시겠어요?",
+          "examples": [
+            "Could you give me more information about your membership plans?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_010",
+      "word": "What are your hours of operation?",
+      "subcategory": "전화 - 정보 요청",
+      "meanings": [
+        {
+          "meaning": "영업시간이 어떻게 되나요?",
+          "examples": [
+            "What are your hours of operation on weekends?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_011",
+      "word": "How much does it cost?",
+      "subcategory": "전화 - 정보 요청",
+      "meanings": [
+        {
+          "meaning": "비용이 얼마인가요?",
+          "examples": [
+            "How much does it cost for a one-hour session?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_012",
+      "word": "Do you offer any discounts?",
+      "subcategory": "전화 - 정보 요청",
+      "meanings": [
+        {
+          "meaning": "할인이 있나요?",
+          "examples": [
+            "Do you offer any discounts for students or seniors?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_013",
+      "word": "I have a complaint about your service.",
+      "subcategory": "전화 - 불만 제기",
+      "meanings": [
+        {
+          "meaning": "서비스에 대해 불만이 있습니다.",
+          "examples": [
+            "I have a complaint about your service. The delivery was very late."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_014",
+      "word": "I'm not satisfied with the product I received.",
+      "subcategory": "전화 - 불만 제기",
+      "meanings": [
+        {
+          "meaning": "받은 제품에 만족하지 못합니다.",
+          "examples": [
+            "I'm not satisfied with the product I received. It's damaged."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_015",
+      "word": "I'd like to speak to a manager, please.",
+      "subcategory": "전화 - 불만 제기",
+      "meanings": [
+        {
+          "meaning": "매니저와 통화하고 싶습니다.",
+          "examples": [
+            "I'd like to speak to a manager, please. This issue hasn't been resolved."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_016",
+      "word": "This is unacceptable.",
+      "subcategory": "전화 - 불만 제기",
+      "meanings": [
+        {
+          "meaning": "이건 받아들일 수 없습니다.",
+          "examples": [
+            "This is unacceptable. I've been waiting for two weeks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_017",
+      "word": "I'd like a refund, please.",
+      "subcategory": "전화 - 불만 제기",
+      "meanings": [
+        {
+          "meaning": "환불을 원합니다.",
+          "examples": [
+            "I'd like a refund, please. The product was defective."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_018",
+      "word": "Could you send a replacement?",
+      "subcategory": "전화 - 문제 해결",
+      "meanings": [
+        {
+          "meaning": "교체품을 보내주실 수 있나요?",
+          "examples": [
+            "Could you send a replacement? The item I received was broken."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_019",
+      "word": "How can we resolve this issue?",
+      "subcategory": "전화 - 문제 해결",
+      "meanings": [
+        {
+          "meaning": "이 문제를 어떻게 해결할 수 있을까요?",
+          "examples": [
+            "How can we resolve this issue? I've tried everything."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_020",
+      "word": "What options do I have?",
+      "subcategory": "전화 - 문제 해결",
+      "meanings": [
+        {
+          "meaning": "어떤 선택지가 있나요?",
+          "examples": [
+            "What options do I have? Can I exchange it for a different item?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_021",
+      "word": "Excuse me, could you help me?",
+      "subcategory": "매장 - 도움 요청",
+      "meanings": [
+        {
+          "meaning": "실례합니다, 도와주실 수 있나요?",
+          "examples": [
+            "Excuse me, could you help me find the electronics section?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_022",
+      "word": "I'm looking for...",
+      "subcategory": "매장 - 쇼핑",
+      "meanings": [
+        {
+          "meaning": "~을 찾고 있습니다.",
+          "examples": [
+            "I'm looking for a black jacket in size medium."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_023",
+      "word": "Do you have this in a different size?",
+      "subcategory": "매장 - 쇼핑",
+      "meanings": [
+        {
+          "meaning": "다른 사이즈 있나요?",
+          "examples": [
+            "Do you have this in a different size? This one is too small."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_024",
+      "word": "Can I try this on?",
+      "subcategory": "매장 - 쇼핑",
+      "meanings": [
+        {
+          "meaning": "이거 입어봐도 될까요?",
+          "examples": [
+            "Can I try this on? Where's the fitting room?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_025",
+      "word": "Where can I find the fitting room?",
+      "subcategory": "매장 - 쇼핑",
+      "meanings": [
+        {
+          "meaning": "탈의실이 어디에 있나요?",
+          "examples": [
+            "Where can I find the fitting room? I'd like to try these on."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_026",
+      "word": "Is this on sale?",
+      "subcategory": "매장 - 쇼핑",
+      "meanings": [
+        {
+          "meaning": "이거 세일 중인가요?",
+          "examples": [
+            "Is this on sale? I saw a sign about a promotion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_027",
+      "word": "I'd like to return this item.",
+      "subcategory": "매장 - 반품/교환",
+      "meanings": [
+        {
+          "meaning": "이 물건을 반품하고 싶습니다.",
+          "examples": [
+            "I'd like to return this item. I have the receipt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_028",
+      "word": "Can I exchange this for a different one?",
+      "subcategory": "매장 - 반품/교환",
+      "meanings": [
+        {
+          "meaning": "다른 것으로 교환할 수 있나요?",
+          "examples": [
+            "Can I exchange this for a different one? The color doesn't match."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_029",
+      "word": "There's something wrong with this product.",
+      "subcategory": "매장 - 반품/교환",
+      "meanings": [
+        {
+          "meaning": "이 제품에 문제가 있습니다.",
+          "examples": [
+            "There's something wrong with this product. It doesn't work properly."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_030",
+      "word": "Excuse me, how do I get to...?",
+      "subcategory": "길 묻기",
+      "meanings": [
+        {
+          "meaning": "실례합니다, ~에 어떻게 가나요?",
+          "examples": [
+            "Excuse me, how do I get to the nearest subway station?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_031",
+      "word": "Could you tell me where ... is?",
+      "subcategory": "길 묻기",
+      "meanings": [
+        {
+          "meaning": "~이 어디 있는지 알려주시겠어요?",
+          "examples": [
+            "Could you tell me where the post office is?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_032",
+      "word": "Is it far from here?",
+      "subcategory": "길 묻기",
+      "meanings": [
+        {
+          "meaning": "여기서 멀어요?",
+          "examples": [
+            "Is it far from here? Can I walk there?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_033",
+      "word": "How long does it take to get there?",
+      "subcategory": "길 묻기",
+      "meanings": [
+        {
+          "meaning": "거기까지 얼마나 걸려요?",
+          "examples": [
+            "How long does it take to get there by bus?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_034",
+      "word": "Could you show me on the map?",
+      "subcategory": "길 묻기",
+      "meanings": [
+        {
+          "meaning": "지도에서 보여주실 수 있나요?",
+          "examples": [
+            "Could you show me on the map? I'm a bit lost."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_035",
+      "word": "I'd like to make an appointment.",
+      "subcategory": "전화 - 약속 잡기",
+      "meanings": [
+        {
+          "meaning": "예약/약속을 잡고 싶습니다.",
+          "examples": [
+            "I'd like to make an appointment with Dr. Kim for next week."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_036",
+      "word": "When is the earliest available time?",
+      "subcategory": "전화 - 약속 잡기",
+      "meanings": [
+        {
+          "meaning": "가장 빠른 시간이 언제인가요?",
+          "examples": [
+            "When is the earliest available time? It's quite urgent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_037",
+      "word": "Does 3 PM work for you?",
+      "subcategory": "전화 - 약속 잡기",
+      "meanings": [
+        {
+          "meaning": "오후 3시 괜찮으신가요?",
+          "examples": [
+            "Does 3 PM work for you? I'm free after lunch."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_038",
+      "word": "I'm afraid I can't make it at that time.",
+      "subcategory": "전화 - 약속 잡기",
+      "meanings": [
+        {
+          "meaning": "그 시간에는 어려울 것 같습니다.",
+          "examples": [
+            "I'm afraid I can't make it at that time. Do you have anything later?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_039",
+      "word": "Can I get your name and phone number?",
+      "subcategory": "전화 - 정보 확인",
+      "meanings": [
+        {
+          "meaning": "성함과 전화번호 알려주시겠어요?",
+          "examples": [
+            "Can I get your name and phone number for the reservation?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_040",
+      "word": "Let me confirm your reservation.",
+      "subcategory": "전화 - 정보 확인",
+      "meanings": [
+        {
+          "meaning": "예약 내용을 확인해 드리겠습니다.",
+          "examples": [
+            "Let me confirm your reservation. That's a table for four at 7 PM."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_041",
+      "word": "I'd like to order delivery, please.",
+      "subcategory": "전화 - 주문",
+      "meanings": [
+        {
+          "meaning": "배달 주문하고 싶습니다.",
+          "examples": [
+            "I'd like to order delivery, please. Is your kitchen still open?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_042",
+      "word": "What do you recommend?",
+      "subcategory": "전화 - 주문",
+      "meanings": [
+        {
+          "meaning": "뭘 추천하시나요?",
+          "examples": [
+            "What do you recommend? I've never ordered from here before."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_043",
+      "word": "How long will it take for delivery?",
+      "subcategory": "전화 - 주문",
+      "meanings": [
+        {
+          "meaning": "배달까지 얼마나 걸려요?",
+          "examples": [
+            "How long will it take for delivery? I'm quite hungry."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_044",
+      "word": "Can I pay by credit card?",
+      "subcategory": "전화 - 주문",
+      "meanings": [
+        {
+          "meaning": "카드로 결제 가능한가요?",
+          "examples": [
+            "Can I pay by credit card when the delivery arrives?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_045",
+      "word": "I'd like to check in, please.",
+      "subcategory": "호텔 - 체크인",
+      "meanings": [
+        {
+          "meaning": "체크인하고 싶습니다.",
+          "examples": [
+            "I'd like to check in, please. I have a reservation under the name Kim."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_046",
+      "word": "I have a reservation for two nights.",
+      "subcategory": "호텔 - 체크인",
+      "meanings": [
+        {
+          "meaning": "2박 예약이 있습니다.",
+          "examples": [
+            "I have a reservation for two nights starting today."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_047",
+      "word": "Could I have a room with a view?",
+      "subcategory": "호텔 - 체크인",
+      "meanings": [
+        {
+          "meaning": "전망 좋은 방으로 주실 수 있나요?",
+          "examples": [
+            "Could I have a room with a view? I don't mind paying extra."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_048",
+      "word": "What time is checkout?",
+      "subcategory": "호텔 - 체크아웃",
+      "meanings": [
+        {
+          "meaning": "체크아웃 시간이 언제인가요?",
+          "examples": [
+            "What time is checkout? Can I get a late checkout?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_049",
+      "word": "Is it possible to extend my stay?",
+      "subcategory": "호텔 - 체크아웃",
+      "meanings": [
+        {
+          "meaning": "숙박을 연장할 수 있나요?",
+          "examples": [
+            "Is it possible to extend my stay for one more night?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_050",
+      "word": "There's a problem with my room.",
+      "subcategory": "호텔 - 문제 상황",
+      "meanings": [
+        {
+          "meaning": "제 방에 문제가 있습니다.",
+          "examples": [
+            "There's a problem with my room. The air conditioner isn't working."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_051",
+      "word": "Could you send someone to fix it?",
+      "subcategory": "호텔 - 문제 상황",
+      "meanings": [
+        {
+          "meaning": "수리할 사람을 보내주실 수 있나요?",
+          "examples": [
+            "Could you send someone to fix it? The shower is leaking."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_052",
+      "word": "I'd like to request a room change.",
+      "subcategory": "호텔 - 문제 상황",
+      "meanings": [
+        {
+          "meaning": "방을 바꿔주셨으면 합니다.",
+          "examples": [
+            "I'd like to request a room change. This room is too noisy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_053",
+      "word": "Could you recommend a good restaurant nearby?",
+      "subcategory": "추천 요청",
+      "meanings": [
+        {
+          "meaning": "근처에 좋은 식당 추천해 주실 수 있나요?",
+          "examples": [
+            "Could you recommend a good restaurant nearby? I'm looking for Korean food."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_054",
+      "word": "What would you suggest?",
+      "subcategory": "추천 요청",
+      "meanings": [
+        {
+          "meaning": "뭘 추천하시겠어요?",
+          "examples": [
+            "What would you suggest for someone visiting for the first time?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_055",
+      "word": "Are there any popular attractions around here?",
+      "subcategory": "추천 요청",
+      "meanings": [
+        {
+          "meaning": "이 근처에 인기 있는 관광지가 있나요?",
+          "examples": [
+            "Are there any popular attractions around here within walking distance?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_056",
+      "word": "I'm allergic to nuts.",
+      "subcategory": "식당 - 주문",
+      "meanings": [
+        {
+          "meaning": "저는 견과류 알레르기가 있습니다.",
+          "examples": [
+            "I'm allergic to nuts. Does this dish contain any?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_057",
+      "word": "Could I see the menu, please?",
+      "subcategory": "식당 - 주문",
+      "meanings": [
+        {
+          "meaning": "메뉴판 볼 수 있을까요?",
+          "examples": [
+            "Could I see the menu, please? Do you have an English menu?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_058",
+      "word": "I'll have the same thing.",
+      "subcategory": "식당 - 주문",
+      "meanings": [
+        {
+          "meaning": "저도 같은 걸로 할게요.",
+          "examples": [
+            "I'll have the same thing. It looks delicious."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_059",
+      "word": "Could we have the bill, please?",
+      "subcategory": "식당 - 계산",
+      "meanings": [
+        {
+          "meaning": "계산서 주시겠어요?",
+          "examples": [
+            "Could we have the bill, please? We're ready to leave."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_060",
+      "word": "Can we split the bill?",
+      "subcategory": "식당 - 계산",
+      "meanings": [
+        {
+          "meaning": "계산을 나눠서 할 수 있나요?",
+          "examples": [
+            "Can we split the bill? There are four of us."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_061",
+      "word": "I think there's a mistake on the bill.",
+      "subcategory": "식당 - 계산",
+      "meanings": [
+        {
+          "meaning": "계산서에 오류가 있는 것 같아요.",
+          "examples": [
+            "I think there's a mistake on the bill. We didn't order this."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_062",
+      "word": "I'd like to rent a car.",
+      "subcategory": "렌터카",
+      "meanings": [
+        {
+          "meaning": "차를 렌트하고 싶습니다.",
+          "examples": [
+            "I'd like to rent a car for the weekend."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_063",
+      "word": "What types of cars do you have available?",
+      "subcategory": "렌터카",
+      "meanings": [
+        {
+          "meaning": "어떤 종류의 차가 있나요?",
+          "examples": [
+            "What types of cars do you have available? I need something spacious."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_064",
+      "word": "Does it include insurance?",
+      "subcategory": "렌터카",
+      "meanings": [
+        {
+          "meaning": "보험이 포함되어 있나요?",
+          "examples": [
+            "Does it include insurance? What's covered?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_065",
+      "word": "Where can I pick up the car?",
+      "subcategory": "렌터카",
+      "meanings": [
+        {
+          "meaning": "차는 어디서 받나요?",
+          "examples": [
+            "Where can I pick up the car? Is it at the airport?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_066",
+      "word": "I'd like to report a problem.",
+      "subcategory": "문제 신고",
+      "meanings": [
+        {
+          "meaning": "문제를 신고하고 싶습니다.",
+          "examples": [
+            "I'd like to report a problem with my order."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_067",
+      "word": "Something came up and I can't make it.",
+      "subcategory": "취소/변경",
+      "meanings": [
+        {
+          "meaning": "일이 생겨서 못 갈 것 같습니다.",
+          "examples": [
+            "Something came up and I can't make it to the appointment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_068",
+      "word": "Is there a waiting list?",
+      "subcategory": "전화 - 예약하기",
+      "meanings": [
+        {
+          "meaning": "대기자 명단이 있나요?",
+          "examples": [
+            "Is there a waiting list? I'd like to be added if possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_069",
+      "word": "I was wondering if you could help me.",
+      "subcategory": "도움 요청",
+      "meanings": [
+        {
+          "meaning": "도움을 받을 수 있을까 해서요.",
+          "examples": [
+            "I was wondering if you could help me find a specific item."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_070",
+      "word": "Would it be possible to...?",
+      "subcategory": "정중한 요청",
+      "meanings": [
+        {
+          "meaning": "~하는 게 가능할까요?",
+          "examples": [
+            "Would it be possible to get an earlier appointment?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_071",
+      "word": "I appreciate your help.",
+      "subcategory": "감사 표현",
+      "meanings": [
+        {
+          "meaning": "도움에 감사드립니다.",
+          "examples": [
+            "I appreciate your help. You've been very kind."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_072",
+      "word": "Thank you for your patience.",
+      "subcategory": "감사 표현",
+      "meanings": [
+        {
+          "meaning": "기다려 주셔서 감사합니다.",
+          "examples": [
+            "Thank you for your patience while I explained the situation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_073",
+      "word": "I'm sorry for the inconvenience.",
+      "subcategory": "사과 표현",
+      "meanings": [
+        {
+          "meaning": "불편을 드려 죄송합니다.",
+          "examples": [
+            "I'm sorry for the inconvenience. Let me fix this right away."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_074",
+      "word": "I didn't catch that. Could you repeat it?",
+      "subcategory": "확인 요청",
+      "meanings": [
+        {
+          "meaning": "못 들었어요. 다시 말씀해 주시겠어요?",
+          "examples": [
+            "I didn't catch that. Could you repeat it more slowly?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_075",
+      "word": "Could you speak more slowly, please?",
+      "subcategory": "확인 요청",
+      "meanings": [
+        {
+          "meaning": "좀 더 천천히 말씀해 주시겠어요?",
+          "examples": [
+            "Could you speak more slowly, please? I'm still learning English."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_076",
+      "word": "Let me make sure I understand correctly.",
+      "subcategory": "확인 요청",
+      "meanings": [
+        {
+          "meaning": "제가 제대로 이해했는지 확인할게요.",
+          "examples": [
+            "Let me make sure I understand correctly. You're saying the flight is delayed?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_077",
+      "word": "My flight has been delayed.",
+      "subcategory": "공항 - 문제 상황",
+      "meanings": [
+        {
+          "meaning": "비행기가 지연되었습니다.",
+          "examples": [
+            "My flight has been delayed. When is the next available flight?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_078",
+      "word": "I've lost my luggage.",
+      "subcategory": "공항 - 문제 상황",
+      "meanings": [
+        {
+          "meaning": "짐을 잃어버렸습니다.",
+          "examples": [
+            "I've lost my luggage. Where can I report it?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_079",
+      "word": "Where is the baggage claim?",
+      "subcategory": "공항 - 일반",
+      "meanings": [
+        {
+          "meaning": "수하물 찾는 곳이 어디인가요?",
+          "examples": [
+            "Where is the baggage claim? I just landed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_080",
+      "word": "Which gate does the flight depart from?",
+      "subcategory": "공항 - 일반",
+      "meanings": [
+        {
+          "meaning": "비행기가 몇 번 게이트에서 출발하나요?",
+          "examples": [
+            "Which gate does the flight depart from? I can't find it on the board."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_081",
+      "word": "I'd like to purchase a ticket.",
+      "subcategory": "교통 - 티켓 구매",
+      "meanings": [
+        {
+          "meaning": "표를 구매하고 싶습니다.",
+          "examples": [
+            "I'd like to purchase a ticket to Seoul."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_082",
+      "word": "What time does the next train leave?",
+      "subcategory": "교통 - 정보",
+      "meanings": [
+        {
+          "meaning": "다음 기차는 몇 시에 출발하나요?",
+          "examples": [
+            "What time does the next train leave for Busan?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_083",
+      "word": "Is this seat taken?",
+      "subcategory": "교통 - 일반",
+      "meanings": [
+        {
+          "meaning": "이 자리 비어 있나요?",
+          "examples": [
+            "Is this seat taken? May I sit here?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_084",
+      "word": "Where should I transfer?",
+      "subcategory": "교통 - 정보",
+      "meanings": [
+        {
+          "meaning": "어디서 환승해야 하나요?",
+          "examples": [
+            "Where should I transfer to get to the city center?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_085",
+      "word": "I'd like to sign up for a membership.",
+      "subcategory": "가입/등록",
+      "meanings": [
+        {
+          "meaning": "회원 가입을 하고 싶습니다.",
+          "examples": [
+            "I'd like to sign up for a membership. What are the benefits?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_086",
+      "word": "How do I register for the class?",
+      "subcategory": "가입/등록",
+      "meanings": [
+        {
+          "meaning": "수업 등록은 어떻게 하나요?",
+          "examples": [
+            "How do I register for the class? Is there an online form?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_087",
+      "word": "What documents do I need to bring?",
+      "subcategory": "가입/등록",
+      "meanings": [
+        {
+          "meaning": "어떤 서류를 가져가야 하나요?",
+          "examples": [
+            "What documents do I need to bring for the registration?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_088",
+      "word": "I need to update my information.",
+      "subcategory": "정보 변경",
+      "meanings": [
+        {
+          "meaning": "정보를 업데이트해야 합니다.",
+          "examples": [
+            "I need to update my information. I've moved to a new address."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_089",
+      "word": "Could you check if my order has shipped?",
+      "subcategory": "주문 확인",
+      "meanings": [
+        {
+          "meaning": "주문이 발송됐는지 확인해 주시겠어요?",
+          "examples": [
+            "Could you check if my order has shipped? It's been a week."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_090",
+      "word": "I haven't received my package yet.",
+      "subcategory": "배송 문제",
+      "meanings": [
+        {
+          "meaning": "아직 소포를 받지 못했습니다.",
+          "examples": [
+            "I haven't received my package yet. Can you track it?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_091",
+      "word": "The item I received is different from what I ordered.",
+      "subcategory": "주문 문제",
+      "meanings": [
+        {
+          "meaning": "받은 물건이 주문한 것과 다릅니다.",
+          "examples": [
+            "The item I received is different from what I ordered. I ordered blue, not red."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_092",
+      "word": "I'd like to file a complaint.",
+      "subcategory": "불만 제기",
+      "meanings": [
+        {
+          "meaning": "불만을 접수하고 싶습니다.",
+          "examples": [
+            "I'd like to file a complaint about the service I received."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_093",
+      "word": "This has been going on for too long.",
+      "subcategory": "불만 제기",
+      "meanings": [
+        {
+          "meaning": "이게 너무 오래 지속되고 있습니다.",
+          "examples": [
+            "This has been going on for too long. I need a resolution today."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_094",
+      "word": "I'd like to make a suggestion.",
+      "subcategory": "제안하기",
+      "meanings": [
+        {
+          "meaning": "제안을 하나 하고 싶습니다.",
+          "examples": [
+            "I'd like to make a suggestion. Could we try a different approach?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_095",
+      "word": "What if we tried...?",
+      "subcategory": "제안하기",
+      "meanings": [
+        {
+          "meaning": "~을 시도해 보면 어떨까요?",
+          "examples": [
+            "What if we tried rescheduling for next month?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_096",
+      "word": "That sounds like a good idea.",
+      "subcategory": "동의 표현",
+      "meanings": [
+        {
+          "meaning": "좋은 생각 같네요.",
+          "examples": [
+            "That sounds like a good idea. Let's go with that."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_097",
+      "word": "I'm not sure about that.",
+      "subcategory": "의견 표현",
+      "meanings": [
+        {
+          "meaning": "그건 잘 모르겠어요.",
+          "examples": [
+            "I'm not sure about that. Could we consider other options?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_098",
+      "word": "I'd prefer something else.",
+      "subcategory": "의견 표현",
+      "meanings": [
+        {
+          "meaning": "다른 것이 더 좋겠어요.",
+          "examples": [
+            "I'd prefer something else. Do you have any alternatives?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_099",
+      "word": "Let me think about it.",
+      "subcategory": "의견 표현",
+      "meanings": [
+        {
+          "meaning": "생각해 볼게요.",
+          "examples": [
+            "Let me think about it and get back to you tomorrow."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_100",
+      "word": "I'll get back to you on that.",
+      "subcategory": "의견 표현",
+      "meanings": [
+        {
+          "meaning": "그 부분은 다시 연락드릴게요.",
+          "examples": [
+            "I'll get back to you on that after I check with my manager."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_101",
+      "word": "Could you hold on for a moment?",
+      "subcategory": "전화 - 일반",
+      "meanings": [
+        {
+          "meaning": "잠시만 기다려 주시겠어요?",
+          "examples": [
+            "Could you hold on for a moment? I need to check something."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_102",
+      "word": "I'll transfer you to the right department.",
+      "subcategory": "전화 - 일반",
+      "meanings": [
+        {
+          "meaning": "담당 부서로 연결해 드리겠습니다.",
+          "examples": [
+            "I'll transfer you to the right department. Please hold."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_103",
+      "word": "May I ask who's calling?",
+      "subcategory": "전화 - 일반",
+      "meanings": [
+        {
+          "meaning": "누구시라고 할까요?",
+          "examples": [
+            "May I ask who's calling? I'll let her know."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_104",
+      "word": "I'm calling on behalf of...",
+      "subcategory": "전화 - 일반",
+      "meanings": [
+        {
+          "meaning": "~를 대신해서 전화드립니다.",
+          "examples": [
+            "I'm calling on behalf of ABC Company regarding your order."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_105",
+      "word": "The line is busy. Would you like to leave a message?",
+      "subcategory": "전화 - 일반",
+      "meanings": [
+        {
+          "meaning": "통화 중입니다. 메시지 남기시겠어요?",
+          "examples": [
+            "The line is busy. Would you like to leave a message or call back later?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_106",
+      "word": "I'd like to leave a message.",
+      "subcategory": "전화 - 메시지",
+      "meanings": [
+        {
+          "meaning": "메시지를 남기고 싶습니다.",
+          "examples": [
+            "I'd like to leave a message. Could you ask him to call me back?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_107",
+      "word": "Could you ask them to call me back?",
+      "subcategory": "전화 - 메시지",
+      "meanings": [
+        {
+          "meaning": "다시 전화해 달라고 해주시겠어요?",
+          "examples": [
+            "Could you ask them to call me back as soon as possible?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_108",
+      "word": "My number is...",
+      "subcategory": "전화 - 메시지",
+      "meanings": [
+        {
+          "meaning": "제 번호는...입니다.",
+          "examples": [
+            "My number is 010-1234-5678. I'll be available all afternoon."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_109",
+      "word": "I'm sorry, but I have to go now.",
+      "subcategory": "전화 - 마무리",
+      "meanings": [
+        {
+          "meaning": "죄송하지만 이만 끊어야 할 것 같아요.",
+          "examples": [
+            "I'm sorry, but I have to go now. Can we continue this later?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_110",
+      "word": "Thank you for calling.",
+      "subcategory": "전화 - 마무리",
+      "meanings": [
+        {
+          "meaning": "전화해 주셔서 감사합니다.",
+          "examples": [
+            "Thank you for calling. Have a great day!"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_111",
+      "word": "I'll send you the details by email.",
+      "subcategory": "후속 조치",
+      "meanings": [
+        {
+          "meaning": "자세한 내용은 이메일로 보내드릴게요.",
+          "examples": [
+            "I'll send you the details by email. Check your inbox later."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_112",
+      "word": "When can I expect to hear back from you?",
+      "subcategory": "후속 조치",
+      "meanings": [
+        {
+          "meaning": "언제쯤 연락 받을 수 있을까요?",
+          "examples": [
+            "When can I expect to hear back from you about the application?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_113",
+      "word": "I'll follow up with you next week.",
+      "subcategory": "후속 조치",
+      "meanings": [
+        {
+          "meaning": "다음 주에 다시 연락드리겠습니다.",
+          "examples": [
+            "I'll follow up with you next week to check on the progress."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_114",
+      "word": "Is there anything else I can help you with?",
+      "subcategory": "서비스 마무리",
+      "meanings": [
+        {
+          "meaning": "다른 도움이 필요하신 게 있나요?",
+          "examples": [
+            "Is there anything else I can help you with today?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_115",
+      "word": "That's all for now, thank you.",
+      "subcategory": "서비스 마무리",
+      "meanings": [
+        {
+          "meaning": "지금은 그게 다예요, 감사합니다.",
+          "examples": [
+            "That's all for now, thank you. You've been very helpful."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_116",
+      "word": "I need to get a prescription filled.",
+      "subcategory": "약국",
+      "meanings": [
+        {
+          "meaning": "처방전대로 약을 지어야 합니다.",
+          "examples": [
+            "I need to get a prescription filled. Here's the doctor's note."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_117",
+      "word": "Do you have any over-the-counter medicine for headaches?",
+      "subcategory": "약국",
+      "meanings": [
+        {
+          "meaning": "두통에 처방전 없이 살 수 있는 약이 있나요?",
+          "examples": [
+            "Do you have any over-the-counter medicine for headaches?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_118",
+      "word": "How often should I take this medication?",
+      "subcategory": "약국",
+      "meanings": [
+        {
+          "meaning": "이 약을 얼마나 자주 복용해야 하나요?",
+          "examples": [
+            "How often should I take this medication? Before or after meals?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_119",
+      "word": "Are there any side effects I should know about?",
+      "subcategory": "약국",
+      "meanings": [
+        {
+          "meaning": "알아야 할 부작용이 있나요?",
+          "examples": [
+            "Are there any side effects I should know about?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_120",
+      "word": "I'd like to open a bank account.",
+      "subcategory": "은행",
+      "meanings": [
+        {
+          "meaning": "은행 계좌를 개설하고 싶습니다.",
+          "examples": [
+            "I'd like to open a bank account. What documents do I need?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_121",
+      "word": "I'd like to withdraw some money.",
+      "subcategory": "은행",
+      "meanings": [
+        {
+          "meaning": "돈을 인출하고 싶습니다.",
+          "examples": [
+            "I'd like to withdraw some money from my savings account."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_122",
+      "word": "Could you check my account balance?",
+      "subcategory": "은행",
+      "meanings": [
+        {
+          "meaning": "잔고 확인해 주시겠어요?",
+          "examples": [
+            "Could you check my account balance? I think there's an error."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_123",
+      "word": "I'd like to transfer money to another account.",
+      "subcategory": "은행",
+      "meanings": [
+        {
+          "meaning": "다른 계좌로 송금하고 싶습니다.",
+          "examples": [
+            "I'd like to transfer money to another account. Here's the account number."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_124",
+      "word": "I've locked myself out of my car.",
+      "subcategory": "긴급 상황",
+      "meanings": [
+        {
+          "meaning": "차에 키를 두고 잠갔습니다.",
+          "examples": [
+            "I've locked myself out of my car. Can you send someone to help?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_125",
+      "word": "My car broke down on the highway.",
+      "subcategory": "긴급 상황",
+      "meanings": [
+        {
+          "meaning": "고속도로에서 차가 고장났습니다.",
+          "examples": [
+            "My car broke down on the highway. I need a tow truck."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_126",
+      "word": "I think I need to see a doctor.",
+      "subcategory": "긴급 상황",
+      "meanings": [
+        {
+          "meaning": "의사를 만나야 할 것 같습니다.",
+          "examples": [
+            "I think I need to see a doctor. I'm not feeling well at all."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_127",
+      "word": "Is there a hospital nearby?",
+      "subcategory": "긴급 상황",
+      "meanings": [
+        {
+          "meaning": "근처에 병원이 있나요?",
+          "examples": [
+            "Is there a hospital nearby? It's an emergency."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_128",
+      "word": "I lost my wallet.",
+      "subcategory": "분실 신고",
+      "meanings": [
+        {
+          "meaning": "지갑을 잃어버렸습니다.",
+          "examples": [
+            "I lost my wallet somewhere in the store. Has anyone turned it in?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_129",
+      "word": "Has anyone turned in a black bag?",
+      "subcategory": "분실 신고",
+      "meanings": [
+        {
+          "meaning": "검은색 가방을 제출한 사람이 있나요?",
+          "examples": [
+            "Has anyone turned in a black bag? I think I left it here."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_130",
+      "word": "Where is the lost and found?",
+      "subcategory": "분실 신고",
+      "meanings": [
+        {
+          "meaning": "분실물 센터가 어디인가요?",
+          "examples": [
+            "Where is the lost and found? I need to report a missing item."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_131",
+      "word": "We'd like a table by the window, please.",
+      "subcategory": "식당 - 좌석",
+      "meanings": [
+        {
+          "meaning": "창가 자리로 부탁드립니다.",
+          "examples": [
+            "We'd like a table by the window, please. The view is nice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_132",
+      "word": "Is there a wait for a table?",
+      "subcategory": "식당 - 대기",
+      "meanings": [
+        {
+          "meaning": "자리 있을 때까지 얼마나 기다려야 하나요?",
+          "examples": [
+            "Is there a wait for a table? We don't have a reservation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_133",
+      "word": "How long is the wait?",
+      "subcategory": "식당 - 대기",
+      "meanings": [
+        {
+          "meaning": "대기 시간이 얼마나 되나요?",
+          "examples": [
+            "How long is the wait? We're in a bit of a hurry."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_134",
+      "word": "Could we see the wine list?",
+      "subcategory": "식당 - 주문",
+      "meanings": [
+        {
+          "meaning": "와인 리스트 볼 수 있을까요?",
+          "examples": [
+            "Could we see the wine list? We'd like to order some wine."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_135",
+      "word": "What's today's special?",
+      "subcategory": "식당 - 주문",
+      "meanings": [
+        {
+          "meaning": "오늘의 특선 요리가 뭔가요?",
+          "examples": [
+            "What's today's special? I'd like to try something new."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_136",
+      "word": "I'd like my steak medium-rare, please.",
+      "subcategory": "식당 - 주문",
+      "meanings": [
+        {
+          "meaning": "스테이크는 미디엄 레어로 부탁드립니다.",
+          "examples": [
+            "I'd like my steak medium-rare, please. Not too well done."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_137",
+      "word": "Could I get this to go?",
+      "subcategory": "식당 - 주문",
+      "meanings": [
+        {
+          "meaning": "이거 포장해 주실 수 있나요?",
+          "examples": [
+            "Could I get this to go? I'm running late."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_138",
+      "word": "Can I get a box for the leftovers?",
+      "subcategory": "식당 - 식사 후",
+      "meanings": [
+        {
+          "meaning": "남은 음식 포장해 주실 수 있나요?",
+          "examples": [
+            "Can I get a box for the leftovers? I'd like to take this home."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_139",
+      "word": "This isn't what I ordered.",
+      "subcategory": "식당 - 문제",
+      "meanings": [
+        {
+          "meaning": "이건 제가 주문한 게 아닌데요.",
+          "examples": [
+            "This isn't what I ordered. I asked for the chicken, not the fish."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_140",
+      "word": "This dish is cold. Could you heat it up?",
+      "subcategory": "식당 - 문제",
+      "meanings": [
+        {
+          "meaning": "음식이 식었어요. 데워주실 수 있나요?",
+          "examples": [
+            "This dish is cold. Could you heat it up, please?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_141",
+      "word": "Excuse me, we've been waiting for our food for 30 minutes.",
+      "subcategory": "식당 - 문제",
+      "meanings": [
+        {
+          "meaning": "저희 음식을 30분째 기다리고 있어요.",
+          "examples": [
+            "Excuse me, we've been waiting for our food for 30 minutes. Is everything okay?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_142",
+      "word": "I'd like to make an appointment with Dr. Smith.",
+      "subcategory": "병원 - 예약",
+      "meanings": [
+        {
+          "meaning": "스미스 박사님과 예약을 잡고 싶습니다.",
+          "examples": [
+            "I'd like to make an appointment with Dr. Smith for a checkup."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_143",
+      "word": "I'm here for my appointment.",
+      "subcategory": "병원 - 방문",
+      "meanings": [
+        {
+          "meaning": "예약하고 왔습니다.",
+          "examples": [
+            "I'm here for my appointment at 2 PM with Dr. Kim."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_144",
+      "word": "I've been having headaches for a week.",
+      "subcategory": "병원 - 증상 설명",
+      "meanings": [
+        {
+          "meaning": "일주일째 두통이 있습니다.",
+          "examples": [
+            "I've been having headaches for a week. They're getting worse."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_145",
+      "word": "I think I might have the flu.",
+      "subcategory": "병원 - 증상 설명",
+      "meanings": [
+        {
+          "meaning": "독감인 것 같아요.",
+          "examples": [
+            "I think I might have the flu. I have a fever and body aches."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_146",
+      "word": "Where does it hurt?",
+      "subcategory": "병원 - 진료",
+      "meanings": [
+        {
+          "meaning": "어디가 아프세요?",
+          "examples": [
+            "Where does it hurt? Can you point to the area?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_147",
+      "word": "How long have you had these symptoms?",
+      "subcategory": "병원 - 진료",
+      "meanings": [
+        {
+          "meaning": "이 증상이 얼마나 됐나요?",
+          "examples": [
+            "How long have you had these symptoms? When did they start?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_148",
+      "word": "Are you taking any medication?",
+      "subcategory": "병원 - 진료",
+      "meanings": [
+        {
+          "meaning": "현재 복용 중인 약이 있나요?",
+          "examples": [
+            "Are you taking any medication? Any allergies I should know about?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_149",
+      "word": "I need to see a specialist.",
+      "subcategory": "병원 - 진료",
+      "meanings": [
+        {
+          "meaning": "전문의를 만나봐야 할 것 같습니다.",
+          "examples": [
+            "I need to see a specialist. Can you refer me to one?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_150",
+      "word": "Do I need any tests?",
+      "subcategory": "병원 - 진료",
+      "meanings": [
+        {
+          "meaning": "검사를 받아야 하나요?",
+          "examples": [
+            "Do I need any tests? Should I get blood work done?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_151",
+      "word": "When will I get the test results?",
+      "subcategory": "병원 - 진료",
+      "meanings": [
+        {
+          "meaning": "검사 결과는 언제 나오나요?",
+          "examples": [
+            "When will I get the test results? Should I call or come back?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_152",
+      "word": "I'd like to get information about membership options.",
+      "subcategory": "헬스장 - 가입",
+      "meanings": [
+        {
+          "meaning": "회원권 옵션에 대해 알고 싶습니다.",
+          "examples": [
+            "I'd like to get information about membership options. What plans do you have?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_153",
+      "word": "Can I get a tour of the facility?",
+      "subcategory": "헬스장 - 가입",
+      "meanings": [
+        {
+          "meaning": "시설 둘러볼 수 있을까요?",
+          "examples": [
+            "Can I get a tour of the facility? I'd like to see the equipment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_154",
+      "word": "Do you offer personal training?",
+      "subcategory": "헬스장 - 서비스",
+      "meanings": [
+        {
+          "meaning": "개인 트레이닝이 있나요?",
+          "examples": [
+            "Do you offer personal training? I'm new to working out."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_155",
+      "word": "What classes do you have?",
+      "subcategory": "헬스장 - 서비스",
+      "meanings": [
+        {
+          "meaning": "어떤 수업들이 있나요?",
+          "examples": [
+            "What classes do you have? I'm interested in yoga and spinning."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_156",
+      "word": "How do I sign up for a class?",
+      "subcategory": "헬스장 - 서비스",
+      "meanings": [
+        {
+          "meaning": "수업 등록은 어떻게 하나요?",
+          "examples": [
+            "How do I sign up for a class? Is there a limit on participants?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_157",
+      "word": "I'd like to cancel my membership.",
+      "subcategory": "헬스장 - 취소",
+      "meanings": [
+        {
+          "meaning": "회원권을 해지하고 싶습니다.",
+          "examples": [
+            "I'd like to cancel my membership. What's the process?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_158",
+      "word": "Can I freeze my membership for a month?",
+      "subcategory": "헬스장 - 변경",
+      "meanings": [
+        {
+          "meaning": "한 달간 회원권을 정지할 수 있나요?",
+          "examples": [
+            "Can I freeze my membership for a month? I'll be traveling."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_159",
+      "word": "How do I get a library card?",
+      "subcategory": "도서관 - 등록",
+      "meanings": [
+        {
+          "meaning": "도서관 카드는 어떻게 만드나요?",
+          "examples": [
+            "How do I get a library card? What documents do I need?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_160",
+      "word": "I'd like to check out these books.",
+      "subcategory": "도서관 - 대출",
+      "meanings": [
+        {
+          "meaning": "이 책들을 대출하고 싶습니다.",
+          "examples": [
+            "I'd like to check out these books. How long can I keep them?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_161",
+      "word": "Can I renew this book?",
+      "subcategory": "도서관 - 대출",
+      "meanings": [
+        {
+          "meaning": "이 책 대출 연장 가능한가요?",
+          "examples": [
+            "Can I renew this book? I haven't finished reading it yet."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_162",
+      "word": "I'd like to return these books.",
+      "subcategory": "도서관 - 반납",
+      "meanings": [
+        {
+          "meaning": "이 책들을 반납하고 싶습니다.",
+          "examples": [
+            "I'd like to return these books. Where's the return desk?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_163",
+      "word": "Do you have this book in stock?",
+      "subcategory": "도서관 - 찾기",
+      "meanings": [
+        {
+          "meaning": "이 책이 있나요?",
+          "examples": [
+            "Do you have this book in stock? I couldn't find it on the shelf."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_164",
+      "word": "Can you help me find a book on...?",
+      "subcategory": "도서관 - 찾기",
+      "meanings": [
+        {
+          "meaning": "~에 관한 책을 찾는 걸 도와주실 수 있나요?",
+          "examples": [
+            "Can you help me find a book on Korean history?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_165",
+      "word": "Where is the children's section?",
+      "subcategory": "도서관 - 위치",
+      "meanings": [
+        {
+          "meaning": "어린이 코너가 어디에 있나요?",
+          "examples": [
+            "Where is the children's section? I'm looking for books for my daughter."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_166",
+      "word": "I'd like to send this package.",
+      "subcategory": "우체국 - 발송",
+      "meanings": [
+        {
+          "meaning": "이 소포를 보내고 싶습니다.",
+          "examples": [
+            "I'd like to send this package to the United States."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_167",
+      "word": "What's the fastest shipping option?",
+      "subcategory": "우체국 - 발송",
+      "meanings": [
+        {
+          "meaning": "가장 빠른 배송 옵션이 뭔가요?",
+          "examples": [
+            "What's the fastest shipping option? It needs to arrive by Friday."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_168",
+      "word": "How much does it cost to send this?",
+      "subcategory": "우체국 - 발송",
+      "meanings": [
+        {
+          "meaning": "이거 보내는 데 얼마예요?",
+          "examples": [
+            "How much does it cost to send this by express mail?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_169",
+      "word": "I'd like to send this by registered mail.",
+      "subcategory": "우체국 - 발송",
+      "meanings": [
+        {
+          "meaning": "등기우편으로 보내고 싶습니다.",
+          "examples": [
+            "I'd like to send this by registered mail. It's important documents."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_170",
+      "word": "Can I track this package?",
+      "subcategory": "우체국 - 추적",
+      "meanings": [
+        {
+          "meaning": "이 소포 추적이 가능한가요?",
+          "examples": [
+            "Can I track this package? I need to know when it arrives."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_171",
+      "word": "I need to pick up a package.",
+      "subcategory": "우체국 - 수령",
+      "meanings": [
+        {
+          "meaning": "소포를 찾으러 왔습니다.",
+          "examples": [
+            "I need to pick up a package. I received this notice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_172",
+      "word": "I need stamps for domestic mail.",
+      "subcategory": "우체국 - 우표",
+      "meanings": [
+        {
+          "meaning": "국내우편용 우표가 필요합니다.",
+          "examples": [
+            "I need stamps for domestic mail. Ten stamps, please."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_173",
+      "word": "My internet isn't working.",
+      "subcategory": "기술 지원 - 인터넷",
+      "meanings": [
+        {
+          "meaning": "인터넷이 안 돼요.",
+          "examples": [
+            "My internet isn't working. I've tried restarting the router."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_174",
+      "word": "The connection keeps dropping.",
+      "subcategory": "기술 지원 - 인터넷",
+      "meanings": [
+        {
+          "meaning": "연결이 자꾸 끊겨요.",
+          "examples": [
+            "The connection keeps dropping. It happens several times a day."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_175",
+      "word": "I'm having trouble with my phone service.",
+      "subcategory": "기술 지원 - 전화",
+      "meanings": [
+        {
+          "meaning": "전화 서비스에 문제가 있어요.",
+          "examples": [
+            "I'm having trouble with my phone service. I can't make calls."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_176",
+      "word": "My TV isn't getting any signal.",
+      "subcategory": "기술 지원 - TV",
+      "meanings": [
+        {
+          "meaning": "TV에 신호가 안 잡혀요.",
+          "examples": [
+            "My TV isn't getting any signal. The screen is just black."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_177",
+      "word": "I need a technician to come out.",
+      "subcategory": "기술 지원 - 방문",
+      "meanings": [
+        {
+          "meaning": "기사님이 방문해 주셔야 할 것 같아요.",
+          "examples": [
+            "I need a technician to come out. I can't fix this myself."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_178",
+      "word": "When can someone come to fix this?",
+      "subcategory": "기술 지원 - 방문",
+      "meanings": [
+        {
+          "meaning": "언제 와서 수리해 주실 수 있나요?",
+          "examples": [
+            "When can someone come to fix this? I work from home."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_179",
+      "word": "Have you tried turning it off and on again?",
+      "subcategory": "기술 지원 - 안내",
+      "meanings": [
+        {
+          "meaning": "껐다가 다시 켜보셨나요?",
+          "examples": [
+            "Have you tried turning it off and on again? That often fixes the issue."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_180",
+      "word": "I'd like to upgrade my phone.",
+      "subcategory": "통신사 - 기기",
+      "meanings": [
+        {
+          "meaning": "휴대폰을 업그레이드하고 싶습니다.",
+          "examples": [
+            "I'd like to upgrade my phone. What models are available?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_181",
+      "word": "What plans do you have?",
+      "subcategory": "통신사 - 요금제",
+      "meanings": [
+        {
+          "meaning": "어떤 요금제가 있나요?",
+          "examples": [
+            "What plans do you have? I need unlimited data."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_182",
+      "word": "I'd like to change my plan.",
+      "subcategory": "통신사 - 요금제",
+      "meanings": [
+        {
+          "meaning": "요금제를 변경하고 싶습니다.",
+          "examples": [
+            "I'd like to change my plan to something with more data."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_183",
+      "word": "My bill seems too high this month.",
+      "subcategory": "통신사 - 청구",
+      "meanings": [
+        {
+          "meaning": "이번 달 청구서가 너무 높은 것 같아요.",
+          "examples": [
+            "My bill seems too high this month. Can you explain these charges?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_184",
+      "word": "I'd like to add someone to my family plan.",
+      "subcategory": "통신사 - 요금제",
+      "meanings": [
+        {
+          "meaning": "가족 요금제에 사람을 추가하고 싶습니다.",
+          "examples": [
+            "I'd like to add someone to my family plan. How much extra would that be?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_185",
+      "word": "My phone screen is cracked. Can I get it repaired?",
+      "subcategory": "통신사 - 수리",
+      "meanings": [
+        {
+          "meaning": "휴대폰 화면이 깨졌어요. 수리 가능한가요?",
+          "examples": [
+            "My phone screen is cracked. Can I get it repaired here?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_186",
+      "word": "I need someone to fix my plumbing.",
+      "subcategory": "집 수리 - 배관",
+      "meanings": [
+        {
+          "meaning": "배관 수리가 필요합니다.",
+          "examples": [
+            "I need someone to fix my plumbing. The sink is leaking."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_187",
+      "word": "My toilet is clogged.",
+      "subcategory": "집 수리 - 배관",
+      "meanings": [
+        {
+          "meaning": "화장실이 막혔어요.",
+          "examples": [
+            "My toilet is clogged. I've tried plunging it but it won't drain."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_188",
+      "word": "The air conditioning isn't working.",
+      "subcategory": "집 수리 - 냉난방",
+      "meanings": [
+        {
+          "meaning": "에어컨이 작동하지 않아요.",
+          "examples": [
+            "The air conditioning isn't working. It's really hot in here."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_189",
+      "word": "I need to get the heater fixed.",
+      "subcategory": "집 수리 - 냉난방",
+      "meanings": [
+        {
+          "meaning": "히터를 수리해야 합니다.",
+          "examples": [
+            "I need to get the heater fixed before winter comes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_190",
+      "word": "There's a problem with the electrical wiring.",
+      "subcategory": "집 수리 - 전기",
+      "meanings": [
+        {
+          "meaning": "전기 배선에 문제가 있어요.",
+          "examples": [
+            "There's a problem with the electrical wiring. The lights keep flickering."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_191",
+      "word": "How much would it cost to fix this?",
+      "subcategory": "집 수리 - 비용",
+      "meanings": [
+        {
+          "meaning": "수리 비용이 얼마나 될까요?",
+          "examples": [
+            "How much would it cost to fix this? Can I get an estimate?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_192",
+      "word": "How long will the repair take?",
+      "subcategory": "집 수리 - 시간",
+      "meanings": [
+        {
+          "meaning": "수리하는 데 얼마나 걸릴까요?",
+          "examples": [
+            "How long will the repair take? I need to plan my day."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_193",
+      "word": "I'd like to make an appointment for a haircut.",
+      "subcategory": "미용실 - 예약",
+      "meanings": [
+        {
+          "meaning": "커트 예약을 하고 싶습니다.",
+          "examples": [
+            "I'd like to make an appointment for a haircut on Saturday."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_194",
+      "word": "Just a trim, please.",
+      "subcategory": "미용실 - 스타일",
+      "meanings": [
+        {
+          "meaning": "다듬기만 해주세요.",
+          "examples": [
+            "Just a trim, please. About an inch off."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_195",
+      "word": "I'd like to change my hairstyle.",
+      "subcategory": "미용실 - 스타일",
+      "meanings": [
+        {
+          "meaning": "헤어스타일을 바꾸고 싶어요.",
+          "examples": [
+            "I'd like to change my hairstyle. What would you recommend?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_196",
+      "word": "Can you make it shorter on the sides?",
+      "subcategory": "미용실 - 스타일",
+      "meanings": [
+        {
+          "meaning": "옆머리를 더 짧게 해주실 수 있나요?",
+          "examples": [
+            "Can you make it shorter on the sides? I like it longer on top."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_197",
+      "word": "I'd like to dye my hair.",
+      "subcategory": "미용실 - 염색",
+      "meanings": [
+        {
+          "meaning": "머리를 염색하고 싶어요.",
+          "examples": [
+            "I'd like to dye my hair. Do you have any color samples?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_198",
+      "word": "How much is a haircut?",
+      "subcategory": "미용실 - 가격",
+      "meanings": [
+        {
+          "meaning": "커트 비용이 얼마인가요?",
+          "examples": [
+            "How much is a haircut? Does that include washing?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_199",
+      "word": "I'd like to schedule a checkup for my dog.",
+      "subcategory": "동물병원 - 예약",
+      "meanings": [
+        {
+          "meaning": "강아지 건강검진 예약을 하고 싶습니다.",
+          "examples": [
+            "I'd like to schedule a checkup for my dog. When's available?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_200",
+      "word": "My cat hasn't been eating well.",
+      "subcategory": "동물병원 - 증상",
+      "meanings": [
+        {
+          "meaning": "고양이가 밥을 잘 안 먹어요.",
+          "examples": [
+            "My cat hasn't been eating well for the past few days."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_201",
+      "word": "Does my pet need any vaccinations?",
+      "subcategory": "동물병원 - 예방접종",
+      "meanings": [
+        {
+          "meaning": "반려동물 예방접종이 필요한가요?",
+          "examples": [
+            "Does my pet need any vaccinations? When was the last one?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_202",
+      "word": "I'd like to book a grooming appointment.",
+      "subcategory": "반려동물 - 미용",
+      "meanings": [
+        {
+          "meaning": "미용 예약을 하고 싶습니다.",
+          "examples": [
+            "I'd like to book a grooming appointment for my poodle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_203",
+      "word": "Do you offer pet boarding?",
+      "subcategory": "반려동물 - 호텔",
+      "meanings": [
+        {
+          "meaning": "반려동물 호텔 서비스가 있나요?",
+          "examples": [
+            "Do you offer pet boarding? I'll be away for a week."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_204",
+      "word": "I'm looking for a vacation package.",
+      "subcategory": "여행사 - 패키지",
+      "meanings": [
+        {
+          "meaning": "휴가 패키지를 찾고 있습니다.",
+          "examples": [
+            "I'm looking for a vacation package to Hawaii for two people."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_205",
+      "word": "What destinations do you recommend this time of year?",
+      "subcategory": "여행사 - 추천",
+      "meanings": [
+        {
+          "meaning": "이맘때 어디로 가는 게 좋을까요?",
+          "examples": [
+            "What destinations do you recommend this time of year? We prefer warm weather."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_206",
+      "word": "Does the package include flights and hotel?",
+      "subcategory": "여행사 - 패키지",
+      "meanings": [
+        {
+          "meaning": "패키지에 항공편과 호텔이 포함되어 있나요?",
+          "examples": [
+            "Does the package include flights and hotel? What about meals?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_207",
+      "word": "I need to book a round-trip flight.",
+      "subcategory": "여행사 - 항공",
+      "meanings": [
+        {
+          "meaning": "왕복 항공권을 예약해야 합니다.",
+          "examples": [
+            "I need to book a round-trip flight to New York for next month."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_208",
+      "word": "Can you help me plan an itinerary?",
+      "subcategory": "여행사 - 일정",
+      "meanings": [
+        {
+          "meaning": "일정 짜는 걸 도와주실 수 있나요?",
+          "examples": [
+            "Can you help me plan an itinerary? It's my first time visiting Europe."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_209",
+      "word": "I need to get a moving quote.",
+      "subcategory": "이사 - 견적",
+      "meanings": [
+        {
+          "meaning": "이사 견적을 받고 싶습니다.",
+          "examples": [
+            "I need to get a moving quote. I'm moving to a new apartment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_210",
+      "word": "How much do you charge for a local move?",
+      "subcategory": "이사 - 비용",
+      "meanings": [
+        {
+          "meaning": "시내 이사는 비용이 얼마인가요?",
+          "examples": [
+            "How much do you charge for a local move? It's about 30 minutes away."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_211",
+      "word": "Do you provide packing services?",
+      "subcategory": "이사 - 서비스",
+      "meanings": [
+        {
+          "meaning": "포장 서비스도 제공하나요?",
+          "examples": [
+            "Do you provide packing services? I don't have time to pack myself."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_212",
+      "word": "How many movers will come?",
+      "subcategory": "이사 - 서비스",
+      "meanings": [
+        {
+          "meaning": "몇 명이 오나요?",
+          "examples": [
+            "How many movers will come? I have a lot of heavy furniture."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_213",
+      "word": "What time will the movers arrive?",
+      "subcategory": "이사 - 일정",
+      "meanings": [
+        {
+          "meaning": "이사 직원들이 몇 시에 오나요?",
+          "examples": [
+            "What time will the movers arrive? I need to be there to let them in."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_214",
+      "word": "I'm looking for an apartment to rent.",
+      "subcategory": "부동산 - 임대",
+      "meanings": [
+        {
+          "meaning": "임대할 아파트를 찾고 있습니다.",
+          "examples": [
+            "I'm looking for an apartment to rent in the downtown area."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_215",
+      "word": "What's the monthly rent?",
+      "subcategory": "부동산 - 비용",
+      "meanings": [
+        {
+          "meaning": "월세가 얼마인가요?",
+          "examples": [
+            "What's the monthly rent? Does it include utilities?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_216",
+      "word": "Is there a security deposit?",
+      "subcategory": "부동산 - 비용",
+      "meanings": [
+        {
+          "meaning": "보증금이 있나요?",
+          "examples": [
+            "Is there a security deposit? How much is it?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_217",
+      "word": "When can I move in?",
+      "subcategory": "부동산 - 입주",
+      "meanings": [
+        {
+          "meaning": "언제 입주할 수 있나요?",
+          "examples": [
+            "When can I move in? I need to move by the end of the month."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_218",
+      "word": "Can I see the apartment?",
+      "subcategory": "부동산 - 방문",
+      "meanings": [
+        {
+          "meaning": "집을 볼 수 있을까요?",
+          "examples": [
+            "Can I see the apartment? When would be a good time?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_219",
+      "word": "Are pets allowed?",
+      "subcategory": "부동산 - 조건",
+      "meanings": [
+        {
+          "meaning": "반려동물 키울 수 있나요?",
+          "examples": [
+            "Are pets allowed? I have a small dog."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_220",
+      "word": "How long is the lease?",
+      "subcategory": "부동산 - 계약",
+      "meanings": [
+        {
+          "meaning": "계약 기간이 얼마인가요?",
+          "examples": [
+            "How long is the lease? Is it a one-year lease?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_221",
+      "word": "I'm here for a job interview.",
+      "subcategory": "면접 - 방문",
+      "meanings": [
+        {
+          "meaning": "면접 보러 왔습니다.",
+          "examples": [
+            "I'm here for a job interview at 10 AM with Ms. Park."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_222",
+      "word": "Thank you for the opportunity to interview.",
+      "subcategory": "면접 - 인사",
+      "meanings": [
+        {
+          "meaning": "면접 기회를 주셔서 감사합니다.",
+          "examples": [
+            "Thank you for the opportunity to interview for this position."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_223",
+      "word": "Could you tell me more about the position?",
+      "subcategory": "면접 - 질문",
+      "meanings": [
+        {
+          "meaning": "이 직책에 대해 더 알려주실 수 있나요?",
+          "examples": [
+            "Could you tell me more about the position and responsibilities?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_224",
+      "word": "What are the working hours?",
+      "subcategory": "면접 - 질문",
+      "meanings": [
+        {
+          "meaning": "근무 시간이 어떻게 되나요?",
+          "examples": [
+            "What are the working hours? Is there flexibility?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_225",
+      "word": "When can I expect to hear back from you?",
+      "subcategory": "면접 - 결과",
+      "meanings": [
+        {
+          "meaning": "언제쯤 결과를 알 수 있을까요?",
+          "examples": [
+            "When can I expect to hear back from you about the decision?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_226",
+      "word": "My car is making a strange noise.",
+      "subcategory": "정비소 - 증상",
+      "meanings": [
+        {
+          "meaning": "차에서 이상한 소리가 나요.",
+          "examples": [
+            "My car is making a strange noise when I brake."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_227",
+      "word": "I need an oil change.",
+      "subcategory": "정비소 - 서비스",
+      "meanings": [
+        {
+          "meaning": "오일 교환이 필요합니다.",
+          "examples": [
+            "I need an oil change. It's been about 5,000 miles."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_228",
+      "word": "The check engine light is on.",
+      "subcategory": "정비소 - 증상",
+      "meanings": [
+        {
+          "meaning": "엔진 경고등이 켜졌어요.",
+          "examples": [
+            "The check engine light is on. What could be wrong?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_229",
+      "word": "How much will the repair cost?",
+      "subcategory": "정비소 - 비용",
+      "meanings": [
+        {
+          "meaning": "수리 비용이 얼마나 될까요?",
+          "examples": [
+            "How much will the repair cost? Can I get a written estimate?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_230",
+      "word": "How long will it take to fix?",
+      "subcategory": "정비소 - 시간",
+      "meanings": [
+        {
+          "meaning": "수리하는 데 얼마나 걸릴까요?",
+          "examples": [
+            "How long will it take to fix? Can I wait here?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_231",
+      "word": "Do you have a loaner car available?",
+      "subcategory": "정비소 - 서비스",
+      "meanings": [
+        {
+          "meaning": "대여 차량이 있나요?",
+          "examples": [
+            "Do you have a loaner car available while mine is being repaired?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_232",
+      "word": "I think my battery is dead.",
+      "subcategory": "정비소 - 증상",
+      "meanings": [
+        {
+          "meaning": "배터리가 방전된 것 같아요.",
+          "examples": [
+            "I think my battery is dead. The car won't start."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_233",
+      "word": "I need new tires.",
+      "subcategory": "정비소 - 서비스",
+      "meanings": [
+        {
+          "meaning": "새 타이어가 필요합니다.",
+          "examples": [
+            "I need new tires. What brands do you carry?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_234",
+      "word": "I'd like to have these dry cleaned.",
+      "subcategory": "세탁소 - 세탁",
+      "meanings": [
+        {
+          "meaning": "드라이클리닝 해주세요.",
+          "examples": [
+            "I'd like to have these dry cleaned. When will they be ready?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_235",
+      "word": "Can you remove this stain?",
+      "subcategory": "세탁소 - 세탁",
+      "meanings": [
+        {
+          "meaning": "이 얼룩 제거할 수 있나요?",
+          "examples": [
+            "Can you remove this stain? It's coffee."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_236",
+      "word": "I need this by tomorrow.",
+      "subcategory": "세탁소 - 긴급",
+      "meanings": [
+        {
+          "meaning": "내일까지 필요해요.",
+          "examples": [
+            "I need this by tomorrow. Is express service available?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_237",
+      "word": "When will my clothes be ready?",
+      "subcategory": "세탁소 - 확인",
+      "meanings": [
+        {
+          "meaning": "옷이 언제 준비되나요?",
+          "examples": [
+            "When will my clothes be ready? I dropped them off yesterday."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_238",
+      "word": "I'm here to pick up my clothes.",
+      "subcategory": "세탁소 - 수령",
+      "meanings": [
+        {
+          "meaning": "옷 찾으러 왔습니다.",
+          "examples": [
+            "I'm here to pick up my clothes. The name is Kim."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_239",
+      "word": "Can you alter this suit?",
+      "subcategory": "세탁소 - 수선",
+      "meanings": [
+        {
+          "meaning": "이 양복 수선해 주실 수 있나요?",
+          "examples": [
+            "Can you alter this suit? The pants are too long."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_240",
+      "word": "I'd like two tickets for the 7 PM show.",
+      "subcategory": "공연 - 구매",
+      "meanings": [
+        {
+          "meaning": "7시 공연 티켓 2장 주세요.",
+          "examples": [
+            "I'd like two tickets for the 7 PM show, please."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_241",
+      "word": "Are there any seats still available?",
+      "subcategory": "공연 - 확인",
+      "meanings": [
+        {
+          "meaning": "아직 좌석이 있나요?",
+          "examples": [
+            "Are there any seats still available for tonight's concert?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_242",
+      "word": "Where are these seats located?",
+      "subcategory": "공연 - 좌석",
+      "meanings": [
+        {
+          "meaning": "이 좌석이 어디에 있나요?",
+          "examples": [
+            "Where are these seats located? Are they in the front?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_243",
+      "word": "Can I choose my seats?",
+      "subcategory": "공연 - 좌석",
+      "meanings": [
+        {
+          "meaning": "좌석을 선택할 수 있나요?",
+          "examples": [
+            "Can I choose my seats? I'd prefer something in the middle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_244",
+      "word": "Is there a student discount?",
+      "subcategory": "공연 - 할인",
+      "meanings": [
+        {
+          "meaning": "학생 할인이 있나요?",
+          "examples": [
+            "Is there a student discount? I have my student ID."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_245",
+      "word": "Can I get a refund for this ticket?",
+      "subcategory": "공연 - 환불",
+      "meanings": [
+        {
+          "meaning": "이 티켓 환불 가능한가요?",
+          "examples": [
+            "Can I get a refund for this ticket? I can't make it to the show."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_246",
+      "word": "Is breakfast included?",
+      "subcategory": "호텔 - 서비스",
+      "meanings": [
+        {
+          "meaning": "조식이 포함되어 있나요?",
+          "examples": [
+            "Is breakfast included in the room rate?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_247",
+      "word": "What time does breakfast start?",
+      "subcategory": "호텔 - 서비스",
+      "meanings": [
+        {
+          "meaning": "조식이 몇 시부터인가요?",
+          "examples": [
+            "What time does breakfast start? And where is it served?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_248",
+      "word": "Could I get a wake-up call at 7 AM?",
+      "subcategory": "호텔 - 서비스",
+      "meanings": [
+        {
+          "meaning": "7시에 모닝콜 해주실 수 있나요?",
+          "examples": [
+            "Could I get a wake-up call at 7 AM? I have an early flight."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_249",
+      "word": "Is there WiFi in the rooms?",
+      "subcategory": "호텔 - 서비스",
+      "meanings": [
+        {
+          "meaning": "객실에 와이파이가 있나요?",
+          "examples": [
+            "Is there WiFi in the rooms? What's the password?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_250",
+      "word": "Could I have some extra towels?",
+      "subcategory": "호텔 - 요청",
+      "meanings": [
+        {
+          "meaning": "수건을 더 주실 수 있나요?",
+          "examples": [
+            "Could I have some extra towels sent to my room?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_251",
+      "word": "The room hasn't been cleaned yet.",
+      "subcategory": "호텔 - 문제",
+      "meanings": [
+        {
+          "meaning": "아직 방 청소가 안 됐어요.",
+          "examples": [
+            "The room hasn't been cleaned yet. Could you send housekeeping?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_252",
+      "word": "I locked myself out of my room.",
+      "subcategory": "호텔 - 문제",
+      "meanings": [
+        {
+          "meaning": "방에 키를 두고 나왔어요.",
+          "examples": [
+            "I locked myself out of my room. Can I get another key card?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_253",
+      "word": "The neighbors are being too loud.",
+      "subcategory": "호텔 - 문제",
+      "meanings": [
+        {
+          "meaning": "옆방이 너무 시끄러워요.",
+          "examples": [
+            "The neighbors are being too loud. Is there anything you can do?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_254",
+      "word": "Can I store my luggage after checkout?",
+      "subcategory": "호텔 - 체크아웃",
+      "meanings": [
+        {
+          "meaning": "체크아웃 후에 짐을 맡길 수 있나요?",
+          "examples": [
+            "Can I store my luggage after checkout? My flight isn't until evening."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_255",
+      "word": "I've been in a car accident.",
+      "subcategory": "사고 - 신고",
+      "meanings": [
+        {
+          "meaning": "교통사고가 났습니다.",
+          "examples": [
+            "I've been in a car accident. No one is seriously hurt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_256",
+      "word": "I need to file an insurance claim.",
+      "subcategory": "보험 - 청구",
+      "meanings": [
+        {
+          "meaning": "보험 청구를 해야 합니다.",
+          "examples": [
+            "I need to file an insurance claim for the damage to my car."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_257",
+      "word": "Can I get a copy of the police report?",
+      "subcategory": "사고 - 서류",
+      "meanings": [
+        {
+          "meaning": "경찰 보고서 사본을 받을 수 있나요?",
+          "examples": [
+            "Can I get a copy of the police report? I need it for insurance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_258",
+      "word": "What information do you need from me?",
+      "subcategory": "보험 - 정보",
+      "meanings": [
+        {
+          "meaning": "제게 어떤 정보가 필요하신가요?",
+          "examples": [
+            "What information do you need from me to process the claim?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_259",
+      "word": "How long will it take to process the claim?",
+      "subcategory": "보험 - 처리",
+      "meanings": [
+        {
+          "meaning": "청구 처리에 얼마나 걸리나요?",
+          "examples": [
+            "How long will it take to process the claim? I need to get my car fixed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_260",
+      "word": "Hi, I just moved in next door.",
+      "subcategory": "이웃 - 인사",
+      "meanings": [
+        {
+          "meaning": "안녕하세요, 옆집에 새로 이사 왔어요.",
+          "examples": [
+            "Hi, I just moved in next door. I wanted to introduce myself."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_261",
+      "word": "Could you please keep the noise down?",
+      "subcategory": "이웃 - 요청",
+      "meanings": [
+        {
+          "meaning": "소음 좀 줄여주실 수 있을까요?",
+          "examples": [
+            "Could you please keep the noise down after 10 PM?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_262",
+      "word": "My package was delivered to your address by mistake.",
+      "subcategory": "이웃 - 문의",
+      "meanings": [
+        {
+          "meaning": "제 택배가 실수로 댁으로 배달된 것 같아요.",
+          "examples": [
+            "My package was delivered to your address by mistake. Did you receive it?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_263",
+      "word": "Could you watch my place while I'm away?",
+      "subcategory": "이웃 - 부탁",
+      "meanings": [
+        {
+          "meaning": "제가 없는 동안 집 좀 봐주실 수 있나요?",
+          "examples": [
+            "Could you watch my place while I'm away on vacation?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_264",
+      "word": "I'm having a party this weekend. I hope it won't be too noisy.",
+      "subcategory": "이웃 - 알림",
+      "meanings": [
+        {
+          "meaning": "이번 주말에 파티를 하는데 너무 시끄럽지 않았으면 좋겠어요.",
+          "examples": [
+            "I'm having a party this weekend. I hope it won't be too noisy for you."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_265",
+      "word": "I'd like to check in for my flight.",
+      "subcategory": "공항 - 체크인",
+      "meanings": [
+        {
+          "meaning": "비행기 체크인하고 싶습니다.",
+          "examples": [
+            "I'd like to check in for my flight to Tokyo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_266",
+      "word": "How many bags can I check?",
+      "subcategory": "공항 - 수하물",
+      "meanings": [
+        {
+          "meaning": "가방을 몇 개 부칠 수 있나요?",
+          "examples": [
+            "How many bags can I check? Is there a weight limit?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_267",
+      "word": "Is my flight on time?",
+      "subcategory": "공항 - 확인",
+      "meanings": [
+        {
+          "meaning": "비행기 정시에 출발하나요?",
+          "examples": [
+            "Is my flight on time? I see it's not on the board yet."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_268",
+      "word": "Where can I get a boarding pass?",
+      "subcategory": "공항 - 체크인",
+      "meanings": [
+        {
+          "meaning": "탑승권은 어디서 받을 수 있나요?",
+          "examples": [
+            "Where can I get a boarding pass? I checked in online."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_269",
+      "word": "I missed my connecting flight.",
+      "subcategory": "공항 - 문제",
+      "meanings": [
+        {
+          "meaning": "연결편을 놓쳤습니다.",
+          "examples": [
+            "I missed my connecting flight because of the delay. What can I do?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_270",
+      "word": "Can I change my seat?",
+      "subcategory": "공항 - 좌석",
+      "meanings": [
+        {
+          "meaning": "좌석을 변경할 수 있나요?",
+          "examples": [
+            "Can I change my seat? I'd prefer a window seat."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_271",
+      "word": "Where is the currency exchange?",
+      "subcategory": "공항 - 시설",
+      "meanings": [
+        {
+          "meaning": "환전소가 어디에 있나요?",
+          "examples": [
+            "Where is the currency exchange? I need to get some local money."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_272",
+      "word": "Do you have this in other colors?",
+      "subcategory": "쇼핑 - 옵션",
+      "meanings": [
+        {
+          "meaning": "다른 색상도 있나요?",
+          "examples": [
+            "Do you have this in other colors? I'm looking for something darker."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_273",
+      "word": "What's your return policy?",
+      "subcategory": "쇼핑 - 정책",
+      "meanings": [
+        {
+          "meaning": "반품 정책이 어떻게 되나요?",
+          "examples": [
+            "What's your return policy? How many days do I have?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_274",
+      "word": "Does this come with a warranty?",
+      "subcategory": "쇼핑 - 보증",
+      "meanings": [
+        {
+          "meaning": "보증이 있나요?",
+          "examples": [
+            "Does this come with a warranty? How long does it last?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_275",
+      "word": "Can you gift wrap this for me?",
+      "subcategory": "쇼핑 - 서비스",
+      "meanings": [
+        {
+          "meaning": "선물 포장해 주실 수 있나요?",
+          "examples": [
+            "Can you gift wrap this for me? It's a birthday present."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_276",
+      "word": "Do you price match?",
+      "subcategory": "쇼핑 - 가격",
+      "meanings": [
+        {
+          "meaning": "가격 매칭해 주시나요?",
+          "examples": [
+            "Do you price match? I found it cheaper online."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_277",
+      "word": "Is there a fitting room available?",
+      "subcategory": "쇼핑 - 피팅",
+      "meanings": [
+        {
+          "meaning": "탈의실 사용 가능한가요?",
+          "examples": [
+            "Is there a fitting room available? I'd like to try a few things on."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_278",
+      "word": "Can you take me to the airport?",
+      "subcategory": "택시 - 목적지",
+      "meanings": [
+        {
+          "meaning": "공항까지 가주실 수 있나요?",
+          "examples": [
+            "Can you take me to the airport? I have a flight at 3 PM."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_279",
+      "word": "How much will it cost to get to downtown?",
+      "subcategory": "택시 - 비용",
+      "meanings": [
+        {
+          "meaning": "시내까지 얼마나 나올까요?",
+          "examples": [
+            "How much will it cost to get to downtown? Is it metered?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_280",
+      "word": "Could you turn on the meter, please?",
+      "subcategory": "택시 - 요청",
+      "meanings": [
+        {
+          "meaning": "미터기 켜주시겠어요?",
+          "examples": [
+            "Could you turn on the meter, please? I'd prefer to use the meter."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_281",
+      "word": "Please take the fastest route.",
+      "subcategory": "택시 - 요청",
+      "meanings": [
+        {
+          "meaning": "가장 빠른 길로 가주세요.",
+          "examples": [
+            "Please take the fastest route. I'm in a hurry."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_282",
+      "word": "Can you drop me off at the corner?",
+      "subcategory": "택시 - 요청",
+      "meanings": [
+        {
+          "meaning": "저 모퉁이에서 내려주시겠어요?",
+          "examples": [
+            "Can you drop me off at the corner? That would be perfect."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_283",
+      "word": "Keep the change.",
+      "subcategory": "택시 - 결제",
+      "meanings": [
+        {
+          "meaning": "잔돈은 가지세요.",
+          "examples": [
+            "Here you go. Keep the change. Thank you!"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_284",
+      "word": "I'd like a large coffee, please.",
+      "subcategory": "카페 - 주문",
+      "meanings": [
+        {
+          "meaning": "큰 사이즈 커피 주세요.",
+          "examples": [
+            "I'd like a large coffee, please. Black with no sugar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_285",
+      "word": "Can I get that with oat milk?",
+      "subcategory": "카페 - 옵션",
+      "meanings": [
+        {
+          "meaning": "귀리 우유로 해주실 수 있나요?",
+          "examples": [
+            "Can I get that with oat milk instead of regular milk?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_286",
+      "word": "Is there a plug where I can charge my laptop?",
+      "subcategory": "카페 - 시설",
+      "meanings": [
+        {
+          "meaning": "노트북 충전할 수 있는 콘센트가 있나요?",
+          "examples": [
+            "Is there a plug where I can charge my laptop? I'll be working here."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_287",
+      "word": "What's the WiFi password?",
+      "subcategory": "카페 - 시설",
+      "meanings": [
+        {
+          "meaning": "와이파이 비밀번호가 뭔가요?",
+          "examples": [
+            "What's the WiFi password? I need to get online."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_288",
+      "word": "Can I get this for here, not to go?",
+      "subcategory": "카페 - 주문",
+      "meanings": [
+        {
+          "meaning": "테이크아웃 말고 여기서 마실게요.",
+          "examples": [
+            "Can I get this for here, not to go? I'd like a real cup, please."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_289",
+      "word": "I'd like to apply for a credit card.",
+      "subcategory": "은행 - 신청",
+      "meanings": [
+        {
+          "meaning": "신용카드를 신청하고 싶습니다.",
+          "examples": [
+            "I'd like to apply for a credit card. What are the requirements?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_290",
+      "word": "I need to report my card as lost.",
+      "subcategory": "은행 - 분실",
+      "meanings": [
+        {
+          "meaning": "카드 분실 신고를 해야 합니다.",
+          "examples": [
+            "I need to report my card as lost. Can you block it immediately?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_291",
+      "word": "I'd like to deposit this check.",
+      "subcategory": "은행 - 입금",
+      "meanings": [
+        {
+          "meaning": "이 수표를 입금하고 싶습니다.",
+          "examples": [
+            "I'd like to deposit this check into my savings account."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_292",
+      "word": "What's the interest rate on savings accounts?",
+      "subcategory": "은행 - 문의",
+      "meanings": [
+        {
+          "meaning": "저축 계좌 이자율이 어떻게 되나요?",
+          "examples": [
+            "What's the interest rate on savings accounts?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_293",
+      "word": "I need to update my address.",
+      "subcategory": "은행 - 정보 변경",
+      "meanings": [
+        {
+          "meaning": "주소를 변경해야 합니다.",
+          "examples": [
+            "I need to update my address. I've recently moved."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_294",
+      "word": "I'd like to file a complaint about noise.",
+      "subcategory": "민원 - 소음",
+      "meanings": [
+        {
+          "meaning": "소음에 대해 민원을 넣고 싶습니다.",
+          "examples": [
+            "I'd like to file a complaint about noise from the construction site."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_295",
+      "word": "Where can I recycle these bottles?",
+      "subcategory": "일상 - 재활용",
+      "meanings": [
+        {
+          "meaning": "이 병들을 어디서 재활용할 수 있나요?",
+          "examples": [
+            "Where can I recycle these bottles? Is there a recycling bin nearby?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_296",
+      "word": "I need to report a power outage.",
+      "subcategory": "긴급 - 정전",
+      "meanings": [
+        {
+          "meaning": "정전 신고를 해야 합니다.",
+          "examples": [
+            "I need to report a power outage. The whole building is dark."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_297",
+      "word": "Is there a restroom nearby?",
+      "subcategory": "일상 - 시설",
+      "meanings": [
+        {
+          "meaning": "근처에 화장실이 있나요?",
+          "examples": [
+            "Is there a restroom nearby? I really need to use one."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_298",
+      "word": "Could you take a picture of us?",
+      "subcategory": "일상 - 요청",
+      "meanings": [
+        {
+          "meaning": "저희 사진 좀 찍어주시겠어요?",
+          "examples": [
+            "Could you take a picture of us? Just press this button."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_299",
+      "word": "Do you have a charger I could borrow?",
+      "subcategory": "일상 - 요청",
+      "meanings": [
+        {
+          "meaning": "빌릴 수 있는 충전기 있나요?",
+          "examples": [
+            "Do you have a charger I could borrow? My phone is about to die."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_300",
+      "word": "What time do you close?",
+      "subcategory": "일상 - 문의",
+      "meanings": [
+        {
+          "meaning": "몇 시에 문 닫나요?",
+          "examples": [
+            "What time do you close? I want to make sure I have enough time."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_301",
+      "word": "Do you accept credit cards?",
+      "subcategory": "결제 - 문의",
+      "meanings": [
+        {
+          "meaning": "신용카드 되나요?",
+          "examples": [
+            "Do you accept credit cards? Or is it cash only?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_302",
+      "word": "Can I pay with my phone?",
+      "subcategory": "결제 - 문의",
+      "meanings": [
+        {
+          "meaning": "휴대폰으로 결제할 수 있나요?",
+          "examples": [
+            "Can I pay with my phone? I have Apple Pay."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_rp_303",
+      "word": "I think you gave me the wrong change.",
+      "subcategory": "결제 - 문제",
+      "meanings": [
+        {
+          "meaning": "거스름돈이 잘못된 것 같아요.",
+          "examples": [
+            "I think you gave me the wrong change. I gave you a $20 bill."
+          ]
+        }
+      ]
+    }
+  ]
+}

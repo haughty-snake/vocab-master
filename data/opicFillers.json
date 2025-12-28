@@ -1,0 +1,610 @@
+{
+  "id": "opicFillers",
+  "name": "OPIc Filler 표현",
+  "description": "OPIc 시험에서 자연스러운 대화를 위한 Filler 표현",
+  "category": "OPIc",
+  "icon": "💭",
+  "lang": "en-US",
+  "words": [
+    {
+      "id": "filler_001",
+      "word": "Well...",
+      "subcategory": "시간벌기",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "음..., 글쎄...", "examples": [{ "sentence": "Well... let me think about that.", "translation": "음... 그것에 대해 생각해 볼게요." }] }]
+    },
+    {
+      "id": "filler_002",
+      "word": "Let me see...",
+      "subcategory": "시간벌기",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "어디 보자...", "examples": [{ "sentence": "Let me see... I think it was last year.", "translation": "어디 보자... 작년이었던 것 같아요." }] }]
+    },
+    {
+      "id": "filler_003",
+      "word": "Let me think...",
+      "subcategory": "시간벌기",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "생각 좀 해볼게요...", "examples": [{ "sentence": "Let me think... I've done that many times.", "translation": "생각 좀 해볼게요... 그건 여러 번 해봤어요." }] }]
+    },
+    {
+      "id": "filler_004",
+      "word": "How can I say this?",
+      "subcategory": "시간벌기",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "이걸 어떻게 말해야 하지?", "examples": [{ "sentence": "How can I say this? It was a unique experience.", "translation": "이걸 어떻게 말해야 하지? 독특한 경험이었어요." }] }]
+    },
+    {
+      "id": "filler_005",
+      "word": "That's a good question.",
+      "subcategory": "시간벌기",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "좋은 질문이네요.", "examples": [{ "sentence": "That's a good question. I haven't thought about it before.", "translation": "좋은 질문이네요. 전에 생각해 본 적이 없어요." }] }]
+    },
+    {
+      "id": "filler_006",
+      "word": "Actually...",
+      "subcategory": "전환",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "사실은...", "examples": [{ "sentence": "Actually, I changed my mind about that.", "translation": "사실은, 그것에 대한 생각이 바뀌었어요." }] }]
+    },
+    {
+      "id": "filler_007",
+      "word": "To be honest...",
+      "subcategory": "전환",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "솔직히 말하면...", "examples": [{ "sentence": "To be honest, I don't do that very often.", "translation": "솔직히 말하면, 그렇게 자주 하지는 않아요." }] }]
+    },
+    {
+      "id": "filler_008",
+      "word": "Honestly speaking...",
+      "subcategory": "전환",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "솔직히 말해서...", "examples": [{ "sentence": "Honestly speaking, it wasn't my favorite.", "translation": "솔직히 말해서, 제일 좋아하는 건 아니었어요." }] }]
+    },
+    {
+      "id": "filler_009",
+      "word": "You know...",
+      "subcategory": "연결",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "있잖아요..., 아시다시피...", "examples": [{ "sentence": "You know, life is full of surprises.", "translation": "있잖아요, 인생은 놀라움으로 가득해요." }] }]
+    },
+    {
+      "id": "filler_010",
+      "word": "You know what I mean?",
+      "subcategory": "연결",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "무슨 말인지 알겠죠?", "examples": [{ "sentence": "It was really tiring, you know what I mean?", "translation": "정말 피곤했어요, 무슨 말인지 알겠죠?" }] }]
+    },
+    {
+      "id": "filler_011",
+      "word": "I mean...",
+      "subcategory": "수정/명확화",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "제 말은..., 그러니까...", "examples": [{ "sentence": "I mean, it wasn't that bad.", "translation": "제 말은, 그렇게 나쁘진 않았어요." }] }]
+    },
+    {
+      "id": "filler_012",
+      "word": "What I mean is...",
+      "subcategory": "수정/명확화",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "제가 말하고 싶은 건...", "examples": [{ "sentence": "What I mean is, we should try again.", "translation": "제가 말하고 싶은 건, 다시 시도해 봐야 한다는 거예요." }] }]
+    },
+    {
+      "id": "filler_013",
+      "word": "In other words...",
+      "subcategory": "수정/명확화",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "다시 말해서...", "examples": [{ "sentence": "In other words, I really enjoyed it.", "translation": "다시 말해서, 정말 즐거웠어요." }] }]
+    },
+    {
+      "id": "filler_014",
+      "word": "Kind of...",
+      "subcategory": "완화",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "약간..., 좀...", "examples": [{ "sentence": "It was kind of interesting.", "translation": "좀 흥미로웠어요." }] }]
+    },
+    {
+      "id": "filler_015",
+      "word": "Sort of...",
+      "subcategory": "완화",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "어느 정도..., 일종의...", "examples": [{ "sentence": "I sort of understand what you mean.", "translation": "어느 정도 무슨 말인지 알겠어요." }] }]
+    },
+    {
+      "id": "filler_016",
+      "word": "More or less...",
+      "subcategory": "완화",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "대략..., 어느 정도는...", "examples": [{ "sentence": "More or less, that's what happened.", "translation": "대략 그런 일이 있었어요." }] }]
+    },
+    {
+      "id": "filler_017",
+      "word": "Basically...",
+      "subcategory": "요약",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "기본적으로...", "examples": [{ "sentence": "Basically, I love traveling.", "translation": "기본적으로, 저는 여행을 좋아해요." }] }]
+    },
+    {
+      "id": "filler_018",
+      "word": "In short...",
+      "subcategory": "요약",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "간단히 말해서...", "examples": [{ "sentence": "In short, it was an amazing experience.", "translation": "간단히 말해서, 놀라운 경험이었어요." }] }]
+    },
+    {
+      "id": "filler_019",
+      "word": "To sum up...",
+      "subcategory": "요약",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "요약하자면...", "examples": [{ "sentence": "To sum up, I had a great time.", "translation": "요약하자면, 정말 좋은 시간이었어요." }] }]
+    },
+    {
+      "id": "filler_020",
+      "word": "Like I said...",
+      "subcategory": "반복",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "말했듯이...", "examples": [{ "sentence": "Like I said, it's my favorite hobby.", "translation": "말했듯이, 그건 제가 가장 좋아하는 취미예요." }] }]
+    },
+    {
+      "id": "filler_021",
+      "word": "As I mentioned...",
+      "subcategory": "반복",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "언급했듯이...", "examples": [{ "sentence": "As I mentioned, I go there every weekend.", "translation": "언급했듯이, 저는 매 주말 거기에 가요." }] }]
+    },
+    {
+      "id": "filler_022",
+      "word": "Let me put it this way...",
+      "subcategory": "설명",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "이렇게 말해볼게요...", "examples": [{ "sentence": "Let me put it this way, it changed my life.", "translation": "이렇게 말해볼게요, 그건 제 인생을 바꿨어요." }] }]
+    },
+    {
+      "id": "filler_023",
+      "word": "The thing is...",
+      "subcategory": "설명",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "문제는..., 사실은...", "examples": [{ "sentence": "The thing is, I don't have much free time.", "translation": "사실은, 자유 시간이 별로 없어요." }] }]
+    },
+    {
+      "id": "filler_024",
+      "word": "Here's the thing...",
+      "subcategory": "설명",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "문제는 이거예요...", "examples": [{ "sentence": "Here's the thing, I've never tried it before.", "translation": "문제는 이거예요, 전에 해본 적이 없어요." }] }]
+    },
+    {
+      "id": "filler_025",
+      "word": "For example...",
+      "subcategory": "예시",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "예를 들면...", "examples": [{ "sentence": "For example, I like to go hiking.", "translation": "예를 들면, 저는 하이킹을 좋아해요." }] }]
+    },
+    {
+      "id": "filler_026",
+      "word": "For instance...",
+      "subcategory": "예시",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "예를 들어...", "examples": [{ "sentence": "For instance, last week I went to the movies.", "translation": "예를 들어, 지난주에 영화 보러 갔어요." }] }]
+    },
+    {
+      "id": "filler_027",
+      "word": "Such as...",
+      "subcategory": "예시",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "~같은...", "examples": [{ "sentence": "I enjoy outdoor activities, such as hiking and camping.", "translation": "저는 하이킹이나 캠핑 같은 야외 활동을 즐겨요." }] }]
+    },
+    {
+      "id": "filler_028",
+      "word": "To give you an example...",
+      "subcategory": "예시",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "예를 들어 말씀드리면...", "examples": [{ "sentence": "To give you an example, I cook Korean food often.", "translation": "예를 들어 말씀드리면, 저는 한식을 자주 요리해요." }] }]
+    },
+    {
+      "id": "filler_029",
+      "word": "Speaking of which...",
+      "subcategory": "전환",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "말이 나온 김에...", "examples": [{ "sentence": "Speaking of which, I went there last month.", "translation": "말이 나온 김에, 지난달에 거기 갔었어요." }] }]
+    },
+    {
+      "id": "filler_030",
+      "word": "By the way...",
+      "subcategory": "전환",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "그런데..., 그건 그렇고...", "examples": [{ "sentence": "By the way, I also enjoy cooking.", "translation": "그건 그렇고, 저도 요리를 좋아해요." }] }]
+    },
+    {
+      "id": "filler_031",
+      "word": "Anyway...",
+      "subcategory": "전환",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "어쨌든...", "examples": [{ "sentence": "Anyway, it was a great experience.", "translation": "어쨌든, 좋은 경험이었어요." }] }]
+    },
+    {
+      "id": "filler_032",
+      "word": "So anyway...",
+      "subcategory": "전환",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "그래서 어쨌든...", "examples": [{ "sentence": "So anyway, that's why I started this hobby.", "translation": "그래서 어쨌든, 그래서 이 취미를 시작했어요." }] }]
+    },
+    {
+      "id": "filler_033",
+      "word": "Getting back to the point...",
+      "subcategory": "전환",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "본론으로 돌아가서...", "examples": [{ "sentence": "Getting back to the point, I really recommend it.", "translation": "본론으로 돌아가서, 정말 추천해요." }] }]
+    },
+    {
+      "id": "filler_034",
+      "word": "As for me...",
+      "subcategory": "의견",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "저 같은 경우에는...", "examples": [{ "sentence": "As for me, I prefer staying home.", "translation": "저 같은 경우에는, 집에 있는 걸 더 좋아해요." }] }]
+    },
+    {
+      "id": "filler_035",
+      "word": "In my opinion...",
+      "subcategory": "의견",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "제 생각에는...", "examples": [{ "sentence": "In my opinion, it's worth trying.", "translation": "제 생각에는, 시도해 볼 만해요." }] }]
+    },
+    {
+      "id": "filler_036",
+      "word": "From my point of view...",
+      "subcategory": "의견",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "제 관점에서는...", "examples": [{ "sentence": "From my point of view, it's the best option.", "translation": "제 관점에서는, 그게 최선의 선택이에요." }] }]
+    },
+    {
+      "id": "filler_037",
+      "word": "Personally...",
+      "subcategory": "의견",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "개인적으로는...", "examples": [{ "sentence": "Personally, I think it's amazing.", "translation": "개인적으로는, 정말 대단하다고 생각해요." }] }]
+    },
+    {
+      "id": "filler_038",
+      "word": "I would say...",
+      "subcategory": "의견",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "저라면 ~라고 할 것 같아요", "examples": [{ "sentence": "I would say it was a memorable trip.", "translation": "저라면 기억에 남는 여행이었다고 할 것 같아요." }] }]
+    },
+    {
+      "id": "filler_039",
+      "word": "I guess...",
+      "subcategory": "추측",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "아마..., ~인 것 같아요", "examples": [{ "sentence": "I guess it was about five years ago.", "translation": "아마 5년 전쯤인 것 같아요." }] }]
+    },
+    {
+      "id": "filler_040",
+      "word": "I suppose...",
+      "subcategory": "추측",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "아마..., ~인 것 같아요", "examples": [{ "sentence": "I suppose you could say that.", "translation": "그렇게 말할 수도 있을 것 같아요." }] }]
+    },
+    {
+      "id": "filler_041",
+      "word": "I think...",
+      "subcategory": "의견",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "제 생각에는...", "examples": [{ "sentence": "I think it's a great idea.", "translation": "제 생각에는 좋은 생각이에요." }] }]
+    },
+    {
+      "id": "filler_042",
+      "word": "I believe...",
+      "subcategory": "의견",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "저는 ~라고 믿어요", "examples": [{ "sentence": "I believe it's important to stay healthy.", "translation": "저는 건강을 유지하는 게 중요하다고 믿어요." }] }]
+    },
+    {
+      "id": "filler_043",
+      "word": "If I remember correctly...",
+      "subcategory": "회상",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "제가 기억하기로는...", "examples": [{ "sentence": "If I remember correctly, it was in 2020.", "translation": "제가 기억하기로는, 2020년이었어요." }] }]
+    },
+    {
+      "id": "filler_044",
+      "word": "As far as I remember...",
+      "subcategory": "회상",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "제가 기억하는 한...", "examples": [{ "sentence": "As far as I remember, it was raining that day.", "translation": "제가 기억하는 한, 그날 비가 왔어요." }] }]
+    },
+    {
+      "id": "filler_045",
+      "word": "I remember...",
+      "subcategory": "회상",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "기억나요...", "examples": [{ "sentence": "I remember being so excited.", "translation": "너무 신났던 게 기억나요." }] }]
+    },
+    {
+      "id": "filler_046",
+      "word": "It reminds me of...",
+      "subcategory": "회상",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "~이 생각나요", "examples": [{ "sentence": "It reminds me of my childhood.", "translation": "그건 어린 시절이 생각나게 해요." }] }]
+    },
+    {
+      "id": "filler_047",
+      "word": "Now that I think about it...",
+      "subcategory": "회상",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "생각해 보니까...", "examples": [{ "sentence": "Now that I think about it, it was quite funny.", "translation": "생각해 보니까, 꽤 웃겼어요." }] }]
+    },
+    {
+      "id": "filler_048",
+      "word": "Come to think of it...",
+      "subcategory": "회상",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "생각해 보니...", "examples": [{ "sentence": "Come to think of it, I've been there before.", "translation": "생각해 보니, 전에 거기 가본 적 있어요." }] }]
+    },
+    {
+      "id": "filler_049",
+      "word": "First of all...",
+      "subcategory": "순서",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "우선..., 첫째로...", "examples": [{ "sentence": "First of all, let me explain the situation.", "translation": "우선, 상황을 설명해 드릴게요." }] }]
+    },
+    {
+      "id": "filler_050",
+      "word": "To begin with...",
+      "subcategory": "순서",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "우선..., 먼저...", "examples": [{ "sentence": "To begin with, I love the atmosphere.", "translation": "우선, 저는 분위기가 좋아요." }] }]
+    },
+    {
+      "id": "filler_051",
+      "word": "And then...",
+      "subcategory": "순서",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "그리고 나서...", "examples": [{ "sentence": "And then, we went to have dinner.", "translation": "그리고 나서, 저녁 먹으러 갔어요." }] }]
+    },
+    {
+      "id": "filler_052",
+      "word": "After that...",
+      "subcategory": "순서",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "그 후에...", "examples": [{ "sentence": "After that, we went home.", "translation": "그 후에, 집에 갔어요." }] }]
+    },
+    {
+      "id": "filler_053",
+      "word": "Finally...",
+      "subcategory": "순서",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "마지막으로..., 드디어...", "examples": [{ "sentence": "Finally, we arrived at the hotel.", "translation": "마침내, 호텔에 도착했어요." }] }]
+    },
+    {
+      "id": "filler_054",
+      "word": "In the end...",
+      "subcategory": "순서",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "결국에는...", "examples": [{ "sentence": "In the end, everything worked out.", "translation": "결국에는, 모든 게 잘 됐어요." }] }]
+    },
+    {
+      "id": "filler_055",
+      "word": "On the other hand...",
+      "subcategory": "대조",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "반면에...", "examples": [{ "sentence": "On the other hand, it can be tiring.", "translation": "반면에, 피곤할 수 있어요." }] }]
+    },
+    {
+      "id": "filler_056",
+      "word": "However...",
+      "subcategory": "대조",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "하지만...", "examples": [{ "sentence": "However, I still enjoyed it.", "translation": "하지만, 여전히 즐거웠어요." }] }]
+    },
+    {
+      "id": "filler_057",
+      "word": "But then again...",
+      "subcategory": "대조",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "그렇지만 또...", "examples": [{ "sentence": "But then again, it was worth it.", "translation": "그렇지만 또, 그만한 가치가 있었어요." }] }]
+    },
+    {
+      "id": "filler_058",
+      "word": "Although...",
+      "subcategory": "대조",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "비록 ~이지만...", "examples": [{ "sentence": "Although it was expensive, I bought it.", "translation": "비록 비쌌지만, 샀어요." }] }]
+    },
+    {
+      "id": "filler_059",
+      "word": "Even though...",
+      "subcategory": "대조",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "비록 ~이지만...", "examples": [{ "sentence": "Even though I was tired, I had fun.", "translation": "비록 피곤했지만, 재밌었어요." }] }]
+    },
+    {
+      "id": "filler_060",
+      "word": "That being said...",
+      "subcategory": "대조",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "그렇긴 하지만...", "examples": [{ "sentence": "That being said, I would do it again.", "translation": "그렇긴 하지만, 다시 할 거예요." }] }]
+    },
+    {
+      "id": "filler_061",
+      "word": "Moreover...",
+      "subcategory": "추가",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "게다가...", "examples": [{ "sentence": "Moreover, it's good for your health.", "translation": "게다가, 건강에도 좋아요." }] }]
+    },
+    {
+      "id": "filler_062",
+      "word": "Furthermore...",
+      "subcategory": "추가",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "더욱이...", "examples": [{ "sentence": "Furthermore, it helps me relax.", "translation": "더욱이, 휴식을 취하는 데 도움이 돼요." }] }]
+    },
+    {
+      "id": "filler_063",
+      "word": "In addition...",
+      "subcategory": "추가",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "추가로...", "examples": [{ "sentence": "In addition, I also enjoy reading.", "translation": "추가로, 저는 독서도 좋아해요." }] }]
+    },
+    {
+      "id": "filler_064",
+      "word": "On top of that...",
+      "subcategory": "추가",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "게다가..., 그 위에...", "examples": [{ "sentence": "On top of that, the view was amazing.", "translation": "게다가, 경치도 굉장했어요." }] }]
+    },
+    {
+      "id": "filler_065",
+      "word": "Not only that...",
+      "subcategory": "추가",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "그것뿐만 아니라...", "examples": [{ "sentence": "Not only that, but also I met new friends.", "translation": "그것뿐만 아니라, 새로운 친구도 사귀었어요." }] }]
+    },
+    {
+      "id": "filler_066",
+      "word": "As a matter of fact...",
+      "subcategory": "강조",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "사실은...", "examples": [{ "sentence": "As a matter of fact, I've been there twice.", "translation": "사실은, 두 번 가봤어요." }] }]
+    },
+    {
+      "id": "filler_067",
+      "word": "In fact...",
+      "subcategory": "강조",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "사실...", "examples": [{ "sentence": "In fact, it's my favorite place.", "translation": "사실, 제가 제일 좋아하는 곳이에요." }] }]
+    },
+    {
+      "id": "filler_068",
+      "word": "To tell you the truth...",
+      "subcategory": "강조",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "사실대로 말하면...", "examples": [{ "sentence": "To tell you the truth, I was a bit nervous.", "translation": "사실대로 말하면, 좀 긴장했어요." }] }]
+    },
+    {
+      "id": "filler_069",
+      "word": "Believe it or not...",
+      "subcategory": "강조",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "믿기 어렵겠지만...", "examples": [{ "sentence": "Believe it or not, I won first place.", "translation": "믿기 어렵겠지만, 1등 했어요." }] }]
+    },
+    {
+      "id": "filler_070",
+      "word": "Surprisingly...",
+      "subcategory": "강조",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "놀랍게도...", "examples": [{ "sentence": "Surprisingly, it wasn't difficult at all.", "translation": "놀랍게도, 전혀 어렵지 않았어요." }] }]
+    },
+    {
+      "id": "filler_071",
+      "word": "Interestingly...",
+      "subcategory": "강조",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "흥미롭게도...", "examples": [{ "sentence": "Interestingly, I found a new hobby.", "translation": "흥미롭게도, 새로운 취미를 찾았어요." }] }]
+    },
+    {
+      "id": "filler_072",
+      "word": "Luckily...",
+      "subcategory": "태도",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "다행히...", "examples": [{ "sentence": "Luckily, the weather was nice.", "translation": "다행히, 날씨가 좋았어요." }] }]
+    },
+    {
+      "id": "filler_073",
+      "word": "Unfortunately...",
+      "subcategory": "태도",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "불행히도...", "examples": [{ "sentence": "Unfortunately, I couldn't go.", "translation": "불행히도, 갈 수 없었어요." }] }]
+    },
+    {
+      "id": "filler_074",
+      "word": "Hopefully...",
+      "subcategory": "태도",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "바라건대...", "examples": [{ "sentence": "Hopefully, I can try again next time.", "translation": "바라건대, 다음에 다시 시도할 수 있으면 좋겠어요." }] }]
+    },
+    {
+      "id": "filler_075",
+      "word": "Thankfully...",
+      "subcategory": "태도",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "다행히도...", "examples": [{ "sentence": "Thankfully, everything went well.", "translation": "다행히도, 모든 게 잘 됐어요." }] }]
+    },
+    {
+      "id": "filler_076",
+      "word": "To be fair...",
+      "subcategory": "객관성",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "공평하게 말하면...", "examples": [{ "sentence": "To be fair, it has both pros and cons.", "translation": "공평하게 말하면, 장단점이 있어요." }] }]
+    },
+    {
+      "id": "filler_077",
+      "word": "Generally speaking...",
+      "subcategory": "일반화",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "일반적으로 말해서...", "examples": [{ "sentence": "Generally speaking, Korean people like spicy food.", "translation": "일반적으로 말해서, 한국 사람들은 매운 음식을 좋아해요." }] }]
+    },
+    {
+      "id": "filler_078",
+      "word": "In general...",
+      "subcategory": "일반화",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "일반적으로...", "examples": [{ "sentence": "In general, I try to exercise regularly.", "translation": "일반적으로, 규칙적으로 운동하려고 해요." }] }]
+    },
+    {
+      "id": "filler_079",
+      "word": "For the most part...",
+      "subcategory": "일반화",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "대부분은...", "examples": [{ "sentence": "For the most part, I enjoy my job.", "translation": "대부분은, 제 일이 즐거워요." }] }]
+    },
+    {
+      "id": "filler_080",
+      "word": "Most of the time...",
+      "subcategory": "일반화",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "대부분의 경우...", "examples": [{ "sentence": "Most of the time, I cook at home.", "translation": "대부분의 경우, 집에서 요리해요." }] }]
+    },
+    {
+      "id": "filler_081",
+      "word": "Usually...",
+      "subcategory": "일반화",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "보통...", "examples": [{ "sentence": "Usually, I wake up early.", "translation": "보통, 일찍 일어나요." }] }]
+    },
+    {
+      "id": "filler_082",
+      "word": "Normally...",
+      "subcategory": "일반화",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "보통은...", "examples": [{ "sentence": "Normally, I don't eat out.", "translation": "보통은, 외식 안 해요." }] }]
+    },
+    {
+      "id": "filler_083",
+      "word": "When it comes to...",
+      "subcategory": "주제",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "~에 관해서는...", "examples": [{ "sentence": "When it comes to music, I prefer K-pop.", "translation": "음악에 관해서는, K-pop을 더 좋아해요." }] }]
+    },
+    {
+      "id": "filler_084",
+      "word": "Regarding...",
+      "subcategory": "주제",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "~에 관해서...", "examples": [{ "sentence": "Regarding my hobbies, I have several.", "translation": "제 취미에 관해서, 여러 가지가 있어요." }] }]
+    },
+    {
+      "id": "filler_085",
+      "word": "As for...",
+      "subcategory": "주제",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "~에 관해서는...", "examples": [{ "sentence": "As for traveling, I love it.", "translation": "여행에 관해서는, 정말 좋아해요." }] }]
+    },
+    {
+      "id": "filler_086",
+      "word": "Talking about...",
+      "subcategory": "주제",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "~얘기가 나와서 말인데...", "examples": [{ "sentence": "Talking about food, I love Korean BBQ.", "translation": "음식 얘기가 나와서 말인데, 저는 한국 바베큐를 좋아해요." }] }]
+    },
+    {
+      "id": "filler_087",
+      "word": "On that note...",
+      "subcategory": "전환",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "그런 의미에서...", "examples": [{ "sentence": "On that note, let me tell you about my experience.", "translation": "그런 의미에서, 제 경험을 말씀드릴게요." }] }]
+    },
+    {
+      "id": "filler_088",
+      "word": "That reminds me...",
+      "subcategory": "전환",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "그러고 보니...", "examples": [{ "sentence": "That reminds me, I need to call my mom.", "translation": "그러고 보니, 엄마한테 전화해야 해요." }] }]
+    },
+    {
+      "id": "filler_089",
+      "word": "Now that you mention it...",
+      "subcategory": "전환",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "말이 나와서 말인데...", "examples": [{ "sentence": "Now that you mention it, I do remember that.", "translation": "말이 나와서 말인데, 그거 기억나요." }] }]
+    },
+    {
+      "id": "filler_090",
+      "word": "What else...",
+      "subcategory": "시간벌기",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "또 뭐가 있더라...", "examples": [{ "sentence": "What else... Oh, I also like swimming.", "translation": "또 뭐가 있더라... 아, 수영도 좋아해요." }] }]
+    },
+    {
+      "id": "filler_091",
+      "word": "Let me think about it...",
+      "subcategory": "시간벌기",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "생각해 볼게요...", "examples": [{ "sentence": "Let me think about it... Yes, I've done that.", "translation": "생각해 볼게요... 네, 그거 해봤어요." }] }]
+    },
+    {
+      "id": "filler_092",
+      "word": "How should I put this?",
+      "subcategory": "시간벌기",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "이걸 어떻게 표현해야 하지?", "examples": [{ "sentence": "How should I put this? It was eye-opening.", "translation": "이걸 어떻게 표현해야 하지? 눈을 뜨게 하는 경험이었어요." }] }]
+    },
+    {
+      "id": "filler_093",
+      "word": "What was I saying?",
+      "subcategory": "시간벌기",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "뭐라고 했더라?", "examples": [{ "sentence": "What was I saying? Oh right, the food.", "translation": "뭐라고 했더라? 아 맞다, 음식." }] }]
+    },
+    {
+      "id": "filler_094",
+      "word": "Where was I?",
+      "subcategory": "시간벌기",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "어디까지 했더라?", "examples": [{ "sentence": "Where was I? Oh yes, the concert.", "translation": "어디까지 했더라? 아 네, 콘서트요." }] }]
+    },
+    {
+      "id": "filler_095",
+      "word": "I'm not sure, but...",
+      "subcategory": "불확실",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "확실하진 않지만...", "examples": [{ "sentence": "I'm not sure, but I think it was last spring.", "translation": "확실하진 않지만, 지난 봄이었던 것 같아요." }] }]
+    },
+    {
+      "id": "filler_096",
+      "word": "I'm not exactly sure, but...",
+      "subcategory": "불확실",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "정확하진 않지만...", "examples": [{ "sentence": "I'm not exactly sure, but it cost about $50.", "translation": "정확하진 않지만, 약 50달러였어요." }] }]
+    },
+    {
+      "id": "filler_097",
+      "word": "If I'm not mistaken...",
+      "subcategory": "불확실",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "제가 틀리지 않다면...", "examples": [{ "sentence": "If I'm not mistaken, it was in Seoul.", "translation": "제가 틀리지 않다면, 서울에서였어요." }] }]
+    },
+    {
+      "id": "filler_098",
+      "word": "Correct me if I'm wrong...",
+      "subcategory": "불확실",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "제가 틀리면 고쳐주세요...", "examples": [{ "sentence": "Correct me if I'm wrong, but wasn't it in May?", "translation": "제가 틀리면 고쳐주세요, 5월이 아니었나요?" }] }]
+    },
+    {
+      "id": "filler_099",
+      "word": "I could be wrong, but...",
+      "subcategory": "불확실",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "제가 틀릴 수도 있지만...", "examples": [{ "sentence": "I could be wrong, but I think they changed it.", "translation": "제가 틀릴 수도 있지만, 바뀐 것 같아요." }] }]
+    },
+    {
+      "id": "filler_100",
+      "word": "That's pretty much it.",
+      "subcategory": "마무리",
+      "meanings": [{ "partOfSpeech": "filler", "meaning": "대충 그 정도예요.", "examples": [{ "sentence": "That's pretty much it. I hope I answered your question.", "translation": "대충 그 정도예요. 질문에 답이 됐으면 좋겠네요." }] }]
+    }
+  ]
+}

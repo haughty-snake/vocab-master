@@ -1,0 +1,610 @@
+{
+  "id": "opicEmotions",
+  "name": "OPIc 감정표현",
+  "description": "OPIc 시험에서 감정을 표현하는 다양한 표현들",
+  "category": "OPIc",
+  "icon": "😊",
+  "lang": "en-US",
+  "words": [
+    {
+      "id": "emo_001",
+      "word": "I was so happy!",
+      "subcategory": "기쁨",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 행복했어요!", "examples": [{ "sentence": "I was so happy when I passed the exam.", "translation": "시험에 합격했을 때 정말 행복했어요." }] }]
+    },
+    {
+      "id": "emo_002",
+      "word": "I was thrilled!",
+      "subcategory": "기쁨",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 황홀했어요!", "examples": [{ "sentence": "I was thrilled to get the job offer.", "translation": "일자리 제안을 받았을 때 정말 황홀했어요." }] }]
+    },
+    {
+      "id": "emo_003",
+      "word": "I was over the moon!",
+      "subcategory": "기쁨",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 기뻐 죽을 뻔 했어요!", "examples": [{ "sentence": "I was over the moon when I heard the news.", "translation": "그 소식을 들었을 때 정말 기뻐 죽을 뻔 했어요." }] }]
+    },
+    {
+      "id": "emo_004",
+      "word": "I was on cloud nine.",
+      "subcategory": "기쁨",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "구름 위를 걷는 기분이었어요.", "examples": [{ "sentence": "I was on cloud nine after my promotion.", "translation": "승진 후 구름 위를 걷는 기분이었어요." }] }]
+    },
+    {
+      "id": "emo_005",
+      "word": "I couldn't be happier!",
+      "subcategory": "기쁨",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "이보다 더 행복할 수 없었어요!", "examples": [{ "sentence": "I couldn't be happier with the results.", "translation": "결과에 이보다 더 행복할 수 없었어요." }] }]
+    },
+    {
+      "id": "emo_006",
+      "word": "It made my day!",
+      "subcategory": "기쁨",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "덕분에 기분이 좋아졌어요!", "examples": [{ "sentence": "The surprise gift made my day!", "translation": "깜짝 선물 덕분에 기분이 좋아졌어요!" }] }]
+    },
+    {
+      "id": "emo_007",
+      "word": "I was delighted!",
+      "subcategory": "기쁨",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 기뻤어요!", "examples": [{ "sentence": "I was delighted to meet my old friend.", "translation": "옛 친구를 만나서 정말 기뻤어요." }] }]
+    },
+    {
+      "id": "emo_008",
+      "word": "I was ecstatic!",
+      "subcategory": "기쁨",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "황홀했어요!", "examples": [{ "sentence": "I was ecstatic when I won the prize.", "translation": "상을 받았을 때 황홀했어요." }] }]
+    },
+    {
+      "id": "emo_009",
+      "word": "I felt so relieved!",
+      "subcategory": "안도",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 안심이 됐어요!", "examples": [{ "sentence": "I felt so relieved when I found my wallet.", "translation": "지갑을 찾았을 때 정말 안심이 됐어요." }] }]
+    },
+    {
+      "id": "emo_010",
+      "word": "What a relief!",
+      "subcategory": "안도",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 다행이에요!", "examples": [{ "sentence": "What a relief! The exam was canceled.", "translation": "정말 다행이에요! 시험이 취소됐어요." }] }]
+    },
+    {
+      "id": "emo_011",
+      "word": "I was so excited!",
+      "subcategory": "흥분",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 신났어요!", "examples": [{ "sentence": "I was so excited about the trip.", "translation": "여행이 정말 신났어요." }] }]
+    },
+    {
+      "id": "emo_012",
+      "word": "I couldn't contain my excitement!",
+      "subcategory": "흥분",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "흥분을 참을 수 없었어요!", "examples": [{ "sentence": "I couldn't contain my excitement when I saw the concert.", "translation": "콘서트를 봤을 때 흥분을 참을 수 없었어요." }] }]
+    },
+    {
+      "id": "emo_013",
+      "word": "I was pumped!",
+      "subcategory": "흥분",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "들떠 있었어요!", "examples": [{ "sentence": "I was pumped for the competition.", "translation": "대회가 기대돼서 들떠 있었어요." }] }]
+    },
+    {
+      "id": "emo_014",
+      "word": "I was hyped!",
+      "subcategory": "흥분",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 기대됐어요!", "examples": [{ "sentence": "I was hyped for the new movie release.", "translation": "새 영화 개봉이 정말 기대됐어요." }] }]
+    },
+    {
+      "id": "emo_015",
+      "word": "I was really looking forward to it!",
+      "subcategory": "기대",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 기대하고 있었어요!", "examples": [{ "sentence": "I was really looking forward to the vacation.", "translation": "휴가가 정말 기대됐어요." }] }]
+    },
+    {
+      "id": "emo_016",
+      "word": "I couldn't wait!",
+      "subcategory": "기대",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "기다릴 수가 없었어요!", "examples": [{ "sentence": "I couldn't wait to see my family.", "translation": "가족을 볼 생각에 기다릴 수가 없었어요." }] }]
+    },
+    {
+      "id": "emo_017",
+      "word": "I was counting down the days!",
+      "subcategory": "기대",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "손꼽아 기다리고 있었어요!", "examples": [{ "sentence": "I was counting down the days until my birthday.", "translation": "생일까지 손꼽아 기다리고 있었어요." }] }]
+    },
+    {
+      "id": "emo_018",
+      "word": "I was so sad.",
+      "subcategory": "슬픔",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 슬펐어요.", "examples": [{ "sentence": "I was so sad when my pet died.", "translation": "반려동물이 죽었을 때 정말 슬펐어요." }] }]
+    },
+    {
+      "id": "emo_019",
+      "word": "I felt heartbroken.",
+      "subcategory": "슬픔",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "마음이 아팠어요.", "examples": [{ "sentence": "I felt heartbroken after the breakup.", "translation": "이별 후 마음이 아팠어요." }] }]
+    },
+    {
+      "id": "emo_020",
+      "word": "I was devastated.",
+      "subcategory": "슬픔",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "완전히 망연자실했어요.", "examples": [{ "sentence": "I was devastated by the news.", "translation": "그 소식에 완전히 망연자실했어요." }] }]
+    },
+    {
+      "id": "emo_021",
+      "word": "I was really down.",
+      "subcategory": "슬픔",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 우울했어요.", "examples": [{ "sentence": "I was really down after failing the test.", "translation": "시험에 떨어진 후 정말 우울했어요." }] }]
+    },
+    {
+      "id": "emo_022",
+      "word": "I felt blue.",
+      "subcategory": "슬픔",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "우울했어요.", "examples": [{ "sentence": "I felt blue during the rainy season.", "translation": "장마철에 우울했어요." }] }]
+    },
+    {
+      "id": "emo_023",
+      "word": "It broke my heart.",
+      "subcategory": "슬픔",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "마음이 찢어졌어요.", "examples": [{ "sentence": "It broke my heart to see her cry.", "translation": "그녀가 우는 걸 보니 마음이 찢어졌어요." }] }]
+    },
+    {
+      "id": "emo_024",
+      "word": "I was so angry!",
+      "subcategory": "분노",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 화가 났어요!", "examples": [{ "sentence": "I was so angry when they lied to me.", "translation": "그들이 나에게 거짓말했을 때 정말 화가 났어요." }] }]
+    },
+    {
+      "id": "emo_025",
+      "word": "I was furious!",
+      "subcategory": "분노",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "격분했어요!", "examples": [{ "sentence": "I was furious when I found out.", "translation": "알게 됐을 때 격분했어요." }] }]
+    },
+    {
+      "id": "emo_026",
+      "word": "I was livid!",
+      "subcategory": "분노",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "격노했어요!", "examples": [{ "sentence": "I was livid when they broke my trust.", "translation": "그들이 제 신뢰를 저버렸을 때 격노했어요." }] }]
+    },
+    {
+      "id": "emo_027",
+      "word": "It made my blood boil!",
+      "subcategory": "분노",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "피가 끓었어요!", "examples": [{ "sentence": "The unfair treatment made my blood boil.", "translation": "불공평한 대우에 피가 끓었어요." }] }]
+    },
+    {
+      "id": "emo_028",
+      "word": "I was irritated.",
+      "subcategory": "짜증",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "짜증이 났어요.", "examples": [{ "sentence": "I was irritated by the noise.", "translation": "소음 때문에 짜증이 났어요." }] }]
+    },
+    {
+      "id": "emo_029",
+      "word": "I was annoyed.",
+      "subcategory": "짜증",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "짜증이 났어요.", "examples": [{ "sentence": "I was annoyed by the constant interruptions.", "translation": "계속되는 방해에 짜증이 났어요." }] }]
+    },
+    {
+      "id": "emo_030",
+      "word": "It got on my nerves.",
+      "subcategory": "짜증",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "신경에 거슬렸어요.", "examples": [{ "sentence": "The loud music got on my nerves.", "translation": "시끄러운 음악이 신경에 거슬렸어요." }] }]
+    },
+    {
+      "id": "emo_031",
+      "word": "I was scared.",
+      "subcategory": "두려움",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "무서웠어요.", "examples": [{ "sentence": "I was scared during the horror movie.", "translation": "공포 영화 보는 동안 무서웠어요." }] }]
+    },
+    {
+      "id": "emo_032",
+      "word": "I was terrified!",
+      "subcategory": "두려움",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "너무 무서웠어요!", "examples": [{ "sentence": "I was terrified when I heard the noise.", "translation": "그 소리를 들었을 때 너무 무서웠어요." }] }]
+    },
+    {
+      "id": "emo_033",
+      "word": "I was freaked out!",
+      "subcategory": "두려움",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 겁이 났어요!", "examples": [{ "sentence": "I was freaked out by the spider.", "translation": "거미를 보고 정말 겁이 났어요." }] }]
+    },
+    {
+      "id": "emo_034",
+      "word": "I was petrified!",
+      "subcategory": "두려움",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "무서워서 얼어붙었어요!", "examples": [{ "sentence": "I was petrified during the earthquake.", "translation": "지진 때 무서워서 얼어붙었어요." }] }]
+    },
+    {
+      "id": "emo_035",
+      "word": "I was so nervous.",
+      "subcategory": "긴장",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 긴장됐어요.", "examples": [{ "sentence": "I was so nervous before the presentation.", "translation": "발표 전에 정말 긴장됐어요." }] }]
+    },
+    {
+      "id": "emo_036",
+      "word": "I had butterflies in my stomach.",
+      "subcategory": "긴장",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "속이 조마조마했어요.", "examples": [{ "sentence": "I had butterflies in my stomach before the interview.", "translation": "면접 전에 속이 조마조마했어요." }] }]
+    },
+    {
+      "id": "emo_037",
+      "word": "My heart was racing.",
+      "subcategory": "긴장",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "심장이 빠르게 뛰었어요.", "examples": [{ "sentence": "My heart was racing during the exam.", "translation": "시험 중에 심장이 빠르게 뛰었어요." }] }]
+    },
+    {
+      "id": "emo_038",
+      "word": "I was on edge.",
+      "subcategory": "긴장",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "신경이 곤두서 있었어요.", "examples": [{ "sentence": "I was on edge waiting for the results.", "translation": "결과를 기다리며 신경이 곤두서 있었어요." }] }]
+    },
+    {
+      "id": "emo_039",
+      "word": "I was so embarrassed!",
+      "subcategory": "당황",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 창피했어요!", "examples": [{ "sentence": "I was so embarrassed when I tripped.", "translation": "넘어졌을 때 정말 창피했어요." }] }]
+    },
+    {
+      "id": "emo_040",
+      "word": "I wanted to hide!",
+      "subcategory": "당황",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "숨고 싶었어요!", "examples": [{ "sentence": "I wanted to hide when I made the mistake.", "translation": "실수했을 때 숨고 싶었어요." }] }]
+    },
+    {
+      "id": "emo_041",
+      "word": "My face turned red.",
+      "subcategory": "당황",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "얼굴이 빨개졌어요.", "examples": [{ "sentence": "My face turned red when everyone looked at me.", "translation": "모두가 저를 볼 때 얼굴이 빨개졌어요." }] }]
+    },
+    {
+      "id": "emo_042",
+      "word": "I felt so awkward.",
+      "subcategory": "당황",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "너무 어색했어요.", "examples": [{ "sentence": "I felt so awkward at the party.", "translation": "파티에서 너무 어색했어요." }] }]
+    },
+    {
+      "id": "emo_043",
+      "word": "I was so surprised!",
+      "subcategory": "놀람",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 놀랐어요!", "examples": [{ "sentence": "I was so surprised by the party.", "translation": "파티에 정말 놀랐어요." }] }]
+    },
+    {
+      "id": "emo_044",
+      "word": "I was shocked!",
+      "subcategory": "놀람",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "충격받았어요!", "examples": [{ "sentence": "I was shocked when I heard the news.", "translation": "그 소식을 들었을 때 충격받았어요." }] }]
+    },
+    {
+      "id": "emo_045",
+      "word": "I was stunned!",
+      "subcategory": "놀람",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "어안이 벙벙했어요!", "examples": [{ "sentence": "I was stunned by the announcement.", "translation": "발표에 어안이 벙벙했어요." }] }]
+    },
+    {
+      "id": "emo_046",
+      "word": "I couldn't believe my eyes!",
+      "subcategory": "놀람",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "눈을 의심했어요!", "examples": [{ "sentence": "I couldn't believe my eyes when I saw the view.", "translation": "그 경치를 봤을 때 눈을 의심했어요." }] }]
+    },
+    {
+      "id": "emo_047",
+      "word": "My jaw dropped!",
+      "subcategory": "놀람",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "입이 떡 벌어졌어요!", "examples": [{ "sentence": "My jaw dropped when I saw the price.", "translation": "가격을 봤을 때 입이 떡 벌어졌어요." }] }]
+    },
+    {
+      "id": "emo_048",
+      "word": "I was blown away!",
+      "subcategory": "감탄",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "완전 감동받았어요!", "examples": [{ "sentence": "I was blown away by the performance.", "translation": "공연에 완전 감동받았어요." }] }]
+    },
+    {
+      "id": "emo_049",
+      "word": "I was amazed!",
+      "subcategory": "감탄",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "놀라웠어요!", "examples": [{ "sentence": "I was amazed by the view.", "translation": "경치가 놀라웠어요." }] }]
+    },
+    {
+      "id": "emo_050",
+      "word": "I was impressed!",
+      "subcategory": "감탄",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "감명받았어요!", "examples": [{ "sentence": "I was impressed by her skills.", "translation": "그녀의 실력에 감명받았어요." }] }]
+    },
+    {
+      "id": "emo_051",
+      "word": "I was in awe!",
+      "subcategory": "감탄",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "경외감을 느꼈어요!", "examples": [{ "sentence": "I was in awe of the architecture.", "translation": "건축물에 경외감을 느꼈어요." }] }]
+    },
+    {
+      "id": "emo_052",
+      "word": "I was disappointed.",
+      "subcategory": "실망",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "실망했어요.", "examples": [{ "sentence": "I was disappointed with the service.", "translation": "서비스에 실망했어요." }] }]
+    },
+    {
+      "id": "emo_053",
+      "word": "I was let down.",
+      "subcategory": "실망",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "실망했어요.", "examples": [{ "sentence": "I was let down by the movie.", "translation": "영화에 실망했어요." }] }]
+    },
+    {
+      "id": "emo_054",
+      "word": "It didn't meet my expectations.",
+      "subcategory": "실망",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "기대에 못 미쳤어요.", "examples": [{ "sentence": "The restaurant didn't meet my expectations.", "translation": "그 식당은 기대에 못 미쳤어요." }] }]
+    },
+    {
+      "id": "emo_055",
+      "word": "I was frustrated.",
+      "subcategory": "좌절",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "좌절했어요.", "examples": [{ "sentence": "I was frustrated by the delay.", "translation": "지연에 좌절했어요." }] }]
+    },
+    {
+      "id": "emo_056",
+      "word": "I felt stuck.",
+      "subcategory": "좌절",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "막막했어요.", "examples": [{ "sentence": "I felt stuck in my career.", "translation": "커리어에서 막막했어요." }] }]
+    },
+    {
+      "id": "emo_057",
+      "word": "I was fed up!",
+      "subcategory": "좌절",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "진절머리 났어요!", "examples": [{ "sentence": "I was fed up with the traffic.", "translation": "교통 체증에 진절머리 났어요." }] }]
+    },
+    {
+      "id": "emo_058",
+      "word": "I was confused.",
+      "subcategory": "혼란",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "혼란스러웠어요.", "examples": [{ "sentence": "I was confused by the instructions.", "translation": "설명이 혼란스러웠어요." }] }]
+    },
+    {
+      "id": "emo_059",
+      "word": "I was lost.",
+      "subcategory": "혼란",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "길을 잃었어요/어리둥절했어요.", "examples": [{ "sentence": "I was lost during the lecture.", "translation": "강의 중에 어리둥절했어요." }] }]
+    },
+    {
+      "id": "emo_060",
+      "word": "I didn't know what to do.",
+      "subcategory": "혼란",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "어떻게 해야 할지 몰랐어요.", "examples": [{ "sentence": "I didn't know what to do in that situation.", "translation": "그 상황에서 어떻게 해야 할지 몰랐어요." }] }]
+    },
+    {
+      "id": "emo_061",
+      "word": "I was worried.",
+      "subcategory": "걱정",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "걱정됐어요.", "examples": [{ "sentence": "I was worried about the test results.", "translation": "시험 결과가 걱정됐어요." }] }]
+    },
+    {
+      "id": "emo_062",
+      "word": "I was anxious.",
+      "subcategory": "걱정",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "불안했어요.", "examples": [{ "sentence": "I was anxious about the flight.", "translation": "비행기가 불안했어요." }] }]
+    },
+    {
+      "id": "emo_063",
+      "word": "I couldn't stop worrying.",
+      "subcategory": "걱정",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "걱정이 멈추지 않았어요.", "examples": [{ "sentence": "I couldn't stop worrying about my family.", "translation": "가족에 대한 걱정이 멈추지 않았어요." }] }]
+    },
+    {
+      "id": "emo_064",
+      "word": "I was grateful.",
+      "subcategory": "감사",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "감사했어요.", "examples": [{ "sentence": "I was grateful for the help.", "translation": "도움에 감사했어요." }] }]
+    },
+    {
+      "id": "emo_065",
+      "word": "I was thankful.",
+      "subcategory": "감사",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "감사했어요.", "examples": [{ "sentence": "I was thankful for the opportunity.", "translation": "기회에 감사했어요." }] }]
+    },
+    {
+      "id": "emo_066",
+      "word": "I really appreciated it.",
+      "subcategory": "감사",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 감사했어요.", "examples": [{ "sentence": "I really appreciated their kindness.", "translation": "그들의 친절에 정말 감사했어요." }] }]
+    },
+    {
+      "id": "emo_067",
+      "word": "I felt so lucky!",
+      "subcategory": "감사",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "정말 운이 좋았어요!", "examples": [{ "sentence": "I felt so lucky to be there.", "translation": "거기 있어서 정말 운이 좋았어요." }] }]
+    },
+    {
+      "id": "emo_068",
+      "word": "I felt proud.",
+      "subcategory": "자부심",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "자랑스러웠어요.", "examples": [{ "sentence": "I felt proud of my achievement.", "translation": "제 성과가 자랑스러웠어요." }] }]
+    },
+    {
+      "id": "emo_069",
+      "word": "I was proud of myself.",
+      "subcategory": "자부심",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "스스로 자랑스러웠어요.", "examples": [{ "sentence": "I was proud of myself for finishing the marathon.", "translation": "마라톤을 완주해서 스스로 자랑스러웠어요." }] }]
+    },
+    {
+      "id": "emo_070",
+      "word": "It was a proud moment.",
+      "subcategory": "자부심",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "자랑스러운 순간이었어요.", "examples": [{ "sentence": "It was a proud moment when I graduated.", "translation": "졸업했을 때 자랑스러운 순간이었어요." }] }]
+    },
+    {
+      "id": "emo_071",
+      "word": "I was bored.",
+      "subcategory": "지루함",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "지루했어요.", "examples": [{ "sentence": "I was bored during the meeting.", "translation": "회의 중에 지루했어요." }] }]
+    },
+    {
+      "id": "emo_072",
+      "word": "I was bored to death!",
+      "subcategory": "지루함",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "지루해 죽을 뻔 했어요!", "examples": [{ "sentence": "I was bored to death at the lecture.", "translation": "강의에서 지루해 죽을 뻔 했어요." }] }]
+    },
+    {
+      "id": "emo_073",
+      "word": "I was tired.",
+      "subcategory": "피로",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "피곤했어요.", "examples": [{ "sentence": "I was tired after the long day.", "translation": "긴 하루 후에 피곤했어요." }] }]
+    },
+    {
+      "id": "emo_074",
+      "word": "I was exhausted.",
+      "subcategory": "피로",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "진이 빠졌어요.", "examples": [{ "sentence": "I was exhausted after the hike.", "translation": "하이킹 후에 진이 빠졌어요." }] }]
+    },
+    {
+      "id": "emo_075",
+      "word": "I was worn out.",
+      "subcategory": "피로",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "녹초가 됐어요.", "examples": [{ "sentence": "I was worn out after the trip.", "translation": "여행 후에 녹초가 됐어요." }] }]
+    },
+    {
+      "id": "emo_076",
+      "word": "I was drained.",
+      "subcategory": "피로",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "기력이 다 빠졌어요.", "examples": [{ "sentence": "I was drained after the project.", "translation": "프로젝트 후에 기력이 다 빠졌어요." }] }]
+    },
+    {
+      "id": "emo_077",
+      "word": "I felt satisfied.",
+      "subcategory": "만족",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "만족스러웠어요.", "examples": [{ "sentence": "I felt satisfied with the meal.", "translation": "식사에 만족스러웠어요." }] }]
+    },
+    {
+      "id": "emo_078",
+      "word": "I was content.",
+      "subcategory": "만족",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "흡족했어요.", "examples": [{ "sentence": "I was content with my life.", "translation": "제 삶에 흡족했어요." }] }]
+    },
+    {
+      "id": "emo_079",
+      "word": "I felt fulfilled.",
+      "subcategory": "만족",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "성취감을 느꼈어요.", "examples": [{ "sentence": "I felt fulfilled after volunteering.", "translation": "봉사 후에 성취감을 느꼈어요." }] }]
+    },
+    {
+      "id": "emo_080",
+      "word": "I felt nostalgic.",
+      "subcategory": "향수",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "향수를 느꼈어요.", "examples": [{ "sentence": "I felt nostalgic when I visited my hometown.", "translation": "고향을 방문했을 때 향수를 느꼈어요." }] }]
+    },
+    {
+      "id": "emo_081",
+      "word": "It brought back memories.",
+      "subcategory": "향수",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "추억이 떠올랐어요.", "examples": [{ "sentence": "The song brought back memories.", "translation": "그 노래가 추억을 떠올리게 했어요." }] }]
+    },
+    {
+      "id": "emo_082",
+      "word": "I was envious.",
+      "subcategory": "부러움",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "부러웠어요.", "examples": [{ "sentence": "I was envious of her success.", "translation": "그녀의 성공이 부러웠어요." }] }]
+    },
+    {
+      "id": "emo_083",
+      "word": "I was jealous.",
+      "subcategory": "부러움",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "질투가 났어요.", "examples": [{ "sentence": "I was jealous of his talent.", "translation": "그의 재능에 질투가 났어요." }] }]
+    },
+    {
+      "id": "emo_084",
+      "word": "I felt lonely.",
+      "subcategory": "외로움",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "외로웠어요.", "examples": [{ "sentence": "I felt lonely when I lived alone.", "translation": "혼자 살 때 외로웠어요." }] }]
+    },
+    {
+      "id": "emo_085",
+      "word": "I missed home.",
+      "subcategory": "외로움",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "집이 그리웠어요.", "examples": [{ "sentence": "I missed home when I studied abroad.", "translation": "유학할 때 집이 그리웠어요." }] }]
+    },
+    {
+      "id": "emo_086",
+      "word": "I felt homesick.",
+      "subcategory": "외로움",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "향수병이 났어요.", "examples": [{ "sentence": "I felt homesick during the trip.", "translation": "여행 중에 향수병이 났어요." }] }]
+    },
+    {
+      "id": "emo_087",
+      "word": "I felt motivated.",
+      "subcategory": "동기부여",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "동기부여가 됐어요.", "examples": [{ "sentence": "I felt motivated after the speech.", "translation": "연설 후에 동기부여가 됐어요." }] }]
+    },
+    {
+      "id": "emo_088",
+      "word": "I was inspired.",
+      "subcategory": "동기부여",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "영감을 받았어요.", "examples": [{ "sentence": "I was inspired by the story.", "translation": "그 이야기에 영감을 받았어요." }] }]
+    },
+    {
+      "id": "emo_089",
+      "word": "It gave me hope.",
+      "subcategory": "동기부여",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "희망이 생겼어요.", "examples": [{ "sentence": "The news gave me hope.", "translation": "그 소식에 희망이 생겼어요." }] }]
+    },
+    {
+      "id": "emo_090",
+      "word": "I felt confident.",
+      "subcategory": "자신감",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "자신감이 생겼어요.", "examples": [{ "sentence": "I felt confident after the practice.", "translation": "연습 후에 자신감이 생겼어요." }] }]
+    },
+    {
+      "id": "emo_091",
+      "word": "I was full of confidence.",
+      "subcategory": "자신감",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "자신감이 넘쳤어요.", "examples": [{ "sentence": "I was full of confidence before the game.", "translation": "경기 전에 자신감이 넘쳤어요." }] }]
+    },
+    {
+      "id": "emo_092",
+      "word": "I felt insecure.",
+      "subcategory": "불안감",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "불안했어요.", "examples": [{ "sentence": "I felt insecure about my appearance.", "translation": "제 외모에 불안했어요." }] }]
+    },
+    {
+      "id": "emo_093",
+      "word": "I was touched.",
+      "subcategory": "감동",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "감동받았어요.", "examples": [{ "sentence": "I was touched by their kindness.", "translation": "그들의 친절에 감동받았어요." }] }]
+    },
+    {
+      "id": "emo_094",
+      "word": "I was moved.",
+      "subcategory": "감동",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "감동했어요.", "examples": [{ "sentence": "I was moved by the movie.", "translation": "그 영화에 감동했어요." }] }]
+    },
+    {
+      "id": "emo_095",
+      "word": "I was moved to tears.",
+      "subcategory": "감동",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "감동해서 눈물이 났어요.", "examples": [{ "sentence": "I was moved to tears by the performance.", "translation": "그 공연에 감동해서 눈물이 났어요." }] }]
+    },
+    {
+      "id": "emo_096",
+      "word": "I felt calm.",
+      "subcategory": "평화",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "평온했어요.", "examples": [{ "sentence": "I felt calm at the beach.", "translation": "해변에서 평온했어요." }] }]
+    },
+    {
+      "id": "emo_097",
+      "word": "I felt at peace.",
+      "subcategory": "평화",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "마음이 평화로웠어요.", "examples": [{ "sentence": "I felt at peace in the mountains.", "translation": "산에서 마음이 평화로웠어요." }] }]
+    },
+    {
+      "id": "emo_098",
+      "word": "I felt relaxed.",
+      "subcategory": "평화",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "편안했어요.", "examples": [{ "sentence": "I felt relaxed after the massage.", "translation": "마사지 후에 편안했어요." }] }]
+    },
+    {
+      "id": "emo_099",
+      "word": "I was hopeful.",
+      "subcategory": "희망",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "희망적이었어요.", "examples": [{ "sentence": "I was hopeful about the future.", "translation": "미래에 대해 희망적이었어요." }] }]
+    },
+    {
+      "id": "emo_100",
+      "word": "I felt optimistic.",
+      "subcategory": "희망",
+      "meanings": [{ "partOfSpeech": "표현", "meaning": "낙관적이었어요.", "examples": [{ "sentence": "I felt optimistic about the project.", "translation": "프로젝트에 대해 낙관적이었어요." }] }]
+    }
+  ]
+}

@@ -2129,6 +2129,14 @@ hr {
     margin-bottom: 0 !important;
 }
 
+.tts-disclaimer {
+    font-size: 11px;
+    color: var(--text-secondary);
+    margin-top: 16px !important;
+    margin-bottom: 0 !important;
+    text-align: center;
+}
+
 /* Last Backup Date */
 .last-backup-date {
     font-size: 13px;

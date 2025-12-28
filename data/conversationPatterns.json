@@ -1,0 +1,1029 @@
+{
+  "id": "conversationPatterns",
+  "name": "영어 회화 패턴",
+  "icon": "💬",
+  "color": "#00bcd4",
+  "lang": "en-US",
+  "words": [
+    {
+      "id": "cp_001",
+      "word": "How's it going?",
+      "subcategory": "인사/안부",
+      "meanings": [{ "meaning": "어떻게 지내?", "examples": ["Hey, how's it going? Long time no see!"] }]
+    },
+    {
+      "id": "cp_002",
+      "word": "What's up?",
+      "subcategory": "인사/안부",
+      "meanings": [{ "meaning": "뭐해? / 별일 없어?", "examples": ["What's up? Anything new?"] }]
+    },
+    {
+      "id": "cp_003",
+      "word": "How have you been?",
+      "subcategory": "인사/안부",
+      "meanings": [{ "meaning": "그동안 어떻게 지냈어?", "examples": ["How have you been? I haven't seen you in ages!"] }]
+    },
+    {
+      "id": "cp_004",
+      "word": "What have you been up to?",
+      "subcategory": "인사/안부",
+      "meanings": [{ "meaning": "요즘 뭐 하고 지냈어?", "examples": ["What have you been up to lately?"] }]
+    },
+    {
+      "id": "cp_005",
+      "word": "It's been a while.",
+      "subcategory": "인사/안부",
+      "meanings": [{ "meaning": "오랜만이야.", "examples": ["It's been a while. How are things?"] }]
+    },
+    {
+      "id": "cp_006",
+      "word": "Same old, same old.",
+      "subcategory": "인사/안부",
+      "meanings": [{ "meaning": "늘 그렇지 뭐.", "examples": ["A: How's life? B: Same old, same old."] }]
+    },
+    {
+      "id": "cp_007",
+      "word": "I can't complain.",
+      "subcategory": "인사/안부",
+      "meanings": [{ "meaning": "뭐 괜찮아. / 불만은 없어.", "examples": ["A: How are you doing? B: I can't complain."] }]
+    },
+    {
+      "id": "cp_008",
+      "word": "I've been better.",
+      "subcategory": "인사/안부",
+      "meanings": [{ "meaning": "더 좋았던 적도 있지.", "examples": ["I've been better, to be honest."] }]
+    },
+    {
+      "id": "cp_009",
+      "word": "Couldn't be better!",
+      "subcategory": "인사/안부",
+      "meanings": [{ "meaning": "더할 나위 없이 좋아!", "examples": ["A: How's everything? B: Couldn't be better!"] }]
+    },
+    {
+      "id": "cp_010",
+      "word": "I'm doing great, thanks for asking.",
+      "subcategory": "인사/안부",
+      "meanings": [{ "meaning": "잘 지내, 물어봐 줘서 고마워.", "examples": ["I'm doing great, thanks for asking. How about you?"] }]
+    },
+    {
+      "id": "cp_011",
+      "word": "Nice to meet you.",
+      "subcategory": "첫 만남",
+      "meanings": [{ "meaning": "만나서 반갑습니다.", "examples": ["Nice to meet you. I've heard a lot about you."] }]
+    },
+    {
+      "id": "cp_012",
+      "word": "I've heard so much about you.",
+      "subcategory": "첫 만남",
+      "meanings": [{ "meaning": "말씀 많이 들었어요.", "examples": ["Nice to finally meet you! I've heard so much about you."] }]
+    },
+    {
+      "id": "cp_013",
+      "word": "Please call me...",
+      "subcategory": "첫 만남",
+      "meanings": [{ "meaning": "...라고 불러주세요.", "examples": ["My name is Michael, but please call me Mike."] }]
+    },
+    {
+      "id": "cp_014",
+      "word": "What do you do for a living?",
+      "subcategory": "첫 만남",
+      "meanings": [{ "meaning": "무슨 일 하세요?", "examples": ["So, what do you do for a living?"] }]
+    },
+    {
+      "id": "cp_015",
+      "word": "Where are you from originally?",
+      "subcategory": "첫 만남",
+      "meanings": [{ "meaning": "원래 어디 출신이세요?", "examples": ["Where are you from originally? Your accent is interesting."] }]
+    },
+    {
+      "id": "cp_016",
+      "word": "I think so too.",
+      "subcategory": "동의 표현",
+      "meanings": [{ "meaning": "나도 그렇게 생각해.", "examples": ["I think so too. It's a great idea."] }]
+    },
+    {
+      "id": "cp_017",
+      "word": "I couldn't agree more.",
+      "subcategory": "동의 표현",
+      "meanings": [{ "meaning": "전적으로 동의해.", "examples": ["I couldn't agree more. You're absolutely right."] }]
+    },
+    {
+      "id": "cp_018",
+      "word": "That's exactly what I was thinking.",
+      "subcategory": "동의 표현",
+      "meanings": [{ "meaning": "내 생각이 딱 그거야.", "examples": ["That's exactly what I was thinking!"] }]
+    },
+    {
+      "id": "cp_019",
+      "word": "You took the words right out of my mouth.",
+      "subcategory": "동의 표현",
+      "meanings": [{ "meaning": "내가 하려던 말이야.", "examples": ["You took the words right out of my mouth!"] }]
+    },
+    {
+      "id": "cp_020",
+      "word": "Tell me about it!",
+      "subcategory": "동의 표현",
+      "meanings": [{ "meaning": "그러게 말이야! / 내 말이!", "examples": ["A: This traffic is terrible. B: Tell me about it!"] }]
+    },
+    {
+      "id": "cp_021",
+      "word": "You can say that again.",
+      "subcategory": "동의 표현",
+      "meanings": [{ "meaning": "정말 그래.", "examples": ["A: This pizza is delicious. B: You can say that again!"] }]
+    },
+    {
+      "id": "cp_022",
+      "word": "That makes sense.",
+      "subcategory": "동의 표현",
+      "meanings": [{ "meaning": "말이 되네. / 이해가 돼.", "examples": ["Oh, that makes sense. Now I understand."] }]
+    },
+    {
+      "id": "cp_023",
+      "word": "Fair enough.",
+      "subcategory": "동의 표현",
+      "meanings": [{ "meaning": "그럴 수 있지. / 알겠어.", "examples": ["Fair enough. I see your point."] }]
+    },
+    {
+      "id": "cp_024",
+      "word": "I see where you're coming from.",
+      "subcategory": "동의 표현",
+      "meanings": [{ "meaning": "네 말 이해해. / 무슨 말인지 알겠어.", "examples": ["I see where you're coming from, but I disagree."] }]
+    },
+    {
+      "id": "cp_025",
+      "word": "I'm not sure about that.",
+      "subcategory": "반대/의문 표현",
+      "meanings": [{ "meaning": "그건 잘 모르겠어.", "examples": ["I'm not sure about that. Can you explain?"] }]
+    },
+    {
+      "id": "cp_026",
+      "word": "I beg to differ.",
+      "subcategory": "반대/의문 표현",
+      "meanings": [{ "meaning": "의견이 달라요.", "examples": ["I beg to differ. I think there's another way."] }]
+    },
+    {
+      "id": "cp_027",
+      "word": "That's not necessarily true.",
+      "subcategory": "반대/의문 표현",
+      "meanings": [{ "meaning": "꼭 그렇진 않아.", "examples": ["That's not necessarily true. There are exceptions."] }]
+    },
+    {
+      "id": "cp_028",
+      "word": "I don't see it that way.",
+      "subcategory": "반대/의문 표현",
+      "meanings": [{ "meaning": "난 그렇게 생각 안 해.", "examples": ["I don't see it that way. Let me explain my view."] }]
+    },
+    {
+      "id": "cp_029",
+      "word": "I'm not so sure.",
+      "subcategory": "반대/의문 표현",
+      "meanings": [{ "meaning": "글쎄, 잘 모르겠어.", "examples": ["I'm not so sure that's a good idea."] }]
+    },
+    {
+      "id": "cp_030",
+      "word": "I have mixed feelings about it.",
+      "subcategory": "반대/의문 표현",
+      "meanings": [{ "meaning": "그것에 대해 복잡한 심정이야.", "examples": ["I have mixed feelings about it. It has pros and cons."] }]
+    },
+    {
+      "id": "cp_031",
+      "word": "In my opinion...",
+      "subcategory": "의견 표현",
+      "meanings": [{ "meaning": "내 생각에는...", "examples": ["In my opinion, we should wait a bit longer."] }]
+    },
+    {
+      "id": "cp_032",
+      "word": "If you ask me...",
+      "subcategory": "의견 표현",
+      "meanings": [{ "meaning": "내 의견을 묻는다면...", "examples": ["If you ask me, that's not the best approach."] }]
+    },
+    {
+      "id": "cp_033",
+      "word": "The way I see it...",
+      "subcategory": "의견 표현",
+      "meanings": [{ "meaning": "내가 보기에는...", "examples": ["The way I see it, we have two options."] }]
+    },
+    {
+      "id": "cp_034",
+      "word": "From my perspective...",
+      "subcategory": "의견 표현",
+      "meanings": [{ "meaning": "내 관점에서는...", "examples": ["From my perspective, the project is going well."] }]
+    },
+    {
+      "id": "cp_035",
+      "word": "I'm of the opinion that...",
+      "subcategory": "의견 표현",
+      "meanings": [{ "meaning": "~라는 의견이야.", "examples": ["I'm of the opinion that we need more time."] }]
+    },
+    {
+      "id": "cp_036",
+      "word": "Personally, I think...",
+      "subcategory": "의견 표현",
+      "meanings": [{ "meaning": "개인적으로 생각하기에...", "examples": ["Personally, I think it's worth trying."] }]
+    },
+    {
+      "id": "cp_037",
+      "word": "To be honest...",
+      "subcategory": "의견 표현",
+      "meanings": [{ "meaning": "솔직히 말하면...", "examples": ["To be honest, I didn't really like the movie."] }]
+    },
+    {
+      "id": "cp_038",
+      "word": "Honestly speaking...",
+      "subcategory": "의견 표현",
+      "meanings": [{ "meaning": "솔직하게 말하자면...", "examples": ["Honestly speaking, I'm a bit worried."] }]
+    },
+    {
+      "id": "cp_039",
+      "word": "Why don't we...?",
+      "subcategory": "제안 표현",
+      "meanings": [{ "meaning": "우리 ~하는 게 어때?", "examples": ["Why don't we grab some coffee?"] }]
+    },
+    {
+      "id": "cp_040",
+      "word": "How about...?",
+      "subcategory": "제안 표현",
+      "meanings": [{ "meaning": "~는 어때?", "examples": ["How about meeting at 3 instead?"] }]
+    },
+    {
+      "id": "cp_041",
+      "word": "What do you say we...?",
+      "subcategory": "제안 표현",
+      "meanings": [{ "meaning": "우리 ~하는 거 어때?", "examples": ["What do you say we take a break?"] }]
+    },
+    {
+      "id": "cp_042",
+      "word": "Let's say we...",
+      "subcategory": "제안 표현",
+      "meanings": [{ "meaning": "우리 ~한다고 치자.", "examples": ["Let's say we meet halfway."] }]
+    },
+    {
+      "id": "cp_043",
+      "word": "I was thinking maybe we could...",
+      "subcategory": "제안 표현",
+      "meanings": [{ "meaning": "혹시 ~할 수 있을까 싶어서.", "examples": ["I was thinking maybe we could try a different approach."] }]
+    },
+    {
+      "id": "cp_044",
+      "word": "Would you be interested in...?",
+      "subcategory": "제안 표현",
+      "meanings": [{ "meaning": "~에 관심 있어?", "examples": ["Would you be interested in joining us for dinner?"] }]
+    },
+    {
+      "id": "cp_045",
+      "word": "It might be a good idea to...",
+      "subcategory": "제안 표현",
+      "meanings": [{ "meaning": "~하는 게 좋을 것 같아.", "examples": ["It might be a good idea to start early."] }]
+    },
+    {
+      "id": "cp_046",
+      "word": "Have you ever thought about...?",
+      "subcategory": "제안 표현",
+      "meanings": [{ "meaning": "~에 대해 생각해 본 적 있어?", "examples": ["Have you ever thought about learning a new language?"] }]
+    },
+    {
+      "id": "cp_047",
+      "word": "Could you do me a favor?",
+      "subcategory": "부탁 표현",
+      "meanings": [{ "meaning": "부탁 하나 해도 될까?", "examples": ["Could you do me a favor? I need some help."] }]
+    },
+    {
+      "id": "cp_048",
+      "word": "Would you mind...?",
+      "subcategory": "부탁 표현",
+      "meanings": [{ "meaning": "~해도 괜찮을까요?", "examples": ["Would you mind opening the window?"] }]
+    },
+    {
+      "id": "cp_049",
+      "word": "I was wondering if you could...",
+      "subcategory": "부탁 표현",
+      "meanings": [{ "meaning": "혹시 ~해 주실 수 있을까요?", "examples": ["I was wondering if you could help me with this."] }]
+    },
+    {
+      "id": "cp_050",
+      "word": "Is there any chance you could...?",
+      "subcategory": "부탁 표현",
+      "meanings": [{ "meaning": "혹시 ~할 수 있을까요?", "examples": ["Is there any chance you could lend me your car?"] }]
+    },
+    {
+      "id": "cp_051",
+      "word": "I hate to ask, but...",
+      "subcategory": "부탁 표현",
+      "meanings": [{ "meaning": "부탁하기 싫지만...", "examples": ["I hate to ask, but could you cover my shift?"] }]
+    },
+    {
+      "id": "cp_052",
+      "word": "I don't mean to bother you, but...",
+      "subcategory": "부탁 표현",
+      "meanings": [{ "meaning": "귀찮게 하려는 건 아닌데...", "examples": ["I don't mean to bother you, but could you help me?"] }]
+    },
+    {
+      "id": "cp_053",
+      "word": "I'd really appreciate it if you could...",
+      "subcategory": "부탁 표현",
+      "meanings": [{ "meaning": "~해 주시면 정말 감사하겠습니다.", "examples": ["I'd really appreciate it if you could send me the file."] }]
+    },
+    {
+      "id": "cp_054",
+      "word": "I'm sorry, I can't.",
+      "subcategory": "거절 표현",
+      "meanings": [{ "meaning": "미안해, 안 될 것 같아.", "examples": ["I'm sorry, I can't. I already have plans."] }]
+    },
+    {
+      "id": "cp_055",
+      "word": "I'm afraid I can't make it.",
+      "subcategory": "거절 표현",
+      "meanings": [{ "meaning": "아쉽지만 참석 못할 것 같아.", "examples": ["I'm afraid I can't make it to the party."] }]
+    },
+    {
+      "id": "cp_056",
+      "word": "I wish I could, but...",
+      "subcategory": "거절 표현",
+      "meanings": [{ "meaning": "그러고 싶지만...", "examples": ["I wish I could, but I have to work late."] }]
+    },
+    {
+      "id": "cp_057",
+      "word": "I'd love to, but...",
+      "subcategory": "거절 표현",
+      "meanings": [{ "meaning": "그러고 싶지만...", "examples": ["I'd love to, but I'm busy this weekend."] }]
+    },
+    {
+      "id": "cp_058",
+      "word": "Maybe some other time.",
+      "subcategory": "거절 표현",
+      "meanings": [{ "meaning": "다음에 하자.", "examples": ["Maybe some other time. I'm not feeling up to it today."] }]
+    },
+    {
+      "id": "cp_059",
+      "word": "Can I take a rain check?",
+      "subcategory": "거절 표현",
+      "meanings": [{ "meaning": "다음으로 미뤄도 될까?", "examples": ["Can I take a rain check? I'm exhausted today."] }]
+    },
+    {
+      "id": "cp_060",
+      "word": "I'll have to pass this time.",
+      "subcategory": "거절 표현",
+      "meanings": [{ "meaning": "이번에는 패스할게.", "examples": ["I'll have to pass this time. Maybe next week?"] }]
+    },
+    {
+      "id": "cp_061",
+      "word": "Thank you so much!",
+      "subcategory": "감사 표현",
+      "meanings": [{ "meaning": "정말 감사합니다!", "examples": ["Thank you so much! I really appreciate it."] }]
+    },
+    {
+      "id": "cp_062",
+      "word": "I really appreciate it.",
+      "subcategory": "감사 표현",
+      "meanings": [{ "meaning": "정말 감사해.", "examples": ["I really appreciate it. You're so kind."] }]
+    },
+    {
+      "id": "cp_063",
+      "word": "That's very kind of you.",
+      "subcategory": "감사 표현",
+      "meanings": [{ "meaning": "정말 친절하시네요.", "examples": ["That's very kind of you. Thank you!"] }]
+    },
+    {
+      "id": "cp_064",
+      "word": "I can't thank you enough.",
+      "subcategory": "감사 표현",
+      "meanings": [{ "meaning": "뭐라 감사드려야 할지 모르겠어요.", "examples": ["I can't thank you enough for your help."] }]
+    },
+    {
+      "id": "cp_065",
+      "word": "I owe you one.",
+      "subcategory": "감사 표현",
+      "meanings": [{ "meaning": "신세졌어. / 빚졌어.", "examples": ["Thanks for covering for me. I owe you one."] }]
+    },
+    {
+      "id": "cp_066",
+      "word": "You shouldn't have!",
+      "subcategory": "감사 표현",
+      "meanings": [{ "meaning": "이러지 않아도 됐는데!", "examples": ["A gift? You shouldn't have!"] }]
+    },
+    {
+      "id": "cp_067",
+      "word": "I'm sorry to hear that.",
+      "subcategory": "위로/공감 표현",
+      "meanings": [{ "meaning": "그 말 듣게 되어 유감이야.", "examples": ["I'm sorry to hear that. Is there anything I can do?"] }]
+    },
+    {
+      "id": "cp_068",
+      "word": "That must be tough.",
+      "subcategory": "위로/공감 표현",
+      "meanings": [{ "meaning": "힘들겠다.", "examples": ["That must be tough. I'm here if you need to talk."] }]
+    },
+    {
+      "id": "cp_069",
+      "word": "I know how you feel.",
+      "subcategory": "위로/공감 표현",
+      "meanings": [{ "meaning": "네 기분 알아.", "examples": ["I know how you feel. I've been there."] }]
+    },
+    {
+      "id": "cp_070",
+      "word": "Hang in there.",
+      "subcategory": "위로/공감 표현",
+      "meanings": [{ "meaning": "버텨. / 힘내.", "examples": ["Hang in there. Things will get better."] }]
+    },
+    {
+      "id": "cp_071",
+      "word": "Everything will be okay.",
+      "subcategory": "위로/공감 표현",
+      "meanings": [{ "meaning": "다 잘 될 거야.", "examples": ["Don't worry. Everything will be okay."] }]
+    },
+    {
+      "id": "cp_072",
+      "word": "I'm here for you.",
+      "subcategory": "위로/공감 표현",
+      "meanings": [{ "meaning": "내가 곁에 있어.", "examples": ["No matter what, I'm here for you."] }]
+    },
+    {
+      "id": "cp_073",
+      "word": "Take it easy.",
+      "subcategory": "위로/공감 표현",
+      "meanings": [{ "meaning": "무리하지 마. / 진정해.", "examples": ["Take it easy. There's no rush."] }]
+    },
+    {
+      "id": "cp_074",
+      "word": "Don't be so hard on yourself.",
+      "subcategory": "위로/공감 표현",
+      "meanings": [{ "meaning": "너무 자책하지 마.", "examples": ["Don't be so hard on yourself. Everyone makes mistakes."] }]
+    },
+    {
+      "id": "cp_075",
+      "word": "I'm so sorry.",
+      "subcategory": "사과 표현",
+      "meanings": [{ "meaning": "정말 미안해.", "examples": ["I'm so sorry. I didn't mean to hurt you."] }]
+    },
+    {
+      "id": "cp_076",
+      "word": "I apologize for...",
+      "subcategory": "사과 표현",
+      "meanings": [{ "meaning": "~에 대해 사과드립니다.", "examples": ["I apologize for being late."] }]
+    },
+    {
+      "id": "cp_077",
+      "word": "It's all my fault.",
+      "subcategory": "사과 표현",
+      "meanings": [{ "meaning": "다 내 잘못이야.", "examples": ["It's all my fault. I should have been more careful."] }]
+    },
+    {
+      "id": "cp_078",
+      "word": "I didn't mean to...",
+      "subcategory": "사과 표현",
+      "meanings": [{ "meaning": "~하려던 게 아니었어.", "examples": ["I didn't mean to upset you."] }]
+    },
+    {
+      "id": "cp_079",
+      "word": "Please forgive me.",
+      "subcategory": "사과 표현",
+      "meanings": [{ "meaning": "용서해 줘.", "examples": ["Please forgive me. I made a terrible mistake."] }]
+    },
+    {
+      "id": "cp_080",
+      "word": "No worries.",
+      "subcategory": "용서/괜찮음 표현",
+      "meanings": [{ "meaning": "괜찮아. / 걱정 마.", "examples": ["A: Sorry for the delay. B: No worries!"] }]
+    },
+    {
+      "id": "cp_081",
+      "word": "Don't worry about it.",
+      "subcategory": "용서/괜찮음 표현",
+      "meanings": [{ "meaning": "신경 쓰지 마.", "examples": ["Don't worry about it. It happens."] }]
+    },
+    {
+      "id": "cp_082",
+      "word": "It's no big deal.",
+      "subcategory": "용서/괜찮음 표현",
+      "meanings": [{ "meaning": "별거 아니야.", "examples": ["It's no big deal. I can fix it easily."] }]
+    },
+    {
+      "id": "cp_083",
+      "word": "Water under the bridge.",
+      "subcategory": "용서/괜찮음 표현",
+      "meanings": [{ "meaning": "지나간 일이야.", "examples": ["That's water under the bridge. Let's move on."] }]
+    },
+    {
+      "id": "cp_084",
+      "word": "Guess what!",
+      "subcategory": "놀람/흥분 표현",
+      "meanings": [{ "meaning": "있잖아! / 맞춰봐!", "examples": ["Guess what! I got the job!"] }]
+    },
+    {
+      "id": "cp_085",
+      "word": "You won't believe this!",
+      "subcategory": "놀람/흥분 표현",
+      "meanings": [{ "meaning": "이거 못 믿을 거야!", "examples": ["You won't believe this! I won the lottery!"] }]
+    },
+    {
+      "id": "cp_086",
+      "word": "No way!",
+      "subcategory": "놀람/흥분 표현",
+      "meanings": [{ "meaning": "말도 안 돼! / 설마!", "examples": ["No way! Are you serious?"] }]
+    },
+    {
+      "id": "cp_087",
+      "word": "You're kidding!",
+      "subcategory": "놀람/흥분 표현",
+      "meanings": [{ "meaning": "농담이지!", "examples": ["You're kidding! That's amazing!"] }]
+    },
+    {
+      "id": "cp_088",
+      "word": "Are you serious?",
+      "subcategory": "놀람/흥분 표현",
+      "meanings": [{ "meaning": "진심이야?", "examples": ["Are you serious? I can't believe it!"] }]
+    },
+    {
+      "id": "cp_089",
+      "word": "That's incredible!",
+      "subcategory": "놀람/흥분 표현",
+      "meanings": [{ "meaning": "대박이야!", "examples": ["That's incredible! How did you do that?"] }]
+    },
+    {
+      "id": "cp_090",
+      "word": "I'm so happy for you!",
+      "subcategory": "축하 표현",
+      "meanings": [{ "meaning": "정말 기쁘다!", "examples": ["I'm so happy for you! Congratulations!"] }]
+    },
+    {
+      "id": "cp_091",
+      "word": "Congratulations!",
+      "subcategory": "축하 표현",
+      "meanings": [{ "meaning": "축하해!", "examples": ["Congratulations on your promotion!"] }]
+    },
+    {
+      "id": "cp_092",
+      "word": "Way to go!",
+      "subcategory": "축하 표현",
+      "meanings": [{ "meaning": "잘했어!", "examples": ["Way to go! You did a great job!"] }]
+    },
+    {
+      "id": "cp_093",
+      "word": "You deserve it!",
+      "subcategory": "축하 표현",
+      "meanings": [{ "meaning": "그럴 자격 있어!", "examples": ["You deserve it! You worked so hard."] }]
+    },
+    {
+      "id": "cp_094",
+      "word": "I'm proud of you.",
+      "subcategory": "축하 표현",
+      "meanings": [{ "meaning": "네가 자랑스러워.", "examples": ["I'm proud of you. You've come so far."] }]
+    },
+    {
+      "id": "cp_095",
+      "word": "What's on your mind?",
+      "subcategory": "대화 유도",
+      "meanings": [{ "meaning": "무슨 생각해?", "examples": ["You look distracted. What's on your mind?"] }]
+    },
+    {
+      "id": "cp_096",
+      "word": "What's bothering you?",
+      "subcategory": "대화 유도",
+      "meanings": [{ "meaning": "뭐가 신경 쓰여?", "examples": ["You seem upset. What's bothering you?"] }]
+    },
+    {
+      "id": "cp_097",
+      "word": "Is everything okay?",
+      "subcategory": "대화 유도",
+      "meanings": [{ "meaning": "다 괜찮아?", "examples": ["Is everything okay? You've been quiet."] }]
+    },
+    {
+      "id": "cp_098",
+      "word": "Do you want to talk about it?",
+      "subcategory": "대화 유도",
+      "meanings": [{ "meaning": "그것에 대해 얘기하고 싶어?", "examples": ["Do you want to talk about it? I'm here to listen."] }]
+    },
+    {
+      "id": "cp_099",
+      "word": "Speaking of which...",
+      "subcategory": "대화 전환",
+      "meanings": [{ "meaning": "말 나온 김에...", "examples": ["Speaking of which, have you seen the news?"] }]
+    },
+    {
+      "id": "cp_100",
+      "word": "That reminds me...",
+      "subcategory": "대화 전환",
+      "meanings": [{ "meaning": "그러고 보니...", "examples": ["That reminds me, I need to call my mom."] }]
+    },
+    {
+      "id": "cp_101",
+      "word": "By the way...",
+      "subcategory": "대화 전환",
+      "meanings": [{ "meaning": "그건 그렇고...", "examples": ["By the way, did you finish the report?"] }]
+    },
+    {
+      "id": "cp_102",
+      "word": "Anyway...",
+      "subcategory": "대화 전환",
+      "meanings": [{ "meaning": "어쨌든...", "examples": ["Anyway, let's get back to the main topic."] }]
+    },
+    {
+      "id": "cp_103",
+      "word": "On a different note...",
+      "subcategory": "대화 전환",
+      "meanings": [{ "meaning": "다른 얘기지만...", "examples": ["On a different note, how's your family?"] }]
+    },
+    {
+      "id": "cp_104",
+      "word": "Can you believe that?",
+      "subcategory": "반응 유도",
+      "meanings": [{ "meaning": "믿어지니?", "examples": ["He quit his job. Can you believe that?"] }]
+    },
+    {
+      "id": "cp_105",
+      "word": "What do you think?",
+      "subcategory": "반응 유도",
+      "meanings": [{ "meaning": "어떻게 생각해?", "examples": ["I'm thinking of buying this. What do you think?"] }]
+    },
+    {
+      "id": "cp_106",
+      "word": "Don't you think so?",
+      "subcategory": "반응 유도",
+      "meanings": [{ "meaning": "그렇게 생각하지 않아?", "examples": ["It's beautiful, don't you think so?"] }]
+    },
+    {
+      "id": "cp_107",
+      "word": "You know what I mean?",
+      "subcategory": "반응 유도",
+      "meanings": [{ "meaning": "무슨 말인지 알지?", "examples": ["It's hard to explain, you know what I mean?"] }]
+    },
+    {
+      "id": "cp_108",
+      "word": "I'm not really sure.",
+      "subcategory": "불확실성 표현",
+      "meanings": [{ "meaning": "잘 모르겠어.", "examples": ["I'm not really sure. Let me check."] }]
+    },
+    {
+      "id": "cp_109",
+      "word": "I have no idea.",
+      "subcategory": "불확실성 표현",
+      "meanings": [{ "meaning": "전혀 모르겠어.", "examples": ["I have no idea what he's talking about."] }]
+    },
+    {
+      "id": "cp_110",
+      "word": "It's hard to say.",
+      "subcategory": "불확실성 표현",
+      "meanings": [{ "meaning": "뭐라 말하기 어렵네.", "examples": ["It's hard to say. It could go either way."] }]
+    },
+    {
+      "id": "cp_111",
+      "word": "I'll think about it.",
+      "subcategory": "불확실성 표현",
+      "meanings": [{ "meaning": "생각해 볼게.", "examples": ["That's interesting. I'll think about it."] }]
+    },
+    {
+      "id": "cp_112",
+      "word": "Let me sleep on it.",
+      "subcategory": "불확실성 표현",
+      "meanings": [{ "meaning": "하룻밤 생각해 볼게.", "examples": ["It's a big decision. Let me sleep on it."] }]
+    },
+    {
+      "id": "cp_113",
+      "word": "What a coincidence!",
+      "subcategory": "우연/놀람",
+      "meanings": [{ "meaning": "이런 우연이!", "examples": ["What a coincidence! I was just thinking about you!"] }]
+    },
+    {
+      "id": "cp_114",
+      "word": "Small world!",
+      "subcategory": "우연/놀람",
+      "meanings": [{ "meaning": "세상 참 좁다!", "examples": ["You know her too? Small world!"] }]
+    },
+    {
+      "id": "cp_115",
+      "word": "What are the odds?",
+      "subcategory": "우연/놀람",
+      "meanings": [{ "meaning": "이런 확률이 얼마나 되겠어?", "examples": ["We're on the same flight? What are the odds?"] }]
+    },
+    {
+      "id": "cp_116",
+      "word": "I've got to run.",
+      "subcategory": "작별 인사",
+      "meanings": [{ "meaning": "나 가봐야 해.", "examples": ["I've got to run. See you later!"] }]
+    },
+    {
+      "id": "cp_117",
+      "word": "I should get going.",
+      "subcategory": "작별 인사",
+      "meanings": [{ "meaning": "이만 가봐야 할 것 같아.", "examples": ["I should get going. It's getting late."] }]
+    },
+    {
+      "id": "cp_118",
+      "word": "It was nice talking to you.",
+      "subcategory": "작별 인사",
+      "meanings": [{ "meaning": "얘기해서 좋았어.", "examples": ["It was nice talking to you. Let's do this again!"] }]
+    },
+    {
+      "id": "cp_119",
+      "word": "Take care!",
+      "subcategory": "작별 인사",
+      "meanings": [{ "meaning": "잘 가! / 조심해!", "examples": ["Take care! See you soon!"] }]
+    },
+    {
+      "id": "cp_120",
+      "word": "Keep in touch!",
+      "subcategory": "작별 인사",
+      "meanings": [{ "meaning": "연락하고 지내!", "examples": ["Keep in touch! Don't be a stranger."] }]
+    },
+    {
+      "id": "cp_121",
+      "word": "Let's catch up soon.",
+      "subcategory": "작별 인사",
+      "meanings": [{ "meaning": "조만간 또 보자.", "examples": ["Let's catch up soon. Coffee sometime?"] }]
+    },
+    {
+      "id": "cp_122",
+      "word": "I'll see you around.",
+      "subcategory": "작별 인사",
+      "meanings": [{ "meaning": "또 보자.", "examples": ["I'll see you around. Take it easy!"] }]
+    },
+    {
+      "id": "cp_123",
+      "word": "Have a good one!",
+      "subcategory": "작별 인사",
+      "meanings": [{ "meaning": "좋은 하루 보내!", "examples": ["Have a good one! Bye!"] }]
+    },
+    {
+      "id": "cp_124",
+      "word": "I'm just kidding.",
+      "subcategory": "농담/유머",
+      "meanings": [{ "meaning": "농담이야.", "examples": ["Don't take it seriously. I'm just kidding."] }]
+    },
+    {
+      "id": "cp_125",
+      "word": "I'm only joking.",
+      "subcategory": "농담/유머",
+      "meanings": [{ "meaning": "장난이야.", "examples": ["Relax! I'm only joking."] }]
+    },
+    {
+      "id": "cp_126",
+      "word": "Very funny!",
+      "subcategory": "농담/유머",
+      "meanings": [{ "meaning": "웃기시네! (반어)", "examples": ["Very funny! Now be serious."] }]
+    },
+    {
+      "id": "cp_127",
+      "word": "That cracked me up!",
+      "subcategory": "농담/유머",
+      "meanings": [{ "meaning": "완전 웃겼어!", "examples": ["That cracked me up! You're hilarious!"] }]
+    },
+    {
+      "id": "cp_128",
+      "word": "Let me get this straight.",
+      "subcategory": "확인/명확화",
+      "meanings": [{ "meaning": "확실히 해 두자면.", "examples": ["Let me get this straight. You're saying we should wait?"] }]
+    },
+    {
+      "id": "cp_129",
+      "word": "Just to clarify...",
+      "subcategory": "확인/명확화",
+      "meanings": [{ "meaning": "명확히 하자면...", "examples": ["Just to clarify, the meeting is at 3 PM, right?"] }]
+    },
+    {
+      "id": "cp_130",
+      "word": "What do you mean by that?",
+      "subcategory": "확인/명확화",
+      "meanings": [{ "meaning": "그게 무슨 말이야?", "examples": ["What do you mean by that? Can you explain?"] }]
+    },
+    {
+      "id": "cp_131",
+      "word": "Could you be more specific?",
+      "subcategory": "확인/명확화",
+      "meanings": [{ "meaning": "좀 더 구체적으로 말해줄래?", "examples": ["Could you be more specific? I'm not sure I follow."] }]
+    },
+    {
+      "id": "cp_132",
+      "word": "If I understand correctly...",
+      "subcategory": "확인/명확화",
+      "meanings": [{ "meaning": "내가 제대로 이해했다면...", "examples": ["If I understand correctly, you want me to call him?"] }]
+    },
+    {
+      "id": "cp_133",
+      "word": "So what you're saying is...",
+      "subcategory": "확인/명확화",
+      "meanings": [{ "meaning": "그러니까 네 말은...", "examples": ["So what you're saying is we need more time?"] }]
+    },
+    {
+      "id": "cp_134",
+      "word": "It's up to you.",
+      "subcategory": "결정/선택",
+      "meanings": [{ "meaning": "네가 결정해.", "examples": ["It's up to you. Whatever you prefer."] }]
+    },
+    {
+      "id": "cp_135",
+      "word": "I'll leave it to you.",
+      "subcategory": "결정/선택",
+      "meanings": [{ "meaning": "네한테 맡길게.", "examples": ["I'll leave it to you. You decide."] }]
+    },
+    {
+      "id": "cp_136",
+      "word": "I'm easy.",
+      "subcategory": "결정/선택",
+      "meanings": [{ "meaning": "난 아무거나 괜찮아.", "examples": ["A: What do you want to eat? B: I'm easy."] }]
+    },
+    {
+      "id": "cp_137",
+      "word": "Whatever works for you.",
+      "subcategory": "결정/선택",
+      "meanings": [{ "meaning": "네가 편한 대로.", "examples": ["Whatever works for you is fine with me."] }]
+    },
+    {
+      "id": "cp_138",
+      "word": "I don't have a preference.",
+      "subcategory": "결정/선택",
+      "meanings": [{ "meaning": "별로 선호하는 거 없어.", "examples": ["I don't have a preference. You pick."] }]
+    },
+    {
+      "id": "cp_139",
+      "word": "I'm running late.",
+      "subcategory": "시간 관련",
+      "meanings": [{ "meaning": "늦을 것 같아.", "examples": ["I'm running late. Start without me."] }]
+    },
+    {
+      "id": "cp_140",
+      "word": "I lost track of time.",
+      "subcategory": "시간 관련",
+      "meanings": [{ "meaning": "시간 가는 줄 몰랐어.", "examples": ["Sorry, I lost track of time."] }]
+    },
+    {
+      "id": "cp_141",
+      "word": "Time flies!",
+      "subcategory": "시간 관련",
+      "meanings": [{ "meaning": "시간 진짜 빠르다!", "examples": ["Time flies! It's already 10 PM."] }]
+    },
+    {
+      "id": "cp_142",
+      "word": "I'm in a hurry.",
+      "subcategory": "시간 관련",
+      "meanings": [{ "meaning": "급해.", "examples": ["I'm in a hurry. Can we make this quick?"] }]
+    },
+    {
+      "id": "cp_143",
+      "word": "Take your time.",
+      "subcategory": "시간 관련",
+      "meanings": [{ "meaning": "천천히 해.", "examples": ["Take your time. There's no rush."] }]
+    },
+    {
+      "id": "cp_144",
+      "word": "I'm beat.",
+      "subcategory": "상태/기분",
+      "meanings": [{ "meaning": "너무 피곤해.", "examples": ["I'm beat. I need to go to bed."] }]
+    },
+    {
+      "id": "cp_145",
+      "word": "I'm exhausted.",
+      "subcategory": "상태/기분",
+      "meanings": [{ "meaning": "녹초가 됐어.", "examples": ["I'm exhausted. What a long day!"] }]
+    },
+    {
+      "id": "cp_146",
+      "word": "I'm starving.",
+      "subcategory": "상태/기분",
+      "meanings": [{ "meaning": "배고파 죽겠어.", "examples": ["I'm starving. Let's get some food."] }]
+    },
+    {
+      "id": "cp_147",
+      "word": "I'm not in the mood.",
+      "subcategory": "상태/기분",
+      "meanings": [{ "meaning": "그럴 기분 아니야.", "examples": ["I'm not in the mood for a party tonight."] }]
+    },
+    {
+      "id": "cp_148",
+      "word": "I can't wait!",
+      "subcategory": "상태/기분",
+      "meanings": [{ "meaning": "기대돼! / 빨리 하고 싶어!", "examples": ["I can't wait for the vacation!"] }]
+    },
+    {
+      "id": "cp_149",
+      "word": "I'm so excited!",
+      "subcategory": "상태/기분",
+      "meanings": [{ "meaning": "너무 신나!", "examples": ["I'm so excited about the concert!"] }]
+    },
+    {
+      "id": "cp_150",
+      "word": "I'm a bit nervous.",
+      "subcategory": "상태/기분",
+      "meanings": [{ "meaning": "좀 긴장돼.", "examples": ["I'm a bit nervous about the interview."] }]
+    },
+    {
+      "id": "cp_151",
+      "word": "It totally slipped my mind.",
+      "subcategory": "실수/잊음",
+      "meanings": [{ "meaning": "완전히 깜빡했어.", "examples": ["I'm so sorry. It totally slipped my mind."] }]
+    },
+    {
+      "id": "cp_152",
+      "word": "I completely forgot.",
+      "subcategory": "실수/잊음",
+      "meanings": [{ "meaning": "완전히 잊어버렸어.", "examples": ["I completely forgot about our meeting!"] }]
+    },
+    {
+      "id": "cp_153",
+      "word": "My bad.",
+      "subcategory": "실수/잊음",
+      "meanings": [{ "meaning": "내 실수야.", "examples": ["My bad. I should have double-checked."] }]
+    },
+    {
+      "id": "cp_154",
+      "word": "I messed up.",
+      "subcategory": "실수/잊음",
+      "meanings": [{ "meaning": "내가 망쳤어.", "examples": ["I messed up. I'm really sorry."] }]
+    },
+    {
+      "id": "cp_155",
+      "word": "Oops, my mistake.",
+      "subcategory": "실수/잊음",
+      "meanings": [{ "meaning": "이런, 내 실수야.", "examples": ["Oops, my mistake. Let me fix that."] }]
+    },
+    {
+      "id": "cp_156",
+      "word": "I had no choice.",
+      "subcategory": "변명/설명",
+      "meanings": [{ "meaning": "선택의 여지가 없었어.", "examples": ["I had no choice. It was the only option."] }]
+    },
+    {
+      "id": "cp_157",
+      "word": "I couldn't help it.",
+      "subcategory": "변명/설명",
+      "meanings": [{ "meaning": "어쩔 수 없었어.", "examples": ["I couldn't help it. I was stuck in traffic."] }]
+    },
+    {
+      "id": "cp_158",
+      "word": "Something came up.",
+      "subcategory": "변명/설명",
+      "meanings": [{ "meaning": "일이 생겼어.", "examples": ["Sorry, something came up at work."] }]
+    },
+    {
+      "id": "cp_159",
+      "word": "Long story short...",
+      "subcategory": "설명/요약",
+      "meanings": [{ "meaning": "간단히 말하면...", "examples": ["Long story short, we missed the flight."] }]
+    },
+    {
+      "id": "cp_160",
+      "word": "To make a long story short...",
+      "subcategory": "설명/요약",
+      "meanings": [{ "meaning": "길게 얘기할 것 없이...", "examples": ["To make a long story short, we broke up."] }]
+    },
+    {
+      "id": "cp_161",
+      "word": "The thing is...",
+      "subcategory": "설명/요약",
+      "meanings": [{ "meaning": "문제는...", "examples": ["The thing is, I don't have enough money."] }]
+    },
+    {
+      "id": "cp_162",
+      "word": "Here's the deal...",
+      "subcategory": "설명/요약",
+      "meanings": [{ "meaning": "상황은 이래...", "examples": ["Here's the deal. We need to finish by Friday."] }]
+    },
+    {
+      "id": "cp_163",
+      "word": "Bottom line is...",
+      "subcategory": "설명/요약",
+      "meanings": [{ "meaning": "결론은...", "examples": ["Bottom line is, we need more funding."] }]
+    },
+    {
+      "id": "cp_164",
+      "word": "I'm just saying...",
+      "subcategory": "주장/강조",
+      "meanings": [{ "meaning": "그냥 말하는 거야...", "examples": ["I'm just saying, you should be careful."] }]
+    },
+    {
+      "id": "cp_165",
+      "word": "All I'm saying is...",
+      "subcategory": "주장/강조",
+      "meanings": [{ "meaning": "내가 말하고 싶은 건...", "examples": ["All I'm saying is, think about it first."] }]
+    },
+    {
+      "id": "cp_166",
+      "word": "What I mean is...",
+      "subcategory": "주장/강조",
+      "meanings": [{ "meaning": "내 말은...", "examples": ["What I mean is, we should reconsider."] }]
+    },
+    {
+      "id": "cp_167",
+      "word": "My point is...",
+      "subcategory": "주장/강조",
+      "meanings": [{ "meaning": "내 요점은...", "examples": ["My point is, we can't afford to wait."] }]
+    },
+    {
+      "id": "cp_168",
+      "word": "Let's face it.",
+      "subcategory": "주장/강조",
+      "meanings": [{ "meaning": "현실을 직시하자.", "examples": ["Let's face it. We need help."] }]
+    },
+    {
+      "id": "cp_169",
+      "word": "Let's be honest.",
+      "subcategory": "주장/강조",
+      "meanings": [{ "meaning": "솔직해지자.", "examples": ["Let's be honest. This isn't working."] }]
+    },
+    {
+      "id": "cp_170",
+      "word": "It goes without saying.",
+      "subcategory": "주장/강조",
+      "meanings": [{ "meaning": "말할 것도 없지.", "examples": ["It goes without saying that safety comes first."] }]
+    }
+  ]
+}

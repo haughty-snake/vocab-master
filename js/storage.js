@@ -3321,7 +3321,7 @@ const Storage = {
         const defaultSettings = {
             darkMode: false,
             showPronunciation: true,
-            displayMode: 'paging',
+            displayMode: 'all',
             itemsPerPage: 20,
             backupReminder: {
                 enabled: true,

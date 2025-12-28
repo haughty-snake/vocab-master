@@ -9,511 +9,5169 @@
       "id": "opic_reading_1",
       "word": "I'm an avid reader.",
       "subcategory": "독서",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "저는 독서광이에요.", "examples": [{ "sentence": "I'm an avid reader. I read at least two books a month.", "translation": "저는 독서광이에요. 한 달에 최소 두 권은 읽어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "저는 독서광이에요.",
+          "examples": [
+            {
+              "sentence": "I'm an avid reader. I read at least two books a month.",
+              "translation": "저는 독서광이에요. 한 달에 최소 두 권은 읽어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_reading_2",
       "word": "My favorite genre is mystery novels.",
       "subcategory": "독서",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "제가 좋아하는 장르는 추리 소설이에요.", "examples": [{ "sentence": "My favorite genre is mystery novels because I love solving puzzles.", "translation": "제가 좋아하는 장르는 추리 소설이에요. 퍼즐 푸는 걸 좋아하거든요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "제가 좋아하는 장르는 추리 소설이에요.",
+          "examples": [
+            {
+              "sentence": "My favorite genre is mystery novels because I love solving puzzles.",
+              "translation": "제가 좋아하는 장르는 추리 소설이에요. 퍼즐 푸는 걸 좋아하거든요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_reading_3",
       "word": "I usually read before going to bed.",
       "subcategory": "독서",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "저는 보통 자기 전에 책을 읽어요.", "examples": [{ "sentence": "I usually read before going to bed. It helps me relax.", "translation": "저는 보통 자기 전에 책을 읽어요. 긴장을 푸는 데 도움이 돼요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "저는 보통 자기 전에 책을 읽어요.",
+          "examples": [
+            {
+              "sentence": "I usually read before going to bed. It helps me relax.",
+              "translation": "저는 보통 자기 전에 책을 읽어요. 긴장을 푸는 데 도움이 돼요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_reading_4",
       "word": "I prefer e-books over paperbacks.",
       "subcategory": "독서",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "저는 종이책보다 전자책을 선호해요.", "examples": [{ "sentence": "I prefer e-books over paperbacks because they're more convenient.", "translation": "저는 종이책보다 전자책을 선호해요. 더 편리하거든요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "저는 종이책보다 전자책을 선호해요.",
+          "examples": [
+            {
+              "sentence": "I prefer e-books over paperbacks because they're more convenient.",
+              "translation": "저는 종이책보다 전자책을 선호해요. 더 편리하거든요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_reading_5",
       "word": "I just finished reading a great book.",
       "subcategory": "독서",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "방금 좋은 책을 다 읽었어요.", "examples": [{ "sentence": "I just finished reading a great book by Haruki Murakami.", "translation": "방금 무라카미 하루키의 좋은 책을 다 읽었어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "방금 좋은 책을 다 읽었어요.",
+          "examples": [
+            {
+              "sentence": "I just finished reading a great book by Haruki Murakami.",
+              "translation": "방금 무라카미 하루키의 좋은 책을 다 읽었어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_reading_6",
       "word": "Reading helps me expand my vocabulary.",
       "subcategory": "독서",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "독서는 어휘력을 늘리는 데 도움이 돼요.", "examples": [{ "sentence": "Reading helps me expand my vocabulary and improve my writing.", "translation": "독서는 어휘력을 늘리고 글쓰기를 향상시키는 데 도움이 돼요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "독서는 어휘력을 늘리는 데 도움이 돼요.",
+          "examples": [
+            {
+              "sentence": "Reading helps me expand my vocabulary and improve my writing.",
+              "translation": "독서는 어휘력을 늘리고 글쓰기를 향상시키는 데 도움이 돼요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_reading_7",
       "word": "I have a huge book collection.",
       "subcategory": "독서",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "저는 책을 엄청 많이 모았어요.", "examples": [{ "sentence": "I have a huge book collection at home. Over 500 books.", "translation": "집에 책을 엄청 많이 모았어요. 500권 넘어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "저는 책을 엄청 많이 모았어요.",
+          "examples": [
+            {
+              "sentence": "I have a huge book collection at home. Over 500 books.",
+              "translation": "집에 책을 엄청 많이 모았어요. 500권 넘어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_reading_8",
       "word": "I enjoy reading self-help books.",
       "subcategory": "독서",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "자기계발서 읽는 걸 좋아해요.", "examples": [{ "sentence": "I enjoy reading self-help books to improve myself.", "translation": "자기 발전을 위해 자기계발서 읽는 걸 좋아해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "자기계발서 읽는 걸 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I enjoy reading self-help books to improve myself.",
+              "translation": "자기 발전을 위해 자기계발서 읽는 걸 좋아해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_reading_9",
       "word": "The book was a page-turner.",
       "subcategory": "독서",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "그 책은 손에서 놓을 수가 없었어요.", "examples": [{ "sentence": "The book was a page-turner. I couldn't stop reading.", "translation": "그 책은 손에서 놓을 수가 없었어요. 읽는 걸 멈출 수가 없었어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "그 책은 손에서 놓을 수가 없었어요.",
+          "examples": [
+            {
+              "sentence": "The book was a page-turner. I couldn't stop reading.",
+              "translation": "그 책은 손에서 놓을 수가 없었어요. 읽는 걸 멈출 수가 없었어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_reading_10",
       "word": "I go to the library every weekend.",
       "subcategory": "독서",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "저는 주말마다 도서관에 가요.", "examples": [{ "sentence": "I go to the library every weekend to borrow new books.", "translation": "저는 새 책을 빌리러 주말마다 도서관에 가요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "저는 주말마다 도서관에 가요.",
+          "examples": [
+            {
+              "sentence": "I go to the library every weekend to borrow new books.",
+              "translation": "저는 새 책을 빌리러 주말마다 도서관에 가요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_movie_1",
       "word": "I'm a huge movie buff.",
       "subcategory": "영화",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "저는 엄청난 영화광이에요.", "examples": [{ "sentence": "I'm a huge movie buff. I watch at least three movies a week.", "translation": "저는 엄청난 영화광이에요. 일주일에 최소 세 편은 봐요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "저는 엄청난 영화광이에요.",
+          "examples": [
+            {
+              "sentence": "I'm a huge movie buff. I watch at least three movies a week.",
+              "translation": "저는 엄청난 영화광이에요. 일주일에 최소 세 편은 봐요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_movie_2",
       "word": "My favorite genre is action movies.",
       "subcategory": "영화",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "제가 좋아하는 장르는 액션 영화예요.", "examples": [{ "sentence": "My favorite genre is action movies. I love the excitement.", "translation": "제가 좋아하는 장르는 액션 영화예요. 그 흥분감이 좋아요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "제가 좋아하는 장르는 액션 영화예요.",
+          "examples": [
+            {
+              "sentence": "My favorite genre is action movies. I love the excitement.",
+              "translation": "제가 좋아하는 장르는 액션 영화예요. 그 흥분감이 좋아요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_movie_3",
       "word": "I usually watch movies on Netflix.",
       "subcategory": "영화",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "저는 보통 넷플릭스에서 영화를 봐요.", "examples": [{ "sentence": "I usually watch movies on Netflix at home.", "translation": "저는 보통 집에서 넷플릭스로 영화를 봐요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "저는 보통 넷플릭스에서 영화를 봐요.",
+          "examples": [
+            {
+              "sentence": "I usually watch movies on Netflix at home.",
+              "translation": "저는 보통 집에서 넷플릭스로 영화를 봐요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_movie_4",
       "word": "I prefer watching movies in theaters.",
       "subcategory": "영화",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "저는 영화관에서 영화 보는 걸 더 좋아해요.", "examples": [{ "sentence": "I prefer watching movies in theaters for the big screen experience.", "translation": "큰 화면 경험을 위해 영화관에서 영화 보는 걸 더 좋아해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "저는 영화관에서 영화 보는 걸 더 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I prefer watching movies in theaters for the big screen experience.",
+              "translation": "큰 화면 경험을 위해 영화관에서 영화 보는 걸 더 좋아해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_movie_5",
       "word": "The special effects were amazing.",
       "subcategory": "영화",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "특수 효과가 정말 대단했어요.", "examples": [{ "sentence": "The special effects were amazing in that movie.", "translation": "그 영화에서 특수 효과가 정말 대단했어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "특수 효과가 정말 대단했어요.",
+          "examples": [
+            {
+              "sentence": "The special effects were amazing in that movie.",
+              "translation": "그 영화에서 특수 효과가 정말 대단했어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_movie_6",
       "word": "The plot was very unpredictable.",
       "subcategory": "영화",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "줄거리가 정말 예측 불가능했어요.", "examples": [{ "sentence": "The plot was very unpredictable. I didn't see the ending coming.", "translation": "줄거리가 정말 예측 불가능했어요. 결말을 전혀 예상 못 했어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "줄거리가 정말 예측 불가능했어요.",
+          "examples": [
+            {
+              "sentence": "The plot was very unpredictable. I didn't see the ending coming.",
+              "translation": "줄거리가 정말 예측 불가능했어요. 결말을 전혀 예상 못 했어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_movie_7",
       "word": "I was moved to tears.",
       "subcategory": "영화",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "감동받아서 눈물이 났어요.", "examples": [{ "sentence": "I was moved to tears by the emotional ending.", "translation": "감동적인 결말에 눈물이 났어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "감동받아서 눈물이 났어요.",
+          "examples": [
+            {
+              "sentence": "I was moved to tears by the emotional ending.",
+              "translation": "감동적인 결말에 눈물이 났어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_movie_8",
       "word": "The acting was superb.",
       "subcategory": "영화",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "연기가 훌륭했어요.", "examples": [{ "sentence": "The acting was superb. The lead actor deserved an Oscar.", "translation": "연기가 훌륭했어요. 주연 배우는 오스카 받을 자격이 있어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "연기가 훌륭했어요.",
+          "examples": [
+            {
+              "sentence": "The acting was superb. The lead actor deserved an Oscar.",
+              "translation": "연기가 훌륭했어요. 주연 배우는 오스카 받을 자격이 있어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_movie_9",
       "word": "I usually check movie reviews first.",
       "subcategory": "영화",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "보통 영화 리뷰를 먼저 확인해요.", "examples": [{ "sentence": "I usually check movie reviews first before deciding what to watch.", "translation": "뭘 볼지 결정하기 전에 보통 영화 리뷰를 먼저 확인해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "보통 영화 리뷰를 먼저 확인해요.",
+          "examples": [
+            {
+              "sentence": "I usually check movie reviews first before deciding what to watch.",
+              "translation": "뭘 볼지 결정하기 전에 보통 영화 리뷰를 먼저 확인해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_movie_10",
       "word": "I enjoy watching movies with friends.",
       "subcategory": "영화",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "친구들과 영화 보는 걸 즐겨요.", "examples": [{ "sentence": "I enjoy watching movies with friends on weekends.", "translation": "주말에 친구들과 영화 보는 걸 즐겨요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "친구들과 영화 보는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy watching movies with friends on weekends.",
+              "translation": "주말에 친구들과 영화 보는 걸 즐겨요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_music_1",
       "word": "Music is my passion.",
       "subcategory": "음악",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "음악은 제 열정이에요.", "examples": [{ "sentence": "Music is my passion. I can't imagine life without it.", "translation": "음악은 제 열정이에요. 음악 없는 삶은 상상할 수 없어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "음악은 제 열정이에요.",
+          "examples": [
+            {
+              "sentence": "Music is my passion. I can't imagine life without it.",
+              "translation": "음악은 제 열정이에요. 음악 없는 삶은 상상할 수 없어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_music_2",
       "word": "I listen to music every day.",
       "subcategory": "음악",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "저는 매일 음악을 들어요.", "examples": [{ "sentence": "I listen to music every day on my commute.", "translation": "저는 출퇴근할 때 매일 음악을 들어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "저는 매일 음악을 들어요.",
+          "examples": [
+            {
+              "sentence": "I listen to music every day on my commute.",
+              "translation": "저는 출퇴근할 때 매일 음악을 들어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_music_3",
       "word": "I'm into K-pop these days.",
       "subcategory": "음악",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "요즘 K-pop에 빠져 있어요.", "examples": [{ "sentence": "I'm into K-pop these days. BTS is my favorite.", "translation": "요즘 K-pop에 빠져 있어요. BTS가 제일 좋아요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "요즘 K-pop에 빠져 있어요.",
+          "examples": [
+            {
+              "sentence": "I'm into K-pop these days. BTS is my favorite.",
+              "translation": "요즘 K-pop에 빠져 있어요. BTS가 제일 좋아요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_music_4",
       "word": "I play the guitar as a hobby.",
       "subcategory": "음악",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "취미로 기타를 쳐요.", "examples": [{ "sentence": "I play the guitar as a hobby. I've been playing for five years.", "translation": "취미로 기타를 쳐요. 5년째 치고 있어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "취미로 기타를 쳐요.",
+          "examples": [
+            {
+              "sentence": "I play the guitar as a hobby. I've been playing for five years.",
+              "translation": "취미로 기타를 쳐요. 5년째 치고 있어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_music_5",
       "word": "I went to a concert last month.",
       "subcategory": "음악",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "지난달에 콘서트에 갔어요.", "examples": [{ "sentence": "I went to a concert last month. It was an amazing experience.", "translation": "지난달에 콘서트에 갔어요. 정말 놀라운 경험이었어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "지난달에 콘서트에 갔어요.",
+          "examples": [
+            {
+              "sentence": "I went to a concert last month. It was an amazing experience.",
+              "translation": "지난달에 콘서트에 갔어요. 정말 놀라운 경험이었어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_music_6",
       "word": "Music helps me relieve stress.",
       "subcategory": "음악",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "음악은 스트레스 해소에 도움이 돼요.", "examples": [{ "sentence": "Music helps me relieve stress after a long day.", "translation": "음악은 긴 하루 후에 스트레스 해소에 도움이 돼요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "음악은 스트레스 해소에 도움이 돼요.",
+          "examples": [
+            {
+              "sentence": "Music helps me relieve stress after a long day.",
+              "translation": "음악은 긴 하루 후에 스트레스 해소에 도움이 돼요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_music_7",
       "word": "I have a playlist for every mood.",
       "subcategory": "음악",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "기분마다 플레이리스트가 있어요.", "examples": [{ "sentence": "I have a playlist for every mood - happy, sad, workout.", "translation": "기분마다 플레이리스트가 있어요 - 기쁠 때, 슬플 때, 운동할 때." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "기분마다 플레이리스트가 있어요.",
+          "examples": [
+            {
+              "sentence": "I have a playlist for every mood - happy, sad, workout.",
+              "translation": "기분마다 플레이리스트가 있어요 - 기쁠 때, 슬플 때, 운동할 때."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_music_8",
       "word": "I prefer ballads to hip-hop.",
       "subcategory": "음악",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "저는 힙합보다 발라드를 좋아해요.", "examples": [{ "sentence": "I prefer ballads to hip-hop. I like slower songs.", "translation": "저는 힙합보다 발라드를 좋아해요. 느린 노래가 좋아요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "저는 힙합보다 발라드를 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I prefer ballads to hip-hop. I like slower songs.",
+              "translation": "저는 힙합보다 발라드를 좋아해요. 느린 노래가 좋아요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_music_9",
       "word": "I use Spotify for streaming music.",
       "subcategory": "음악",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "음악 스트리밍은 스포티파이를 써요.", "examples": [{ "sentence": "I use Spotify for streaming music. It has everything.", "translation": "음악 스트리밍은 스포티파이를 써요. 다 있어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "음악 스트리밍은 스포티파이를 써요.",
+          "examples": [
+            {
+              "sentence": "I use Spotify for streaming music. It has everything.",
+              "translation": "음악 스트리밍은 스포티파이를 써요. 다 있어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_music_10",
       "word": "This song reminds me of my childhood.",
       "subcategory": "음악",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "이 노래는 어린 시절이 생각나요.", "examples": [{ "sentence": "This song reminds me of my childhood. It's very nostalgic.", "translation": "이 노래는 어린 시절이 생각나요. 정말 향수를 불러일으켜요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "이 노래는 어린 시절이 생각나요.",
+          "examples": [
+            {
+              "sentence": "This song reminds me of my childhood. It's very nostalgic.",
+              "translation": "이 노래는 어린 시절이 생각나요. 정말 향수를 불러일으켜요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_fitness_1",
       "word": "I work out three times a week.",
       "subcategory": "운동/헬스",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "저는 일주일에 세 번 운동해요.", "examples": [{ "sentence": "I work out three times a week at the gym.", "translation": "저는 일주일에 세 번 헬스장에서 운동해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "저는 일주일에 세 번 운동해요.",
+          "examples": [
+            {
+              "sentence": "I work out three times a week at the gym.",
+              "translation": "저는 일주일에 세 번 헬스장에서 운동해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_fitness_2",
       "word": "I've been jogging every morning.",
       "subcategory": "운동/헬스",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "매일 아침 조깅하고 있어요.", "examples": [{ "sentence": "I've been jogging every morning for the past year.", "translation": "작년부터 매일 아침 조깅하고 있어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "매일 아침 조깅하고 있어요.",
+          "examples": [
+            {
+              "sentence": "I've been jogging every morning for the past year.",
+              "translation": "작년부터 매일 아침 조깅하고 있어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_fitness_3",
       "word": "I do yoga to stay flexible.",
       "subcategory": "운동/헬스",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "유연성을 유지하려고 요가를 해요.", "examples": [{ "sentence": "I do yoga to stay flexible and reduce stress.", "translation": "유연성을 유지하고 스트레스를 줄이려고 요가를 해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "유연성을 유지하려고 요가를 해요.",
+          "examples": [
+            {
+              "sentence": "I do yoga to stay flexible and reduce stress.",
+              "translation": "유연성을 유지하고 스트레스를 줄이려고 요가를 해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_fitness_4",
       "word": "I'm trying to lose weight.",
       "subcategory": "운동/헬스",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "살을 빼려고 노력 중이에요.", "examples": [{ "sentence": "I'm trying to lose weight, so I exercise regularly.", "translation": "살을 빼려고 노력 중이라서 규칙적으로 운동해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "살을 빼려고 노력 중이에요.",
+          "examples": [
+            {
+              "sentence": "I'm trying to lose weight, so I exercise regularly.",
+              "translation": "살을 빼려고 노력 중이라서 규칙적으로 운동해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_fitness_5",
       "word": "I hired a personal trainer.",
       "subcategory": "운동/헬스",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "개인 트레이너를 고용했어요.", "examples": [{ "sentence": "I hired a personal trainer to help me reach my fitness goals.", "translation": "피트니스 목표를 달성하기 위해 개인 트레이너를 고용했어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "개인 트레이너를 고용했어요.",
+          "examples": [
+            {
+              "sentence": "I hired a personal trainer to help me reach my fitness goals.",
+              "translation": "피트니스 목표를 달성하기 위해 개인 트레이너를 고용했어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_fitness_6",
       "word": "I enjoy swimming in the summer.",
       "subcategory": "운동/헬스",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "여름에 수영하는 걸 즐겨요.", "examples": [{ "sentence": "I enjoy swimming in the summer. It's great cardio.", "translation": "여름에 수영하는 걸 즐겨요. 좋은 유산소 운동이에요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "여름에 수영하는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy swimming in the summer. It's great cardio.",
+              "translation": "여름에 수영하는 걸 즐겨요. 좋은 유산소 운동이에요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_fitness_7",
       "word": "I play basketball with my friends.",
       "subcategory": "운동/헬스",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "친구들과 농구를 해요.", "examples": [{ "sentence": "I play basketball with my friends every weekend.", "translation": "매 주말마다 친구들과 농구를 해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "친구들과 농구를 해요.",
+          "examples": [
+            {
+              "sentence": "I play basketball with my friends every weekend.",
+              "translation": "매 주말마다 친구들과 농구를 해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_fitness_8",
       "word": "Exercise keeps me healthy.",
       "subcategory": "운동/헬스",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "운동은 건강하게 유지시켜 줘요.", "examples": [{ "sentence": "Exercise keeps me healthy and energetic.", "translation": "운동은 건강하고 활력 있게 유지시켜 줘요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "운동은 건강하게 유지시켜 줘요.",
+          "examples": [
+            {
+              "sentence": "Exercise keeps me healthy and energetic.",
+              "translation": "운동은 건강하고 활력 있게 유지시켜 줘요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_fitness_9",
       "word": "I recently started doing CrossFit.",
       "subcategory": "운동/헬스",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "최근에 크로스핏을 시작했어요.", "examples": [{ "sentence": "I recently started doing CrossFit. It's challenging but fun.", "translation": "최근에 크로스핏을 시작했어요. 힘들지만 재밌어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "최근에 크로스핏을 시작했어요.",
+          "examples": [
+            {
+              "sentence": "I recently started doing CrossFit. It's challenging but fun.",
+              "translation": "최근에 크로스핏을 시작했어요. 힘들지만 재밌어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_fitness_10",
       "word": "I track my steps with my smartwatch.",
       "subcategory": "운동/헬스",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "스마트워치로 걸음 수를 추적해요.", "examples": [{ "sentence": "I track my steps with my smartwatch. I try to walk 10,000 steps daily.", "translation": "스마트워치로 걸음 수를 추적해요. 매일 만 보 걸으려고 해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "스마트워치로 걸음 수를 추적해요.",
+          "examples": [
+            {
+              "sentence": "I track my steps with my smartwatch. I try to walk 10,000 steps daily.",
+              "translation": "스마트워치로 걸음 수를 추적해요. 매일 만 보 걸으려고 해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_cooking_1",
       "word": "I love cooking at home.",
       "subcategory": "요리",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "집에서 요리하는 걸 좋아해요.", "examples": [{ "sentence": "I love cooking at home. It's healthier and cheaper.", "translation": "집에서 요리하는 걸 좋아해요. 더 건강하고 저렴해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "집에서 요리하는 걸 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I love cooking at home. It's healthier and cheaper.",
+              "translation": "집에서 요리하는 걸 좋아해요. 더 건강하고 저렴해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_cooking_2",
       "word": "I learned to cook from my mother.",
       "subcategory": "요리",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "어머니에게 요리를 배웠어요.", "examples": [{ "sentence": "I learned to cook from my mother when I was young.", "translation": "어렸을 때 어머니에게 요리를 배웠어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "어머니에게 요리를 배웠어요.",
+          "examples": [
+            {
+              "sentence": "I learned to cook from my mother when I was young.",
+              "translation": "어렸을 때 어머니에게 요리를 배웠어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_cooking_3",
       "word": "My specialty is Korean food.",
       "subcategory": "요리",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "제 특기는 한식이에요.", "examples": [{ "sentence": "My specialty is Korean food. I make great kimchi jjigae.", "translation": "제 특기는 한식이에요. 김치찌개를 잘 끓여요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "제 특기는 한식이에요.",
+          "examples": [
+            {
+              "sentence": "My specialty is Korean food. I make great kimchi jjigae.",
+              "translation": "제 특기는 한식이에요. 김치찌개를 잘 끓여요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_cooking_4",
       "word": "I enjoy trying new recipes.",
       "subcategory": "요리",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "새로운 레시피 시도하는 걸 즐겨요.", "examples": [{ "sentence": "I enjoy trying new recipes from YouTube.", "translation": "유튜브에서 새로운 레시피 시도하는 걸 즐겨요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "새로운 레시피 시도하는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy trying new recipes from YouTube.",
+              "translation": "유튜브에서 새로운 레시피 시도하는 걸 즐겨요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_cooking_5",
       "word": "I meal prep on Sundays.",
       "subcategory": "요리",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "일요일에 일주일 치 음식을 준비해요.", "examples": [{ "sentence": "I meal prep on Sundays to save time during the week.", "translation": "주중 시간을 절약하려고 일요일에 일주일 치 음식을 준비해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "일요일에 일주일 치 음식을 준비해요.",
+          "examples": [
+            {
+              "sentence": "I meal prep on Sundays to save time during the week.",
+              "translation": "주중 시간을 절약하려고 일요일에 일주일 치 음식을 준비해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_cooking_6",
       "word": "Baking is my stress reliever.",
       "subcategory": "요리",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "베이킹은 제 스트레스 해소법이에요.", "examples": [{ "sentence": "Baking is my stress reliever. I love making cookies.", "translation": "베이킹은 제 스트레스 해소법이에요. 쿠키 만드는 걸 좋아해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "베이킹은 제 스트레스 해소법이에요.",
+          "examples": [
+            {
+              "sentence": "Baking is my stress reliever. I love making cookies.",
+              "translation": "베이킹은 제 스트레스 해소법이에요. 쿠키 만드는 걸 좋아해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_cooking_7",
       "word": "I often invite friends over for dinner.",
       "subcategory": "요리",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "친구들을 자주 저녁 식사에 초대해요.", "examples": [{ "sentence": "I often invite friends over for dinner and cook for them.", "translation": "친구들을 자주 저녁 식사에 초대해서 요리해 줘요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "친구들을 자주 저녁 식사에 초대해요.",
+          "examples": [
+            {
+              "sentence": "I often invite friends over for dinner and cook for them.",
+              "translation": "친구들을 자주 저녁 식사에 초대해서 요리해 줘요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_cooking_8",
       "word": "I watch cooking shows for inspiration.",
       "subcategory": "요리",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "영감을 얻으려고 요리 프로그램을 봐요.", "examples": [{ "sentence": "I watch cooking shows for inspiration and new ideas.", "translation": "영감과 새로운 아이디어를 얻으려고 요리 프로그램을 봐요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "영감을 얻으려고 요리 프로그램을 봐요.",
+          "examples": [
+            {
+              "sentence": "I watch cooking shows for inspiration and new ideas.",
+              "translation": "영감과 새로운 아이디어를 얻으려고 요리 프로그램을 봐요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_cooking_9",
       "word": "I prefer homemade food to eating out.",
       "subcategory": "요리",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "외식보다 집밥을 선호해요.", "examples": [{ "sentence": "I prefer homemade food to eating out. It's more nutritious.", "translation": "외식보다 집밥을 선호해요. 더 영양가 있어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "외식보다 집밥을 선호해요.",
+          "examples": [
+            {
+              "sentence": "I prefer homemade food to eating out. It's more nutritious.",
+              "translation": "외식보다 집밥을 선호해요. 더 영양가 있어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_cooking_10",
       "word": "I'm vegetarian, so I cook a lot of veggies.",
       "subcategory": "요리",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "채식주의자라서 야채를 많이 요리해요.", "examples": [{ "sentence": "I'm vegetarian, so I cook a lot of vegetable dishes.", "translation": "채식주의자라서 야채 요리를 많이 해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "채식주의자라서 야채를 많이 요리해요.",
+          "examples": [
+            {
+              "sentence": "I'm vegetarian, so I cook a lot of vegetable dishes.",
+              "translation": "채식주의자라서 야채 요리를 많이 해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_game_1",
       "word": "I'm a casual gamer.",
       "subcategory": "게임",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "저는 가벼운 게이머예요.", "examples": [{ "sentence": "I'm a casual gamer. I play games to unwind.", "translation": "저는 가벼운 게이머예요. 긴장을 풀려고 게임해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "저는 가벼운 게이머예요.",
+          "examples": [
+            {
+              "sentence": "I'm a casual gamer. I play games to unwind.",
+              "translation": "저는 가벼운 게이머예요. 긴장을 풀려고 게임해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_game_2",
       "word": "I play mobile games during my commute.",
       "subcategory": "게임",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "출퇴근할 때 모바일 게임을 해요.", "examples": [{ "sentence": "I play mobile games during my commute to pass time.", "translation": "시간을 보내려고 출퇴근할 때 모바일 게임을 해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "출퇴근할 때 모바일 게임을 해요.",
+          "examples": [
+            {
+              "sentence": "I play mobile games during my commute to pass time.",
+              "translation": "시간을 보내려고 출퇴근할 때 모바일 게임을 해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_game_3",
       "word": "My favorite game is League of Legends.",
       "subcategory": "게임",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "제가 좋아하는 게임은 리그 오브 레전드예요.", "examples": [{ "sentence": "My favorite game is League of Legends. I've been playing for years.", "translation": "제가 좋아하는 게임은 리그 오브 레전드예요. 몇 년째 하고 있어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "제가 좋아하는 게임은 리그 오브 레전드예요.",
+          "examples": [
+            {
+              "sentence": "My favorite game is League of Legends. I've been playing for years.",
+              "translation": "제가 좋아하는 게임은 리그 오브 레전드예요. 몇 년째 하고 있어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_game_4",
       "word": "I play games online with my friends.",
       "subcategory": "게임",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "친구들과 온라인 게임을 해요.", "examples": [{ "sentence": "I play games online with my friends. It's a great way to stay connected.", "translation": "친구들과 온라인 게임을 해요. 연락하고 지내는 좋은 방법이에요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "친구들과 온라인 게임을 해요.",
+          "examples": [
+            {
+              "sentence": "I play games online with my friends. It's a great way to stay connected.",
+              "translation": "친구들과 온라인 게임을 해요. 연락하고 지내는 좋은 방법이에요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_game_5",
       "word": "Gaming helps me relax after work.",
       "subcategory": "게임",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "게임은 퇴근 후 긴장을 푸는 데 도움이 돼요.", "examples": [{ "sentence": "Gaming helps me relax after a stressful day at work.", "translation": "게임은 스트레스 받은 하루 후에 긴장을 푸는 데 도움이 돼요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "게임은 퇴근 후 긴장을 푸는 데 도움이 돼요.",
+          "examples": [
+            {
+              "sentence": "Gaming helps me relax after a stressful day at work.",
+              "translation": "게임은 스트레스 받은 하루 후에 긴장을 푸는 데 도움이 돼요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_game_6",
       "word": "I'm into strategy games.",
       "subcategory": "게임",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "저는 전략 게임에 빠져 있어요.", "examples": [{ "sentence": "I'm into strategy games. They make me think critically.", "translation": "저는 전략 게임에 빠져 있어요. 비판적으로 생각하게 해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "저는 전략 게임에 빠져 있어요.",
+          "examples": [
+            {
+              "sentence": "I'm into strategy games. They make me think critically.",
+              "translation": "저는 전략 게임에 빠져 있어요. 비판적으로 생각하게 해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_game_7",
       "word": "I have a gaming console at home.",
       "subcategory": "게임",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "집에 게임기가 있어요.", "examples": [{ "sentence": "I have a gaming console at home - PlayStation 5.", "translation": "집에 게임기가 있어요 - 플레이스테이션 5." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "집에 게임기가 있어요.",
+          "examples": [
+            {
+              "sentence": "I have a gaming console at home - PlayStation 5.",
+              "translation": "집에 게임기가 있어요 - 플레이스테이션 5."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_game_8",
       "word": "I try not to play games too much.",
       "subcategory": "게임",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "게임을 너무 많이 하지 않으려고 해요.", "examples": [{ "sentence": "I try not to play games too much. It can be addictive.", "translation": "게임을 너무 많이 하지 않으려고 해요. 중독될 수 있어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "게임을 너무 많이 하지 않으려고 해요.",
+          "examples": [
+            {
+              "sentence": "I try not to play games too much. It can be addictive.",
+              "translation": "게임을 너무 많이 하지 않으려고 해요. 중독될 수 있어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_game_9",
       "word": "I prefer single-player games.",
       "subcategory": "게임",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "저는 싱글플레이어 게임을 더 좋아해요.", "examples": [{ "sentence": "I prefer single-player games with good storylines.", "translation": "저는 스토리가 좋은 싱글플레이어 게임을 더 좋아해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "저는 싱글플레이어 게임을 더 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I prefer single-player games with good storylines.",
+              "translation": "저는 스토리가 좋은 싱글플레이어 게임을 더 좋아해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_game_10",
       "word": "I enjoy board games with family.",
       "subcategory": "게임",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "가족과 보드게임 하는 걸 즐겨요.", "examples": [{ "sentence": "I enjoy board games with family during holidays.", "translation": "명절에 가족과 보드게임 하는 걸 즐겨요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "가족과 보드게임 하는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy board games with family during holidays.",
+              "translation": "명절에 가족과 보드게임 하는 걸 즐겨요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_travel_1",
       "word": "I love traveling to new places.",
       "subcategory": "여행",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "새로운 곳으로 여행하는 걸 좋아해요.", "examples": [{ "sentence": "I love traveling to new places. It broadens my perspective.", "translation": "새로운 곳으로 여행하는 걸 좋아해요. 시야를 넓혀줘요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "새로운 곳으로 여행하는 걸 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I love traveling to new places. It broadens my perspective.",
+              "translation": "새로운 곳으로 여행하는 걸 좋아해요. 시야를 넓혀줘요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_travel_2",
       "word": "I usually travel once or twice a year.",
       "subcategory": "여행",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "보통 일 년에 한두 번 여행해요.", "examples": [{ "sentence": "I usually travel once or twice a year during vacation.", "translation": "보통 휴가 때 일 년에 한두 번 여행해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "보통 일 년에 한두 번 여행해요.",
+          "examples": [
+            {
+              "sentence": "I usually travel once or twice a year during vacation.",
+              "translation": "보통 휴가 때 일 년에 한두 번 여행해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_travel_3",
       "word": "I prefer traveling with friends.",
       "subcategory": "여행",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "친구들과 여행하는 걸 더 좋아해요.", "examples": [{ "sentence": "I prefer traveling with friends because it's more fun.", "translation": "더 재밌어서 친구들과 여행하는 걸 더 좋아해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "친구들과 여행하는 걸 더 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I prefer traveling with friends because it's more fun.",
+              "translation": "더 재밌어서 친구들과 여행하는 걸 더 좋아해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_travel_4",
       "word": "My dream destination is Europe.",
       "subcategory": "여행",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "꿈의 여행지는 유럽이에요.", "examples": [{ "sentence": "My dream destination is Europe. I want to visit Paris.", "translation": "꿈의 여행지는 유럽이에요. 파리에 가고 싶어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "꿈의 여행지는 유럽이에요.",
+          "examples": [
+            {
+              "sentence": "My dream destination is Europe. I want to visit Paris.",
+              "translation": "꿈의 여행지는 유럽이에요. 파리에 가고 싶어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_travel_5",
       "word": "I always try local food when traveling.",
       "subcategory": "여행",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "여행할 때 항상 현지 음식을 먹어봐요.", "examples": [{ "sentence": "I always try local food when traveling. It's part of the experience.", "translation": "여행할 때 항상 현지 음식을 먹어봐요. 경험의 일부예요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "여행할 때 항상 현지 음식을 먹어봐요.",
+          "examples": [
+            {
+              "sentence": "I always try local food when traveling. It's part of the experience.",
+              "translation": "여행할 때 항상 현지 음식을 먹어봐요. 경험의 일부예요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_travel_6",
       "word": "I enjoy sightseeing and taking photos.",
       "subcategory": "여행",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "관광하고 사진 찍는 걸 즐겨요.", "examples": [{ "sentence": "I enjoy sightseeing and taking photos of beautiful scenery.", "translation": "관광하고 아름다운 경치 사진 찍는 걸 즐겨요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "관광하고 사진 찍는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy sightseeing and taking photos of beautiful scenery.",
+              "translation": "관광하고 아름다운 경치 사진 찍는 걸 즐겨요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_travel_7",
       "word": "I prefer backpacking to package tours.",
       "subcategory": "여행",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "패키지 투어보다 배낭여행을 더 좋아해요.", "examples": [{ "sentence": "I prefer backpacking to package tours. I like freedom.", "translation": "패키지 투어보다 배낭여행을 더 좋아해요. 자유가 좋아요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "패키지 투어보다 배낭여행을 더 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I prefer backpacking to package tours. I like freedom.",
+              "translation": "패키지 투어보다 배낭여행을 더 좋아해요. 자유가 좋아요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_travel_8",
       "word": "Traveling helps me recharge.",
       "subcategory": "여행",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "여행은 재충전하는 데 도움이 돼요.", "examples": [{ "sentence": "Traveling helps me recharge from my busy work life.", "translation": "여행은 바쁜 직장 생활에서 재충전하는 데 도움이 돼요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "여행은 재충전하는 데 도움이 돼요.",
+          "examples": [
+            {
+              "sentence": "Traveling helps me recharge from my busy work life.",
+              "translation": "여행은 바쁜 직장 생활에서 재충전하는 데 도움이 돼요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_travel_9",
       "word": "I keep a travel journal.",
       "subcategory": "여행",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "여행 일기를 써요.", "examples": [{ "sentence": "I keep a travel journal to remember my trips.", "translation": "여행을 기억하려고 여행 일기를 써요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "여행 일기를 써요.",
+          "examples": [
+            {
+              "sentence": "I keep a travel journal to remember my trips.",
+              "translation": "여행을 기억하려고 여행 일기를 써요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_travel_10",
       "word": "I book flights and hotels online.",
       "subcategory": "여행",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "비행기와 호텔을 온라인으로 예약해요.", "examples": [{ "sentence": "I book flights and hotels online to get the best deals.", "translation": "최저가를 얻으려고 비행기와 호텔을 온라인으로 예약해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "비행기와 호텔을 온라인으로 예약해요.",
+          "examples": [
+            {
+              "sentence": "I book flights and hotels online to get the best deals.",
+              "translation": "최저가를 얻으려고 비행기와 호텔을 온라인으로 예약해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_shopping_1",
       "word": "I enjoy shopping for clothes.",
       "subcategory": "쇼핑",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "옷 쇼핑하는 걸 즐겨요.", "examples": [{ "sentence": "I enjoy shopping for clothes on weekends.", "translation": "주말에 옷 쇼핑하는 걸 즐겨요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "옷 쇼핑하는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy shopping for clothes on weekends.",
+              "translation": "주말에 옷 쇼핑하는 걸 즐겨요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_shopping_2",
       "word": "I prefer online shopping.",
       "subcategory": "쇼핑",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "온라인 쇼핑을 더 좋아해요.", "examples": [{ "sentence": "I prefer online shopping because it's more convenient.", "translation": "더 편리해서 온라인 쇼핑을 더 좋아해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "온라인 쇼핑을 더 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I prefer online shopping because it's more convenient.",
+              "translation": "더 편리해서 온라인 쇼핑을 더 좋아해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_shopping_3",
       "word": "I always look for sales and discounts.",
       "subcategory": "쇼핑",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "항상 세일과 할인을 찾아요.", "examples": [{ "sentence": "I always look for sales and discounts to save money.", "translation": "돈을 절약하려고 항상 세일과 할인을 찾아요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "항상 세일과 할인을 찾아요.",
+          "examples": [
+            {
+              "sentence": "I always look for sales and discounts to save money.",
+              "translation": "돈을 절약하려고 항상 세일과 할인을 찾아요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_shopping_4",
       "word": "Window shopping is my guilty pleasure.",
       "subcategory": "쇼핑",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "아이쇼핑이 제 죄책감 어린 즐거움이에요.", "examples": [{ "sentence": "Window shopping is my guilty pleasure. I love looking at things.", "translation": "아이쇼핑이 제 죄책감 어린 즐거움이에요. 구경하는 걸 좋아해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "아이쇼핑이 제 죄책감 어린 즐거움이에요.",
+          "examples": [
+            {
+              "sentence": "Window shopping is my guilty pleasure. I love looking at things.",
+              "translation": "아이쇼핑이 제 죄책감 어린 즐거움이에요. 구경하는 걸 좋아해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_shopping_5",
       "word": "I'm a big fan of thrift stores.",
       "subcategory": "쇼핑",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "중고 매장을 정말 좋아해요.", "examples": [{ "sentence": "I'm a big fan of thrift stores. You can find unique items.", "translation": "중고 매장을 정말 좋아해요. 독특한 물건을 찾을 수 있어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "중고 매장을 정말 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I'm a big fan of thrift stores. You can find unique items.",
+              "translation": "중고 매장을 정말 좋아해요. 독특한 물건을 찾을 수 있어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_pet_1",
       "word": "I have a pet dog.",
       "subcategory": "반려동물",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "강아지를 키워요.", "examples": [{ "sentence": "I have a pet dog named Max. He's a golden retriever.", "translation": "맥스라는 강아지를 키워요. 골든 리트리버예요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "강아지를 키워요.",
+          "examples": [
+            {
+              "sentence": "I have a pet dog named Max. He's a golden retriever.",
+              "translation": "맥스라는 강아지를 키워요. 골든 리트리버예요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_pet_2",
       "word": "I walk my dog every morning.",
       "subcategory": "반려동물",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "매일 아침 강아지를 산책시켜요.", "examples": [{ "sentence": "I walk my dog every morning before work.", "translation": "출근 전에 매일 아침 강아지를 산책시켜요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "매일 아침 강아지를 산책시켜요.",
+          "examples": [
+            {
+              "sentence": "I walk my dog every morning before work.",
+              "translation": "출근 전에 매일 아침 강아지를 산책시켜요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_pet_3",
       "word": "My cat is like family to me.",
       "subcategory": "반려동물",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "제 고양이는 가족 같아요.", "examples": [{ "sentence": "My cat is like family to me. I've had her for 10 years.", "translation": "제 고양이는 가족 같아요. 10년째 키우고 있어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "제 고양이는 가족 같아요.",
+          "examples": [
+            {
+              "sentence": "My cat is like family to me. I've had her for 10 years.",
+              "translation": "제 고양이는 가족 같아요. 10년째 키우고 있어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_pet_4",
       "word": "Taking care of pets is a big responsibility.",
       "subcategory": "반려동물",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "반려동물을 돌보는 건 큰 책임이에요.", "examples": [{ "sentence": "Taking care of pets is a big responsibility, but it's rewarding.", "translation": "반려동물을 돌보는 건 큰 책임이지만, 보람 있어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "반려동물을 돌보는 건 큰 책임이에요.",
+          "examples": [
+            {
+              "sentence": "Taking care of pets is a big responsibility, but it's rewarding.",
+              "translation": "반려동물을 돌보는 건 큰 책임이지만, 보람 있어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_pet_5",
       "word": "My dog helps me stay active.",
       "subcategory": "반려동물",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "강아지 덕분에 활동적으로 지내요.", "examples": [{ "sentence": "My dog helps me stay active. We go running together.", "translation": "강아지 덕분에 활동적으로 지내요. 같이 달리기해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "강아지 덕분에 활동적으로 지내요.",
+          "examples": [
+            {
+              "sentence": "My dog helps me stay active. We go running together.",
+              "translation": "강아지 덕분에 활동적으로 지내요. 같이 달리기해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_photography_1",
       "word": "Photography is my hobby.",
       "subcategory": "사진",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "사진이 제 취미예요.", "examples": [{ "sentence": "Photography is my hobby. I love capturing moments.", "translation": "사진이 제 취미예요. 순간을 담는 걸 좋아해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "사진이 제 취미예요.",
+          "examples": [
+            {
+              "sentence": "Photography is my hobby. I love capturing moments.",
+              "translation": "사진이 제 취미예요. 순간을 담는 걸 좋아해요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_photography_2",
       "word": "I take photos with my DSLR camera.",
       "subcategory": "사진",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "DSLR 카메라로 사진을 찍어요.", "examples": [{ "sentence": "I take photos with my DSLR camera on weekends.", "translation": "주말에 DSLR 카메라로 사진을 찍어요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "DSLR 카메라로 사진을 찍어요.",
+          "examples": [
+            {
+              "sentence": "I take photos with my DSLR camera on weekends.",
+              "translation": "주말에 DSLR 카메라로 사진을 찍어요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_photography_3",
       "word": "I enjoy landscape photography.",
       "subcategory": "사진",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "풍경 사진 찍는 걸 즐겨요.", "examples": [{ "sentence": "I enjoy landscape photography. Nature is so beautiful.", "translation": "풍경 사진 찍는 걸 즐겨요. 자연이 너무 아름다워요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "풍경 사진 찍는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy landscape photography. Nature is so beautiful.",
+              "translation": "풍경 사진 찍는 걸 즐겨요. 자연이 너무 아름다워요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_photography_4",
       "word": "I post my photos on Instagram.",
       "subcategory": "사진",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "인스타그램에 사진을 올려요.", "examples": [{ "sentence": "I post my photos on Instagram to share with friends.", "translation": "친구들과 공유하려고 인스타그램에 사진을 올려요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "인스타그램에 사진을 올려요.",
+          "examples": [
+            {
+              "sentence": "I post my photos on Instagram to share with friends.",
+              "translation": "친구들과 공유하려고 인스타그램에 사진을 올려요."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "opic_photography_5",
       "word": "I edit my photos using Lightroom.",
       "subcategory": "사진",
-      "meanings": [{ "partOfSpeech": "표현", "meaning": "라이트룸으로 사진을 편집해요.", "examples": [{ "sentence": "I edit my photos using Lightroom to enhance colors.", "translation": "색감을 향상시키려고 라이트룸으로 사진을 편집해요." }] }]
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "라이트룸으로 사진을 편집해요.",
+          "examples": [
+            {
+              "sentence": "I edit my photos using Lightroom to enhance colors.",
+              "translation": "색감을 향상시키려고 라이트룸으로 사진을 편집해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_086",
+      "word": "I'm currently reading a best-seller.",
+      "subcategory": "독서",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "지금 베스트셀러를 읽고 있어요.",
+          "examples": [
+            {
+              "sentence": "I'm currently reading a best-seller that everyone's talking about.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_087",
+      "word": "I belong to a book club.",
+      "subcategory": "독서",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "독서 모임에 가입해 있어요.",
+          "examples": [
+            {
+              "sentence": "I belong to a book club. We meet once a month to discuss books.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_088",
+      "word": "I can't put this book down.",
+      "subcategory": "독서",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "이 책을 손에서 놓을 수가 없어요.",
+          "examples": [
+            {
+              "sentence": "I can't put this book down. It's so gripping.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_089",
+      "word": "The author's writing style is amazing.",
+      "subcategory": "독서",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "작가의 문체가 정말 대단해요.",
+          "examples": [
+            {
+              "sentence": "The author's writing style is amazing. I've read all her books.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_090",
+      "word": "I like to read in a quiet café.",
+      "subcategory": "독서",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "조용한 카페에서 책 읽는 걸 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I like to read in a quiet café with a cup of coffee.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_091",
+      "word": "I'm a fan of director Christopher Nolan.",
+      "subcategory": "영화",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "크리스토퍼 놀란 감독의 팬이에요.",
+          "examples": [
+            {
+              "sentence": "I'm a fan of director Christopher Nolan. His films are masterpieces.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_092",
+      "word": "I always stay for the end credits.",
+      "subcategory": "영화",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "항상 엔딩 크레딧까지 봐요.",
+          "examples": [
+            {
+              "sentence": "I always stay for the end credits in case there's a bonus scene.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_093",
+      "word": "The soundtrack was incredible.",
+      "subcategory": "영화",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "OST가 정말 대단했어요.",
+          "examples": [
+            {
+              "sentence": "The soundtrack was incredible. I downloaded it right after.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_094",
+      "word": "I love watching classic films.",
+      "subcategory": "영화",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "고전 영화 보는 걸 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I love watching classic films from the 80s and 90s.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_095",
+      "word": "I'm looking forward to the sequel.",
+      "subcategory": "영화",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "속편이 기대돼요.",
+          "examples": [
+            {
+              "sentence": "I'm looking forward to the sequel. The first one was amazing.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_096",
+      "word": "I binge-watch shows on weekends.",
+      "subcategory": "드라마/TV",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "주말에 드라마를 몰아봐요.",
+          "examples": [
+            {
+              "sentence": "I binge-watch shows on weekends. I can't stop once I start.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_097",
+      "word": "I'm hooked on this new K-drama.",
+      "subcategory": "드라마/TV",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "이 새 한국 드라마에 푹 빠졌어요.",
+          "examples": [
+            {
+              "sentence": "I'm hooked on this new K-drama. The storyline is so good.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_098",
+      "word": "I watch reality shows for fun.",
+      "subcategory": "드라마/TV",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "재미로 리얼리티 쇼를 봐요.",
+          "examples": [
+            {
+              "sentence": "I watch reality shows for fun. They're entertaining.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_099",
+      "word": "I never miss an episode.",
+      "subcategory": "드라마/TV",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "한 회도 안 빠지고 봐요.",
+          "examples": [
+            {
+              "sentence": "I never miss an episode. I set reminders for new releases.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_100",
+      "word": "The cliffhanger was insane.",
+      "subcategory": "드라마/TV",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "그 반전 엔딩이 미쳤어요.",
+          "examples": [
+            {
+              "sentence": "The cliffhanger was insane. I can't wait for next week.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_101",
+      "word": "I prefer documentaries over dramas.",
+      "subcategory": "드라마/TV",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "드라마보다 다큐멘터리를 더 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I prefer documentaries over dramas. They're more informative.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_102",
+      "word": "This show has great character development.",
+      "subcategory": "드라마/TV",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "이 드라마는 캐릭터 성장이 좋아요.",
+          "examples": [
+            {
+              "sentence": "This show has great character development throughout the seasons.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_103",
+      "word": "I watch variety shows to laugh.",
+      "subcategory": "드라마/TV",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "웃으려고 예능 프로그램을 봐요.",
+          "examples": [
+            {
+              "sentence": "I watch variety shows to laugh after a long day.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_104",
+      "word": "I discuss fan theories online.",
+      "subcategory": "드라마/TV",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "온라인에서 팬 이론을 토론해요.",
+          "examples": [
+            {
+              "sentence": "I discuss fan theories online with other viewers.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_105",
+      "word": "I'm waiting for the new season.",
+      "subcategory": "드라마/TV",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "새 시즌을 기다리고 있어요.",
+          "examples": [
+            {
+              "sentence": "I'm waiting for the new season to come out next month.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_106",
+      "word": "I'm a coffee lover.",
+      "subcategory": "카페/커피",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "저는 커피 애호가예요.",
+          "examples": [
+            {
+              "sentence": "I'm a coffee lover. I can't start my day without it.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_107",
+      "word": "I enjoy café hopping.",
+      "subcategory": "카페/커피",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "카페 투어하는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy café hopping on weekends to find new spots.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_108",
+      "word": "I prefer specialty coffee shops.",
+      "subcategory": "카페/커피",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "스페셜티 커피숍을 선호해요.",
+          "examples": [
+            {
+              "sentence": "I prefer specialty coffee shops over chain stores.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_109",
+      "word": "I make my own coffee at home.",
+      "subcategory": "카페/커피",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "집에서 직접 커피를 내려 마셔요.",
+          "examples": [
+            {
+              "sentence": "I make my own coffee at home using a drip machine.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_110",
+      "word": "I've tried different brewing methods.",
+      "subcategory": "카페/커피",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "다양한 추출 방법을 시도해 봤어요.",
+          "examples": [
+            {
+              "sentence": "I've tried different brewing methods like pour-over and French press.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_111",
+      "word": "Cafés are my favorite places to work.",
+      "subcategory": "카페/커피",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "카페가 일하기 가장 좋은 장소예요.",
+          "examples": [
+            {
+              "sentence": "Cafés are my favorite places to work. The atmosphere is great.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_112",
+      "word": "I collect coffee beans from different countries.",
+      "subcategory": "카페/커피",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "여러 나라의 원두를 모아요.",
+          "examples": [
+            {
+              "sentence": "I collect coffee beans from different countries to try various flavors.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_113",
+      "word": "I prefer iced coffee over hot.",
+      "subcategory": "카페/커피",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "따뜻한 것보다 아이스 커피를 더 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I prefer iced coffee over hot even in winter.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_114",
+      "word": "I've learned latte art.",
+      "subcategory": "카페/커피",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "라떼 아트를 배웠어요.",
+          "examples": [
+            {
+              "sentence": "I've learned latte art. I can make a heart shape.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_115",
+      "word": "Coffee helps me stay focused.",
+      "subcategory": "카페/커피",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "커피가 집중하는 데 도움이 돼요.",
+          "examples": [
+            {
+              "sentence": "Coffee helps me stay focused when I'm studying.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_116",
+      "word": "I go hiking every weekend.",
+      "subcategory": "등산/하이킹",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "매 주말 등산을 가요.",
+          "examples": [
+            {
+              "sentence": "I go hiking every weekend to enjoy nature.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_117",
+      "word": "Mountain climbing is my passion.",
+      "subcategory": "등산/하이킹",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "등산은 제 열정이에요.",
+          "examples": [
+            {
+              "sentence": "Mountain climbing is my passion. I've climbed many peaks.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_118",
+      "word": "I love the fresh air on the trails.",
+      "subcategory": "등산/하이킹",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "등산로의 신선한 공기가 좋아요.",
+          "examples": [
+            {
+              "sentence": "I love the fresh air on the trails. It's so refreshing.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_119",
+      "word": "The view from the summit was breathtaking.",
+      "subcategory": "등산/하이킹",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "정상에서의 풍경이 숨막히게 아름다웠어요.",
+          "examples": [
+            {
+              "sentence": "The view from the summit was breathtaking. It was worth the climb.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_120",
+      "word": "I hike with my friends regularly.",
+      "subcategory": "등산/하이킹",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "정기적으로 친구들과 등산해요.",
+          "examples": [
+            {
+              "sentence": "I hike with my friends regularly. We have a hiking club.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_121",
+      "word": "I enjoy taking photos during hikes.",
+      "subcategory": "등산/하이킹",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "등산하면서 사진 찍는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy taking photos during hikes to capture the scenery.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_122",
+      "word": "Hiking helps me clear my mind.",
+      "subcategory": "등산/하이킹",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "등산은 머리를 맑게 해줘요.",
+          "examples": [
+            {
+              "sentence": "Hiking helps me clear my mind from stress.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_123",
+      "word": "I always bring snacks for the trail.",
+      "subcategory": "등산/하이킹",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "항상 등산할 때 간식을 가져가요.",
+          "examples": [
+            {
+              "sentence": "I always bring snacks for the trail like energy bars.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_124",
+      "word": "I've conquered several famous mountains.",
+      "subcategory": "등산/하이킹",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "유명한 산 여러 개를 정복했어요.",
+          "examples": [
+            {
+              "sentence": "I've conquered several famous mountains including Hallasan.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_125",
+      "word": "I prefer easy trails over challenging ones.",
+      "subcategory": "등산/하이킹",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "어려운 코스보다 쉬운 코스를 선호해요.",
+          "examples": [
+            {
+              "sentence": "I prefer easy trails over challenging ones because I'm a beginner.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_126",
+      "word": "I go camping in the summer.",
+      "subcategory": "캠핑",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "여름에 캠핑을 가요.",
+          "examples": [
+            {
+              "sentence": "I go camping in the summer with my family.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_127",
+      "word": "I love sleeping under the stars.",
+      "subcategory": "캠핑",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "별 아래서 자는 걸 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I love sleeping under the stars. It's so peaceful.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_128",
+      "word": "Setting up the tent is part of the fun.",
+      "subcategory": "캠핑",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "텐트 치는 것도 재미의 일부예요.",
+          "examples": [
+            {
+              "sentence": "Setting up the tent is part of the fun for me.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_129",
+      "word": "I enjoy cooking outdoors.",
+      "subcategory": "캠핑",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "야외에서 요리하는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy cooking outdoors on a portable stove.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_130",
+      "word": "Campfires are the best part.",
+      "subcategory": "캠핑",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "캠프파이어가 최고예요.",
+          "examples": [
+            {
+              "sentence": "Campfires are the best part. We roast marshmallows.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_131",
+      "word": "I prefer glamping over regular camping.",
+      "subcategory": "캠핑",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "일반 캠핑보다 글램핑을 더 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I prefer glamping over regular camping because it's more comfortable.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_132",
+      "word": "I've invested in good camping gear.",
+      "subcategory": "캠핑",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "좋은 캠핑 장비에 투자했어요.",
+          "examples": [
+            {
+              "sentence": "I've invested in good camping gear over the years.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_133",
+      "word": "Camping helps me disconnect from technology.",
+      "subcategory": "캠핑",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "캠핑은 기술에서 벗어나게 해줘요.",
+          "examples": [
+            {
+              "sentence": "Camping helps me disconnect from technology and relax.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_134",
+      "word": "I go car camping for convenience.",
+      "subcategory": "캠핑",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "편의를 위해 차박을 해요.",
+          "examples": [
+            {
+              "sentence": "I go car camping for convenience. Everything is accessible.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_135",
+      "word": "Waking up to nature sounds is amazing.",
+      "subcategory": "캠핑",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "자연 소리에 깨어나는 건 정말 좋아요.",
+          "examples": [
+            {
+              "sentence": "Waking up to nature sounds is amazing when camping.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_136",
+      "word": "I ride my bike to work.",
+      "subcategory": "자전거",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "자전거로 출퇴근해요.",
+          "examples": [
+            {
+              "sentence": "I ride my bike to work. It saves time and money.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_137",
+      "word": "Cycling is my favorite exercise.",
+      "subcategory": "자전거",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "자전거 타기가 제일 좋아하는 운동이에요.",
+          "examples": [
+            {
+              "sentence": "Cycling is my favorite exercise. I do it daily.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_138",
+      "word": "I enjoy long bike rides on weekends.",
+      "subcategory": "자전거",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "주말에 장거리 라이딩을 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy long bike rides on weekends along the Han River.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_139",
+      "word": "I recently bought a road bike.",
+      "subcategory": "자전거",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "최근에 로드 바이크를 샀어요.",
+          "examples": [
+            {
+              "sentence": "I recently bought a road bike for more serious riding.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_140",
+      "word": "Cycling helps me stay in shape.",
+      "subcategory": "자전거",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "자전거는 체력 유지에 도움이 돼요.",
+          "examples": [
+            {
+              "sentence": "Cycling helps me stay in shape without going to the gym.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_141",
+      "word": "I've joined a cycling club.",
+      "subcategory": "자전거",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "자전거 동호회에 가입했어요.",
+          "examples": [
+            {
+              "sentence": "I've joined a cycling club. We ride together every Sunday.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_142",
+      "word": "I wear a helmet for safety.",
+      "subcategory": "자전거",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "안전을 위해 헬멧을 써요.",
+          "examples": [
+            {
+              "sentence": "I always wear a helmet for safety when cycling.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_143",
+      "word": "I track my rides with an app.",
+      "subcategory": "자전거",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "앱으로 라이딩을 기록해요.",
+          "examples": [
+            {
+              "sentence": "I track my rides with an app to monitor my progress.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_144",
+      "word": "Biking along the river is relaxing.",
+      "subcategory": "자전거",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "강을 따라 자전거 타는 건 편안해요.",
+          "examples": [
+            {
+              "sentence": "Biking along the river is relaxing and scenic.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_145",
+      "word": "I'm training for a cycling event.",
+      "subcategory": "자전거",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "자전거 대회를 위해 훈련하고 있어요.",
+          "examples": [
+            {
+              "sentence": "I'm training for a cycling event next month.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_146",
+      "word": "Fishing is my favorite weekend activity.",
+      "subcategory": "낚시",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "낚시가 제일 좋아하는 주말 활동이에요.",
+          "examples": [
+            {
+              "sentence": "Fishing is my favorite weekend activity. I go every Saturday.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_147",
+      "word": "I find fishing very relaxing.",
+      "subcategory": "낚시",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "낚시가 정말 편안해요.",
+          "examples": [
+            {
+              "sentence": "I find fishing very relaxing. It helps me unwind.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_148",
+      "word": "I usually go fishing with my dad.",
+      "subcategory": "낚시",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "보통 아버지와 낚시를 가요.",
+          "examples": [
+            {
+              "sentence": "I usually go fishing with my dad. It's our bonding time.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_149",
+      "word": "I caught a big fish last time.",
+      "subcategory": "낚시",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "지난번에 큰 물고기를 잡았어요.",
+          "examples": [
+            {
+              "sentence": "I caught a big fish last time. I was so excited.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_150",
+      "word": "I practice catch and release.",
+      "subcategory": "낚시",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "저는 캐치 앤 릴리스를 해요.",
+          "examples": [
+            {
+              "sentence": "I practice catch and release to protect the ecosystem.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_151",
+      "word": "I have my own fishing gear.",
+      "subcategory": "낚시",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "제 낚시 장비가 있어요.",
+          "examples": [
+            {
+              "sentence": "I have my own fishing gear including rods and tackle.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_152",
+      "word": "I prefer freshwater fishing.",
+      "subcategory": "낚시",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "민물낚시를 더 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I prefer freshwater fishing over sea fishing.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_153",
+      "word": "The patience required for fishing is therapeutic.",
+      "subcategory": "낚시",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "낚시에 필요한 인내심이 치유가 돼요.",
+          "examples": [
+            {
+              "sentence": "The patience required for fishing is therapeutic for me.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_154",
+      "word": "I enjoy the peace and quiet by the water.",
+      "subcategory": "낚시",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "물가의 평화와 고요함을 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy the peace and quiet by the water while fishing.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_155",
+      "word": "I've started fly fishing recently.",
+      "subcategory": "낚시",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "최근에 플라이 낚시를 시작했어요.",
+          "examples": [
+            {
+              "sentence": "I've started fly fishing recently. It's quite challenging.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_156",
+      "word": "I enjoy painting as a hobby.",
+      "subcategory": "그림/미술",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "취미로 그림 그리는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy painting as a hobby. It's very relaxing.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_157",
+      "word": "I took an art class last year.",
+      "subcategory": "그림/미술",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "작년에 미술 수업을 들었어요.",
+          "examples": [
+            {
+              "sentence": "I took an art class last year to improve my skills.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_158",
+      "word": "I prefer watercolor over oil painting.",
+      "subcategory": "그림/미술",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "유화보다 수채화를 더 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I prefer watercolor over oil painting. It's easier to clean up.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_159",
+      "word": "Drawing helps me express myself.",
+      "subcategory": "그림/미술",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "그림은 자기 표현에 도움이 돼요.",
+          "examples": [
+            {
+              "sentence": "Drawing helps me express myself creatively.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_160",
+      "word": "I often visit art galleries for inspiration.",
+      "subcategory": "그림/미술",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "영감을 얻으려고 미술관을 자주 가요.",
+          "examples": [
+            {
+              "sentence": "I often visit art galleries for inspiration.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_161",
+      "word": "I sketch in my free time.",
+      "subcategory": "그림/미술",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "여가 시간에 스케치를 해요.",
+          "examples": [
+            {
+              "sentence": "I sketch in my free time. I always carry a sketchbook.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_162",
+      "word": "Digital art is my new interest.",
+      "subcategory": "그림/미술",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "디지털 아트가 새로운 관심사예요.",
+          "examples": [
+            {
+              "sentence": "Digital art is my new interest. I use a tablet to draw.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_163",
+      "word": "I've sold some of my artwork.",
+      "subcategory": "그림/미술",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "제 작품 몇 개를 팔았어요.",
+          "examples": [
+            {
+              "sentence": "I've sold some of my artwork online.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_164",
+      "word": "I love the smell of paint.",
+      "subcategory": "그림/미술",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "물감 냄새가 좋아요.",
+          "examples": [
+            {
+              "sentence": "I love the smell of paint. It reminds me of art class.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_165",
+      "word": "Art is a great stress reliever.",
+      "subcategory": "그림/미술",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "미술은 훌륭한 스트레스 해소법이에요.",
+          "examples": [
+            {
+              "sentence": "Art is a great stress reliever for me after work.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_166",
+      "word": "I enjoy DIY projects.",
+      "subcategory": "DIY/공예",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "DIY 프로젝트를 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy DIY projects. I make furniture myself.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_167",
+      "word": "I learned to knit from my grandmother.",
+      "subcategory": "DIY/공예",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "할머니에게 뜨개질을 배웠어요.",
+          "examples": [
+            {
+              "sentence": "I learned to knit from my grandmother. I make scarves.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_168",
+      "word": "I make handmade gifts for friends.",
+      "subcategory": "DIY/공예",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "친구들에게 손수 만든 선물을 줘요.",
+          "examples": [
+            {
+              "sentence": "I make handmade gifts for friends. They appreciate them.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_169",
+      "word": "I'm into candle making these days.",
+      "subcategory": "DIY/공예",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "요즘 캔들 만들기에 빠져 있어요.",
+          "examples": [
+            {
+              "sentence": "I'm into candle making these days. I sell them too.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_170",
+      "word": "Crafting helps me relax.",
+      "subcategory": "DIY/공예",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "공예는 긴장을 푸는 데 도움이 돼요.",
+          "examples": [
+            {
+              "sentence": "Crafting helps me relax after a stressful day.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_171",
+      "word": "I follow craft tutorials on YouTube.",
+      "subcategory": "DIY/공예",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "유튜브에서 공예 튜토리얼을 봐요.",
+          "examples": [
+            {
+              "sentence": "I follow craft tutorials on YouTube to learn new skills.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_172",
+      "word": "I've set up a small workshop at home.",
+      "subcategory": "DIY/공예",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "집에 작은 작업실을 만들었어요.",
+          "examples": [
+            {
+              "sentence": "I've set up a small workshop at home for my projects.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_173",
+      "word": "I enjoy making jewelry.",
+      "subcategory": "DIY/공예",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "악세서리 만드는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy making jewelry like earrings and bracelets.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_174",
+      "word": "Upcycling old items is fun.",
+      "subcategory": "DIY/공예",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "오래된 물건을 업사이클링하는 게 재미있어요.",
+          "examples": [
+            {
+              "sentence": "Upcycling old items is fun and eco-friendly.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_175",
+      "word": "I take pride in making things myself.",
+      "subcategory": "DIY/공예",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "직접 만드는 것에 자부심을 느껴요.",
+          "examples": [
+            {
+              "sentence": "I take pride in making things myself rather than buying.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_176",
+      "word": "Gardening is my therapy.",
+      "subcategory": "원예/가드닝",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "정원 가꾸기가 제 치료법이에요.",
+          "examples": [
+            {
+              "sentence": "Gardening is my therapy. It helps me relax.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_177",
+      "word": "I grow vegetables in my backyard.",
+      "subcategory": "원예/가드닝",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "뒤뜰에서 채소를 키워요.",
+          "examples": [
+            {
+              "sentence": "I grow vegetables in my backyard like tomatoes and peppers.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_178",
+      "word": "I have many indoor plants.",
+      "subcategory": "원예/가드닝",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "실내 식물을 많이 키워요.",
+          "examples": [
+            {
+              "sentence": "I have many indoor plants. They make my home cozy.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_179",
+      "word": "Taking care of plants is rewarding.",
+      "subcategory": "원예/가드닝",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "식물을 돌보는 건 보람 있어요.",
+          "examples": [
+            {
+              "sentence": "Taking care of plants is rewarding when they bloom.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_180",
+      "word": "I started a small herb garden.",
+      "subcategory": "원예/가드닝",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "작은 허브 정원을 시작했어요.",
+          "examples": [
+            {
+              "sentence": "I started a small herb garden on my balcony.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_181",
+      "word": "Watching plants grow is satisfying.",
+      "subcategory": "원예/가드닝",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "식물이 자라는 걸 보는 게 만족스러워요.",
+          "examples": [
+            {
+              "sentence": "Watching plants grow is satisfying and peaceful.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_182",
+      "word": "I spend weekends in my garden.",
+      "subcategory": "원예/가드닝",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "주말은 정원에서 보내요.",
+          "examples": [
+            {
+              "sentence": "I spend weekends in my garden planting and weeding.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_183",
+      "word": "I've learned a lot about plant care.",
+      "subcategory": "원예/가드닝",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "식물 관리에 대해 많이 배웠어요.",
+          "examples": [
+            {
+              "sentence": "I've learned a lot about plant care through trial and error.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_184",
+      "word": "I exchange plant cuttings with friends.",
+      "subcategory": "원예/가드닝",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "친구들과 식물 삽목을 교환해요.",
+          "examples": [
+            {
+              "sentence": "I exchange plant cuttings with friends to grow new plants.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_185",
+      "word": "My garden is my happy place.",
+      "subcategory": "원예/가드닝",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "정원이 제 행복한 공간이에요.",
+          "examples": [
+            {
+              "sentence": "My garden is my happy place where I can unwind.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_186",
+      "word": "I volunteer at a local shelter.",
+      "subcategory": "봉사활동",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "지역 보호소에서 봉사해요.",
+          "examples": [
+            {
+              "sentence": "I volunteer at a local shelter every Saturday.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_187",
+      "word": "Helping others is fulfilling.",
+      "subcategory": "봉사활동",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "다른 사람을 돕는 건 보람 있어요.",
+          "examples": [
+            {
+              "sentence": "Helping others is fulfilling. It makes me happy.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_188",
+      "word": "I donate blood regularly.",
+      "subcategory": "봉사활동",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "정기적으로 헌혈해요.",
+          "examples": [
+            {
+              "sentence": "I donate blood regularly to help save lives.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_189",
+      "word": "I teach children in my free time.",
+      "subcategory": "봉사활동",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "여가 시간에 아이들을 가르쳐요.",
+          "examples": [
+            {
+              "sentence": "I teach children in my free time as a volunteer tutor.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_190",
+      "word": "Volunteering taught me to be grateful.",
+      "subcategory": "봉사활동",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "봉사 활동이 감사하는 법을 가르쳐 줬어요.",
+          "examples": [
+            {
+              "sentence": "Volunteering taught me to be grateful for what I have.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_191",
+      "word": "I joined an environmental cleanup group.",
+      "subcategory": "봉사활동",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "환경 정화 단체에 가입했어요.",
+          "examples": [
+            {
+              "sentence": "I joined an environmental cleanup group to help the community.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_192",
+      "word": "I visit nursing homes to spend time with seniors.",
+      "subcategory": "봉사활동",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "어르신들과 시간을 보내러 요양원에 가요.",
+          "examples": [
+            {
+              "sentence": "I visit nursing homes to spend time with seniors.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_193",
+      "word": "Community service is important to me.",
+      "subcategory": "봉사활동",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "지역 사회 봉사가 제게 중요해요.",
+          "examples": [
+            {
+              "sentence": "Community service is important to me. I try to give back.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_194",
+      "word": "I participate in charity runs.",
+      "subcategory": "봉사활동",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "자선 마라톤에 참여해요.",
+          "examples": [
+            {
+              "sentence": "I participate in charity runs to raise money for causes.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_195",
+      "word": "Volunteering has broadened my perspective.",
+      "subcategory": "봉사활동",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "봉사 활동이 제 시야를 넓혀줬어요.",
+          "examples": [
+            {
+              "sentence": "Volunteering has broadened my perspective on life.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_196",
+      "word": "I'm learning English as a hobby.",
+      "subcategory": "외국어 학습",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "취미로 영어를 배우고 있어요.",
+          "examples": [
+            {
+              "sentence": "I'm learning English as a hobby. It's challenging but fun.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_197",
+      "word": "I use language learning apps daily.",
+      "subcategory": "외국어 학습",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "매일 언어 학습 앱을 사용해요.",
+          "examples": [
+            {
+              "sentence": "I use language learning apps daily like Duolingo.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_198",
+      "word": "I watch shows in English to improve.",
+      "subcategory": "외국어 학습",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "실력 향상을 위해 영어로 프로그램을 봐요.",
+          "examples": [
+            {
+              "sentence": "I watch shows in English to improve my listening skills.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_199",
+      "word": "I attend language exchange meetups.",
+      "subcategory": "외국어 학습",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "언어 교환 모임에 참석해요.",
+          "examples": [
+            {
+              "sentence": "I attend language exchange meetups to practice speaking.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_200",
+      "word": "Learning a new language opens doors.",
+      "subcategory": "외국어 학습",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "새로운 언어를 배우면 기회가 열려요.",
+          "examples": [
+            {
+              "sentence": "Learning a new language opens doors to new opportunities.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_201",
+      "word": "I practice speaking with native speakers online.",
+      "subcategory": "외국어 학습",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "온라인에서 원어민과 말하기 연습을 해요.",
+          "examples": [
+            {
+              "sentence": "I practice speaking with native speakers online every week.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_202",
+      "word": "I keep a vocabulary journal.",
+      "subcategory": "외국어 학습",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "어휘 노트를 작성해요.",
+          "examples": [
+            {
+              "sentence": "I keep a vocabulary journal to review new words.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_203",
+      "word": "I'm studying Japanese right now.",
+      "subcategory": "외국어 학습",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "지금 일본어를 공부하고 있어요.",
+          "examples": [
+            {
+              "sentence": "I'm studying Japanese right now because I love anime.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_204",
+      "word": "I listen to podcasts in English.",
+      "subcategory": "외국어 학습",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "영어로 팟캐스트를 들어요.",
+          "examples": [
+            {
+              "sentence": "I listen to podcasts in English during my commute.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_205",
+      "word": "I set a goal to become fluent.",
+      "subcategory": "외국어 학습",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "유창해지는 것을 목표로 세웠어요.",
+          "examples": [
+            {
+              "sentence": "I set a goal to become fluent in English within two years.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_206",
+      "word": "I enjoy going for drives.",
+      "subcategory": "운전/드라이브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "드라이브하는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy going for drives along the coast.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_207",
+      "word": "Driving is relaxing for me.",
+      "subcategory": "운전/드라이브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "운전은 저한테 편안해요.",
+          "examples": [
+            {
+              "sentence": "Driving is relaxing for me. I listen to music and unwind.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_208",
+      "word": "I love road trips.",
+      "subcategory": "운전/드라이브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "로드 트립을 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I love road trips with friends during long weekends.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_209",
+      "word": "I drive to scenic spots on weekends.",
+      "subcategory": "운전/드라이브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "주말에 경치 좋은 곳으로 드라이브해요.",
+          "examples": [
+            {
+              "sentence": "I drive to scenic spots on weekends to enjoy nature.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_210",
+      "word": "Driving at night is peaceful.",
+      "subcategory": "운전/드라이브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "밤 운전은 평화로워요.",
+          "examples": [
+            {
+              "sentence": "Driving at night is peaceful when there's no traffic.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_211",
+      "word": "I recently got my driver's license.",
+      "subcategory": "운전/드라이브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "최근에 운전면허를 땄어요.",
+          "examples": [
+            {
+              "sentence": "I recently got my driver's license. I'm excited to drive.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_212",
+      "word": "I enjoy exploring new places by car.",
+      "subcategory": "운전/드라이브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "차로 새로운 곳을 탐험하는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy exploring new places by car. It's so freeing.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_213",
+      "word": "I wash and maintain my car regularly.",
+      "subcategory": "운전/드라이브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "정기적으로 세차하고 차를 관리해요.",
+          "examples": [
+            {
+              "sentence": "I wash and maintain my car regularly. It's my hobby.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_214",
+      "word": "I'm saving up for a nice car.",
+      "subcategory": "운전/드라이브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "좋은 차를 위해 저축하고 있어요.",
+          "examples": [
+            {
+              "sentence": "I'm saving up for a nice car that I've always wanted.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_215",
+      "word": "I enjoy driving with the windows down.",
+      "subcategory": "운전/드라이브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "창문을 내리고 운전하는 게 좋아요.",
+          "examples": [
+            {
+              "sentence": "I enjoy driving with the windows down on nice days.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_216",
+      "word": "I spend a lot of time on social media.",
+      "subcategory": "SNS/유튜브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "SNS에 시간을 많이 써요.",
+          "examples": [
+            {
+              "sentence": "I spend a lot of time on social media keeping up with friends.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_217",
+      "word": "I watch YouTube videos to relax.",
+      "subcategory": "SNS/유튜브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "릴렉스하려고 유튜브 영상을 봐요.",
+          "examples": [
+            {
+              "sentence": "I watch YouTube videos to relax before bed.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_218",
+      "word": "I follow food bloggers on Instagram.",
+      "subcategory": "SNS/유튜브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "인스타그램에서 음식 블로거를 팔로우해요.",
+          "examples": [
+            {
+              "sentence": "I follow food bloggers on Instagram for restaurant recommendations.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_219",
+      "word": "I started my own YouTube channel.",
+      "subcategory": "SNS/유튜브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "제 유튜브 채널을 시작했어요.",
+          "examples": [
+            {
+              "sentence": "I started my own YouTube channel about cooking.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_220",
+      "word": "I enjoy watching vlogs.",
+      "subcategory": "SNS/유튜브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "브이로그 보는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy watching vlogs. They're entertaining and relatable.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_221",
+      "word": "I use TikTok for short videos.",
+      "subcategory": "SNS/유튜브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "짧은 영상을 위해 틱톡을 사용해요.",
+          "examples": [
+            {
+              "sentence": "I use TikTok for short videos. It's addictive.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_222",
+      "word": "I keep up with trends through social media.",
+      "subcategory": "SNS/유튜브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "SNS를 통해 트렌드를 따라가요.",
+          "examples": [
+            {
+              "sentence": "I keep up with trends through social media.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_223",
+      "word": "I share my daily life on Instagram.",
+      "subcategory": "SNS/유튜브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "인스타그램에 일상을 공유해요.",
+          "examples": [
+            {
+              "sentence": "I share my daily life on Instagram with my followers.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_224",
+      "word": "I've learned a lot from YouTube tutorials.",
+      "subcategory": "SNS/유튜브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "유튜브 튜토리얼에서 많이 배웠어요.",
+          "examples": [
+            {
+              "sentence": "I've learned a lot from YouTube tutorials about many things.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_225",
+      "word": "I try to limit my screen time.",
+      "subcategory": "SNS/유튜브",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "화면 보는 시간을 제한하려고 해요.",
+          "examples": [
+            {
+              "sentence": "I try to limit my screen time to be more productive.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_226",
+      "word": "I collect vintage records.",
+      "subcategory": "수집",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "빈티지 레코드를 모아요.",
+          "examples": [
+            {
+              "sentence": "I collect vintage records. I have over 200 now.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_227",
+      "word": "Collecting stamps is my hobby.",
+      "subcategory": "수집",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "우표 수집이 제 취미예요.",
+          "examples": [
+            {
+              "sentence": "Collecting stamps is my hobby since childhood.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_228",
+      "word": "I enjoy hunting for rare items.",
+      "subcategory": "수집",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "희귀한 물건을 찾는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy hunting for rare items at flea markets.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_229",
+      "word": "My collection brings me joy.",
+      "subcategory": "수집",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "제 수집품이 기쁨을 줘요.",
+          "examples": [
+            {
+              "sentence": "My collection brings me joy every time I look at it.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_230",
+      "word": "I collect action figures.",
+      "subcategory": "수집",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "액션 피규어를 모아요.",
+          "examples": [
+            {
+              "sentence": "I collect action figures from my favorite movies.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_231",
+      "word": "I display my collection in my room.",
+      "subcategory": "수집",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "제 방에 수집품을 전시해요.",
+          "examples": [
+            {
+              "sentence": "I display my collection in my room on special shelves.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_232",
+      "word": "I trade items with other collectors.",
+      "subcategory": "수집",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "다른 수집가들과 물건을 교환해요.",
+          "examples": [
+            {
+              "sentence": "I trade items with other collectors to complete my set.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_233",
+      "word": "I've been collecting for over 10 years.",
+      "subcategory": "수집",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "10년 넘게 수집하고 있어요.",
+          "examples": [
+            {
+              "sentence": "I've been collecting for over 10 years now.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_234",
+      "word": "I collect sneakers as a hobby.",
+      "subcategory": "수집",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "취미로 운동화를 모아요.",
+          "examples": [
+            {
+              "sentence": "I collect sneakers as a hobby. I have over 50 pairs.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_235",
+      "word": "Finding rare pieces is exciting.",
+      "subcategory": "수집",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "희귀한 것을 찾는 건 흥미진진해요.",
+          "examples": [
+            {
+              "sentence": "Finding rare pieces is exciting. It's like treasure hunting.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_236",
+      "word": "I compare prices before buying.",
+      "subcategory": "쇼핑",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "사기 전에 가격을 비교해요.",
+          "examples": [
+            {
+              "sentence": "I compare prices before buying to get the best deal.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_237",
+      "word": "I enjoy browsing in bookstores.",
+      "subcategory": "쇼핑",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "서점에서 구경하는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy browsing in bookstores for hours.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_238",
+      "word": "I shop during sales seasons.",
+      "subcategory": "쇼핑",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "세일 시즌에 쇼핑해요.",
+          "examples": [
+            {
+              "sentence": "I shop during sales seasons to save money.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_239",
+      "word": "I'm trying to be a more mindful shopper.",
+      "subcategory": "쇼핑",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "더 신중한 소비자가 되려고 해요.",
+          "examples": [
+            {
+              "sentence": "I'm trying to be a more mindful shopper and buy less.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_240",
+      "word": "I love trying on new outfits.",
+      "subcategory": "쇼핑",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "새 옷 입어보는 걸 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I love trying on new outfits even if I don't buy them.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_241",
+      "word": "I adopted my pet from a shelter.",
+      "subcategory": "반려동물",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "보호소에서 입양했어요.",
+          "examples": [
+            {
+              "sentence": "I adopted my pet from a shelter. It was the best decision.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_242",
+      "word": "My pet is my best friend.",
+      "subcategory": "반려동물",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "제 반려동물은 제 절친이에요.",
+          "examples": [
+            {
+              "sentence": "My pet is my best friend. We do everything together.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_243",
+      "word": "I take my dog to the dog park.",
+      "subcategory": "반려동물",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "강아지를 애견 공원에 데려가요.",
+          "examples": [
+            {
+              "sentence": "I take my dog to the dog park every evening.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_244",
+      "word": "I've trained my dog to do tricks.",
+      "subcategory": "반려동물",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "강아지에게 재주를 가르쳤어요.",
+          "examples": [
+            {
+              "sentence": "I've trained my dog to do tricks like shake and roll over.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_245",
+      "word": "Pets bring so much happiness.",
+      "subcategory": "반려동물",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "반려동물은 많은 행복을 가져다줘요.",
+          "examples": [
+            {
+              "sentence": "Pets bring so much happiness into our lives.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_246",
+      "word": "I capture everyday moments.",
+      "subcategory": "사진",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "일상의 순간들을 담아요.",
+          "examples": [
+            {
+              "sentence": "I capture everyday moments with my camera.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_247",
+      "word": "Street photography interests me.",
+      "subcategory": "사진",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "길거리 사진에 관심이 있어요.",
+          "examples": [
+            {
+              "sentence": "Street photography interests me. I love candid shots.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_248",
+      "word": "I've won a photography contest.",
+      "subcategory": "사진",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "사진 대회에서 우승했어요.",
+          "examples": [
+            {
+              "sentence": "I've won a photography contest last year.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_249",
+      "word": "I'm learning portrait photography.",
+      "subcategory": "사진",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "인물 사진을 배우고 있어요.",
+          "examples": [
+            {
+              "sentence": "I'm learning portrait photography to take better photos.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_250",
+      "word": "Photography has taught me to see beauty everywhere.",
+      "subcategory": "사진",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "사진이 어디서든 아름다움을 보는 법을 가르쳐줬어요.",
+          "examples": [
+            {
+              "sentence": "Photography has taught me to see beauty everywhere.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_251",
+      "word": "I do home workouts using apps.",
+      "subcategory": "운동/헬스",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "앱을 이용해서 홈트레이닝을 해요.",
+          "examples": [
+            {
+              "sentence": "I do home workouts using apps when I can't go to the gym.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_252",
+      "word": "I stretch every morning.",
+      "subcategory": "운동/헬스",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "매일 아침 스트레칭해요.",
+          "examples": [
+            {
+              "sentence": "I stretch every morning to stay flexible.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_253",
+      "word": "I'm training for a marathon.",
+      "subcategory": "운동/헬스",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "마라톤을 위해 훈련 중이에요.",
+          "examples": [
+            {
+              "sentence": "I'm training for a marathon next spring.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_254",
+      "word": "I take online fitness classes.",
+      "subcategory": "운동/헬스",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "온라인 피트니스 수업을 들어요.",
+          "examples": [
+            {
+              "sentence": "I take online fitness classes from home.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_255",
+      "word": "I believe in a healthy lifestyle.",
+      "subcategory": "운동/헬스",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "건강한 생활 방식을 믿어요.",
+          "examples": [
+            {
+              "sentence": "I believe in a healthy lifestyle with exercise and good food.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_256",
+      "word": "I'm experimenting with fusion cuisine.",
+      "subcategory": "요리",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "퓨전 요리를 실험하고 있어요.",
+          "examples": [
+            {
+              "sentence": "I'm experimenting with fusion cuisine mixing Korean and Italian.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_257",
+      "word": "I grow my own herbs for cooking.",
+      "subcategory": "요리",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "요리용 허브를 직접 키워요.",
+          "examples": [
+            {
+              "sentence": "I grow my own herbs for cooking on my windowsill.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_258",
+      "word": "I enjoy making desserts.",
+      "subcategory": "요리",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "디저트 만드는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy making desserts like cakes and cookies.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_259",
+      "word": "Cooking for others brings me joy.",
+      "subcategory": "요리",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "다른 사람을 위해 요리하는 게 기뻐요.",
+          "examples": [
+            {
+              "sentence": "Cooking for others brings me joy. I love seeing them happy.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_260",
+      "word": "I document my recipes online.",
+      "subcategory": "요리",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "온라인에 레시피를 기록해요.",
+          "examples": [
+            {
+              "sentence": "I document my recipes online on my blog.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_261",
+      "word": "I compete in online tournaments.",
+      "subcategory": "게임",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "온라인 토너먼트에 참가해요.",
+          "examples": [
+            {
+              "sentence": "I compete in online tournaments for fun.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_262",
+      "word": "I stream my gameplay sometimes.",
+      "subcategory": "게임",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "가끔 게임 플레이를 스트리밍해요.",
+          "examples": [
+            {
+              "sentence": "I stream my gameplay sometimes on Twitch.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_263",
+      "word": "I've made friends through online gaming.",
+      "subcategory": "게임",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "온라인 게임을 통해 친구를 사귀었어요.",
+          "examples": [
+            {
+              "sentence": "I've made friends through online gaming from different countries.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_264",
+      "word": "Puzzle games are my favorite.",
+      "subcategory": "게임",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "퍼즐 게임이 제일 좋아요.",
+          "examples": [
+            {
+              "sentence": "Puzzle games are my favorite. They keep my mind sharp.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_265",
+      "word": "I balance gaming with other hobbies.",
+      "subcategory": "게임",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "게임과 다른 취미 사이에 균형을 맞춰요.",
+          "examples": [
+            {
+              "sentence": "I balance gaming with other hobbies and responsibilities.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_266",
+      "word": "I love exploring local hidden gems.",
+      "subcategory": "여행",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "지역의 숨겨진 명소 탐험을 좋아해요.",
+          "examples": [
+            {
+              "sentence": "I love exploring local hidden gems that tourists don't know.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_267",
+      "word": "Solo travel has taught me independence.",
+      "subcategory": "여행",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "혼자 여행이 독립심을 가르쳐줬어요.",
+          "examples": [
+            {
+              "sentence": "Solo travel has taught me independence and confidence.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_268",
+      "word": "I collect souvenirs from every trip.",
+      "subcategory": "여행",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "여행마다 기념품을 모아요.",
+          "examples": [
+            {
+              "sentence": "I collect souvenirs from every trip as memories.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_269",
+      "word": "I make a bucket list of places to visit.",
+      "subcategory": "여행",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "가고 싶은 곳의 버킷리스트를 만들어요.",
+          "examples": [
+            {
+              "sentence": "I make a bucket list of places to visit around the world.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_270",
+      "word": "Experiencing different cultures excites me.",
+      "subcategory": "여행",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "다른 문화를 경험하는 게 설레요.",
+          "examples": [
+            {
+              "sentence": "Experiencing different cultures excites me when traveling.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_271",
+      "word": "I'm learning to play the piano.",
+      "subcategory": "음악",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "피아노를 배우고 있어요.",
+          "examples": [
+            {
+              "sentence": "I'm learning to play the piano. It's harder than I thought.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_272",
+      "word": "I write my own songs.",
+      "subcategory": "음악",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "제 노래를 직접 써요.",
+          "examples": [
+            {
+              "sentence": "I write my own songs as a creative outlet.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_273",
+      "word": "I collect vinyl records.",
+      "subcategory": "음악",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "LP 판을 모아요.",
+          "examples": [
+            {
+              "sentence": "I collect vinyl records for their warm sound quality.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_274",
+      "word": "Music brings people together.",
+      "subcategory": "음악",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "음악은 사람들을 하나로 모아요.",
+          "examples": [
+            {
+              "sentence": "Music brings people together regardless of background.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_275",
+      "word": "I discover new music through streaming.",
+      "subcategory": "음악",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "스트리밍으로 새로운 음악을 발견해요.",
+          "examples": [
+            {
+              "sentence": "I discover new music through streaming recommendations.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_276",
+      "word": "I started this hobby during the pandemic.",
+      "subcategory": "일반",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "팬데믹 때 이 취미를 시작했어요.",
+          "examples": [
+            {
+              "sentence": "I started this hobby during the pandemic to stay busy at home.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_277",
+      "word": "My hobby keeps me mentally active.",
+      "subcategory": "일반",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "제 취미가 정신적으로 활발하게 해줘요.",
+          "examples": [
+            {
+              "sentence": "My hobby keeps me mentally active and engaged.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_278",
+      "word": "I spend about two hours a day on my hobby.",
+      "subcategory": "일반",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "하루에 약 두 시간을 취미에 써요.",
+          "examples": [
+            {
+              "sentence": "I spend about two hours a day on my hobby after work.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_279",
+      "word": "My hobby has become a side job.",
+      "subcategory": "일반",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "제 취미가 부업이 됐어요.",
+          "examples": [
+            {
+              "sentence": "My hobby has become a side job. I earn extra income from it.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_280",
+      "word": "I've met many people through my hobby.",
+      "subcategory": "일반",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "취미를 통해 많은 사람을 만났어요.",
+          "examples": [
+            {
+              "sentence": "I've met many people through my hobby who share my interests.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_281",
+      "word": "I enjoy retro games from the 90s.",
+      "subcategory": "게임",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "90년대 레트로 게임을 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy retro games from the 90s for nostalgia.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_282",
+      "word": "I play games to bond with my kids.",
+      "subcategory": "게임",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "아이들과 유대감을 위해 게임을 해요.",
+          "examples": [
+            {
+              "sentence": "I play games to bond with my kids. We play together.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_283",
+      "word": "I enjoy escape room games.",
+      "subcategory": "게임",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "방탈출 게임을 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy escape room games with my friends.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_284",
+      "word": "I practice martial arts.",
+      "subcategory": "운동/헬스",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "무술을 수련해요.",
+          "examples": [
+            {
+              "sentence": "I practice martial arts like Taekwondo for fitness.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_285",
+      "word": "I enjoy pilates for core strength.",
+      "subcategory": "운동/헬스",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "코어 운동을 위해 필라테스를 해요.",
+          "examples": [
+            {
+              "sentence": "I enjoy pilates for core strength and flexibility.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_286",
+      "word": "I play tennis on weekends.",
+      "subcategory": "운동/헬스",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "주말에 테니스를 쳐요.",
+          "examples": [
+            {
+              "sentence": "I play tennis on weekends at a local court.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_287",
+      "word": "Golf is my new hobby.",
+      "subcategory": "운동/헬스",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "골프가 새 취미예요.",
+          "examples": [
+            {
+              "sentence": "Golf is my new hobby. I go to the driving range weekly.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_288",
+      "word": "I do aerobics classes.",
+      "subcategory": "운동/헬스",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "에어로빅 수업을 들어요.",
+          "examples": [
+            {
+              "sentence": "I do aerobics classes three times a week.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_289",
+      "word": "I'm into foreign films.",
+      "subcategory": "영화",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "외국 영화에 빠져 있어요.",
+          "examples": [
+            {
+              "sentence": "I'm into foreign films. I watch them with subtitles.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_290",
+      "word": "I enjoy animated movies.",
+      "subcategory": "영화",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "애니메이션 영화를 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy animated movies. Pixar films are my favorite.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_291",
+      "word": "I watch behind-the-scenes content.",
+      "subcategory": "드라마/TV",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "비하인드 영상을 봐요.",
+          "examples": [
+            {
+              "sentence": "I watch behind-the-scenes content of my favorite shows.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_292",
+      "word": "I discuss episodes with online communities.",
+      "subcategory": "드라마/TV",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "온라인 커뮤니티에서 에피소드를 토론해요.",
+          "examples": [
+            {
+              "sentence": "I discuss episodes with online communities after watching.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_293",
+      "word": "I enjoy karaoke with friends.",
+      "subcategory": "음악",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "친구들과 노래방을 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy karaoke with friends. We go every month.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_294",
+      "word": "I'm learning to read sheet music.",
+      "subcategory": "음악",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "악보 읽는 법을 배우고 있어요.",
+          "examples": [
+            {
+              "sentence": "I'm learning to read sheet music for piano.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_295",
+      "word": "I attend music festivals.",
+      "subcategory": "음악",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "음악 축제에 참가해요.",
+          "examples": [
+            {
+              "sentence": "I attend music festivals every summer.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_296",
+      "word": "I enjoy making traditional Korean dishes.",
+      "subcategory": "요리",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "전통 한식 만드는 걸 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy making traditional Korean dishes like bibimbap.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_297",
+      "word": "I experiment with international cuisines.",
+      "subcategory": "요리",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "다양한 나라 요리를 실험해요.",
+          "examples": [
+            {
+              "sentence": "I experiment with international cuisines every week.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_298",
+      "word": "I host dinner parties.",
+      "subcategory": "요리",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "디너 파티를 열어요.",
+          "examples": [
+            {
+              "sentence": "I host dinner parties and cook for my guests.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_299",
+      "word": "I plan my trips months in advance.",
+      "subcategory": "여행",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "몇 달 전부터 여행을 계획해요.",
+          "examples": [
+            {
+              "sentence": "I plan my trips months in advance for better deals.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_300",
+      "word": "I enjoy staycations too.",
+      "subcategory": "여행",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "스테이케이션도 즐겨요.",
+          "examples": [
+            {
+              "sentence": "I enjoy staycations too when I can't travel far.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_301",
+      "word": "I use travel points for free flights.",
+      "subcategory": "여행",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "무료 항공편을 위해 여행 포인트를 사용해요.",
+          "examples": [
+            {
+              "sentence": "I use travel points for free flights and upgrades.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_302",
+      "word": "I listen to audiobooks during commute.",
+      "subcategory": "독서",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "출퇴근할 때 오디오북을 들어요.",
+          "examples": [
+            {
+              "sentence": "I listen to audiobooks during commute to save time.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_303",
+      "word": "I read book summaries first.",
+      "subcategory": "독서",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "먼저 책 요약을 읽어요.",
+          "examples": [
+            {
+              "sentence": "I read book summaries first to decide what to read.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opic_hobby_304",
+      "word": "I write book reviews online.",
+      "subcategory": "독서",
+      "meanings": [
+        {
+          "partOfSpeech": "표현",
+          "meaning": "온라인에 독서 리뷰를 써요.",
+          "examples": [
+            {
+              "sentence": "I write book reviews online to share my thoughts.",
+              "translation": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
