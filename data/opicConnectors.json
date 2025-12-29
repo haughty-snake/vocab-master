@@ -1,0 +1,2781 @@
+{
+  "id": "opicConnectors",
+  "name": "OPIc 연결어",
+  "icon": "🔗",
+  "color": "#9c27b0",
+  "lang": "en-US",
+  "words": [
+    {
+      "id": "opc_first_of_all_0",
+      "word": "First of all",
+      "pronunciation": "fɜːrst əv ɔːl",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "우선, 먼저",
+          "examples": [
+            {
+              "sentence": "First of all, I'd like to talk about my favorite hobby.",
+              "translation": "우선, 제가 좋아하는 취미에 대해 이야기하고 싶어요."
+            },
+            {
+              "sentence": "First of all, let me introduce myself.",
+              "translation": "먼저, 제 소개를 하겠습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_to_begin_with_1",
+      "word": "To begin with",
+      "pronunciation": "tuː bɪˈɡɪn wɪð",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "우선, 처음에",
+          "examples": [
+            {
+              "sentence": "To begin with, I want to explain why I chose this topic.",
+              "translation": "우선, 제가 이 주제를 선택한 이유를 설명하고 싶어요."
+            },
+            {
+              "sentence": "To begin with, the restaurant had great reviews online.",
+              "translation": "처음에, 그 식당은 온라인에서 좋은 평가를 받았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_at_first_2",
+      "word": "At first",
+      "pronunciation": "æt fɜːrst",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "처음에는",
+          "examples": [
+            {
+              "sentence": "At first, I didn't like swimming, but now I love it.",
+              "translation": "처음에는 수영을 좋아하지 않았는데, 지금은 너무 좋아해요."
+            },
+            {
+              "sentence": "At first, everything seemed fine.",
+              "translation": "처음에는 모든 게 괜찮아 보였어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_in_the_beginning_3",
+      "word": "In the beginning",
+      "pronunciation": "ɪn ðə bɪˈɡɪnɪŋ",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "처음에, 시작할 때",
+          "examples": [
+            {
+              "sentence": "In the beginning, I had trouble understanding the rules.",
+              "translation": "처음에는 규칙을 이해하는 데 어려움이 있었어요."
+            },
+            {
+              "sentence": "In the beginning, we only met once a week.",
+              "translation": "처음에는 일주일에 한 번만 만났어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_then_4",
+      "word": "Then",
+      "pronunciation": "ðen",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그 다음에, 그러고 나서",
+          "examples": [
+            {
+              "sentence": "I woke up early, and then I went for a jog.",
+              "translation": "일찍 일어나서, 그 다음에 조깅하러 갔어요."
+            },
+            {
+              "sentence": "We had dinner, and then we watched a movie.",
+              "translation": "저녁을 먹고, 그 다음에 영화를 봤어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_after_that_5",
+      "word": "After that",
+      "pronunciation": "ˈæftər ðæt",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그 후에",
+          "examples": [
+            {
+              "sentence": "I finished my work. After that, I went to the gym.",
+              "translation": "일을 끝냈어요. 그 후에 헬스장에 갔어요."
+            },
+            {
+              "sentence": "We visited the museum. After that, we had lunch nearby.",
+              "translation": "박물관을 방문했어요. 그 후에 근처에서 점심을 먹었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_next_6",
+      "word": "Next",
+      "pronunciation": "nekst",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "다음으로",
+          "examples": [
+            {
+              "sentence": "Next, I'd like to share a memorable experience.",
+              "translation": "다음으로, 기억에 남는 경험을 공유하고 싶어요."
+            },
+            {
+              "sentence": "First, we checked in. Next, we went to our room.",
+              "translation": "먼저 체크인했어요. 다음으로 방에 갔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_later_7",
+      "word": "Later",
+      "pronunciation": "ˈleɪtər",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "나중에",
+          "examples": [
+            {
+              "sentence": "I'll tell you more about it later.",
+              "translation": "나중에 더 자세히 말씀드릴게요."
+            },
+            {
+              "sentence": "Later, I realized I had made a mistake.",
+              "translation": "나중에, 제가 실수했다는 걸 깨달았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_eventually_8",
+      "word": "Eventually",
+      "pronunciation": "ɪˈventʃuəli",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "결국, 마침내",
+          "examples": [
+            {
+              "sentence": "Eventually, I got used to waking up early.",
+              "translation": "결국, 일찍 일어나는 것에 익숙해졌어요."
+            },
+            {
+              "sentence": "We got lost, but eventually we found the place.",
+              "translation": "길을 잃었지만, 결국 그 장소를 찾았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_finally_9",
+      "word": "Finally",
+      "pronunciation": "ˈfaɪnəli",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "마침내, 드디어",
+          "examples": [
+            {
+              "sentence": "Finally, we arrived at our destination.",
+              "translation": "마침내, 목적지에 도착했어요."
+            },
+            {
+              "sentence": "I studied hard, and finally I passed the exam.",
+              "translation": "열심히 공부했고, 드디어 시험에 합격했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_in_the_end_10",
+      "word": "In the end",
+      "pronunciation": "ɪn ði end",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "결국, 마지막에는",
+          "examples": [
+            {
+              "sentence": "In the end, everything worked out well.",
+              "translation": "결국, 모든 게 잘 됐어요."
+            },
+            {
+              "sentence": "We had some problems, but in the end, we solved them.",
+              "translation": "문제가 좀 있었지만, 결국 해결했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_at_last_11",
+      "word": "At last",
+      "pronunciation": "æt læst",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "마침내, 드디어",
+          "examples": [
+            {
+              "sentence": "At last, my vacation started!",
+              "translation": "드디어 휴가가 시작됐어요!"
+            },
+            {
+              "sentence": "At last, I found what I was looking for.",
+              "translation": "마침내, 찾던 걸 찾았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_meanwhile_12",
+      "word": "Meanwhile",
+      "pronunciation": "ˈmiːnwaɪl",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그 동안에, 한편",
+          "examples": [
+            {
+              "sentence": "I was cooking. Meanwhile, my friend set the table.",
+              "translation": "저는 요리하고 있었어요. 그 동안 친구가 상을 차렸어요."
+            },
+            {
+              "sentence": "Meanwhile, the situation was getting worse.",
+              "translation": "한편, 상황은 점점 나빠지고 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_in_the_meantime_13",
+      "word": "In the meantime",
+      "pronunciation": "ɪn ðə ˈmiːntaɪm",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그 사이에, 그 동안",
+          "examples": [
+            {
+              "sentence": "The food wasn't ready yet. In the meantime, we had some drinks.",
+              "translation": "음식이 아직 준비되지 않았어요. 그 동안 우리는 음료를 마셨어요."
+            },
+            {
+              "sentence": "In the meantime, I'll work on something else.",
+              "translation": "그 사이에, 다른 일을 할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_at_the_same_time_14",
+      "word": "At the same time",
+      "pronunciation": "æt ðə seɪm taɪm",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "동시에",
+          "examples": [
+            {
+              "sentence": "I can't do two things at the same time.",
+              "translation": "동시에 두 가지 일을 할 수 없어요."
+            },
+            {
+              "sentence": "We arrived at the same time by coincidence.",
+              "translation": "우연히 동시에 도착했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_since_then_15",
+      "word": "Since then",
+      "pronunciation": "sɪns ðen",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그 이후로",
+          "examples": [
+            {
+              "sentence": "I started exercising last year. Since then, I've felt much healthier.",
+              "translation": "작년에 운동을 시작했어요. 그 이후로 훨씬 건강해졌어요."
+            },
+            {
+              "sentence": "We met in college. Since then, we've been best friends.",
+              "translation": "대학에서 만났어요. 그 이후로 절친이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_from_then_on_16",
+      "word": "From then on",
+      "pronunciation": "frɒm ðen ɒn",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그때부터 (쭉)",
+          "examples": [
+            {
+              "sentence": "I tried yoga once. From then on, I was hooked.",
+              "translation": "요가를 한 번 해봤어요. 그때부터 푹 빠졌어요."
+            },
+            {
+              "sentence": "From then on, I decided to save money every month.",
+              "translation": "그때부터, 매달 돈을 저축하기로 결심했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_right_away_17",
+      "word": "Right away",
+      "pronunciation": "raɪt əˈweɪ",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "즉시, 바로",
+          "examples": [
+            {
+              "sentence": "I knew right away that something was wrong.",
+              "translation": "바로 뭔가 잘못됐다는 걸 알았어요."
+            },
+            {
+              "sentence": "She called me back right away.",
+              "translation": "그녀가 바로 전화를 다시 해줬어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_all_of_a_sudden_18",
+      "word": "All of a sudden",
+      "pronunciation": "ɔːl əv ə ˈsʌdn",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "갑자기",
+          "examples": [
+            {
+              "sentence": "All of a sudden, it started raining.",
+              "translation": "갑자기, 비가 오기 시작했어요."
+            },
+            {
+              "sentence": "All of a sudden, the lights went out.",
+              "translation": "갑자기, 불이 꺼졌어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_out_of_nowhere_19",
+      "word": "Out of nowhere",
+      "pronunciation": "aʊt əv ˈnoʊweər",
+      "subcategory": "시간/순서 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "갑자기, 느닷없이",
+          "examples": [
+            {
+              "sentence": "Out of nowhere, my old friend called me.",
+              "translation": "느닷없이, 옛 친구가 전화를 했어요."
+            },
+            {
+              "sentence": "A dog appeared out of nowhere.",
+              "translation": "갑자기 개가 나타났어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_because_20",
+      "word": "Because",
+      "pronunciation": "bɪˈkɔːz",
+      "subcategory": "원인/결과 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "왜냐하면, ~때문에",
+          "examples": [
+            {
+              "sentence": "I was late because I missed the bus.",
+              "translation": "버스를 놓쳐서 늦었어요."
+            },
+            {
+              "sentence": "I love this place because it's so peaceful.",
+              "translation": "이곳이 너무 평화로워서 좋아해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_because_of_21",
+      "word": "Because of",
+      "pronunciation": "bɪˈkɔːz əv",
+      "subcategory": "원인/결과 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "prep",
+          "meaning": "~ 때문에",
+          "examples": [
+            {
+              "sentence": "The game was canceled because of the rain.",
+              "translation": "비 때문에 경기가 취소됐어요."
+            },
+            {
+              "sentence": "I couldn't sleep well because of the noise.",
+              "translation": "소음 때문에 잠을 잘 수 없었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_due_to_22",
+      "word": "Due to",
+      "pronunciation": "duː tuː",
+      "subcategory": "원인/결과 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "prep",
+          "meaning": "~ 때문에 (격식)",
+          "examples": [
+            {
+              "sentence": "The flight was delayed due to bad weather.",
+              "translation": "악천후로 인해 비행기가 연착됐어요."
+            },
+            {
+              "sentence": "I was exhausted due to lack of sleep.",
+              "translation": "수면 부족으로 지쳐있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_thanks_to_23",
+      "word": "Thanks to",
+      "pronunciation": "θæŋks tuː",
+      "subcategory": "원인/결과 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "prep",
+          "meaning": "~ 덕분에",
+          "examples": [
+            {
+              "sentence": "Thanks to my friend, I found a great restaurant.",
+              "translation": "친구 덕분에 좋은 식당을 찾았어요."
+            },
+            {
+              "sentence": "Thanks to technology, we can work from home now.",
+              "translation": "기술 덕분에 이제 재택근무를 할 수 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_since_24",
+      "word": "Since",
+      "pronunciation": "sɪns",
+      "subcategory": "원인/결과 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "~이기 때문에",
+          "examples": [
+            {
+              "sentence": "Since it was raining, we stayed indoors.",
+              "translation": "비가 오고 있었기 때문에, 실내에 있었어요."
+            },
+            {
+              "sentence": "Since I had some free time, I decided to go for a walk.",
+              "translation": "시간이 좀 있어서, 산책하기로 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_so_25",
+      "word": "So",
+      "pronunciation": "soʊ",
+      "subcategory": "원인/결과 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "그래서",
+          "examples": [
+            {
+              "sentence": "I was hungry, so I ordered some food.",
+              "translation": "배가 고파서 음식을 주문했어요."
+            },
+            {
+              "sentence": "It was getting late, so I decided to leave.",
+              "translation": "늦어지고 있어서 가기로 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_therefore_26",
+      "word": "Therefore",
+      "pronunciation": "ˈðerfɔːr",
+      "subcategory": "원인/결과 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그러므로, 따라서",
+          "examples": [
+            {
+              "sentence": "I was sick. Therefore, I couldn't go to work.",
+              "translation": "아팠어요. 그러므로, 출근할 수 없었어요."
+            },
+            {
+              "sentence": "The store was closed. Therefore, we went somewhere else.",
+              "translation": "가게가 문을 닫았어요. 따라서, 다른 곳으로 갔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_as_a_result_27",
+      "word": "As a result",
+      "pronunciation": "æz ə rɪˈzʌlt",
+      "subcategory": "원인/결과 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "결과적으로, 그 결과",
+          "examples": [
+            {
+              "sentence": "I didn't study. As a result, I failed the test.",
+              "translation": "공부를 안 했어요. 그 결과, 시험에 떨어졌어요."
+            },
+            {
+              "sentence": "I exercised regularly. As a result, I lost weight.",
+              "translation": "규칙적으로 운동했어요. 그 결과, 살이 빠졌어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_consequently_28",
+      "word": "Consequently",
+      "pronunciation": "ˈkɒnsɪkwəntli",
+      "subcategory": "원인/결과 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "결과적으로, 따라서",
+          "examples": [
+            {
+              "sentence": "He didn't prepare well. Consequently, the presentation was a disaster.",
+              "translation": "그는 준비를 잘 못 했어요. 결과적으로, 발표는 엉망이었어요."
+            },
+            {
+              "sentence": "I saved money every month. Consequently, I could afford a new car.",
+              "translation": "매달 돈을 저축했어요. 그 결과, 새 차를 살 수 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_thus_29",
+      "word": "Thus",
+      "pronunciation": "ðʌs",
+      "subcategory": "원인/결과 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그러므로, 이리하여",
+          "examples": [
+            {
+              "sentence": "The traffic was terrible. Thus, I arrived late.",
+              "translation": "교통이 심했어요. 그래서 늦게 도착했어요."
+            },
+            {
+              "sentence": "I practiced every day. Thus, my skills improved.",
+              "translation": "매일 연습했어요. 그리하여 실력이 늘었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_hence_30",
+      "word": "Hence",
+      "pronunciation": "hens",
+      "subcategory": "원인/결과 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그러므로, 따라서",
+          "examples": [
+            {
+              "sentence": "I was tired. Hence, I went to bed early.",
+              "translation": "피곤했어요. 그래서 일찍 잠자리에 들었어요."
+            },
+            {
+              "sentence": "The project was urgent. Hence, we worked overtime.",
+              "translation": "프로젝트가 급했어요. 따라서 야근했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_thats_why_31",
+      "word": "That's why",
+      "pronunciation": "ðæts waɪ",
+      "subcategory": "원인/결과 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그래서, 그것이 ~한 이유야",
+          "examples": [
+            {
+              "sentence": "I love nature. That's why I go hiking every weekend.",
+              "translation": "자연을 좋아해요. 그래서 매주 주말에 등산을 가요."
+            },
+            {
+              "sentence": "The food was amazing. That's why I keep going back.",
+              "translation": "음식이 정말 맛있었어요. 그래서 계속 다시 가요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_this_is_why_32",
+      "word": "This is why",
+      "pronunciation": "ðɪs ɪz waɪ",
+      "subcategory": "원인/결과 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "이것이 ~한 이유야",
+          "examples": [
+            {
+              "sentence": "I had a bad experience there. This is why I never go back.",
+              "translation": "거기서 안 좋은 경험을 했어요. 이것이 다시 안 가는 이유예요."
+            },
+            {
+              "sentence": "I believe in hard work. This is why I always give my best.",
+              "translation": "노력을 믿어요. 이것이 항상 최선을 다하는 이유예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_for_this_reason_33",
+      "word": "For this reason",
+      "pronunciation": "fɔːr ðɪs ˈriːzn",
+      "subcategory": "원인/결과 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "이런 이유로",
+          "examples": [
+            {
+              "sentence": "I'm not good at cooking. For this reason, I usually eat out.",
+              "translation": "요리를 잘 못해요. 이런 이유로 보통 외식해요."
+            },
+            {
+              "sentence": "I love learning. For this reason, I read every day.",
+              "translation": "배우는 걸 좋아해요. 이런 이유로 매일 책을 읽어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_but_34",
+      "word": "But",
+      "pronunciation": "bʌt",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "하지만, 그러나",
+          "examples": [
+            {
+              "sentence": "I wanted to go, but I was too tired.",
+              "translation": "가고 싶었지만, 너무 피곤했어요."
+            },
+            {
+              "sentence": "The movie was long, but it was really entertaining.",
+              "translation": "영화가 길었지만, 정말 재미있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_however_35",
+      "word": "However",
+      "pronunciation": "haʊˈevər",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그러나, 하지만",
+          "examples": [
+            {
+              "sentence": "The weather was bad. However, we still had a great time.",
+              "translation": "날씨가 안 좋았어요. 하지만, 여전히 좋은 시간을 보냈어요."
+            },
+            {
+              "sentence": "I was nervous. However, I managed to finish the presentation.",
+              "translation": "긴장했어요. 하지만, 발표를 마칠 수 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_although_36",
+      "word": "Although",
+      "pronunciation": "ɔːlˈðoʊ",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "비록 ~이지만",
+          "examples": [
+            {
+              "sentence": "Although I was tired, I finished my homework.",
+              "translation": "피곤했지만, 숙제를 끝냈어요."
+            },
+            {
+              "sentence": "Although the restaurant was expensive, the food was worth it.",
+              "translation": "식당이 비쌌지만, 음식은 그만한 가치가 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_even_though_37",
+      "word": "Even though",
+      "pronunciation": "ˈiːvn ðoʊ",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "비록 ~일지라도",
+          "examples": [
+            {
+              "sentence": "Even though it was raining, we went for a walk.",
+              "translation": "비가 오고 있었지만, 산책을 갔어요."
+            },
+            {
+              "sentence": "I enjoyed the trip even though I got sick.",
+              "translation": "아팠지만 여행을 즐겼어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_despite_38",
+      "word": "Despite",
+      "pronunciation": "dɪˈspaɪt",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "prep",
+          "meaning": "~에도 불구하고",
+          "examples": [
+            {
+              "sentence": "Despite the difficulties, I didn't give up.",
+              "translation": "어려움에도 불구하고, 포기하지 않았어요."
+            },
+            {
+              "sentence": "Despite being tired, she kept working.",
+              "translation": "피곤했음에도 불구하고, 그녀는 계속 일했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_in_spite_of_39",
+      "word": "In spite of",
+      "pronunciation": "ɪn spaɪt əv",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "prep",
+          "meaning": "~에도 불구하고",
+          "examples": [
+            {
+              "sentence": "In spite of the bad weather, the event was a success.",
+              "translation": "나쁜 날씨에도 불구하고, 행사는 성공적이었어요."
+            },
+            {
+              "sentence": "In spite of my fear, I tried bungee jumping.",
+              "translation": "두려움에도 불구하고, 번지점프를 해봤어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_on_the_other_hand_40",
+      "word": "On the other hand",
+      "pronunciation": "ɒn ði ˈʌðər hænd",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "반면에, 다른 한편으로는",
+          "examples": [
+            {
+              "sentence": "I love traveling. On the other hand, I also enjoy staying home.",
+              "translation": "여행을 좋아해요. 반면에, 집에 있는 것도 즐겨요."
+            },
+            {
+              "sentence": "The job pays well. On the other hand, it's very stressful.",
+              "translation": "그 직업은 급여가 좋아요. 반면에, 스트레스가 많아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_while_41",
+      "word": "While",
+      "pronunciation": "waɪl",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "~인 반면에",
+          "examples": [
+            {
+              "sentence": "While I prefer coffee, my friend likes tea.",
+              "translation": "저는 커피를 선호하는 반면, 친구는 차를 좋아해요."
+            },
+            {
+              "sentence": "While the city is exciting, the countryside is peaceful.",
+              "translation": "도시는 흥미로운 반면, 시골은 평화로워요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_whereas_42",
+      "word": "Whereas",
+      "pronunciation": "werˈæz",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "~인 반면에 (격식)",
+          "examples": [
+            {
+              "sentence": "I'm a morning person, whereas my sister is a night owl.",
+              "translation": "저는 아침형 인간인 반면, 언니는 올빼미형이에요."
+            },
+            {
+              "sentence": "Whereas some people prefer solo travel, I like traveling in groups.",
+              "translation": "혼자 여행하는 것을 선호하는 사람들도 있는 반면, 저는 그룹 여행을 좋아해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_instead_43",
+      "word": "Instead",
+      "pronunciation": "ɪnˈsted",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "대신에",
+          "examples": [
+            {
+              "sentence": "I didn't go to the gym. Instead, I went for a run.",
+              "translation": "헬스장에 안 갔어요. 대신, 달리기했어요."
+            },
+            {
+              "sentence": "I decided not to eat out. Instead, I cooked at home.",
+              "translation": "외식을 안 하기로 했어요. 대신, 집에서 요리했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_instead_of_44",
+      "word": "Instead of",
+      "pronunciation": "ɪnˈsted əv",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "prep",
+          "meaning": "~ 대신에",
+          "examples": [
+            {
+              "sentence": "Instead of driving, I took the subway.",
+              "translation": "운전하는 대신, 지하철을 탔어요."
+            },
+            {
+              "sentence": "Instead of coffee, I had green tea.",
+              "translation": "커피 대신 녹차를 마셨어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_unlike_45",
+      "word": "Unlike",
+      "pronunciation": "ʌnˈlaɪk",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "prep",
+          "meaning": "~와 달리",
+          "examples": [
+            {
+              "sentence": "Unlike my brother, I'm not good at sports.",
+              "translation": "남동생과 달리, 저는 운동을 잘 못해요."
+            },
+            {
+              "sentence": "Unlike other cafes, this one is very quiet.",
+              "translation": "다른 카페와 달리, 여기는 아주 조용해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_on_the_contrary_46",
+      "word": "On the contrary",
+      "pronunciation": "ɒn ðə ˈkɒntrəri",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "반대로, 오히려",
+          "examples": [
+            {
+              "sentence": "I thought she'd be upset. On the contrary, she was happy.",
+              "translation": "그녀가 화낼 줄 알았어요. 오히려, 기뻐했어요."
+            },
+            {
+              "sentence": "It wasn't boring. On the contrary, it was quite exciting.",
+              "translation": "지루하지 않았어요. 오히려 꽤 재미있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_nevertheless_47",
+      "word": "Nevertheless",
+      "pronunciation": "ˌnevərðəˈles",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그럼에도 불구하고",
+          "examples": [
+            {
+              "sentence": "The test was difficult. Nevertheless, I passed.",
+              "translation": "시험이 어려웠어요. 그럼에도 불구하고, 합격했어요."
+            },
+            {
+              "sentence": "It was raining. Nevertheless, we had a great time.",
+              "translation": "비가 왔어요. 그럼에도 불구하고, 좋은 시간을 보냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_nonetheless_48",
+      "word": "Nonetheless",
+      "pronunciation": "ˌnʌnðəˈles",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그럼에도 불구하고",
+          "examples": [
+            {
+              "sentence": "I was nervous. Nonetheless, I did my best.",
+              "translation": "긴장했어요. 그럼에도 불구하고, 최선을 다했어요."
+            },
+            {
+              "sentence": "It's far. Nonetheless, it's worth the trip.",
+              "translation": "멀어요. 그럼에도 불구하고, 갈 만한 가치가 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_still_49",
+      "word": "Still",
+      "pronunciation": "stɪl",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그래도, 여전히",
+          "examples": [
+            {
+              "sentence": "I know it's risky. Still, I want to try.",
+              "translation": "위험하다는 걸 알아요. 그래도, 해보고 싶어요."
+            },
+            {
+              "sentence": "It was crowded, but still, I enjoyed myself.",
+              "translation": "붐볐지만, 그래도 즐거웠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_yet_50",
+      "word": "Yet",
+      "pronunciation": "jet",
+      "subcategory": "대조/비교 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "그러나, 하지만",
+          "examples": [
+            {
+              "sentence": "The restaurant is small, yet very popular.",
+              "translation": "그 식당은 작지만, 아주 인기가 많아요."
+            },
+            {
+              "sentence": "I was exhausted, yet I couldn't sleep.",
+              "translation": "지쳤는데도, 잠을 잘 수 없었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_and_51",
+      "word": "And",
+      "pronunciation": "ænd",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "그리고",
+          "examples": [
+            {
+              "sentence": "I like hiking and swimming.",
+              "translation": "저는 등산과 수영을 좋아해요."
+            },
+            {
+              "sentence": "The room was clean and comfortable.",
+              "translation": "방이 깨끗하고 편안했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_also_52",
+      "word": "Also",
+      "pronunciation": "ˈɔːlsoʊ",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "또한, 게다가",
+          "examples": [
+            {
+              "sentence": "I also enjoy cooking in my free time.",
+              "translation": "저는 또한 여가 시간에 요리하는 것도 즐겨요."
+            },
+            {
+              "sentence": "She speaks English and also Japanese.",
+              "translation": "그녀는 영어와 일본어도 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_in_addition_53",
+      "word": "In addition",
+      "pronunciation": "ɪn əˈdɪʃn",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "게다가, 덧붙여서",
+          "examples": [
+            {
+              "sentence": "In addition, the hotel had a great pool.",
+              "translation": "게다가, 호텔에 훌륭한 수영장이 있었어요."
+            },
+            {
+              "sentence": "In addition to running, I also do yoga.",
+              "translation": "달리기 외에도, 요가도 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_additionally_54",
+      "word": "Additionally",
+      "pronunciation": "əˈdɪʃənəli",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "추가로, 게다가",
+          "examples": [
+            {
+              "sentence": "Additionally, I'd like to mention one more thing.",
+              "translation": "추가로, 한 가지 더 말씀드리고 싶어요."
+            },
+            {
+              "sentence": "The food was great. Additionally, the service was excellent.",
+              "translation": "음식이 훌륭했어요. 게다가 서비스도 훌륭했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_moreover_55",
+      "word": "Moreover",
+      "pronunciation": "mɔːrˈoʊvər",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "게다가, 더욱이",
+          "examples": [
+            {
+              "sentence": "The food was delicious. Moreover, it was affordable.",
+              "translation": "음식이 맛있었어요. 게다가, 가격도 저렴했어요."
+            },
+            {
+              "sentence": "The movie was entertaining. Moreover, it had a great message.",
+              "translation": "영화가 재미있었어요. 게다가 좋은 메시지도 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_furthermore_56",
+      "word": "Furthermore",
+      "pronunciation": "ˈfɜːrðərmɔːr",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "게다가, 더 나아가",
+          "examples": [
+            {
+              "sentence": "Furthermore, I want to add that it was very safe.",
+              "translation": "게다가, 아주 안전했다는 것도 덧붙이고 싶어요."
+            },
+            {
+              "sentence": "The location was convenient. Furthermore, it was affordable.",
+              "translation": "위치가 편리했어요. 게다가 가격도 적당했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_besides_57",
+      "word": "Besides",
+      "pronunciation": "bɪˈsaɪdz",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "게다가, 그 외에",
+          "examples": [
+            {
+              "sentence": "I don't have time. Besides, I'm not interested.",
+              "translation": "시간이 없어요. 게다가 관심도 없어요."
+            },
+            {
+              "sentence": "Besides the beach, there are many things to do.",
+              "translation": "해변 외에도 할 것이 많아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_plus_58",
+      "word": "Plus",
+      "pronunciation": "plʌs",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "게다가, 더하여",
+          "examples": [
+            {
+              "sentence": "It's convenient. Plus, it's not expensive.",
+              "translation": "편리해요. 게다가, 비싸지도 않아요."
+            },
+            {
+              "sentence": "The hotel was nice. Plus, it had free breakfast.",
+              "translation": "호텔이 좋았어요. 게다가 무료 조식도 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_on_top_of_that_59",
+      "word": "On top of that",
+      "pronunciation": "ɒn tɒp əv ðæt",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "게다가, 그 위에",
+          "examples": [
+            {
+              "sentence": "I missed the bus. On top of that, it started raining.",
+              "translation": "버스를 놓쳤어요. 게다가, 비가 오기 시작했어요."
+            },
+            {
+              "sentence": "The service was slow. On top of that, the food was cold.",
+              "translation": "서비스가 느렸어요. 게다가 음식도 차가웠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_not_only_but_also_60",
+      "word": "Not only... but also",
+      "pronunciation": "nɒt ˈoʊnli bʌt ˈɔːlsoʊ",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "~뿐만 아니라 ~도",
+          "examples": [
+            {
+              "sentence": "It's not only convenient but also affordable.",
+              "translation": "편리할 뿐만 아니라 가격도 적당해요."
+            },
+            {
+              "sentence": "Not only was the food delicious, but the staff was friendly too.",
+              "translation": "음식이 맛있을 뿐만 아니라 직원들도 친절했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_what_is_more_61",
+      "word": "What's more",
+      "pronunciation": "wɒts mɔːr",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "게다가, 더군다나",
+          "examples": [
+            {
+              "sentence": "The cafe has great coffee. What's more, it's quiet.",
+              "translation": "그 카페는 커피가 맛있어요. 게다가 조용해요."
+            },
+            {
+              "sentence": "She's smart. What's more, she's very kind.",
+              "translation": "그녀는 똑똒해요. 게다가 매우 친절해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_especially_62",
+      "word": "Especially",
+      "pronunciation": "ɪˈspeʃəli",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "특히",
+          "examples": [
+            {
+              "sentence": "I love Korean food, especially bibimbap.",
+              "translation": "한식을 좋아해요, 특히 비빔밥이요."
+            },
+            {
+              "sentence": "The trip was amazing, especially the scenery.",
+              "translation": "여행이 놀라웠어요, 특히 풍경이요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_particularly_63",
+      "word": "Particularly",
+      "pronunciation": "pərˈtɪkjələrli",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "특히",
+          "examples": [
+            {
+              "sentence": "I enjoy outdoor activities, particularly hiking.",
+              "translation": "야외 활동을 즐겨요, 특히 등산이요."
+            },
+            {
+              "sentence": "The view was beautiful, particularly at sunset.",
+              "translation": "풍경이 아름다웠어요, 특히 일몰에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_above_all_64",
+      "word": "Above all",
+      "pronunciation": "əˈbʌv ɔːl",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "무엇보다도",
+          "examples": [
+            {
+              "sentence": "Above all, I value my time with family.",
+              "translation": "무엇보다도, 가족과의 시간을 소중히 여겨요."
+            },
+            {
+              "sentence": "The trip was fun, but above all, it was relaxing.",
+              "translation": "여행이 재미있었는데, 무엇보다도 편안했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_most_importantly_65",
+      "word": "Most importantly",
+      "pronunciation": "moʊst ɪmˈpɔːrtntli",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "가장 중요한 것은",
+          "examples": [
+            {
+              "sentence": "Most importantly, I learned a lot from that experience.",
+              "translation": "가장 중요한 것은, 그 경험에서 많이 배웠어요."
+            },
+            {
+              "sentence": "Most importantly, everyone was safe.",
+              "translation": "가장 중요한 것은, 모두가 안전했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_as_well_66",
+      "word": "As well",
+      "pronunciation": "æz wel",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "또한, 역시",
+          "examples": [
+            {
+              "sentence": "I like to read books as well.",
+              "translation": "저도 책 읽는 걸 좋아해요."
+            },
+            {
+              "sentence": "She speaks French as well.",
+              "translation": "그녀는 프랑스어도 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_too_67",
+      "word": "Too",
+      "pronunciation": "tuː",
+      "subcategory": "추가/강조 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "또한, ~도",
+          "examples": [
+            {
+              "sentence": "I love traveling too.",
+              "translation": "저도 여행을 좋아해요."
+            },
+            {
+              "sentence": "He plays guitar, and drums too.",
+              "translation": "그는 기타를 치고, 드럼도 쳐요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_for_example_68",
+      "word": "For example",
+      "pronunciation": "fɔːr ɪɡˈzæmpl",
+      "subcategory": "예시 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "예를 들어",
+          "examples": [
+            {
+              "sentence": "I have many hobbies. For example, I enjoy painting.",
+              "translation": "취미가 많아요. 예를 들어, 그림 그리기를 좋아해요."
+            },
+            {
+              "sentence": "For example, last week I went hiking.",
+              "translation": "예를 들어, 지난주에 등산을 갔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_for_instance_69",
+      "word": "For instance",
+      "pronunciation": "fɔːr ˈɪnstəns",
+      "subcategory": "예시 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "예를 들어, 이를테면",
+          "examples": [
+            {
+              "sentence": "For instance, I once got lost while traveling.",
+              "translation": "예를 들어, 여행 중에 길을 잃은 적이 있어요."
+            },
+            {
+              "sentence": "There are many activities. For instance, you can go surfing.",
+              "translation": "할 것이 많아요. 예를 들어, 서핑을 할 수 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_such_as_70",
+      "word": "Such as",
+      "pronunciation": "sʌtʃ æz",
+      "subcategory": "예시 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "prep",
+          "meaning": "~와 같은",
+          "examples": [
+            {
+              "sentence": "I like outdoor sports such as hiking and cycling.",
+              "translation": "등산과 자전거 타기와 같은 야외 스포츠를 좋아해요."
+            },
+            {
+              "sentence": "I enjoy Asian food such as Korean and Japanese.",
+              "translation": "한식과 일식 같은 아시아 음식을 좋아해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_like_71",
+      "word": "Like",
+      "pronunciation": "laɪk",
+      "subcategory": "예시 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "prep",
+          "meaning": "~같은, ~처럼",
+          "examples": [
+            {
+              "sentence": "I enjoy creative hobbies like drawing and writing.",
+              "translation": "그림 그리기나 글쓰기 같은 창작 취미를 좋아해요."
+            },
+            {
+              "sentence": "Big cities like Seoul and Tokyo are exciting.",
+              "translation": "서울과 도쿄 같은 대도시는 흥미로워요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_including_72",
+      "word": "Including",
+      "pronunciation": "ɪnˈkluːdɪŋ",
+      "subcategory": "예시 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "prep",
+          "meaning": "~을 포함하여",
+          "examples": [
+            {
+              "sentence": "I've visited many countries, including Japan and France.",
+              "translation": "일본과 프랑스를 포함하여 많은 나라를 방문했어요."
+            },
+            {
+              "sentence": "Everyone came, including my boss.",
+              "translation": "상사를 포함하여 모두가 왔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_namely_73",
+      "word": "Namely",
+      "pronunciation": "ˈneɪmli",
+      "subcategory": "예시 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "즉, 다시 말해",
+          "examples": [
+            {
+              "sentence": "I have two hobbies, namely reading and gaming.",
+              "translation": "취미가 두 개 있어요, 즉 독서와 게임이요."
+            },
+            {
+              "sentence": "There's one problem, namely the cost.",
+              "translation": "문제가 하나 있어요, 즉 비용이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_to_illustrate_74",
+      "word": "To illustrate",
+      "pronunciation": "tuː ˈɪləstreɪt",
+      "subcategory": "예시 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "예를 들어 설명하자면",
+          "examples": [
+            {
+              "sentence": "To illustrate, let me share a personal story.",
+              "translation": "예를 들어 설명하자면, 개인적인 이야기를 공유할게요."
+            },
+            {
+              "sentence": "To illustrate my point, consider this situation.",
+              "translation": "제 말을 설명하자면, 이 상황을 생각해 보세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_in_other_words_75",
+      "word": "In other words",
+      "pronunciation": "ɪn ˈʌðər wɜːrdz",
+      "subcategory": "예시 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "다시 말해서",
+          "examples": [
+            {
+              "sentence": "I'm a morning person. In other words, I wake up early.",
+              "translation": "저는 아침형 인간이에요. 다시 말해서, 일찍 일어나요."
+            },
+            {
+              "sentence": "In other words, practice makes perfect.",
+              "translation": "다시 말해서, 연습이 완벽을 만들어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_that_is_76",
+      "word": "That is",
+      "pronunciation": "ðæt ɪz",
+      "subcategory": "예시 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "즉, 다시 말해",
+          "examples": [
+            {
+              "sentence": "I'm an introvert. That is, I prefer quiet activities.",
+              "translation": "저는 내성적이에요. 즉, 조용한 활동을 선호해요."
+            },
+            {
+              "sentence": "I work from home. That is, I'm a freelancer.",
+              "translation": "재택근무해요. 즉, 프리랜서예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_to_put_it_another_way_77",
+      "word": "To put it another way",
+      "pronunciation": "tuː pʊt ɪt əˈnʌðər weɪ",
+      "subcategory": "예시 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "다르게 표현하자면",
+          "examples": [
+            {
+              "sentence": "To put it another way, I need more time.",
+              "translation": "다르게 표현하자면, 시간이 더 필요해요."
+            },
+            {
+              "sentence": "To put it another way, we should plan better.",
+              "translation": "다르게 표현하자면, 더 잘 계획해야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_in_conclusion_78",
+      "word": "In conclusion",
+      "pronunciation": "ɪn kənˈkluːʒn",
+      "subcategory": "결론 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "결론적으로",
+          "examples": [
+            {
+              "sentence": "In conclusion, it was a great experience.",
+              "translation": "결론적으로, 훌륭한 경험이었어요."
+            },
+            {
+              "sentence": "In conclusion, I highly recommend this place.",
+              "translation": "결론적으로, 이곳을 강력히 추천해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_to_sum_up_79",
+      "word": "To sum up",
+      "pronunciation": "tuː sʌm ʌp",
+      "subcategory": "결론 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "요약하자면",
+          "examples": [
+            {
+              "sentence": "To sum up, it was a memorable trip.",
+              "translation": "요약하자면, 기억에 남는 여행이었어요."
+            },
+            {
+              "sentence": "To sum up, communication is key.",
+              "translation": "요약하자면, 소통이 핵심이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_in_summary_80",
+      "word": "In summary",
+      "pronunciation": "ɪn ˈsʌməri",
+      "subcategory": "결론 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "요약하면",
+          "examples": [
+            {
+              "sentence": "In summary, I learned a lot from that experience.",
+              "translation": "요약하면, 그 경험에서 많이 배웠어요."
+            },
+            {
+              "sentence": "In summary, the event was a success.",
+              "translation": "요약하면, 행사는 성공적이었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_overall_81",
+      "word": "Overall",
+      "pronunciation": "ˌoʊvərˈɔːl",
+      "subcategory": "결론 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "전반적으로",
+          "examples": [
+            {
+              "sentence": "Overall, it was a positive experience.",
+              "translation": "전반적으로, 긍정적인 경험이었어요."
+            },
+            {
+              "sentence": "Overall, I'm satisfied with my choice.",
+              "translation": "전반적으로, 제 선택에 만족해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_all_in_all_82",
+      "word": "All in all",
+      "pronunciation": "ɔːl ɪn ɔːl",
+      "subcategory": "결론 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "대체로, 전체적으로",
+          "examples": [
+            {
+              "sentence": "All in all, it was a great day.",
+              "translation": "대체로, 좋은 하루였어요."
+            },
+            {
+              "sentence": "All in all, I would do it again.",
+              "translation": "전체적으로, 다시 할 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_to_wrap_up_83",
+      "word": "To wrap up",
+      "pronunciation": "tuː ræp ʌp",
+      "subcategory": "결론 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "마무리하자면",
+          "examples": [
+            {
+              "sentence": "To wrap up, I'm really grateful for the opportunity.",
+              "translation": "마무리하자면, 이 기회에 정말 감사해요."
+            },
+            {
+              "sentence": "To wrap up, it was an unforgettable experience.",
+              "translation": "마무리하자면, 잊을 수 없는 경험이었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_in_short_84",
+      "word": "In short",
+      "pronunciation": "ɪn ʃɔːrt",
+      "subcategory": "결론 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "간단히 말해서",
+          "examples": [
+            {
+              "sentence": "In short, it was worth every penny.",
+              "translation": "간단히 말해서, 돈값을 했어요."
+            },
+            {
+              "sentence": "In short, I had the time of my life.",
+              "translation": "간단히 말해서, 인생 최고의 시간을 보냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_in_brief_85",
+      "word": "In brief",
+      "pronunciation": "ɪn briːf",
+      "subcategory": "결론 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "간략히 말해",
+          "examples": [
+            {
+              "sentence": "In brief, the project was successful.",
+              "translation": "간략히 말해, 프로젝트는 성공적이었어요."
+            },
+            {
+              "sentence": "In brief, I had no complaints.",
+              "translation": "간략히 말해, 불만이 없었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_to_conclude_86",
+      "word": "To conclude",
+      "pronunciation": "tuː kənˈkluːd",
+      "subcategory": "결론 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "결론짓자면",
+          "examples": [
+            {
+              "sentence": "To conclude, I really enjoyed my time there.",
+              "translation": "결론짓자면, 거기서 정말 즐거운 시간을 보냈어요."
+            },
+            {
+              "sentence": "To conclude, this hobby has changed my life.",
+              "translation": "결론짓자면, 이 취미가 제 인생을 바꿨어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_in_a_nutshell_87",
+      "word": "In a nutshell",
+      "pronunciation": "ɪn ə ˈnʌtʃel",
+      "subcategory": "결론 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "한마디로, 간단히 말해서",
+          "examples": [
+            {
+              "sentence": "In a nutshell, it was an amazing trip.",
+              "translation": "한마디로, 놀라운 여행이었어요."
+            },
+            {
+              "sentence": "In a nutshell, hard work pays off.",
+              "translation": "한마디로, 노력은 보답받아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_ultimately_88",
+      "word": "Ultimately",
+      "pronunciation": "ˈʌltɪmətli",
+      "subcategory": "결론 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "궁극적으로, 결국",
+          "examples": [
+            {
+              "sentence": "Ultimately, it was the right decision.",
+              "translation": "궁극적으로, 옳은 결정이었어요."
+            },
+            {
+              "sentence": "Ultimately, I'm happy with how things turned out.",
+              "translation": "결국, 상황이 어떻게 됐는지에 만족해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_basically_89",
+      "word": "Basically",
+      "pronunciation": "ˈbeɪsɪkli",
+      "subcategory": "결론 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "기본적으로, 결국",
+          "examples": [
+            {
+              "sentence": "Basically, I just love being outdoors.",
+              "translation": "기본적으로, 저는 야외에 있는 걸 좋아해요."
+            },
+            {
+              "sentence": "Basically, that's what happened.",
+              "translation": "결국, 그런 일이 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_at_the_end_of_the_day_90",
+      "word": "At the end of the day",
+      "pronunciation": "æt ði end əv ðə deɪ",
+      "subcategory": "결론 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "결국, 중요한 건",
+          "examples": [
+            {
+              "sentence": "At the end of the day, it's about having fun.",
+              "translation": "결국, 중요한 건 재미있게 보내는 거예요."
+            },
+            {
+              "sentence": "At the end of the day, family comes first.",
+              "translation": "결국, 가족이 우선이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_if_91",
+      "word": "If",
+      "pronunciation": "ɪf",
+      "subcategory": "조건/가정 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "만약 ~라면",
+          "examples": [
+            {
+              "sentence": "If I have time, I usually go to the gym.",
+              "translation": "시간이 있으면, 보통 헬스장에 가요."
+            },
+            {
+              "sentence": "If it rains, we'll stay inside.",
+              "translation": "비가 오면, 안에 있을 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_unless_92",
+      "word": "Unless",
+      "pronunciation": "ənˈles",
+      "subcategory": "조건/가정 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "~하지 않는 한",
+          "examples": [
+            {
+              "sentence": "Unless it's urgent, I prefer not to work on weekends.",
+              "translation": "급하지 않은 한, 주말에는 일 안 하는 게 좋아요."
+            },
+            {
+              "sentence": "I won't go unless you come with me.",
+              "translation": "네가 같이 가지 않으면 안 갈 거야."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_as_long_as_93",
+      "word": "As long as",
+      "pronunciation": "æz lɔːŋ æz",
+      "subcategory": "조건/가정 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "~하는 한",
+          "examples": [
+            {
+              "sentence": "As long as the weather is good, I'll go hiking.",
+              "translation": "날씨가 좋은 한, 등산을 갈 거예요."
+            },
+            {
+              "sentence": "As long as you're happy, that's all that matters.",
+              "translation": "네가 행복한 한, 그게 중요한 전부야."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_provided_that_94",
+      "word": "Provided that",
+      "pronunciation": "prəˈvaɪdɪd ðæt",
+      "subcategory": "조건/가정 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "~라는 조건으로",
+          "examples": [
+            {
+              "sentence": "Provided that I finish early, I'll join you.",
+              "translation": "일찍 끝낸다는 조건으로, 합류할게요."
+            },
+            {
+              "sentence": "We can go, provided that we come back by 10.",
+              "translation": "10시까지 돌아온다는 조건으로 갈 수 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_in_case_95",
+      "word": "In case",
+      "pronunciation": "ɪn keɪs",
+      "subcategory": "조건/가정 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "~할 경우에 대비해",
+          "examples": [
+            {
+              "sentence": "I brought an umbrella in case it rains.",
+              "translation": "비가 올 경우에 대비해 우산을 가져왔어요."
+            },
+            {
+              "sentence": "In case you're interested, the event is next Saturday.",
+              "translation": "혹시 관심 있으시면, 행사가 다음 주 토요일이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_otherwise_96",
+      "word": "Otherwise",
+      "pronunciation": "ˈʌðərwaɪz",
+      "subcategory": "조건/가정 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그렇지 않으면",
+          "examples": [
+            {
+              "sentence": "I set an alarm. Otherwise, I might oversleep.",
+              "translation": "알람을 맞췄어요. 그렇지 않으면 늦잠 잘 수도 있어요."
+            },
+            {
+              "sentence": "We should leave now. Otherwise, we'll be late.",
+              "translation": "지금 출발해야 해요. 그렇지 않으면 늦을 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_or_else_97",
+      "word": "Or else",
+      "pronunciation": "ɔːr els",
+      "subcategory": "조건/가정 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "그렇지 않으면",
+          "examples": [
+            {
+              "sentence": "You need to hurry, or else you'll miss the train.",
+              "translation": "서둘러야 해요, 그렇지 않으면 기차를 놓쳐요."
+            },
+            {
+              "sentence": "I had to act quickly, or else it would be too late.",
+              "translation": "빨리 행동해야 했어요, 그렇지 않으면 너무 늦을 거였어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_when_98",
+      "word": "When",
+      "pronunciation": "wen",
+      "subcategory": "조건/가정 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "~할 때",
+          "examples": [
+            {
+              "sentence": "When I feel stressed, I go for a walk.",
+              "translation": "스트레스 받을 때, 산책을 가요."
+            },
+            {
+              "sentence": "When I have free time, I usually read books.",
+              "translation": "시간이 있을 때, 보통 책을 읽어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_whenever_99",
+      "word": "Whenever",
+      "pronunciation": "wenˈevər",
+      "subcategory": "조건/가정 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "~할 때마다",
+          "examples": [
+            {
+              "sentence": "Whenever I visit my hometown, I feel nostalgic.",
+              "translation": "고향에 갈 때마다, 향수를 느껴요."
+            },
+            {
+              "sentence": "Whenever I'm free, I enjoy watching movies.",
+              "translation": "시간이 날 때마다, 영화 보는 걸 즐겨요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_once_100",
+      "word": "Once",
+      "pronunciation": "wʌns",
+      "subcategory": "조건/가정 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "일단 ~하면",
+          "examples": [
+            {
+              "sentence": "Once you try it, you'll love it.",
+              "translation": "일단 해보면, 좋아하게 될 거예요."
+            },
+            {
+              "sentence": "Once I started, I couldn't stop.",
+              "translation": "일단 시작하니까, 멈출 수 없었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_by_the_way_101",
+      "word": "By the way",
+      "pronunciation": "baɪ ðə weɪ",
+      "subcategory": "화제 전환 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그런데, 참고로",
+          "examples": [
+            {
+              "sentence": "By the way, have you been to that new restaurant?",
+              "translation": "그런데, 그 새 식당에 가봤어요?"
+            },
+            {
+              "sentence": "By the way, I forgot to mention something.",
+              "translation": "참고로, 말하는 것을 깜빡했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_speaking_of_102",
+      "word": "Speaking of",
+      "pronunciation": "ˈspiːkɪŋ əv",
+      "subcategory": "화제 전환 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "prep",
+          "meaning": "~에 대해 말하자면",
+          "examples": [
+            {
+              "sentence": "Speaking of food, have you tried Korean BBQ?",
+              "translation": "음식 얘기가 나와서 말인데, 한국 바베큐 먹어봤어요?"
+            },
+            {
+              "sentence": "Speaking of travel, I'm planning a trip to Japan.",
+              "translation": "여행 얘기가 나와서 말인데, 일본 여행을 계획 중이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_anyway_103",
+      "word": "Anyway",
+      "pronunciation": "ˈeniweɪ",
+      "subcategory": "화제 전환 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "어쨌든",
+          "examples": [
+            {
+              "sentence": "Anyway, let me get back to my story.",
+              "translation": "어쨌든, 제 이야기로 돌아갈게요."
+            },
+            {
+              "sentence": "Anyway, that's how I met my best friend.",
+              "translation": "어쨌든, 그렇게 제 가장 친한 친구를 만났어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_anyhow_104",
+      "word": "Anyhow",
+      "pronunciation": "ˈenihaʊ",
+      "subcategory": "화제 전환 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "어쨌든, 하여튼",
+          "examples": [
+            {
+              "sentence": "Anyhow, the trip was memorable.",
+              "translation": "어쨌든, 여행은 기억에 남았어요."
+            },
+            {
+              "sentence": "Anyhow, I ended up having a great time.",
+              "translation": "하여튼, 결국 좋은 시간을 보냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_now_105",
+      "word": "Now",
+      "pronunciation": "naʊ",
+      "subcategory": "화제 전환 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "자, 이제",
+          "examples": [
+            {
+              "sentence": "Now, let me tell you about my favorite place.",
+              "translation": "자, 제가 좋아하는 장소에 대해 말씀드릴게요."
+            },
+            {
+              "sentence": "Now, back to the main topic.",
+              "translation": "이제, 본 주제로 돌아가겠습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_well_106",
+      "word": "Well",
+      "pronunciation": "wel",
+      "subcategory": "화제 전환 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "interj",
+          "meaning": "음, 글쎄요",
+          "examples": [
+            {
+              "sentence": "Well, it depends on the situation.",
+              "translation": "음, 상황에 따라 다르죠."
+            },
+            {
+              "sentence": "Well, I think I should explain more.",
+              "translation": "글쎄요, 더 설명해야 할 것 같아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_so_107",
+      "word": "So",
+      "pronunciation": "soʊ",
+      "subcategory": "화제 전환 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "그래서, 자",
+          "examples": [
+            {
+              "sentence": "So, that's my story.",
+              "translation": "그래서, 그게 제 이야기예요."
+            },
+            {
+              "sentence": "So, where was I?",
+              "translation": "자, 어디까지 이야기했죠?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_moving_on_108",
+      "word": "Moving on",
+      "pronunciation": "ˈmuːvɪŋ ɒn",
+      "subcategory": "화제 전환 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "다음으로 넘어가서",
+          "examples": [
+            {
+              "sentence": "Moving on, I'd like to share another experience.",
+              "translation": "다음으로 넘어가서, 다른 경험을 공유하고 싶어요."
+            },
+            {
+              "sentence": "Moving on to the next topic...",
+              "translation": "다음 주제로 넘어가면..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_getting_back_to_109",
+      "word": "Getting back to",
+      "pronunciation": "ˈɡetɪŋ bæk tuː",
+      "subcategory": "화제 전환 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "~로 돌아가서",
+          "examples": [
+            {
+              "sentence": "Getting back to the main point...",
+              "translation": "요점으로 돌아가면..."
+            },
+            {
+              "sentence": "Getting back to what I was saying...",
+              "translation": "제가 말하던 것으로 돌아가면..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_actually_110",
+      "word": "Actually",
+      "pronunciation": "ˈæktʃuəli",
+      "subcategory": "화제 전환 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "사실은, 실제로",
+          "examples": [
+            {
+              "sentence": "Actually, I changed my mind about that.",
+              "translation": "사실은, 그것에 대해 마음이 바뀌었어요."
+            },
+            {
+              "sentence": "Actually, it wasn't as bad as I expected.",
+              "translation": "사실, 예상만큼 나쁘지 않았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_in_fact_111",
+      "word": "In fact",
+      "pronunciation": "ɪn fækt",
+      "subcategory": "화제 전환 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "사실, 실제로",
+          "examples": [
+            {
+              "sentence": "In fact, it was one of the best trips I've ever had.",
+              "translation": "사실, 제가 가본 여행 중 최고 중 하나였어요."
+            },
+            {
+              "sentence": "In fact, I go there every week.",
+              "translation": "사실, 저는 매주 거기 가요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_as_a_matter_of_fact_112",
+      "word": "As a matter of fact",
+      "pronunciation": "æz ə ˈmætər əv fækt",
+      "subcategory": "화제 전환 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "사실은, 실제로",
+          "examples": [
+            {
+              "sentence": "As a matter of fact, I was there just yesterday.",
+              "translation": "사실, 어제 막 거기 있었어요."
+            },
+            {
+              "sentence": "As a matter of fact, it's my favorite restaurant.",
+              "translation": "사실은, 제가 가장 좋아하는 식당이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_to_be_honest_113",
+      "word": "To be honest",
+      "pronunciation": "tuː biː ˈɒnɪst",
+      "subcategory": "개인 의견 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "솔직히 말해서",
+          "examples": [
+            {
+              "sentence": "To be honest, I didn't like it at first.",
+              "translation": "솔직히 말해서, 처음에는 마음에 안 들었어요."
+            },
+            {
+              "sentence": "To be honest, I prefer staying home.",
+              "translation": "솔직히 말해서, 집에 있는 게 더 좋아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_honestly_114",
+      "word": "Honestly",
+      "pronunciation": "ˈɒnɪstli",
+      "subcategory": "개인 의견 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "솔직히",
+          "examples": [
+            {
+              "sentence": "Honestly, I wasn't expecting much.",
+              "translation": "솔직히, 기대를 많이 안 했어요."
+            },
+            {
+              "sentence": "Honestly, it was the best decision I've made.",
+              "translation": "솔직히, 제가 한 최고의 결정이었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_frankly_115",
+      "word": "Frankly",
+      "pronunciation": "ˈfræŋkli",
+      "subcategory": "개인 의견 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "솔직히 말해서",
+          "examples": [
+            {
+              "sentence": "Frankly, I think it could have been better.",
+              "translation": "솔직히 말해서, 더 나을 수 있었다고 생각해요."
+            },
+            {
+              "sentence": "Frankly, I was a bit disappointed.",
+              "translation": "솔직히 말해서, 좀 실망했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_personally_116",
+      "word": "Personally",
+      "pronunciation": "ˈpɜːrsənəli",
+      "subcategory": "개인 의견 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "개인적으로",
+          "examples": [
+            {
+              "sentence": "Personally, I think reading is very important.",
+              "translation": "개인적으로, 독서가 매우 중요하다고 생각해요."
+            },
+            {
+              "sentence": "Personally, I prefer traveling solo.",
+              "translation": "개인적으로, 혼자 여행하는 걸 선호해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_in_my_opinion_117",
+      "word": "In my opinion",
+      "pronunciation": "ɪn maɪ əˈpɪnjən",
+      "subcategory": "개인 의견 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "제 생각에는",
+          "examples": [
+            {
+              "sentence": "In my opinion, it's the best cafe in town.",
+              "translation": "제 생각에는, 동네 최고의 카페예요."
+            },
+            {
+              "sentence": "In my opinion, everyone should try this at least once.",
+              "translation": "제 생각에는, 모든 사람이 최소 한 번은 해봐야 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_i_think_118",
+      "word": "I think",
+      "pronunciation": "aɪ θɪŋk",
+      "subcategory": "개인 의견 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "저는 ~라고 생각해요",
+          "examples": [
+            {
+              "sentence": "I think it's a great way to relax.",
+              "translation": "저는 그게 휴식하기 좋은 방법이라고 생각해요."
+            },
+            {
+              "sentence": "I think the problem was the timing.",
+              "translation": "저는 문제가 타이밍이었다고 생각해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_i_believe_119",
+      "word": "I believe",
+      "pronunciation": "aɪ bɪˈliːv",
+      "subcategory": "개인 의견 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "저는 ~라고 믿어요",
+          "examples": [
+            {
+              "sentence": "I believe communication is very important.",
+              "translation": "저는 소통이 매우 중요하다고 믿어요."
+            },
+            {
+              "sentence": "I believe hard work always pays off.",
+              "translation": "저는 노력은 항상 보답받는다고 믿어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_i_feel_120",
+      "word": "I feel",
+      "pronunciation": "aɪ fiːl",
+      "subcategory": "개인 의견 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "저는 ~라고 느껴요",
+          "examples": [
+            {
+              "sentence": "I feel like this is the right choice.",
+              "translation": "저는 이게 옳은 선택인 것 같아요."
+            },
+            {
+              "sentence": "I feel that we should do something about it.",
+              "translation": "저는 우리가 뭔가 해야 한다고 느껴요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_from_my_point_of_view_121",
+      "word": "From my point of view",
+      "pronunciation": "frɒm maɪ pɔɪnt əv vjuː",
+      "subcategory": "개인 의견 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "제 관점에서는",
+          "examples": [
+            {
+              "sentence": "From my point of view, it was a success.",
+              "translation": "제 관점에서는, 성공이었어요."
+            },
+            {
+              "sentence": "From my point of view, the experience was valuable.",
+              "translation": "제 관점에서는, 그 경험은 가치 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_as_far_as_im_concerned_122",
+      "word": "As far as I'm concerned",
+      "pronunciation": "æz fɑːr æz aɪm kənˈsɜːrnd",
+      "subcategory": "개인 의견 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "제가 생각하기로는",
+          "examples": [
+            {
+              "sentence": "As far as I'm concerned, it's the best option.",
+              "translation": "제가 생각하기로는, 그게 최선의 선택이에요."
+            },
+            {
+              "sentence": "As far as I'm concerned, the problem is solved.",
+              "translation": "제가 생각하기로는, 문제가 해결됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_the_way_i_see_it_123",
+      "word": "The way I see it",
+      "pronunciation": "ðə weɪ aɪ siː ɪt",
+      "subcategory": "개인 의견 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "제가 보기에는",
+          "examples": [
+            {
+              "sentence": "The way I see it, we have two options.",
+              "translation": "제가 보기에는, 선택지가 두 개예요."
+            },
+            {
+              "sentence": "The way I see it, it's worth trying.",
+              "translation": "제가 보기에는, 해볼 만해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_to_me_124",
+      "word": "To me",
+      "pronunciation": "tuː miː",
+      "subcategory": "개인 의견 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "저한테는, 제가 보기에",
+          "examples": [
+            {
+              "sentence": "To me, family is the most important thing.",
+              "translation": "저한테는, 가족이 가장 중요해요."
+            },
+            {
+              "sentence": "To me, it seems like a good idea.",
+              "translation": "제가 보기에, 좋은 생각인 것 같아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opc_if_you_ask_me_125",
+      "word": "If you ask me",
+      "pronunciation": "ɪf juː æsk miː",
+      "subcategory": "개인 의견 연결어",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "제 생각을 물으신다면",
+          "examples": [
+            {
+              "sentence": "If you ask me, it's totally worth it.",
+              "translation": "제 생각을 물으신다면, 완전히 가치가 있어요."
+            },
+            {
+              "sentence": "If you ask me, we should start right away.",
+              "translation": "제 생각을 물으신다면, 바로 시작해야 해요."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

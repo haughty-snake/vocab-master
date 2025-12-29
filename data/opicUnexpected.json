@@ -1,0 +1,2891 @@
+{
+  "id": "opicUnexpected",
+  "name": "OPIc 돌발상황",
+  "icon": "⚠️",
+  "color": "#f44336",
+  "lang": "en-US",
+  "words": [
+    {
+      "id": "opu_something_came_up_0",
+      "word": "Something came up",
+      "pronunciation": "ˈsʌmθɪŋ keɪm ʌp",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "갑자기 일이 생겼다",
+          "examples": [
+            {
+              "sentence": "I was planning to go, but something came up at work.",
+              "translation": "가려고 했는데, 회사에서 갑자기 일이 생겼어요."
+            },
+            {
+              "sentence": "Something came up, so I had to cancel my plans.",
+              "translation": "갑자기 일이 생겨서 계획을 취소해야 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_run_into_a_problem_1",
+      "word": "run into a problem",
+      "pronunciation": "rʌn ˈɪntuː ə ˈprɒbləm",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "문제에 부딪히다",
+          "examples": [
+            {
+              "sentence": "I ran into a problem while setting up my new phone.",
+              "translation": "새 폰을 설정하다가 문제에 부딪혔어요."
+            },
+            {
+              "sentence": "We ran into a problem with the reservation.",
+              "translation": "예약에 문제가 생겼어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_break_down_2",
+      "word": "break down",
+      "pronunciation": "breɪk daʊn",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "고장나다",
+          "examples": [
+            {
+              "sentence": "My car broke down on the way to work.",
+              "translation": "출근길에 차가 고장났어요."
+            },
+            {
+              "sentence": "The elevator broke down, so I had to take the stairs.",
+              "translation": "엘리베이터가 고장나서 계단으로 가야 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_go_wrong_3",
+      "word": "go wrong",
+      "pronunciation": "ɡoʊ rɔːŋ",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "잘못되다, 틀어지다",
+          "examples": [
+            {
+              "sentence": "Everything went wrong that day.",
+              "translation": "그날은 모든 게 잘못됐어요."
+            },
+            {
+              "sentence": "I don't know what went wrong with my plan.",
+              "translation": "계획이 뭐가 잘못됐는지 모르겠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_fall_through_4",
+      "word": "fall through",
+      "pronunciation": "fɔːl θruː",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "(계획이) 무산되다",
+          "examples": [
+            {
+              "sentence": "Our travel plans fell through at the last minute.",
+              "translation": "여행 계획이 막판에 무산됐어요."
+            },
+            {
+              "sentence": "The deal fell through because of budget issues.",
+              "translation": "예산 문제로 거래가 무산됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_mess_up_5",
+      "word": "mess up",
+      "pronunciation": "mes ʌp",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "망치다, 엉망으로 만들다",
+          "examples": [
+            {
+              "sentence": "I messed up the reservation date.",
+              "translation": "예약 날짜를 잘못 잡았어요."
+            },
+            {
+              "sentence": "I accidentally messed up the order.",
+              "translation": "실수로 주문을 망쳤어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_screw_up_6",
+      "word": "screw up",
+      "pronunciation": "skruː ʌp",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "망치다, 실수하다",
+          "examples": [
+            {
+              "sentence": "I totally screwed up my presentation.",
+              "translation": "발표를 완전히 망쳤어요."
+            },
+            {
+              "sentence": "They screwed up my order at the restaurant.",
+              "translation": "식당에서 제 주문을 잘못 받았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_get_stuck_7",
+      "word": "get stuck",
+      "pronunciation": "ɡet stʌk",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "꼼짝 못하게 되다, 막히다",
+          "examples": [
+            {
+              "sentence": "I got stuck in traffic for two hours.",
+              "translation": "교통 체증에 2시간 동안 갇혔어요."
+            },
+            {
+              "sentence": "The elevator got stuck between floors.",
+              "translation": "엘리베이터가 층 사이에 멈췄어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_run_out_of_8",
+      "word": "run out of",
+      "pronunciation": "rʌn aʊt əv",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "~이 다 떨어지다, 바닥나다",
+          "examples": [
+            {
+              "sentence": "I ran out of battery in the middle of nowhere.",
+              "translation": "아무 데도 아닌 곳에서 배터리가 다 됐어요."
+            },
+            {
+              "sentence": "We ran out of time before finishing the project.",
+              "translation": "프로젝트를 끝내기 전에 시간이 다 됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_miss_out_on_9",
+      "word": "miss out on",
+      "pronunciation": "mɪs aʊt ɒn",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "~을 놓치다",
+          "examples": [
+            {
+              "sentence": "I missed out on the early bird discount.",
+              "translation": "얼리버드 할인을 놓쳤어요."
+            },
+            {
+              "sentence": "I missed out on the concert because of work.",
+              "translation": "일 때문에 콘서트를 놓쳤어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_lose_track_of_10",
+      "word": "lose track of",
+      "pronunciation": "luːz træk əv",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "~을 잊다, 파악하지 못하다",
+          "examples": [
+            {
+              "sentence": "I lost track of time and missed my appointment.",
+              "translation": "시간 가는 줄 모르고 약속을 놓쳤어요."
+            },
+            {
+              "sentence": "I lost track of where I parked my car.",
+              "translation": "차를 어디에 주차했는지 까먹었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_get_lost_11",
+      "word": "get lost",
+      "pronunciation": "ɡet lɒst",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "길을 잃다",
+          "examples": [
+            {
+              "sentence": "I got lost on my way to the meeting.",
+              "translation": "미팅 가는 길에 길을 잃었어요."
+            },
+            {
+              "sentence": "We got lost in the new city without GPS.",
+              "translation": "GPS 없이 새 도시에서 길을 잃었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_slip_my_mind_12",
+      "word": "slip one's mind",
+      "pronunciation": "slɪp wʌnz maɪnd",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "깜빡 잊다",
+          "examples": [
+            {
+              "sentence": "It completely slipped my mind to call you back.",
+              "translation": "전화 다시 하는 걸 완전히 깜빡했어요."
+            },
+            {
+              "sentence": "The meeting slipped my mind because I was so busy.",
+              "translation": "너무 바빠서 미팅을 깜빡했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_catch_off_guard_13",
+      "word": "catch someone off guard",
+      "pronunciation": "kætʃ ˈsʌmwʌn ɒf ɡɑːrd",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "허를 찌르다, 방심할 때 당하다",
+          "examples": [
+            {
+              "sentence": "The sudden question caught me off guard.",
+              "translation": "갑작스러운 질문에 허를 찔렸어요."
+            },
+            {
+              "sentence": "The change in schedule caught everyone off guard.",
+              "translation": "일정 변경에 모두가 당황했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_take_by_surprise_14",
+      "word": "take someone by surprise",
+      "pronunciation": "teɪk ˈsʌmwʌn baɪ sərˈpraɪz",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "놀라게 하다, 기습하다",
+          "examples": [
+            {
+              "sentence": "The news took me by surprise.",
+              "translation": "그 소식에 깜짝 놀랐어요."
+            },
+            {
+              "sentence": "The sudden rain took us by surprise.",
+              "translation": "갑작스러운 비에 당황했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_out_of_the_blue_15",
+      "word": "out of the blue",
+      "pronunciation": "aʊt əv ðə bluː",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "갑자기, 느닷없이",
+          "examples": [
+            {
+              "sentence": "Out of the blue, my boss called me into his office.",
+              "translation": "갑자기 상사가 사무실로 부르셨어요."
+            },
+            {
+              "sentence": "She quit her job out of the blue.",
+              "translation": "그녀가 갑자기 일을 그만뒀어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_all_of_a_sudden_16",
+      "word": "all of a sudden",
+      "pronunciation": "ɔːl əv ə ˈsʌdn",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "갑자기",
+          "examples": [
+            {
+              "sentence": "All of a sudden, my phone stopped working.",
+              "translation": "갑자기 폰이 작동을 멈췄어요."
+            },
+            {
+              "sentence": "All of a sudden, the lights went out.",
+              "translation": "갑자기 불이 꺼졌어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_without_warning_17",
+      "word": "without warning",
+      "pronunciation": "wɪˈðaʊt ˈwɔːrnɪŋ",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "예고 없이",
+          "examples": [
+            {
+              "sentence": "The store closed without warning.",
+              "translation": "가게가 예고 없이 문을 닫았어요."
+            },
+            {
+              "sentence": "Without warning, the app crashed.",
+              "translation": "예고 없이 앱이 다운됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_at_the_last_minute_18",
+      "word": "at the last minute",
+      "pronunciation": "æt ðə læst ˈmɪnɪt",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "막판에, 마지막 순간에",
+          "examples": [
+            {
+              "sentence": "They canceled the event at the last minute.",
+              "translation": "막판에 행사가 취소됐어요."
+            },
+            {
+              "sentence": "I had to change my flight at the last minute.",
+              "translation": "마지막 순간에 항공편을 바꿔야 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_to_make_matters_worse_19",
+      "word": "to make matters worse",
+      "pronunciation": "tuː meɪk ˈmætərz wɜːrs",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "설상가상으로",
+          "examples": [
+            {
+              "sentence": "I missed the bus. To make matters worse, it started raining.",
+              "translation": "버스를 놓쳤어요. 설상가상으로 비까지 오기 시작했어요."
+            },
+            {
+              "sentence": "My phone died. To make matters worse, I didn't know the address.",
+              "translation": "폰 배터리가 나갔어요. 설상가상으로 주소를 몰랐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_on_top_of_that_20",
+      "word": "on top of that",
+      "pronunciation": "ɒn tɒp əv ðæt",
+      "subcategory": "문제 발생 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "게다가, 그 위에",
+          "examples": [
+            {
+              "sentence": "I was late. On top of that, I forgot my wallet.",
+              "translation": "늦었어요. 게다가 지갑도 두고 왔어요."
+            },
+            {
+              "sentence": "The food was bad. On top of that, the service was terrible.",
+              "translation": "음식이 별로였어요. 게다가 서비스도 엉망이었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_figure_out_21",
+      "word": "figure out",
+      "pronunciation": "ˈfɪɡər aʊt",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "알아내다, 해결하다",
+          "examples": [
+            {
+              "sentence": "I had to figure out how to fix it myself.",
+              "translation": "직접 어떻게 고치는지 알아내야 했어요."
+            },
+            {
+              "sentence": "We finally figured out what the problem was.",
+              "translation": "마침내 문제가 뭔지 알아냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_work_out_22",
+      "word": "work out",
+      "pronunciation": "wɜːrk aʊt",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "해결되다, 잘 되다",
+          "examples": [
+            {
+              "sentence": "Everything worked out in the end.",
+              "translation": "결국 모든 게 잘 해결됐어요."
+            },
+            {
+              "sentence": "Don't worry, things will work out.",
+              "translation": "걱정 마세요, 잘 될 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_sort_out_23",
+      "word": "sort out",
+      "pronunciation": "sɔːrt aʊt",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "해결하다, 정리하다",
+          "examples": [
+            {
+              "sentence": "I need to sort out this mess.",
+              "translation": "이 엉망인 상황을 정리해야 해요."
+            },
+            {
+              "sentence": "Let me sort out the schedule first.",
+              "translation": "먼저 일정을 정리할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_deal_with_24",
+      "word": "deal with",
+      "pronunciation": "diːl wɪð",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "처리하다, 대처하다",
+          "examples": [
+            {
+              "sentence": "I had to deal with the situation calmly.",
+              "translation": "침착하게 상황에 대처해야 했어요."
+            },
+            {
+              "sentence": "Let me deal with this problem first.",
+              "translation": "먼저 이 문제를 처리할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_take_care_of_25",
+      "word": "take care of",
+      "pronunciation": "teɪk keər əv",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "처리하다, 돌보다",
+          "examples": [
+            {
+              "sentence": "Don't worry, I'll take care of it.",
+              "translation": "걱정 마세요, 제가 처리할게요."
+            },
+            {
+              "sentence": "The manager took care of the issue right away.",
+              "translation": "매니저가 바로 문제를 처리했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_look_into_26",
+      "word": "look into",
+      "pronunciation": "lʊk ˈɪntuː",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "조사하다, 알아보다",
+          "examples": [
+            {
+              "sentence": "I'll look into the issue and get back to you.",
+              "translation": "문제를 알아보고 다시 연락드릴게요."
+            },
+            {
+              "sentence": "They're looking into what caused the error.",
+              "translation": "오류 원인을 조사하고 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_get_through_27",
+      "word": "get through",
+      "pronunciation": "ɡet θruː",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "헤쳐나가다, 극복하다",
+          "examples": [
+            {
+              "sentence": "I managed to get through the difficult situation.",
+              "translation": "어려운 상황을 헤쳐나갔어요."
+            },
+            {
+              "sentence": "We'll get through this together.",
+              "translation": "함께 이겨낼 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_come_up_with_28",
+      "word": "come up with",
+      "pronunciation": "kʌm ʌp wɪð",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "(아이디어를) 생각해내다",
+          "examples": [
+            {
+              "sentence": "I had to come up with a solution quickly.",
+              "translation": "빨리 해결책을 생각해내야 했어요."
+            },
+            {
+              "sentence": "We came up with a backup plan.",
+              "translation": "대안을 생각해냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_turn_to_29",
+      "word": "turn to",
+      "pronunciation": "tɜːrn tuː",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "~에게 도움을 청하다",
+          "examples": [
+            {
+              "sentence": "I turned to my friend for help.",
+              "translation": "친구에게 도움을 청했어요."
+            },
+            {
+              "sentence": "When I'm in trouble, I turn to my family.",
+              "translation": "어려울 때 가족에게 의지해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_reach_out_to_30",
+      "word": "reach out to",
+      "pronunciation": "riːtʃ aʊt tuː",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "연락하다, 손을 내밀다",
+          "examples": [
+            {
+              "sentence": "I reached out to customer service for help.",
+              "translation": "고객센터에 도움을 요청했어요."
+            },
+            {
+              "sentence": "Don't hesitate to reach out if you need anything.",
+              "translation": "필요한 게 있으면 언제든 연락하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_call_up_31",
+      "word": "call up",
+      "pronunciation": "kɔːl ʌp",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "전화하다",
+          "examples": [
+            {
+              "sentence": "I called up the airline to change my flight.",
+              "translation": "항공사에 전화해서 비행편을 변경했어요."
+            },
+            {
+              "sentence": "I called up my friend to ask for directions.",
+              "translation": "친구에게 전화해서 길을 물어봤어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_look_up_32",
+      "word": "look up",
+      "pronunciation": "lʊk ʌp",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "찾아보다, 검색하다",
+          "examples": [
+            {
+              "sentence": "I looked up the address on my phone.",
+              "translation": "폰으로 주소를 검색했어요."
+            },
+            {
+              "sentence": "I looked up how to fix it online.",
+              "translation": "온라인에서 고치는 방법을 찾아봤어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_ask_around_33",
+      "word": "ask around",
+      "pronunciation": "æsk əˈraʊnd",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "여기저기 물어보다",
+          "examples": [
+            {
+              "sentence": "I asked around to find the best restaurant.",
+              "translation": "최고의 식당을 찾으려고 여기저기 물어봤어요."
+            },
+            {
+              "sentence": "Let me ask around and see if anyone can help.",
+              "translation": "주변에 물어봐서 도와줄 사람이 있는지 볼게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_track_down_34",
+      "word": "track down",
+      "pronunciation": "træk daʊn",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "추적하다, 찾아내다",
+          "examples": [
+            {
+              "sentence": "I tracked down the lost package.",
+              "translation": "분실된 택배를 찾아냈어요."
+            },
+            {
+              "sentence": "I managed to track down the information I needed.",
+              "translation": "필요한 정보를 찾아냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_get_hold_of_35",
+      "word": "get hold of",
+      "pronunciation": "ɡet hoʊld əv",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "연락이 닿다, 구하다",
+          "examples": [
+            {
+              "sentence": "I finally got hold of the manager.",
+              "translation": "마침내 매니저와 연락이 닿았어요."
+            },
+            {
+              "sentence": "I couldn't get hold of a taxi during rush hour.",
+              "translation": "러시아워에 택시를 잡을 수 없었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_fix_up_36",
+      "word": "fix up",
+      "pronunciation": "fɪks ʌp",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "수리하다, 마련하다",
+          "examples": [
+            {
+              "sentence": "They fixed up the issue within an hour.",
+              "translation": "한 시간 안에 문제를 해결했어요."
+            },
+            {
+              "sentence": "Can you fix me up with a rental car?",
+              "translation": "렌터카 마련해 주실 수 있나요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_patch_up_37",
+      "word": "patch up",
+      "pronunciation": "pætʃ ʌp",
+      "subcategory": "해결 과정 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "임시로 고치다, 봉합하다",
+          "examples": [
+            {
+              "sentence": "I patched up the tire and drove to the nearest station.",
+              "translation": "타이어를 임시로 고치고 가까운 주유소로 갔어요."
+            },
+            {
+              "sentence": "We patched up our differences and moved on.",
+              "translation": "의견 차이를 봉합하고 넘어갔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_put_off_38",
+      "word": "put off",
+      "pronunciation": "pʊt ɒf",
+      "subcategory": "계획 변경 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "미루다, 연기하다",
+          "examples": [
+            {
+              "sentence": "I had to put off my trip due to the emergency.",
+              "translation": "긴급 상황 때문에 여행을 미뤄야 했어요."
+            },
+            {
+              "sentence": "We put off the meeting until next week.",
+              "translation": "회의를 다음 주로 연기했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_call_off_39",
+      "word": "call off",
+      "pronunciation": "kɔːl ɒf",
+      "subcategory": "계획 변경 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "취소하다",
+          "examples": [
+            {
+              "sentence": "They called off the outdoor event because of the rain.",
+              "translation": "비 때문에 야외 행사를 취소했어요."
+            },
+            {
+              "sentence": "I had to call off my dinner plans.",
+              "translation": "저녁 약속을 취소해야 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_back_out_40",
+      "word": "back out",
+      "pronunciation": "bæk aʊt",
+      "subcategory": "계획 변경 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "(약속을) 어기다, 빠지다",
+          "examples": [
+            {
+              "sentence": "My friend backed out at the last minute.",
+              "translation": "친구가 막판에 빠졌어요."
+            },
+            {
+              "sentence": "You can't back out now, we already made plans.",
+              "translation": "이미 계획을 세웠는데, 이제 와서 빠지면 안 돼요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_switch_to_41",
+      "word": "switch to",
+      "pronunciation": "swɪtʃ tuː",
+      "subcategory": "계획 변경 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "~로 바꾸다",
+          "examples": [
+            {
+              "sentence": "I had to switch to a different flight.",
+              "translation": "다른 비행편으로 바꿔야 했어요."
+            },
+            {
+              "sentence": "We switched to plan B.",
+              "translation": "플랜 B로 바꿨어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_opt_for_42",
+      "word": "opt for",
+      "pronunciation": "ɒpt fɔːr",
+      "subcategory": "계획 변경 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "~을 선택하다",
+          "examples": [
+            {
+              "sentence": "I opted for a refund instead of a replacement.",
+              "translation": "교환 대신 환불을 선택했어요."
+            },
+            {
+              "sentence": "We opted for indoor activities due to the weather.",
+              "translation": "날씨 때문에 실내 활동을 선택했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_settle_for_43",
+      "word": "settle for",
+      "pronunciation": "ˈsetl fɔːr",
+      "subcategory": "계획 변경 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "(차선으로) 만족하다",
+          "examples": [
+            {
+              "sentence": "I had to settle for a different hotel.",
+              "translation": "다른 호텔로 만족해야 했어요."
+            },
+            {
+              "sentence": "We settled for pizza since the restaurant was closed.",
+              "translation": "식당이 문을 닫아서 피자로 만족했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_end_up_44",
+      "word": "end up",
+      "pronunciation": "end ʌp",
+      "subcategory": "계획 변경 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "결국 ~하게 되다",
+          "examples": [
+            {
+              "sentence": "I ended up taking a taxi instead of the bus.",
+              "translation": "결국 버스 대신 택시를 탔어요."
+            },
+            {
+              "sentence": "We ended up staying home because of the rain.",
+              "translation": "비 때문에 결국 집에 있게 됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_turn_out_45",
+      "word": "turn out",
+      "pronunciation": "tɜːrn aʊt",
+      "subcategory": "계획 변경 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "결과적으로 ~이 되다",
+          "examples": [
+            {
+              "sentence": "It turned out to be a blessing in disguise.",
+              "translation": "결과적으로 전화위복이 됐어요."
+            },
+            {
+              "sentence": "Everything turned out fine in the end.",
+              "translation": "결국 모든 게 잘 됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_give_up_46",
+      "word": "give up",
+      "pronunciation": "ɡɪv ʌp",
+      "subcategory": "계획 변경 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "포기하다",
+          "examples": [
+            {
+              "sentence": "I almost gave up, but I kept trying.",
+              "translation": "거의 포기할 뻔했지만, 계속 시도했어요."
+            },
+            {
+              "sentence": "Don't give up, you're almost there.",
+              "translation": "포기하지 마세요, 거의 다 왔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_hold_off_47",
+      "word": "hold off",
+      "pronunciation": "hoʊld ɒf",
+      "subcategory": "계획 변경 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "미루다, 보류하다",
+          "examples": [
+            {
+              "sentence": "Let's hold off on the decision until we have more information.",
+              "translation": "정보가 더 있을 때까지 결정을 미루죠."
+            },
+            {
+              "sentence": "I held off on buying the ticket hoping for a better deal.",
+              "translation": "더 좋은 거래를 기대하며 티켓 구매를 보류했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_push_back_48",
+      "word": "push back",
+      "pronunciation": "pʊʃ bæk",
+      "subcategory": "계획 변경 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "연기하다, 미루다",
+          "examples": [
+            {
+              "sentence": "The meeting was pushed back to 3 PM.",
+              "translation": "미팅이 오후 3시로 연기됐어요."
+            },
+            {
+              "sentence": "They pushed back the deadline by a week.",
+              "translation": "마감을 일주일 뒤로 미뤘어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_move_up_49",
+      "word": "move up",
+      "pronunciation": "muːv ʌp",
+      "subcategory": "계획 변경 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "앞당기다",
+          "examples": [
+            {
+              "sentence": "We had to move up the departure time.",
+              "translation": "출발 시간을 앞당겨야 했어요."
+            },
+            {
+              "sentence": "Can we move up the meeting to 10 AM?",
+              "translation": "미팅을 오전 10시로 앞당길 수 있나요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_reschedule_50",
+      "word": "reschedule",
+      "pronunciation": "riːˈʃedjuːl",
+      "subcategory": "계획 변경 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "verb",
+          "meaning": "일정을 변경하다",
+          "examples": [
+            {
+              "sentence": "I had to reschedule my appointment.",
+              "translation": "예약 일정을 변경해야 했어요."
+            },
+            {
+              "sentence": "They rescheduled the concert due to the weather.",
+              "translation": "날씨 때문에 콘서트 일정이 변경됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_make_do_with_51",
+      "word": "make do with",
+      "pronunciation": "meɪk duː wɪð",
+      "subcategory": "계획 변경 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "~으로 때우다, 그럭저럭 해내다",
+          "examples": [
+            {
+              "sentence": "I had to make do with what I had.",
+              "translation": "있는 것으로 때워야 했어요."
+            },
+            {
+              "sentence": "We made do with instant noodles for dinner.",
+              "translation": "저녁으로 라면으로 때웠어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_freak_out_52",
+      "word": "freak out",
+      "pronunciation": "friːk aʊt",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "기겁하다, 패닉에 빠지다",
+          "examples": [
+            {
+              "sentence": "I freaked out when I realized I lost my wallet.",
+              "translation": "지갑을 잃어버린 걸 알았을 때 기겁했어요."
+            },
+            {
+              "sentence": "Don't freak out, we can fix this.",
+              "translation": "당황하지 마세요, 해결할 수 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_calm_down_53",
+      "word": "calm down",
+      "pronunciation": "kɑːm daʊn",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "진정하다",
+          "examples": [
+            {
+              "sentence": "I took a deep breath to calm down.",
+              "translation": "진정하려고 심호흡을 했어요."
+            },
+            {
+              "sentence": "Calm down, everything is going to be okay.",
+              "translation": "진정하세요, 다 괜찮을 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_stress_out_54",
+      "word": "stress out",
+      "pronunciation": "stres aʊt",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "스트레스 받다",
+          "examples": [
+            {
+              "sentence": "I was really stressed out about the situation.",
+              "translation": "그 상황 때문에 정말 스트레스 받았어요."
+            },
+            {
+              "sentence": "Don't stress out, it's not a big deal.",
+              "translation": "스트레스 받지 마세요, 별 일 아니에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_cheer_up_55",
+      "word": "cheer up",
+      "pronunciation": "tʃɪr ʌp",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "기운 내다, 기분이 나아지다",
+          "examples": [
+            {
+              "sentence": "I tried to cheer up after the disappointment.",
+              "translation": "실망 후에 기운을 내려고 노력했어요."
+            },
+            {
+              "sentence": "Cheer up, there will be other opportunities.",
+              "translation": "기운 내세요, 다른 기회가 있을 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_cool_off_56",
+      "word": "cool off",
+      "pronunciation": "kuːl ɒf",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "화를 가라앉히다",
+          "examples": [
+            {
+              "sentence": "I went for a walk to cool off.",
+              "translation": "화를 가라앉히려고 산책을 갔어요."
+            },
+            {
+              "sentence": "Let's take a break and cool off.",
+              "translation": "잠시 쉬면서 진정하자."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_let_down_57",
+      "word": "let down",
+      "pronunciation": "let daʊn",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "실망시키다",
+          "examples": [
+            {
+              "sentence": "I felt let down when the event was canceled.",
+              "translation": "행사가 취소됐을 때 실망했어요."
+            },
+            {
+              "sentence": "I don't want to let you down.",
+              "translation": "실망시키고 싶지 않아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_get_over_58",
+      "word": "get over",
+      "pronunciation": "ɡet ˈoʊvər",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "극복하다, 잊다",
+          "examples": [
+            {
+              "sentence": "It took me a while to get over the disappointment.",
+              "translation": "실망을 극복하는 데 시간이 좀 걸렸어요."
+            },
+            {
+              "sentence": "I still can't get over what happened.",
+              "translation": "아직도 있었던 일을 잊을 수가 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_brush_off_59",
+      "word": "brush off",
+      "pronunciation": "brʌʃ ɒf",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "털어버리다, 무시하다",
+          "examples": [
+            {
+              "sentence": "I tried to brush off the negative comments.",
+              "translation": "부정적인 댓글을 털어버리려고 했어요."
+            },
+            {
+              "sentence": "Just brush it off and move on.",
+              "translation": "그냥 털어버리고 넘어가요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_look_on_the_bright_side_60",
+      "word": "look on the bright side",
+      "pronunciation": "lʊk ɒn ðə braɪt saɪd",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "긍정적으로 보다",
+          "examples": [
+            {
+              "sentence": "Look on the bright side, at least we're safe.",
+              "translation": "긍정적으로 보세요, 적어도 우리는 안전해요."
+            },
+            {
+              "sentence": "I tried to look on the bright side of the situation.",
+              "translation": "상황을 긍정적으로 보려고 노력했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_keep_my_cool_61",
+      "word": "keep one's cool",
+      "pronunciation": "kiːp wʌnz kuːl",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "침착함을 유지하다",
+          "examples": [
+            {
+              "sentence": "I tried to keep my cool during the stressful situation.",
+              "translation": "스트레스 받는 상황에서 침착함을 유지하려고 했어요."
+            },
+            {
+              "sentence": "It was hard to keep my cool, but I managed.",
+              "translation": "침착함을 유지하기 어려웠지만, 해냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_lose_my_temper_62",
+      "word": "lose one's temper",
+      "pronunciation": "luːz wʌnz ˈtempər",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "화를 내다, 욱하다",
+          "examples": [
+            {
+              "sentence": "I almost lost my temper, but I held back.",
+              "translation": "거의 화를 낼 뻔했지만, 참았어요."
+            },
+            {
+              "sentence": "I'm sorry, I lost my temper earlier.",
+              "translation": "미안해요, 아까 화를 냈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_blow_off_steam_63",
+      "word": "blow off steam",
+      "pronunciation": "bloʊ ɒf stiːm",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "스트레스를 풀다",
+          "examples": [
+            {
+              "sentence": "I went to the gym to blow off steam.",
+              "translation": "스트레스 풀려고 헬스장에 갔어요."
+            },
+            {
+              "sentence": "After the stressful day, I needed to blow off some steam.",
+              "translation": "스트레스 받는 하루 후에 스트레스를 풀어야 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_be_relieved_64",
+      "word": "be relieved",
+      "pronunciation": "biː rɪˈliːvd",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "안도하다",
+          "examples": [
+            {
+              "sentence": "I was so relieved when I found my keys.",
+              "translation": "열쇠를 찾았을 때 정말 안도했어요."
+            },
+            {
+              "sentence": "I was relieved that everything worked out.",
+              "translation": "모든 게 잘 됐다니 안도했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_be_frustrated_65",
+      "word": "be frustrated",
+      "pronunciation": "biː ˈfrʌstreɪtɪd",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "좌절하다, 답답하다",
+          "examples": [
+            {
+              "sentence": "I was frustrated because nothing was working.",
+              "translation": "아무것도 안 되서 답답했어요."
+            },
+            {
+              "sentence": "I felt frustrated with the slow service.",
+              "translation": "느린 서비스에 답답함을 느꼈어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_be_embarrassed_66",
+      "word": "be embarrassed",
+      "pronunciation": "biː ɪmˈbærəst",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "당황하다, 부끄럽다",
+          "examples": [
+            {
+              "sentence": "I was embarrassed when I realized my mistake.",
+              "translation": "실수를 깨달았을 때 당황했어요."
+            },
+            {
+              "sentence": "I was so embarrassed that I wanted to disappear.",
+              "translation": "너무 부끄러워서 사라지고 싶었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_be_panicked_67",
+      "word": "be panicked",
+      "pronunciation": "biː ˈpænɪkt",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "당황하다, 패닉 상태에 빠지다",
+          "examples": [
+            {
+              "sentence": "I was panicked when I couldn't find my passport.",
+              "translation": "여권을 못 찾았을 때 당황했어요."
+            },
+            {
+              "sentence": "Don't be panicked, let's think calmly.",
+              "translation": "당황하지 말고, 침착하게 생각해봐요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_i_couldnt_believe_68",
+      "word": "I couldn't believe",
+      "pronunciation": "aɪ ˈkʊdnt bɪˈliːv",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "믿을 수가 없었다",
+          "examples": [
+            {
+              "sentence": "I couldn't believe what had just happened.",
+              "translation": "방금 무슨 일이 있었는지 믿을 수가 없었어요."
+            },
+            {
+              "sentence": "I couldn't believe my luck.",
+              "translation": "제 운을 믿을 수가 없었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_i_was_shocked_69",
+      "word": "I was shocked",
+      "pronunciation": "aɪ wɒz ʃɒkt",
+      "subcategory": "감정 변화 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "충격을 받았다",
+          "examples": [
+            {
+              "sentence": "I was shocked to find out the store was closed.",
+              "translation": "가게가 문을 닫은 걸 알고 충격받았어요."
+            },
+            {
+              "sentence": "I was shocked by the unexpected news.",
+              "translation": "예상치 못한 소식에 충격받았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_usually_70",
+      "word": "usually",
+      "pronunciation": "ˈjuːʒuəli",
+      "subcategory": "반복/습관 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "보통, 대개",
+          "examples": [
+            {
+              "sentence": "I usually check my phone first thing in the morning.",
+              "translation": "보통 아침에 일어나면 제일 먼저 폰을 확인해요."
+            },
+            {
+              "sentence": "I usually take public transportation to work.",
+              "translation": "보통 대중교통으로 출근해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_normally_71",
+      "word": "normally",
+      "pronunciation": "ˈnɔːrməli",
+      "subcategory": "반복/습관 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "평소에, 정상적으로",
+          "examples": [
+            {
+              "sentence": "Normally, I would have double-checked, but I was in a hurry.",
+              "translation": "평소에는 두 번 확인했을 텐데, 서둘러서요."
+            },
+            {
+              "sentence": "Normally, this wouldn't be a problem.",
+              "translation": "평소에는 이게 문제가 안 됐을 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_typically_72",
+      "word": "typically",
+      "pronunciation": "ˈtɪpɪkli",
+      "subcategory": "반복/습관 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "전형적으로, 보통",
+          "examples": [
+            {
+              "sentence": "I typically wake up around 7 AM.",
+              "translation": "보통 7시쯤 일어나요."
+            },
+            {
+              "sentence": "Typically, the process doesn't take this long.",
+              "translation": "보통 절차가 이렇게 오래 안 걸려요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_every_time_73",
+      "word": "every time",
+      "pronunciation": "ˈevri taɪm",
+      "subcategory": "반복/습관 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "~할 때마다",
+          "examples": [
+            {
+              "sentence": "Every time I go there, something goes wrong.",
+              "translation": "거기 갈 때마다 뭔가 잘못돼요."
+            },
+            {
+              "sentence": "Every time I try to book, it's fully booked.",
+              "translation": "예약하려고 할 때마다 만석이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_whenever_74",
+      "word": "whenever",
+      "pronunciation": "wenˈevər",
+      "subcategory": "반복/습관 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "~할 때마다",
+          "examples": [
+            {
+              "sentence": "Whenever I'm stressed, I go for a walk.",
+              "translation": "스트레스 받을 때마다 산책을 가요."
+            },
+            {
+              "sentence": "Whenever this happens, I call customer service.",
+              "translation": "이런 일이 생길 때마다 고객센터에 전화해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_on_a_regular_basis_75",
+      "word": "on a regular basis",
+      "pronunciation": "ɒn ə ˈreɡjələr ˈbeɪsɪs",
+      "subcategory": "반복/습관 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "정기적으로",
+          "examples": [
+            {
+              "sentence": "I check my email on a regular basis.",
+              "translation": "정기적으로 이메일을 확인해요."
+            },
+            {
+              "sentence": "This kind of thing happens on a regular basis.",
+              "translation": "이런 일이 정기적으로 발생해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_from_time_to_time_76",
+      "word": "from time to time",
+      "pronunciation": "frɒm taɪm tuː taɪm",
+      "subcategory": "반복/습관 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "때때로, 가끔",
+          "examples": [
+            {
+              "sentence": "From time to time, I run into unexpected problems.",
+              "translation": "때때로 예상치 못한 문제에 부딪혀요."
+            },
+            {
+              "sentence": "This happens from time to time.",
+              "translation": "이런 일이 가끔 생겨요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_once_in_a_while_77",
+      "word": "once in a while",
+      "pronunciation": "wʌns ɪn ə waɪl",
+      "subcategory": "반복/습관 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "가끔, 이따금",
+          "examples": [
+            {
+              "sentence": "Once in a while, I treat myself to something nice.",
+              "translation": "가끔 자신에게 좋은 것을 사줘요."
+            },
+            {
+              "sentence": "Once in a while, things don't go as planned.",
+              "translation": "가끔 계획대로 안 될 때가 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_now_and_then_78",
+      "word": "now and then",
+      "pronunciation": "naʊ ænd ðen",
+      "subcategory": "반복/습관 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "때때로, 이따금",
+          "examples": [
+            {
+              "sentence": "Now and then, I like to try new things.",
+              "translation": "때때로 새로운 것을 시도하는 걸 좋아해요."
+            },
+            {
+              "sentence": "I make mistakes now and then.",
+              "translation": "가끔 실수를 해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_every_now_and_then_79",
+      "word": "every now and then",
+      "pronunciation": "ˈevri naʊ ænd ðen",
+      "subcategory": "반복/습관 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "가끔, 때때로",
+          "examples": [
+            {
+              "sentence": "Every now and then, I like to escape the city.",
+              "translation": "가끔 도시를 벗어나고 싶어요."
+            },
+            {
+              "sentence": "Every now and then, technology fails us.",
+              "translation": "가끔 기술이 우리를 실망시켜요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_keep_ing_80",
+      "word": "keep ~ing",
+      "pronunciation": "kiːp",
+      "subcategory": "반복/습관 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "계속 ~하다",
+          "examples": [
+            {
+              "sentence": "I kept trying until I succeeded.",
+              "translation": "성공할 때까지 계속 시도했어요."
+            },
+            {
+              "sentence": "I keep forgetting to bring my umbrella.",
+              "translation": "우산 가져오는 걸 계속 잊어버려요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_tend_to_81",
+      "word": "tend to",
+      "pronunciation": "tend tuː",
+      "subcategory": "반복/습관 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "~하는 경향이 있다",
+          "examples": [
+            {
+              "sentence": "I tend to forget things when I'm stressed.",
+              "translation": "스트레스 받으면 잊어버리는 경향이 있어요."
+            },
+            {
+              "sentence": "I tend to procrastinate on important tasks.",
+              "translation": "중요한 일을 미루는 경향이 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_be_used_to_82",
+      "word": "be used to",
+      "pronunciation": "biː juːst tuː",
+      "subcategory": "반복/습관 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "~에 익숙하다",
+          "examples": [
+            {
+              "sentence": "I'm used to dealing with unexpected situations.",
+              "translation": "예상치 못한 상황에 대처하는 데 익숙해요."
+            },
+            {
+              "sentence": "I'm not used to this kind of problem.",
+              "translation": "이런 종류의 문제에 익숙하지 않아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_get_used_to_83",
+      "word": "get used to",
+      "pronunciation": "ɡet juːst tuː",
+      "subcategory": "반복/습관 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "~에 익숙해지다",
+          "examples": [
+            {
+              "sentence": "I eventually got used to the new system.",
+              "translation": "결국 새 시스템에 익숙해졌어요."
+            },
+            {
+              "sentence": "It takes time to get used to changes.",
+              "translation": "변화에 익숙해지는 데 시간이 걸려요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_be_in_the_habit_of_84",
+      "word": "be in the habit of",
+      "pronunciation": "biː ɪn ðə ˈhæbɪt əv",
+      "subcategory": "반복/습관 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "~하는 습관이 있다",
+          "examples": [
+            {
+              "sentence": "I'm in the habit of checking things twice.",
+              "translation": "두 번 확인하는 습관이 있어요."
+            },
+            {
+              "sentence": "I'm not in the habit of staying up late.",
+              "translation": "늦게까지 안 자는 습관은 없어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_luckily_85",
+      "word": "Luckily",
+      "pronunciation": "ˈlʌkɪli",
+      "subcategory": "결과/마무리 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "다행히도",
+          "examples": [
+            {
+              "sentence": "Luckily, I found a solution just in time.",
+              "translation": "다행히도, 제시간에 해결책을 찾았어요."
+            },
+            {
+              "sentence": "Luckily, someone helped me.",
+              "translation": "다행히도, 누군가 도와줬어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_fortunately_86",
+      "word": "Fortunately",
+      "pronunciation": "ˈfɔːrtʃənətli",
+      "subcategory": "결과/마무리 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "다행히, 운 좋게도",
+          "examples": [
+            {
+              "sentence": "Fortunately, no one was hurt.",
+              "translation": "다행히, 아무도 다치지 않았어요."
+            },
+            {
+              "sentence": "Fortunately, I had a backup plan.",
+              "translation": "다행히, 대안이 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_unfortunately_87",
+      "word": "Unfortunately",
+      "pronunciation": "ʌnˈfɔːrtʃənətli",
+      "subcategory": "결과/마무리 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "안타깝게도, 불행히도",
+          "examples": [
+            {
+              "sentence": "Unfortunately, there was nothing I could do.",
+              "translation": "안타깝게도, 제가 할 수 있는 게 없었어요."
+            },
+            {
+              "sentence": "Unfortunately, the event was already sold out.",
+              "translation": "불행히도, 행사가 이미 매진이었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_thankfully_88",
+      "word": "Thankfully",
+      "pronunciation": "ˈθæŋkfəli",
+      "subcategory": "결과/마무리 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "adv",
+          "meaning": "고맙게도, 다행히",
+          "examples": [
+            {
+              "sentence": "Thankfully, my friend was there to help.",
+              "translation": "고맙게도, 친구가 도와주러 있었어요."
+            },
+            {
+              "sentence": "Thankfully, I managed to catch the last train.",
+              "translation": "다행히, 막차를 탈 수 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_in_the_end_89",
+      "word": "In the end",
+      "pronunciation": "ɪn ði end",
+      "subcategory": "결과/마무리 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "결국, 마지막에는",
+          "examples": [
+            {
+              "sentence": "In the end, everything worked out fine.",
+              "translation": "결국, 모든 게 잘 됐어요."
+            },
+            {
+              "sentence": "In the end, it was a valuable learning experience.",
+              "translation": "결국, 소중한 배움의 경험이 됐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_it_turns_out_90",
+      "word": "It turns out",
+      "pronunciation": "ɪt tɜːrnz aʊt",
+      "subcategory": "결과/마무리 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "알고 보니, 결과적으로",
+          "examples": [
+            {
+              "sentence": "It turns out I had the wrong address.",
+              "translation": "알고 보니 주소가 잘못됐었어요."
+            },
+            {
+              "sentence": "It turns out the problem was simpler than I thought.",
+              "translation": "알고 보니 문제가 생각보다 간단했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_learn_a_lesson_91",
+      "word": "learn a lesson",
+      "pronunciation": "lɜːrn ə ˈlesn",
+      "subcategory": "결과/마무리 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "교훈을 얻다",
+          "examples": [
+            {
+              "sentence": "I learned a lesson from that experience.",
+              "translation": "그 경험에서 교훈을 얻었어요."
+            },
+            {
+              "sentence": "I learned my lesson and always double-check now.",
+              "translation": "교훈을 얻어서 이제 항상 두 번 확인해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_never_again_92",
+      "word": "never again",
+      "pronunciation": "ˈnevər əˈɡen",
+      "subcategory": "결과/마무리 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "다시는 절대 안",
+          "examples": [
+            {
+              "sentence": "I promised myself never again to make the same mistake.",
+              "translation": "같은 실수를 다시는 안 하겠다고 다짐했어요."
+            },
+            {
+              "sentence": "Never again will I forget to check my reservation.",
+              "translation": "다시는 예약 확인을 잊지 않을 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_from_now_on_93",
+      "word": "from now on",
+      "pronunciation": "frɒm naʊ ɒn",
+      "subcategory": "결과/마무리 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "지금부터, 앞으로는",
+          "examples": [
+            {
+              "sentence": "From now on, I'll always bring a backup.",
+              "translation": "앞으로는 항상 여분을 가져갈 거예요."
+            },
+            {
+              "sentence": "From now on, I'll be more careful.",
+              "translation": "지금부터 더 조심할 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_next_time_94",
+      "word": "next time",
+      "pronunciation": "nekst taɪm",
+      "subcategory": "결과/마무리 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "다음에는",
+          "examples": [
+            {
+              "sentence": "Next time, I'll plan ahead more carefully.",
+              "translation": "다음에는 더 신중하게 미리 계획할 거예요."
+            },
+            {
+              "sentence": "Next time, I'll know better.",
+              "translation": "다음에는 더 잘 알 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_looking_back_95",
+      "word": "looking back",
+      "pronunciation": "ˈlʊkɪŋ bæk",
+      "subcategory": "결과/마무리 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "돌이켜보면",
+          "examples": [
+            {
+              "sentence": "Looking back, I should have been more prepared.",
+              "translation": "돌이켜보면, 더 준비했어야 했어요."
+            },
+            {
+              "sentence": "Looking back, it was actually a funny experience.",
+              "translation": "돌이켜보면, 사실 재미있는 경험이었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_all_in_all_96",
+      "word": "all in all",
+      "pronunciation": "ɔːl ɪn ɔːl",
+      "subcategory": "결과/마무리 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "대체로, 전체적으로",
+          "examples": [
+            {
+              "sentence": "All in all, it was a valuable experience.",
+              "translation": "대체로, 가치 있는 경험이었어요."
+            },
+            {
+              "sentence": "All in all, I'm glad I handled it well.",
+              "translation": "전체적으로, 잘 대처해서 기뻐요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_at_least_97",
+      "word": "at least",
+      "pronunciation": "æt liːst",
+      "subcategory": "결과/마무리 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "적어도, 최소한",
+          "examples": [
+            {
+              "sentence": "At least I learned something from it.",
+              "translation": "적어도 그것에서 뭔가 배웠어요."
+            },
+            {
+              "sentence": "At least it wasn't as bad as it could have been.",
+              "translation": "적어도 최악은 아니었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_on_the_bright_side_98",
+      "word": "on the bright side",
+      "pronunciation": "ɒn ðə braɪt saɪd",
+      "subcategory": "결과/마무리 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "긍정적으로 보면",
+          "examples": [
+            {
+              "sentence": "On the bright side, I got to explore a new area.",
+              "translation": "긍정적으로 보면, 새로운 지역을 탐험할 수 있었어요."
+            },
+            {
+              "sentence": "On the bright side, at least I wasn't hurt.",
+              "translation": "긍정적으로 보면, 적어도 다치지는 않았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_it_was_worth_it_99",
+      "word": "it was worth it",
+      "pronunciation": "ɪt wɒz wɜːrθ ɪt",
+      "subcategory": "결과/마무리 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "그만한 가치가 있었다",
+          "examples": [
+            {
+              "sentence": "Despite the trouble, it was worth it.",
+              "translation": "어려움에도 불구하고, 그만한 가치가 있었어요."
+            },
+            {
+              "sentence": "In the end, all the stress was worth it.",
+              "translation": "결국, 모든 스트레스는 가치가 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_could_have_been_worse_100",
+      "word": "could have been worse",
+      "pronunciation": "kʊd həv biːn wɜːrs",
+      "subcategory": "결과/마무리 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "더 나빠질 수도 있었다",
+          "examples": [
+            {
+              "sentence": "It wasn't ideal, but it could have been worse.",
+              "translation": "이상적이진 않았지만, 더 나빠질 수도 있었어요."
+            },
+            {
+              "sentence": "I'm just glad it could have been worse but wasn't.",
+              "translation": "더 나빠질 수 있었는데 그러지 않아서 다행이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_file_a_complaint_101",
+      "word": "file a complaint",
+      "pronunciation": "faɪl ə kəmˈpleɪnt",
+      "subcategory": "공식적 대응 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "불만을 제기하다",
+          "examples": [
+            {
+              "sentence": "I decided to file a complaint about the service.",
+              "translation": "서비스에 대해 불만을 제기하기로 했어요."
+            },
+            {
+              "sentence": "You can file a complaint with customer service.",
+              "translation": "고객센터에 불만을 제기할 수 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_ask_for_a_refund_102",
+      "word": "ask for a refund",
+      "pronunciation": "æsk fɔːr ə ˈriːfʌnd",
+      "subcategory": "공식적 대응 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "환불을 요청하다",
+          "examples": [
+            {
+              "sentence": "I asked for a refund because the product was defective.",
+              "translation": "제품에 결함이 있어서 환불을 요청했어요."
+            },
+            {
+              "sentence": "I had to ask for a refund after the cancellation.",
+              "translation": "취소 후에 환불을 요청해야 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_request_a_replacement_103",
+      "word": "request a replacement",
+      "pronunciation": "rɪˈkwest ə rɪˈpleɪsmənt",
+      "subcategory": "공식적 대응 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "교환을 요청하다",
+          "examples": [
+            {
+              "sentence": "I requested a replacement for the broken item.",
+              "translation": "파손된 물건의 교환을 요청했어요."
+            },
+            {
+              "sentence": "They offered to request a replacement right away.",
+              "translation": "바로 교환을 요청해 주겠다고 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_speak_to_a_manager_104",
+      "word": "speak to a manager",
+      "pronunciation": "spiːk tuː ə ˈmænɪdʒər",
+      "subcategory": "공식적 대응 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "매니저와 얘기하다",
+          "examples": [
+            {
+              "sentence": "I asked to speak to a manager about the issue.",
+              "translation": "그 문제에 대해 매니저와 얘기하고 싶다고 했어요."
+            },
+            {
+              "sentence": "Can I speak to a manager, please?",
+              "translation": "매니저와 얘기할 수 있을까요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_explain_the_situation_105",
+      "word": "explain the situation",
+      "pronunciation": "ɪkˈspleɪn ðə ˌsɪtjuˈeɪʃn",
+      "subcategory": "공식적 대응 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "상황을 설명하다",
+          "examples": [
+            {
+              "sentence": "I explained the situation to the staff.",
+              "translation": "직원에게 상황을 설명했어요."
+            },
+            {
+              "sentence": "Let me explain the situation from the beginning.",
+              "translation": "처음부터 상황을 설명할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_apologize_for_106",
+      "word": "apologize for",
+      "pronunciation": "əˈpɒlədʒaɪz fɔːr",
+      "subcategory": "공식적 대응 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "~에 대해 사과하다",
+          "examples": [
+            {
+              "sentence": "They apologized for the inconvenience.",
+              "translation": "불편을 끼쳐 죄송하다고 했어요."
+            },
+            {
+              "sentence": "I apologized for being late.",
+              "translation": "늦어서 사과했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_make_it_up_to_107",
+      "word": "make it up to",
+      "pronunciation": "meɪk ɪt ʌp tuː",
+      "subcategory": "공식적 대응 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrasal verb",
+          "meaning": "보상하다, 만회하다",
+          "examples": [
+            {
+              "sentence": "They offered a discount to make it up to me.",
+              "translation": "보상으로 할인을 제안했어요."
+            },
+            {
+              "sentence": "I'll make it up to you next time.",
+              "translation": "다음에 보상할게요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_offer_compensation_108",
+      "word": "offer compensation",
+      "pronunciation": "ˈɒfər ˌkɒmpenˈseɪʃn",
+      "subcategory": "공식적 대응 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "보상을 제안하다",
+          "examples": [
+            {
+              "sentence": "The company offered compensation for the delay.",
+              "translation": "회사가 지연에 대한 보상을 제안했어요."
+            },
+            {
+              "sentence": "They offered compensation in the form of a voucher.",
+              "translation": "바우처 형태로 보상을 제안했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_i_was_wondering_if_109",
+      "word": "I was wondering if",
+      "pronunciation": "aɪ wɒz ˈwʌndərɪŋ ɪf",
+      "subcategory": "정중한 요청 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "혹시 ~할 수 있을지 궁금해서요",
+          "examples": [
+            {
+              "sentence": "I was wondering if you could help me with this.",
+              "translation": "혹시 이것 좀 도와주실 수 있을지 해서요."
+            },
+            {
+              "sentence": "I was wondering if there's another option.",
+              "translation": "혹시 다른 선택지가 있는지 궁금해서요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_would_it_be_possible_110",
+      "word": "Would it be possible",
+      "pronunciation": "wʊd ɪt biː ˈpɒsəbl",
+      "subcategory": "정중한 요청 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "~이 가능할까요",
+          "examples": [
+            {
+              "sentence": "Would it be possible to change my reservation?",
+              "translation": "예약을 변경할 수 있을까요?"
+            },
+            {
+              "sentence": "Would it be possible to get a refund?",
+              "translation": "환불받을 수 있을까요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_is_there_any_way_111",
+      "word": "Is there any way",
+      "pronunciation": "ɪz ðer ˈeni weɪ",
+      "subcategory": "정중한 요청 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "혹시 ~할 방법이 있을까요",
+          "examples": [
+            {
+              "sentence": "Is there any way to fix this issue?",
+              "translation": "혹시 이 문제를 해결할 방법이 있을까요?"
+            },
+            {
+              "sentence": "Is there any way you could help me out?",
+              "translation": "혹시 도와주실 수 있을까요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_could_you_please_112",
+      "word": "Could you please",
+      "pronunciation": "kʊd juː pliːz",
+      "subcategory": "정중한 요청 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "~해 주실 수 있나요",
+          "examples": [
+            {
+              "sentence": "Could you please check again?",
+              "translation": "다시 확인해 주실 수 있나요?"
+            },
+            {
+              "sentence": "Could you please explain the process?",
+              "translation": "과정을 설명해 주실 수 있나요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_what_should_i_do_113",
+      "word": "What should I do",
+      "pronunciation": "wɒt ʃʊd aɪ duː",
+      "subcategory": "정중한 요청 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "어떻게 해야 하나요",
+          "examples": [
+            {
+              "sentence": "What should I do in this situation?",
+              "translation": "이 상황에서 어떻게 해야 하나요?"
+            },
+            {
+              "sentence": "What should I do if this happens again?",
+              "translation": "이런 일이 또 생기면 어떻게 해야 하나요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_can_you_help_me_with_114",
+      "word": "Can you help me with",
+      "pronunciation": "kæn juː help miː wɪð",
+      "subcategory": "정중한 요청 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "~를 도와줄 수 있나요",
+          "examples": [
+            {
+              "sentence": "Can you help me with this problem?",
+              "translation": "이 문제 좀 도와줄 수 있나요?"
+            },
+            {
+              "sentence": "Can you help me with the directions?",
+              "translation": "길 안내 좀 도와줄 수 있나요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_i_appreciate_it_115",
+      "word": "I appreciate it",
+      "pronunciation": "aɪ əˈpriːʃieɪt ɪt",
+      "subcategory": "정중한 요청 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "감사합니다",
+          "examples": [
+            {
+              "sentence": "Thank you so much, I really appreciate it.",
+              "translation": "정말 감사해요, 진심으로 감사드려요."
+            },
+            {
+              "sentence": "I appreciate your help with this matter.",
+              "translation": "이 문제에 도움 주셔서 감사해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_there_was_a_mix_up_116",
+      "word": "There was a mix-up",
+      "pronunciation": "ðer wɒz ə ˈmɪksʌp",
+      "subcategory": "상황 설명 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "착오가 있었다",
+          "examples": [
+            {
+              "sentence": "There was a mix-up with my order.",
+              "translation": "주문에 착오가 있었어요."
+            },
+            {
+              "sentence": "There was a mix-up with the reservation dates.",
+              "translation": "예약 날짜에 착오가 있었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_there_seems_to_be_117",
+      "word": "There seems to be",
+      "pronunciation": "ðer siːmz tuː biː",
+      "subcategory": "상황 설명 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "~인 것 같다",
+          "examples": [
+            {
+              "sentence": "There seems to be a problem with my order.",
+              "translation": "주문에 문제가 있는 것 같아요."
+            },
+            {
+              "sentence": "There seems to be some misunderstanding.",
+              "translation": "오해가 있는 것 같아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_it_looks_like_118",
+      "word": "It looks like",
+      "pronunciation": "ɪt lʊks laɪk",
+      "subcategory": "상황 설명 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "~인 것 같다",
+          "examples": [
+            {
+              "sentence": "It looks like there's been an error.",
+              "translation": "오류가 있었던 것 같아요."
+            },
+            {
+              "sentence": "It looks like the system is down.",
+              "translation": "시스템이 다운된 것 같아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_i_noticed_that_119",
+      "word": "I noticed that",
+      "pronunciation": "aɪ ˈnoʊtɪst ðæt",
+      "subcategory": "상황 설명 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "~라는 것을 알았다",
+          "examples": [
+            {
+              "sentence": "I noticed that my order was wrong.",
+              "translation": "주문이 잘못됐다는 걸 알았어요."
+            },
+            {
+              "sentence": "I noticed that the date was incorrect.",
+              "translation": "날짜가 틀렸다는 걸 알았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_i_realized_that_120",
+      "word": "I realized that",
+      "pronunciation": "aɪ ˈriːəlaɪzd ðæt",
+      "subcategory": "상황 설명 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "~라는 것을 깨달았다",
+          "examples": [
+            {
+              "sentence": "I realized that I had made a mistake.",
+              "translation": "실수했다는 걸 깨달았어요."
+            },
+            {
+              "sentence": "I realized that I forgot my wallet.",
+              "translation": "지갑을 두고 왔다는 걸 깨달았어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_the_thing_is_121",
+      "word": "The thing is",
+      "pronunciation": "ðə θɪŋ ɪz",
+      "subcategory": "상황 설명 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "문제는, 사실은",
+          "examples": [
+            {
+              "sentence": "The thing is, I need to change my plans.",
+              "translation": "문제는 계획을 바꿔야 한다는 거예요."
+            },
+            {
+              "sentence": "The thing is, I wasn't expecting this at all.",
+              "translation": "사실은 이건 전혀 예상 못 했어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_what_happened_was_122",
+      "word": "What happened was",
+      "pronunciation": "wɒt ˈhæpənd wɒz",
+      "subcategory": "상황 설명 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "무슨 일이 있었냐면",
+          "examples": [
+            {
+              "sentence": "What happened was, my alarm didn't go off.",
+              "translation": "무슨 일이 있었냐면, 알람이 안 울렸어요."
+            },
+            {
+              "sentence": "What happened was, I got stuck in traffic.",
+              "translation": "무슨 일이 있었냐면, 교통 체증에 갇혔어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_the_problem_is_123",
+      "word": "The problem is",
+      "pronunciation": "ðə ˈprɒbləm ɪz",
+      "subcategory": "상황 설명 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "문제는",
+          "examples": [
+            {
+              "sentence": "The problem is, I don't have my receipt.",
+              "translation": "문제는 영수증이 없다는 거예요."
+            },
+            {
+              "sentence": "The problem is, no one was available to help.",
+              "translation": "문제는 도와줄 사람이 아무도 없었다는 거예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_i_had_no_choice_124",
+      "word": "I had no choice",
+      "pronunciation": "aɪ hæd noʊ tʃɔɪs",
+      "subcategory": "상황 설명 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "선택의 여지가 없었다",
+          "examples": [
+            {
+              "sentence": "I had no choice but to wait.",
+              "translation": "기다리는 것 외에 선택의 여지가 없었어요."
+            },
+            {
+              "sentence": "I had no choice but to change my plans.",
+              "translation": "계획을 바꾸는 것 외에 선택의 여지가 없었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_there_was_nothing_i_could_do_125",
+      "word": "There was nothing I could do",
+      "pronunciation": "ðer wɒz ˈnʌθɪŋ aɪ kʊd duː",
+      "subcategory": "상황 설명 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "내가 할 수 있는 게 없었다",
+          "examples": [
+            {
+              "sentence": "There was nothing I could do about the delay.",
+              "translation": "지연에 대해 제가 할 수 있는 게 없었어요."
+            },
+            {
+              "sentence": "There was nothing I could do but wait.",
+              "translation": "기다리는 것 외에는 할 수 있는 게 없었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_i_didnt_expect_126",
+      "word": "I didn't expect",
+      "pronunciation": "aɪ ˈdɪdnt ɪkˈspekt",
+      "subcategory": "상황 설명 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "예상 못 했다",
+          "examples": [
+            {
+              "sentence": "I didn't expect this to happen.",
+              "translation": "이런 일이 생길 거라고 예상 못 했어요."
+            },
+            {
+              "sentence": "I didn't expect it to take so long.",
+              "translation": "이렇게 오래 걸릴 줄 몰랐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_i_didnt_know_127",
+      "word": "I didn't know",
+      "pronunciation": "aɪ ˈdɪdnt noʊ",
+      "subcategory": "상황 설명 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "몰랐다",
+          "examples": [
+            {
+              "sentence": "I didn't know the store was closed on Sundays.",
+              "translation": "가게가 일요일에 문을 닫는지 몰랐어요."
+            },
+            {
+              "sentence": "I didn't know I needed a reservation.",
+              "translation": "예약이 필요한지 몰랐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_it_was_my_first_time_128",
+      "word": "It was my first time",
+      "pronunciation": "ɪt wɒz maɪ fɜːrst taɪm",
+      "subcategory": "상황 설명 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "처음이었다",
+          "examples": [
+            {
+              "sentence": "It was my first time using the system.",
+              "translation": "그 시스템을 사용하는 게 처음이었어요."
+            },
+            {
+              "sentence": "It was my first time visiting that place.",
+              "translation": "그곳을 방문하는 게 처음이었어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_at_that_moment_129",
+      "word": "At that moment",
+      "pronunciation": "æt ðæt ˈmoʊmənt",
+      "subcategory": "상황 설명 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "phrase",
+          "meaning": "그 순간에",
+          "examples": [
+            {
+              "sentence": "At that moment, I realized something was wrong.",
+              "translation": "그 순간, 뭔가 잘못됐다는 걸 깨달았어요."
+            },
+            {
+              "sentence": "At that moment, I didn't know what to do.",
+              "translation": "그 순간, 뭘 해야 할지 몰랐어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opu_as_soon_as_130",
+      "word": "As soon as",
+      "pronunciation": "æz suːn æz",
+      "subcategory": "상황 설명 표현",
+      "meanings": [
+        {
+          "partOfSpeech": "conj",
+          "meaning": "~하자마자",
+          "examples": [
+            {
+              "sentence": "As soon as I noticed the problem, I called for help.",
+              "translation": "문제를 알아차리자마자 도움을 요청했어요."
+            },
+            {
+              "sentence": "As soon as I arrived, I realized I forgot my ticket.",
+              "translation": "도착하자마자 표를 잊어버렸다는 걸 알았어요."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
